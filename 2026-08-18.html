@@ -181,17 +181,23 @@ summary { cursor: pointer; font-size: 12px; color: var(--muted); }
           <article>
 <h3>NVIDIA SkillSpector：扫 skill 风险</h3>
       <p class="byline">袋鼠帝 <a href="https://x.com/aikangarooking">@aikangarooking</a></p>
-      <p>NVIDIA 开源 <strong>SkillSpector</strong>，约 1.47 万 star。面向 AI skill 的风险扫描：17 类、69 种风险。对 42447 个 skills 的结果：26.1% 有漏洞，其中 5.2% 高风险。</p><p>安装与本地扫描（可不走 LLM）：</p><pre>uv tool install git+https://github.com/NVIDIA/skillspector.git
+      <p>装 Agent Skill 前先扫一遍。NVIDIA 开源 <strong>SkillSpector</strong>，约 1.47 万 star，专门检查 Agent Skills。当前覆盖 17 类、69 种风险：提示词注入、环境变量窃取、供应链脚本、权限过大、记忆污染、MCP 工具投毒。先做静态扫描，再按需加 LLM 语义判断。</p>
+      <p>背后的研究扫了 42447 个公开 Skill：26.1% 至少有一个漏洞，5.2% 带高风险恶意迹象。Skill 越好用，拿到的权限往往越多。</p>
+      <p>静态扫描看不到真实运行时行为。涉及 shell、凭证和外部网络的 Skill，仍要放进受限环境测试。</p>
+      <p>安装与本地扫描（可不走 LLM）：</p>
+      <pre>uv tool install git+https://github.com/NVIDIA/skillspector.git
 skillspector scan ./my-skill/ --no-llm</pre>
-      
-      <p class="links"><a href="https://x.com/aikangarooking/status/2089592566996209852" rel="noopener noreferrer">原帖一 · 袋鼠帝</a><a href="https://x.com/aikangarooking/status/2089592609018900958" rel="noopener noreferrer">原帖二 · 袋鼠帝</a><a href="https://github.com/NVIDIA/SkillSpector" rel="noopener noreferrer">GitHub</a></p>
+      <p class="links"><a href="https://x.com/aikangarooking/status/2089592566996209852" rel="noopener noreferrer">原帖一 · 袋鼠帝</a><a href="https://x.com/aikangarooking/status/2089592609018900958" rel="noopener noreferrer">原帖二 · 袋鼠帝</a><a href="https://x.com/aikangarooking/status/2089592166230405205" rel="noopener noreferrer">原帖三 · 袋鼠帝</a><a href="https://github.com/NVIDIA/SkillSpector" rel="noopener noreferrer">GitHub</a></p>
           </article>
           <article>
 <h3>DSH / Pilot Harness：开箱即用客户端</h3>
-      <p class="byline">歸藏 <a href="https://x.com/op7418">@op7418</a> · 早窗 Jason Meng / Geek / 小耳Jane</p>
+      <p class="byline">歸藏 <a href="https://x.com/op7418">@op7418</a> · Jason Meng / Geek / 小耳Jane</p>
       <p>歸藏给 DeepSeek Harness 做了开箱即用客户端 <strong>Pilot Harness</strong>。客户端就两部分：一个是客户端的壳；另一个是所有优化，它们本质上都是 DeepSeek Harness 的插件。</p>
       <p>更早他在做界面和交互美化插件，外加一个服务商插件，后续会打包成客户端。资产是从 <strong>Codepilot</strong> 里抽出来，再做成 DSH 插件，图的是使用体验和视觉效果。</p>
-      <p>早窗已有：怎么拆插件、怎么把 ChatGPT / Claude 订阅接进去、创造模式两句话开工。</p>
+      <p>Geek：让 DSH 直接用 ChatGPT（Codex）、Claude 等的订阅账号当大模型提供商，网页里 OAuth 登录，不用填 API 密钥。仓库 <code>V1ki/dsh-plugin-subscriptions</code>。</p>
+      <p>小耳Jane 写 DSH。她先把「这一个 AI 时代」说成：一句话得到一个结果——图、PPT、网站、视频、工作流；那一句话早期是 Prompt，中期 MCP，后来 skill。玩得深的人开始解决记忆和上下文，自己做小辅助、小补丁、小插件；也有人自己做 harness（她点名 hermes、pi）。</p>
+      <p>DSH 有四个模式。基础模式跟 Codex 这些差不多，会用 Agent 的人该干嘛干嘛，但用下来肯定不如 Codex / Claude Code。创造模式则把门、钥匙和施工图都给你，一句话修改一切。她自己第一句是「桌面端，XX 配色，按照我的要求重新改造你自己」；第二句是「把 Codex 接进来，他安排你干活」。过去拿 AI 手搓 SaaS，现在拿 DSH 手搓 Codex。</p>
+      <p>她写的意义：Codex / CC 是封闭的通用 Agent；DSH 打开等于无限组合。利好有资深程序 + AI 能力的人，去创造出成千上万个极有定制能力的 Codex。人类进化的本质不是「能拿到结果」，而是「能造出工具」。她原文也写了：从这个逻辑讲，DSH 这个毛坯连看图都费劲。</p>
       <p class="links"><a href="https://x.com/op7418/status/2089642527641186320" rel="noopener noreferrer">原帖一 · 歸藏</a><a href="https://x.com/op7418/status/2089642649649340794" rel="noopener noreferrer">原帖二 · 歸藏</a><a href="https://x.com/op7418/status/2088919845236859288" rel="noopener noreferrer">原帖三 · 歸藏</a><a href="https://x.com/op7418/status/2089643178177819094" rel="noopener noreferrer">原帖四 · 歸藏</a><a href="https://x.com/op7418/status/2089643137014894645" rel="noopener noreferrer">原帖五 · 歸藏</a><a href="https://x.com/desenmeng/status/2089543210943287489" rel="noopener noreferrer">原帖六 · Jason Meng</a><a href="https://x.com/geekbb/status/2089590867640070478" rel="noopener noreferrer">原帖七 · Geek</a><a href="https://x.com/xiaoerzhan/status/2089599221573759039" rel="noopener noreferrer">原帖八 · 小耳Jane</a><a href="https://github.com/V1ki/dsh-plugin-subscriptions" rel="noopener noreferrer">GitHub</a></p>
           </article>
           <article>
@@ -209,37 +215,16 @@ skillspector scan ./my-skill/ --no-llm</pre>
       <p class="links"><a href="https://x.com/ai_xiaomu/status/2089324371991216173" rel="noopener noreferrer">原帖一 · 黄小木</a></p>
           </article>
           <article>
-<h3>docu.md：导出 docx / epub / pdf</h3>
-      <p class="byline">yibie <a href="https://x.com/yibie">@yibie</a></p>
-      <p><strong>docu.md</strong> 可把文档导出为 docx / epub / pdf。</p>
-      
-      <p class="links"><a href="https://x.com/yibie/status/2089618739163771235" rel="noopener noreferrer">原帖一 · yibie</a><a href="https://docu.md" rel="noopener noreferrer">docu.md</a></p>
-          </article>
-          <article>
-<h3>blobatar：约 3.7KB</h3>
-      <p class="byline">Yangyi <a href="https://x.com/yangyi">@yangyi</a></p>
-      <p><strong>blobatar</strong>：<code>npm i blobatar</code>，体积约 3.7KB。</p>
-      
-      <p class="links"><a href="https://x.com/yangyi/status/2089610056790851593" rel="noopener noreferrer">原帖一 · Yangyi</a></p>
-          </article>
-          <article>
-<h3>fireworks-tech-graph 破 1 万 star</h3>
-      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia">@berryxia</a></p>
-      <p>昨日短讯：<strong>fireworks-tech-graph</strong> 破 1 万 star。</p>
-      
-      <p class="links"><a href="https://x.com/berryxia/status/2089615424987988277" rel="noopener noreferrer">原帖一 · Berryxia.AI</a></p>
-          </article>
-          <article>
 <h3>WorkBuddy 官方教程 + 15 个技能</h3>
-      <p class="byline">木马人 <a href="https://x.com/cnyzgkc">@cnyzgkc</a> · 程序员小灰 · 袋鼠帝</p>
-      <p>早窗：木马人发了 WorkBuddy 官方教程（公众号长文），袋鼠帝补了一条手机控制。</p>
+      <p class="byline">木马人 <a href="https://x.com/cnyzgkc">@cnyzgkc</a> · 程序员小灰</p>
+      <p>早窗：木马人发了 WorkBuddy 官方教程（公众号长文）。</p>
       <p>本窗程序员小灰真人出镜，推荐 15 个 WorkBuddy 优质技能，说涵盖各大应用场景。帖里没有列出这 15 个技能的名字，这里不补造。</p>
-      <p class="links"><a href="https://x.com/cnyzgkc/status/2089593771629686786" rel="noopener noreferrer">原帖一 · 木马人</a><a href="https://x.com/XiaohuiAI666/status/2089653937741910186" rel="noopener noreferrer">原帖二 · 程序员小灰</a><a href="https://x.com/aikangarooking/status/2089614285416870312" rel="noopener noreferrer">原帖三 · 袋鼠帝</a><a href="https://mp.weixin.qq.com/s/XTVnsef09cGOMVyKdeHZbQ" rel="noopener noreferrer">公众号</a></p>
+      <p class="links"><a href="https://x.com/cnyzgkc/status/2089593771629686786" rel="noopener noreferrer">原帖一 · 木马人</a><a href="https://x.com/XiaohuiAI666/status/2089653937741910186" rel="noopener noreferrer">原帖二 · 程序员小灰</a><a href="https://mp.weixin.qq.com/s/XTVnsef09cGOMVyKdeHZbQ" rel="noopener noreferrer">公众号</a></p>
           </article>
           <article>
 <h3>stamp-edge-skill：美图风格 skill，可贴 PPT</h3>
       <p class="byline">Xian | 弦 <a href="https://x.com/Xian0063">@Xian0063</a>（小互转帖）</p>
-      <p>自己收集的美图，用这个风格 skill 处理过。欢迎拿去用：排版，或贴图到 PPT。仓库 <code>xianxie6/stamp-edge-skill</code>。</p>
+      <p>美图都是作者之前收集的，用这个风格 skill 处理了一下。欢迎拿去用：不管排版，还是贴图到 PPT。仓库 <code>xianxie6/stamp-edge-skill</code>。</p>
       <p class="links"><a href="https://x.com/Xian0063/status/2089605981110198600" rel="noopener noreferrer">原帖一 · Xian | 弦</a><a href="https://github.com/xianxie6/stamp-edge-skill" rel="noopener noreferrer">GitHub</a></p>
           </article>
           <article>
@@ -268,39 +253,46 @@ skillspector scan ./my-skill/ --no-llm</pre>
         <h2>Codex / Agent</h2>
         <div class="grid">
           <article>
-<h3>豆包像 Codex：虚拟桌面、控手机、场景、自检</h3>
+<h3>豆包像 Codex：虚拟桌面、控手机、自检</h3>
       <p class="byline">宝玉 <a href="https://x.com/dotey">@dotey</a></p>
-      <p>豆包用起来像 Codex：虚拟桌面、手机控制、场景、自检。</p>
-      
+      <p>豆包用下来越来越像 Codex。Codex 是他心里 Agent App 体验的标杆；这波更新从 GUI 电脑操作到手机远程操控，很多设计能看到 Codex 的影子，有些地方做了本土化超越。</p>
+      <p>最近他老婆回国，用不了 ChatGPT / Claude，日常用豆包查资料、做攻略。人在国内、电脑在美国：用手机上的豆包指挥美国电脑，把文档找到发到飞书。用法：手机和电脑登录相同账号，电脑允许手机连接；从手机打开「工作任务」，底部能看到已连接的电脑。</p>
+      <p>他日常很多时候用手机指挥电脑上的 Agent：在外面看进度，临时想到事就让家里 / 公司电脑去跑，回家看结果。电脑资源最全（硬盘文档、代码库、配好的技能），又不可能一直带着。快下班还有任务没跑完，先让 Agent 跑着，手机连上随时看、中途插话。</p>
+      <p>Windows 上 GUI 电脑操作：通过豆包虚拟桌面，人和 AI 同时操作、互不干扰。不像 Claude Code 一用 Computer Use 就得等它操作完。Computer Use 是让 Agent 直接点按钮、填表格、下载文件，没提供 CLI 的软件也能控。他列的日常场景：</p>
+      <p>办公：新建和排版 Word / Excel / PPT，处理函数、生成图表，或开着浏览器调研再直接出 PPT。<br>桌面：批量归类整理文件、改系统设置、管理启动项。<br>长尾：PS 批量改图导出、证件照排版打印，甚至通过微信桌面版发消息。<br>发散：游戏帧率优化设置、自动化信息收集整理。</p>
+      <p>他自己的技巧：尽可能让 Agent 能自己检查自己、拿到反馈。写程序就让它自己写测试，或用 Computer Use 去验证 App、自己模拟用户操作；即使是生成 PPT，也让它自己截图看效果。入口在豆包 PC 端「工作任务」模式；Windows 用户要升到最新版；Mac 目前还只支持内置浏览器的 GUI 操作。</p>
       <p class="links"><a href="https://x.com/dotey/status/2089590302910587116" rel="noopener noreferrer">原帖一 · 宝玉</a></p>
           </article>
           <article>
-<h3>企业微信 CLI / MCP 十大模块</h3>
+<h3>企业微信可接入自建 Agent</h3>
       <p class="byline">Berryxia.AI <a href="https://x.com/berryxia">@berryxia</a></p>
-      <p>企业微信 CLI / MCP 十大模块。</p>
-      
+      <p>企业微信可以接入自建 Agent，原文点名 Wordkbuddy、DSH、Minmax Code。帖里没有写接入步骤。</p>
       <p class="links"><a href="https://x.com/berryxia/status/2089601111384633730" rel="noopener noreferrer">原帖一 · Berryxia.AI</a></p>
           </article>
           <article>
 <h3>Origin：先镜像 skill 仓，再收会员</h3>
       <p class="byline">dontbesilent <a href="https://x.com/dontbesilent">@dontbesilent</a></p>
-      <p>Origin 先镜像 skill 仓库，随后要求会员才能继续用。</p>
-      
+      <p>为了扶持 Cursor 的 Origin，他把自己的 skill repo 从 GitHub 镜像过去，然后对方说开会员才能用。原文：「疯了吧」。</p>
       <p class="links"><a href="https://x.com/dontbesilent/status/2089610970687754424" rel="noopener noreferrer">原帖一 · dontbesilent</a></p>
           </article>
           <article>
-<h3>UUMit：MCP / A2A，邀请码 UU-IHA9JP</h3>
+<h3>UUMit：Agent 接单、采购、协作、结算</h3>
       <p class="byline">余温 <a href="https://x.com/gkxspace">@gkxspace</a></p>
-      <p><strong>UUMit</strong> 支持 MCP / A2A。邀请码 <code>UU-IHA9JP</code>。站点 uumit.com。</p>
-      
+      <p><strong>UUMit</strong> 让 AI 自己接单赚钱，也可以让 agent 请「human agent」帮忙。把做好的 Skill、工作流、知识库、行业数据挂成能力，写清楚价格和交付形式；有人或别人的 Agent 需要，就能被搜索、匹配、调用，交付完成后收入自动结算进 Agent 侧钱包。</p>
+      <p>AI 执行时遇到问题：<br>1. 缺实时数据，调用数据接口；<br>2. 缺行业判断，请真人做复核；<br>3. 自己干不完，把其中一部分交给别的 Agent。</p>
+      <p>人类和 Agent 能力进入同一个匹配池。搜索、下单、资金冻结、接单、交付、验收、结算，平台都已经做了，还能通过 MCP 和 A2A 接进 Agent 工作流。</p>
+      <p>供给方：<br>1. 会做内容，可以把选题方法、审核规则、脚本工作流做成 Skill；<br>2. 会写代码，可以把 API、MCP 工具、自动化程序按次收费；<br>3. 懂某个行业，可以上架数据库、案例库、供应商资料、SOP，甚至自己的专家时间。</p>
+      <p>这不等于挂几个普通 Prompt 就能躺着赚钱。真正容易被反复购买的，还是独家数据、专业经验、成熟工作流和可靠交付。邀请码 <code>UU-IHA9JP</code>。</p>
       <p class="links"><a href="https://x.com/gkxspace/status/2089573748416590048" rel="noopener noreferrer">原帖一 · 余温</a><a href="https://x.com/gkxspace/status/2089574042441486400" rel="noopener noreferrer">原帖二 · 余温</a><a href="https://uumit.com" rel="noopener noreferrer">uumit.com</a></p>
           </article>
           <article>
-<h3>ALL IN ONE</h3>
+<h3>ALL IN ONE：需求集中到一个系统</h3>
       <p class="byline">卫斯理 <a href="https://x.com/imwsl90">@imwsl90</a></p>
-      <p>ALL IN ONE。</p>
-      
-      <p class="links"><a href="https://x.com/imwsl90/status/2089576516212740203" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+      <p>最近一个月，他把自己的一些需求都集中到一个系统上，以上这些都支持 AI 优化：</p>
+      <p>- 短记录，类似 flomo<br>- 阅读，类似微信阅读，支持手机、电脑<br>- 写作，一个 markdown 编辑器<br>- 创作 X 文<br>- 收益分析<br>- 自媒体监控，对接了 X API<br>- 工具，如 markdown to png、公众号排版<br>- 网站监控，做了个类似 Marc Lou 的 datafa.st 的监控，盯自己对外的系统（vip.imwsl.com、vibecoding345.com）</p>
+      <p>他还在持续更新自己的需求，感觉到年底会拥有一个完全满足自己需求的系统。没有 AI 之前，他写自己没有能力做这么多事情。</p>
+      <p>另有一条解释为什么花时间构建：拥有系统的人的速度是没有系统的人的很多倍，而且这个还有 AI 加持。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089576516212740203" rel="noopener noreferrer">原帖一 · 卫斯理</a><a href="https://x.com/imwsl90/status/2089579117599744181" rel="noopener noreferrer">原帖二 · 卫斯理</a><a href="https://datafa.st" rel="noopener noreferrer">datafa.st</a></p>
           </article>
           <article>
 <h3>Dethink：一个窗口切模型 / Harness，带实时数据</h3>
@@ -322,24 +314,18 @@ skillspector scan ./my-skill/ --no-llm</pre>
         <h2>模型 / 价格</h2>
         <div class="grid">
           <article>
-<h3>Grok 4.6：95.9% MedAgentBench，五个 bot</h3>
-      <p class="byline">Elon Musk <a href="https://x.com/elonmusk">@elonmusk</a> · sathvik</p>
-      <p>Grok 4.6 在 MedAgentBench 拿到 95.9%；sathvik 把它当 daily driver。同窗 Elon 还提了五个 Grok bot。看分数那条就够了解产品动态。</p>
-      <p class="links"><a href="https://x.com/elonmusk/status/2089592732780032132" rel="noopener noreferrer">原帖一 · Elon Musk</a><a href="https://x.com/vikvang1/status/2088751558578061542" rel="noopener noreferrer">原帖二 · sathvik</a><a href="https://x.com/elonmusk/status/2089578400734167260" rel="noopener noreferrer">原帖三 · Elon Musk</a></p>
+<h3>Grok 4.6：这个基准测试名列榜首</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk">@elonmusk</a></p>
+      <p>原文就一句：Grok 4.6 在这个基准测试中名列榜首。帖里没有写基准测试的名字，也没有分数。</p>
+      <p class="links"><a href="https://x.com/elonmusk/status/2089592732780032132" rel="noopener noreferrer">原帖一 · Elon Musk</a></p>
           </article>
           <article>
-<h3>Anthropic Q2：115 亿，run rate 650 亿+</h3>
+<h3>Anthropic Q2：营收超 115 亿，run rate 650 亿+</h3>
       <p class="byline">小互 <a href="https://x.com/xiaohu">@xiaohu</a></p>
-      <p>Anthropic Q2 营收 $11.5B，run rate $65B+。</p>
-      
+      <p>根据 Anthropic 向潜在投资者披露的初步数据：2026 Q2 营收已超过 115 亿美元，去年同期只有 7.87 亿美元，一年做到约 14.6 倍。</p>
+      <p>年化营收 Run Rate：2025 年底 90 亿美元；2026 年 5 月 470 亿美元；2026 年 7 月底 650+ 亿美元。Q2 还首次实现调整后营业利润转正。</p>
+      <p>预测到 2028 年营收将会达到 1900 亿至 2000 亿美元。有投资人认为，如果这个增长速度能维持，未来估值可能冲到 2 万亿美元。从 90 亿到 650+ 亿美元年化营收，只用了不到 8 个月。</p>
       <p class="links"><a href="https://x.com/xiaohu/status/2089567002969161866" rel="noopener noreferrer">原帖一 · 小互</a></p>
-          </article>
-          <article>
-<h3>Gemini 3.7 Flash 写文案</h3>
-      <p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh">@kevinma_dev_zh</a></p>
-      <p>Gemini 3.7 Flash 写 copy / 产品文案。</p>
-      
-      <p class="links"><a href="https://x.com/kevinma_dev_zh/status/2089613805412303332" rel="noopener noreferrer">原帖一 · Kevin Ma</a></p>
           </article>
           <article>
 <h3>Qwen：2.7B、27B 本地约 12 tok/s，Fable 5 指点</h3>
@@ -349,11 +335,10 @@ skillspector scan ./my-skill/ --no-llm</pre>
       <p class="links"><a href="https://x.com/ZenHuifer/status/2089578240046485784" rel="noopener noreferrer">原帖一 · ZenHuifer</a><a href="https://x.com/lxfater/status/2089525187813486859" rel="noopener noreferrer">原帖二 · 铁锤人</a><a href="https://x.com/servasyy_ai/status/2089538842198176196" rel="noopener noreferrer">原帖三 · huangserva</a></p>
           </article>
           <article>
-<h3>Seedance 2.5：$0.06/s</h3>
+<h3>Seedance 2.5：$0.06/秒，一年降价 4 倍不止</h3>
       <p class="byline">huangserva <a href="https://x.com/servasyy_ai">@servasyy_ai</a></p>
-      <p>Seedance 2.5，价格 $0.06/s。</p>
-      
-      <p class="links"><a href="https://x.com/servasyy_ai/status/2089575786923872399" rel="noopener noreferrer">原帖一 · huangserva</a><a href="https://x.com/servasyy_ai/status/2089571209520591295" rel="noopener noreferrer">原帖二 · huangserva</a></p>
+      <p>半年前 Seedance 2.0 一票难求，1.5 元/秒还得抢。现在 Seedance 2.5 是 0.06 美元/秒（相当于 0.4 元/秒）。一年不到，降价 4 倍不止；2.5 本身是 2.0 价格的 1.5 倍。作者归功于开源，点名感谢 H3 开源，希望更多视频模型跟着降价。</p>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2089575786923872399" rel="noopener noreferrer">原帖一 · huangserva</a></p>
           </article>
           <article>
 <h3>腾讯云 $10/年，评论区改口 DMIT / 搬瓦工</h3>
@@ -389,7 +374,7 @@ skillspector scan ./my-skill/ --no-llm</pre>
           <article>
 <h3>Y2K 贴纸人像</h3>
       <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01">@xiaoxiaodong01</a></p>
-      <p>用上传人像做潮流 floating head 贴纸。身份特征最高优先级；表情 / 发型 / 配饰 / 道具 / 装饰 / 主色都可替换。</p>
+      <p>标签：GPT2 × 头像 × y2k × 流行 × 童年照。适配 ChatGPT GPT-image2。可以要求一次输出 10 张，每张不同表情、造型、装饰。用上传人像做潮流 floating head 贴纸；身份特征最高优先级；表情 / 发型 / 配饰 / 道具 / 装饰 / 主色都可替换。</p>
       <details>
         <summary>完整提示词</summary>
         <pre>以用户上传的人像照片作为人物身份与五官参考。即使原图是童年照、低清、模糊、老照片，也优先提取并延续人物最有辨识度的特征：脸型比例、眼型与眼距、眉形、鼻子结构、嘴型、耳朵轮廓、发际线、面部肉感、神态习惯与个人气质；在提升清晰度和细节完整度时，保持这个人原本的辨识度，生成结果仍能明显看出是照片中的同一个人。
@@ -410,14 +395,14 @@ skillspector scan ./my-skill/ --no-llm</pre>
           <article>
 <h3>VOL.002 菜单：湘菜馆 · 火辣辣中餐厅</h3>
       <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01">@xiaoxiaodong01</a></p>
-      <p>诗性想象 + 信息设计的菜单视觉。先感知主题再长出版式，不套模板。补充一句：<strong>忘记原本配色</strong>，按主题重找色域。9:16，居中构图。</p>
+      <p>标签：GPT2 × 价目表 × 菜单 × 邀请函 × 美学提示词 × VOL.002。诗性想象 + 信息设计的菜单视觉。先感知主题再长出版式，不套模板。色彩不固定，根据主题重新寻找最有感染力的色域。9:16，居中构图。</p>
       <details>
         <summary>完整提示词</summary>
         <pre>围绕【主题】创作一幅兼具诗性想象与高级信息设计感的视觉作品。不要从固定版式出发，而应先感知主题自身的情绪、时代感、功能属性与信息密度，再让构图、色彩、材质和排版由此自然生成。
 画面需要一个具有精神张力的核心意象，它可以是人物、器物、生物、建筑、空间、符号、自然现象或抽象形态，不预设类别。它不是孤立插图，而应与标题、留白和信息结构互相牵引：文字可以贴近、避让、穿插、压叠或悬浮，使视觉重心像自然形成，而非被模板切割。
-整体气质空灵、精致、明亮而克制，在柔光、透明、雾化、微粒、流动渐变、珍珠感高光与清晰边缘之间建立丰富层次。色彩不固定，根据主题重新寻找最有感染力的色域。避免廉价霓虹和机械渐变。
-信息区域应像从主视觉中自然生长出来，可形成玻璃感界面、悬浮信息层、圆角容器、细长标识、胶囊条目、票券结构、编号系统或更合适的形式；不要求全部出现。层级通过尺度、间距、透明度、字体性格与局部强调建立，而不是依赖大量边框。
-避免平均分配、过度对称、素材堆砌和装饰性滥用。允许局部留空、突变、偏移、遮挡与不完全规则，同时保持商业设计级完成度。
+整体气质空灵、精致、明亮而克制，在柔光、透明、雾化、微粒、流动渐变、珍珠感高光与清晰边缘之间建立丰富层次。色彩不固定，根据主题重新寻找最有感染力的色域，可清澈、冷峻、温柔、幽暗或具有未来感，但应保持颜色之间连续、通透、富有空气感，避免廉价霓虹和机械渐变。
+信息区域应像从主视觉中自然生长出来，可形成玻璃感界面、悬浮信息层、圆角容器、细长标识、胶囊条目、票券结构、编号系统或更合适的形式；不要求全部出现。层级通过尺度、间距、透明度、字体性格与局部强调建立，而不是依赖大量边框。标题具有鲜明识别度，正文极其清楚，衬线与无衬线字体可根据主题自由组合，让浪漫视觉与严谨信息秩序彼此支撑。
+避免平均分配、过度对称、素材堆砌和装饰性滥用。允许局部留空、突变、偏移、遮挡与不完全规则，让画面拥有呼吸、偶然性和未被说尽的空间，同时保持商业设计级完成度。
 主题：湘菜馆菜单，店铺名称：火辣辣中餐厅。居中构图
 比例9:16</pre>
       </details>
@@ -436,13 +421,6 @@ skillspector scan ./my-skill/ --no-llm</pre>
         <h2>方法</h2>
         <div class="grid">
           <article>
-<h3>社区 AI 三层</h3>
-      <p class="byline">Nagi Yan <a href="https://x.com/naki2012">@naki2012</a></p>
-      <p>社区 AI 三层。</p>
-      
-      <p class="links"><a href="https://x.com/naki2012/status/2089622693998100558" rel="noopener noreferrer">原帖一 · Nagi Yan</a></p>
-          </article>
-          <article>
 <h3>Cohub 里的 11 条反常识</h3>
       <p class="byline">姚金刚 <a href="https://x.com/yaojingang">@yaojingang</a></p>
       <p>元子推荐 <strong>Cohub</strong>，把「未来硅世界」直播稿放进去。姚金刚让 AI 提了 11 条反常识：</p>
@@ -450,32 +428,26 @@ skillspector scan ./my-skill/ --no-llm</pre>
       <p class="links"><a href="https://x.com/yaojingang/status/2089598406054629503" rel="noopener noreferrer">原帖一 · 姚金刚</a></p>
           </article>
           <article>
-<h3>阅读流程、删掉了什么、失败假设</h3>
-      <p class="byline">铁锤人 <a href="https://x.com/lxfater">@lxfater</a></p>
-      <p>铁锤人讲阅读流程。Cell 两条补法：删掉了什么；失败假设。</p>
-      
-      <p class="links"><a href="https://x.com/lxfater/status/2089587882000626118" rel="noopener noreferrer">原帖一 · 铁锤人</a><a href="https://x.com/cellinlab/status/2089607235509067809" rel="noopener noreferrer">原帖二 · Cell</a><a href="https://x.com/cellinlab/status/2089577083999780933" rel="noopener noreferrer">原帖三 · Cell</a></p>
-          </article>
-          <article>
-<h3>微信群 / 需求 / 影响</h3>
+<h3>微信群答疑四点，加上需求和影响</h3>
       <p class="byline">dontbesilent <a href="https://x.com/dontbesilent">@dontbesilent</a></p>
-      <p>三条：微信群、需求、影响。</p>
-      
+      <p>最近好多人问他怎么处理这么多微信群、这么多提问。实际情况分四点：</p>
+      <p>1. 他一直在思考怎么基于少量受众感兴趣的话题做出大流量，也就是找选题。翻聊天记录本身就是选题来源。就算没有人提问，他也会主动去翻。有时候是他需要群，而不是群需要他。<br>2. 做一个产品之前，思考出来的问题里 95% 以上都是幻想。群里的问题没有想象的那么多；看似五花八门，其实也比较容易通过一个文档合并同类项。很多提问只是同一个问题换了 20 种方法去问。一个飞书文档系统性解答足够了。<br>3. 提问频次不会越来越高，反而会越来越低，因为最终必须执行、必须干活，才有问题可问。问答的终结并不源于他不愿意回答，而是提问的人缺少执行，没有问题可问。<br>4. 他本来不想发这个帖；因为问的人很多，发了之后下次就可以直接把帖子甩过去。这个帖子的答疑效果比三言两语打字更好。</p>
+      <p>需求：这个词没说清对象——是解决问题的需求，还是购买产品的需求？男性不会生来就有想去商 K 的需求。他的结论是需求 = 基于产品的需求；不需要谈需求，就看这个人愿不愿意购买这个产品。他自己每天下午外卖点一杯奶茶，经常买了之后不喝，所以需求就是消耗人民币购买奶茶。</p>
+      <p>影响：他讨厌人群、泛人群、精准人群这些概念。这些概念假设客户是静态的，再把想买的人「筛选」出来。在他出现之前，地球上想买 dontbesilent 答疑群的总人数就是 0，没法筛选。雷军去赛车拿了世界冠军，小米汽车会不会卖爆，不是内容把人筛选出来，而是人被影响出来。红牛赞助极限比赛，他想买红牛，不是 5 岁就想喝红牛再被抖音筛选出来。影响别人，才叫做内容。</p>
       <p class="links"><a href="https://x.com/dontbesilent/status/2089620157744435488" rel="noopener noreferrer">原帖一 · dontbesilent</a><a href="https://x.com/dontbesilent/status/2089608941307417045" rel="noopener noreferrer">原帖二 · dontbesilent</a><a href="https://x.com/dontbesilent/status/2089599982202704039" rel="noopener noreferrer">原帖三 · dontbesilent</a></p>
           </article>
           <article>
-<h3>Gamma 与 AEO</h3>
-      <p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu">@chuhaiqu</a></p>
-      <p>Gamma AEO。</p>
-      
-      <p class="links"><a href="https://x.com/chuhaiqu/status/2089612511045943372" rel="noopener noreferrer">原帖一 · 出海去孵化器</a></p>
+<h3>卡片贴边：左右 padding 可以不要</h3>
+      <p class="byline">Jimmy Cheung <a href="https://x.com/remixdesigner">@remixdesigner</a></p>
+      <p>卡片贴边其实好理解。一方面，信息的视觉分区里，上下分区是必要的，左右的 padding 是无意义的。另一方面，深色模式下如果背景是纯黑色，手机屏幕本身外圈的非显示区域黑色会刚好形成 padding 视觉效果，看起来屏幕更大一圈，屏幕利用效率也大了一些。元气睡眠也这么干过。</p>
+      <p class="links"><a href="https://x.com/remixdesigner/status/2089610327730290994" rel="noopener noreferrer">原帖一 · Jimmy Cheung</a></p>
           </article>
           <article>
-<h3>OpenClaw：150 万种子，137 万买 Mac mini，零用户</h3>
-      <p class="byline">Geek <a href="https://x.com/geekbb">@geekbb</a></p>
-      <p>OpenClaw 种子轮 $1.5M，其中 $1.37M 买了 Mac mini，用户数为零。</p>
-      
-      <p class="links"><a href="https://x.com/geekbb/status/2089565472274702515" rel="noopener noreferrer">原帖一 · Geek</a></p>
+<h3>双轨：主业兜底，AI 省时间，自己做资产</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe">@Love1mothe</a></p>
+      <p>看到空格拆解 8 万月收入的构成，他更在意背后的运转逻辑。很多人一做自媒体就想着辞职，最后发现全靠商单续命，本质还是按次卖时间。</p>
+      <p>更稳健的做法是双轨跑。主业提供稳定的现金流和基础保障，靠 AI 把执行环节自动化，日常只做沟通和决策。省下来的认知带宽，拿去跑自己的小产品、做深度咨询和沉淀社群。商单拿来做短期现金补充挺好，但很难形成复利。真正有效的个人杠杆：让主业负责兜底，让 AI 负责省时间，自己腾出手来做资产。</p>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2089574408151335371" rel="noopener noreferrer">原帖一 · 北辰溯兴|conrad</a></p>
           </article>
           <article>
 <h3>Claude 每次发送都重读整段对话</h3>
@@ -512,16 +484,9 @@ skillspector scan ./my-skill/ --no-llm</pre>
     <div id="pane-maybe" class="pane">
         <div class="grid">
           <article>
-<h3>贴边设计</h3>
-      <p class="byline">Jimmy <a href="https://x.com/remixdesigner">@remixdesigner</a></p>
-      <p>贴边设计。信息不够硬，先放这里。</p>
-      
-      <p class="links"><a href="https://x.com/remixdesigner/status/2089610327730290994" rel="noopener noreferrer">原帖一 · Jimmy</a></p>
-          </article>
-          <article>
 <h3>X 上的 Grok / XChat 按钮</h3>
       <p class="byline">卫斯理 <a href="https://x.com/imwsl90">@imwsl90</a></p>
-      <p>X 界面上的 Grok / XChat 按钮。</p>
+      <p>今天才发现，网页版的 X 右下角多了两个入口：一个是 Grok，一个是 XChat。</p>
       
       <p class="links"><a href="https://x.com/imwsl90/status/2089582397172125791" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
           </article>
@@ -550,12 +515,360 @@ skillspector scan ./my-skill/ --no-llm</pre>
       <p>整帖就一句：「Gauntlet AI 点 com」。</p>
       <p class="links"><a href="https://x.com/Austen/status/2089661815454147031" rel="noopener noreferrer">原帖一 · Austen Allred</a></p>
           </article>
+          <article>
+<h3>Gamma 怎么做 AEO / GEO</h3>
+      <p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu">@chuhaiqu</a></p>
+      <p>原文就一句：看看 Gamma 是怎么做 AEO/GEO（AI 搜索优化）的。具体做法帖里没有。</p>
+      <p class="links"><a href="https://x.com/chuhaiqu/status/2089612511045943372" rel="noopener noreferrer">原帖一 · 出海去孵化器</a></p>
+          </article>
+          <article>
+<h3>关键词：星光梦核古风版</h3>
+      <p class="byline">古一 <a href="https://x.com/MANISH1027512">@MANISH1027512</a></p>
+      <p>只写了「星光梦核古风版」，没有完整提示词。</p>
+      <p class="links"><a href="https://x.com/MANISH1027512/status/2089609556238463367" rel="noopener noreferrer">原帖一 · 古一</a></p>
+          </article>
+          <article>
+<h3>Sync to Origin</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk">@elonmusk</a></p>
+      <p>整帖就三个词：Sync to Origin。不知道是产品功能还是随手一句。</p>
+      <p class="links"><a href="https://x.com/elonmusk/status/2089575133442711787" rel="noopener noreferrer">原帖一 · Elon Musk</a></p>
+          </article>
         </div>
     </div>
 
     <div id="pane-filtered" class="pane">
-      <p class="note">04:00 那窗硬滤名单没存下来。08:00 这一窗 60 条硬滤都在下面：作者 + 原文里的一句 + 链接。</p>
+      <p class="note">04:00 窗 58 条硬滤（其中 3 条已出现在下面 08:00 名单里，不重复铺）+ 08:00 窗 60 条。作者 + 原文一句 + 链接。04 窗新铺在前，08 窗原名单在后。</p>
       <div class="grid">
+          <article>
+<h3>yibie</h3>
+      <p class="byline"><a href="https://x.com/yibie">@yibie</a></p>
+      <p>好东西</p>
+      <p class="links"><a href="https://x.com/yibie/status/2089618739163771235" rel="noopener noreferrer">原帖一 · yibie</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline"><a href="https://x.com/cellinlab">@cellinlab</a></p>
+      <p>自从给领养的小猫取名亿万后，日子也是好起来了。</p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2089618009505902878" rel="noopener noreferrer">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Berryxia.AI</h3>
+      <p class="byline"><a href="https://x.com/berryxia">@berryxia</a></p>
+      <p>恭喜烟花老师，也写 Fireworks-tech-graph 可以干得更好，没体验的可以去体验并顺手 Star。</p>
+      <p class="links"><a href="https://x.com/berryxia/status/2089615424987988277" rel="noopener noreferrer">原帖一 · Berryxia.AI</a></p>
+          </article>
+          <article>
+<h3>Elliot 艾略特</h3>
+      <p class="byline"><a href="https://x.com/elliotchen100">@elliotchen100</a></p>
+      <p>开发者关系（DevRel）是用户与产品构建者之间的反馈循环，最好的 DevRel 还帮助产品演进。</p>
+      <p class="links"><a href="https://x.com/elliotchen100/status/2089615381564706849" rel="noopener noreferrer">原帖一 · Elliot 艾略特</a></p>
+          </article>
+          <article>
+<h3>pippingg</h3>
+      <p class="byline"><a href="https://x.com/Suyanzhenq">@Suyanzhenq</a></p>
+      <p>遇见杀猪盘，女生彩礼也不要了，钻戒包包也不要了。</p>
+      <p class="links"><a href="https://x.com/Suyanzhenq/status/2089615047332856289" rel="noopener noreferrer">原帖一 · pippingg</a></p>
+          </article>
+          <article>
+<h3>Berryxia.AI</h3>
+      <p class="byline"><a href="https://x.com/berryxia">@berryxia</a></p>
+      <p>哈哈哈</p>
+      <p class="links"><a href="https://x.com/berryxia/status/2089614830558716020" rel="noopener noreferrer">原帖一 · Berryxia.AI</a></p>
+          </article>
+          <article>
+<h3>danielzhu</h3>
+      <p class="byline"><a href="https://x.com/BilliePhar61975">@BilliePhar61975</a></p>
+      <p>想注册个 niulai 域名，看了下域名基本都被抢完了。</p>
+      <p class="links"><a href="https://x.com/BilliePhar61975/status/2089614324683960729" rel="noopener noreferrer">原帖一 · danielzhu</a></p>
+          </article>
+          <article>
+<h3>袋鼠帝</h3>
+      <p class="byline"><a href="https://x.com/aikangarooking">@aikangarooking</a></p>
+      <p>原文为空。</p>
+      <p class="links"><a href="https://x.com/aikangarooking/status/2089614285416870312" rel="noopener noreferrer">原帖一 · 袋鼠帝</a></p>
+          </article>
+          <article>
+<h3>Kevin Ma</h3>
+      <p class="byline"><a href="https://x.com/kevinma_dev_zh">@kevinma_dev_zh</a></p>
+      <p>后悔没有早点用 Gemini，天天在 Fable 5 和 Opus 身上浪费时间。</p>
+      <p class="links"><a href="https://x.com/kevinma_dev_zh/status/2089613805412303332" rel="noopener noreferrer">原帖一 · Kevin Ma</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline"><a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>一百多年前法国工人认为咖啡是生活必需品，今天他认为 Codex 是。</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089613516433133719" rel="noopener noreferrer">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>怎么感觉上杆子做自媒体都是 85–95 之间的中年人。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089611519982207326" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Yangyi</h3>
+      <p class="byline"><a href="https://x.com/yangyi">@yangyi</a></p>
+      <p>有意思！适合 agent im 的默认头像。</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2089610056790851593" rel="noopener noreferrer">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>Bear Liu</h3>
+      <p class="byline"><a href="https://x.com/bearliu">@bearliu</a></p>
+      <p>午餐：新疆米粉。这家口味太重了。</p>
+      <p class="links"><a href="https://x.com/bearliu/status/2089610000549163371" rel="noopener noreferrer">原帖一 · Bear Liu</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline"><a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>询问用户需求是什么、预算是什么，都是扯淡。</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089609379750584766" rel="noopener noreferrer">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>最近有什么节日吗？怎么一个人都没有。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089608107370467708" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline"><a href="https://x.com/cellinlab">@cellinlab</a></p>
+      <p>原文为空。</p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2089607235509067809" rel="noopener noreferrer">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Tibo</h3>
+      <p class="byline"><a href="https://x.com/thsottiaux">@thsottiaux</a></p>
+      <p>给我，给我，给我午夜后的 Codex。</p>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2089604619936956778" rel="noopener noreferrer">原帖一 · Tibo</a></p>
+          </article>
+          <article>
+<h3>刘韧</h3>
+      <p class="byline"><a href="https://x.com/liuren">@liuren</a></p>
+      <p>原文为空。</p>
+      <p class="links"><a href="https://x.com/liuren/status/2089604610961146283" rel="noopener noreferrer">原帖一 · 刘韧</a></p>
+          </article>
+          <article>
+<h3>ZenHuifer</h3>
+      <p class="byline"><a href="https://x.com/ZenHuifer">@ZenHuifer</a></p>
+      <p>放弃 ORM 是很明智的选择！</p>
+      <p class="links"><a href="https://x.com/ZenHuifer/status/2089602736157495443" rel="noopener noreferrer">原帖一 · ZenHuifer</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline"><a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>不愿意拉黑一个天天私聊你坑你的官方账号是心理问题。</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089601995133026559" rel="noopener noreferrer">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>古一</h3>
+      <p class="byline"><a href="https://x.com/MANISH1027512">@MANISH1027512</a></p>
+      <p>还有一张过不了安全审核。</p>
+      <p class="links"><a href="https://x.com/MANISH1027512/status/2089600152344695037" rel="noopener noreferrer">原帖一 · 古一</a></p>
+          </article>
+          <article>
+<h3>Stella Lin</h3>
+      <p class="byline"><a href="https://x.com/StellaLinNotes">@StellaLinNotes</a></p>
+      <p>不明白为什么有些人喜欢把耳机当耳环长时间戴在耳朵上。</p>
+      <p class="links"><a href="https://x.com/StellaLinNotes/status/2089597321789206928" rel="noopener noreferrer">原帖一 · Stella Lin</a></p>
+          </article>
+          <article>
+<h3>双拼推友</h3>
+      <p class="byline"><a href="https://x.com/LostXtui">@LostXtui</a></p>
+      <p>←网友以为自己的颜值 →实际上的颜值</p>
+      <p class="links"><a href="https://x.com/LostXtui/status/2089597287089700929" rel="noopener noreferrer">原帖一 · 双拼推友</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>昨天收到几条留言，说我过着比较低端的生活。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089596057286279532" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Geek</h3>
+      <p class="byline"><a href="https://x.com/geekbb">@geekbb</a></p>
+      <p>再回看半个月前，什么 DeepSeek 斩杀线，发言像小丑一样。</p>
+      <p class="links"><a href="https://x.com/geekbb/status/2089595855582150787" rel="noopener noreferrer">原帖一 · Geek</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline"><a href="https://x.com/cellinlab">@cellinlab</a></p>
+      <p>如果中国有开放的互联网，它可能会成为世界上最适合独立黑客的地方。</p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2089595182765482417" rel="noopener noreferrer">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline"><a href="https://x.com/cellinlab">@cellinlab</a></p>
+      <p>希望 Codex 可以支持被 webhook 等外部方法调用。</p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2089592179341787301" rel="noopener noreferrer">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Kaostyl</h3>
+      <p class="byline"><a href="https://x.com/kaostyl">@kaostyl</a></p>
+      <p>Mdrrrr voilà ce que @grok pense de Claude et ChatGPT</p>
+      <p class="links"><a href="https://x.com/kaostyl/status/2089591388128047517" rel="noopener noreferrer">原帖一 · Kaostyl</a></p>
+          </article>
+          <article>
+<h3>铁锤人</h3>
+      <p class="byline"><a href="https://x.com/lxfater">@lxfater</a></p>
+      <p>AI 资讯太多了，要改进阅读流程了。</p>
+      <p class="links"><a href="https://x.com/lxfater/status/2089587882000626118" rel="noopener noreferrer">原帖一 · 铁锤人</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>贴纸回来了</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089587776639709348" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>向阳乔木</h3>
+      <p class="byline"><a href="https://x.com/vista8">@vista8</a></p>
+      <p>现在的 AI 视频工具生成这种科普视频太方便了。</p>
+      <p class="links"><a href="https://x.com/vista8/status/2089586999124803822" rel="noopener noreferrer">原帖一 · 向阳乔木</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline"><a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>AI 说《牛来》被下架是因为实行了宇智波斑的无限月读。</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089582762554765491" rel="noopener noreferrer">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>Eric Bahn</h3>
+      <p class="byline"><a href="https://x.com/ericbahn">@ericbahn</a></p>
+      <p>人工智能正在让风险投资家比以往任何时候都更加依赖熟人介绍。</p>
+      <p class="links"><a href="https://x.com/ericbahn/status/2089582594715537479" rel="noopener noreferrer">原帖一 · Eric Bahn</a></p>
+          </article>
+          <article>
+<h3>双拼推友</h3>
+      <p class="byline"><a href="https://x.com/LostXtui">@LostXtui</a></p>
+      <p>地铁上盖，商场有个海洋馆，门票一两百。</p>
+      <p class="links"><a href="https://x.com/LostXtui/status/2089580348003004585" rel="noopener noreferrer">原帖一 · 双拼推友</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline"><a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>淘宝闪购的一对一急送，面送过来的时候还没坨。</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089579921085734931" rel="noopener noreferrer">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>Austen Allred</h3>
+      <p class="byline"><a href="https://x.com/Austen">@Austen</a></p>
+      <p>在旧金山生了第二个孩子，当时一年赚 15 万美元，每个月还能存一点钱。</p>
+      <p class="links"><a href="https://x.com/Austen/status/2089578796319981873" rel="noopener noreferrer">原帖一 · Austen Allred</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline"><a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>这就是 BAT ……</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089578597845815730" rel="noopener noreferrer">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>Elon Musk</h3>
+      <p class="byline"><a href="https://x.com/elonmusk">@elonmusk</a></p>
+      <p>Grok @Bot</p>
+      <p class="links"><a href="https://x.com/elonmusk/status/2089578400734167260" rel="noopener noreferrer">原帖一 · Elon Musk</a></p>
+          </article>
+          <article>
+<h3>Yangyi</h3>
+      <p class="byline"><a href="https://x.com/yangyi">@yangyi</a></p>
+      <p>有没有哪本书里的哪句话，很多年之后你仍然觉得含金量持续上升？</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2089577971267035638" rel="noopener noreferrer">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>向阳乔木</h3>
+      <p class="byline"><a href="https://x.com/vista8">@vista8</a></p>
+      <p>这么技术范儿的 skill 都能到 1w Star。</p>
+      <p class="links"><a href="https://x.com/vista8/status/2089577680522063957" rel="noopener noreferrer">原帖一 · 向阳乔木</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline"><a href="https://x.com/cellinlab">@cellinlab</a></p>
+      <p>原文为空。</p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2089577083999780933" rel="noopener noreferrer">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline"><a href="https://x.com/cellinlab">@cellinlab</a></p>
+      <p>自组织...</p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2089576824133366226" rel="noopener noreferrer">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Yangyi</h3>
+      <p class="byline"><a href="https://x.com/yangyi">@yangyi</a></p>
+      <p>反者道之动，事物总是不断走向反面。</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2089576363686768947" rel="noopener noreferrer">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>余温</h3>
+      <p class="byline"><a href="https://x.com/gkxspace">@gkxspace</a></p>
+      <p>产品思路太超前了：</p>
+      <p class="links"><a href="https://x.com/gkxspace/status/2089574713844695414" rel="noopener noreferrer">原帖一 · 余温</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>写完就发，自媒体是有时效性，哪怕语句不通、有错别字。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089573395906400430" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>星巴克明确告知不能带宠物，两个年轻人依旧我行我素。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089572606907490551" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Eric Bahn</h3>
+      <p class="byline"><a href="https://x.com/ericbahn">@ericbahn</a></p>
+      <p>爱开车沿海！</p>
+      <p class="links"><a href="https://x.com/ericbahn/status/2089571857272057987" rel="noopener noreferrer">原帖一 · Eric Bahn</a></p>
+          </article>
+          <article>
+<h3>huangserva</h3>
+      <p class="byline"><a href="https://x.com/servasyy_ai">@servasyy_ai</a></p>
+      <p>CapCut App 让探索 Seedance 2.5 更简单，从 $0.06/秒起。</p>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2089571209520591295" rel="noopener noreferrer">原帖一 · huangserva</a></p>
+          </article>
+          <article>
+<h3>凡人小北</h3>
+      <p class="byline"><a href="https://x.com/frxiaobei">@frxiaobei</a></p>
+      <p>很抽象，祝 HR 们节日快乐！</p>
+      <p class="links"><a href="https://x.com/frxiaobei/status/2089570231500812378" rel="noopener noreferrer">原帖一 · 凡人小北</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>你找工作多久了？</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089569464002257300" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>双拼推友</h3>
+      <p class="byline"><a href="https://x.com/LostXtui">@LostXtui</a></p>
+      <p>long time no 猪耳</p>
+      <p class="links"><a href="https://x.com/LostXtui/status/2089568742472839343" rel="noopener noreferrer">原帖一 · 双拼推友</a></p>
+          </article>
+          <article>
+<h3>yibie</h3>
+      <p class="byline"><a href="https://x.com/yibie">@yibie</a></p>
+      <p>我只有一个问题：什么时候重置？</p>
+      <p class="links"><a href="https://x.com/yibie/status/2089567368532111614" rel="noopener noreferrer">原帖一 · yibie</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>最佳 Linux 桌面端呼之欲出，就是 Windows。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089566425946132972" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline"><a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>某脉：快手秋招要看 AI 聊天记录太离谱。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089566022454174192" rel="noopener noreferrer">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Geek</h3>
+      <p class="byline"><a href="https://x.com/geekbb">@geekbb</a></p>
+      <p>还有人在用虾哥吗</p>
+      <p class="links"><a href="https://x.com/geekbb/status/2089565472274702515" rel="noopener noreferrer">原帖一 · Geek</a></p>
+          </article>
           <article>
 <h3>Geek</h3>
       <p class="byline"><a href="https://x.com/geekbb">@geekbb</a></p>
