@@ -161,23 +161,57 @@ summary { cursor: pointer; font-size: 12px; color: var(--muted); }
 .links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
 .note { color: var(--muted); margin: 0 0 12px; }
 
-.grid { align-items: start; }
-article .fold { position: relative; }
-article.is-long:not(.is-open) .fold {
-  max-height: 11.2em;
+.grid { align-items: stretch; }
+article {
+  display: flex;
+  flex-direction: column;
+}
+article h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+}
+article:not(.is-open) h3 { max-height: 2.7em; }
+.byline {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 1.2em;
+}
+article .fold { position: relative; flex: 1 1 auto; min-height: 0; }
+article:not(.is-open) {
+  height: 268px;
+}
+article:not(.is-open) .fold {
   overflow: hidden;
 }
-article.is-long:not(.is-open) .fold::after {
+article:not(.is-open) .fold::after {
   content: "";
   position: absolute;
   left: 0; right: 0; bottom: 0;
-  height: 2.6em;
+  height: 2.2em;
   background: linear-gradient(transparent, var(--paper));
   pointer-events: none;
 }
+article:not(.is-open) .links {
+  height: 28px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  margin-top: 8px;
+}
+article.is-open { height: auto; }
+article.is-open h3 {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+  max-height: none;
+}
+article.is-open .byline { white-space: normal; }
 .more {
   appearance: none;
-  display: none;
+  visibility: hidden;
+  height: 24px;
   margin: 8px 0 0;
   padding: 4px 8px;
   border: 2px solid var(--line);
@@ -188,8 +222,9 @@ article.is-long:not(.is-open) .fold::after {
   line-height: 1.4;
   cursor: pointer;
   box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
 }
-article.is-long .more { display: inline-block; }
+article.is-long .more { visibility: visible; }
 .more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
 
 </style>
@@ -225,19 +260,35 @@ skillspector scan ./my-skill/ --no-llm</pre>
       <p class="links"><a href="https://x.com/aikangarooking/status/2089592566996209852" rel="noopener noreferrer" target="_blank">原帖一 · 袋鼠帝</a><a href="https://x.com/aikangarooking/status/2089592609018900958" rel="noopener noreferrer" target="_blank">原帖二 · 袋鼠帝</a><a href="https://x.com/aikangarooking/status/2089592166230405205" rel="noopener noreferrer" target="_blank">原帖三 · 袋鼠帝</a><a href="https://github.com/NVIDIA/SkillSpector" rel="noopener noreferrer" target="_blank">GitHub</a></p>
           </article>
           <article>
-<h3>DSH / Pilot Harness：开箱即用客户端</h3>
-      <p class="byline">歸藏 <a href="https://x.com/op7418" target="_blank">@op7418</a> · Jason Meng / Geek / 小耳Jane</p>
+<h3>Pilot Harness：DSH 开箱即用客户端</h3>
+      <p class="byline">歸藏 <a href="https://x.com/op7418" target="_blank">@op7418</a></p>
       <div class="fold">
 <p>歸藏给 DeepSeek Harness 做了开箱即用客户端 <strong>Pilot Harness</strong>。客户端就两部分：一个是客户端的壳；另一个是所有优化，它们本质上都是 DeepSeek Harness 的插件。</p>
-      <p>更早他在做界面和交互美化插件，外加一个服务商插件，后续会打包成客户端。资产是从 <strong>Codepilot</strong> 里抽出来，再做成 DSH 插件，图的是使用体验和视觉效果。</p>
-      <p>Geek：让 DSH 直接用 ChatGPT（Codex）、Claude 等的订阅账号当大模型提供商，网页里 OAuth 登录，不用填 API 密钥。仓库 <code>V1ki/dsh-plugin-subscriptions</code>。</p>
-      <p>小耳Jane 写 DSH。她先把「这一个 AI 时代」说成：一句话得到一个结果——图、PPT、网站、视频、工作流；那一句话早期是 Prompt，中期 MCP，后来 skill。玩得深的人开始解决记忆和上下文，自己做小辅助、小补丁、小插件；也有人自己做 harness（她点名 hermes、pi）。</p>
-      <p>DSH 有四个模式。基础模式跟 Codex 这些差不多，会用 Agent 的人该干嘛干嘛，但用下来肯定不如 Codex / Claude Code。创造模式则把门、钥匙和施工图都给你，一句话修改一切。她自己第一句是「桌面端，XX 配色，按照我的要求重新改造你自己」；第二句是「把 Codex 接进来，他安排你干活」。过去拿 AI 手搓 SaaS，现在拿 DSH 手搓 Codex。</p>
-      <p>她写的意义：Codex / CC 是封闭的通用 Agent；DSH 打开等于无限组合。利好有资深程序 + AI 能力的人，去创造出成千上万个极有定制能力的 Codex。人类进化的本质不是「能拿到结果」，而是「能造出工具」。她原文也写了：从这个逻辑讲，DSH 这个毛坯连看图都费劲。</p>
-      <p>歸藏另有一篇 X 文章《开源 DeepSeek Harness 开箱即用客户端，还有几个易用插件》（时间线原文为空）。Harness 把模型适配、工具、文件系统、session、sandbox、连 Agent Loop 都做成插件树；门槛是终端部署和开发预览 Web UI。他做了桌面壳 Pilot Harness，本地跑 Harness，原生窗口、选目录、数据目录、运行时重启，加上客户端插件；侧栏 / 项目点击、session 悬停卡片、输入框、设置 / 菜单 / 工具调用卡片、鲸鱼娘图标。体验从他之前的 CodePilot 客户端带过来。</p>
+      <p>更早他在做界面和交互美化插件，外加一个服务商插件，后续会打包成客户端。资产是从 <strong>Codepilot</strong> 里抽出来，再做成 DSH 插件。</p>
+      <p>另有一篇 X 文章《开源 DeepSeek Harness 开箱即用客户端，还有几个易用插件》。Harness 把模型适配、工具、文件系统、session、sandbox、连 Agent Loop 都做成插件树；门槛是终端部署和开发预览 Web UI。桌面壳本地跑 Harness：原生窗口、选目录、数据目录、运行时重启，加上客户端插件；侧栏 / 项目点击、session 悬停卡片、输入框、设置 / 菜单 / 工具调用卡片、鲸鱼娘图标。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/op7418/status/2089642527641186320" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a><a href="https://x.com/op7418/status/2089642649649340794" rel="noopener noreferrer" target="_blank">原帖二 · 歸藏</a><a href="https://x.com/op7418/status/2088919845236859288" rel="noopener noreferrer" target="_blank">原帖三 · 歸藏</a><a href="https://x.com/op7418/status/2089643178177819094" rel="noopener noreferrer" target="_blank">原帖四 · 歸藏</a><a href="https://x.com/op7418/status/2089643137014894645" rel="noopener noreferrer" target="_blank">原帖五 · 歸藏</a><a href="https://x.com/desenmeng/status/2089543210943287489" rel="noopener noreferrer" target="_blank">原帖六 · Jason Meng</a><a href="https://x.com/geekbb/status/2089590867640070478" rel="noopener noreferrer" target="_blank">原帖七 · Geek</a><a href="https://x.com/xiaoerzhan/status/2089599221573759039" rel="noopener noreferrer" target="_blank">原帖八 · 小耳Jane</a><a href="https://x.com/op7418/status/2089631356062146981" rel="noopener noreferrer" target="_blank">原帖九 · 歸藏</a><a href="https://github.com/V1ki/dsh-plugin-subscriptions" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://github.com/op7418/pilot-harness" rel="noopener noreferrer" target="_blank">pilot-harness</a></p>
+      <p class="links"><a href="https://x.com/op7418/status/2089642527641186320" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a><a href="https://x.com/op7418/status/2089642649649340794" rel="noopener noreferrer" target="_blank">原帖二 · 歸藏</a><a href="https://x.com/op7418/status/2088919845236859288" rel="noopener noreferrer" target="_blank">原帖三 · 歸藏</a><a href="https://x.com/op7418/status/2089643178177819094" rel="noopener noreferrer" target="_blank">原帖四 · 歸藏</a><a href="https://x.com/op7418/status/2089643137014894645" rel="noopener noreferrer" target="_blank">原帖五 · 歸藏</a><a href="https://x.com/op7418/status/2089631356062146981" rel="noopener noreferrer" target="_blank">原帖六 · 歸藏</a><a href="https://github.com/op7418/pilot-harness" rel="noopener noreferrer" target="_blank">pilot-harness</a></p>
+          </article>
+          <article>
+<h3>dsh-plugin-subscriptions：订阅账号登录 DSH</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb" target="_blank">@geekbb</a></p>
+      <div class="fold">
+<p>让 DSH 直接用 ChatGPT（Codex）、Claude 等的订阅账号当大模型提供商。网页里 OAuth 登录，不用填 API 密钥。仓库 <code>V1ki/dsh-plugin-subscriptions</code>。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/geekbb/status/2089590867640070478" rel="noopener noreferrer" target="_blank">原帖一 · Geek</a><a href="https://github.com/V1ki/dsh-plugin-subscriptions" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>小耳Jane：DSH 四个模式，创造模式手搓 Codex</h3>
+      <p class="byline">小耳Jane｜Xiaoer <a href="https://x.com/xiaoerzhan" target="_blank">@xiaoerzhan</a></p>
+      <div class="fold">
+<p>她把「这一个 AI 时代」说成：一句话得到一个结果——图、PPT、网站、视频、工作流；那一句话早期是 Prompt，中期 MCP，后来 skill。玩得深的人开始解决记忆和上下文，自己做小辅助、小补丁、小插件；也有人自己做 harness（她点名 hermes、pi）。</p>
+      <p>DSH 有四个模式。基础模式跟 Codex 这些差不多，会用 Agent 的人该干嘛干嘛，但用下来肯定不如 Codex / Claude Code。创造模式则把门、钥匙和施工图都给你，一句话修改一切。她自己第一句是「桌面端，XX 配色，按照我的要求重新改造你自己」；第二句是「把 Codex 接进来，他安排你干活」。过去拿 AI 手搓 SaaS，现在拿 DSH 手搓 Codex。</p>
+      <p>她写的意义：Codex / CC 是封闭的通用 Agent；DSH 打开等于无限组合。利好有资深程序 + AI 能力的人，去创造出成千上万个极有定制能力的 Codex。人类进化的本质不是「能拿到结果」，而是「能造出工具」。她原文也写了：从这个逻辑讲，DSH 这个毛坯连看图都费劲。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaoerzhan/status/2089599221573759039" rel="noopener noreferrer" target="_blank">原帖一 · 小耳Jane</a></p>
           </article>
           <article>
 <h3>Codex 上云、openshipio、Rebased、HQBase</h3>
@@ -1748,14 +1799,16 @@ skillspector scan ./my-skill/ --no-llm</pre>
   })();
 
   (function () {
-    var LIMIT = 180;
     var articles = document.querySelectorAll("article");
     for (var i = 0; i < articles.length; i++) {
       var art = articles[i];
       var fold = art.querySelector(".fold");
       var btn = art.querySelector(".more");
+      var links = art.querySelector(".links");
       if (!fold || !btn) continue;
-      if (fold.scrollHeight > LIMIT) {
+      var overflow = fold.scrollHeight > fold.clientHeight + 4;
+      if (links && links.scrollWidth > links.clientWidth + 4) overflow = true;
+      if (overflow) {
         art.classList.add("is-long");
         btn.hidden = false;
         btn.textContent = "展开";
