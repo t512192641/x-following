@@ -1,0 +1,1 @@
+Daily X following digest. Each US calendar day is its own HTML page.\n

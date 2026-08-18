@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 关注 · 2026-08-18</title>
+  <style>
+:root {
+  --bg: #f4f1ea;
+  --paper: #fffdf8;
+  --ink: #1c1915;
+  --muted: #6b6358;
+  --line: #e4ddd2;
+  --accent: #9a3412;
+  --link: #1d4ed8;
+  --chip: #f1eadf;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141210;
+    --paper: #1d1a16;
+    --ink: #f3eee6;
+    --muted: #b4aa9d;
+    --line: #3a342c;
+    --accent: #fdba74;
+    --link: #93c5fd;
+    --chip: #2a251f;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 17px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC",
+    "Iowan Old Style", Palatino, Georgia, serif;
+  line-height: 1.75;
+}
+.wrap { max-width: 42rem; margin: 0 auto; padding: 2.1rem 1.2rem 4.5rem; }
+header h1 {
+  font-size: 1.7rem;
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  margin: 0 0 0.55rem;
+}
+.meta { color: var(--muted); margin: 0; }
+nav {
+  margin: 1.5rem 0 2rem;
+  padding: 0.95rem 1.15rem 1.05rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+nav p {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+nav ol { margin: 0; padding-left: 1.2rem; }
+nav a { color: var(--link); text-decoration: none; }
+nav a:hover, .links a:hover { text-decoration: underline; }
+h2 {
+  font-size: 1.28rem;
+  margin: 2.1rem 0 0.85rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--accent);
+}
+article {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.05rem 1.15rem 1.15rem;
+  margin: 0.85rem 0;
+}
+article h3 { font-size: 1.05rem; margin: 0 0 0.2rem; line-height: 1.45; }
+.byline { margin: 0 0 0.65rem; color: var(--muted); font-size: 0.9rem; }
+.byline a { color: inherit; }
+article p { margin: 0.45rem 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.35em;
+  border-radius: 4px;
+}
+pre {
+  margin: 0.55rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border-radius: 8px;
+  padding: 0.85rem 0.95rem;
+  font-size: 0.86rem;
+  line-height: 1.65;
+}
+details { margin-top: 0.7rem; }
+summary { cursor: pointer; color: var(--accent); font-size: 0.92rem; }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  margin: 0.8rem 0 0;
+}
+.links a {
+  color: var(--link);
+  font-size: 0.88rem;
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--link) 30%, transparent);
+}
+footer { margin-top: 2.4rem; color: var(--muted); font-size: 0.88rem; }
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>X 关注 · 2026-08-18</h1>
+      <p class="meta">美国时间自然日总览。本页已并入 00:00–04:00 ET 这一窗。硬滤闲聊不在这里。</p>
+    </header>
+    <nav>
+      <p>目录</p>
+      <ol>
+        <li><a href="#tools">开源 / 工具</a></li>
+        <li><a href="#agent">Codex / Agent</a></li>
+        <li><a href="#models">模型 / 价格</a></li>
+        <li><a href="#prompts">提示词</a></li>
+        <li><a href="#methods">方法</a></li>
+        <li><a href="#maybe">拿不准</a></li>
+      </ol>
+    </nav>
+    <main>
+      <section id="tools">
+        <h2>开源 / 工具</h2>
+        <article>
+      <h3>NVIDIA SkillSpector：扫 skill 风险</h3>
+      <p class="byline">袋鼠帝 <a href="https://x.com/aikangarooking">@aikangarooking</a></p>
+      <p>NVIDIA 开源 <strong>SkillSpector</strong>，约 1.47 万 star。面向 AI skill 的风险扫描：17 类、69 种风险。对 42447 个 skills 的结果：26.1% 有漏洞，其中 5.2% 高风险。</p><p>安装与本地扫描（可不走 LLM）：</p><pre>uv tool install git+https://github.com/NVIDIA/skillspector.git
+skillspector scan ./my-skill/ --no-llm</pre>
+      
+      <p class="links"><a href="https://x.com/aikangarooking/status/2089592566996209852" rel="noopener noreferrer">原帖</a><a href="https://x.com/aikangarooking/status/2089592609018900958" rel="noopener noreferrer">原帖 2</a><a href="https://github.com/NVIDIA/SkillSpector" rel="noopener noreferrer">GitHub</a></p>
+    </article>
+        <article>
+      <h3>把 ChatGPT / Claude OAuth 接进 DSH</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb">@geekbb</a></p>
+      <p><strong>dsh-plugin-subscriptions</strong>：用 OAuth 把 ChatGPT / Claude 订阅接到 DSH 里用。</p>
+      
+      <p class="links"><a href="https://x.com/geekbb/status/2089590867640070478" rel="noopener noreferrer">原帖</a><a href="https://github.com/V1ki/dsh-plugin-subscriptions" rel="noopener noreferrer">GitHub</a></p>
+    </article>
+        <article>
+      <h3>Codex 上云、openshipio、Rebased、HQBase</h3>
+      <p class="byline">Indie Fox <a href="https://x.com/indie_maker_fox">@indie_maker_fox</a></p>
+      <p>Codex + 腾讯云 + 手机部署的一条路径。</p><p>同窗还推了 <strong>openshipio</strong>；<strong>Rebased</strong>（<code>DetachHead/rebased</code>）；<strong>HQBase</strong>（<code>HQBase/hqbase</code>）。</p>
+      
+      <p class="links"><a href="https://x.com/indie_maker_fox/status/2088883210126299591" rel="noopener noreferrer">原帖 · 部署</a><a href="https://x.com/indie_maker_fox/status/2088853766946865369" rel="noopener noreferrer">原帖 · 仓库</a><a href="https://github.com/DetachHead/rebased" rel="noopener noreferrer">Rebased</a><a href="https://github.com/HQBase/hqbase" rel="noopener noreferrer">HQBase</a></p>
+    </article>
+        <article>
+      <h3>本地数字人：0 成本对 HeyGen</h3>
+      <p class="byline">黄小木 <a href="https://x.com/ai_xiaomu">@ai_xiaomu</a></p>
+      <p>本地数字人 0 成本；对比 HeyGen 约 1 分钟 10 元。提到 <strong>agent-video-pipeline</strong>。</p>
+      
+      <p class="links"><a href="https://x.com/ai_xiaomu/status/2089324371991216173" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>docu.md：导出 docx / epub / pdf</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie">@yibie</a></p>
+      <p><strong>docu.md</strong> 可把文档导出为 docx / epub / pdf。</p>
+      
+      <p class="links"><a href="https://x.com/yibie/status/2089618739163771235" rel="noopener noreferrer">原帖</a><a href="https://docu.md" rel="noopener noreferrer">docu.md</a></p>
+    </article>
+        <article>
+      <h3>blobatar：约 3.7KB</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi">@yangyi</a></p>
+      <p><strong>blobatar</strong>：<code>npm i blobatar</code>，体积约 3.7KB。</p>
+      
+      <p class="links"><a href="https://x.com/yangyi/status/2089610056790851593" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>fireworks-tech-graph 破 1 万 star</h3>
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia">@berryxia</a></p>
+      <p>昨日短讯：<strong>fireworks-tech-graph</strong> 破 1 万 star。</p>
+      
+      <p class="links"><a href="https://x.com/berryxia/status/2089615424987988277" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>WorkBuddy 官方教程 + 手机控制</h3>
+      <p class="byline">木马人 <a href="https://x.com/cnyzgkc">@cnyzgkc</a></p>
+      <p>木马人发了 WorkBuddy 官方教程（公众号长文）。袋鼠帝补了一条手机控制。</p>
+      
+      <p class="links"><a href="https://x.com/cnyzgkc/status/2089593771629686786" rel="noopener noreferrer">原帖 · 教程</a><a href="https://mp.weixin.qq.com/s/XTVnsef09cGOMVyKdeHZbQ" rel="noopener noreferrer">公众号</a><a href="https://x.com/aikangarooking/status/2089614285416870312" rel="noopener noreferrer">原帖 · 手机控制</a></p>
+    </article>
+      </section>
+      <section id="agent">
+        <h2>Codex / Agent</h2>
+        <article>
+      <h3>豆包像 Codex：虚拟桌面、控手机、场景、自检</h3>
+      <p class="byline">宝玉 <a href="https://x.com/dotey">@dotey</a></p>
+      <p>豆包用起来像 Codex：虚拟桌面、手机控制、场景、自检。</p>
+      
+      <p class="links"><a href="https://x.com/dotey/status/2089590302910587116" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>企业微信 CLI / MCP 十大模块</h3>
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia">@berryxia</a></p>
+      <p>企业微信 CLI / MCP 十大模块。</p>
+      
+      <p class="links"><a href="https://x.com/berryxia/status/2089601111384633730" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>DSH 创造模式：两句话</h3>
+      <p class="byline">小耳Jane <a href="https://x.com/xiaoerzhan">@xiaoerzhan</a></p>
+      <p>DSH 创造模式，两句话就能开工。</p>
+      
+      <p class="links"><a href="https://x.com/xiaoerzhan/status/2089599221573759039" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>DSH 插件架构长文</h3>
+      <p class="byline">Jason Meng <a href="https://x.com/desenmeng">@desenmeng</a></p>
+      <p>DSH 插件架构长文，讲插件怎么拆、怎么接。</p>
+      
+      <p class="links"><a href="https://x.com/desenmeng/status/2089543210943287489" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>Origin：先镜像 skill 仓，再收会员</h3>
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>Origin 先镜像 skill 仓库，随后要求会员才能继续用。</p>
+      
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089610970687754424" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>UUMit：MCP / A2A，邀请码 UU-IHA9JP</h3>
+      <p class="byline">余温 <a href="https://x.com/gkxspace">@gkxspace</a></p>
+      <p><strong>UUMit</strong> 支持 MCP / A2A。邀请码 <code>UU-IHA9JP</code>。站点 uumit.com。</p>
+      
+      <p class="links"><a href="https://x.com/gkxspace/status/2089573748416590048" rel="noopener noreferrer">原帖</a><a href="https://x.com/gkxspace/status/2089574042441486400" rel="noopener noreferrer">原帖 2</a><a href="https://uumit.com" rel="noopener noreferrer">uumit.com</a></p>
+    </article>
+        <article>
+      <h3>ALL IN ONE</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>ALL IN ONE。</p>
+      
+      <p class="links"><a href="https://x.com/imwsl90/status/2089576516212740203" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>五个 Grok bot</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk">@elonmusk</a></p>
+      <p>五个 Grok bot。</p>
+      
+      <p class="links"><a href="https://x.com/elonmusk/status/2089578400734167260" rel="noopener noreferrer">原帖</a></p>
+    </article>
+      </section>
+      <section id="models">
+        <h2>模型 / 价格</h2>
+        <article>
+      <h3>Grok 4.6：MedAgentBench 95.9%，有人当日常主力</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk">@elonmusk</a></p>
+      <p>Grok 4.6 在 MedAgentBench 拿到 95.9%。sathvik（@vikvang1）把它当 daily driver。</p>
+      
+      <p class="links"><a href="https://x.com/elonmusk/status/2089592732780032132" rel="noopener noreferrer">原帖 · Elon</a><a href="https://x.com/vikvang1/status/2088751558578061542" rel="noopener noreferrer">原帖 · sathvik</a></p>
+    </article>
+        <article>
+      <h3>Anthropic Q2：115 亿，run rate 650 亿+</h3>
+      <p class="byline">小互 <a href="https://x.com/xiaohu">@xiaohu</a></p>
+      <p>Anthropic Q2 营收 $11.5B，run rate $65B+。</p>
+      
+      <p class="links"><a href="https://x.com/xiaohu/status/2089567002969161866" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>Gemini 3.7 Flash 写文案</h3>
+      <p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh">@kevinma_dev_zh</a></p>
+      <p>Gemini 3.7 Flash 写 copy / 产品文案。</p>
+      
+      <p class="links"><a href="https://x.com/kevinma_dev_zh/status/2089613805412303332" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>qwen3.8:27b-mlx 在 48G M5 Pro 上约 12 tok/s</h3>
+      <p class="byline">ZenHuifer <a href="https://x.com/ZenHuifer">@ZenHuifer</a></p>
+      <p><code>qwen3.8:27b-mlx</code> 跑在 48G M5 Pro 上，约 12 tok/s。</p>
+      
+      <p class="links"><a href="https://x.com/ZenHuifer/status/2089578240046485784" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>Qwen 2.7B（昨日短讯）</h3>
+      <p class="byline">铁锤人 <a href="https://x.com/lxfater">@lxfater</a></p>
+      <p>昨日短讯：Qwen 2.7B。</p>
+      
+      <p class="links"><a href="https://x.com/lxfater/status/2089525187813486859" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>Seedance 2.5：$0.06/s</h3>
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai">@servasyy_ai</a></p>
+      <p>Seedance 2.5，价格 $0.06/s。</p>
+      
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2089575786923872399" rel="noopener noreferrer">原帖</a><a href="https://x.com/servasyy_ai/status/2089571209520591295" rel="noopener noreferrer">原帖 2</a></p>
+    </article>
+        <article>
+      <h3>腾讯云：$10 / 年</h3>
+      <p class="byline">余温 <a href="https://x.com/gkxspace">@gkxspace</a></p>
+      <p>腾讯云 $10/年。</p>
+      
+      <p class="links"><a href="https://x.com/gkxspace/status/2089283368584376729" rel="noopener noreferrer">原帖</a></p>
+    </article>
+      </section>
+      <section id="prompts">
+        <h2>提示词</h2>
+        <article>
+      <h3>Y2K 贴纸人像</h3>
+      <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01">@xiaoxiaodong01</a></p>
+      <p>用上传人像做潮流 floating head 贴纸。身份特征最高优先级；表情 / 发型 / 配饰 / 道具 / 装饰 / 主色都可替换。</p>
+      <details>
+        <summary>完整提示词</summary>
+        <pre>以用户上传的人像照片作为人物身份与五官参考。即使原图是童年照、低清、模糊、老照片，也优先提取并延续人物最有辨识度的特征：脸型比例、眼型与眼距、眉形、鼻子结构、嘴型、耳朵轮廓、发际线、面部肉感、神态习惯与个人气质；在提升清晰度和细节完整度时，保持这个人原本的辨识度，生成结果仍能明显看出是照片中的同一个人。
+
+将人物制作成可爱潮流人像贴纸 / floating head sticker portrait：只保留头部与少量颈部，头部居中放大，轻微大头比例，脸部仍保持自然真实的人体结构；皮肤细腻柔软，五官清晰，带轻微童趣和精致杂志感，真实摄影质感与可爱玩具感融合。人物轮廓干净，带柔和的白色贴纸描边，背景使用简洁的奶白色或浅色纯净背景。
+
+表情设为【表情：嘟嘴 / 眨眼 / 偷笑 / 惊讶 / 鼓腮 / 呆萌 / 酷酷地看向一侧 / 自定义】；
+发型设为【发型：保留原发型 / 双丸子头 / 短碎发 / 蓬松卷发 / 自定义】；
+加入【配饰：墨镜 / 棒球帽 / 星星耳钉 / 小圆环耳环 / 发夹 / 自定义】；
+加入【互动道具：泡泡糖 / 面包片 / 糖果 / 无道具 / 自定义】；
+背景点缀【装饰元素：手绘星星 / 闪光符号 / 小花 / 爱心 / 涂鸦 / 自定义】，数量少而灵活，像时尚贴纸拼贴；
+主色调为【颜色：蓝黄 / 粉蓝 / 黑白 / 奶油色 / 自定义】。
+
+整体效果：高质量棚拍人像 + 潮流贴纸 + 可爱 editorial fashion + Y2K pop collage，光线柔和明亮，头发有真实发丝与自然高光，眼睛清透有神，皮肤保留细微真实纹理，画面干净、俏皮、精致、有收藏贴纸感。构图可根据人物动作与配饰自然变化，但人物身份特征始终作为最高优先级保持一致。</pre>
+      </details>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2089597826221457752" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>VOL.002 菜单：湘菜馆 · 火辣辣中餐厅</h3>
+      <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01">@xiaoxiaodong01</a></p>
+      <p>诗性想象 + 信息设计的菜单视觉。先感知主题再长出版式，不套模板。补充一句：<strong>忘记原本配色</strong>，按主题重找色域。9:16，居中构图。</p>
+      <details>
+        <summary>完整提示词</summary>
+        <pre>围绕【主题】创作一幅兼具诗性想象与高级信息设计感的视觉作品。不要从固定版式出发，而应先感知主题自身的情绪、时代感、功能属性与信息密度，再让构图、色彩、材质和排版由此自然生成。
+画面需要一个具有精神张力的核心意象，它可以是人物、器物、生物、建筑、空间、符号、自然现象或抽象形态，不预设类别。它不是孤立插图，而应与标题、留白和信息结构互相牵引：文字可以贴近、避让、穿插、压叠或悬浮，使视觉重心像自然形成，而非被模板切割。
+整体气质空灵、精致、明亮而克制，在柔光、透明、雾化、微粒、流动渐变、珍珠感高光与清晰边缘之间建立丰富层次。色彩不固定，根据主题重新寻找最有感染力的色域。避免廉价霓虹和机械渐变。
+信息区域应像从主视觉中自然生长出来，可形成玻璃感界面、悬浮信息层、圆角容器、细长标识、胶囊条目、票券结构、编号系统或更合适的形式；不要求全部出现。层级通过尺度、间距、透明度、字体性格与局部强调建立，而不是依赖大量边框。
+避免平均分配、过度对称、素材堆砌和装饰性滥用。允许局部留空、突变、偏移、遮挡与不完全规则，同时保持商业设计级完成度。
+主题：湘菜馆菜单，店铺名称：火辣辣中餐厅。居中构图
+比例9:16</pre>
+      </details>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2089591867453350380" rel="noopener noreferrer">原帖</a><a href="https://x.com/xiaoxiaodong01/status/2089591997128643056" rel="noopener noreferrer">原帖 2</a></p>
+    </article>
+      </section>
+      <section id="methods">
+        <h2>方法</h2>
+        <article>
+      <h3>社区 AI 三层</h3>
+      <p class="byline">Nagi Yan <a href="https://x.com/naki2012">@naki2012</a></p>
+      <p>社区 AI 三层。</p>
+      
+      <p class="links"><a href="https://x.com/naki2012/status/2089622693998100558" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>Cohub 十一条，点名 Happycapy</h3>
+      <p class="byline">姚金刚 <a href="https://x.com/yaojingang">@yaojingang</a></p>
+      <p>Cohub 十一条。其中强调 <strong>Happycapy</strong>：Python + 第二个 agent。</p>
+      
+      <p class="links"><a href="https://x.com/yaojingang/status/2089598406054629503" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>阅读流程、删掉了什么、失败假设</h3>
+      <p class="byline">铁锤人 <a href="https://x.com/lxfater">@lxfater</a></p>
+      <p>铁锤人讲阅读流程。Cell 两条补法：删掉了什么；失败假设。</p>
+      
+      <p class="links"><a href="https://x.com/lxfater/status/2089587882000626118" rel="noopener noreferrer">原帖 · 阅读流程</a><a href="https://x.com/cellinlab/status/2089607235509067809" rel="noopener noreferrer">原帖 · 删掉了什么</a><a href="https://x.com/cellinlab/status/2089577083999780933" rel="noopener noreferrer">原帖 · 失败假设</a></p>
+    </article>
+        <article>
+      <h3>微信群 / 需求 / 影响</h3>
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent">@dontbesilent</a></p>
+      <p>三条：微信群、需求、影响。</p>
+      
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089620157744435488" rel="noopener noreferrer">原帖 · 微信群</a><a href="https://x.com/dontbesilent/status/2089608941307417045" rel="noopener noreferrer">原帖 · 需求</a><a href="https://x.com/dontbesilent/status/2089599982202704039" rel="noopener noreferrer">原帖 · 影响</a></p>
+    </article>
+        <article>
+      <h3>Gamma 与 AEO</h3>
+      <p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu">@chuhaiqu</a></p>
+      <p>Gamma AEO。</p>
+      
+      <p class="links"><a href="https://x.com/chuhaiqu/status/2089612511045943372" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>OpenClaw：150 万种子，137 万买 Mac mini，零用户</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb">@geekbb</a></p>
+      <p>OpenClaw 种子轮 $1.5M，其中 $1.37M 买了 Mac mini，用户数为零。</p>
+      
+      <p class="links"><a href="https://x.com/geekbb/status/2089565472274702515" rel="noopener noreferrer">原帖</a></p>
+    </article>
+      </section>
+      <section id="maybe">
+        <h2>拿不准</h2>
+        <article>
+      <h3>贴边设计</h3>
+      <p class="byline">Jimmy <a href="https://x.com/remixdesigner">@remixdesigner</a></p>
+      <p>贴边设计。信息不够硬，先放这里。</p>
+      
+      <p class="links"><a href="https://x.com/remixdesigner/status/2089610327730290994" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>X 上的 Grok / XChat 按钮</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90">@imwsl90</a></p>
+      <p>X 界面上的 Grok / XChat 按钮。</p>
+      
+      <p class="links"><a href="https://x.com/imwsl90/status/2089582397172125791" rel="noopener noreferrer">原帖</a></p>
+    </article>
+        <article>
+      <h3>TRAE 书抽奖</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab">@cellinlab</a></p>
+      <p>TRAE 书抽奖。</p>
+      
+      <p class="links"><a href="https://x.com/cellinlab/status/2088120118043668513" rel="noopener noreferrer">原帖</a></p>
+    </article>
+      </section>
+    </main>
+    <footer>硬滤闲聊不在本页。每条都留了推文原址。</footer>
+  </div>
+</body>
+</html>
