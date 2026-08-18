@@ -161,57 +161,24 @@ summary { cursor: pointer; font-size: 12px; color: var(--muted); }
 .links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
 .note { color: var(--muted); margin: 0 0 12px; }
 
-.grid { align-items: stretch; }
-article {
-  display: flex;
-  flex-direction: column;
-}
-article h3 {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  min-height: 2.7em;
-}
-article:not(.is-open) h3 { max-height: 2.7em; }
-.byline {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  min-height: 1.2em;
-}
-article .fold { position: relative; flex: 1 1 auto; min-height: 0; }
-article:not(.is-open) {
-  height: 268px;
-}
-article:not(.is-open) .fold {
+.grid { align-items: start; }
+article { display: flex; flex-direction: column; }
+article .fold { position: relative; }
+article.is-long:not(.is-open) .fold {
+  max-height: 9.2em;
   overflow: hidden;
 }
-article:not(.is-open) .fold::after {
+article.is-long:not(.is-open) .fold::after {
   content: "";
   position: absolute;
   left: 0; right: 0; bottom: 0;
-  height: 2.2em;
+  height: 2em;
   background: linear-gradient(transparent, var(--paper));
   pointer-events: none;
 }
-article:not(.is-open) .links {
-  height: 28px;
-  overflow: hidden;
-  flex-wrap: nowrap;
-  margin-top: 8px;
-}
-article.is-open { height: auto; }
-article.is-open h3 {
-  -webkit-line-clamp: unset;
-  overflow: visible;
-  max-height: none;
-}
-article.is-open .byline { white-space: normal; }
 .more {
   appearance: none;
-  visibility: hidden;
-  height: 24px;
+  display: none;
   margin: 8px 0 0;
   padding: 4px 8px;
   border: 2px solid var(--line);
@@ -224,8 +191,9 @@ article.is-open .byline { white-space: normal; }
   box-shadow: 2px 2px 0 var(--shadow);
   align-self: flex-start;
 }
-article.is-long .more { visibility: visible; }
+article.is-long .more { display: inline-block; }
 .more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
 
 </style>
 </head>
@@ -240,6 +208,10 @@ article.is-long .more { visibility: visible; }
       <button type="button" class="tab" data-pane="maybe">拿不准</button>
       <button type="button" class="tab" data-pane="filtered">已过滤</button>
     </nav>
+    <div class="view-tools" aria-label="展开">
+      <button type="button" class="tab" id="btn-expand">全部展开</button>
+      <button type="button" class="tab" id="btn-collapse">全部收起</button>
+    </div>
 
     <div id="pane-main" class="pane is-active">
       <section>
@@ -1780,7 +1752,7 @@ skillspector scan ./my-skill/ --no-llm</pre>
   </div>
   <script>
   (function () {
-    var tabs = document.querySelectorAll(".tab");
+    var tabs = document.querySelectorAll(".tabs .tab");
     var panes = {
       main: document.getElementById("pane-main"),
       maybe: document.getElementById("pane-maybe"),
@@ -1799,26 +1771,39 @@ skillspector scan ./my-skill/ --no-llm</pre>
   })();
 
   (function () {
+    var LIMIT = 240;
     var articles = document.querySelectorAll("article");
+    function setOpen(art, open) {
+      var btn = art.querySelector(".more");
+      art.classList.toggle("is-open", open);
+      if (btn) btn.textContent = open ? "收起" : "展开";
+    }
     for (var i = 0; i < articles.length; i++) {
       var art = articles[i];
       var fold = art.querySelector(".fold");
       var btn = art.querySelector(".more");
-      var links = art.querySelector(".links");
       if (!fold || !btn) continue;
-      var overflow = fold.scrollHeight > fold.clientHeight + 4;
-      if (links && links.scrollWidth > links.clientWidth + 4) overflow = true;
-      if (overflow) {
+      if (fold.scrollHeight > LIMIT) {
         art.classList.add("is-long");
         btn.hidden = false;
         btn.textContent = "展开";
         btn.addEventListener("click", function () {
-          var a = this.parentElement;
-          var open = a.classList.toggle("is-open");
-          this.textContent = open ? "收起" : "展开";
+          setOpen(this.parentElement, !this.parentElement.classList.contains("is-open"));
         });
       }
     }
+    var exp = document.getElementById("btn-expand");
+    var col = document.getElementById("btn-collapse");
+    if (exp) exp.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], true);
+      }
+    });
+    if (col) col.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], false);
+      }
+    });
   })();
 
   </script>
