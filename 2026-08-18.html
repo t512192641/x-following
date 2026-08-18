@@ -161,13 +161,36 @@ summary { cursor: pointer; font-size: 12px; color: var(--muted); }
 .links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
 .note { color: var(--muted); margin: 0 0 12px; }
 
-.grid { align-items: start; }
+.grid { align-items: stretch; }
 article { display: flex; flex-direction: column; }
-article .fold { position: relative; }
-article.is-long:not(.is-open) .fold {
-  max-height: 9.2em;
+article:not(.is-open) { height: 320px; }
+article.is-open { height: auto; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
 }
+article.is-open h3 {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  overflow: visible;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+article:not(.is-open) .fold { overflow: hidden; }
 article.is-long:not(.is-open) .fold::after {
   content: "";
   position: absolute;
@@ -178,7 +201,8 @@ article.is-long:not(.is-open) .fold::after {
 }
 .more {
   appearance: none;
-  display: none;
+  visibility: hidden;
+  flex: 0 0 24px;
   margin: 8px 0 0;
   padding: 4px 8px;
   border: 2px solid var(--line);
@@ -191,8 +215,16 @@ article.is-long:not(.is-open) .fold::after {
   box-shadow: 2px 2px 0 var(--shadow);
   align-self: flex-start;
 }
-article.is-long .more { display: inline-block; }
+article.is-long .more { visibility: visible; }
 .more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
 .view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
 
 </style>
@@ -1771,7 +1803,6 @@ skillspector scan ./my-skill/ --no-llm</pre>
   })();
 
   (function () {
-    var LIMIT = 240;
     var articles = document.querySelectorAll("article");
     function setOpen(art, open) {
       var btn = art.querySelector(".more");
@@ -1783,7 +1814,7 @@ skillspector scan ./my-skill/ --no-llm</pre>
       var fold = art.querySelector(".fold");
       var btn = art.querySelector(".more");
       if (!fold || !btn) continue;
-      if (fold.scrollHeight > LIMIT) {
+      if (fold.scrollHeight > fold.clientHeight + 6) {
         art.classList.add("is-long");
         btn.hidden = false;
         btn.textContent = "展开";
