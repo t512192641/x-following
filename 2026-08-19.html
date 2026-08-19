@@ -233,7 +233,7 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-19</h1>
-      <p class="meta">美国时间 2026-08-19。0:00 之后先落这 8 条。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-19。0 点 8 条 + 4 点 35 条已合并。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="tabs" aria-label="页签">
       <button type="button" class="tab is-active" data-pane="main">正文</button>
@@ -258,7 +258,8 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/frxiaobei/status/2089930103128019287" rel="noopener noreferrer" target="_blank">原帖一 · 凡人小北</a></p>
-          </article>          <article>
+          </article>
+          <article>
 <h3>DeepSWE：Fable 5 最贵，Together 建议当后手</h3>
       <p class="byline">yibie <a href="https://x.com/yibie" target="_blank">@yibie</a></p>
       <div class="fold">
@@ -267,6 +268,158 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/yibie/status/2089926129159389419" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a></p>
+          </article>
+          <article>
+<h3>唐杰 Scaling Law / GLM-5.3：认同三点，保留三点</h3>
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank">@yanhua1010</a></p>
+      <div class="fold">
+<p>看完唐杰教授关于 Scaling Law 和 GLM‑5.3 的说明，作者认同三个判断，也保留三个疑问。</p>
+      <p>认同：第一，单独比较参数量已经没有太大意义。训练 Token、数据质量、总参数、激活参数、后训练和推理时计算，都会改变最终能力。第二，Chinchilla 的约 20 Token/参数只是特定训练目标下的经验最优点；把生命周期推理成本算进去后，更小、训练更久的模型可能更合理。第三，MoE 已经将「模型容量」和「每次实际计算量」分开，稠密模型的 Scaling 配方不能直接套用。</p>
+      <p>GLM‑5.3 是一个有价值的对照：按照唐杰的描述，它与 GLM‑5.2 使用相同基座、架构、总参数和激活参数，主要通过扩大长程任务环境与强化学习获得提升。这说明既有基座的能力上限，可能远未被后训练充分开发。</p>
+      <p>保留三点：1. 总参数是否存在「足以容纳世界」的通用阈值，目前没有可测量的定义；2. 「总参数负责知识、激活计算负责推理」更像工程近似，而非严格机制；3. 两个模型版本只能证明后训练有余量，还不足以拟合一条可外推的新 Scaling Law。</p>
+      <p>作者更愿意把这次变化理解为：预训练 Scaling 没有结束，模型训练正在从「扩大参数」升级为一门更完整的计算资源配置科学。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2089984341061599594" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a></p>
+          </article>
+          <article>
+<h3>ASI-Bench：全流程 SOP 50.9，只给方法名 29.1</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank">@Love1mothe</a></p>
+      <div class="fold">
+<p>清华和 MIT 联合做的 <strong>ASI-Bench</strong>。评测拉了 18 个顶尖配置去跑 60 个跨学科科研项目。</p>
+      <p>人类给全流程 SOP 时，平均分 50.9。只给方法名让模型自己补步骤，均分暴跌到 29.1。最消耗算力的不是完全自主探索，恰恰是这种只给方向不给细节的半吊子提示，Token 消耗激增 59%。因为模型被框死在指定路径里，又得花海量算力去死磕人类漏掉的工程细节。</p>
+      <p>成本：Codex 带 GPT-5.6 xhigh 花 684 美元拿 40.8 分；Claude Code 带 Opus 5 拿到同样的分数，花了 2728 美元。</p>
+      <p>作者结论：现阶段搞 AI Agent，别迷信模型有多聪明。工程脚手架和保姆级步骤，依然决定了模型 80% 的上限。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2089981341366644887" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴</a></p>
+          </article>
+          <article>
+<h3>DFlash 2：并行起草，Blackwell 最高 15 倍</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank">@yibie</a></p>
+      <div class="fold">
+<p>投机解码的 drafter 从来都是一个 token 一个 token 地猜。做出 DFlash 的推理公司 Inco AI 说这没必要：正确的 token 本来就在候选列表里，整块并行预测之后挑出一条连贯路径，输出不变，每次验证多赚一个完整的 token。文章标题《DFlash 2：保持并行起草》。</p>
+      <p>1 月发布的 DFlash 现已运行在 SGLang、vLLM、TensorRT-LLM 和 llama.cpp 里。NVIDIA 在 Blackwell GPU 上测到最高 15 倍吞吐；Google 报告 TPU 上每秒 token 提升 3 倍；CoreWeave 生产环境的 Kimi K2.7 Code 端点默认就跑 DFlash。NVIDIA、Red Hat、Modal 都发布了 DFlash drafter；Meta（Muse Glimmer）、Poolside（Laguna）、小米（MiMo-V2.5-Pro）、NVIDIA（Nemotron 3.5 Lightning）随自家模型发布官方 drafter。Hugging Face 上下载超 350 万次（截至 2026 年 8 月）。</p>
+      <p>DFlash 2 每次验证通过多产出 20% 以上输出，周期延迟只增加约 1%，输出可证明不变，跨基准增益 16 到 25%。配合今天发布的 Qwen3.8-27B drafter，SGLang 在 batch size 1 下达到自回归解码 2.7 到 3.4 倍吞吐。</p>
+      <p>位置 0 的 Recall@1 为 85.4%，Recall@16 为 99.5%；位置 6 分别为 72.9% 与 87.8%。接受长度 4.27（只看第一选择）对 6.79（从前 16 里选）。</p>
+      <p>轻量路径选择器：保留每位置前 16 候选，对相邻候选打分（drafter 自身 logit 加上低秩双线性上下文门控匹配），打分全程并行，最后贪心走一遍，拒绝采样恢复精确目标分布。T=0 加 0.34 token、T=1 加 0.47，超过 DSpark 纠错，参数少约 40 倍，延迟开销低 16 倍。</p>
+      <p>后缀衰减是局部问题：加入双抽头动态深度卷积（当前位置与前一位置混合，插在每个 attention 与 FFN 子层前后），只加 16.5M 参数（3%）、0.7% 周期延迟，五层 DFlash 即逼近 15 层。</p>
+      <p>合在一起（Qwen3.5-4B 平均接受长度）：MTP 4.54、DFlash 4.92、DSpark 5.49、DFlash 2 5.97，平均比 DFlash 多 1.05 token（21%），选择器与卷积合计只加 1.3% 周期延迟。</p>
+      <p>今天发布两个 drafter：Qwen3.8-27B 与 Meta Muse Glimmer。Qwen3.8-27B 平均接受长度 MTP 4.28、DSpark 3.62、DFlash 2 4.80；Muse Glimmer DFlash 4.44、DSpark 4.48、DFlash 2 5.70。吞吐上分别为自回归的 2.7 到 3.4 倍与 3.1 到 4.6 倍。</p>
+      <p>底线：DFlash 2 以接近自回归解码 3 倍的速度解码，每个 token 约三分之一算力，输出相同。团队也在招人。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yibie/status/2089941299864760632" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a></p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h2>产品 / 工具</h2>
+        <div class="grid">
+          <article>
+<h3>豆包云电脑 + 手机控本地电脑，可当文件传输助手</h3>
+      <p class="byline">歸藏 <a href="https://x.com/op7418" target="_blank">@op7418</a></p>
+      <div class="fold">
+<p>豆包上线了云电脑模式，并且支持手机控制本地电脑。作者觉得手机控电脑的连接设计比 Codex 自然：本地电脑发起聊天，手机直接同步看到，只需在手机上点一下授权（电脑端完全不需要任何操作），就可以直接获取控制权，响应快、延迟低。</p>
+      <p>云电脑本质上是分配了一台虚拟机。内置连接器（MCP）可以直接连接 Notion、GitHub、飞书、企业微信，从中获取上下文。云电脑也可以安装 Skill。</p>
+      <p>作者试过的流程：先让它在云电脑端查找飞书里所有的会议纪要，并整理出待办事项；整理完后，通过手机下达指令，让它在云电脑上安装自己开发的社交媒体卡片 Skill；再基于这些待办去跑任务。装 Skill 的命令是在手机上下的，读会议纪要的命令是在电脑上下的。无论云电脑还是本地电脑，跨端控制都丝滑。</p>
+      <p>本地电脑上也试过查找对应目录的文件，并清理了一些大文件。有了这套之后，手机上同样可以下达对应的清理任务，并直接看到结果。</p>
+      <p>另一个玩法：把手机控制电脑当作「文件传输助手」。发手机截图时指令它「只接收图片，不要做任何操作，不用管它」，它就真的只接收而不做多余响应。建议单独开一个聊天窗口，专门当文件传输助手。开始时给这个聊天设置提示词：</p>
+      <pre>凡是发送的文件和图片，接收即可，不需要做任何多余响应</pre>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/op7418/status/2089991628631191991" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a></p>
+          </article>
+          <article>
+<h3>Claude Artifact 右侧加了 Design Mode</h3>
+      <p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh" target="_blank">@kevinma_dev_zh</a></p>
+      <div class="fold">
+<p>在 Claude 里面做设计更方便了。Artifact 从原先的纯 HTML 静态原型，现在增加了右侧的 Design Mode，可以自己直接修改属性看效果。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/kevinma_dev_zh/status/2089940043251302458" rel="noopener noreferrer" target="_blank">原帖一 · Kevin Ma</a></p>
+          </article>
+          <article>
+<h3>Coze 挖到 redfox.hk：抓小红书 / 公众号 API</h3>
+      <p class="byline">向阳乔木 <a href="https://x.com/vista8" target="_blank">@vista8</a></p>
+      <div class="fold">
+<p>从 Coze 挖到了一个 API 提供商，可以抓取小红书和公众号内容。作者写：这种事儿也只能第三方做，优质数据源太关键了。非广，只觉得 Agent 确实需要类似 API，用 Computer Use 太容易被封了。</p>
+      <p>注册给 200 积分，一次调用只用 0.6。Grok 给了 X 搜索 API 后大家开心，也是因为实时优质信息。</p>
+      <p>地址 <code>https://redfox.hk</code>。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/vista8/status/2089933819168317604" rel="noopener noreferrer" target="_blank">原帖一 · 向阳乔木</a><a href="https://x.com/vista8/status/2089933902169383215" rel="noopener noreferrer" target="_blank">原帖二 · 向阳乔木</a><a href="https://redfox.hk" rel="noopener noreferrer" target="_blank">redfox.hk</a></p>
+          </article>
+          <article>
+<h3>DeepSeek Harness 首发实测：PPT 3:34，导航站 7:05</h3>
+      <p class="byline">程序员小灰 <a href="https://x.com/XiaohuiAI666" target="_blank">@XiaohuiAI666</a></p>
+      <div class="fold">
+<p>X 文章《DeepSeek Harness 首发实测 + 入门教程，夯爆了！》。DeepSeek 官宣了 Harness 项目，GitHub 已超 109k Star。官方公式：Agent = Model + Harness，即 AI 智能体 = 会思考的大脑 + 能干活的身体。Harness 让 AI 能读写文件、上网查资料、写代码、操作电脑，开源并支持插件扩展。</p>
+      <p>准备：Node.js LTS 加 DeepSeek API Key。安装后在浏览器打开本地 3080 端口填 API Key 即可。装好环境后跑了四个任务。</p>
+      <p>任务一（标准模式）做 10 页 HTML 幻灯片 PPT：结构完整、版式可直接用，耗时 3 分 34 秒（6 轮对话、11 步工具调用），输入 149K、输出 20.4K token，缓存命中 73%，费用约 0.16 到 0.32 元。</p>
+      <p>任务二（PTC 模式）做 AI 工具集合导航站：分类、搜索、筛选真能用，手机电脑都适配，耗时 7 分 05 秒，输入 318K、输出 41.4K token，缓存命中 83%，生成 101 tok/s，费用约 0.28 到 0.56 元。</p>
+      <p>任务三（极简模式，只留两个工具）读代码做开源项目分析报告。原文没有写出耗时、token、费用。</p>
+      <p>任务四：让它自己造插件。原文没有写出耗时、token、费用。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/XiaohuiAI666/status/2089932160748904759" rel="noopener noreferrer" target="_blank">原帖一 · 程序员小灰</a></p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h2>提示词</h2>
+        <div class="grid">
+          <article>
+<h3>GPT2 × 格林童话转绘 VOL.005 完整提示词</h3>
+      <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01" target="_blank">@xiaoxiaodong01</a></p>
+      <div class="fold">
+<p>GPT2 × 格林童话 × 转绘 × 童趣 × 美学提示词 × VOL.005。两个月前做好的提示词，转换成上下逻辑效果同样很好。类似小时候看的故事绘本风格，作者觉得 GPT-image2 很会驾驭。完整提示词：</p>
+      <pre>请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%，并确保该表达方式可适配人物、动物、建筑、静物、自然场景等不同主题，而不限于城市题材。
+
+上半部分保留原始照片，保持主体身份、动作、空间关系、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有杂志摄影与艺术出版物的质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。
+
+下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为童话版画式手绘图像。整体采用平面叙事透视和绘本页面式层级。
+
+配色从上方照片提取，并保持明确的三层关系：大面积暗结构色负责重量与边界，适量浅色或留白负责呼吸，小面积高饱和情绪色负责读图路线与故事信号。
+
+线条只在功能、路径、边界、纹理和识别处出现，保持稀疏、手绘、略不准的细线。所有色块保持平面化处理，同时保留干刷、颗粒、飞白、纸纹、喷点和轻微套印错位，呈现丝网印刷与粉蜡笔共同完成的手工质感，避免写实光影、复杂体积、光滑矢量边缘、3D渲染和塑料质感。
+
+整体构图简洁、低细节、高识别，暗场包裹亮色信号，兼具可爱叙事与厚重版画感。整体参考童话绘本、手工版画、编辑插画与艺术出版物气质，呈现统一、鲜明、可迁移的作者化视觉语言。</pre>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2089987808664719723" rel="noopener noreferrer" target="_blank">原帖一 · 小小东</a></p>
+          </article>
+          <article>
+<h3>kimi k3 通宵竞争情报：四步提示词</h3>
+      <p class="byline">J.B. <a href="https://x.com/VibeMarketer_" target="_blank">@VibeMarketer_</a></p>
+      <div class="fold">
+<p>作者写 kimi k3 可以构建一个自主分析师，在团队睡觉时跑完整竞争情报。四步提示词：</p>
+      <p>1. 给它市场：「构建一个上下文图，包含我市场中的每个竞争对手、产品、发布、价格、集成、定位声明和可信来源。」现在分析师拥有一个活的地图，包含团队跟踪的一切。</p>
+      <p>2. 让它保持警惕：「将今天的证据与当前图进行比较。忽略任何未变化的内容。只浮出新的、更新过的、有争议的或过时的信息。」团队不再阅读重复研究，醒来时看到值得关注的变动。</p>
+      <p>3. 将每个变化连接到一个行动：「对于每个重大变化，识别它影响什么以及哪个团队应该响应。」一个定价变化会更新战斗卡；一个新集成会创造合作伙伴机会；一个定位转变会给营销提供反击的内容。</p>
+      <p>4. 让每个更正永久化：「当人类更正一个事实、来源、关系或规则时，保存它并将其应用到未来的每次运行中。」分析师不再返回相同的错误。kimi 保持整个地图的最新，并为团队带来值得行动的少数几步及其背后的证据。</p>
+      <p>作者还写：打开下面的帖子，将全文粘贴到 kimi 中，并告诉它为你的市场构建第一个版本。时间线没有抓到那条被引用的帖。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/VibeMarketer_/status/2089978074439782495" rel="noopener noreferrer" target="_blank">原帖一 · J.B.</a></p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h2>方法</h2>
+        <div class="grid">
+          <article>
+<h3>4 天重做作品集：狠删，再录 1 分钟讲解</h3>
+      <p class="byline">Bear Liu <a href="https://x.com/bearliu" target="_blank">@bearliu</a></p>
+      <div class="fold">
+<p>前几天跟一个潜在客户通话，对方问：「这是你最好的设计吗？」答不上来。手上最新的作品集还是两年前在 Xero 时做的。更尴尬的是，几个月前刚在 LinkedIn 上劝别的设计师：作品集是营销资产，不用做到完美，能开启一段对话就够了。道理讲得很溜，自己一直没做。</p>
+      <p>于是花了 4 天重做。难的不是设计，是删。Xero 时期二十来个项目砍到 2 个，给客户做的三十个应用砍到 4 个，全部塞进一页。把自己挺得意的东西删掉，只因为它帮不了对方判断「你现在是什么水平」。「没时间做作品集」的关键词不是忙，是不知道从哪儿下手，因为要展示的东西太多了。</p>
+      <p>具体怎么做的：用 Claude Design 做 presenting deck，走终端风格，因为作者现在大部分时间都泡在终端里。再用 Claude Code 发布到网站上。</p>
+      <p>后来证明很有用的动作：没有直接甩链接，而是录了一分钟的讲解视频。看一分钟视频的门槛，比浏览一个作品集低太多了，所以真的有同行看完给了反馈。其中一位直接指出项目排序上的问题。它离完美还很远，但补上了「我现在能做什么」和「我能拿出什么」之间那道缝。</p>
+      <p>完整视频 <code>https://youtu.be/PNdH-HMSzFU</code>。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/bearliu/status/2089986652131434699" rel="noopener noreferrer" target="_blank">原帖一 · Bear Liu</a><a href="https://youtu.be/PNdH-HMSzFU" rel="noopener noreferrer" target="_blank">YouTube</a></p>
           </article>
         </div>
       </section>
@@ -287,6 +440,45 @@ article .links {
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/cellinlab/status/2089928050452652416" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
           </article>
+          <article>
+<h3>客单价的第一性是人群，不是加权益</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank">@Love1mothe</a></p>
+      <div class="fold">
+<p>很多人想把客单价做上去，第一反应是加权益、做包装。作者写：在商业交付里，决定价格的第一性原理永远是人群。</p>
+      <p>面对只想比价的人群，AI 玩得再熟也提不高单价。目标人群选错了，AI 提效只会更快引来大量消耗你的客户。先把服务对象定准，再去谈工具放大。</p>
+      <p>有一点方法，但偏鸡汤，没有可搬走的步骤或案例。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2089987732550651930" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴</a></p>
+          </article>
+          <article>
+<h3>隐私模式是为了方便大家录屏</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank">@yangyi</a></p>
+      <div class="fold">
+<p>回复 yetone。作者说做了个隐私模式，主要是为了方便大家录屏；场景不一样，解决方案确实挺不一样，不过也都是类似的需求。帖里没有产品全貌、设置路径或仓库。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yangyi/status/2089990818774053069" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>Airtap 免费体验入口</h3>
+      <p class="byline">droidHZ <a href="https://x.com/hezhiyan7" target="_blank">@hezhiyan7</a></p>
+      <div class="fold">
+<p>只丢了入口：<code>https://airtap.ai/message-airtap</code>。没有产品说明、用法或价格。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/hezhiyan7/status/2089937598064320647" rel="noopener noreferrer" target="_blank">原帖一 · droidHZ</a><a href="https://airtap.ai/message-airtap" rel="noopener noreferrer" target="_blank">airtap.ai</a></p>
+          </article>
+          <article>
+<h3>五美吟 / 红楼一梦：表象取代真实</h3>
+      <p class="byline">-Zho- <a href="https://x.com/ZHO_ZHO_ZHO" target="_blank">@ZHO_ZHO_ZHO</a></p>
+      <div class="fold">
+<p>文学评论，不是用法。「Representation/表象 取代了 Reality/真实」正回答了当下 AI 对文明的重塑。作者写：AI 才让他真正读懂红楼的现代性。《五美吟》显性揭示了中国文化从古典到现代的审美结构，尤其述明妃（昭君）这首：「绝艳惊人出汉宫，红颜薄命古今同。君王纵使轻颜色，予夺权何畀画工？」一个人的真实价值，被一个媒介、一个图像、一个中间人决定。可以把「画工」替换成摄影、社交媒体、算法、AI、个人形象系统。王昭君本人 ≠ 王昭君的画像，但皇帝接触不到真人，于是表象取代了真实。</p>
+      <p>同组还有「红楼一梦：美，权力 与 命运」、一张《红楼梦》《五美吟》诗作照片，以及「五首之整体+黛玉之人物，真正的现代性转变」。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/ZHO_ZHO_ZHO/status/2089933488166461745" rel="noopener noreferrer" target="_blank">原帖一 · -Zho-</a><a href="https://x.com/ZHO_ZHO_ZHO/status/2089941796533187060" rel="noopener noreferrer" target="_blank">原帖二 · -Zho-</a><a href="https://x.com/ZHO_ZHO_ZHO/status/2089934322765861176" rel="noopener noreferrer" target="_blank">原帖三 · -Zho-</a><a href="https://x.com/ZHO_ZHO_ZHO/status/2089933507514822768" rel="noopener noreferrer" target="_blank">原帖四 · -Zho-</a></p>
+          </article>
         </div>
       </section>
     </div>
@@ -304,7 +496,8 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/PandaTalk8/status/2089929896059646282" rel="noopener noreferrer" target="_blank">原帖一 · Mr Panda</a></p>
-          </article>          <article>
+          </article>
+          <article>
 <h3>硅谷王川 Chuan</h3>
       <p class="byline">硅谷王川 Chuan <a href="https://x.com/Svwang1" target="_blank">@Svwang1</a></p>
       <div class="fold">
@@ -312,7 +505,8 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/Svwang1/status/2089929551174582455" rel="noopener noreferrer" target="_blank">原帖一 · 硅谷王川 Chuan</a></p>
-          </article>          <article>
+          </article>
+          <article>
 <h3>卫斯理</h3>
       <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank">@imwsl90</a></p>
       <div class="fold">
@@ -320,7 +514,8 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/imwsl90/status/2089929292226638014" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
-          </article>          <article>
+          </article>
+          <article>
 <h3>JAVE</h3>
       <p class="byline">JAVE <a href="https://x.com/JAVE1_" target="_blank">@JAVE1_</a></p>
       <div class="fold">
@@ -328,7 +523,8 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/JAVE1_/status/2089929001775292878" rel="noopener noreferrer" target="_blank">原帖一 · JAVE</a></p>
-          </article>          <article>
+          </article>
+          <article>
 <h3>双拼推友</h3>
       <p class="byline">双拼推友 <a href="https://x.com/LostXtui" target="_blank">@LostXtui</a></p>
       <div class="fold">
@@ -336,6 +532,159 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/LostXtui/status/2089927284631503022" rel="noopener noreferrer" target="_blank">原帖一 · 双拼推友</a></p>
+          </article>
+          <article>
+<h3>Yanhua</h3>
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank">@yanhua1010</a></p>
+      <div class="fold">
+<p>女朋友也自由了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2089992154458608027" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank">@imwsl90</a></p>
+      <div class="fold">
+<p>此刻睡在吊床上，但要时刻盯着海边的大儿子。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089989271042318405" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>古一</h3>
+      <p class="byline">古一 <a href="https://x.com/MANISH1027512" target="_blank">@MANISH1027512</a></p>
+      <div class="fold">
+<p>继续搞点冥府生态：枯骨竹林、魂灯果园、黑莲冥池、骨白鬼树。无提示词。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/MANISH1027512/status/2089987571808141695" rel="noopener noreferrer" target="_blank">原帖一 · 古一</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank">@imwsl90</a></p>
+      <div class="fold">
+<p>男人来到海边：老登儿同学睡吊床，小小登儿做沙雕，自己看着海发呆。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089985143159337240" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Bear Liu</h3>
+      <p class="byline">Bear Liu <a href="https://x.com/bearliu" target="_blank">@bearliu</a></p>
+      <div class="fold">
+<p>城里又多了几个雕塑，比如这条大鳗鱼。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/bearliu/status/2089984720943697959" rel="noopener noreferrer" target="_blank">原帖一 · Bear Liu</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" target="_blank">@cellinlab</a></p>
+      <div class="fold">
+<p>在搞什么？Codex 挂了嘛？</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/cellinlab/status/2089981685723275583" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>余温</h3>
+      <p class="byline">余温 <a href="https://x.com/gkxspace" target="_blank">@gkxspace</a></p>
+      <div class="fold">
+<p>Codex 又要重置；200 刀一周大概用了 1.1B Token，感觉明显变蠢了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/gkxspace/status/2089982559228924117" rel="noopener noreferrer" target="_blank">原帖一 · 余温</a></p>
+          </article>
+          <article>
+<h3>哥飞</h3>
+      <p class="byline">哥飞 <a href="https://x.com/gefei55" target="_blank">@gefei55</a></p>
+      <div class="fold">
+<p>朋友圈慢慢不发了：晚宴一晚上没回评论，老爸打电话让老婆提醒别不理表妹。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/gefei55/status/2089984584951980283" rel="noopener noreferrer" target="_blank">原帖一 · 哥飞</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent" target="_blank">@dontbesilent</a></p>
+      <div class="fold">
+<p>情感咨询标品化两套：雇美女见面是诈骗，包养保证不分手是组织卖淫。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2089978028772524109" rel="noopener noreferrer" target="_blank">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>SpaceX</h3>
+      <p class="byline">SpaceX <a href="https://x.com/SpaceX" target="_blank">@SpaceX</a></p>
+      <div class="fold">
+<p>猎鹰 9 号从加利福尼亚发射 24 颗 Starlink 卫星。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/SpaceX/status/2089971440682508750" rel="noopener noreferrer" target="_blank">原帖一 · SpaceX</a></p>
+          </article>
+          <article>
+<h3>Berryxia.AI</h3>
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank">@berryxia</a></p>
+      <div class="fold">
+<p>黄总不仅是财务自由了，这下 Token 都自由了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/berryxia/status/2089953081383338326" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia.AI</a></p>
+          </article>
+          <article>
+<h3>凡人小北</h3>
+      <p class="byline">凡人小北 <a href="https://x.com/frxiaobei" target="_blank">@frxiaobei</a></p>
+      <div class="fold">
+<p>投胎很重要。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/frxiaobei/status/2089939367414689904" rel="noopener noreferrer" target="_blank">原帖一 · 凡人小北</a></p>
+          </article>
+          <article>
+<h3>Berryxia.AI</h3>
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank">@berryxia</a></p>
+      <div class="fold">
+<p>好几个人推荐，可以试试。无增量。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/berryxia/status/2089936464524026311" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia.AI</a></p>
+          </article>
+          <article>
+<h3>Elon Musk</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank">@elonmusk</a></p>
+      <div class="fold">
+<p>是啊。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elonmusk/status/2089934787268300891" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank">@imwsl90</a></p>
+      <div class="fold">
+<p>已婚男人在家和犯人没什么区别，连坐姿都会被批评。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2089933437843148815" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Elon Musk</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank">@elonmusk</a></p>
+      <div class="fold">
+<p>@Grok @Bot。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elonmusk/status/2089931417635668446" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a></p>
+          </article>
+          <article>
+<h3>Derrick Choi</h3>
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank">@derrickcchoi</a></p>
+      <div class="fold">
+<p>感谢 1800+ 条回复和提问，没能一一回复请见谅。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2089931256553521597" rel="noopener noreferrer" target="_blank">原帖一 · Derrick Choi</a></p>
           </article>
         </div>
       </section>
