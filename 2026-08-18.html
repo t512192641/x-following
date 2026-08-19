@@ -226,6 +226,11 @@ article .links {
   padding: 3px 7px;
 }
 .view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
 
 </style>
 </head>
@@ -235,6 +240,11 @@ article .links {
       <h1>X 关注 · 2026-08-18</h1>
       <p class="meta">美国时间 2026-08-18。清爽 8-bit，纯文字卡片。同一题已合并。00:00 ET 窗把 18 日 21:30–24:00 的 67 条并进来了。</p>
     </header>
+    <nav class="site-nav" aria-label="日期">
+      <a href="index.html">首页</a>
+      <a href="2026-08-19.html">08-19</a>
+      <a href="2026-08-18.html" class="is-here">08-18</a>
+    </nav>
     <nav class="tabs" aria-label="页签">
       <button type="button" class="tab is-active" data-pane="main">正文</button>
       <button type="button" class="tab" data-pane="maybe">拿不准</button>

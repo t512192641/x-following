@@ -1,1 +1,1 @@
-Daily X following digest. Each US calendar day is its own HTML page.\n
+X following digest. Daily HTML on GitHub Pages. playbook.md / changelog.md / cursor.md are backups, not the reading UI.
