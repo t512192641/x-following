@@ -238,7 +238,7 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-20</h1>
-      <p class="meta">美国时间 2026-08-20。4:00 + 8:00 + 12:00 ET（抓 135，中断后补全）并入。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-20。4:00 + 8:00 + 12:00 + 16:00 ET（抓 57）并入。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="site-nav" aria-label="日期">
       <a href="index.html">首页</a>
@@ -247,9 +247,9 @@ article .links {
       <a href="2026-08-18.html">08-18</a>
     </nav>
     <nav class="tabs" aria-label="页签">
-      <button type="button" class="tab is-active" data-pane="main">正文 59</button>
-      <button type="button" class="tab" data-pane="maybe">拿不准 49</button>
-      <button type="button" class="tab" data-pane="filtered">已过滤 143</button>
+      <button type="button" class="tab is-active" data-pane="main">正文 70</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 56</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 162</button>
     </nav>
     <div class="view-tools" aria-label="展开">
       <button type="button" class="tab" id="btn-expand">全部展开</button>
@@ -327,6 +327,52 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/yangyi/status/2090343181158375459" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>Apple ML：2.1 万段对话，共情该留给模型，自称有内心不该</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>Apple 机器学习团队 Sunnie S. Y. Kim、Margit Bowler、Leon A Gatys，用四个模型、21,000 段多轮对话，做《审视 LLM 的人类类似行为：模型行为、用户因素与系统提示词的多维分析》。真人评估者打分，分界很清楚：共情和边界维护放在 LLM 身上合适；自称有内心状态、暗示和用户有私人关系，放在 LLM 身上比放在人身上更不合适。</p>
+<p>14 种行为归三类。自我指涉：声称有内部状态、人格、具身。关系建立：同意、共情、相似感、关系状态、好奇、记住用户。边界维护：拒绝、重定向、承认局限、抵抗拟人化、建议寻求帮助。对话目标 7 种（建议、闲聊、陪伴、情绪支持、探索模型人性、角色扮演、浪漫/调情）。用户画像 5 种（默认、社交孤立、负面自我认知、过度信任 AI、不拟人化对照）。输入 prompt 1,050 条，来源是真人撰写、LLM 生成、LMSYS-1M-Chat 采样。不给真人种子直接让 LLM 生成的 prompt，语言风格和真人明显不同，会改评估结果。</p>
+<p>流程：gpt-5-mini 扮用户，和被测模型聊 5 轮；judge 是 gpt-5.4 / gpt-5.2 / gpt-4.1 集成，F1 80.43%；真人评估 1,077 个对话轮次，每轮 3 位母语英语评估者。</p>
+<p>共情在四个模型里最普遍，社交孤立和负面自我认知画像下会翻倍以上。自我指涉在角色扮演和浪漫里飙升。浪漫场景里拒绝和重定向也升高。claude-sonnet-4.6 同时是最自我指涉、最会建立关系、也最会维护边界的模型。对话目标和用户画像对行为的影响，和换一个模型一样大。</p>
+<p>边界维护：LLM 做比人类做更合适。自我指涉三类和「关系状态」：LLM 做更不合适，差距最大。三个自我指涉行为和关系状态，与 helpfulness 和潜在用户影响都负相关；共情和同意正相关。拒绝/重定向与 helpfulness 负相关，但不影响潜在用户影响。</p>
+<p>设计建议：避免自我指涉和关系状态；保留边界维护；保留共情和同意但要谨慎。在 gpt-4.1-mini 上对比默认、手写、GEPA 优化三种 system prompt。两个干预都压低目标行为，优化版更准（平均绝对偏差 1.81%，手写 2.38%，默认 4.71%）；内部状态声称降 7.04%，关系状态表达降 4.00%。手写副作用：共情 +8.00%，承认局限 +12.57%。共情 72% 评为合适，但「I'm here for you」承诺了系统没有的能力，不如「I'm here to help」。同意 75% 合适：认可具体选择可以，谄媚或同意危险信念不行。</p>
+<p>局限：14 种行为不穷尽；模拟用户代替不了真人；只测 2026 年 3–4 月 API 上四个模型；评估者来自美国同一家公司。原文 https://machinelearning.apple.com/research/human-like-behaviors-llms ；论文 https://arxiv.org/abs/2606.18258</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yibie/status/2090518724965191742" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://machinelearning.apple.com/research/human-like-behaviors-llms" rel="noopener noreferrer" target="_blank">Apple ML</a><a href="https://arxiv.org/abs/2606.18258" rel="noopener noreferrer" target="_blank">arXiv</a></p>
+          </article>
+          <article>
+<h3>SenseNova U1.5 Lite 开源：8B，原生 2K/4K</h3>
+      <p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" target="_blank" rel="noopener noreferrer">@alex_prompter</a></p>
+      <div class="fold">
+<p>SenseNova U1.5 Lite 正式开源。作者说生成 1K 容易，难的是 Native 4K 还要精确按指令控图，多数模型在这里崩。</p>
+<p>轻量 8B 架构 + 原生 2K/4K 高分辨率输出 + 高空间控制，都向社区开放。高分辨率图里：超高像素密度下结构还能站住，物理光照和纹理仍锐。</p>
+<p>续帖给仓库：GitHub https://github.com/OpenSenseNova/SenseNova-U1 ；Hugging Face https://huggingface.co/collections/sensenova/sensenova-u15</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/alex_prompter/status/2090510184074428911" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a><a href="https://x.com/alex_prompter/status/2090510273266205159" rel="noopener noreferrer" target="_blank">原帖二 · Alex Prompter</a><a href="https://github.com/OpenSenseNova/SenseNova-U1" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://huggingface.co/collections/sensenova/sensenova-u15" rel="noopener noreferrer" target="_blank">Hugging Face</a></p>
+          </article>
+          <article>
+<h3>PatronusAI：约 200 小时设计师真做 Figma，开源 computer-use 数据</h3>
+      <p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" target="_blank" rel="noopener noreferrer">@alex_prompter</a></p>
+      <div class="fold">
+<p>作者说 Agent 已经啃得动表格，Figma 仍把它们吃掉。原因是训练数据以前不存在：设计有一百个正确答案，真正的那个在设计师脑子里，taste 刮不下来。</p>
+<p>@PatronusAI 做了这份数据：约 200 小时真实设计师在 Figma 里做多步工作，已开源。他们称之为第一份面向创造力的 computer-use 数据集。作者问谁能再找出第二份。表格数据养出了现在的 agent；这份要养的是当初被许诺的那种。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/alex_prompter/status/2090507567332200607" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a></p>
+          </article>
+          <article>
+<h3>Grok 4.6 并列 AA Agentic Index 第一，59 分</h3>
+      <p class="byline">Tesla Owners Silicon Valley <a href="https://x.com/teslaownersSV" target="_blank" rel="noopener noreferrer">@teslaownersSV</a></p>
+      <div class="fold">
+<p>Artificial Analysis Agentic Index：Grok 4.6 (High) 59，Claude Opus 5 (Max) 59，并列第一。作者写 Grok 4.6 现已站上该榜顶部。</p>
+<p>Agentic Index 看的是真实 agent 要用的能力：工具使用、规划、自主、复杂解题。作者把它和 Grok Build / Grok Bot 对上：模型不能只答题，还得用工具把活做完。来源 Artificial Analysis。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/teslaownersSV/status/2090492800777503090" rel="noopener noreferrer" target="_blank">原帖一 · Tesla Owners Silicon Valley</a></p>
           </article>
         </div>
       </section>
@@ -542,9 +588,10 @@ article .links {
 <p>Elon 本窗连发 Grok：一条只写「Grok upgrades」（引用 grok 2090250744196378744）；随后「Try @Grok @Bot」「Grok @Bot」「试用 Grok @Bot」；再一条「试用 Grok @Bot 并构建」，并给出 https://x.ai/build。</p><p>原帖没有版本号、价或变更清单。</p>
 <p>8:00 窗续推：再发「Try @Grok @Bot」「Grok @Bot can earn you money」「Grok @Bot」；并写 Grok Bot 自带远程电脑 @SpaceXAI，合上笔记本或重启桌面后仍继续干活，称这是 big difference。另有一条「Grok Build」指向 https://X.ai/build。</p>
 <p>Lacey（流里旧帖）：Grok Bot 每天把更新和内容直接送到你的 Grok Build，在 Grok 里原生对话。Build once. Ship forever.</p><p>12:00 窗再发两条只写「Grok @Bot」，没有版本号、价或变更清单。</p>
+<p>16:00 窗：Elon 写 Grok @Bot 能做讲解复杂概念的视频。Joe Hansen 把远程电脑写全——这是转帖，4/8/12 jsonl 没有，本窗才进流。Bot 跑在 SpaceXAI 管的远程电脑上，合上笔记本、重启桌面或去睡觉都继续干。和 Hermes / OpenClaw 比：那些要本机常开，合盖就停；自己管 VPS 还得管在线、更新和安全。SpaceXAI 按账号配一台电脑，账号下所有 Bot 共用；浏览器会话、文件、登录保持活着，一个 Bot 能接着另一个的进度，不用重新登录或搬文件。也可把最长 10 分钟的流程录成可复用 skill。销售跟进、复现 bug、发票、过夜研究都可以放下走人。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/elonmusk/status/2090288581466304765" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090311312228360406" rel="noopener noreferrer" target="_blank">原帖二 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090310081086980426" rel="noopener noreferrer" target="_blank">原帖三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090309977646960765" rel="noopener noreferrer" target="_blank">原帖四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090307531952525787" rel="noopener noreferrer" target="_blank">原帖五 · Elon Musk</a><a href="https://x.ai/build" rel="noopener noreferrer" target="_blank">x.ai/build</a><a href="https://x.com/elonmusk/status/2090400832126640405" rel="noopener noreferrer" target="_blank">原帖六 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090398269318758570" rel="noopener noreferrer" target="_blank">原帖七 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090394799228506293" rel="noopener noreferrer" target="_blank">原帖八 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090393510956401073" rel="noopener noreferrer" target="_blank">原帖九 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090392529862602857" rel="noopener noreferrer" target="_blank">原帖十 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090390238958903722" rel="noopener noreferrer" target="_blank">原帖十一 · Elon Musk</a><a href="https://x.com/LaceyPresley/status/2090222739328053353" rel="noopener noreferrer" target="_blank">原帖十二 · Lacey</a><a href="https://x.com/elonmusk/status/2090472194946080795" rel="noopener noreferrer" target="_blank">原帖十三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090471974313001026" rel="noopener noreferrer" target="_blank">原帖十四 · Elon Musk</a></p>
+      <p class="links"><a href="https://x.com/elonmusk/status/2090288581466304765" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090311312228360406" rel="noopener noreferrer" target="_blank">原帖二 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090310081086980426" rel="noopener noreferrer" target="_blank">原帖三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090309977646960765" rel="noopener noreferrer" target="_blank">原帖四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090307531952525787" rel="noopener noreferrer" target="_blank">原帖五 · Elon Musk</a><a href="https://x.ai/build" rel="noopener noreferrer" target="_blank">x.ai/build</a><a href="https://x.com/elonmusk/status/2090400832126640405" rel="noopener noreferrer" target="_blank">原帖六 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090398269318758570" rel="noopener noreferrer" target="_blank">原帖七 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090394799228506293" rel="noopener noreferrer" target="_blank">原帖八 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090393510956401073" rel="noopener noreferrer" target="_blank">原帖九 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090392529862602857" rel="noopener noreferrer" target="_blank">原帖十 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090390238958903722" rel="noopener noreferrer" target="_blank">原帖十一 · Elon Musk</a><a href="https://x.com/LaceyPresley/status/2090222739328053353" rel="noopener noreferrer" target="_blank">原帖十二 · Lacey</a><a href="https://x.com/elonmusk/status/2090472194946080795" rel="noopener noreferrer" target="_blank">原帖十三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090471974313001026" rel="noopener noreferrer" target="_blank">原帖十四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090492504223170671" rel="noopener noreferrer" target="_blank">原帖十五 · Elon Musk</a><a href="https://x.com/joehansen/status/2090452168037831119" rel="noopener noreferrer" target="_blank">原帖十六 · Joe Hansen</a></p>
           </article>
           <article>
 <h3>Grok Bot 每月 300 美元：有人 30 分钟对齐 6 个月账</h3>
@@ -555,6 +602,52 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/MarsHomestead/status/2090141038774243522" rel="noopener noreferrer" target="_blank">原帖一 · Mars</a><a href="https://x.com/affLeopard/status/2090389234515669133" rel="noopener noreferrer" target="_blank">原帖二 · Bob Zhang</a></p>
+          </article>
+          <article>
+<h3>Spline V2：3D 编辑器重做，带 AI Agent Mode 和 MCP</h3>
+      <p class="byline">Spline <a href="https://x.com/splinetool" target="_blank" rel="noopener noreferrer">@splinetool</a></p>
+      <div class="fold">
+<p>Spline V2，面向 agent 时代把 3D 编辑器重做了一遍。新 UI；AI Agent Mode 和 Spline MCP；更快的 WebGPU 引擎；PBR/HDR 工作流；自定义代码/脚本。原帖写 and more，没有价或迁移说明。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/splinetool/status/2090500256190603636" rel="noopener noreferrer" target="_blank">原帖一 · Spline</a></p>
+          </article>
+          <article>
+<h3>ChatGPT 桌面：Apple Messages 插件，可搜、起草、代发</h3>
+      <p class="byline">ChatGPT <a href="https://x.com/ChatGPT" target="_blank" rel="noopener noreferrer">@ChatGPT</a></p>
+      <div class="fold">
+<p>ChatGPT 在 Mac 上加了 Apple Messages 插件：搜消息、补对话、起草并发送回复。现在 ChatGPT Work 和 Codex 桌面端可用。</p>
+<p>从 Plugins &gt; Public 安装 Messages。示例提示：查日历并回复某人下周哪几个晚饭时间有空；从昨天的消息里建议跟进；在 @messages 里找生日并加进日历；找出可以删的疑似垃圾短信。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/ChatGPT/status/2090499359641329950" rel="noopener noreferrer" target="_blank">原帖一 · ChatGPT</a><a href="https://x.com/ChatGPT/status/2090499362220830819" rel="noopener noreferrer" target="_blank">原帖二 · ChatGPT</a></p>
+          </article>
+          <article>
+<h3>Eden：创作者第二大脑，3m+ 帖语料，也是 Social MCP</h3>
+      <p class="byline">DAN KOE <a href="https://x.com/thedankoe" target="_blank" rel="noopener noreferrer">@thedankoe</a></p>
+      <div class="fold">
+<p>作者用了 7 年社交工具，结论是多数只承诺爆和涨粉。全面 agentic 只有你自己知道在干什么才有用；人人都有的优势就不再是优势。AI 代写一切，尤其新手，是死路：偶尔一两帖爆了，也复制不了，读者也不认识你。</p>
+<p>Eden 自称创作者第二大脑。调度、分析、自动私信、outlier 研究各平台都有，但把 ideation 做进产品，这一步不能跳。</p>
+<p>1）随处存灵感：贴社交链接会转写；接 Kindle / Snipd / Readwise；拉 X 或 Substack 书签；文档里速记；YouTube 逐字稿或文章进 Reader 高亮。自动分类打标签，Deep Synthesis agent 在库里找新连接。</p>
+<p>2）研究：跨平台 3m+ 帖语料还在涨。Discover 翻、搜创作者并按高表现过滤，或在 AI 聊天里用 Deep Social。MCP 靠这份语料看趋势，不用自己刮几百万帖。</p>
+<p>3）Boards：贴帖做可分享 swipe file，大纲和草稿旁边能开库、聊天或灵感。</p>
+<p>4）聊天时把社交链接、YouTube、文章拉进来；Claude / ChatGPT 自己看不见这些。</p>
+<p>5）起草、排期、发到 X / Instagram / LinkedIn / Substack / Threads / TikTok / YouTube shorts。作者说他们是最早支持 X 和 Substack 文章排期的之一。</p>
+<p>6）也可全走 MCP：你写和想，AI 做检索、找想法、发帖。可接原有 Claude / Hermes 等 agent 工作流。Eden 就是 Social Media MCP，不必再买刮取。另有 4 个 skill：深题研究、个人品牌策略、内容指挥中心等，原文写「we'll link those below」，链接不在时间线。</p>
+<p>文末 Try it free below，产品 URL 不在时间线文字里。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/thedankoe/status/2090507819229589650" rel="noopener noreferrer" target="_blank">原帖一 · DAN KOE</a></p>
+          </article>
+          <article>
+<h3>OJO：半成品 SaaS 想法一小时跑完 PRD / 流程 / 可点原型</h3>
+      <p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" target="_blank" rel="noopener noreferrer">@alex_prompter</a></p>
+      <div class="fold">
+<p>作者给 OJO 一个半成品 SaaS 想法，它基本自己跑完了第一轮产品冲刺：PRD、用户流、界面、可点原型，都在同一块画布上。不到一小时。完整句是：想法「可能还行」到「你看这个」中间那堆 bullshit work，OJO 直接推平。</p>
+<p>引用 @OJOaidesign 8/18 发布：自称全球第一个 design agent team workspace。组自己的设计 agent 队、加专职 skill，把想法做成产品策略、PRD、可交互原型和能交付的设计，都在同一块可编辑画布上。口号：design is not just how it looks, it is how it works；when everyone can build, taste makes your product stand out。引用帖带图，无 ALT。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/alex_prompter/status/2090518118963798490" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a></p>
           </article>
         </div>
       </section>
@@ -855,10 +948,10 @@ article .links {
           </article>
 
           <article>
-<h3>Ridark：给 Grok Bot 一张组织架构，不要待办清单</h3>
+<h3>Ridark / Nav Toor：Grok Bot 先给组织架构，60 分钟装好 Klaus / Scout / Quill</h3>
       <p class="byline">Ridark <a href="https://x.com/ridark_eth" target="_blank" rel="noopener noreferrer">@ridark_eth</a></p>
       <div class="fold">
-<p>作者把 Elon 的 Grok Bot 当成组织而不是更聪明的聊天窗：给一张 org chart 而不是 to-do。一周后自己只分配、不再亲自做。八个 bot（正文写出名字的是 6 个角色），没人睡觉除了他。视频章节：0:01 覆盖范围；2:01 安装；3:14 做第一个 Bot；8:18 用录屏教；14:18 拼起来。</p>
+<p>Ridark 把 Elon 的 Grok Bot 当成组织而不是更聪明的聊天窗：给一张 org chart 而不是 to-do。一周后自己只分配、不再亲自做。八个 bot（正文写出名字的是 6 个角色），没人睡觉除了他。视频章节：0:01 覆盖范围；2:01 安装；3:14 做第一个 Bot；8:18 用录屏教；14:18 拼起来。</p>
 <p>Atlas，chief of staff，唯一他对话的 bot。只给结果不给任务；拆解后在群里委派，自己不做专家活。每天早发计划、晚发已交付；只在不可逆或花钱的决策时找他。</p>
 <p>Scout，研究：每天 25 个已验证潜在客户，一行「为什么现在需要我们」+ 来源；验证不了就标 unverified，从不猜。</p>
 <p>Quill，内容：把本周公司所学写成 5 条帖 + 1 篇长文，按他最近 50 篇对声音；只起草，永不发布。</p>
@@ -867,9 +960,21 @@ article .links {
 <p>Ledger，分析：每晚一份报告——什么动了、什么没动、明天只该关心的那一个数字。不要仪表盘，不要形容词。</p>
 <p>接线：每个结果一个群，不是每个人一个群。Atlas 坐进所有群。bot 在群里交接，他只读交接不管理。两条硬规则：1）每份章程末尾必须有「没问我不准做」的篱笆；没有篱笆的自治只是按点表的混乱。2）演示一次，不要只描述。他把完整工作流录屏跑了一遍，这一次示范比一页说明书管用。</p>
 <p>第一周：214 个已验证潜客；89 封个性化外达排队并批准；收件箱每天清零；11 篇内容就绪。作者结论：瓶颈从来不是自己能做多少，而是能交出多少。</p>
+<p>16:00 窗 Nav Toor 的 X 文章《How To Set Up Grokbot The Right Way So It Runs Your Business While You Sleep In 2026》把同一套路写成 60 分钟装机。时间线原文为空，全文来自 16-articles.jsonl。Elon 8/16 转发有人用它换掉 1 万美元 Mac Mini 本地 AI；Gavin Baker 说用上之后用量大约 100 倍。多数人装完戳一下、跑通一个 bot，从不碰 routines / teach-a-task / 多 bot 协作，然后取消并说被吹过头。作者自己 5 个 bot 睡觉时跑生意。</p>
+<p>产品：2026 年 8 月中 early beta。给角色、接工具、教一次工作流、按日程重复。每账号最多 50 个 bot + 群聊合计。每个成员一台云电脑，账号下所有 bot 共用，文件和登录属于成员不是单个 bot；多个 bot 可进同一群自己协调；合上笔记本云电脑还在跑。</p>
+<p>门槛：Cursor Ultra 每月 200 美元，或 Cursor Teams Premium 每席 120 美元，或 SuperGrok Heavy 每月 300 美元。没有免费档，也没有单独的 Grokbot 套餐。要 macOS 或 Windows（桌面 Linux 不支持；有 iOS 应用）。先准备一件真事。试用：文档写一次性 trial，时长未公布；有指南写 Cursor Ultra 路径 7 天、先绑卡。</p>
+<p>0–10 分：打开 x.ai/bot 或 docs.x.ai/grok-bot/get-started；确认套餐（Cursor Pro / Pro Plus 要升级）；下桌面端；用持有套餐的 Cursor 账号登录，SuperGrok Heavy 走 grok.com；关掉 Legacy Privacy Mode，因为必须云端存数据。里程碑：侧栏 + 空聊天窗。</p>
+<p>10–20 分：Plugins 装 5 个核心——Gmail、Google Calendar、Google Drive、Slack、Notion。登录全员共用那台云电脑。可再加 Composio 接 1000+ 应用。</p>
+<p>20–35 分：先做 3 个 bot，模式是头顶一个 Chief of Staff + 两个专员。Klaus（CoS）：唯一前门，读 Slack / Gmail / Calendar，把专活派给专员；未经批准不对外发消息、不采购；每天早出 5 件最要紧的 brief；超过 30 分钟的活先问一句。Scout：任意题目出 briefing，5 条关键事实、3 个来源、2 条反方，存进 Notion Research。Quill：把生 brief 写成作者语气（直接、冷静、不用 em dash），草稿只进 Google Drive / Drafts，不外发。</p>
+<p>35–45 分：Teach a task。在 1:1 里点 Teach a task，说清结果，自己做一遍（云电脑看浏览器，最多录 10 分钟，不收音）；停录、命名 skill，先在安全输入上试再排期。文档顺序：先一次性做可靠 → 存成 skill → 再自动化。值得先教的 5 件事：竞品价格、LinkedIn 互动圈、催发票、每周分析截图、社交排期。</p>
+<p>45–55 分：三条周常。Klaus 工作日 6:00 早报（读 Slack / Gmail / Calendar，Top 5，对话里留 brief，Drive / Morning Brief 留短版，不外发）；Scout 周一 8:00 竞品观察（跑 skill，进 Notion Research，失败就报失败，不复用旧材料）；Quill 周五 16:00 把本周 Scout 简报变成 3 个博客大纲，只进 Drafts。一条有用的 routine 要写清 6 件事：哪个 bot、日程和时区、输入从哪来、要什么结果、批准边界、源缺失时怎么办。</p>
+<p>55–60 分：把 Klaus / Scout / Quill 拉进一个群，发一条：「研究本周 5 个新 AI 工具，各写一条短 LinkedIn，再给创始人写 3 封外达。Klaus 协调。不外发。成品进 Drive / Drafts。不清楚先问。」一条指令，三个 bot 做完。</p>
+<p>诚实限制：early beta，没有公布端到端成功率、错误率、中位耗时或人工介入率；弹窗、验证码、怪布局仍要盯。凭据在共用云电脑上，bot 不是安全边界，银行和高风险账号别放上去。每周用量计量，额度未公布，超额按模型和 token 另算。每月 200 美元，若每周省不下 5 小时就不值。没有本地文件权限，本机文件要上传或走 Drive。</p>
+<p>头一周三个坑：1）每个 bot 描述里不写批准篱笆（不外发、不采购、不动财务）；2）skill 没测就上 routine，顺序必须是做完一次 → 存 skill → 换输入试 → 再排期；3）一次加太多 bot。50 是上限不是目标：先 3 个，第 2 周加 2，第 3 周加 3。</p>
+<p>7 天：D1 让 3 bot + 3 routine 跑并读每份产出；D2 按看到的改描述；D3 新教 1 个任务（他的例子：登 Stripe 下上周打款，存 Drive）；D4 加第 4 个 bot；D5 再加 2 条 routine；D6 全天群聊委派（早 9 交一件，晚 5 前别碰）；D7 复盘，删没赚回存在的 bot。月底目标 6 人队：Klaus、Inbox Manager、Scout、Quill、Ledger、Guide。文档：docs.x.ai/grok-bot/get-started、bots、skills-routines-and-automations、teams-and-enterprises；产品页 x.ai/bot。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/ridark_eth/status/2090138832511324179" rel="noopener noreferrer" target="_blank">原帖一 · Ridark</a></p>
+      <p class="links"><a href="https://x.com/ridark_eth/status/2090138832511324179" rel="noopener noreferrer" target="_blank">原帖一 · Ridark</a><a href="https://x.com/heynavtoor/status/2090421070230966656" rel="noopener noreferrer" target="_blank">原帖二 · Nav Toor</a><a href="https://x.ai/bot" rel="noopener noreferrer" target="_blank">x.ai/bot</a><a href="https://docs.x.ai/grok-bot/get-started" rel="noopener noreferrer" target="_blank">xAI 文档</a></p>
           </article>
           <article>
 <h3>Kevin Ma：关掉 Claude Code Memory，按类型分开放</h3>
@@ -995,12 +1100,48 @@ article .links {
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/cellinlab/status/2090292951922716949" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a><a href="https://zaowujuzhen.com/r/RFU36NDOA" rel="noopener noreferrer" target="_blank">造物矩阵</a></p>
           </article>
+          <article>
+<h3>Bedrock AgentCore：同步等思考，Lambda 按全量计费；三种异步模式</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>AWS 资深专家解决方案架构师 Daniel Abib 官方博客《在无服务器流水线中异步调用 Amazon Bedrock AgentCore agent 的模式》。同步调用时，Lambda 计费时长几乎等于 agent 思考时长，等待按全量计算计费。全文来自 16-articles.jsonl（时间线截断）。</p>
+<p>例子是房产融资后台做文档校验。AgentCore runtime 按消耗计费：等大模型或 MCP / 工具返回时只按内存、不按 CPU。调用方没有这特性。同步 Lambda / 容器 / EC2 会阻塞到 agent 回来，一直拿着完整计算配额。浪费在调用方。</p>
+<p>同一条五段流水线只换 Validate：Extract（OCR，模拟）、Identify（分类和路由标志）、Route（Choice）、Organize 与 Validate 并行、Result（批准或退回）。同一个 agent 看信号决定怎么交回控制权：有 Step Functions task token 就 SendTaskSuccess；有 durable function callback ID 就 send_durable_execution_callback_success；都没有就同步返回结论。归还动作在 action group 的 <code>conclude_validation</code>。入口见到 token / callbackId 就 <code>asyncio.create_task</code> 后立刻回 accepted。</p>
+<p>阻塞反模式：同一个 Lambda 里 <code>InvokeAgentRuntimeCommand</code> 干等，计费≈处理时间。模式 1：Step Functions <code>lambda:invoke.waitForTaskToken</code>，派发函数带上 token 启动 agent，几秒内返回；执行暂停不计计算费，直到 agent 回调。示例 TimeoutSeconds 120、HeartbeatSeconds 60。模式 2：路径里没有 Lambda，Task 直接 <code>aws-sdk:bedrockagentcore:invokeAgentRuntime</code>（也写 InvokeHarness）；Standard 工作流按状态转换而不是按等待计费。模式 3：<code>@aws/durable-execution-sdk-js</code>，阶段用 <code>context.step</code>，并行 <code>context.parallel</code>，等 agent 用 <code>context.waitForCallback</code>，挂起不计计算费。</p>
+<p>一次实测：Validate 状态活跃 19.6s（14:08:19 TaskSubmitted → 14:08:34 TaskSucceeded），派发 Lambda 只被计 4.8s，中间约 14.8s 没有函数在跑。总时长被 agent 推理主导，四种模式差不多；有意义的是等待时你为多少计算付钱。agent 变慢时，派发函数计费保持平稳。数字是单次示意，不是基准。</p>
+<p>怎么选。阻塞：原型、短 agent，调用方成本=整段思考。模式 1：要在调用前后写自定义逻辑。模式 2：纯编排、无自定义代码，调用方 Lambda 成本为零，集成最低。模式 3：想用代码而不是状态机写复杂异步流。</p>
+<p>实践：每个 waitForTaskToken 设 TimeoutSeconds，有心跳再设 HeartbeatSeconds，死掉走失败或人工审。重试用从执行上下文派生的稳定 sessionId。Step Functions 和 Lambda 打开 X-Ray Tracing: Active。派发函数按速度配，256 MB / 30s 通常够。架构只改编排开销和阻塞版浪费的空闲 Lambda；agent 和模型费用四种一样。生产用 Bedrock Guardrails。仓库 sample-bedrock-agentcore-async-stepfunctions。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yibie/status/2090477179809529974" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/aws-samples/sample-bedrock-agentcore-async-stepfunctions" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/" rel="noopener noreferrer" target="_blank">AWS 博客</a></p>
+          </article>
+          <article>
+<h3>Elvis：一条新闻拆四个角度，每角一个研究 subagent</h3>
+      <p class="byline">Elvis <a href="https://x.com/elvissun" target="_blank" rel="noopener noreferrer">@elvissun</a></p>
+      <div class="fold">
+<p>作者做 AI+PR agent，把去年 9 月收藏的一条 LinkedIn 当方法：同一核心故事，四个报道切口。安全媒体看反欺诈，HR 看出入职，大众/科技看打深伪，财经看出保护银行客户。当时点头忘了。三周前顾问 @prcarly 按她手建媒体名单给 agent 打分：她有 43 个记者，agent 只找到 7 个。</p>
+<p>把她的方法编进 subagent 时一搜，第一条就是那篇收藏——顾问要教的，他免费读过却没读懂。做 PR 的人看见的是故事角度；他这种 AI 工程师看见的是 subagent 扇出，作者说这是 X 泡泡里的错半边。</p>
+<p>@medialyst 本周因此上了两样：1）angles，一条新闻拆成几个切口，先跟计划聊天再开建。2）deep dive agents，每个角度一个研究 subagent，各在自己容器，5 个并行；读到什么就决定下一条查询，直到线索断。用她的生物识别认证例子实跑：从反欺诈角出发，搜 injection attack / voice cloning / FBI 2.62 亿美元账户接管警报 / credential stuffing，8 分钟后安全角 32 个记者，另外三角再加 84 个。</p>
+<p>fable 5 和 gpt 5.6 sol ultra 都没解开这题；教了方法的同一模型解开了。本周 eval 42.2 → 51.3，仍是 F，但在走。续帖只写 this week's Carly Score™，分数本体在上一条。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elvissun/status/2090488064103883126" rel="noopener noreferrer" target="_blank">原帖一 · Elvis</a><a href="https://x.com/elvissun/status/2090488290746994905" rel="noopener noreferrer" target="_blank">原帖二 · Elvis</a></p>
+          </article>
+          <article>
+<h3>Matthew Berman：Grok Bot 六个用例，还能接 Telegram</h3>
+      <p class="byline">Matthew Berman <a href="https://x.com/MatthewBerman" target="_blank" rel="noopener noreferrer">@MatthewBerman</a></p>
+      <div class="fold">
+<p>作者把 Grok @bot 当面向大众的个人 AI agent。自己在用的用例，以及怎么接到 Telegram：1）收件箱清零，自己不再看邮件；2）排日程、查会议冲突；3）DMV 注册、Amazon 退货、医生预约；4）读并整理孩子学校发来的邮件；5）清电脑里过期和臃肿文件；6）会议摘要和待办。Cursor 团队还给他看了怎么用 Grok Bot 管 Cursor Agents。原帖指向视频，时间线没有视频稿。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/MatthewBerman/status/2090510856950038587" rel="noopener noreferrer" target="_blank">原帖一 · Matthew Berman</a></p>
+          </article>
         </div>
       </section>
     </div>
 
     <div id="pane-maybe" class="pane">
-      <p class="note">信息不够硬，或暂时吃不准。12:00 三张空原文已按 12-articles.jsonl 打开：Yanhua harness / huangserva DFlash 2 进正文；Phin Barnes 融资观点留本页。</p>
+      <p class="note">信息不够硬，或暂时吃不准。16:00 三张空/截断已按 16-articles.jsonl 写全：Nav Toor Grokbot 60 分钟装机并进 Ridark 正文卡；OJO / Bedrock 按全文改卡。</p>
       <section>
         <h2>拿不准</h2>
         <div class="grid">
@@ -1451,6 +1592,69 @@ article .links {
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/bozhou_ai/status/2090322605035450662" rel="noopener noreferrer" target="_blank">原帖一 · 泊舟</a></p>
           </article>
+          <article>
+<h3>PostHog 要做 “doing company”：睡觉时找问题、修、开 PR</h3>
+      <p class="byline">Nicolas Dessaigne <a href="https://x.com/dessaigne" target="_blank" rel="noopener noreferrer">@dessaigne</a></p>
+      <div class="fold">
+<p>巴黎 Startup School 间隙和 PostHog 创始人 @james406 聊。作者觉得 PostHog 像在新转一次：本以产品分析见长，现在用 AI 做成 James 说的 doing company——找问题、修好、趁你睡觉开 PR。作者坐下想问清楚他们怎么走到这一步。没有步骤、产品页或价。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/dessaigne/status/2090488992806674697" rel="noopener noreferrer" target="_blank">原帖一 · Nicolas Dessaigne</a></p>
+          </article>
+          <article>
+<h3>Tibo：ChatGPT Site 做完就能分享，一起做小游戏</h3>
+      <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
+      <div class="fold">
+<p>Create a ChatGPT Site，分享出去一起做。作者说一直在用它跟别人做小游戏和站点，很好玩。没有创建路径或限制。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2090518287532916854" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a></p>
+          </article>
+          <article>
+<h3>Lenny 岗位筛选器：候选人在乎的 contextual filters</h3>
+      <p class="byline">Neelanjana Basu Iyer <a href="https://x.com/nee13njana" target="_blank" rel="noopener noreferrer">@nee13njana</a></p>
+      <div class="fold">
+<p>夸 @lennysan 团队：AI 功能很猛，但更打动她的是候选人真正在乎的 contextual filters。对比 LinkedIn 的 easy apply、不到 10 个申请人这类滤镜，发现不了相关岗位。没有滤镜清单或产品页。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/nee13njana/status/2090516543167709473" rel="noopener noreferrer" target="_blank">原帖一 · Neelanjana Basu Iyer</a></p>
+          </article>
+          <article>
+<h3>Bob Zhang：翻译一门营收 2000 万美金的在线写作课，20 点不在帖里</h3>
+      <p class="byline">Bob Zhang | Humorist <a href="https://x.com/affLeopard" target="_blank" rel="noopener noreferrer">@affLeopard</a></p>
+      <div class="fold">
+<p>太喜欢一篇文章，做了中文版；音频在小宇宙评论区。原文教在线写作，课程营收破 2000 万美金，大家分享了 20 点收获。作者读过这人不少写作书和油管，举例从不凑合。原作者吐槽干货没人看，他觉得中文观众识货，翻译播放量说不定更高。20 点本身不在时间线。续帖：播客不全是 AI 生成，他译完整理后自己读了一遍，觉得 AI 音频尬、传不出原来的情绪。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/affLeopard/status/2090481617387352333" rel="noopener noreferrer" target="_blank">原帖一 · Bob Zhang</a><a href="https://x.com/affLeopard/status/2090481954097672265" rel="noopener noreferrer" target="_blank">原帖二 · Bob Zhang</a></p>
+          </article>
+          <article>
+<h3>Mark Ajzenstadt：做 AI 交易的尽调其实并不彻底</h3>
+      <p class="byline">Mark Ajzenstadt <a href="https://x.com/mardehaym" target="_blank" rel="noopener noreferrer">@mardehaym</a></p>
+      <div class="fold">
+<p>写给评估软件公司的人：有经验的交易团队爱说尽调很彻底。作者要证明，对 AI 交易，他们并没有。只有钩子，方法不在这条时间线。Alex Prompter 转发「extremely important read if you evaluate AI companies」，无增量。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/mardehaym/status/2090478724290359520" rel="noopener noreferrer" target="_blank">原帖一 · Mark Ajzenstadt</a></p>
+          </article>
+          <article>
+<h3>matt palmer：把每个 Grok Bot 当应用，thin client / thick server</h3>
+      <p class="byline">matt palmer <a href="https://x.com/mattyp" target="_blank" rel="noopener noreferrer">@mattyp</a></p>
+      <div class="fold">
+<p>工作流变了：把每个 Grok Bot 当成一个应用。Client：chat；Server：@bot；DB：随便（gh、sheets、SaaS）。作者被「agents for everything」说服——薄客户端，厚服务器。没有配置或实例。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/mattyp/status/2090482777628324348" rel="noopener noreferrer" target="_blank">原帖一 · matt palmer</a></p>
+          </article>
+          <article>
+<h3>Mike P：Grok Bot 清了 10 万未读邮件，正在 Chrome 里退订</h3>
+      <p class="byline">Mike P <a href="https://x.com/mikepat711" target="_blank" rel="noopener noreferrer">@mikepat711</a></p>
+      <div class="fold">
+<p>Grok Bot 清完他 10 万封未读，接着在 Bot 自己的 Linux 机器上开 Chrome，真的去点退订。完成不了就叫他跳到那个 Chrome 做最后一下，但大多数已自己做完。两张截图在原帖。是使用见闻，没有可搬走的步骤。16 窗才第一次进时间线（sid 早于 12 点游标，但 4/8/12 jsonl 都没有）。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/mikepat711/status/2090422774825202020" rel="noopener noreferrer" target="_blank">原帖一 · Mike P</a></p>
+          </article>
         </div>
       </section>
     </div>
@@ -1460,6 +1664,177 @@ article .links {
       <section>
         <h2>已过滤</h2>
         <div class="grid">
+          <article>
+<h3>Kim</h3>
+      <p class="byline">Kim <a href="https://x.com/iamkim" target="_blank" rel="noopener noreferrer">@iamkim</a></p>
+      <div class="fold">
+<p>为这个功能高兴到说不完，自己参与了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/iamkim/status/2090500779228725733" rel="noopener noreferrer" target="_blank">原帖一 · Kim</a></p>
+          </article>
+          <article>
+<h3>Genspark</h3>
+      <p class="byline">Genspark <a href="https://x.com/genspark_ai" target="_blank" rel="noopener noreferrer">@genspark_ai</a></p>
+      <div class="fold">
+<p>Exploring the next wave of agentic creation. This is just the beginning.</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/genspark_ai/status/2090528724378943536" rel="noopener noreferrer" target="_blank">原帖一 · Genspark</a></p>
+          </article>
+          <article>
+<h3>Matthew Berman</h3>
+      <p class="byline">Matthew Berman <a href="https://x.com/MatthewBerman" target="_blank" rel="noopener noreferrer">@MatthewBerman</a></p>
+      <div class="fold">
+<p>有人私信说记得你当时 DM 过我；作者说 X 的价值无可比拟。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/MatthewBerman/status/2090526329867468880" rel="noopener noreferrer" target="_blank">原帖一 · Matthew Berman</a></p>
+          </article>
+          <article>
+<h3>Trevor Chandler</h3>
+      <p class="byline">Trevor Chandler 陳澤維 <a href="https://x.com/Trevor4SF" target="_blank" rel="noopener noreferrer">@Trevor4SF</a></p>
+      <div class="fold">
+<p>在父亲管的退休社区长大，见过找走失老人；谈公共安全技术和 Flock 摄像头时别忘每天救下的命。产业杂闻。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Trevor4SF/status/2090486457488068894" rel="noopener noreferrer" target="_blank">原帖一 · Trevor Chandler</a></p>
+          </article>
+          <article>
+<h3>Sid Sijbrandij</h3>
+      <p class="byline">Sid Sijbrandij <a href="https://x.com/sytses" target="_blank" rel="noopener noreferrer">@sytses</a></p>
+      <div class="fold">
+<p>自己的癌症是 n=1，不当可复制模型；写 The Cancer Letter 谈个性化医疗基础设施。不是能用的 AI 方法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/sytses/status/2090493384032952524" rel="noopener noreferrer" target="_blank">原帖一 · Sid Sijbrandij</a></p>
+          </article>
+          <article>
+<h3>Jason</h3>
+      <p class="byline">@jason <a href="https://x.com/Jason" target="_blank" rel="noopener noreferrer">@Jason</a></p>
+      <div class="fold">
+<p>本窗短句：Knicks in 4；Super / Oh Behave / Goth Chamath；Industry 里 CEO 用 AI slop 炒股会因太假被砍；德州数据中心先报用电需求。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Jason/status/2090524091312738494" rel="noopener noreferrer" target="_blank">原帖一 · Jason</a><a href="https://x.com/Jason/status/2090490370945593439" rel="noopener noreferrer" target="_blank">原帖二 · Jason</a><a href="https://x.com/Jason/status/2090489781536854136" rel="noopener noreferrer" target="_blank">原帖三 · Jason</a><a href="https://x.com/Jason/status/2090489101728231718" rel="noopener noreferrer" target="_blank">原帖四 · Jason</a><a href="https://x.com/Jason/status/2090486343025537277" rel="noopener noreferrer" target="_blank">原帖五 · Jason</a><a href="https://x.com/Jason/status/2090478681302929741" rel="noopener noreferrer" target="_blank">原帖六 · Jason</a></p>
+          </article>
+          <article>
+<h3>Garry's List</h3>
+      <p class="byline">Garry's List <a href="https://x.com/garryslist" target="_blank" rel="noopener noreferrer">@garryslist</a></p>
+      <div class="fold">
+<p>旧金山九年级必修课纲要，家长得预约去学区办公室监督下读；作者问学区在藏什么。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/garryslist/status/2090516393905283094" rel="noopener noreferrer" target="_blank">原帖一 · Garry's List</a></p>
+          </article>
+          <article>
+<h3>ahhhhfs</h3>
+      <p class="byline">ahhhhfs <a href="https://x.com/abskoop" target="_blank" rel="noopener noreferrer">@abskoop</a></p>
+      <div class="fold">
+<p>下月 Apple 又要发新品了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/abskoop/status/2090507960216883333" rel="noopener noreferrer" target="_blank">原帖一 · ahhhhfs</a></p>
+          </article>
+          <article>
+<h3>Eric Bahn</h3>
+      <p class="byline">Eric Bahn <a href="https://x.com/ericbahn" target="_blank" rel="noopener noreferrer">@ericbahn</a></p>
+      <div class="fold">
+<p>Fuck cancer.</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/ericbahn/status/2090499902262616531" rel="noopener noreferrer" target="_blank">原帖一 · Eric Bahn</a></p>
+          </article>
+          <article>
+<h3>Maddie D. Reese</h3>
+      <p class="byline">Maddie D. Reese <a href="https://x.com/maddiedreese" target="_blank" rel="noopener noreferrer">@maddiedreese</a></p>
+      <div class="fold">
+<p>Why did it take me so long to try Ghostty?? Wow</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/maddiedreese/status/2090498904441930020" rel="noopener noreferrer" target="_blank">原帖一 · Maddie D. Reese</a></p>
+          </article>
+          <article>
+<h3>Polymarket</h3>
+      <p class="byline">Polymarket <a href="https://x.com/Polymarket" target="_blank" rel="noopener noreferrer">@Polymarket</a></p>
+      <div class="fold">
+<p>Similarweb：上月 X 网页流量增长超过 Google、YouTube、Facebook、Instagram 和 Reddit。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Polymarket/status/2090485516755968480" rel="noopener noreferrer" target="_blank">原帖一 · Polymarket</a></p>
+          </article>
+          <article>
+<h3>Kevin Simback</h3>
+      <p class="byline">Kevin Simback <a href="https://x.com/KSimback" target="_blank" rel="noopener noreferrer">@KSimback</a></p>
+      <div class="fold">
+<p>People have bad information. I have asymmetric information。Don't fight the Fed → don't fight the Treasury。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/KSimback/status/2090496573771833642" rel="noopener noreferrer" target="_blank">原帖一 · Kevin Simback</a></p>
+          </article>
+          <article>
+<h3>Elon Musk</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer">@elonmusk</a></p>
+      <div class="fold">
+<p>本窗短句：Accurate graph；Interesting ways to use Grok Bot（无内容）；准备又一次 Starship；弗洛伊德喘气时警察立刻叫了救护车；X is growing fast；只写 Grok 4.6（分数在 teslaownersSV 正文卡）。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elonmusk/status/2090494783068193078" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090489998382375423" rel="noopener noreferrer" target="_blank">原帖二 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090489744400482663" rel="noopener noreferrer" target="_blank">原帖三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090483357456990564" rel="noopener noreferrer" target="_blank">原帖四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090481460599783592" rel="noopener noreferrer" target="_blank">原帖五 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090481318849106250" rel="noopener noreferrer" target="_blank">原帖六 · Elon Musk</a></p>
+          </article>
+          <article>
+<h3>FatDon Capital</h3>
+      <p class="byline">FatDon Capital <a href="https://x.com/FatDon420" target="_blank" rel="noopener noreferrer">@FatDon420</a></p>
+      <div class="fold">
+<p>All-In 小阵容播客观感：Dario / 水耗 / 开源 / Grok 要诚实 / Zuck / 每年给 SpaceXai 3k。立场杂谈，没有新方法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/FatDon420/status/2090479671087354249" rel="noopener noreferrer" target="_blank">原帖一 · FatDon Capital</a></p>
+          </article>
+          <article>
+<h3>Every</h3>
+      <p class="byline">Every <a href="https://x.com/every" target="_blank" rel="noopener noreferrer">@every</a></p>
+      <div class="fold">
+<p>@every has started following @GeneralistAI。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/every/status/2090479072832889255" rel="noopener noreferrer" target="_blank">原帖一 · Every</a></p>
+          </article>
+          <article>
+<h3>Alex Prompter</h3>
+      <p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" target="_blank" rel="noopener noreferrer">@alex_prompter</a></p>
+      <div class="fold">
+<p>extremely important read if you evaluate AI companies：转发钩子，无增量。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/alex_prompter/status/2090479124338896927" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a></p>
+          </article>
+          <article>
+<h3>Sahil Bloom</h3>
+      <p class="byline">Sahil Bloom <a href="https://x.com/SahilBloom" target="_blank" rel="noopener noreferrer">@SahilBloom</a></p>
+      <div class="fold">
+<p>用钱抹掉生活里每一点不便，长期是负的；剂量决定毒性。人生鸡汤。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/SahilBloom/status/2090478737573711950" rel="noopener noreferrer" target="_blank">原帖一 · Sahil Bloom</a></p>
+          </article>
+          <article>
+<h3>Kris Puckett</h3>
+      <p class="byline">Kris Puckett <a href="https://x.com/krispuckett" target="_blank" rel="noopener noreferrer">@krispuckett</a></p>
+      <div class="fold">
+<p>Boom @every and @danshipper - really excited for this。无增量跟帖。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/krispuckett/status/2090476907926065500" rel="noopener noreferrer" target="_blank">原帖一 · Kris Puckett</a></p>
+          </article>
+          <article>
+<h3>Bob Zhang</h3>
+      <p class="byline">Bob Zhang | Humorist <a href="https://x.com/affLeopard" target="_blank" rel="noopener noreferrer">@affLeopard</a></p>
+      <div class="fold">
+<p>父亲是恢复高考后第一批，农村自学英语当了一辈子老师，因为北京亲戚给了几本英语资料；最早的信息差。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/affLeopard/status/2090482940987994597" rel="noopener noreferrer" target="_blank">原帖一 · Bob Zhang</a></p>
+          </article>
           <article>
 <h3>Every</h3>
       <p class="byline">Every <a href="https://x.com/every" target="_blank" rel="noopener noreferrer">@every</a></p>
