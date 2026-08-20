@@ -1,9 +1,9 @@
 # X 关注游标
 
-- status_id: 2090228836793536870
-- url: https://x.com/imwsl90/status/2090228836793536870
-- author: 卫斯理
-- handle: @imwsl90
-- time_utc: 2026-08-20T00:06:03.000Z
-- note: 20:00 ET 窗最新。12+16 漏网已补一轮，游标前移。
-- updated: 2026-08-19 20:30 ET
+- status_id: 2090289218639860211
+- url: https://x.com/Michell49473040/status/2090289218639860211
+- author: yongge
+- handle: @Michell49473040
+- time_utc: 2026-08-20T04:06:00.000Z
+- note: 0:00 ET 窗最新。19 日已收完 0 点前；0 点后 2 条未开 20 日页。
+- updated: 2026-08-20 00:25 ET
