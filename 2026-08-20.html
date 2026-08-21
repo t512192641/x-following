@@ -238,7 +238,7 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-20</h1>
-      <p class="meta">美国时间 2026-08-20。4:00 + 8:00 + 12:00 + 16:00 + 20:00 ET（抓 77）并入。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-20。4:00 + 8:00 + 12:00 + 16:00 + 20:00 ET 已合并；0:00 ET（21 日窗）余下 97 条（仍属 20 日 ET）并进完整版。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="site-nav" aria-label="日期">
       <a href="index.html">首页</a>
@@ -247,9 +247,9 @@ article .links {
       <a href="2026-08-18.html">08-18</a>
     </nav>
     <nav class="tabs" aria-label="页签">
-      <button type="button" class="tab is-active" data-pane="main">正文 82</button>
-      <button type="button" class="tab" data-pane="maybe">拿不准 61</button>
-      <button type="button" class="tab" data-pane="filtered">已过滤 204</button>
+      <button type="button" class="tab is-active" data-pane="main">正文 99</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 74</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 258</button>
     </nav>
     <div class="view-tools" aria-label="展开">
       <button type="button" class="tab" id="btn-expand">全部展开</button>
@@ -260,6 +260,33 @@ article .links {
       <section>
         <h2>模型 / 研究</h2>
         <div class="grid">
+          <article>
+<h3>Cola 上线 Ox：多模态小参数，限时免费</h3>
+      <p class="byline">Orange AI <a href="https://x.com/oran_ge" target="_blank" rel="noopener noreferrer">@oran_ge</a></p>
+      <div class="fold">
+<p>Cola 上线新模型 Ox。作者写：多模态，小参数，强后训练，Terra 能力级别，flash 的速度。</p><p>目前限时免费体验。beta 模型没有技术支持，且可能存在一定问题，请谨慎使用。问题可以在这个帖子集中反馈。体验地址 https://colaos.ai</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/oran_ge/status/2090635985331818920" rel="noopener noreferrer" target="_blank">原帖一 · Orange AI</a><a href="https://colaos.ai" rel="noopener noreferrer" target="_blank">colaos.ai</a></p>
+          </article>
+          <article>
+<h3>Co-RL：Qwen 和 Llama 互相当奖励，数学代码涨 3–8 分</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank" rel="noopener noreferrer">@Love1mothe</a></p>
+      <div class="fold">
+<p>单模型做自奖励强化学习，跑久了很容易陷入自我确认的死循环。Co-RL 不给标准答案，也不搞复杂的大模型裁判。</p><p>把 Qwen 和 Llama 这类不同家族的模型放进训练循环，用对方的多数投票作为自己的奖励。底层架构和训练数据不同，犯错盲区互补。交叉监督在数学和代码基准上稳定提升 3 到 8 个点。</p><p>作者结论：做模型自进化，关键不在于让它自省，而在于引入独立的纠错信号。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2090623673279406547" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴</a></p>
+          </article>
+          <article>
+<h3>Zetta：冻结 VLA，外挂实时 Critic，LIBERO-Pro 34%→90%</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank" rel="noopener noreferrer">@Love1mothe</a></p>
+      <div class="fold">
+<p>具身模型在物理交互中很容易因微小扰动而崩溃。等动作做完再事后反思，救不回现场。</p><p>清华 AIR 的 Zetta 完全冻结底层 VLA 权重，在外层自动演化实时 Critic 与恢复代码。高频代码在动作执行中监控接触状态，抓握脱落立刻介入纠偏。离线再把修复成功的动作沉淀为通用技能。</p><p>LIBERO-Pro 成功率从 34% 涨到 90%。提炼出的纠偏代码还能零样本迁移到其他任务。作者结论：给大模型外挂一套可自进化的工程护栏，交付稳得多。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2090611640710705236" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴</a></p>
+          </article>
           <article>
 <h3>《预训练一个迷你 Kimi K3》：单卡 H200、$252、10.2 亿参数</h3>
       <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
@@ -359,9 +386,10 @@ article .links {
 <p>SenseNova U1.5 Lite 正式开源。作者说生成 1K 容易，难的是 Native 4K 还要精确按指令控图，多数模型在这里崩。</p>
 <p>轻量 8B 架构 + 原生 2K/4K 高分辨率输出 + 高空间控制，都向社区开放。高分辨率图里：超高像素密度下结构还能站住，物理光照和纹理仍锐。</p>
 <p>续帖给仓库：GitHub https://github.com/OpenSenseNova/SenseNova-U1 ；Hugging Face https://huggingface.co/collections/sensenova/sensenova-u15</p>
+<p>Berryxia：又免费开源本地生图小模型可以玩了。商汤开源了 SenseNova U1.5 Lite，一个 8B 的原生统一多模态模型。后半截抓取未写全。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/alex_prompter/status/2090510184074428911" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a><a href="https://x.com/alex_prompter/status/2090510273266205159" rel="noopener noreferrer" target="_blank">原帖二 · Alex Prompter</a><a href="https://github.com/OpenSenseNova/SenseNova-U1" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://huggingface.co/collections/sensenova/sensenova-u15" rel="noopener noreferrer" target="_blank">Hugging Face</a></p>
+      <p class="links"><a href="https://x.com/alex_prompter/status/2090510184074428911" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a><a href="https://x.com/alex_prompter/status/2090510273266205159" rel="noopener noreferrer" target="_blank">原帖二 · Alex Prompter</a><a href="https://x.com/berryxia/status/2090594317555372111" rel="noopener noreferrer" target="_blank">原帖三 · Berryxia.AI</a><a href="https://github.com/OpenSenseNova/SenseNova-U1" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://huggingface.co/collections/sensenova/sensenova-u15" rel="noopener noreferrer" target="_blank">Hugging Face</a></p>
           </article>
           <article>
 <h3>PatronusAI：约 200 小时设计师真做 Figma，开源 computer-use 数据</h3>
@@ -389,6 +417,78 @@ article .links {
         <h2>产品 / 工具</h2>
         <div class="grid">
           <article>
+<h3>OpenAI 开源 Codex Harness：CLI / SDK / app-server，不是整套自托管</h3>
+      <p class="byline">小互 <a href="https://x.com/xiaohu" target="_blank" rel="noopener noreferrer">@xiaohu</a></p>
+      <div class="fold">
+<p>OpenAI 将 Codex 的底层核心框 Harness 开源，可以把 Agent 接入自己的业务系统。</p><p>对开发者：少造一层基础设施。上下文记忆、工具调用、沙箱、进度和审批机制，都可以复用 Codex 已有的开源组件。对产品：物流后台、工单系统、报税软件和监控看板都可以成为 Codex 的工作界面。对用户：不用把工作重新搬进聊天框；原系统提供当前对象和业务状态，结果仍回到原来的正式记录。</p><p>说清楚：OpenAI 没有把整个 Codex、模型和云服务全部开源。明确开放的是 Codex CLI、SDK、app-server 等 Harness 与接入组件；模型访问、托管服务、IDE Extension 和 Codex cloud 仍是独立部分。开发者拿到的是 Agent 执行底座和接入层，不是整套 Codex 的自托管版本。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaohu/status/2090634335812821194" rel="noopener noreferrer" target="_blank">原帖一 · 小互</a></p>
+          </article>
+          <article>
+<h3>EverMe：跨会话跨设备共享记忆，AI Knows You 闪卡</h3>
+      <p class="byline">Elliot 艾略特 <a href="https://x.com/elliotchen100" target="_blank" rel="noopener noreferrer">@elliotchen100</a></p>
+      <div class="fold">
+<p>Elliot 预告 EverMe，给 agent 做跨会话、跨设备的记忆和知识共享，避免每次从零开始。</p><p>他最喜欢的功能是 AI Knows You：接上 X、Notion 和其他社交账号，EverMe 从你自己的记忆生成个性化闪卡。也可以直接回答问题，让 EverMe 再学一点你。还没有公开价或开通路径。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elliotchen100/status/2090647059611439360" rel="noopener noreferrer" target="_blank">原帖一 · Elliot 艾略特</a></p>
+          </article>
+          <article>
+<h3>Codex 额度：Analytics 看 credits/tokens/turns；有人 20x 缩到约 5x</h3>
+      <p class="byline">余温 <a href="https://x.com/gkxspace" target="_blank" rel="noopener noreferrer">@gkxspace</a></p>
+      <div class="fold">
+<p>余温：觉得 Codex 额度最近不耐用，可以打开 https://chatgpt.com/codex/cloud/settings/analytics ，再在开发者工具 Network 里搜 daily-workspace-usage-counts。total 会列出 credits、tokens、turns，分别对应额度消耗、Token 用量和任务轮次。对比前后几周：同一个模型、同类任务，消耗有没有突然变快。他估 20X pro 周限额大概在 1B–2B，还要看模型和有没有开 FAST。差别很大就查节点、是不是频繁切换地区。</p><p>北辰溯兴：社区测试显示部分 Pro 20x 账号额度被暗中下调。有受控测试跑了三千多万 Token，只消耗六百多 credits 就扣了百分之三周额度；反推每周只有约两万 credits，而正常账号过去有五六万。相当于挂着 20x，实际缩到 5x 档。推测是 OpenAI 调了风控，高并发、多线程或中转分发更容易中招。也可以通过 Codex Analytics 接口查每天真实扣费明细。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/gkxspace/status/2090636759637930434" rel="noopener noreferrer" target="_blank">原帖一 · 余温</a><a href="https://x.com/Love1mothe/status/2090629446458114517" rel="noopener noreferrer" target="_blank">原帖二 · 北辰溯兴</a><a href="https://chatgpt.com/codex/cloud/settings/analytics" rel="noopener noreferrer" target="_blank">Codex Analytics</a></p>
+          </article>
+          <article>
+<h3>renux：终端批量重命名，正则 + 预览 + 撤销</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb" target="_blank" rel="noopener noreferrer">@geekbb</a></p>
+      <div class="fold">
+<p>终端里批量重命名，过去要么手写 shell 循环，要么逐个右键改名。renux 用一个带 TUI 的工具把正则、占位符和文本转换收进同一界面，改前可预览、出错能撤销。</p><p>仓库 https://github.com/andrianllmm/renux</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/geekbb/status/2090637129483505787" rel="noopener noreferrer" target="_blank">原帖一 · Geek</a><a href="https://github.com/andrianllmm/renux" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>GitNexus：浏览器里把仓库预计算成知识图谱，4.5 万 star</h3>
+      <p class="byline">阿西_出海 <a href="https://x.com/axichuhai" target="_blank" rel="noopener noreferrer">@axichuhai</a></p>
+      <div class="fold">
+<p>GitNexus 把仓库地址或 ZIP 丢进去，把函数依赖、调用链、执行流预计算成一张可交互知识图谱。在浏览器里跑，不需要服务器。GitHub 4.5 万+ star。</p><p>背后是 Graph RAG：AI 改代码前先理解函数和模块的真实关系。作者写生产环境能减少 88% 的工具调用、节省 74% 的 token，也避免改一个 bug 动到别处。原帖没有仓库地址。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/axichuhai/status/2090628319788089480" rel="noopener noreferrer" target="_blank">原帖一 · 阿西_出海</a></p>
+          </article>
+          <article>
+<h3>AI Job Search：评估职位、改简历、写求职信、准备面试</h3>
+      <p class="byline">铁锤人 <a href="https://x.com/lxfater" target="_blank" rel="noopener noreferrer">@lxfater</a></p>
+      <div class="fold">
+<p>开源项目 AI Job Search，用 Claude 做求职辅导：根据个人资料评估职位、创建并协助优化简历、撰写求职信、准备面试。</p><p>仓库 https://github.com/MadsLorentzen/ai-job-search</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/lxfater/status/2090618439648121194" rel="noopener noreferrer" target="_blank">原帖一 · 铁锤人</a><a href="https://github.com/MadsLorentzen/ai-job-search" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>GPT-Image-2：ChatGPT 和 API 都能出透明图</h3>
+      <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
+      <div class="fold">
+<p>现在可以在 ChatGPT 里、也可以通过 API，用 GPT-Image-2 做透明图。作者发了一张仙人掌，准备打印贴到笔记本上。没有价或尺寸限制。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2090631723302469995" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a></p>
+          </article>
+          <article>
+<h3>Derrick：Codex 反馈集中在卡顿、同步、模型选择、时区、记忆</h3>
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank" rel="noopener noreferrer">@derrickcchoi</a></p>
+      <div class="fold">
+<p>Derrick 看完大家对 Codex 的反馈，五个主题特别集中：1. Windows 和 Mac 的卡顿与内存占用；2. 跨设备同步与手机端的会话衔接；3. 模型选择与推理强度的清晰度；4. 定时任务的时区设置；5. 项目内的持久记忆。</p><p>有些问题已经在持续优化，其他反馈会带回团队。没有给时间表或具体修复。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2090643264970100962" rel="noopener noreferrer" target="_blank">原帖一 · Derrick Choi</a></p>
+          </article>
+          <article>
 <h3>Knip：从入口建依赖图，清 JS/TS 未使用文件 / 导出 / 依赖</h3>
       <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
       <div class="fold">
@@ -401,19 +501,24 @@ article .links {
 <h3>Topview 进 Codex：订阅用户 10 次免费 MiniMax H3</h3>
       <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
       <div class="fold">
-<p>@TopviewAIhq 订阅用户有 10 次免费 MiniMax H3 视频生成，可以直接从 Codex 里跑。丢一段 prompt 或产品素材，Codex 接着想创意、拆分镜、出图、生成视频、做数字人和配音。结果回到 Topview，还能继续改。</p><p>内置视频 Skills：TikTok 产品广告、微短剧广告、痛点产品广告、爆款复刻，选一个再丢产品或 brief，不用自己搭流程。找脚本和角度时能查 TikTok、YouTube、Amazon、Shopee 的数据。批量电商广告、产品视频、社媒短片、数字人解说或短剧，都可以从一个对话做完。以前分镜做完就要换工具。</p>
+<p>@TopviewAIhq 订阅用户有 10 次免费 MiniMax H3 视频生成，可以直接从 Codex 里跑。丢一段 prompt 或产品素材，Codex 接着想创意、拆分镜、出图、生成视频、做数字人和配音。结果回到 Topview，还能继续改。</p>
+<p>余温把插件写成一条对话做完市场研究、创意、分镜、图片、视频、数字人、配音。入口 http://topview.ai/plugin。可以丢商品链接、产品图或 brief；支持查 TikTok、YouTube、Amazon、Shopee 的趋势和评论，找痛点和正在爆的钩子，再做广告策略和脚本。里面有 100 多个创意技能：TikTok 产品广告、试穿广告、痛点广告、微短剧、爆款仿拍。插件还能直接调 Topview 里的 MiniMax H3、Seedance、Wan、Kling、Vidu、GPT Image 2。</p>
+<p>鱼总写自己的四步：装插件 → 在 Codex 里说需求（可带产品图或链接）→ 先出创意和分镜、确认方向 → 自动出图出视频，回到 Topview 继续改。中间不用切工具。</p>
+<p>huangserva：留着 Codex 就是为了插件生态；这回觉得 Topview 有用。他写自己那张 48G 的 4090，15 秒片子总共跑了 10 多分钟，云端 API 还按秒计费。后半截抓取未写全。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/yanhua1010/status/2090585758226915690" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a></p>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2090585758226915690" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a><a href="https://x.com/gkxspace/status/2090639341710458973" rel="noopener noreferrer" target="_blank">原帖二 · 余温</a><a href="https://x.com/AI_Jasonyu/status/2090621335269458372" rel="noopener noreferrer" target="_blank">原帖三 · 鱼总聊AI</a><a href="https://x.com/servasyy_ai/status/2090594434073379241" rel="noopener noreferrer" target="_blank">原帖四 · huangserva</a><a href="https://x.com/gkxspace/status/2090643144153125069" rel="noopener noreferrer" target="_blank">原帖五 · 余温</a><a href="https://x.com/gkxspace/status/2090643103195787384" rel="noopener noreferrer" target="_blank">原帖六 · 余温</a><a href="http://topview.ai/plugin" rel="noopener noreferrer" target="_blank">topview.ai</a></p>
           </article>
           <article>
 <h3>Claude Academy 上线，课程全部免费</h3>
       <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank" rel="noopener noreferrer">@berryxia</a></p>
       <div class="fold">
-<p>Claude Academy 正式上线，课程全部免费。https://academy.claude.com</p><p>官方课程和教程按阶段分层，从刚接触 AI 到每天深度用 Claude。作者认为 Anthropic 开始系统做 AI 教育，不只卖模型；免费、公开、分层是在降门槛。</p>
+<p>Claude Academy 正式上线，课程全部免费。https://academy.claude.com</p>
+<p>小互：Anthropic 把公司内部已经在用的员工培训方法整理并公开。平台既有 Claude 产品课程，也有和具体产品、模型无关的通用 AI 认知课程。五条教学理念：1. AI 教育首先要增强人的自主权；2. 长期心智比固定技巧更重要；3. 安全使用 AI，要管理聊天框前后的完整过程；4. 学 AI 必须动手、试错和反思；5. 会用 AI 之后，它可以反过来加速一切学习。</p>
+<p>Yanhua：覆盖从零基础到进阶。产品教程含 Claude ai / Cowork / Claude Code / Tag / Platform；另有 AI Fluency 4D 框架；300+ 课程和教程（含 API、MCP、Agents）；视频课 + 测验 + 可分享证书徽章。登录 Claude 账号就能保存进度。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/berryxia/status/2090584967042511010" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia.AI</a><a href="https://academy.claude.com" rel="noopener noreferrer" target="_blank">academy.claude.com</a></p>
+      <p class="links"><a href="https://x.com/berryxia/status/2090584967042511010" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia.AI</a><a href="https://x.com/xiaohu/status/2090648370306335229" rel="noopener noreferrer" target="_blank">原帖二 · 小互</a><a href="https://x.com/yanhua1010/status/2090617528607535453" rel="noopener noreferrer" target="_blank">原帖三 · Yanhua</a><a href="https://academy.claude.com" rel="noopener noreferrer" target="_blank">academy.claude.com</a></p>
           </article>
           <article>
 <h3>SkillCorpus 开源：给 SkillHub 上的 skill 做评测指南</h3>
@@ -431,7 +536,7 @@ article .links {
 <p>六周促销，到 9 月 30 日 11:59 PM PST。</p><p>Design + GenTeam：Plus / Pro / Team 九折优惠（90% off），Enterprise 免费。GenMail：对所有人免费，Enterprise 不限量。Slides Ultra Mode：所有套餐五折。产品页 https://genspark.ai</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/genspark_ai/status/2090583207360311551" rel="noopener noreferrer" target="_blank">原帖一 · Genspark</a><a href="https://genspark.ai" rel="noopener noreferrer" target="_blank">genspark.ai</a></p>
+      <p class="links"><a href="https://x.com/genspark_ai/status/2090583207360311551" rel="noopener noreferrer" target="_blank">原帖一 · Genspark</a><a href="https://x.com/genspark_ai/status/2090618874605809762" rel="noopener noreferrer" target="_blank">原帖二 · Genspark</a><a href="https://genspark.ai" rel="noopener noreferrer" target="_blank">genspark.ai</a></p>
           </article>
           <article>
 <h3>NVIDIA NeMo Switchyard：按质/延迟/成本给 agent 每步选模型</h3>
@@ -564,9 +669,10 @@ article .links {
       <p class="byline">VerySmallWoods <a href="https://x.com/verysmallwoods" target="_blank" rel="noopener noreferrer">@verysmallwoods</a></p>
       <div class="fold">
 <p>DeepSeek Harness 小知识。插件 dsh-compaction-basic 随 dsh-base bundle 装进每个 profile。</p><p>预检：每步请求前算 token，默认到模型窗口 80% 触发压缩。兜底：provider 报 CONTEXT_WINDOW_EXCEEDED 时，压缩后重试。修剪：工具结果先无模型裁剪，再叫 LLM 做摘要。摘要调用复用原对话前缀，保住缓存。只替换不累积：摘要节点用 surface replace 换掉旧内容。</p>
+<p>铁锤人：DeepSeek Harness 发新版本，增强多模态能力，说小短板被补上了。没有变更清单。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/verysmallwoods/status/2090421950682194261" rel="noopener noreferrer" target="_blank">原帖一 · VerySmallWoods</a><a href="https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/compaction/compaction/README.md" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+      <p class="links"><a href="https://x.com/verysmallwoods/status/2090421950682194261" rel="noopener noreferrer" target="_blank">原帖一 · VerySmallWoods</a><a href="https://x.com/lxfater/status/2090614535115940157" rel="noopener noreferrer" target="_blank">原帖二 · 铁锤人</a><a href="https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/compaction/compaction/README.md" rel="noopener noreferrer" target="_blank">GitHub</a></p>
           </article>
 
           <article>
@@ -679,9 +785,10 @@ article .links {
 <p>8:00 窗续推：再发「Try @Grok @Bot」「Grok @Bot can earn you money」「Grok @Bot」；并写 Grok Bot 自带远程电脑 @SpaceXAI，合上笔记本或重启桌面后仍继续干活，称这是 big difference。另有一条「Grok Build」指向 https://X.ai/build。</p>
 <p>Lacey（流里旧帖）：Grok Bot 每天把更新和内容直接送到你的 Grok Build，在 Grok 里原生对话。Build once. Ship forever.</p><p>12:00 窗再发两条只写「Grok @Bot」，没有版本号、价或变更清单。</p>
 <p>16:00 窗：Elon 写 Grok @Bot 能做讲解复杂概念的视频。Joe Hansen 把远程电脑写全——这是转帖，4/8/12 jsonl 没有，本窗才进流。Bot 跑在 SpaceXAI 管的远程电脑上，合上笔记本、重启桌面或去睡觉都继续干。和 Hermes / OpenClaw 比：那些要本机常开，合盖就停；自己管 VPS 还得管在线、更新和安全。SpaceXAI 按账号配一台电脑，账号下所有 Bot 共用；浏览器会话、文件、登录保持活着，一个 Bot 能接着另一个的进度，不用重新登录或搬文件。也可把最长 10 分钟的流程录成可复用 skill。销售跟进、复现 bug、发票、过夜研究都可以放下走人。</p><p>20:00 窗：Elon 写「Easiest way to try Grok Build」。Evan Bacon：Grok Build mode 已扩到所有 SuperGrok 和 X Premium 用户，从任何地方创建、remix、做原型，不用写代码。Andrew Milich：从任意 Grok app 就能做带完整 auth、数据库、私密分享、自定义域名和 SpaceXAI API 的应用。Naval：agent 就该持久、该有自己的电脑，还差具身。KanekoaTheGreat：屋顶承包商用 Grok Bot 跑后台，水管工用它约工；每条 agent 有一台电脑真干活。Bacon / Milich / Naval / Kanekoa 的 sid 早于或等于 16 点游标附近，4/8/12/16 jsonl 没有，本窗才进流。</p>
+<p>0:00 窗：X Premium 官方写，one prompt 就能把想法做成带自己域名、可分享的网页应用。现已对 X Premium 和 SuperGrok 订阅用户开放，在 Grok app 里试。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/elonmusk/status/2090288581466304765" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090311312228360406" rel="noopener noreferrer" target="_blank">原帖二 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090310081086980426" rel="noopener noreferrer" target="_blank">原帖三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090309977646960765" rel="noopener noreferrer" target="_blank">原帖四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090307531952525787" rel="noopener noreferrer" target="_blank">原帖五 · Elon Musk</a><a href="https://x.ai/build" rel="noopener noreferrer" target="_blank">x.ai/build</a><a href="https://x.com/elonmusk/status/2090400832126640405" rel="noopener noreferrer" target="_blank">原帖六 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090398269318758570" rel="noopener noreferrer" target="_blank">原帖七 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090394799228506293" rel="noopener noreferrer" target="_blank">原帖八 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090393510956401073" rel="noopener noreferrer" target="_blank">原帖九 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090392529862602857" rel="noopener noreferrer" target="_blank">原帖十 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090390238958903722" rel="noopener noreferrer" target="_blank">原帖十一 · Elon Musk</a><a href="https://x.com/LaceyPresley/status/2090222739328053353" rel="noopener noreferrer" target="_blank">原帖十二 · Lacey</a><a href="https://x.com/elonmusk/status/2090472194946080795" rel="noopener noreferrer" target="_blank">原帖十三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090471974313001026" rel="noopener noreferrer" target="_blank">原帖十四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090492504223170671" rel="noopener noreferrer" target="_blank">原帖十五 · Elon Musk</a><a href="https://x.com/joehansen/status/2090452168037831119" rel="noopener noreferrer" target="_blank">原帖十六 · Joe Hansen</a><a href="https://x.com/elonmusk/status/2090560905746473398" rel="noopener noreferrer" target="_blank">原帖十七 · Elon Musk</a><a href="https://x.com/Baconbrix/status/2090520924261126320" rel="noopener noreferrer" target="_blank">原帖十八 · Evan Bacon</a><a href="https://x.com/milichab/status/2090519353087213780" rel="noopener noreferrer" target="_blank">原帖十九 · Andrew Milich</a><a href="https://x.com/naval/status/2090497355649008059" rel="noopener noreferrer" target="_blank">原帖二十 · Naval</a><a href="https://x.com/KanekoaTheGreat/status/2090568508069572975" rel="noopener noreferrer" target="_blank">原帖二十一 · KanekoaTheGreat</a></p>
+      <p class="links"><a href="https://x.com/elonmusk/status/2090288581466304765" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090311312228360406" rel="noopener noreferrer" target="_blank">原帖二 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090310081086980426" rel="noopener noreferrer" target="_blank">原帖三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090309977646960765" rel="noopener noreferrer" target="_blank">原帖四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090307531952525787" rel="noopener noreferrer" target="_blank">原帖五 · Elon Musk</a><a href="https://x.ai/build" rel="noopener noreferrer" target="_blank">x.ai/build</a><a href="https://x.com/elonmusk/status/2090400832126640405" rel="noopener noreferrer" target="_blank">原帖六 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090398269318758570" rel="noopener noreferrer" target="_blank">原帖七 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090394799228506293" rel="noopener noreferrer" target="_blank">原帖八 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090393510956401073" rel="noopener noreferrer" target="_blank">原帖九 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090392529862602857" rel="noopener noreferrer" target="_blank">原帖十 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090390238958903722" rel="noopener noreferrer" target="_blank">原帖十一 · Elon Musk</a><a href="https://x.com/LaceyPresley/status/2090222739328053353" rel="noopener noreferrer" target="_blank">原帖十二 · Lacey</a><a href="https://x.com/elonmusk/status/2090472194946080795" rel="noopener noreferrer" target="_blank">原帖十三 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090471974313001026" rel="noopener noreferrer" target="_blank">原帖十四 · Elon Musk</a><a href="https://x.com/elonmusk/status/2090492504223170671" rel="noopener noreferrer" target="_blank">原帖十五 · Elon Musk</a><a href="https://x.com/joehansen/status/2090452168037831119" rel="noopener noreferrer" target="_blank">原帖十六 · Joe Hansen</a><a href="https://x.com/elonmusk/status/2090560905746473398" rel="noopener noreferrer" target="_blank">原帖十七 · Elon Musk</a><a href="https://x.com/Baconbrix/status/2090520924261126320" rel="noopener noreferrer" target="_blank">原帖十八 · Evan Bacon</a><a href="https://x.com/milichab/status/2090519353087213780" rel="noopener noreferrer" target="_blank">原帖十九 · Andrew Milich</a><a href="https://x.com/naval/status/2090497355649008059" rel="noopener noreferrer" target="_blank">原帖二十 · Naval</a><a href="https://x.com/KanekoaTheGreat/status/2090568508069572975" rel="noopener noreferrer" target="_blank">原帖二十一 · KanekoaTheGreat</a><a href="https://x.com/premium/status/2090604240649732437" rel="noopener noreferrer" target="_blank">原帖二十二 · Premium</a></p>
           </article>
           <article>
 <h3>Grok Bot 每月 300 美元：有人 30 分钟对齐 6 个月账</h3>
@@ -744,6 +851,24 @@ article .links {
       <section>
         <h2>提示词</h2>
         <div class="grid">
+          <article>
+<h3>小小东：GPT 图像 手账早餐早安（各国早餐）</h3>
+      <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01" target="_blank" rel="noopener noreferrer">@xiaoxiaodong01</a></p>
+      <div class="fold">
+<p>GPT2 × 手账 × 早餐 × 早安 × 美学提示词。东八区早上，再次发早安提示词，主题是介绍各国早餐。</p><p>原文写「如下是本次完整提示词（长提示词）」，时间线被截断，抓取未写全。不补造后半截。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2090603326975181228" rel="noopener noreferrer" target="_blank">原帖一 · 小小东</a></p>
+          </article>
+          <article>
+<h3>小小东：3:4 上下对半高端海报（抓取未写全）</h3>
+      <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01" target="_blank" rel="noopener noreferrer">@xiaoxiaodong01</a></p>
+      <div class="fold">
+<p>时间线只抓到开头：请将每张上传的照片转化为一张独立的高端设计海报，每张照片对应一个输出，不得使用多图拼贴形式，采用 3:4 纵向布局，严格分为上下两个等高 1:1 部分。</p><p>后半是超长美学提示词，抓取未写全。不补造。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2090608639551918110" rel="noopener noreferrer" target="_blank">原帖一 · 小小东</a></p>
+          </article>
           <article>
 <h3>小小东：GPT 图像 植物拼合重构（VOL.030）</h3>
       <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01" target="_blank" rel="noopener noreferrer">@xiaoxiaodong01</a></p>
@@ -843,9 +968,10 @@ article .links {
 文字保持少量且高级，不只是地点名，而应从照片的主题、身份、情绪、动作、时间或隐喻中提炼简洁英文标题，并搭配少量编号、状态词或微型注释。文字可沿主体轮廓、结构线、留白边缘或画面轴线自然排布，以克制的高级编辑方式与图形共同构图，形成低调但有设计感的版式关系。
 
 整体参考国际设计工作室、建筑海报、艺术展览海报与高级品牌视觉系统，呈现高级、现代、安静、人文、艺术化、克制而温柔的视觉气质。避免普通滤镜、廉价矢量感、过强3D、卡通感、电商感和模板感。</pre>
+<p>作者后来又发 VOL.026：这是最近 logo 思路里的第四个；随拍也能变 logo。建议补充 logo 名称、配色、文字偏好。他举的补充是文字偏好阿拉伯语，并让模型想一个阿拉伯语 logo 名。完整提示词写「详见原帖」，时间线没再贴一遍。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2090433161096581434" rel="noopener noreferrer" target="_blank">原帖一 · 小小东</a></p>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2090433161096581434" rel="noopener noreferrer" target="_blank">原帖一 · 小小东</a><a href="https://x.com/xiaoxiaodong01/status/2090616800711229764" rel="noopener noreferrer" target="_blank">原帖二 · 小小东</a></p>
           </article>
           <article>
 <h3>小小东：GPT 图像 几何窗口穿越（VOL.24）</h3>
@@ -982,6 +1108,42 @@ article .links {
       <section>
         <h2>方法</h2>
         <div class="grid">
+          <article>
+<h3>Yanhua：Pi 上下文压缩，reserveTokens 16384，保留最近约 20k</h3>
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+      <div class="fold">
+<p>X 文章《【Agent 内核拆解】系列文章第 4 篇：Pi 上下文压缩的那些事》。对照三个开源 coding agent：OpenAI Codex（101k star）、xAI grok-build（23k star）、earendil pi（78k star），一层层拆内核，最后从零写一个自己的。前三篇拆完 while 循环、模型调用、工具执行。</p><p>连续工作后对话历史会把窗口填满。pi 的办法是 compaction：旧对话用 LLM 总结成摘要，最近几千 token 原文保留。</p><p>何时压缩：每轮结束后检查 token。shouldCompact 在 contextTokens &gt; contextWindow - settings.reserveTokens 时触发；reserveTokens 默认 16384。1M 窗口大约超过 983k 就压。API 已经 overflow 时，pi 在 overflow.ts 里维护大约 25 种正则，覆盖 Anthropic「prompt is too long」、OpenAI「exceeds the context window」以及 Google / xAI / Groq 各自的写法。有的 provider 静默截断，就看 usage 的 input tokens 是否超过窗口。阈值触发后压完停下等下一条；溢出触发则删掉失败的 assistant message，压完自动重试，只试一次。token 估算优先用 provider 真实 usage，之后新增消息用字符数除以 4。</p><p>切割：从末尾往前累加，保留最近消息默认 20000 token，切在合法消息边界（用户/助手起始；工具结果不拆）。大约保留最近 5 到 20 轮。摘要固定结构：Goal / Constraints &amp; Preferences / Progress (Done / In Progress / Blocked) / Key Decisions / Next Steps / Critical Context。有旧摘要就包在 &lt;previous-summary&gt; 里增量更新。摘要末尾追加 &lt;read-files&gt; 和 &lt;modified-files&gt;，从 toolCall 的 path 提取，不靠模型记。压缩后旧对话变成一条用户消息，说明 history 已被 compacted。扩展钩子 session_before_compact 可以取消或替换；自带示例用 Gemini Flash 做摘要。</p><p>配套代码在仓库 steps/04。建议：把 CONTEXT_WINDOW 设成 8192 观察压缩；跑 demo-compaction.mjs（不用 API key）；让 agent 连续读很多文件看文件列表。下一篇讲权限与安全。仓库 https://github.com/yanhua1010/build-your-own-coding-agent ；参考 https://earendil.com/posts/compaction-in-pi/</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2090636728646438931" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a><a href="https://github.com/yanhua1010/build-your-own-coding-agent" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://earendil.com/posts/compaction-in-pi/" rel="noopener noreferrer" target="_blank">earendil.com</a></p>
+          </article>
+          <article>
+<h3>Yangyi：企业 AI 第一刀选老板在乎、可独立、有 ROI 的营销点</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+      <div class="fold">
+<p>企业 AI 落地最难的是选第一切入。上来就做流程数字智能化，第一次合作信任不够，依赖项又多，容易烂尾。很多制造业进销存还靠记事本，先数字化改造周期就很长。</p><p>三个交叉点：1. 老板认为很重要；2. 可独立完成、依赖项少；3. 产出有明显提升。交点往往是营销获客。找一个非常小的单点，哪怕只提升一点：不太依赖系统协作，一个人也能做，但结果有系统产出和 ROI。先拿结果建信任，再往下推。</p><p>他在 NewMax 上的结论：营销场景做足够深，就是最大的差异化。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yangyi/status/2090619498399420548" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>逸尘：先手搓 PPT，再让 Codex 按 Kami / Open Design 润色</h3>
+      <p class="byline">逸尘 <a href="https://x.com/gengdaJ" target="_blank" rel="noopener noreferrer">@gengdaJ</a></p>
+      <div class="fold">
+<p>用 Codex 做 PPT：先自己手搓，再找一个好的设计 Skill，让 Codex 参考风格润色。直接让它按思路生成，效果差、AI 味太大。</p><p>他用 WPS 最原始模板，手搓加入关键文字、图片和视频，做了 28 页，再让 Codex 按 Kami 的风格优化，且不改变页数和任何文字。生成的 PPTX 还能回 WPS 手动改。</p><p>推荐风格参考：https://github.com/tw93/Kami 和 https://github.com/nexu-io/open-design</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/gengdaJ/status/2090597249059602502" rel="noopener noreferrer" target="_blank">原帖一 · 逸尘</a><a href="https://github.com/tw93/Kami" rel="noopener noreferrer" target="_blank">GitHub Kami</a><a href="https://github.com/nexu-io/open-design" rel="noopener noreferrer" target="_blank">GitHub Open Design</a></p>
+          </article>
+          <article>
+<h3>Bear Liu：别找新时间，把素描嵌进已经在做的日常</h3>
+      <p class="byline">Bear Liu <a href="https://x.com/bearliu" target="_blank" rel="noopener noreferrer">@bearliu</a></p>
+      <div class="fold">
+<p>Sketchbook Skool 的 Danny：与其硬挤专门绘画时间，不如把素描嵌进已经在做的日常——等咖啡、开会间隙、刷牙前，捡一个天天重复的时刻加点画画。</p><p>作者自己在用。天天画同一个东西，才能看到细节层的进度：手眼脑更顺，观察更敏锐。比一周画一次有效。日常重复降低心理门槛，不用等状态好或想法完整。练得多了，手就知道怎么画。</p><p>建议：别找新时间，改造已有的习惯。适用于想坚持某项创意练习的人。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/bearliu/status/2090595996522733807" rel="noopener noreferrer" target="_blank">原帖一 · Bear Liu</a></p>
+          </article>
           <article>
 <h3>少个分号：研讨会 10 条 AI Native 共识，团队收到 4–5 人</h3>
       <p class="byline">少个分号 <a href="https://x.com/shaogefenhao" target="_blank" rel="noopener noreferrer">@shaogefenhao</a></p>
@@ -1253,6 +1415,123 @@ article .links {
       <section>
         <h2>拿不准</h2>
         <div class="grid">
+          <article>
+<h3>Bob Zhang：创始人表达是杠杆，每天 60 秒讲清一个决定</h3>
+      <p class="byline">Bob Zhang | Humorist <a href="https://x.com/affLeopard" target="_blank" rel="noopener noreferrer">@affLeopard</a></p>
+      <div class="fold">
+<p>X 文章《把一件事讲清楚：对创始人来说，表达能力不是锦上添花，而是一种不公平的优势。》产品不会自己开口；注意力稀缺，别人唯一有时间接收的是你说了什么。表达是乘法，产品是加法。</p><p>做法：把今天做的一个真实决定，用六十秒讲清楚——为什么选这个方案、为什么这个功能更重要、为什么押这个方向。录下来发出去，不剪辑不打磨。一天五分钟，坚持五年。不是演讲术清单，是软方法，信息不够硬。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/affLeopard/status/2090604327333425434" rel="noopener noreferrer" target="_blank">原帖一 · Bob Zhang</a></p>
+          </article>
+          <article>
+<h3>Geek：OpenCode DeepSeek V4 Flash 免费促销结束，两台机用了 12 亿</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb" target="_blank" rel="noopener noreferrer">@geekbb</a></p>
+      <div class="fold">
+<p>OpenCode DeepSeek V4 Flash 免费促销活动已结束。从 6 月 22 日开始，作者两台服务器部署的 CLI Proxy API 一共用了 12 亿。没有价、配额或替代方案。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/geekbb/status/2090645293343875450" rel="noopener noreferrer" target="_blank">原帖一 · Geek</a></p>
+          </article>
+          <article>
+<h3>Paul Graham：三条路径时先优化增长率，赢家可能是第四条</h3>
+      <p class="byline">Paul Graham <a href="https://x.com/paulg" target="_blank" rel="noopener noreferrer">@paulg</a></p>
+      <div class="fold">
+<p>今天和一家有三条巨大路径的创业公司做 office hours。他让他们优化增长率，让增长来决定。也许赢的路径会是还不知道的第四条。没有步骤或案例细节。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/paulg/status/2090644637971263640" rel="noopener noreferrer" target="_blank">原帖一 · Paul Graham</a></p>
+          </article>
+          <article>
+<h3>噪点：Codex 卡了三天，根因是 WebSocket 和 HTTP</h3>
+      <p class="byline">噪点noisepoint <a href="https://x.com/noisepoint_agi" target="_blank" rel="noopener noreferrer">@noisepoint_agi</a></p>
+      <div class="fold">
+<p>最近 Codex 卡到完全用不了，排查了 3 天：进程堆积、前后端会话不同步、unknown conversation、桌面端渲染出错，隔离测试，也看了官方 issue。</p><p>发现了一些 bug，但卡顿根因是网络，WebSocket 和 HTTP 全出了问题。没有可复现步骤或修复命令。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/noisepoint_agi/status/2090631685302047172" rel="noopener noreferrer" target="_blank">原帖一 · 噪点noisepoint</a></p>
+          </article>
+          <article>
+<h3>johnbens：一年 1000–1500 的投资工具，Codex + Cursor 复刻了 60–70%</h3>
+      <p class="byline">johnbens <a href="https://x.com/johnbens24" target="_blank" rel="noopener noreferrer">@johnbens24</a></p>
+      <div class="fold">
+<p>软件订阅费有了新 benchmark：Vibe Coding AI agent 订阅费。他用的投资工具涨到每年 1000–1500 美金，价格功能质量不成正比。</p><p>过去一个月用 Codex + Cursor 复刻了 60–70%，接下来 2–3 月测试打磨，估计能完成 AI 化替代。没有写出复刻了哪些模块。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/johnbens24/status/2090621070395265207" rel="noopener noreferrer" target="_blank">原帖一 · johnbens</a></p>
+          </article>
+          <article>
+<h3>Yangyi：结合屏幕上下文是挺好的参考输入</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+      <div class="fold">
+<p>结合屏幕上下文是一个挺好的参考信息输入。只有这一句，没有产品或做法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yangyi/status/2090616953941672375" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>Derrick：We got some speed with Cerebras</h3>
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank" rel="noopener noreferrer">@derrickcchoi</a></p>
+      <div class="fold">
+<p>只写 We got some speed with Cerebras。没有数字、模型和用法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2090611476717240615" rel="noopener noreferrer" target="_blank">原帖一 · Derrick Choi</a></p>
+          </article>
+          <article>
+<h3>Cell：推荐两本讲机械化伤中产、再接知识时代的书</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
+      <div class="fold">
+<p>强烈推荐两本书。工业革命长远创造财富，但机械化对民众的直接后果是毁灭性的：中等收入岗位式微、工资停滞、劳动收入份额下降、利润攀升、不平等加重。如今挫败感催生民粹和分裂。</p><p>《资本之后的世界》认为，只有把更大的自由度与坚定的人文主义价值观结合，才能从工业时代过渡到知识时代。另一本名字时间线没写全。不是可搬走的用法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/cellinlab/status/2090610713580695679" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>droidHZ：要交导航站，去 Yihui 帖子评论区看大 V 留下的站</h3>
+      <p class="byline">droidHZ <a href="https://x.com/hezhiyan7" target="_blank" rel="noopener noreferrer">@hezhiyan7</a></p>
+      <div class="fold">
+<p>想提交导航站的，可以看 Yihui 这篇帖子的评论区，好多大 V 留下了自己的导航站。没有列出站名或链接。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/hezhiyan7/status/2090608100227379538" rel="noopener noreferrer" target="_blank">原帖一 · droidHZ</a></p>
+          </article>
+          <article>
+<h3>Cell：经济自由 / 信息自由 / 心理自由（抓取未写全）</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
+      <div class="fold">
+<p>时间线开头：经济自由——确保每个人的需求都能得到满足，同时避免被迫陷入工作循环。信息自由——消除阻碍人们从现有知识中学习、从而限制新知识创造与共享的障碍。心理自由。</p><p>后半截抓取未写全。像书摘，不是用法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/cellinlab/status/2090603540393664636" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>David Carbutt：Grok Bot 一周内读 Slack / 邮件 / Notion / Stripe（抓取未写全）</h3>
+      <p class="byline">David Carbutt <a href="https://x.com/DavidCarbutt_" target="_blank" rel="noopener noreferrer">@DavidCarbutt_</a></p>
+      <div class="fold">
+<p>转帖。开头：Grok Bot is easily one of the best products I have used. Maybe ever. I have had it less than a week. I am not a developer. I talk to a chat window and it already knows my business better than I do. It reads Slack, email, meeting notes, Notion and Stripe...</p><p>后半截抓取未写全。是使用见闻，没有可搬走的步骤。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/DavidCarbutt_/status/2090603356649562522" rel="noopener noreferrer" target="_blank">原帖一 · David Carbutt</a></p>
+          </article>
+          <article>
+<h3>Paul Graham：蟑螂比喻出自 2008 年那篇，原文链 paulgraham.com/badeconomy</h3>
+      <p class="byline">Paul Graham <a href="https://x.com/paulg" target="_blank" rel="noopener noreferrer">@paulg</a></p>
+      <div class="fold">
+<p>这篇 2008 金融危机时写的文章解释 cockroach 这个说法从哪来。Airbnb 是典型蟑螂，2009 和 Covid 都帮了他们大忙。链接 https://paulgraham.com/badeconomy.html 。旧文指针，没有新方法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/paulg/status/2090596886034137522" rel="noopener noreferrer" target="_blank">原帖一 · Paul Graham</a><a href="https://paulgraham.com/badeconomy.html" rel="noopener noreferrer" target="_blank">paulgraham.com</a></p>
+          </article>
+          <article>
+<h3>VerySmallWoods：Codex 给会话重命名会智能给建议</h3>
+      <p class="byline">VerySmallWoods <a href="https://x.com/verysmallwoods" target="_blank" rel="noopener noreferrer">@verysmallwoods</a></p>
+      <div class="fold">
+<p>Codex 给会话重命名，会智能地给到建议。作者说自己今天才发现。没有入口或截图步骤。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/verysmallwoods/status/2090595652069654617" rel="noopener noreferrer" target="_blank">原帖一 · VerySmallWoods</a></p>
+          </article>
           
           
           
@@ -1821,6 +2100,492 @@ article .links {
       <section>
         <h2>已过滤</h2>
         <div class="grid">
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+      <div class="fold">
+<p>周五真的是啥都不想干啊。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2090649485584257227" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>逸尘</h3>
+      <p class="byline">逸尘 <a href="https://x.com/gengdaJ" target="_blank" rel="noopener noreferrer">@gengdaJ</a></p>
+      <div class="fold">
+<p>Codex 好用插件 +1，做视频又有可以选择的了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/gengdaJ/status/2090647290914685017" rel="noopener noreferrer" target="_blank">原帖一 · 逸尘</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent" target="_blank" rel="noopener noreferrer">@dontbesilent</a></p>
+      <div class="fold">
+<p>原来你们黑我是因为我做了 app 之后没有上市。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2090644855433363677" rel="noopener noreferrer" target="_blank">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent" target="_blank" rel="noopener noreferrer">@dontbesilent</a></p>
+      <div class="fold">
+<p>一边骂我一边又要关注我，拉黑。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2090644228208841146" rel="noopener noreferrer" target="_blank">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>小耳Jane｜Xiaoer</h3>
+      <p class="byline">小耳Jane｜Xiaoer <a href="https://x.com/xiaoerzhan" target="_blank" rel="noopener noreferrer">@xiaoerzhan</a></p>
+      <div class="fold">
+<p>今日喜欢的。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaoerzhan/status/2090642287248179627" rel="noopener noreferrer" target="_blank">原帖一 · 小耳Jane｜Xiaoer</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
+      <div class="fold">
+<p>对 Codex 的底线要求：服务器爆炸也能按文档恢复数据。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/cellinlab/status/2090639898785251498" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Andrew Ambrosino</h3>
+      <p class="byline">Andrew Ambrosino <a href="https://x.com/ajambrosino" target="_blank" rel="noopener noreferrer">@ajambrosino</a></p>
+      <div class="fold">
+<p>so transparent。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/ajambrosino/status/2090639832859148551" rel="noopener noreferrer" target="_blank">原帖一 · Andrew Ambrosino</a></p>
+          </article>
+          <article>
+<h3>Andrew Ambrosino</h3>
+      <p class="byline">Andrew Ambrosino <a href="https://x.com/ajambrosino" target="_blank" rel="noopener noreferrer">@ajambrosino</a></p>
+      <div class="fold">
+<p>说 @matteing 新来 OpenAI，还不知道发了这个就得做出来。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/ajambrosino/status/2090639318520037737" rel="noopener noreferrer" target="_blank">原帖一 · Andrew Ambrosino</a></p>
+          </article>
+          <article>
+<h3>Adam也叫吉米</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>这一篇奔着百万浏览，X 增长有时藏在生活小细节里。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2090637725452120312" rel="noopener noreferrer" target="_blank">原帖一 · Adam也叫吉米</a></p>
+          </article>
+          <article>
+<h3>北辰溯兴|conrad</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank" rel="noopener noreferrer">@Love1mothe</a></p>
+      <div class="fold">
+<p>奇异。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2090637710365237471" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴|conrad</a></p>
+          </article>
+          <article>
+<h3>鱼总聊AI</h3>
+      <p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" target="_blank" rel="noopener noreferrer">@AI_Jasonyu</a></p>
+      <div class="fold">
+<p>直出宣传视频~</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/AI_Jasonyu/status/2090637614260818272" rel="noopener noreferrer" target="_blank">原帖一 · 鱼总聊AI</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
+      <div class="fold">
+<p>昨天那条差点活跃度榜一，送 10 个月度兑换码 LoveXYYDS。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/cellinlab/status/2090637605507612943" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Yanhua</h3>
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+      <div class="fold">
+<p>真的方便了很多，打算试试数字人工作流。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2090637157878944128" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a></p>
+          </article>
+          <article>
+<h3>鱼总聊AI</h3>
+      <p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" target="_blank" rel="noopener noreferrer">@AI_Jasonyu</a></p>
+      <div class="fold">
+<p>这个便利性太强了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/AI_Jasonyu/status/2090636601537765773" rel="noopener noreferrer" target="_blank">原帖一 · 鱼总聊AI</a></p>
+          </article>
+          <article>
+<h3>Yanhua</h3>
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+      <div class="fold">
+<p>这下是真的方便了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2090636245689159929" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a></p>
+          </article>
+          <article>
+<h3>Elliot 艾略特</h3>
+      <p class="byline">Elliot 艾略特 <a href="https://x.com/elliotchen100" target="_blank" rel="noopener noreferrer">@elliotchen100</a></p>
+      <div class="fold">
+<p>Posting in English, Chinese bros will also engage with me.</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elliotchen100/status/2090635104142217618" rel="noopener noreferrer" target="_blank">原帖一 · Elliot 艾略特</a></p>
+          </article>
+          <article>
+<h3>Adam也叫吉米</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>AI 榜单看麻了，觉得 TRACES 测探索路径的思路对路。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2090633915426021808" rel="noopener noreferrer" target="_blank">原帖一 · Adam也叫吉米</a></p>
+          </article>
+          <article>
+<h3>M.</h3>
+      <p class="byline">M. <a href="https://x.com/wlzh" target="_blank" rel="noopener noreferrer">@wlzh</a></p>
+      <div class="fold">
+<p>宇树王兴兴说人形机器人现在不适合大规模进工厂或家庭。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/wlzh/status/2090633467474444452" rel="noopener noreferrer" target="_blank">原帖一 · M.</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+      <div class="fold">
+<p>算完 8 月收支，发现这个月白干了。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2090633292198576576" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Elon Musk</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer">@elonmusk</a></p>
+      <div class="fold">
+<p>True。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elonmusk/status/2090628549745291611" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a></p>
+          </article>
+          <article>
+<h3>北辰溯兴|conrad</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank" rel="noopener noreferrer">@Love1mothe</a></p>
+      <div class="fold">
+<p>算法在推 shit post，有判断力的人会自己滤噪音。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2090628083904921832" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴|conrad</a></p>
+          </article>
+          <article>
+<h3>Elvis</h3>
+      <p class="byline">Elvis <a href="https://x.com/elvissun" target="_blank" rel="noopener noreferrer">@elvissun</a></p>
+      <div class="fold">
+<p>这条也有 2.5M 浏览，觉得水印位置是营销。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elvissun/status/2090627969081626929" rel="noopener noreferrer" target="_blank">原帖一 · Elvis</a></p>
+          </article>
+          <article>
+<h3>Elvis</h3>
+      <p class="byline">Elvis <a href="https://x.com/elvissun" target="_blank" rel="noopener noreferrer">@elvissun</a></p>
+      <div class="fold">
+<p>有人每周骂 LinkedIn，他的信息流却都在转那人的图。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elvissun/status/2090627956972671438" rel="noopener noreferrer" target="_blank">原帖一 · Elvis</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
+      <div class="fold">
+<p>一年前的灵感有点像最近爆火的插件架构，过于领先是烈士。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/cellinlab/status/2090626597477138636" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>@jason</h3>
+      <p class="byline">@jason <a href="https://x.com/Jason" target="_blank" rel="noopener noreferrer">@Jason</a></p>
+      <div class="fold">
+<p>Nevada 从禁网约车十年到一年内部署 8000 辆自动驾驶。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Jason/status/2090624465029746801" rel="noopener noreferrer" target="_blank">原帖一 · @jason</a></p>
+          </article>
+          <article>
+<h3>@jason</h3>
+      <p class="byline">@jason <a href="https://x.com/Jason" target="_blank" rel="noopener noreferrer">@Jason</a></p>
+      <div class="fold">
+<p>I love that another generation gets to experience this meme。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Jason/status/2090623875868414126" rel="noopener noreferrer" target="_blank">原帖一 · @jason</a></p>
+          </article>
+          <article>
+<h3>北辰溯兴|conrad</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank" rel="noopener noreferrer">@Love1mothe</a></p>
+      <div class="fold">
+<p>讲许家印空手套白狼：借钱买原始股、超两千亿商票、债转股。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2090623368068534768" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴|conrad</a></p>
+          </article>
+          <article>
+<h3>Jimmy Cheung</h3>
+      <p class="byline">Jimmy Cheung <a href="https://x.com/remixdesigner" target="_blank" rel="noopener noreferrer">@remixdesigner</a></p>
+      <div class="fold">
+<p>评论区黄推 Bot 有什么办法屏蔽。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/remixdesigner/status/2090622728210723069" rel="noopener noreferrer" target="_blank">原帖一 · Jimmy Cheung</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+      <div class="fold">
+<p>家里台式机 Windows，用 Mac 会显得割裂。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2090620659408003432" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Chris Bakke</h3>
+      <p class="byline">Chris Bakke <a href="https://x.com/ChrisJBakke" target="_blank" rel="noopener noreferrer">@ChrisJBakke</a></p>
+      <div class="fold">
+<p>Let's see how things are going over at The Atlantic.</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/ChrisJBakke/status/2090620620115755306" rel="noopener noreferrer" target="_blank">原帖一 · Chris Bakke</a></p>
+          </article>
+          <article>
+<h3>Derrick Choi</h3>
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank" rel="noopener noreferrer">@derrickcchoi</a></p>
+      <div class="fold">
+<p>Great to see but so much more to do。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2090619152595628255" rel="noopener noreferrer" target="_blank">原帖一 · Derrick Choi</a></p>
+          </article>
+          <article>
+<h3>Derrick Choi</h3>
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank" rel="noopener noreferrer">@derrickcchoi</a></p>
+      <div class="fold">
+<p>Another one。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2090619001898733753" rel="noopener noreferrer" target="_blank">原帖一 · Derrick Choi</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+      <div class="fold">
+<p>已到星巴克....</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2090618548205002889" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Elon Musk</h3>
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer">@elonmusk</a></p>
+      <div class="fold">
+<p>Starlink will help serve the most underserved people of India。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/elonmusk/status/2090616381599629749" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a></p>
+          </article>
+          <article>
+<h3>Maddie D. Reese</h3>
+      <p class="byline">Maddie D. Reese <a href="https://x.com/maddiedreese" target="_blank" rel="noopener noreferrer">@maddiedreese</a></p>
+      <div class="fold">
+<p>It’s a spider。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/maddiedreese/status/2090612281491255720" rel="noopener noreferrer" target="_blank">原帖一 · Maddie D. Reese</a></p>
+          </article>
+          <article>
+<h3>Maddie D. Reese</h3>
+      <p class="byline">Maddie D. Reese <a href="https://x.com/maddiedreese" target="_blank" rel="noopener noreferrer">@maddiedreese</a></p>
+      <div class="fold">
+<p>Ugh, there’s a bug in my code :/</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/maddiedreese/status/2090612001957638327" rel="noopener noreferrer" target="_blank">原帖一 · Maddie D. Reese</a></p>
+          </article>
+          <article>
+<h3>Paul Graham</h3>
+      <p class="byline">Paul Graham <a href="https://x.com/paulg" target="_blank" rel="noopener noreferrer">@paulg</a></p>
+      <div class="fold">
+<p>I figured out what it will be called. It's obvious when you think about it. Feature.</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/paulg/status/2090606500297560551" rel="noopener noreferrer" target="_blank">原帖一 · Paul Graham</a></p>
+          </article>
+          <article>
+<h3>Yangyi</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+      <div class="fold">
+<p>问国内用 T-Mobile 实体卡最近几个月为什么没信号。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yangyi/status/2090602031778255276" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>鱼总聊AI</h3>
+      <p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" target="_blank" rel="noopener noreferrer">@AI_Jasonyu</a></p>
+      <div class="fold">
+<p>骂某个平台是垃圾、估计专门黑钱。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/AI_Jasonyu/status/2090601315206353389" rel="noopener noreferrer" target="_blank">原帖一 · 鱼总聊AI</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>希望 X 创作者收益能接受稳定币和狗狗币。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090601201255710901" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>未来是皇权与藩王的斗争，其他现象都是显化和工具。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090599184881873124" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
+          <article>
+<h3>yibie</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>很多时候大模型是为了他的「一句话想法」忙死忙活。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/yibie/status/2090599028702736563" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a></p>
+          </article>
+          <article>
+<h3>卫斯理</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+      <div class="fold">
+<p>六点半起到现在两个小时，带孩子做早餐，瘫在沙发上。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/imwsl90/status/2090598019385471080" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
+          <article>
+<h3>Mr Panda</h3>
+      <p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" target="_blank" rel="noopener noreferrer">@PandaTalk8</a></p>
+      <div class="fold">
+<p>有人在拼多多买乌电蛋孵出假的，吴军锐评连王八蛋都假。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/PandaTalk8/status/2090597742540378343" rel="noopener noreferrer" target="_blank">原帖一 · Mr Panda</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>人生不是按年龄交卷的线性赛道，20 岁没成功可以 30 岁重来。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090597082528899509" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>人到中年多吃蛋白质，保持肌肉锻炼。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090596797387509956" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
+          <article>
+<h3>Berryxia.AI</h3>
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank" rel="noopener noreferrer">@berryxia</a></p>
+      <div class="fold">
+<p>只写「地址：」，没有内容。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/berryxia/status/2090594596308807882" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia.AI</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>真正推动人成长的不是痛苦本身，而是旧能力解决不了新问题。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090592351878316104" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
+          <article>
+<h3>@levelsio</h3>
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+      <div class="fold">
+<p>只有食物日志是自己记的，其余靠 WHOOP 和家里传感器自动。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/levelsio/status/2090592083060883659" rel="noopener noreferrer" target="_blank">原帖一 · @levelsio</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>面对不好的关系：解决事情、调整关系、提升位置。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090592046684017031" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
+          <article>
+<h3>@levelsio</h3>
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+      <div class="fold">
+<p>You'd have to ask my bot, I don't know。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/levelsio/status/2090591973245694384" rel="noopener noreferrer" target="_blank">原帖一 · @levelsio</a></p>
+          </article>
+          <article>
+<h3>@jason</h3>
+      <p class="byline">@jason <a href="https://x.com/Jason" target="_blank" rel="noopener noreferrer">@Jason</a></p>
+      <div class="fold">
+<p>西弗吉尼亚给消费者封顶免费能源或免州税是好交易。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Jason/status/2090591941234667760" rel="noopener noreferrer" target="_blank">原帖一 · @jason</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>不要把注意力长期耗在「为什么会这样」，转向「我能改变什么」。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090591859861303533" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
+          <article>
+<h3>Morris</h3>
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+      <div class="fold">
+<p>真正高级的炫耀是让别人不断发现你拥有的比表现出来的更多。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2090591388211789859" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a></p>
+          </article>
           <article>
 <h3>杨高能</h3>
       <p class="byline">杨高能 <a href="https://x.com/430Yang" target="_blank" rel="noopener noreferrer">@430Yang</a></p>

@@ -1,9 +1,9 @@
 # X 关注游标
 
-- status_id: 2090590209532719190
-- url: https://x.com/indie_maker_fox/status/2090590209532719190
-- author: Indie Fox
-- handle: @indie_maker_fox
-- time_utc: 2026-08-21T00:02:01.000Z
-- note: 20:00 ET 窗最新。20 日各窗已齐，0 点交完整版。
-- updated: 2026-08-20 20:30 ET
+- status_id: 2090650996254859482
+- url: https://x.com/xiaoerzhan/status/2090650996254859482
+- author: 小耳Jane｜Xiaoer
+- handle: @xiaoerzhan
+- time_utc: 2026-08-21T04:03:34.000Z
+- note: 0:00 ET 窗最新。20 日已收完 0 点前；0 点后 3 条未开 21 日页。
+- updated: 2026-08-21 00:35 ET
