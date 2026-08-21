@@ -4,7 +4,7 @@
 
 ## 2026-08-21
 
-- 04:00 ET 抓 100 + 0 点后未开页的帖，开 21 日第一页。正文 17 / 拿不准 22 / 已过滤 43。5 张空原文无 04-articles.jsonl，进拿不准「疑似 X 文章」。2 张截断按原文写并标「抓取未写全」（Tibo sub2api；Adam 粉彩提示词）。0 点后 3 条：xiaoerzhan 2090650996254859482 进正文；elliotchen100 2090650118966145231 进拿不准；paulg 2090650547280023669 已在 04，不重复。sid≤旧游标且已在 19/20 jsonl 的 5 条未开卡。游标到 bearliu 2090711258785837144。已拷到 x-following-site 并推送。
+- 04:00 ET 抓 100 + 0 点后未开页的帖，开 21 日第一页。正文 19 / 拿不准 18 / 已过滤 44。5 张空原文已用 04-articles.jsonl：袋鼠帝豆包电脑版四玩法、H3 vs Seedance 七场景进正文；Codex Developers 卡并进责任边界；社区别先搭群进拿不准；yongge BTC 一周 17.6% 进已过滤。2 张截断按原文写并标「抓取未写全」（Tibo sub2api；Adam 粉彩提示词）。0 点后 3 条：xiaoerzhan 2090650996254859482 进正文；elliotchen100 2090650118966145231 进拿不准；paulg 2090650547280023669 已在 04，不重复。sid≤旧游标且已在 19/20 jsonl 的 5 条未开卡。游标到 bearliu 2090711258785837144。已拷到 x-following-site 并推送。
 - 0:00 ET 抓 125，97 条并进 20 日完整版；3 条过 0 点留 raw；25 条 sid≤旧游标多为转帖。游标到 xiaoerzhan 2090650996254859482。正文 17 新卡 + 更新 7 旧正文卡（Claude Academy / Topview / Genspark / SenseNova / VOL.026 / Grok Build / DSH 多模态）；拿不准 13 新卡；已过滤 54。保留正文 82 / 拿不准 61 / 已过滤 204。合计正文 99 / 拿不准 74 / 已过滤 258。2 张空原文已用 00-articles.jsonl：yanhua1010《Agent 内核拆解》第 4 篇 Pi 压缩进正文；affLeopard 创始人表达进拿不准。已拷到 x-following-site 并推送。
 
 ## 2026-08-20
