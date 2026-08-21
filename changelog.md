@@ -4,6 +4,8 @@
 
 ## 2026-08-20
 
+- 20:00 ET 抓 77 并进 20 日页。正文 12 新卡 + 更新 2 旧正文卡（Grok upgrades；outbid $10K/$20K + topapp.lol）+ 更新 1 已过滤（levelsio 心率更正）；拿不准 9 新卡；已过滤 39。保留正文 70 / 拿不准 56 / 已过滤 162。合计正文 82 / 拿不准 65 / 已过滤 201。4 张空/截断无现成 20-articles.jsonl，按 jsonl 落档并写「抓取未写全」：@430Yang 空原文；@cdixon / @AndyMasley / @yibie Knip 截断。sid≤旧游标且已在 4/8/12/16 jsonl 的 8 条未重复开卡；XFreeze / naval / rewind / milichab / Baconbrix / shaogefenhao / YafahEdelman / yucheng / Kisin / paultoo / goldi / cdixon 虽 sid 旧，但先前 jsonl 没有，本窗才进流。游标到 indie_maker_fox 2090590209532719190。已拷到 x-following-site 并推送。
+
 - 16:00 ET 抓 57 并进 20 日页。正文 11 新卡 + 更新 2 旧正文卡（Grok upgrades；Ridark 并入 Nav Toor 60 分钟装机）；拿不准 7 新卡；已过滤 19。保留正文 59 / 拿不准 49 / 已过滤 143。合计正文 70 / 拿不准 56 / 已过滤 162。3 张空/截断已用 16-articles.jsonl 写全：@heynavtoor《How To Set Up Grokbot The Right Way》并进 Ridark；OJO 引用 @OJOaidesign；Bedrock AgentCore 三种异步 + 19.6s/4.8s。sid≤旧游标且已在 8/12 jsonl 的 3 条未重复开卡；joehansen / mikepat711 / heynavtoor 虽 sid 旧，但 4/8/12 jsonl 没有，本窗才进流。游标到 genspark_ai 2090528724378943536。已拷到 x-following-site 并推送。
 
 - 12:00 ET 抓 135（中断后补全），并进 20 日页。正文 28 新卡 + 更新 2 旧正文卡（TRACES / Grok Bot）+ 更新 1 拿不准（造物矩阵）；拿不准 17 新卡；已过滤 40。保留正文 31 / 拿不准 32 / 已过滤 103。合计正文 59 / 拿不准 49 / 已过滤 143。3 张空原文已用 12-articles.jsonl：Yanhua harness、huangserva DFlash 2 进正文；Phin Barnes 融资观点进拿不准。sid≤旧游标 19 条未重复开卡。游标到 @every 2090475596966961605。已拷到 x-following-site 并推送。
