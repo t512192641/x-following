@@ -1253,42 +1253,10 @@ article .links {
       <section>
         <h2>拿不准</h2>
         <div class="grid">
-          <article>
-<h3>杨高能</h3>
-      <p class="byline">杨高能 <a href="https://x.com/430Yang" target="_blank" rel="noopener noreferrer">@430Yang</a></p>
-      <div class="fold">
-<p>X 文章《施一公：跑步，是最好的健康投资》。养生/跑步，不是可用 AI 方法。</p>
-      </div>
-      <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/430Yang/status/2090555842458210507" rel="noopener noreferrer" target="_blank">原帖一 · 杨高能</a></p>
-          </article>
-          <article>
-<h3>Chris Dixon</h3>
-      <p class="byline">Chris Dixon <a href="https://x.com/cdixon" target="_blank" rel="noopener noreferrer">@cdixon</a></p>
-      <div class="fold">
-<p>感谢总统昨天请加密领袖去白宫并推动 CLARITY；也感谢 @ChairmanSelig 在 CFTC Innovation Advisory Committee 做同样的事。国会现在该通过 CLARITY Act。加密政治，不是能搬走的用法。</p>
-      </div>
-      <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/cdixon/status/2090522520718016803" rel="noopener noreferrer" target="_blank">原帖一 · Chris Dixon</a></p>
-          </article>
-          <article>
-<h3>Andy Masley</h3>
-      <p class="byline">Andy Masley <a href="https://x.com/AndyMasley" target="_blank" rel="noopener noreferrer">@AndyMasley</a></p>
-      <div class="fold">
-<p>引用 Heatmap News 民调：附近建数据中心支持下滑（共和党 +14% 到 -43%）；作者认为这是处理数字事实失败，左右滑向 degrowth。</p>
-      </div>
-      <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/AndyMasley/status/2090529994602639718" rel="noopener noreferrer" target="_blank">原帖一 · Andy Masley</a></p>
-          </article>
-          <article>
-<h3>Knip：从入口建依赖图，清 JS/TS 未使用文件 / 导出 / 依赖</h3>
-      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
-      <div class="fold">
-<p>Knip 的作者 Lars Kappert 做了 20 年前端，他把没人引用的代码当成债务来清。他的工具从入口文件建一张依赖图，项目里没被任何入口到达的文件、导出和依赖，全部标成未使用——一条漏掉的入口，会连锁产生几十条报告。</p><p>《knip — 找出未使用的文件、依赖和导出》</p><p>Knip（/'knɪp/，荷兰语"剪"的意思，硬 K 发音）是给 JavaScript / TypeScript 项目找"没人用的东西"的工具：未使用的文件、未使用的依赖、未使用的导出，它都能找出来，还能修。作者是荷兰独立开发者 Lars Kappert（webpro），做过 Release It! 等多个知名开源工具。项目 2022 年开源，目前 GitHub 12,000+ star，npm 每月 4,000 万次下载，超过 15,000 个公开项目在用。</p><p>工作原理：Knip 从入口文件（entry files）出发，解析每个文件的 import 和 export，沿着引用一路追踪，把整个项目建成一张依赖图。分析阶段只查这张图，不重新解析代码。没有被任何入口"到达"的文件、没有被任何文件 import 的导出、没有被任何代码引用的依赖，全部被标记为未使用。</p><p>亮点一：报告是成链的。一个工具自动生成的入口文件没被 Knip 识别，它引用的所有文件、这些文件里的导出、只被它们用到的依赖，会连坐一起报出来——几十条结果常常只有一个根因。从根上修（把入口补上），整条链一起消失。所以 Knip 的输出要从根往下读：先文件，再导出，最后依赖。</p><p>亮点二：150+ 插件。Vitest 插件自动把测试文件加为入口，Astro 插件自动加页面，还有 Cypress、ESLint、Jest、GitHub Actions、Next.js、Nx、Remix、Storybook、Svelte、Vite、Webpack 等等。插件帮它认识各种框架的入口点，这是准确率的来源。monorepo 的 workspace 也是第一等公民，跨包引用能递归追踪。</p><p>亮点三：不侵入。Knip 不需要像 eslint-disable、prettier-ignore 那样的专有注释来压掉误报，卸载时直接删依赖即可，不用在代码库里清扫一堆注释。它还支持 --fix 自动修复、--production 只查生产代码、--watch 实时监控、--trace 追踪某个导出在哪里被用到，也能接进 CI 防止死代码回归。</p><p>真实反馈：Vercel 的 Gary Tyr 说 Knip 帮团队删了约 30 万行未使用代码；Sourcegraph 的 CEO Quinn Slack 提醒"别用 Knip + 代码搜索删太狠，它好用到危险"——他一周内把 Cody 仓库改成了净负行数，被老板警告。Knip 官方主页 testimonials 区块可查证。</p><p>怎么开始：npm create @knip/config 一键初始化，然后 npm run knip 开跑；只想试试就 npx knip，免安装。删完死代码再配合 ESLint 之类的 linter 跑一轮，往往还能再挖出一批。</p>
-      </div>
-      <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/yibie/status/2090533877408469042" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a></p>
-          </article>
+          
+          
+          
+          
           <article>
 <h3>Yafah Edelman：Mythos 对网络安全的影响，Oracle CVE 图</h3>
       <p class="byline">Yafah Edelman <a href="https://x.com/YafahEdelman" target="_blank" rel="noopener noreferrer">@YafahEdelman</a></p>
