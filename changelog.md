@@ -2,6 +2,10 @@
 
 每次反馈、改版、漏做，写在这里。下一轮先读 playbook.md 和本文件。
 
+## 2026-08-22
+
+- 4:00 ET 抓 55，开 22 日第一页（00-after 0 行忽略）。正文 13（Claude Security Mythos 5；Qwen 3.8-27B Unleashed 16G M1；LMSYS Ling-3.0-flash Blackwell 288→606；Codex cache hit；Grok Bot 更多 Plan+试用取消；Vercel is-agentic；winbid.lol/TanStarter 40min 并四帖；matt vs PlanGoal；SEO 多语言/Bing/Naver；DataForSEO；ChatGPT Sites 音乐 App；VOL.042 截断；小灰 AI 游戏成本文章截断）/ 拿不准 4（Anthropic TPU 挖人；IPO $100B/$2T；PPTX→HTML；Ox 非中国）/ 已过滤 23（levelsio 两帖并一张；kaostyl 1Password/GitHub 仅记录不执行）。VOL.042 截断无文章补全，标「抓取未写全」；小灰文章已用 04-articles.jsonl 摘录写成本数字（articles 仍 truncated:true），未发明。skip 9。游标到 CuiMao 2091073948524155328。已拷到 x-following-site 并推送。
+
 ## 2026-08-21
 
 - 0:00 ET 抓 119，全部 pre-midnight（00-after.jsonl 0 行）并进 21 日完整版；不新开 22 日页。正文 24 新卡（EnvHarness；HF 语音忠实度；Markov CAD 1000h；Firecrawl Developer Index；Apple 中小开发者免费云端模型；pi-hermes-memory；bug 排查技能库；小黑配图 Skill；uisfx 936 音效；UU/Codex/Claude Remote Control；GPT-5.6 Pro+GitHub/oracle；Googlebot JSON-LD 变严；WorkBuddy 万字入门（抓取未写全）；ChatGPT 置顶同步；Grok Bot 复刻病毒视频；ChatGPT 拖照片附加；小小东 VOL.401/剧照/早餐；刀法七步；Higgsfield 广告标注；GoSail 外链；eyishazyer 四 agent 增长引擎；monokern 共享云环境 blast-radius）+ 更新 6 旧卡（CursorBench+Joe；BANKED 倾斜重置成功+小互重置卡；ELI5+Berryxia/MaxForAI 安装；OX GLM-5.4/5.5 猜测；outbid 3 天超 $100K；Grok Bot 免费试用/easy/摄影挑战）。拿不准 2 新卡（蜡烛编曲；90 分钟积分成本）。已过滤 43 新卡（Morris 鸡汤六帖、卫斯理生活五帖、Elon 五条、Austen 三帖、JAVE1_ 四帖、Svwang1 古文三帖、Flock 三帖各并一张；yongge BTC 行情文章进已过滤）。保留正文 75 / 拿不准 44 / 已过滤 236。合计正文 99 / 拿不准 46 / 已过滤 279。11 张空/截断已用 00-articles.jsonl 写全或并卡；Firecrawl 空自回并进父卡，未发明。skip 9。post-midnight 0。游标到 刘小排 2091012479249789121。已拷到 x-following-site 并推送。

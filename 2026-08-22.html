@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 关注 · 2026-08-22</title>
+  <style>
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; }
+article:not(.is-open) { height: 320px; }
+article.is-open { height: auto; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+article.is-open h3 {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  overflow: visible;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+article:not(.is-open) .fold { overflow: hidden; }
+article.is-long:not(.is-open) .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>X 关注 · 2026-08-22</h1>
+      <p class="meta">美国时间 2026-08-22。4:00 ET 第一页（raw 55 条，skip 9，新开卡；00-after 空忽略）。正文 13 / 拿不准 4 / 已过滤 23。清爽 8-bit，纯文字卡片。</p>
+    </header>
+    <nav class="site-nav" aria-label="日期">
+      <a href="index.html">首页</a>
+      <a href="2026-08-22.html" class="is-here">08-22</a>
+      <a href="2026-08-21.html">08-21</a>
+      <a href="2026-08-20.html">08-20</a>
+      <a href="2026-08-19.html">08-19</a>
+    </nav>
+    <nav class="tabs" aria-label="页签">
+      <button type="button" class="tab is-active" data-pane="main">正文 13</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 4</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 23</button>
+    </nav>
+    <div class="view-tools" aria-label="展开">
+      <button type="button" class="tab" id="btn-expand">全部展开</button>
+      <button type="button" class="tab" id="btn-collapse">全部收起</button>
+    </div>
+
+    <div id="pane-main" class="pane is-active">
+      <section>
+        <h2>模型 / 产品</h2>
+        <div class="grid">
+          <article>
+<h3>Claude Security 现跑 Mythos 5，Enterprise 公测</h3>
+      <p class="byline">Claude <a href="https://x.com/claudeai" target="_blank" rel="noopener noreferrer">@claudeai</a></p>
+      <div class="fold">
+<p>Claude 官方：Claude Security 扫描现已跑在 Claude Mythos 5 上，今天起对全部 Claude Enterprise 客户公测开放。把自家最强安全模型直接用在你的代码库上，不需要单独申请模型权限。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/claudeai/status/2090852314319880425" rel="noopener noreferrer" target="_blank">原帖一 · Claude</a></p>
+          </article>
+          <article>
+<h3>Qwen 3.8-27B Unleashed：16G 丐版 M1 本地跑通</h3>
+      <p class="byline">Lonely <a href="https://x.com/Lonely__MH" target="_blank" rel="noopener noreferrer">@Lonely__MH</a></p>
+      <div class="fold">
+<p>Lonely：终于在 16G 丐版 M1 上把 Qwen 3.8-27B 无审查模型跑起来。本地部署：outsourc-e/Qwen3.8-27B-Unleashed-GGUF（地址见评论区）。受配置限制生成偏慢，但作者强调「听话」。</p><p>对照官方原版的「作为 AI 模型我无法回答」拒答，无审查版作者归纳三点：不硬拒、写作/代码/推理少画地为牢、更适合深度研究和创作。32G/64G 内存会更快。作者提醒「开车注意安全」。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Lonely__MH/status/2090959636778369033" rel="noopener noreferrer" target="_blank">原帖一 · Lonely</a></p>
+          </article>
+          <article>
+<h3>LMSYS：Ling-3.0-flash Blackwell 288→606 tok/s</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank" rel="noopener noreferrer">@Love1mothe</a></p>
+      <div class="fold">
+<p>LMSYS 公布 Ling-3.0-flash 的 Blackwell 优化结果。4 块 GPU、单请求条件下，解码速度从 288 tok/s 提到 606 tok/s；平均 TPOT 从 3.33 ms 降到 1.53 ms。</p><p>作者强调可借鉴的不是数字本身，而是优化顺序：先让主机跑在 GPU 前面，再处理调度和算子瓶颈。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2091037147436405176" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴</a></p>
+          </article>
+          <article>
+<h3>Codex：部分用户 cache hit 变差，额度掉得更快</h3>
+      <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
+      <div class="fold">
+<p>Tibo 更新 Codex rate limits：本周部分用户的 cache hit rate 比前几周稳定态更差，可能导致这些人的用量掉得更快——持续打中 cache 是效率的重要部分。正在调查，明天再更新。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2091033630147854385" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a></p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h2>Agent / Bot</h2>
+        <div class="grid">
+          <article>
+<h3>Grok Bot：更多 Plan 可用 + 试用取消点不动</h3>
+      <p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" target="_blank" rel="noopener noreferrer">@MaiYangAI</a></p>
+      <div class="fold">
+<p>Mai Yang：Grok Bot 刚开放更多 Plan 支持。SuperGrok Plus、Cursor Pro+、Cursor Teams 订阅都能用。产品页 https://x.ai/bot ；介绍 https://x.ai/news/introducing-grok-bot 。附文章标题《Grok Bot 门槛又降了！Grok Bot 到底可以做什么，从入门到进阶》。</p><p>Morris 试用实录：问 Bot 能做什么，答「替你把事做完，不只是问答」——查资料、盯邮件日程、设提醒、连常用软件；在云电脑上跑，关窗口也继续；动你本机文件/发消息/付钱会先问。Morris 点取消 7 天免费试用没反应，Bot 也说取消不了；对话落到「关不掉的试用比模型强不强更先死人」。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/MaiYangAI/status/2090919833366040919" rel="noopener noreferrer" target="_blank">原帖一 · Mai Yang</a><a href="https://x.ai/bot" rel="noopener noreferrer" target="_blank">x.ai/bot</a><a href="https://x.com/Morris_LT/status/2091033952391946453" rel="noopener noreferrer" target="_blank">原帖二 · Morris</a></p>
+          </article>
+          <article>
+<h3>Vercel is-agentic.com：给网站打 Agent Readiness</h3>
+      <p class="byline">Max For AI <a href="https://x.com/MaxForAI" target="_blank" rel="noopener noreferrer">@MaxForAI</a></p>
+      <div class="fold">
+<p>Vercel Developers 推出 http://is-agentic.com，测网站有多适合被 AI Agent 使用。跑 100+ 项检查，给出 Agent Readiness Score。官方示例：Ora 98、Vercel 90、Stripe 80、OpenAI 72、GitHub 72、Linear 64、Anthropic 62。</p><p>检查覆盖：Agent 能否发现/读取网页、结构化接口，以及 API、OAuth、MCP、GraphQL 等。出问题后可直接生成修复 Prompt 丢给 Coding Agent。CLI：<code>npx is-agentic &lt;domain&gt;</code>；还有公开 API 和 MCP Server。作者总结：以前盯 SEO / Lighthouse / 移动端，现在多一个指标——AI 会不会用你的站。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/MaxForAI/status/2090920477384720557" rel="noopener noreferrer" target="_blank">原帖一 · Max For AI</a><a href="https://is-agentic.com" rel="noopener noreferrer" target="_blank">is-agentic.com</a></p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h2>方法 / 产品</h2>
+        <div class="grid">
+          <article>
+<h3>winbid.lol：TanStarter 复刻 outbid，40 分钟上线</h3>
+      <p class="byline">Meepo <a href="https://x.com/meepodev" target="_blank" rel="noopener noreferrer">@meepodev</a></p>
+      <div class="fold">
+<p>Meepo 上线 http://winbid.lol（类 outbid）。用 @indie_maker_fox 的 TanStarter（http://tanstarter.dev）从买域名到发布约 40 分钟；自称已用 TanStarter 建过 10+ 站。上线 20 分钟：收入超 $10、60 UV、域名 $1.8；打算 build in public 公开构建过程与技术栈。感谢 indie_maker_fox 与 @kangkona 的提交支持。</p><p>Indie Fox 同步：国内首个类 outbid 站上线，并确认开发者是 @meepodev、用 TanStarter 40 分钟搞定。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/meepodev/status/2091013124614947290" rel="noopener noreferrer" target="_blank">原帖一 · Meepo</a><a href="https://x.com/meepodev/status/2091017396702351842" rel="noopener noreferrer" target="_blank">原帖二 · Meepo</a><a href="https://x.com/indie_maker_fox/status/2091016266958184850" rel="noopener noreferrer" target="_blank">原帖三 · Indie Fox</a><a href="https://x.com/indie_maker_fox/status/2091016565450055769" rel="noopener noreferrer" target="_blank">原帖四 · Indie Fox</a><a href="https://winbid.lol" rel="noopener noreferrer" target="_blank">winbid.lol</a><a href="https://tanstarter.dev" rel="noopener noreferrer" target="_blank">tanstarter.dev</a></p>
+          </article>
+          <article>
+<h3>Matt skills 新流程 vs PlanGoal：原型 + 可测小任务更有底</h3>
+      <p class="byline">Indie Fox <a href="https://x.com/indie_maker_fox" target="_blank" rel="noopener noreferrer">@indie_maker_fox</a></p>
+      <div class="fold">
+<p>Indie Fox 对比感受：以前用过 PlanGoal，对结果心里没底——不知道会做成什么样、有哪些功能、是否测过。新流程（matt skills 那套）心里有底：开始前先设计出原型、样子大致确定；大任务拆成小任务，每个可测，感觉有 TDD 的靠谱。</p><p>新日短更：昨天已写过 matt skills 五步与 Codex 长跑经验，今天这条是方法对比增量。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/indie_maker_fox/status/2091026749064982858" rel="noopener noreferrer" target="_blank">原帖一 · Indie Fox</a></p>
+          </article>
+          <article>
+<h3>SEO：多语言抄苹果官网；别按 IP 自动跳；Bing/Naver</h3>
+      <p class="byline">Loki Yan SEO <a href="https://x.com/loki_yan_seo" target="_blank" rel="noopener noreferrer">@loki_yan_seo</a></p>
+      <div class="fold">
+<p>多语言站可抄苹果官网细节；千万不要根据 IP 自动切语言和自动跳转。日本以外 Yahoo 用 Bing；日本雅虎用 Google；日本雅虎 + Bing 能占到约 50% 流量。去 Bing Webmaster 提交站点（类似 GSC）。做韩文记得弄 Naver——韩国人基本在用，生态像百度 + 小红书 + 大众点评 + 抖音合在一起。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/loki_yan_seo/status/2091014853863637176" rel="noopener noreferrer" target="_blank">原帖一 · Loki Yan SEO</a></p>
+          </article>
+          <article>
+<h3>DataForSEO 竞对抓取可研究</h3>
+      <p class="byline">王马扎 <a href="https://x.com/mazzaTalk" target="_blank" rel="noopener noreferrer">@mazzaTalk</a></p>
+      <div class="fold">
+<p>王马扎：DataForSEO 竞对抓取，这个可以研究一下。短帖，留作 SEO/竞对数据工具线索。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/mazzaTalk/status/2090720162869915663" rel="noopener noreferrer" target="_blank">原帖一 · 王马扎</a></p>
+          </article>
+          <article>
+<h3>ChatGPT Sites：提示出完整音乐 App 只为分享专辑</h3>
+      <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
+      <div class="fold">
+<p>Tibo：@ajambrosino 觉得上传音乐到 Twitter 太难，于是提示了一个完整音乐应用，直接在 ChatGPT Sites 上托管，只为分享专辑。Andrew 续帖 credit @dkundel。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2091014197144596734" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a><a href="https://x.com/ajambrosino/status/2091023763077026191" rel="noopener noreferrer" target="_blank">原帖二 · Andrew Ambrosino</a></p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h2>提示词 / 创作</h2>
+        <div class="grid">
+          <article>
+<h3>小小东 VOL.042：isometric 水彩结构解构（抓取未写全）</h3>
+      <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01" target="_blank" rel="noopener noreferrer">@xiaoxiaodong01</a></p>
+      <div class="fold">
+<p>GPT2 × 拆解 × 分层 × 美学提示词 × VOL.042。下半张顺着主体自己的比例、轴线、方向和空间关系，重画成一张 isometric 水彩研究图。</p><p>时间线提示词开头：将每张上传照片单独做成高级设计海报，不多图拼接；3:4 竖版，上下区域高度严格 1:1、各占 50%。后半超长 isometric 水彩结构解构提示词全文在原帖；本窗 jsonl 截断保存，标「抓取未写全」。04-articles.jsonl 本窗未落盘，未发明全文。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2091032515318521971" rel="noopener noreferrer" target="_blank">原帖一 · 小小东</a></p>
+          </article>
+          <article>
+<h3>小灰：开发 AI 游戏花了多少钱？（文章摘录）</h3>
+      <p class="byline">程序员小灰 <a href="https://x.com/XiaohuiAI666" target="_blank" rel="noopener noreferrer">@XiaohuiAI666</a></p>
+      <div class="fold">
+<p>X 文章《开发AI游戏，我花了多少钱？》。开场：近两个月用 AI 连续开发游戏，已到第三款；有人问赚钱了吗。</p><p>成本两部分：Steam 入驻发行费 100 美元（约 700 元人民币），需盈利超 1000 美元才可全额返还，多数独立游戏拿不回；AI 会员费——用 Codex + GPT-5.6 sol 做策划与代码、GPT-image-2 画美术，GPT Plus 每月 138 元（token 额度够，无需额外付费）；音乐用天工 music，天工 AI 会员每月 46 元。若每月开发一款，总成本约 700+138+46=884 元。</p><p>文末：第三款《无为修仙传》免费试玩版已上 Steam（仙侠文字挂机，轻松+成就感），可加愿望单；并组 AI 游戏试玩群。作者认为 AI 辅助游戏开发会成大趋势。articles 标 truncated:true，按摘录写全可用数字，完整论述以原帖为准。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/XiaohuiAI666/status/2091048107568251094" rel="noopener noreferrer" target="_blank">原帖一 · 程序员小灰</a></p>
+          </article>
+        </div>
+      </section>
+    </div>
+    <div id="pane-maybe" class="pane">
+      <section>
+        <h2>拿不准</h2>
+        <div class="grid">
+          <article>
+<h3>Anthropic 挖谷歌 TPU 元老做自研芯片信号</h3>
+      <p class="byline">M. <a href="https://x.com/wlzh" target="_blank" rel="noopener noreferrer">@wlzh</a></p>
+      <div class="fold">
+<p>wlzh：Anthropic 从谷歌挖来 TPU 项目元老阿米尔·萨莱克加入算力团队；前七代 TPU 芯片由其主导交付。Anthropic 近期放出自研芯片信号并招相关岗位；意图是摆脱供应链束缚，并让芯片贴合自家算法。OpenAI 已公布与博通合作自研芯片，代号 Jalopeño。作者：头部公司往软硬一体走，自研周期长、短期难见回报。</p><p>产业传闻，无直接可复用方法；进拿不准。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/wlzh/status/2091045742513406303" rel="noopener noreferrer" target="_blank">原帖一 · M.</a></p>
+          </article>
+          <article>
+<h3>Anthropic 或寻求超 $1000 亿 IPO / 估值 $2T（传闻）</h3>
+      <p class="byline">北辰溯兴|conrad <a href="https://x.com/Love1mothe" target="_blank" rel="noopener noreferrer">@Love1mothe</a></p>
+      <div class="fold">
+<p>Indian Express 转引《纽约时报》：Anthropic 可能寻求超过 1000 亿美元 IPO 募资，估值或达 2 万亿美元。仍是潜在投资者沟通中的说法，非公司正式公告。作者列三件需证明的事：高价模型继续卖得出；收入增长不是短期预算迁移；数据中心/芯片/能源能撑住需求。估值很大，难的是把模型能力持续变成现金流。</p><p>产业杂闻，无用法；进拿不准。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Love1mothe/status/2091019263197004288" rel="noopener noreferrer" target="_blank">原帖一 · 北辰溯兴</a></p>
+          </article>
+          <article>
+<h3>PPTX 视觉对齐：觉得未来是 HTML，仍调到贴原素材</h3>
+      <p class="byline">小耳Jane｜Xiaoer <a href="https://x.com/xiaoerzhan" target="_blank" rel="noopener noreferrer">@xiaoerzhan</a></p>
+      <div class="fold">
+<p>虽然觉得未来就是 HTML 的时代，但还是把 PPTX 的视觉调整到尽量符合原来素材。短感受，方法细节不足；进拿不准。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/xiaoerzhan/status/2091058606888169712" rel="noopener noreferrer" target="_blank">原帖一 · 小耳Jane</a></p>
+          </article>
+          <article>
+<h3>Ox Alpha「有可能不是中国大模型」</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb" target="_blank" rel="noopener noreferrer">@geekbb</a></p>
+      <div class="fold">
+<p>Geek：牛阿尔法有可能不是中国大模型。一句猜测，无证据链；并进 OX 身份拿不准线。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/geekbb/status/2091065949546057916" rel="noopener noreferrer" target="_blank">原帖一 · Geek</a></p>
+          </article>
+        </div>
+      </section>
+    </div>
+    <div id="pane-filtered" class="pane">
+      <section>
+        <h2>已过滤</h2>
+        <div class="grid">
+          <article>
+<h3>CuiMao</h3>
+      <p class="byline">CuiMao <a href="https://x.com/CuiMao" target="_blank" rel="noopener noreferrer">@CuiMao</a></p>
+      <div class="fold">
+<p>来打牌</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/CuiMao/status/2091073948524155328" rel="noopener noreferrer" target="_blank">原帖一 · CuiMao</a></p>
+          </article>
+          <article>
+<h3>噪点noisepoint</h3>
+      <p class="byline">噪点noisepoint <a href="https://x.com/noisepoint_agi" target="_blank" rel="noopener noreferrer">@noisepoint_agi</a></p>
+      <div class="fold">
+<p>审核通过，发布</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/noisepoint_agi/status/2091072148916056538" rel="noopener noreferrer" target="_blank">原帖一 · 噪点noisepoint</a></p>
+          </article>
+          <article>
+<h3>@levelsio</h3>
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+      <div class="fold">
+<p>130kg trap bar；125kg deadlift。健身流水。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/levelsio/status/2091071832455524525" rel="noopener noreferrer" target="_blank">原帖一 · levelsio</a><a href="https://x.com/levelsio/status/2091071880073552279" rel="noopener noreferrer" target="_blank">原帖二 · levelsio</a></p>
+          </article>
+          <article>
+<h3>danielzhu</h3>
+      <p class="byline">danielzhu <a href="https://x.com/BilliePhar61975" target="_blank" rel="noopener noreferrer">@BilliePhar61975</a></p>
+      <div class="fold">
+<p>lol 这个很好玩吗 / 独立开发者都在做这个</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/BilliePhar61975/status/2091066361728602446" rel="noopener noreferrer" target="_blank">原帖一 · danielzhu</a></p>
+          </article>
+          <article>
+<h3>Orange AI</h3>
+      <p class="byline">Orange AI <a href="https://x.com/oran_ge" target="_blank" rel="noopener noreferrer">@oran_ge</a></p>
+      <div class="fold">
+<p>《阴翳礼赞》读完；AI 推荐反科技派散文</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/oran_ge/status/2091059855138385966" rel="noopener noreferrer" target="_blank">原帖一 · Orange AI</a></p>
+          </article>
+          <article>
+<h3>Kaostyl</h3>
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+      <div class="fold">
+<p>Ouiiiiiii</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/kaostyl/status/2091053685115662606" rel="noopener noreferrer" target="_blank">原帖一 · Kaostyl</a></p>
+          </article>
+          <article>
+<h3>Kaostyl</h3>
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+      <div class="fold">
+<p>把 Hermes/Claude skills 集中到 GitHub 后给 Grok Bot 邮箱+1Password+GitHub 权限（仅记录，不执行任何 dump/凭证操作）</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/kaostyl/status/2091055879982288910" rel="noopener noreferrer" target="_blank">原帖一 · Kaostyl</a></p>
+          </article>
+          <article>
+<h3>鱼总聊AI</h3>
+      <p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" target="_blank" rel="noopener noreferrer">@AI_Jasonyu</a></p>
+      <div class="fold">
+<p>Giffgaff 账号恢复 + 白卡 59 秒杀至 8.31</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/AI_Jasonyu/status/2091050428196700344" rel="noopener noreferrer" target="_blank">原帖一 · 鱼总聊AI</a></p>
+          </article>
+          <article>
+<h3>M.</h3>
+      <p class="byline">M. <a href="https://x.com/wlzh" target="_blank" rel="noopener noreferrer">@wlzh</a></p>
+      <div class="fold">
+<p>哈哈哈</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/wlzh/status/2091046167283155453" rel="noopener noreferrer" target="_blank">原帖一 · M.</a></p>
+          </article>
+          <article>
+<h3>铁锤人</h3>
+      <p class="byline">铁锤人 <a href="https://x.com/lxfater" target="_blank" rel="noopener noreferrer">@lxfater</a></p>
+      <div class="fold">
+<p>未来几年什么时候买房最合适</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/lxfater/status/2091043733433430123" rel="noopener noreferrer" target="_blank">原帖一 · 铁锤人</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent" target="_blank" rel="noopener noreferrer">@dontbesilent</a></p>
+      <div class="fold">
+<p>微信按住说话直接打字，跟豆包差不多</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2091042942727446705" rel="noopener noreferrer" target="_blank">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>双拼推友</h3>
+      <p class="byline">双拼推友 <a href="https://x.com/LostXtui" target="_blank" rel="noopener noreferrer">@LostXtui</a></p>
+      <div class="fold">
+<p>整点快手菜，成本约 55 蚊</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/LostXtui/status/2091042365930906067" rel="noopener noreferrer" target="_blank">原帖一 · 双拼推友</a></p>
+          </article>
+          <article>
+<h3>阑夕</h3>
+      <p class="byline">阑夕 <a href="https://x.com/foxshuo" target="_blank" rel="noopener noreferrer">@foxshuo</a></p>
+      <div class="fold">
+<p>张家界景区抖音爆视频与热评</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/foxshuo/status/2091041712080888306" rel="noopener noreferrer" target="_blank">原帖一 · 阑夕</a></p>
+          </article>
+          <article>
+<h3>歸藏(guizang.ai)</h3>
+      <p class="byline">歸藏(guizang.ai) <a href="https://x.com/op7418" target="_blank" rel="noopener noreferrer">@op7418</a></p>
+      <div class="fold">
+<p>哪都没去，光顾吃了</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/op7418/status/2091039407554146448" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a></p>
+          </article>
+          <article>
+<h3>铁锤人</h3>
+      <p class="byline">铁锤人 <a href="https://x.com/lxfater" target="_blank" rel="noopener noreferrer">@lxfater</a></p>
+      <div class="fold">
+<p>程序员这个行业多久后消失（行业消亡）</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/lxfater/status/2091036394286444833" rel="noopener noreferrer" target="_blank">原帖一 · 铁锤人</a></p>
+          </article>
+          <article>
+<h3>Bear Liu</h3>
+      <p class="byline">Bear Liu <a href="https://x.com/bearliu" target="_blank" rel="noopener noreferrer">@bearliu</a></p>
+      <div class="fold">
+<p>所谓逆向思维</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/bearliu/status/2091033880631410853" rel="noopener noreferrer" target="_blank">原帖一 · Bear Liu</a></p>
+          </article>
+          <article>
+<h3>Derrick Choi</h3>
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank" rel="noopener noreferrer">@derrickcchoi</a></p>
+      <div class="fold">
+<p>周末去 hawker centres；求新加坡最好鸡饭</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2091031965462045095" rel="noopener noreferrer" target="_blank">原帖一 · Derrick Choi</a></p>
+          </article>
+          <article>
+<h3>Cell 细胞</h3>
+      <p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
+      <div class="fold">
+<p>造物矩阵开奖；月度会员站内信；实体书中奖确认地址</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/cellinlab/status/2091029175805333848" rel="noopener noreferrer" target="_blank">原帖一 · Cell 细胞</a></p>
+          </article>
+          <article>
+<h3>Derrick Choi</h3>
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank" rel="noopener noreferrer">@derrickcchoi</a></p>
+      <div class="fold">
+<p>Curve only getting steeper</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2091029142292820161" rel="noopener noreferrer" target="_blank">原帖一 · Derrick Choi</a></p>
+          </article>
+          <article>
+<h3>Asa</h3>
+      <p class="byline">Asa <a href="https://x.com/app_sail" target="_blank" rel="noopener noreferrer">@app_sail</a></p>
+      <div class="fold">
+<p>Reddit 现在这么惨了吗</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/app_sail/status/2091015979711267106" rel="noopener noreferrer" target="_blank">原帖一 · Asa</a></p>
+          </article>
+          <article>
+<h3>dontbesilent</h3>
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent" target="_blank" rel="noopener noreferrer">@dontbesilent</a></p>
+      <div class="fold">
+<p>自称可能首个被纳瓦尔拉黑的中国博主；自媒体别内耗</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2091015653985857786" rel="noopener noreferrer" target="_blank">原帖一 · dontbesilent</a></p>
+          </article>
+          <article>
+<h3>Austen Allred</h3>
+      <p class="byline">Austen Allred <a href="https://x.com/Austen" target="_blank" rel="noopener noreferrer">@Austen</a></p>
+      <div class="fold">
+<p>models are all worse today than a month ago</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Austen/status/2091015552902799867" rel="noopener noreferrer" target="_blank">原帖一 · Austen Allred</a></p>
+          </article>
+          <article>
+<h3>Indie Fox</h3>
+      <p class="byline">Indie Fox <a href="https://x.com/indie_maker_fox" target="_blank" rel="noopener noreferrer">@indie_maker_fox</a></p>
+      <div class="fold">
+<p>follow me：TanStarter / MkSaaS / Mkdirs 营销</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/indie_maker_fox/status/2091014180468064675" rel="noopener noreferrer" target="_blank">原帖一 · Indie Fox</a></p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", key === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    function setOpen(art, open) {
+      var btn = art.querySelector(".more");
+      art.classList.toggle("is-open", open);
+      if (btn) btn.textContent = open ? "收起" : "展开";
+    }
+    for (var i = 0; i < articles.length; i++) {
+      var art = articles[i];
+      var fold = art.querySelector(".fold");
+      var btn = art.querySelector(".more");
+      if (!fold || !btn) continue;
+      if (fold.scrollHeight > fold.clientHeight + 6) {
+        art.classList.add("is-long");
+        btn.hidden = false;
+        btn.textContent = "展开";
+        btn.addEventListener("click", function () {
+          setOpen(this.parentElement, !this.parentElement.classList.contains("is-open"));
+        });
+      }
+    }
+    var exp = document.getElementById("btn-expand");
+    var col = document.getElementById("btn-collapse");
+    if (exp) exp.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], true);
+      }
+    });
+    if (col) col.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], false);
+      }
+    });
+  })();
+
+  </script>
+
+</body>
+</html>
