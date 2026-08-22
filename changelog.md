@@ -3,6 +3,7 @@
 每次反馈、改版、漏做，写在这里。下一轮先读 playbook.md 和本文件。
 
 ## 2026-08-22
+- 12:00 ET 抓 54，并进 22 日页（skip 1 旧 dup @indie_maker_fox 2091078107428168034，新 53）。正文 11 新卡（OX-Alpha 牛来实测+收录机；DeepSeek Harness Vision-Exp；响马洗碗机 ROI；HTML/React 画图可编辑；Alex 竞对四盯两废；Alex 80 页笔记提示词；小小东 VOL.045 积木/玻璃/英文；CCD viko 提示词；Omarchy 装 Windows；三 Grok bot 物理断裂闭环；Every OpenAI–HF Agent 像水）+ 更新 winbid（outprice.lol + winbid 支持）。拿不准 4 新卡（自建阅读器；阿福播音乐；Gemini Paywall 金句缺上下文；VOL.044 金箔 Alt 未抓）。已过滤 24 新卡（Jason 四帖、Elon 四帖、Austen 两帖、SahilRush 鸡汤文章、Alex newsletter CTA 两帖、Berryxia 短评两帖等）。保留正文 20 / 拿不准 6 / 已过滤 41。合计正文 31 / 拿不准 10 / 已过滤 65。9 张空/截断已用 12-articles.jsonl 全补：小小东×3、Sahil 文章、berryxia OX、dotey 响马、alex×2、MANISH CCD；CCD 文末无句号标疑似截断。游标到 Jason 2091193379212443665。已拷到 x-following-site 并推送。
 
 - 8:00 ET 抓 62，并进 22 日页（skip 6，新 56）。正文 7 新卡（DeepMind EVE Online Agent 试验场；ip-as-logo-skill 3.6K/卡片 2k；李诞自媒体手册八心；claude-plugins-community HTML动画；Claude Projects 五步；BANKED 重置在用量和账单；小小东剪纸/折纸英文版）+ 更新 2 旧正文（winbid 并 peakbid/国内第2/Maker Thrive 像素 2.8W/aichuhai；Codex 并好节点+DMIT）/ 拿不准 2 新卡（Fable 5 预告；蜡烛编曲）+ 更新 OX 领奖台 meme（不写名次）/ 已过滤 18 新卡（Justin 两帖、卫斯理八帖、小小东互动三帖、PandaTalk 三帖、提示词短评四帖、Cell 三帖各并一张；Meteoric/GoldenEye 进已过滤）。保留正文 13 / 拿不准 4 / 已过滤 23。合计正文 20 / 拿不准 6 / 已过滤 41。3 张空已用 08-articles.jsonl：李诞进正文（摘要+truncated）；geekbb meme 并 OX；ip-as-logo GitHub 卡并父帖。未发明。游标到 Justin Welsh 2091133805964722180。已拷到 x-following-site 并推送。
 
