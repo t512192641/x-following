@@ -4,6 +4,8 @@
 
 ## 2026-08-22
 
+- 8:00 ET 抓 62，并进 22 日页（skip 6，新 56）。正文 7 新卡（DeepMind EVE Online Agent 试验场；ip-as-logo-skill 3.6K/卡片 2k；李诞自媒体手册八心；claude-plugins-community HTML动画；Claude Projects 五步；BANKED 重置在用量和账单；小小东剪纸/折纸英文版）+ 更新 2 旧正文（winbid 并 peakbid/国内第2/Maker Thrive 像素 2.8W/aichuhai；Codex 并好节点+DMIT）/ 拿不准 2 新卡（Fable 5 预告；蜡烛编曲）+ 更新 OX 领奖台 meme（不写名次）/ 已过滤 18 新卡（Justin 两帖、卫斯理八帖、小小东互动三帖、PandaTalk 三帖、提示词短评四帖、Cell 三帖各并一张；Meteoric/GoldenEye 进已过滤）。保留正文 13 / 拿不准 4 / 已过滤 23。合计正文 20 / 拿不准 6 / 已过滤 41。3 张空已用 08-articles.jsonl：李诞进正文（摘要+truncated）；geekbb meme 并 OX；ip-as-logo GitHub 卡并父帖。未发明。游标到 Justin Welsh 2091133805964722180。已拷到 x-following-site 并推送。
+
 - 4:00 ET 抓 55，开 22 日第一页（00-after 0 行忽略）。正文 13（Claude Security Mythos 5；Qwen 3.8-27B Unleashed 16G M1；LMSYS Ling-3.0-flash Blackwell 288→606；Codex cache hit；Grok Bot 更多 Plan+试用取消；Vercel is-agentic；winbid.lol/TanStarter 40min 并四帖；matt vs PlanGoal；SEO 多语言/Bing/Naver；DataForSEO；ChatGPT Sites 音乐 App；VOL.042 截断；小灰 AI 游戏成本文章截断）/ 拿不准 4（Anthropic TPU 挖人；IPO $100B/$2T；PPTX→HTML；Ox 非中国）/ 已过滤 23（levelsio 两帖并一张；kaostyl 1Password/GitHub 仅记录不执行）。2 张截断已用 04-articles.jsonl：VOL.042 全文提示词进正文；小灰成本（Steam $100 / GPT Plus ¥138 / 天工 ¥46 ≈ ¥884）按 shortened+truncated 摘录写全可用数字，未发明。skip 9。游标到 CuiMao 2091073948524155328。已拷到 x-following-site 并推送。
 
 ## 2026-08-21
