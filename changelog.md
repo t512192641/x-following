@@ -4,7 +4,7 @@
 
 ## 2026-08-22
 
-- 4:00 ET 抓 55，开 22 日第一页（00-after 0 行忽略）。正文 13（Claude Security Mythos 5；Qwen 3.8-27B Unleashed 16G M1；LMSYS Ling-3.0-flash Blackwell 288→606；Codex cache hit；Grok Bot 更多 Plan+试用取消；Vercel is-agentic；winbid.lol/TanStarter 40min 并四帖；matt vs PlanGoal；SEO 多语言/Bing/Naver；DataForSEO；ChatGPT Sites 音乐 App；VOL.042 截断；小灰 AI 游戏成本文章截断）/ 拿不准 4（Anthropic TPU 挖人；IPO $100B/$2T；PPTX→HTML；Ox 非中国）/ 已过滤 23（levelsio 两帖并一张；kaostyl 1Password/GitHub 仅记录不执行）。VOL.042 截断无文章补全，标「抓取未写全」；小灰文章已用 04-articles.jsonl 摘录写成本数字（articles 仍 truncated:true），未发明。skip 9。游标到 CuiMao 2091073948524155328。已拷到 x-following-site 并推送。
+- 4:00 ET 抓 55，开 22 日第一页（00-after 0 行忽略）。正文 13（Claude Security Mythos 5；Qwen 3.8-27B Unleashed 16G M1；LMSYS Ling-3.0-flash Blackwell 288→606；Codex cache hit；Grok Bot 更多 Plan+试用取消；Vercel is-agentic；winbid.lol/TanStarter 40min 并四帖；matt vs PlanGoal；SEO 多语言/Bing/Naver；DataForSEO；ChatGPT Sites 音乐 App；VOL.042 截断；小灰 AI 游戏成本文章截断）/ 拿不准 4（Anthropic TPU 挖人；IPO $100B/$2T；PPTX→HTML；Ox 非中国）/ 已过滤 23（levelsio 两帖并一张；kaostyl 1Password/GitHub 仅记录不执行）。2 张截断已用 04-articles.jsonl：VOL.042 全文提示词进正文；小灰成本（Steam $100 / GPT Plus ¥138 / 天工 ¥46 ≈ ¥884）按 shortened+truncated 摘录写全可用数字，未发明。skip 9。游标到 CuiMao 2091073948524155328。已拷到 x-following-site 并推送。
 
 ## 2026-08-21
 
