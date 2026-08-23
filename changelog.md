@@ -2,6 +2,9 @@
 
 每次反馈、改版、漏做，写在这里。下一轮先读 playbook.md 和本文件。
 
+## 2026-08-23
+- 4:00 ET 抓 61 + 00-after 2，开 23 日第一页（skip 12 旧 dup：含 Aleksa/耳朵 UI 已在 21 页、以及 10 条先前 raw；新 49）。正文 15（Omarchy 5万字飞书教程并 00-after 两帖；Qwen3.8 27B 本地部署文章 overlay；AgentCore Web Search 域名/日期过滤；Ox Alpha WebGL 玻璃三帖并；Codex 额度原因+2pm PST 重置三帖并；Gift credits；英伟达 Poolside/Nemotron；格局 skill 引 DSH；Danny Postma AgentOS；苏庭灏 ExoFormer ICML；选题 skill 一句挑战；Mac 知识库同步 Hermes/Codex；阅读挑战 App 百天四端；GoSail 0→35k；宝玉 MCP/CLI）/ 拿不准 2（Panda 出海vs国内；Tutti 门槛澄清）/ 已过滤 14 卡（卫斯理三帖、Panda 四帖、Cell 七帖、铁锤人四帖、servasyy 闲聊两帖等并）。2 张空/截断已用 04-articles.jsonl：servasyy Qwen 本地部署全文进正文（选型/窗口三笔账/分档数字摘录，未发明）；yibie AgentCore Web Search 域名/日期过滤全文进正文。游标到 ahhhhfs 2091434778180583722。已拷到 x-following-site 并推送。
+
 ## 2026-08-22
 - 0:00 ET 抓 121：pre-midnight 119 并进 22 日完整版（skip 16 旧 dup，新 103）；post-midnight 2 条（vista8 Omarchy 安装/飞书教程）仅落 raw/2026-08-23/00-after.jsonl，不进 22 页、不新开/不推送稀薄 23 日页。正文 19 新卡（小小东 VOL.048/047/046+暗色纯金；Adam 手掌/拉链转场；qmreader-ios；Nowledge-mem；JetBrains 调研；逸尘 ADP 企微 Skills；钢琴 MIDI Copilot；小耳苹果认证；ThreeUI；Clean X UP；DeepSeek 周末谷价；可理解输入播客；awesome-autoresearch；Rebased；Tweet Hunter 提价；Viticci Claude remote）+ 更新 7 旧正文（早安英版；Omarchy Windows+Linux；OX-Alpha DeepSWE/大富翁；TanStarter outlast；DeepSeek Harness；Grok 免费体验；Coding is solved Soon）。拿不准 8 新卡（含 berryxia 空链「疑似 X 文章」）。已过滤 23 新卡（Morris 九帖、Cell 八帖等并）。保留正文 39 / 拿不准 14 / 已过滤 102。合计正文 58 / 拿不准 22 / 已过滤 125。articles 5/5 已 overlay。游标到 向阳乔木 2091375737559470384。已拷到 x-following-site 并推送。
 
