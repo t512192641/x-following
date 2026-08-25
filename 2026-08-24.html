@@ -238,7 +238,7 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-24</h1>
-      <p class="meta">美国时间 2026-08-24。20:00 ET 并进 raw/20.jsonl 47（skip 0 旧 RT/≤游标+ 0 prior dup，新 47）。保留 16:00 正文 60 / 拿不准 8 / 已过滤 96。合计正文 67 / 拿不准 8 / 已过滤 118。20-articles 0/4 overlay（430Yang《牛来》未 overlay；dotey《我的 AI 开发流程》未 overlay；AliceSmith 空；jason Implementing AI 仍截断）。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-24。20:00 ET 并进 raw/20.jsonl 47（skip 0 旧 RT/≤游标+ 0 prior dup，新 47）。保留 16:00 正文 60 / 拿不准 8 / 已过滤 96。合计正文 66 / 拿不准 8 / 已过滤 119。20-articles 4/4 overlay after first push（dotey《我的 AI 开发流程》全文并入宝玉正文；430Yang《牛来》鸡汤进已过滤；AliceSmith 空图/漫画进已过滤；jason Implementing AI 短立场从正文挪到已过滤）。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="site-nav" aria-label="日期">
       <a href="index.html">首页</a>
@@ -249,9 +249,9 @@ article .links {
       <a href="2026-08-20.html">08-20</a>
     </nav>
     <nav class="tabs" aria-label="页签">
-      <button type="button" class="tab is-active" data-pane="main">正文 67</button>
+      <button type="button" class="tab is-active" data-pane="main">正文 66</button>
       <button type="button" class="tab" data-pane="maybe">拿不准 8</button>
-      <button type="button" class="tab" data-pane="filtered">已过滤 118</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 119</button>
     </nav>
     <div class="view-tools" aria-label="展开">
       <button type="button" class="tab" id="btn-expand">全部展开</button>
@@ -565,13 +565,18 @@ article .links {
       <p class="links"><a href="https://x.com/verysmallwoods/status/2091978264528982131" rel="noopener noreferrer" target="_blank">原帖一 · VerySmallWoods</a></p>
           </article>
           <article>
-<h3>宝玉：AI 开发流程 + 现在选 Pi 不选 DSH</h3>
+<h3>宝玉：AI 开发流程（BaoCut 远程转录）+ 现在选 Pi 不选 DSH</h3>
       <p class="byline">宝玉 <a href="https://x.com/dotey" target="_blank" rel="noopener noreferrer">@dotey</a></p>
       <div class="fold">
-<p>16:00：如果对 DeepSeek Harness 有兴趣，可以看看，写的很好（引用 @zhenjiazhou）。短荐。</p><p>20:00 X 文章《我的 AI 开发流程》时间线空卡，本窗 articles 未 overlay，未发明正文。</p><p>同窗选型：年轻会选 DeepSeek Harness（新/酷/折腾、较少考虑项目和团队）；现在选 Pi——要项目需要的、稳定、简单，先做出来、能稳定运行。DSH 还新，稳定还要一段时间。现在有 AI、测试覆盖好一点，以后换底层没那么难。同题并。</p>
+<p>16:00：如果对 DeepSeek Harness 有兴趣，可以看看，写的很好（引用 @zhenjiazhou）。短荐。</p>
+<p>20:00 X 文章《我的 AI 开发流程》overlay：案例是给字幕转录翻译 App BaoCut 加远程转录。起源是 GitHub Issue：日常办公机 B 用 BaoCut，把耗算力的转录丢给有英伟达显卡的高性能机 A。没做过、不知可不可行——第一步不是写代码，而是可行性分析。两个层面：产品（有没有价值、是否符合定位）和技术（是否可行、成本是否可控）。产品侧觉得值得做，就把原始需求丢进 Claude Code，对照项目现状做技术可行性。CC 判断可行并给若干方案：方案 0/C 不用改代码但对用户不友好（自己搭 ASR 服务器）；方案 A 装了 App 就能启动自己的转录服务；方案 B 对 Windows 不友好。选定方案 A，并捎带方案 0 里的 HTTP 转录 API。</p>
+<p>然后写设计文档（需求+架构+UI 的混合体），让 AI 把要用的技术和项目现状记下来，人确认方向。他承认方案看起来没大问题就让它写完文档开工，比较相信 Fable。另记前车：本地文本模型做拆分对齐，可行性分析过关、做完体验很差，砍掉，浪费几天+很多 token。</p>
+<p>原型：已装 baoyu-design skill（github.com/jimliu/baoyu-design），说「原型设计」就触发。App 有配套原型页，加功能先改原型。高精度原型即 UI（Claude Design）。第一版在设置页加选项：开服务、发现节点。人反复改——布局改成 Tab（开服务 vs 访问其他节点是两个场景）、加图标看服务启停；后来发现设置页不方便看状态，挪到主界面。</p>
+<p>实现：有设计文档+原型后，配合 /goal 把文档发给 Claude Code（Fable 5）按 Milestones 实施，自己截图验证。测试：不信赖 Agent 自验，自己当 QA 黑盒跑几遍，问题丢回 Agent。没有 Review 代码，相信 Fable。</p>
+<p>同窗选型：年轻会选 DeepSeek Harness（新/酷/折腾、较少考虑项目和团队）；现在选 Pi——要项目需要的、稳定、简单，先做出来、能稳定运行。DSH 还新，稳定还要一段时间。现在有 AI、测试覆盖好一点，以后换底层没那么难。同题并。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/dotey/status/2091968767848837330" rel="noopener noreferrer" target="_blank">原帖一 · 宝玉</a><a href="https://x.com/dotey/status/2092014354946257338" rel="noopener noreferrer" target="_blank">原帖二 · 宝玉</a><a href="https://x.com/dotey/status/2091996016631300366" rel="noopener noreferrer" target="_blank">原帖三 · 宝玉</a></p>
+      <p class="links"><a href="https://x.com/dotey/status/2091968767848837330" rel="noopener noreferrer" target="_blank">原帖一 · 宝玉</a><a href="https://x.com/dotey/status/2092014354946257338" rel="noopener noreferrer" target="_blank">原帖二 · 宝玉</a><a href="https://x.com/dotey/status/2091996016631300366" rel="noopener noreferrer" target="_blank">原帖三 · 宝玉</a><a href="https://github.com/jimliu/baoyu-design" rel="noopener noreferrer" target="_blank">baoyu-design</a></p>
           </article>
           <article>
 <h3>Grok Bot 剪 YouTube 播客：丢链接 + 时间戳出 HD clip</h3>
@@ -811,15 +816,6 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/lennysan/status/2091998722188324868" rel="noopener noreferrer" target="_blank">原帖一 · Lenny Rachitsky</a><a href="https://x.com/lennysan/status/2092005818099269917" rel="noopener noreferrer" target="_blank">原帖二 · Lenny Rachitsky</a></p>
-          </article>
-          <article>
-<h3>jason：Implementing AI 两步——先开掉不用的，再雇会用的</h3>
-      <p class="byline">jason <a href="https://x.com/jason" target="_blank" rel="noopener noreferrer">@jason</a></p>
-      <div class="fold">
-<p>jason 两步 Implementing AI（时间线截断，overlay 未补更长正文，按已有原文写）：① 消掉不产出的岗位，并开掉拒绝用 AI 的十个人；② 用上 AI 的人会找出十几条新业务机会，于是你被迫再雇十个会用 AI 的人。可搬走的组织步骤，不是纯鸡汤。</p>
-      </div>
-      <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/jason/status/2092036215633547643" rel="noopener noreferrer" target="_blank">原帖一 · jason</a></p>
           </article>
         </div>
       </section>
@@ -1849,6 +1845,15 @@ article .links {
       <p class="links"><a href="https://x.com/danshipper/status/2092026065644335446" rel="noopener noreferrer" target="_blank">原帖一 · Dan Shipper</a><a href="https://x.com/lennysan/status/2092039000261529608" rel="noopener noreferrer" target="_blank">原帖二 · Lenny Rachitsky</a><a href="https://x.com/danshipper/status/2092039744108552359" rel="noopener noreferrer" target="_blank">原帖三 · Dan Shipper</a><a href="https://x.com/kaytlyndavis02/status/2092026992078000407" rel="noopener noreferrer" target="_blank">原帖四 · Katy Davis</a></p>
           </article>
           <article>
+<h3>jason：Implementing AI 两步——开掉拒绝用的，再雇会用的</h3>
+      <p class="byline">jason <a href="https://x.com/jason" target="_blank" rel="noopener noreferrer">@jason</a></p>
+      <div class="fold">
+<p>Step one：消掉不产出的岗位，开掉拒绝用 AI 的十个人。Step two：用上 AI 的人找出十几条新业务机会，于是再雇十个会用 AI 的人。Founders：Fire the people who won't use AI. Hire and promote the people who will. 短立场，无方法。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/jason/status/2092036215633547643" rel="noopener noreferrer" target="_blank">原帖一 · jason</a></p>
+          </article>
+          <article>
 <h3>jason：Nuro/Lucid 上路则 Uber $150</h3>
       <p class="byline">jason <a href="https://x.com/jason" target="_blank" rel="noopener noreferrer">@jason</a></p>
       <div class="fold">
@@ -1906,7 +1911,7 @@ article .links {
 <h3>杨高能：《牛来》为什么会火——力量和信心</h3>
       <p class="byline">杨高能 <a href="https://x.com/430Yang" target="_blank" rel="noopener noreferrer">@430Yang</a></p>
       <div class="fold">
-<p>时间线空卡，标题《牛来》为什么会火：它给了普通人力量和信心。本窗 articles 未 overlay，按标题判鸡汤，未发明。</p>
+<p>杨高能：《牛来》为什么会火——烂片效应只是表面，真正击中的是普通人的梦想（精英看粗糙，普通人看「我也可以」）。电影/文化鸡汤，无搬走的方法。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/430Yang/status/2092030990608748811" rel="noopener noreferrer" target="_blank">原帖一 · 杨高能</a></p>
@@ -1966,10 +1971,10 @@ article .links {
       <p class="links"><a href="https://x.com/thsottiaux/status/2092017873023819856" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a></p>
           </article>
           <article>
-<h3>Alice Smith：空原文</h3>
+<h3>Alice Smith：空图/漫画</h3>
       <p class="byline">Alice Smith <a href="https://x.com/TheAliceSmith" target="_blank" rel="noopener noreferrer">@TheAliceSmith</a></p>
       <div class="fold">
-<p>时间线空原文、无文章标题。本窗 articles 未 overlay，未发明。</p>
+<p>Alice Smith：空图/漫画 meme，无推文正文。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/TheAliceSmith/status/2091984577849909735" rel="noopener noreferrer" target="_blank">原帖一 · Alice Smith</a></p>
