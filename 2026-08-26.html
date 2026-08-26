@@ -238,7 +238,7 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-26</h1>
-      <p class="meta">美国时间 2026-08-26。4:00 ET 开第一页：raw/04.jsonl 66 + 00-after 0。正文 15 / 拿不准 5 / 已过滤 28。04-articles overlay 未落到盘（0 行）。Adam 空原文仅标题进拿不准，未发明。截断处按时间线+已列 OG，后半未补。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-26。4:00 ET 开第一页：raw/04.jsonl 66 + 00-after 0。正文 16 / 拿不准 4 / 已过滤 28。04-articles 20/20 overlay（fxtwitter），未发明。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="site-nav" aria-label="日期">
       <a href="index.html">首页</a>
@@ -250,8 +250,8 @@ article .links {
       <a href="2026-08-21.html">08-21</a>
     </nav>
     <nav class="tabs" aria-label="页签">
-      <button type="button" class="tab is-active" data-pane="main">正文 15</button>
-      <button type="button" class="tab" data-pane="maybe">拿不准 5</button>
+      <button type="button" class="tab is-active" data-pane="main">正文 16</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 4</button>
       <button type="button" class="tab" data-pane="filtered">已过滤 28</button>
     </nav>
     <div class="view-tools" aria-label="展开">
@@ -267,16 +267,16 @@ article .links {
 <h3>WeMM-Embedding：微信开源多模态 embedding，视频片段变向量</h3>
       <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
       <div class="fold">
-<p>yibie：腾讯微信团队开源 WeMM-Embedding，基于 Qwen3.5 的通用多模态 embedding，支持视频。视频片段可以直接变成向量；基准上全面超过同尺寸的 Qwen3-VL-Embedding，Apache 2.0 可商用。</p><p>仓库 https://github.com/Tencent/WeMM-Embedding 。时间线在「基于 Qwen3.5 的通用多模态 embedding」处截断，余下基准数字未补。向阳乔木同窗「推理还好…这个量也有点吓人」无增量，不并进本卡。</p>
+<p>yibie：腾讯微信团队开源 WeMM-Embedding，基于 Qwen3.5 的通用多模态 embedding，Apache 2.0（代码+权重全开源，可商用）。三个尺寸 2B / 4B / 9B，把文本、图片、视频、视觉文档（及交错多模态输入）统一到同一个 2048 维 L2 归一化向量空间。不支持音频。视频片段可以直接变成向量，能搜、能聚类、能当 RAG 检索源。</p><p>MMEB-v2（78 数据集平均）：2B 77.9（图像 79.6 / 视频 70.8 / 视觉文档 80.7），同尺寸 Qwen3-VL-Embedding 73.2（另列 VLM2Vec 47.8 / GME 55.4 / VLM2Vec-V2 59.3）；4B 79.2；9B 80.6（视频 74.3，全面领先含闭源 DME-Medium）。MMEB-v3（190 任务）：2B 56.0、9B 59.5。Matryoshka 截到 256 维仍保留 98.7% 图像/视频性能。</p><p>用法：sentence-transformers 一行 <code>tencent/WeMM-Embedding-2B</code>（trust_remote_code=True），encode_query / encode_document。推理服务：vLLM 0.27（--runner pooling）或 SGLang 0.5.9。技术报告 arXiv 2608.24053。HF collection + GitHub。向阳乔木同窗「推理还好…这个量也有点吓人」无增量，不并进本卡。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/yibie/status/2092494773517173022" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/Tencent/WeMM-Embedding" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+      <p class="links"><a href="https://x.com/yibie/status/2092494773517173022" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/Tencent/WeMM-Embedding" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://huggingface.co/collections/tencent/wemm-embedding" rel="noopener noreferrer" target="_blank">Hugging Face</a></p>
           </article>
           <article>
 <h3>Dethink：Agent 工作台抓小红书 / 抖音 / X / TikTok / YouTube / Reddit</h3>
       <p class="byline">阿西_出海 <a href="https://x.com/axichuhai" target="_blank" rel="noopener noreferrer">@axichuhai</a></p>
       <div class="fold">
-<p>阿西：独立开发者工具 Dethink，Agent 工作台能直接抓小红书、抖音、X、TikTok、YouTube、Reddit 的社媒数据；尤其点名小红书，在对话框里提需求就能直接调用。</p><p>产品 URL 未收到，不发明。同作者「选择多了就有人来聚合」和 servasyy「这样的平台越来越多了」无增量，不并进本卡。</p>
+<p>阿西：独立开发者工具 Dethink，Agent 工作台能直接抓小红书、抖音、X、TikTok、YouTube、Reddit 的社媒数据；尤其点名小红书，在对话框里提需求就能直接调用。评论区里被反复提到的痛点，挖出来的需求比空想值钱。</p><p>还接了 Semrush，SEO 数据也能一起爬。聚合 Claude / Grok / Gemini，不用各平台单独订阅，也支持接入自己的 API。支付支持微信，注册送 $5 额度。产品 URL 未给出，不发明。同作者「选择多了就有人来聚合」和 servasyy「这样的平台越来越多了」无增量，不并进本卡。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/axichuhai/status/2092504053217464554" rel="noopener noreferrer" target="_blank">原帖一 · 阿西_出海</a></p>
@@ -285,10 +285,10 @@ article .links {
 <h3>Gear Zero：一句提示词在浏览器里做出天空之城吃鸡</h3>
       <p class="byline">Cell <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
       <div class="fold">
-<p>Cell：Gear Zero 只需描述一个游戏，就会规划设计、写代码、画美术、建关卡，然后直接在浏览器里玩。无需引擎、无需代码、无需安装。</p><p>他试的完整提示词：「天空之城版本的绝地求生，可以在不同天空之城飞来飞去」，扔给 @gearzero_alaya。对方没有马上开工，时间线写到「而是，先开始」截断未补。</p><p>V1 发布后紧接着给了 3 个继续打磨的方向：空中缠斗与飞艇拦截；四城差异化战利品与专属法术；风暴眼决赛圈与最终高台。不是一次「终极发布」，更像在 BIP 里共享创作进度。</p><p>电脑、手机浏览器都能直接玩，不用安装、无需账号。创作者每天有免费建造额度，发布游戏还能获得更多额度。试玩链时间线截断，OG 只收到 t.co/FShuccbYKa，不扩成假 URL。</p><p>同作者另帖一句：再加上「单视频输入、4D 模型输出」，很多影视剧 IP 都可以直接游戏化（有引用帖）。铁锤/飞猪闲聊不并进本卡。</p>
+<p>Cell：Gear Zero 只需描述一个游戏，就会规划设计、写代码、画美术、建关卡，然后直接在浏览器里玩。无需引擎、无需代码、无需安装。</p><p>他试的完整提示词：「天空之城版本的绝地求生，可以在不同天空之城飞来飞去」，扔给 @gearzero_alaya。对方没有马上开工，而是先开始。</p><p>V1 发布后紧接着给了 3 个继续打磨的方向：空中缠斗与飞艇拦截；四城差异化战利品与专属法术；风暴眼决赛圈与最终高台。不是一次「终极发布」，更像在 BIP 里共享创作进度。还支持多人进入同一个聊天共同制作；Deep Mode 最长可以持续工作 10 小时。</p><p>电脑、手机浏览器都能直接玩，不用安装、无需账号。创作者每天有免费建造额度，发布游戏还能获得更多额度。试玩 https://zero.alayalab.ai/play/share_7a099a42bf31 ；自己做去 http://zero.alayalab.ai 。</p><p>同作者另帖一句：再加上「单视频输入、4D 模型输出」，很多影视剧 IP 都可以直接游戏化（有引用帖）。铁锤/飞猪闲聊不并进本卡。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/cellinlab/status/2092485332705144961" rel="noopener noreferrer" target="_blank">原帖一 · Cell</a><a href="https://x.com/cellinlab/status/2092480430213865482" rel="noopener noreferrer" target="_blank">原帖二 · Cell</a><a href="https://x.com/cellinlab/status/2092480506671821223" rel="noopener noreferrer" target="_blank">原帖三 · Cell</a><a href="https://x.com/cellinlab/status/2092480519842017635" rel="noopener noreferrer" target="_blank">原帖四 · Cell</a><a href="https://x.com/cellinlab/status/2092489189476753471" rel="noopener noreferrer" target="_blank">原帖五 · Cell</a><a href="https://t.co/FShuccbYKa" rel="noopener noreferrer" target="_blank">试玩（t.co，截断）</a><a href="https://x.com/i/status/2090701184516649225" rel="noopener noreferrer" target="_blank">引用帖</a></p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2092485332705144961" rel="noopener noreferrer" target="_blank">原帖一 · Cell</a><a href="https://x.com/cellinlab/status/2092480430213865482" rel="noopener noreferrer" target="_blank">原帖二 · Cell</a><a href="https://x.com/cellinlab/status/2092480506671821223" rel="noopener noreferrer" target="_blank">原帖三 · Cell</a><a href="https://x.com/cellinlab/status/2092480519842017635" rel="noopener noreferrer" target="_blank">原帖四 · Cell</a><a href="https://x.com/cellinlab/status/2092489189476753471" rel="noopener noreferrer" target="_blank">原帖五 · Cell</a><a href="https://zero.alayalab.ai/play/share_7a099a42bf31" rel="noopener noreferrer" target="_blank">试玩</a><a href="http://zero.alayalab.ai" rel="noopener noreferrer" target="_blank">Gear Zero</a><a href="https://x.com/i/status/2090701184516649225" rel="noopener noreferrer" target="_blank">引用帖</a></p>
           </article>
           <article>
 <h3>即梦片场：即梦 AI 影视厂牌，无限 Token</h3>
@@ -312,7 +312,7 @@ article .links {
 <h3>Will Depue：未来 8 个月可能再来一次 o3→Fable 级跃迁</h3>
       <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
       <div class="fold">
-<p>servasyy 转 Will Depue：未来 8 个月，模型可能再跳一次 o3→Fable 级别的台阶。从会做数学题，到自主科研大赛夺冠，中间就隔了这么一次跃迁。</p><p>Will Depue 参与过 Sora、o3 的后训练和 GPT-5。听到 OpenAI 和 Anthropic 内部的研发进展，用的词是「疯狂」。原因一段时间线只到「原因 :」，截断未补。</p>
+<p>servasyy 转 Will Depue：未来 8 个月，模型可能再跳一次 o3→Fable 级别的台阶。从会做数学题，到自主科研大赛夺冠，中间就隔了这么一次跃迁。</p><p>Will Depue 参与过 Sora、o3 的后训练和 GPT-5。听到 OpenAI 和 Anthropic 内部的研发进展，用的词是「疯狂」。原因：这两家的模型已经强到能反过来做下一代——写代码、跑实验、生成数据、做评测，整个研发流程都在被 AI 自己加速。循环里只剩算力一个变量能卡住它。所以跟这两家比 benchmark 意义没那么大了，该看内部迭代速度——等你追上这一代，人家下两代已经做出来了。</p><p>国产最大短板是算力不是模型能力；算力不自主，再强的模型也建在别人的地基上。别人用 AI 做下一代，8 个月一台阶；用人力追，追上的是上一代。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/servasyy_ai/status/2092486185608466466" rel="noopener noreferrer" target="_blank">原帖一 · huangserva</a></p>
@@ -326,7 +326,7 @@ article .links {
 <h3>Dao-Skill：比 Codex Skill-creator 强的六步元 Skill</h3>
       <p class="byline">逸尘 <a href="https://x.com/gengdaJ" target="_blank" rel="noopener noreferrer">@gengdaJ</a></p>
       <div class="fold">
-<p>逸尘：这个创建 Skill 的元 Skill 比 Codex 自带的 Skill-creator 强；六个步骤把一个完整工作流沉淀下来。仓库 https://github.com/gnipbao/dao-skill 。</p><p>只收到第一步「找根问题」：若用户说「做一个写作 Skill」，Dao-Skill——余下步骤截断未补，不发明第二到第六步。</p>
+<p>逸尘：这个创建 Skill 的元 Skill 比 Codex 自带的 Skill-creator 强；六个步骤把一个完整工作流沉淀下来。仓库 https://github.com/gnipbao/dao-skill 。</p><p>一、找根问题：用户说「做一个写作 Skill」时，先判断核心目的，避免核心模糊——要的是提炼文风、选题判断、文章生产，还是一整套内容创作系统。</p><p>二、找核心张力：用户总是既要又要，结果 Agent 执行后输出很差。例如写作自由发挥 vs 输出稳定、调研覆盖全面 vs 证据可靠、回答速度快 vs 核验充分。Dao-Skill 找出张力平衡点，避免盲目塞功能。</p><p>三、天地人三层：天=最高原则和不能违反的边界；地=适用/不适用场景、环境和路由；人=Agent 如何提问、判断、执行和输出。</p><p>四、四种生产模式：1 单一流程 Skill（一种明确任务）；2 工程工作流包（开发/调试/TDD/架构等多个小 Skill）；3 方法论工具箱（主路由＋多个诊断子 Skill）；4 认知提炼 Skill（把人物、作者、公司或思想体系提炼为思考框架）。</p><p>五、真正生成文件：Codex 根据前面的设计写出 SKILL.md、references、scripts、examples 等文件。</p><p>六、根据失败进化：失败经验必须沉淀成规则、测试、示例、脚本或评分标准，保证复用稳定性。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/gengdaJ/status/2092488002555838493" rel="noopener noreferrer" target="_blank">原帖一 · 逸尘</a><a href="https://github.com/gnipbao/dao-skill" rel="noopener noreferrer" target="_blank">GitHub</a></p>
@@ -335,7 +335,7 @@ article .links {
 <h3>菲律宾区 ChatGPT + Starryblu：一月约省 40，注册送 60 新币</h3>
       <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
       <div class="fold">
-<p>Yanhua：自称全球订阅 ChatGPT 最省钱的组合是菲律宾区 ChatGPT + Starryblu。ChatGPT 不同地区订阅价不同，菲律宾区更便宜；他大概算一个月至少省 40 元，一年近 500 元。方法帖写到「但真正难的是：」截断，OG 在截断处出现 ❌，后半未补。</p><p>开卡必须走邀请码 MDDK02F：https://starryblu.com/launchRegister?inviteCode=MDDK02F 。走这个链接注册送 60 新币消费，买 AI、消费都可以减免；注册后 ID 可私他加白。问 grok GPT-6 那条不并进本卡。</p>
+<p>Yanhua：自称全球订阅 ChatGPT 最省钱的组合是菲律宾区 ChatGPT + Starryblu。ChatGPT 不同地区订阅价不同，菲律宾区更便宜；他大概算一个月至少省 40 元，一年近 500 元。</p><p>真正难的是：没有海外信用卡；国内银行卡无法完成支付；找到低价区却卡在付款。Starryblu 用虚拟卡解决：支持海外订阅、一张卡覆盖多种海外支付；申请门槛低，还可微信/支付宝扫码，以及跨境汇款和十多种币种兑换。</p><p>开卡必须走邀请码 MDDK02F：https://starryblu.com/launchRegister?inviteCode=MDDK02F 。走这个链接注册送 60 新币消费，买 AI、消费都可以减免；注册后 ID 可私他加白。问 grok GPT-6 那条不并进本卡。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/yanhua1010/status/2092498886824988813" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a><a href="https://x.com/yanhua1010/status/2092499156615250378" rel="noopener noreferrer" target="_blank">原帖二 · Yanhua</a><a href="https://starryblu.com/launchRegister?inviteCode=MDDK02F" rel="noopener noreferrer" target="_blank">Starryblu</a></p>
@@ -344,25 +344,25 @@ article .links {
 <h3>给 Agent 看见的界面参照：要组件页，不要堆形容词</h3>
       <p class="byline">泊舟 <a href="https://x.com/bozhou_ai" target="_blank" rel="noopener noreferrer">@bozhou_ai</a></p>
       <div class="fold">
-<p>泊舟：功能已经能跑，页面却总像默认模板。先别继续给 AI 编程 Agent 堆「简洁、高级、科技感」——它缺的往往是一份看得见的界面参照。</p><p>形容词只说了气氛，没有告诉它按钮多大、内容怎么分层、弹窗怎样出现。具体组件页面会把结构、层级和交互摆出来。时间线写到「给 Agent」截断未补。</p>
+<p>泊舟：功能已经能跑，页面却总像默认模板。先别继续给 AI 编程 Agent 堆「简洁、高级、科技感」——它缺的往往是一份看得见的界面参照。形容词只说了气氛，没有告诉它按钮多大、内容怎么分层、弹窗怎样出现。具体组件页面会把结构、层级和交互摆出来。给 Agent 看链接，就像给装修师傅看参考图。</p><p>六个站点：1 shadcn/ui 基础表单/按钮/弹窗，组件代码放进自己项目再改；2 Origin UI 沿用同一复制修改方式，给常见控件补样式；3 21st.dev 面向 React + Tailwind 的社区组件目录；4 Magic UI 偏动画和视觉效果；5 Aceternity UI 偏互动动画的 React/Next.js 组件；6 Motion Primitives 开源动效集合，适合文字/切换/反馈等细小交互。</p><p>两种用法：一、先自选组件，确认 Agent 能访问该页，再把准链、页面目标和想借鉴的部分交给它适配；二、Agent 能上网时，把候选站点、目标和项目技术栈交给它自己筛再实现。不能浏览网页的 Agent 做不了第二步，别只丢一个站点首页让它猜。开始前先确认组件适合当前技术栈；借鉴结构、层级和交互，再换成自己的文案、颜色和间距。参考可以具体，别做像素级照搬。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/bozhou_ai/status/2092493049893171299" rel="noopener noreferrer" target="_blank">原帖一 · 泊舟</a></p>
+      <p class="links"><a href="https://x.com/bozhou_ai/status/2092493049893171299" rel="noopener noreferrer" target="_blank">原帖一 · 泊舟</a><a href="https://ui.shadcn.com/" rel="noopener noreferrer" target="_blank">shadcn/ui</a><a href="https://originui.com/" rel="noopener noreferrer" target="_blank">Origin UI</a><a href="https://21st.dev/" rel="noopener noreferrer" target="_blank">21st.dev</a><a href="https://magicui.design/" rel="noopener noreferrer" target="_blank">Magic UI</a><a href="https://ui.aceternity.com/" rel="noopener noreferrer" target="_blank">Aceternity UI</a><a href="https://motion-primitives.com/" rel="noopener noreferrer" target="_blank">Motion Primitives</a></p>
           </article>
           <article>
 <h3>Anthropic FDE 面试指南：年薪 28–32 万美元+股权，进客户系统</h3>
       <p class="byline">小互 <a href="https://x.com/xiaohu" target="_blank" rel="noopener noreferrer">@xiaohu</a></p>
       <div class="fold">
-<p>小互：Anthropic 正在招一批有些反常的前沿部署工程师（FDE）。他们不只在模型公司内部写代码，还要进入客户的系统，和银行、医疗机构、政府部门及大型企业的团队一起工作。</p><p>美国 FDE 岗位列出的年薪是 28 万至 32 万美元，另有股权。时间线写到「这份 FDE」截断，指南正文未补。</p>
+<p>小互：Anthropic 正在招一批有些反常的前沿部署工程师（FDE）。他们不只在模型公司内部写代码，还要进入客户的系统，和银行、医疗机构、政府部门及大型企业的团队一起工作。美国 FDE 岗位列出的年薪是 28 万至 32 万美元，另有股权。</p><p>这份面试指南看似在告诉候选人如何准备招聘，真正透露的变化是：当模型能力越来越强，AI 落地最稀缺的已经不是「会调用模型的人」，而是能把客户混乱的工作流程改造成可评估、可控制、可上线系统的人。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/xiaohu/status/2092479954571440303" rel="noopener noreferrer" target="_blank">原帖一 · 小互</a></p>
+      <p class="links"><a href="https://x.com/xiaohu/status/2092479954571440303" rel="noopener noreferrer" target="_blank">原帖一 · 小互</a><a href="https://best.xiaohu.ai/article/anthropic-fde-interview-guide/" rel="noopener noreferrer" target="_blank">指南</a></p>
           </article>
           <article>
 <h3>宝玉：用 PID 做进程级取证（vmmap 23870 / 2.3–2.7GB / GPU 73MB）</h3>
       <p class="byline">宝玉 <a href="https://x.com/dotey" target="_blank" rel="noopener noreferrer">@dotey</a></p>
       <div class="fold">
-<p>宝玉问 AI 怎么定位的：用 PID 做进程级取证，再结合项目规模、线程状态和源码完成因果定位。昨天 Activity Monitor 截图像不算写完，新的一天再出现一次。</p><p>已收到的推断链：vmmap -summary 23870 显示物理 footprint 约 2.3 GB、峰值约 2.7 GB；大头在 MALLOC_SMALL，IOSurface 只有约 14 MB，GPU 图形约 73 MB，所以视频帧池不是主因。时间线接着 Activity… 截断未补。</p>
+<p>宝玉问 AI 怎么定位的：用 PID 做进程级取证，再结合项目规模、线程状态和源码完成因果定位。昨天 Activity Monitor 截图像不算写完，新的一天再出现一次。</p><p>推断链：vmmap -summary 23870 显示物理 footprint 约 2.3 GB、峰值约 2.7 GB；大头在 MALLOC_SMALL，IOSurface 只有约 14 MB，GPU 图形约 73 MB，所以视频帧池不是主因。Activity Monitor 显示 439 个线程，源码中每个缩略图都 std::thread::spawn、随后等待 2 路信号量。项目时长约 24,278 秒，波形代码会生成完整的 16 kHz 单声道 Vec&lt;f32&gt;：24,278 × 16,000 × 4 bytes ≈ 1.55 GB，和实际内存峰值高度吻合。属于「系统取证 + 源码验证」，不是单纯看 PID 猜出来的。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/dotey/status/2092467523027370351" rel="noopener noreferrer" target="_blank">原帖一 · 宝玉</a></p>
@@ -371,7 +371,7 @@ article .links {
 <h3>Kevin：独立开发尽量做红海，谨慎碰蓝海</h3>
       <p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh" target="_blank" rel="noopener noreferrer">@kevinma_dev_zh</a></p>
       <div class="fold">
-<p>Kevin：独立开发做产品几个月，有阶段性小成果。踩过坑后越来越确定的判断，时间线只把第 1 点写完整：尽量做红海需求，谨慎碰蓝海。以前总觉得别人做过的东西再做没意思——余下编号截断未补。可复用方法，不发明第 2 点以后。</p>
+<p>Kevin：独立开发做产品几个月，有阶段性小成果。踩过坑后越来越确定的 6 点：</p><p>1. 尽量做红海需求，谨慎碰蓝海。红海意味着需求已被验证、用户已被教育，还有竞品可研究；可以切更具体人群、把核心体验做极致，或提供更简单更便宜的方案。一个人成本结构不同，小而精是优势。</p><p>2. 做之前先找成功案例。最好已有人靠它赚到钱；看竞品定价、评价、Reddit、App Store、社媒，看用户为什么付钱、抱怨什么。独立开发没有资本用半年验证想象中的需求。</p><p>3. 谨慎做开发者工具。开发者爱试新东西，付费意愿往往没想象中高；中文个人开发者市场商业化通常更难。例外是海外，或面向小团队/小公司帮他们省时间、降成本、提高收入的 To 小 B。</p><p>4. 独立开发本质是创业，每天都在取舍。功能和增长都可以无限优化，但时间和精力有限。先知道产品靠什么产生价值，别为审美和技术洁癖把时间花在用户不在乎的地方。</p><p>5. 判断需求真假最好看有没有人愿意付钱。「很好」「以后一定支持」和掏钱之间还很远；已付钱的人为什么付、最看重什么，比一百条「看起来不错」更有价值。</p><p>6. 一开始就要敢于收费。不认可先堆大量免费用户再商业化；核心体验可以试，持续产生价值的部分就该收费。从第一天收费，用户从一开始就知道这是一门生意。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/kevinma_dev_zh/status/2092521198387138865" rel="noopener noreferrer" target="_blank">原帖一 · Kevin Ma</a></p>
@@ -384,6 +384,15 @@ article .links {
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/yangyi/status/2092497212890595462" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>Adam：我研究了最近60天的AI视频爆款，发现大家可能卷错了</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>Adam 文章《我研究了最近60天的AI视频爆款，发现大家可能卷错了》。用 Apodex 1.1 连续多轮：第一轮找真实案例，整理出 23 个可追溯案例、27 条来源、10+ 类玩法并做成案例库；因为第一轮高播放样本偏 YouTube Shorts，又针对 X 单独纠偏；最后再反向验证，专门找漏洞和反例。</p><p>真正该卷的是前 2 秒 / Hook，再精修。模型决定能做什么，前几秒决定有没有人看。先测 Hook，再精修细调。</p><p>纯视觉还能当 Hook，但只靠「哇好牛」会越来越难。要再加第二层：视觉+Prompt / 模型对比 / 拆解 / 工作流 / 商业场景。视觉负责让人停下来，信息负责让人留下来。</p><p>抖音/Shorts vs X：短视频平台更依赖让人继续看；X 还要给收藏、回复、Quote 的理由。同一支视频不要一稿多投。反向验证把「AI 音乐视频短期红利窗口」和「AI 微短剧品牌预算正在聚集」降级或修正。</p><p>文末四问：第一秒用户能不能看懂马上要发生什么？除了好看还有没有第二层价值？换平台要不要重新包装？追的是长期机制还是一阵新鲜感？</p><p>FrontierAgent 已开源；Apodex 1.1 mini（35B）开放 HF 权重，可本地部署、可搭配 FrontierAgent；Web 工作台已上线。</p>
+      </div>
+      <button type="button" class="more" hidden>展开</button>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2092505410574164476" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a><a href="https://github.com/ApodexAI/FrontierAgent" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://huggingface.co/collections/apodex/apodex-11" rel="noopener noreferrer" target="_blank">Hugging Face</a><a href="https://www.apodex.ai/" rel="noopener noreferrer" target="_blank">Apodex</a></p>
           </article>
           <article>
 <h3>浏览器插件：屏蔽推特评论区「福们」</h3>
@@ -403,7 +412,7 @@ article .links {
 <h3>Midjourney 出全身：镜头拉远 / 全身高度肖像 / 走秀姿势</h3>
       <p class="byline">古一 <a href="https://x.com/MANISH1027512" target="_blank" rel="noopener noreferrer">@MANISH1027512</a></p>
       <div class="fold">
-<p>古一：群友问 Midjourney 出图老是半身或大头照、出不了全身。比较有效的关键词可以挂在前面：「镜头拉远」「全身高度肖像」「走秀姿势」。余下截断未补。大姐姐/甜妹那条不并进本卡。</p>
+<p>古一：群友问 Midjourney 出图老是半身或大头照、出不了全身。比较有效的关键词可以挂在前面：「镜头拉远」「全身高度肖像」「走秀姿势」。</p><p>2）moodboard 里如果全是特写、近景也会影响出全身，制作时尽量挑不同角度、不同构图、不同机位的风格图。3）比例尽量选择竖构图。大姐姐/甜妹那条不并进本卡。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/MANISH1027512/status/2092503964801728875" rel="noopener noreferrer" target="_blank">原帖一 · 古一</a></p>
@@ -416,19 +425,10 @@ article .links {
         <h2>拿不准</h2>
         <div class="grid">
           <article>
-<h3>Adam：我研究了最近60天的AI视频爆款（仅标题）</h3>
-      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
-      <div class="fold">
-<p>时间线空原文，是 X 文章。标题：「我研究了最近60天的AI视频爆款，发现大家可能卷错了」。04-articles overlay 未落到盘，正文未收回，未发明。侧栏曾出现 FrontierAgent 仓库，无法确认属于本帖，省略。</p>
-      </div>
-      <button type="button" class="more" hidden>展开</button>
-      <p class="links"><a href="https://x.com/Adam38363368936/status/2092505410574164476" rel="noopener noreferrer" target="_blank">原帖一 · Adam也叫吉米</a></p>
-          </article>
-          <article>
 <h3>Alex：AI 翻唱登顶澳洲舞曲榜，国家改了榜单规则</h3>
       <p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" target="_blank" rel="noopener noreferrer">@alex_prompter</a></p>
       <div class="fold">
-<p>Alex：一首 AI 歌登顶澳大利亚舞曲榜，该国随即改了榜单规则，避免再出现。Queensland 的 DJ 用 AI 人声和 AI 鼓翻唱 Madonna《Like a Prayer》，OG 补到 4800 万次播放。时间线在「48 million streams on」截断。有事实但不是能用方法，产业杂闻进拿不准。</p>
+<p>Alex：一首 AI 歌登顶澳大利亚舞曲榜，该国随即改了榜单规则。Queensland 的 DJ 用 AI 人声和 AI 鼓翻唱 Madonna《Like a Prayer》，4800 万次 Spotify 播放，也是澳洲电台播放最多的曲目。</p><p>ARIA 本周五起禁止「完全 AI 生成」进榜。新人声门槛：人写、人唱主唱、人弹主乐器，AI 母带可以。规则可回溯：可从过往榜单摘歌、调名次、收回冠军奖杯（含实体奖杯）。Deezer 称今年上传曲目 44% 是 AI 生成。</p><p>漏洞：标准不覆盖歌词、作曲、MV、封面——AI 可以写词写旋律，只要人演就能上榜。产业规则，不是能搬走的用法，仍留拿不准。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/alex_prompter/status/2092522494980927788" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a></p>
@@ -534,7 +534,7 @@ article .links {
 <h3>Zho：The Odyssey 影评 + AI 是新人类的一部分</h3>
       <p class="byline">-Zho- <a href="https://x.com/ZHO_ZHO_ZHO" target="_blank" rel="noopener noreferrer">@ZHO_ZHO_ZHO</a></p>
       <div class="fold">
-<p>看完 The Odyssey：Nolan 以人的叙事拍神话，从神性回归人性，非科幻史诗感拉满沉浸和视听，真他妈伟大。另帖：AI 对旧人类是强无敌工具，对未来新人类是天然的一部分，真正用户/盈利或许是新人类。影评+金句并一张。</p>
+<p>看完 The Odyssey：Nolan 以人的叙事拍神话，从神性回归人性，非科幻史诗感拉满沉浸和视听，真他妈伟大；神话本基于人的现实历史神化而来，Nolan 做到了回归人的现实性来呈现。另帖：AI 对旧人类是强无敌工具，对未来新人类是天然的一部分，真正用户/盈利或许是新人类。影评+金句并一张。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/ZHO_ZHO_ZHO/status/2092518897123799077" rel="noopener noreferrer" target="_blank">原帖一 · -Zho-</a><a href="https://x.com/ZHO_ZHO_ZHO/status/2092469069694017710" rel="noopener noreferrer" target="_blank">原帖二 · -Zho-</a></p>
@@ -543,7 +543,7 @@ article .links {
 <h3>卫斯理：祝福背调 / Wise 450 / 香港 50k / 写广告累 / dashboard 拉群</h3>
       <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
       <div class="fold">
-<p>前同事找背调现在只祝福、不再问薪资岗位福利，自称全然不想上班也找不到工作（后半截断）；居然领到 Wise 分享的 450 元奖励；同事去香港月薪 50k、房租 20k；写广告要深入金主产品还要编场景，很累；加了每日 dashboard 监控收益/阅读/身体/写作/涨粉，欢迎加小号 xiaowei6571 备注 dashboard，请咖啡拉群。生活/招揽五帖并。</p>
+<p>前同事找背调现在只祝福、不再问薪资岗位福利，自称全然不想上班也找不到工作、想当自由人；居然领到 Wise 分享的 450 元奖励；同事去香港月薪 50k、房租 20k；写广告要深入金主产品还要编场景，很累；加了每日 dashboard 监控收益/阅读/身体/写作/涨粉，欢迎加小号 xiaowei6571 备注 dashboard，请咖啡拉群（哈哈哈）。生活/招揽五帖并。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/imwsl90/status/2092518199074128079" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a><a href="https://x.com/imwsl90/status/2092508695876047262" rel="noopener noreferrer" target="_blank">原帖二 · 卫斯理</a><a href="https://x.com/imwsl90/status/2092473238291120466" rel="noopener noreferrer" target="_blank">原帖三 · 卫斯理</a><a href="https://x.com/imwsl90/status/2092470800528052434" rel="noopener noreferrer" target="_blank">原帖四 · 卫斯理</a><a href="https://x.com/imwsl90/status/2092463705481236927" rel="noopener noreferrer" target="_blank">原帖五 · 卫斯理</a></p>
@@ -570,7 +570,7 @@ article .links {
 <h3>杨高能：包贝尔出轨热搜 + 睡觉才是低调炫富</h3>
       <p class="byline">杨高能 <a href="https://x.com/430Yang" target="_blank" rel="noopener noreferrer">@430Yang</a></p>
       <div class="fold">
-<p>包贝尔被曝出轨冲上热搜，狗仔视频称与红发女子先后回同一酒店、凌晨进房次日离开（后半截断）。另帖说最顶级炫富是每晚睡个好觉，豪车豪宅银行卡都不如这个低调。娱乐/鸡汤两帖并。</p>
+<p>包贝尔被曝出轨冲上热搜，狗仔视频称与红发女子先后回同一酒店、凌晨进房次日离开。另帖说最顶级炫富是每晚睡个好觉，豪车豪宅银行卡都不如这个低调。娱乐/鸡汤两帖并。</p>
       </div>
       <button type="button" class="more" hidden>展开</button>
       <p class="links"><a href="https://x.com/430Yang/status/2092514820289421732" rel="noopener noreferrer" target="_blank">原帖一 · 杨高能</a><a href="https://x.com/430Yang/status/2092471525567860817" rel="noopener noreferrer" target="_blank">原帖二 · 杨高能</a></p>
