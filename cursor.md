@@ -1,9 +1,9 @@
 # X 关注游标
 
-- status_id: 2092523242581836039
-- url: https://x.com/alex_prompter/status/2092523242581836039
-- author: Alex Prompter
-- handle: @alex_prompter
-- time_utc: 2026-08-26T08:03:12.000Z
-- note: 4:00 ET 窗最新（含 00-after 0）
-- updated: 2026-08-26 04:19 ET
+- status_id: 2092583839683985820
+- url: https://x.com/geekbb/status/2092583839683985820
+- author: Geek
+- handle: @geekbb
+- time_utc: 2026-08-26T12:04:00.000Z
+- note: 8:00 ET 窗最新
+- updated: 2026-08-26 08:17 ET
