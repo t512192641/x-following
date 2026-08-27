@@ -3,6 +3,7 @@
 每次反馈、改版、漏做，写在这里。下一轮先读 playbook.md 和本文件。
 
 ## 2026-08-27
+- 4:00 ET 抓 105（GraphQL HomeLatestTimeline 翻到游标；DOM Following 仍因 Premium 条+虚拟列表只见 4 条）+ 00-after 9，合并去重 114，开 27 日第一页。正文 18（模型 7：向阳乔木牛来/Ox=GLM-5.3-Flash 实测；阑夕 DeepSeek 财务；Grok Bot 下放四帖并；Geek Scripting AI Usage；Apodex 1.1 Asa+Rion；噪点 cc switch；逸尘 Atypica 100w。Agent 4：Alex 1200 agents；Alpha GrokBot×Whop；acceptmarkdown.com；Derrick compact。方法 4：宝玉跳出框架；Alpha MCP 两条路；Indie Fox Stripe；向阳乔木蒸馏。提示词 3：Alex ChatGPT 安全提示；Adam 换装；Yanhua OUTRUN）/ 拿不准 10 / 已过滤 26 卡。04-articles 8/8 overlay。未发明。游标到 -Zho- / @ZHO_ZHO_ZHO 2092887674336297252。已拷到 x-following-site 并推送。
 - 0:00 ET 抓 10（Following 时间线未能翻页：Premium 即将过期条 + 虚拟列表滚不动，只收到可见卡片）。pre 1（Matthew Nvidia 同意 129 亿美元收购 Hugging Face / 对比 Grok 200 亿）并进 26 日完整版；post 9 落 raw/2026-08-27/00-after.jsonl，不新开/不推送 27 日页。正文 +1 新卡，拿不准 0，已过滤 0（post 不进 26 页）。保留 20:00 正文 79 / 拿不准 17 / 已过滤 96。合计正文 80 / 拿不准 17 / 已过滤 96。截断帖（Derrick compact 跟帖、dotey 跳出框架、vista8 牛来文章）未 overlay，按时间线写，未发明。游标到 Cell / @cellinlab 2092835676794302961。20:02–00:44 ET 之间可能有缺口。已拷到 x-following-site 并推送。
 
 ## 2026-08-26
