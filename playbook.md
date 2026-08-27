@@ -10,7 +10,8 @@
 - **0:00 ET 窗聊天交付昨天的完整版**（刚过完的那一天）。今天第一版等到 **4:00 ET** 再交。0 点不要把只有几条的今天页当「新一份」发出去。
 - 文件：/workspace/x-following/days/YYYY-MM-DD.html（阅读用）和同名 .md（底稿）。
 - 聊天：一句说明 + 这一轮该交的那一页 https（GitHub Pages）。4/8/12/16/20 交当天；0 点交昨天。交付只走 GitHub Pages https，不把全文倒进对话框，也不再附文件。
-- 托管：公开仓库 https://github.com/t512192641/x-following 。阅读页每天一份 `YYYY-MM-DD.html`，旧日不覆盖。首页 `https://t512192641.github.io/x-following/`。playbook.md / changelog.md / cursor.md 同步进同一仓库作备份，不挂阅读首页。raw jsonl 仍先留本地，需要再备。
+- 托管：公开仓库 https://github.com/t512192641/x-following 。阅读页每天一份 `YYYY-MM-DD.html`，旧日不覆盖。首页 `https://t512192641.github.io/x-following/`。playbook.md / changelog.md / cursor.md 同步进同一仓库作备份，不挂阅读首页。raw jsonl 仍先留本地。
+- 私人备份：https://github.com/t512192641/grok-ops （私有，不是 Pages）。关注名单、收藏夹、任务清单只进这里，不要推进公开库。
 - 限时优惠、漏洞、会过期的价：不靠这轮汇总。以后单独快通知。
 
 
