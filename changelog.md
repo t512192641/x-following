@@ -4,6 +4,8 @@
 
 ## 2026-08-28
 
+- 4:00 ET 窗：抓 90（GraphQL HomeLatestTimeline POST+csrf+bearer；未命中游标，第 3 页已全旧于 2093188453441937661 故停）+ 00-after 2，合并去重 92，开 28 日第一页。正文 20（模型 7：Hy4 开源规格/价/Arena/huangserva 赛车；乔木 8 项目实测文章；ChatGPT 多账号 Gmail/日历/通讯录；InvoiceFlowAI；SentiaRead 墨水屏；MHS 再发；Fable/Opus/Sonnet 翻译对照。Agent 2：Yanhua WorkBuddy+Hy4 体检 761 文件 0 矛盾；Alex PR review L2 再发。方法 6：Rion AgentKey+公众号调研提示词；Yangyi 智能数据比率；哥飞 X 80% 外链；OX 四步侦探；出海去 SaaS 十二条再发；Alex Whop 版税蓝图。提示词 5：小小东 VOL.061；冷账叙事 Skill；/dbs-skill-maker；bug 技能库再发；sunyuchen-skill）/拿不准 7（Cursor 工具互换立场、小小东未点名更新、Vibe 神器到货、泊舟磨指甲游戏、旅游 Agent 预测、disbrief 打磨、Asa 屏蔽词）/已过滤 18 簇（卫斯理吃瓜、鱼总涨粉维权、木马人短互动、Zho 草间、孙割文学、Morris 鸡汤、Elon、直播选题、bot farm、YIMBY 等）。04-articles 55/55 overlay（3 篇 X 文章全文；t.co 已解；文章 t.co 404、Rion 抖音/小红书提示词、乔木文内提示词未抽出未发明）。未发明。游标到 卫斯理 / @imwsl90 2093248265303257089。已拷 x-following-site 并推送。
+
 - 0:00 ET 窗：抓 131（GraphQL；pre 129 / post 2）。pre 并进 2026-08-27 日页；post-midnight 仅留 raw，不推 28 日薄页。正文新卡 25（模型 9：Rippling MCP / OpenCode Go / Omarchy Basecamp Mac / GPT 画廊插件 / Topview≈1000 / Work·Codex admin plugin / TTS 聚合无产品 URL / Spacebar / Yomi。Agent 4：Natera Bedrock 语音预约 / 拓截图工具 / TinyFish / xposter fork。方法 9：FlClash+Codex / Codex 33h Matt+Goal / 三网页小游戏 / Tutti 80× / Hysteria2 方案 / Codex 周 recap / Gear 赛跑+暗夜猎魔人 / 推特原创验证 / Claude 四模式。提示词 3：bug 技能库 / 营销技能库 / 新概念写作 Skill）+ 更新 6（Ox/GLM cc-switch 教程、Grok Bot 监控 Trend/PH、孙割 Skill 第三仓 KKKKhazix、乐天卡再发、Elvis 五桶再发、PR review Alex 再发；Topview 拿不准交叉）。拿不准新 11；已过滤 34 簇（孙割吃瓜/Morris 鸡汤/文学创作/Elon 短帖等）。合计正文 130 / 拿不准 48 / 已过滤 174（自 105/37/140）。00-articles overlay（fxtwitter；文章全文 GLM/拓/新概念；t.co 已解，TTS 评论区 URL 未展开未发明）。未发明。游标到 cnyzgkc / @cnyzgkc 2093188453441937661（post-midnight）。已拷 x-following-site 并推送。
 
 ## 2026-08-27
