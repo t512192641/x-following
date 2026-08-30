@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 关注 · 2026-08-30</title>
+  <style>
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; }
+article:not(.is-open) { height: 320px; }
+article.is-open { height: auto; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+article.is-open h3 {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  overflow: visible;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+article:not(.is-open) .fold { overflow: hidden; }
+article.is-long:not(.is-open) .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>X 关注 · 2026-08-30</h1>
+      <p class="meta">美国时间 2026-08-30。4:00 ET 今天第一页：raw/2026-08-30/04.jsonl 68（DOM Following+最近慢滚 + 导航后截到 1 次 HomeLatestTimeline；脚本文件 CDP Auto-review bind-fail；命中游标条件=看见更旧帖，精确 id 2093915001375641928 未在流中复现；oldest 新帖 2093921643370611170 ≈游标后约 26 分钟，中间可能有缺口）。00-after 3 并进本页。正文 18 / 拿不准 12 / 已过滤 39。04-articles 68/68 overlay（fxtwitter；t.co 7；未发明）。未并 recommended/ideas（非 20:00）。未发明。清爽 8-bit，纯文字卡片。</p>
+    </header>
+    <nav class="site-nav" aria-label="日期">
+      <a href="index.html">首页</a>
+      <a href="2026-08-30.html" class="is-here">08-29</a>
+      <a href="2026-08-28.html">08-28</a>
+      <a href="2026-08-27.html">08-27</a>
+      <a href="2026-08-26.html">08-26</a>
+      <a href="2026-08-25.html">08-25</a>
+      <a href="2026-08-24.html">08-24</a>
+      <a href="2026-08-23.html">08-23</a>
+    </nav>
+    <nav class="tabs" aria-label="页签">
+      <button type="button" class="tab is-active" data-pane="main">正文 18</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 12</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 39</button>
+    </nav>
+    <div class="view-tools" aria-label="展开">
+      <button type="button" class="tab" id="btn-expand">全部展开</button>
+      <button type="button" class="tab" id="btn-collapse">全部收起</button>
+    </div>
+
+    <div id="pane-main" class="pane is-active">
+        <section class="group">
+          <h2>模型 / 产品</h2>
+          <div class="grid">
+          <article>
+<h3>拓（Ta）：AI 原生截图工具，Skill/CLI 接 Codex</h3>
+      <p class="byline">袋鼠帝 <a href="https://x.com/aikangarooking" target="_blank" rel="noopener noreferrer">@aikangarooking</a></p>
+      <div class="fold">
+<p>耗时 3 天开源截图工具「拓（Ta）」：常规钉图/标注/马赛克/长截图都有；AI 侧框选 OCR 约 3 秒进剪贴板、框选翻译、识图问架构/流程图，模型可换。真正差别是 Skill + CLI：可接 Codex / Claude Code / OpenCode / WorkBuddy / 豆包工作。作者说 Codex 自带截图不会划线打字箭头马赛克；接 ta-cli 后 Agent 可自动截图、圈重点、打码。自己写教程时让 Codex 自动截并标注。项目用 Codex + GLM-5.3-Flash 迭代。仓 github.com/kangarooking/Ta。</p>
+      </div>
+      <p class="links"><a href="https://x.com/aikangarooking/status/2093975500125577269" rel="noopener noreferrer" target="_blank">原帖一 · 袋鼠帝</a><a href="https://github.com/kangarooking/Ta" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>Kronos：清华开源金融 K 线基础模型</h3>
+      <p class="byline">阿西_出海 <a href="https://x.com/axichuhai" target="_blank" rel="noopener noreferrer">@axichuhai</a></p>
+      <div class="fold">
+<p>清华团队开源 Kronos，专吃金融 K 线：把开高低收+成交量当成「语言」做 Token，用大模型方式学市场。称训练覆盖全球 45 家交易所超 120 亿条 K 线；用途含价格/波动率预测与模拟行情。论文称价格预测 RankIC 比主流时序模型高 93%。仓库/论文链帖内未给全，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/axichuhai/status/2093963412732551306" rel="noopener noreferrer" target="_blank">原帖一 · 阿西</a></p>
+          </article>
+          <article>
+<h3>MiniMax H3 vs Seedance 2.0 mini：电商服装展示实测</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>同一套电商服装展示，左右对比 MiniMax H3 与 Seedance 2.0 mini。作者站 H3：背景光影与人物色调更搭，人物不像 Seedance 那么「网红脸」。可直接用在服装展示。与 29 日 fal H3 Max / Infinite Slop 卡同产品线，本卡写对照实测。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2093977664344465832" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a></p>
+          </article>
+          <article>
+<h3>H3 Max Live：聊天驱动超实时无限视频流</h3>
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+      <div class="fold">
+<p>续 29 日 fal Minimax H3 Max / Infinite Slop：huangserva 写 H3 Max Live——生成快过实时、无限不循环画面、观众用 !prompt 当导演。称秒级延迟、每帧新生成、聊天即指令。产品落地仍见 fal / levelsio Infinite Slop 卡。</p>
+      </div>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2093925698327167056" rel="noopener noreferrer" target="_blank">原帖一 · huangserva</a></p>
+          </article>
+          <article>
+<h3>又一无审核 GLM-5.3 Flash；4090 挑战 2-bit GGUF</h3>
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+      <div class="fold">
+<p>称又一个无限制审核版，仍是 GLM-5.3 Flash。考虑用 4090 48G + 128G 内存跑 2-bit GGUF；规格写 320B 总参、每 token 激活约 18B。引用 OrcaRouter。仓/端点未写全，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2093926948686979549" rel="noopener noreferrer" target="_blank">原帖一 · huangserva</a></p>
+          </article>
+          <article>
+<h3>Grok Companions 将于 2026-09-01 从 App 移除</h3>
+      <p class="byline">Tesla Owners Silicon Valley <a href="https://x.com/teslaownersSV" target="_blank" rel="noopener noreferrer">@teslaownersSV</a></p>
+      <div class="fold">
+<p>称 Grok Companions 将于 2026 年 9 月 1 日起从 Grok App 正式移除。来源 @PrivateIcedC81。官方博文未另附，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/teslaownersSV/status/2093974833382019525" rel="noopener noreferrer" target="_blank">原帖一 · Tesla Owners SV</a></p>
+          </article>
+          <article>
+<h3>Grok Bot 一键分享模板；Avid 精选 6 个可偷</h3>
+      <p class="byline">Avid <a href="https://x.com/Av1dlive" target="_blank" rel="noopener noreferrer">@Av1dlive</a></p>
+      <div class="fold">
+<p>Grok Bot 可一键对外分享。作者早鸟翻了约 100 个共享模板，列 6 个会偷：loops (Matt)、Master (Farzad)、Chief of Staff / Growth Desk (Avid)、Forge (Robert)、Grok Bot Coach (Amina)，均给 x.ai/bot/… 链。称别人能偷 bot，偷不走你的 vault/handoffs/判断图。与 29 日 Templates/Lenny 卡同主题，新的一天写分享能力。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Av1dlive/status/2093938437338640577" rel="noopener noreferrer" target="_blank">原帖一 · Avid</a><a href="https://x.ai/bot/Ub3T7usX-c6yRQibQq83P" rel="noopener noreferrer" target="_blank">x.ai loops</a><a href="https://x.ai/bot/j7B5LHnEIPTuPQZxxQwpx" rel="noopener noreferrer" target="_blank">x.ai Master</a><a href="https://x.ai/bot/d8OshqLZvtcKDcNluPuyo" rel="noopener noreferrer" target="_blank">x.ai Chief of Staff</a><a href="https://x.ai/bot/YYCOE-YeGxnGLb4Mbv7dO" rel="noopener noreferrer" target="_blank">x.ai Growth Desk</a><a href="https://x.ai/bot/uF_uodOFUz9mdv6XDWE70" rel="noopener noreferrer" target="_blank">x.ai Forge</a><a href="https://x.ai/bot/BrjELcmSwatjRc8DYjtrT" rel="noopener noreferrer" target="_blank">x.ai Coach</a></p>
+          </article>
+          <article>
+<h3>Grok Bot 绑 X 领 $100 credit：触发话术</h3>
+      <p class="byline">Asa <a href="https://x.com/app_sail" target="_blank" rel="noopener noreferrer">@app_sail</a></p>
+      <div class="fold">
+<p>续 29 日「绑定 X 自动开开发者账号」价卡：Asa 写绑自己的 X 可领 100 美金 credit。步骤：在 Grok Bot 里说「Grok bot 如何管理 X 账号」触发登录 → 引导登录 X → 即可操作。另拉微信交流群（门槛要有 Grokbot 账号）。具体发放规则以产品页为准，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/app_sail/status/2093947222597808449" rel="noopener noreferrer" target="_blank">原帖一 · Asa</a></p>
+          </article>
+          <article>
+<h3>aimakemoney.io：推特 $1,300 后做成站让 AI 自投放</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+      <div class="fold">
+<p>续 29 日 Yee/aimakemoney 价卡：Yangyi 回铁锤人——用 newmax 跑「AI 赚钱指南」，一条推特赚 1300 美金，现做成网站 aimakemoney.io，让 AI 自己去投放看能不能赚钱。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yangyi/status/2093932252233343336" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a><a href="https://aimakemoney.io/" rel="noopener noreferrer" target="_blank">aimakemoney.io</a></p>
+          </article>
+          <article>
+<h3>vgpu.sh：Vercel Labs 22 个开源视觉 demo + Agent 安装</h3>
+      <p class="byline">小耳Jane <a href="https://x.com/xiaoerzhan" target="_blank" rel="noopener noreferrer">@xiaoerzhan</a></p>
+      <div class="fold">
+<p>新的一天再转 Vercel Labs 开源 vgpu：官网约 22 个 demo（黑洞、地球、流体、FFT 海面、Radiance Cascades、12.5 万实例方块、MNIST、隔空擦雾等）。给 Agent：npx vgpu examples pull。作者用 Radiance Cascades 做视频。站 vgpu.sh。</p>
+      </div>
+      <p class="links"><a href="https://x.com/xiaoerzhan/status/2093949943903830319" rel="noopener noreferrer" target="_blank">原帖一 · 小耳</a><a href="https://x.com/xiaoerzhan/status/2093949946424701149" rel="noopener noreferrer" target="_blank">原帖二 · 小耳</a><a href="https://vgpu.sh/" rel="noopener noreferrer" target="_blank">vgpu.sh</a></p>
+          </article>
+          <article>
+<h3>VSC 开源专区：ChatGPT 画廊插件 / 写真 Skill / MOSA 素材库</h3>
+      <p class="byline">古一 <a href="https://x.com/MANISH1027512" target="_blank" rel="noopener noreferrer">@MANISH1027512</a></p>
+      <div class="fold">
+<p>本周三件：① ChatGPT 画廊工作台插件——线性生图改成接近 Midjourney 的工作台，多任务、集中预览对比下载、保留提示词（作者自荐，昨日页已有画廊主题）。② 写真 Skill（@nanyuan0412）——参考图拆解、中文 Prompt、系列母版/变体、换人复拍，控身份/表情/机位/光/曝光/背景。③ MOSA（@azhui0625）——本地优先素材库，收 Codex/ChatGPT/Gemini/Flow/AI Studio/Grok CLI 的图视频 Prompt，保留来源与版本。项目页三条 vibeshot.club/open-source/…。</p>
+      </div>
+      <p class="links"><a href="https://x.com/MANISH1027512/status/2093979411481850138" rel="noopener noreferrer" target="_blank">原帖一 · 古一</a><a href="https://x.com/MANISH1027512/status/2093979414417789344" rel="noopener noreferrer" target="_blank">原帖二 · 古一</a><a href="https://vibeshot.club/open-source/3e83fa20-e62d-43a3-8d1c-2d811234772a" rel="noopener noreferrer" target="_blank">vibeshot · 1</a><a href="https://vibeshot.club/open-source/7e10791b-44d3-4dd9-a170-f272abb6afc9" rel="noopener noreferrer" target="_blank">vibeshot · 2</a><a href="https://vibeshot.club/open-source/9133d9df-0255-40bd-8980-cd69fb0126b2" rel="noopener noreferrer" target="_blank">vibeshot · 3</a></p>
+          </article>
+          <article>
+<h3>LLM Cliché Highlighter：粘贴即高亮 AI 套话</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>Simon Willison 把维基「Signs of AI writing」做成网页工具：粘贴或填 URL，逐句扫描，命中 delve/tapestry/meticulous、「as an AI language model」、oaicite 等 38 个可开关模式就高亮；排比链带计数徽章；连续同构/疑问/同词开头会计数；「colon into a triple」默认关以免技术文档误报。边打字边分析。自带 Node 一行自测。站 tools.simonwillison.net/llm-cliche-highlighter。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2093979525134905670" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://tools.simonwillison.net/llm-cliche-highlighter" rel="noopener noreferrer" target="_blank">工具站</a></p>
+          </article>
+          <article>
+<h3>Claude 订阅额度：宣传 +25%，实际约 −17%</h3>
+      <p class="byline">歸藏 <a href="https://x.com/op7418" target="_blank" rel="noopener noreferrer">@op7418</a></p>
+      <div class="fold">
+<p>续 29 日 Claude Code 9/14 额度卡：歸藏吐槽官方话术——9 月 14 日后所有人订阅额度实际降约 17%，文案却像涨了 25%。引用 @ClaudeDevs 说明帖。</p>
+      </div>
+      <p class="links"><a href="https://x.com/op7418/status/2093954604493066244" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a><a href="https://x.com/ClaudeDevs/status/2093742322525810912" rel="noopener noreferrer" target="_blank">原帖二 · ClaudeDevs</a></p>
+          </article>
+          </div>
+        </section>
+        <section class="group">
+          <h2>方法</h2>
+          <div class="grid">
+          <article>
+<h3>EIN / SSN / ITIN / SIN：美区 PayPal 个人税号怎么补</h3>
+      <p class="byline">饭团 <a href="https://x.com/fantuantalk" target="_blank" rel="noopener noreferrer">@fantuantalk</a></p>
+      <div class="fold">
+<p>X 文章《一篇文章搞懂 EIN、SSN、ITIN 和 SIN》。公司 EIN 过了、个人资料卡在税务：没有 SSN/ITIN。ITIN 九位且以 9 开头，需同时有联邦税务用途且无 SSN 资格；把「开 PayPal」当申请理由不符合 W-7。PayPal 帮助中心把 EIN/SSN/ITIN 都当纳税人识别号，公司过了不代表个人 TIN 核完。文内链 IRS ITIN 申请/证明/续期与 PayPal 帮助文。按 2026-08 公开资料核对，提交前再查官方。</p>
+      </div>
+      <p class="links"><a href="https://x.com/fantuantalk/status/2093938916206522551" rel="noopener noreferrer" target="_blank">原帖一 · 饭团</a><a href="https://x.com/i/article/2092928028498432001" rel="noopener noreferrer" target="_blank">X 文章</a><a href="https://www.irs.gov/tin/itin/how-to-apply-for-an-itin" rel="noopener noreferrer" target="_blank">IRS · 申请 ITIN</a><a href="https://www.paypal.com/us/cshelp/article/why-do-i-need-to-confirm-my-us-taxpayer-status-help530" rel="noopener noreferrer" target="_blank">PayPal 帮助</a></p>
+          </article>
+          <article>
+<h3>LLM 四步机械链路：Token→Transformer→FFN→采样</h3>
+      <p class="byline">AI Guides <a href="https://x.com/free_ai_guides" target="_blank" rel="noopener noreferrer">@free_ai_guides</a></p>
+      <div class="fold">
+<p>每条 LLM 回复在出字前走四段：① Tokenize + embedding（词永不进数学，只有 d_model 向量）；② 堆叠 attention（Q/K/V 多头，块内 FFN+Norm 重复 N 次）；③ 按位置 FFN（升维→GELU→压回 d_model）；④ logits→softmax→采样/argmax，token 拼回输入再循环。适合向人解释「模型到底在干什么」。</p>
+      </div>
+      <p class="links"><a href="https://x.com/free_ai_guides/status/2093978020486738182" rel="noopener noreferrer" target="_blank">原帖一 · AI Guides</a></p>
+          </article>
+          </div>
+        </section>
+        <section class="group">
+          <h2>提示词</h2>
+          <div class="grid">
+          <article>
+<h3>富士拍立得风：参考图→拍立得相纸边框</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>提示词全文：细腻复古富士拍立得尺寸，胶片颗粒，饱和适中带拍立得色偏；白色相纸边框微圆角，简单/空白背景；黑长直到腰亚洲女生，ins 风少女感衣服，正面对镜头抿嘴笑。一张参考图即可，不必真机。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2093965818438799392" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a></p>
+          </article>
+          <article>
+<h3>九宫格发型设计拼贴：九种发型一键出图</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>提示词全文：三行三列九宫格半身头像；九发型——法式慵懒卷、韩系空气刘海、高层次锁骨发、日系短发、羊毛卷、黑长直、甜酷狼尾、大波浪、低马尾；网红氛围感、奶油底、暖棕/浅金穿插、柔和棚拍、浅景深、细白边距、高清写实。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2093966778313662734" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a></p>
+          </article>
+          <article>
+<h3>白衬衫六套快闪换装：10s 竖屏电商视频提示词</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>第二步视频提示词：9:16、棚拍正面中景、同一亚洲女性身份锁定；闪光一次换一套，白衬衫始终为核心单品。顺序：黑西装裤通勤 → 牛仔裤休闲 → 半身裙约会 → 短裤/轻裙度假 → 长靴或皮裤夜场 → 外套配饰大片高潮。每次只变一次、不换脸、布料皮肤真实、约 10 秒。可接上条 H3 实测做电商展示。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2093978279900594269" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a></p>
+          </article>
+          </div>
+        </section>
+<div id="pane-maybe" class="pane">
+        <section class="group">
+          <h2>拿不准</h2>
+          <div class="grid">
+          <article>
+<h3>「AI 里没有坏点子，只有不够强的模型」——半真半立场，无步骤。</h3>
+      <p class="byline">凡人小北 <a href="https://x.com/frxiaobei" target="_blank" rel="noopener noreferrer">@frxiaobei</a></p>
+      <div class="fold">
+<p>「AI 里没有坏点子，只有不够强的模型」——半真半立场，无步骤。</p>
+      </div>
+      <p class="links"><a href="https://x.com/frxiaobei/status/2093945567106007537" rel="noopener noreferrer" target="_blank">原帖一 · 凡人小北</a></p>
+          </article>
+          <article>
+<h3>OpenAI 离开 Cursor：自称不在乎，Grok 一样好更少审查；只有立场…</h3>
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+      <div class="fold">
+<p>OpenAI 离开 Cursor：自称不在乎，Grok 一样好更少审查；只有立场。</p>
+      </div>
+      <p class="links"><a href="https://x.com/kaostyl/status/2093952301085954152" rel="noopener noreferrer" target="_blank">原帖一 · Kaostyl</a></p>
+          </article>
+          <article>
+<h3>称 Grok Bot 买了特斯拉；agent 有钱包。轶事无步骤。</h3>
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+      <div class="fold">
+<p>称 Grok Bot 买了特斯拉；agent 有钱包。轶事无步骤。</p>
+      </div>
+      <p class="links"><a href="https://x.com/kaostyl/status/2093960726188581239" rel="noopener noreferrer" target="_blank">原帖一 · Kaostyl</a></p>
+          </article>
+          <article>
+<h3>OpenAI×Grok 打架导致 OpenCodex 不放行；自诊是 xAI 额…</h3>
+      <p class="byline">danielzhu <a href="https://x.com/BilliePhar61975" target="_blank" rel="noopener noreferrer">@BilliePhar61975</a></p>
+      <div class="fold">
+<p>OpenAI×Grok 打架导致 OpenCodex 不放行；自诊是 xAI 额度/订阅耗尽。个案。</p>
+      </div>
+      <p class="links"><a href="https://x.com/BilliePhar61975/status/2093957776993321323" rel="noopener noreferrer" target="_blank">原帖一 · danielzhu</a></p>
+          </article>
+          <article>
+<h3>Cursor / X AI / Grok / SuperGrok / GrokB…</h3>
+      <p class="byline">Indie Fox <a href="https://x.com/indie_maker_fox" target="_blank" rel="noopener noreferrer">@indie_maker_fox</a></p>
+      <div class="fold">
+<p>Cursor / X AI / Grok / SuperGrok / GrokBot 名称权益绕晕。只有困惑清单。</p>
+      </div>
+      <p class="links"><a href="https://x.com/indie_maker_fox/status/2093965686012063958" rel="noopener noreferrer" target="_blank">原帖一 · Indie Fox</a></p>
+          </article>
+          <article>
+<h3>「做 api 场景的 all in one」只有钩子，产品未展开。</h3>
+      <p class="byline">droidHZ <a href="https://x.com/hezhiyan7" target="_blank" rel="noopener noreferrer">@hezhiyan7</a></p>
+      <div class="fold">
+<p>「做 api 场景的 all in one」只有钩子，产品未展开。</p>
+      </div>
+      <p class="links"><a href="https://x.com/hezhiyan7/status/2093973626043449732" rel="noopener noreferrer" target="_blank">原帖一 · droidHZ</a></p>
+          </article>
+          <article>
+<h3>谁适合 OPC：学习强/信息强/ADHD/烦沟通。人格框架，步骤不够硬。</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+      <div class="fold">
+<p>谁适合 OPC：学习强/信息强/ADHD/烦沟通。人格框架，步骤不够硬。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yangyi/status/2093955762737615157" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>国内互联网三类：爬取/破解企微/效率改造，其余卖课人力杠杆。概括观点。</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+      <div class="fold">
+<p>国内互联网三类：爬取/破解企微/效率改造，其余卖课人力杠杆。概括观点。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yangyi/status/2093938694504001651" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>「5000万美元的故事」只有标题，正文未展开。</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>「5000万美元的故事」只有标题，正文未展开。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2093964844907278390" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a></p>
+          </article>
+          <article>
+<h3>44 分钟视频教 2026 用 Grok Bot 赚钱；课程式 CTA，步骤在视…</h3>
+      <p class="byline">Khairallah AL-Awady <a href="https://x.com/eng_khairallah1" target="_blank" rel="noopener noreferrer">@eng_khairallah1</a></p>
+      <div class="fold">
+<p>44 分钟视频教 2026 用 Grok Bot 赚钱；课程式 CTA，步骤在视频里未抽出。</p>
+      </div>
+      <p class="links"><a href="https://x.com/eng_khairallah1/status/2093938530871587239" rel="noopener noreferrer" target="_blank">原帖一 · Khairallah</a></p>
+          </article>
+          <article>
+<h3>黄仁勋称第一台 AI 超算 DGX1 唯一客户是马斯克（2016）。故事向，无新…</h3>
+      <p class="byline">Genius Thinking <a href="https://x.com/GeniusGTX" target="_blank" rel="noopener noreferrer">@GeniusGTX</a></p>
+      <div class="fold">
+<p>黄仁勋称第一台 AI 超算 DGX1 唯一客户是马斯克（2016）。故事向，无新用法。</p>
+      </div>
+      <p class="links"><a href="https://x.com/GeniusGTX/status/2093967488962687450" rel="noopener noreferrer" target="_blank">原帖一 · Genius Thinking</a></p>
+          </article>
+          <article>
+<h3>转「20 个 AI 动画涨粉 40 万」夸一句；资料盘在引用里，本帖无增量方法。</h3>
+      <p class="byline">程序员小灰 <a href="https://x.com/XiaohuiAI666" target="_blank" rel="noopener noreferrer">@XiaohuiAI666</a></p>
+      <div class="fold">
+<p>转「20 个 AI 动画涨粉 40 万」夸一句；资料盘在引用里，本帖无增量方法。</p>
+      </div>
+      <p class="links"><a href="https://x.com/XiaohuiAI666/status/2093913258592006170" rel="noopener noreferrer" target="_blank">原帖一 · 程序员小灰</a></p>
+          </article>
+          </div>
+        </section>
+<div id="pane-filtered" class="pane">
+        <section class="group">
+          <h2>已过滤</h2>
+          <div class="grid">
+          <article class="filt">
+      <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
+<p>Team is cooking like never before</p>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2093914342551101782" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">小小东 <a href="https://x.com/xiaoxiaodong01" target="_blank" rel="noopener noreferrer">@xiaoxiaodong01</a></p>
+<p>@thsottiaux Banked reset please</p>
+      <p class="links"><a href="https://x.com/xiaoxiaodong01/status/2093915001375641928" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">逸尘 <a href="https://x.com/gengdaJ" target="_blank" rel="noopener noreferrer">@gengdaJ</a></p>
+<p>杭州打卡温总豪宅吃火锅，社交流水</p>
+      <p class="links"><a href="https://x.com/gengdaJ/status/2093921643370611170" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+<p>「这个技巧真好」无增量短回</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2093921919318032509" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">曾颖 <a href="https://x.com/zengying1107" target="_blank" rel="noopener noreferrer">@zengying1107</a></p>
+<p>孙哥景甜三千万段子</p>
+      <p class="links"><a href="https://x.com/zengying1107/status/2093921923600453930" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+<p>恨 GLM 圈人宰客短回</p>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2093922119197597884" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+<p>「现在是太多选择了」短回</p>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2093922837035921559" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+<p>熵减/化繁为简鸡汤</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2093922913670115333" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">铁锤人 <a href="https://x.com/lxfater" target="_blank" rel="noopener noreferrer">@lxfater</a></p>
+<p>「爆炸，眩晕，瘫坐，新啥？」短问</p>
+      <p class="links"><a href="https://x.com/lxfater/status/2093923032490549285" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">杨高能 <a href="https://x.com/430Yang" target="_blank" rel="noopener noreferrer">@430Yang</a></p>
+<p>骂孙宇晨无赖长文</p>
+      <p class="links"><a href="https://x.com/430Yang/status/2093923095127986211" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+<p>高德最早用 Google 短回</p>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2093924399032475722" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yun-Ta Tsai <a href="https://x.com/yunta_tsai" target="_blank" rel="noopener noreferrer">@yunta_tsai</a></p>
+<p>Grok 清 Gmail 后不习惯垃圾邮件</p>
+      <p class="links"><a href="https://x.com/yunta_tsai/status/2093929657683038668" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+<p>赚钱机会无处不在短转</p>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2093931832102605293" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+<p>「国内生意狗都不做」短观点</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2093935856977637754" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+<p>夸曾颖满分段子手</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2093940249940660663" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+<p>YouTube aged channels 短立场</p>
+      <p class="links"><a href="https://x.com/kaostyl/status/2093943478585548965" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+<p>Tim is really cooking 短回</p>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2093943546684555510" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yun-Ta Tsai <a href="https://x.com/yunta_tsai" target="_blank" rel="noopener noreferrer">@yunta_tsai</a></p>
+<p>Grok 清收件箱重复发</p>
+      <p class="links"><a href="https://x.com/yunta_tsai/status/2093946626712748317" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">yongge <a href="https://x.com/Michell49473040" target="_blank" rel="noopener noreferrer">@Michell49473040</a></p>
+<p>币圈时间游戏短转</p>
+      <p class="links"><a href="https://x.com/Michell49473040/status/2093946684732793114" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">阑夕 <a href="https://x.com/foxshuo" target="_blank" rel="noopener noreferrer">@foxshuo</a></p>
+<p>俞敏洪财报韧性，非 AI 用法</p>
+      <p class="links"><a href="https://x.com/foxshuo/status/2093946864395862191" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">mr fundman <a href="https://x.com/mrfundman" target="_blank" rel="noopener noreferrer">@mrfundman</a></p>
+<p>第一次看 Grok Bots 干活短感想</p>
+      <p class="links"><a href="https://x.com/mrfundman/status/2093946865892921443" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">CuiMao <a href="https://x.com/CuiMao" target="_blank" rel="noopener noreferrer">@CuiMao</a></p>
+<p>新买靠垫给 Dario 看</p>
+      <p class="links"><a href="https://x.com/CuiMao/status/2093948809382625300" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+<p>Morris 指挥所鸡汤</p>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2093949518610096317" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Eric Bahn 💛 <a href="https://x.com/ericbahn" target="_blank" rel="noopener noreferrer">@ericbahn</a></p>
+<p>Eric 感恩帖（Pokemon 被骗后续）</p>
+      <p class="links"><a href="https://x.com/ericbahn/status/2093949628723171555" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" target="_blank" rel="noopener noreferrer">@PandaTalk8</a></p>
+<p>微博不开会员没流量</p>
+      <p class="links"><a href="https://x.com/PandaTalk8/status/2093953123153031571" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">木马人 <a href="https://x.com/cnyzgkc" target="_blank" rel="noopener noreferrer">@cnyzgkc</a></p>
+<p>调侃逸尘温总百年好合</p>
+      <p class="links"><a href="https://x.com/cnyzgkc/status/2093953311204610512" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">逸尘 <a href="https://x.com/gengdaJ" target="_blank" rel="noopener noreferrer">@gengdaJ</a></p>
+<p>逸尘回「清清白白」</p>
+      <p class="links"><a href="https://x.com/gengdaJ/status/2093955161588994351" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent" target="_blank" rel="noopener noreferrer">@dontbesilent</a></p>
+<p>创投圈 vs IP 博主德行感慨</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2093959006587125916" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+<p>Morris 风景被毁掉长鸡汤</p>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2093961873159074123" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Warren Redlich - Chasing Dreams 🇺🇸 <a href="https://x.com/WR4NYGov" target="_blank" rel="noopener noreferrer">@WR4NYGov</a></p>
+<p>哪个前沿模型最可能造成严重伤害（投票）</p>
+      <p class="links"><a href="https://x.com/WR4NYGov/status/2093965160566411505" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+<p>法语 bot 接管账号短句</p>
+      <p class="links"><a href="https://x.com/kaostyl/status/2093967141238128889" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>卫斯理迪卡侬修车/笔记本购物流水</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2093967611549667347" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" target="_blank" rel="noopener noreferrer">@PandaTalk8</a></p>
+<p>图书馆计算机书可扔废纸</p>
+      <p class="links"><a href="https://x.com/PandaTalk8/status/2093968342021505430" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+<p>额度数字游戏哈哈短回</p>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2093969359429681412" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Warren Redlich - Chasing Dreams 🇺🇸 <a href="https://x.com/WR4NYGov" target="_blank" rel="noopener noreferrer">@WR4NYGov</a></p>
+<p>前沿模型危害投票重复</p>
+      <p class="links"><a href="https://x.com/WR4NYGov/status/2093971466333073636" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Orange AI <a href="https://x.com/oran_ge" target="_blank" rel="noopener noreferrer">@oran_ge</a></p>
+<p>互联网还讲底层逻辑短回</p>
+      <p class="links"><a href="https://x.com/oran_ge/status/2093971792725717285" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" target="_blank" rel="noopener noreferrer">@PandaTalk8</a></p>
+<p>加杠杆买房断供故事</p>
+      <p class="links"><a href="https://x.com/PandaTalk8/status/2093972534572257434" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" target="_blank" rel="noopener noreferrer">@PandaTalk8</a></p>
+<p>提高财商勿跟风鸡汤</p>
+      <p class="links"><a href="https://x.com/PandaTalk8/status/2093973468765470865" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+<p>空提及银行账号短帖</p>
+      <p class="links"><a href="https://x.com/kaostyl/status/2093977358445301839" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          </div>
+        </section>
+</div>
+  <script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", key === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    function setOpen(art, open) {
+      var btn = art.querySelector(".more");
+      art.classList.toggle("is-open", open);
+      if (btn) btn.textContent = open ? "收起" : "展开";
+    }
+    for (var i = 0; i < articles.length; i++) {
+      var art = articles[i];
+      var fold = art.querySelector(".fold");
+      var btn = art.querySelector(".more");
+      if (!fold || !btn) continue;
+      if (fold.scrollHeight > fold.clientHeight + 6) {
+        art.classList.add("is-long");
+        btn.hidden = false;
+        btn.textContent = "展开";
+        btn.addEventListener("click", function () {
+          setOpen(this.parentElement, !this.parentElement.classList.contains("is-open"));
+        });
+      }
+    }
+    var exp = document.getElementById("btn-expand");
+    var col = document.getElementById("btn-collapse");
+    if (exp) exp.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], true);
+      }
+    });
+    if (col) col.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], false);
+      }
+    });
+  })();
+
+  </script>
+</body>
+</html>
