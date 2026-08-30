@@ -238,11 +238,12 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-30</h1>
-      <p class="meta">美国时间 2026-08-30。4:00 ET 今天第一页：raw/2026-08-30/04.jsonl 68（DOM Following+最近慢滚 + 导航后截到 1 次 HomeLatestTimeline；脚本文件 CDP Auto-review bind-fail；命中游标条件=看见更旧帖，精确 id 2093915001375641928 未在流中复现；oldest 新帖 2093921643370611170 ≈游标后约 26 分钟，中间可能有缺口）。00-after 3 并进本页。正文 18 / 拿不准 12 / 已过滤 39。04-articles 68/68 overlay（fxtwitter；t.co 7；未发明）。未并 recommended/ideas（非 20:00）。未发明。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-30。8:00 ET 已并进：raw/2026-08-30/08.jsonl 54（DOM Following+最近；命中游标 2093979525134905670，无缺口）。08-articles 54/54 overlay（fxtwitter；t.co 1 解到 github.com/kangarooking/cangjie-skill；未发明）。新正文 9 卡（更新 Infinite Slop / aimakemoney）/ 拿不准 3 / 已过滤 32。页合计正文 27 / 拿不准 15 / 已过滤 71。未并 recommended/ideas（非 20:00）。未发明。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="site-nav" aria-label="日期">
       <a href="index.html">首页</a>
-      <a href="2026-08-30.html" class="is-here">08-29</a>
+      <a href="2026-08-30.html" class="is-here">08-30</a>
+      <a href="2026-08-29.html">08-29</a>
       <a href="2026-08-28.html">08-28</a>
       <a href="2026-08-27.html">08-27</a>
       <a href="2026-08-26.html">08-26</a>
@@ -251,9 +252,9 @@ article .links {
       <a href="2026-08-23.html">08-23</a>
     </nav>
     <nav class="tabs" aria-label="页签">
-      <button type="button" class="tab is-active" data-pane="main">正文 18</button>
-      <button type="button" class="tab" data-pane="maybe">拿不准 12</button>
-      <button type="button" class="tab" data-pane="filtered">已过滤 39</button>
+      <button type="button" class="tab is-active" data-pane="main">正文 27</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 15</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 71</button>
     </nav>
     <div class="view-tools" aria-label="展开">
       <button type="button" class="tab" id="btn-expand">全部展开</button>
@@ -264,6 +265,49 @@ article .links {
         <section class="group">
           <h2>模型 / 产品</h2>
           <div class="grid">
+          <article>
+<h3>Artificial Analysis 口袋级手机推理基准：小一档打平 9B</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>独立评测机构 Artificial Analysis 把小型模型搬上手机真机。定义：量化后（含 8K 上下文 KV cache）能装进 8GB 的模型。默认真机 iPhone 17 Pro（可切 Galaxy S26 Ultra，均为 12GB）；与 Liquid AI 合作采端侧推理，测量流程经 AA 独立验证。平均分=BFCL 子集 / IFBench / AA-Omniscience / GPQA Diamond / MATH-500 五项简单平均（16K 上限），端到端=1024-token 提示生成 256-token 的秒数。全部 Q4_K_M。</p>
+<p>iPhone 17 Pro 总览（分数 / 秒）：Nanbeige4.2-3B 63.2 / 21.4；LFM2.5-2.6B 62.6 / 8.0；Ornith-1.0-9B 62.4 / 25.6；Qwen3.5 9B Reasoning 61.3 / 25.6；Gemma 4 E4B Reasoning 60.0 / 14.5；Ling 3.0 Tiny 59.2 / 5.7；LFM2.5-8B-A1B 58.4 / 5.7；MiniCPM5-1B Reasoning 44.7 / 2.9。最快档 LFM2.5-230M 0.9s 但平均分 27.1。Token 预算超限率很多模型极高（LFM2.5-2.6B 437.9%，Ornith-1.0-9B 1605.3%）；Gemma 4 E4B Reasoning 仅 3.2%。小一档模型智能可打平 9B，速度却快一大截。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2093981940164735133" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://artificialanalysis.ai/hardware-inference-stack/mobile-phones" rel="noopener noreferrer" target="_blank">AA 手机页</a><a href="https://artificialanalysis.ai/methodology/mobile-device-benchmark-set" rel="noopener noreferrer" target="_blank">方法论</a></p>
+          </article>
+          <article>
+<h3>DesignCode 5：Meng To 用 Codex 重建课程站</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>DesignCode 创始人 Meng To 停更两年，以为 AI 会取代教育；他改口：AI slop 越泛滥，好教育越值钱。发布 DesignCode 5 + 一门 Codex 大师课。新站完全用 Codex 构建，带大量 three.js 组件（designcode.io）。加了作业、测验、证书、vault 资料库和每周直播。Pro / Lifetime 另得 Product Pass：Framer、Mobbin、Aura 等一年 Pro。GPT-5.6 Sol xHigh 把十年 CMS + Dropbox 内容迁到 Firebase——结论是不必再造 CMS；skills 用对了，Codex 能剪视频、写作、出图、录屏和更新内容。他为这套工作流写了一堆 skills（仓在原帖，未发明仓名）；Three.js 组件在 threeui.com。早鸟 5 折，另有 $499 终身选项。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2093981667031445814" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://x.com/MengTo/status/2093350278192062611" rel="noopener noreferrer" target="_blank">原帖二 · Meng To</a><a href="https://designcode.io/" rel="noopener noreferrer" target="_blank">designcode.io</a><a href="http://threeui.com" rel="noopener noreferrer" target="_blank">threeui.com</a></p>
+          </article>
+          <article>
+<h3>Terminal-Bench-Science 0.1：科研 agent 最强也只解 30%</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>斯坦福研究者牵头、Terminal-Bench 团队与全球领域专家共建。任务标准由在岗科学家定，不是模型厂或数据商。0.1 版 70 个真实科研工作流（生命 19 / 物理 17 / 地球 8 / 数学 17 / 工程 9），覆盖分析、模拟、证明、反问题、科学机器学习等。贡献漏斗：920 提案 → 464 获批 → 386 PR → 70 入选（7.6%）；376 名贡献者、22 国。</p>
+<p>每模型 70 题各跑三次。排行：Claude Opus 5（Claude Code）30.0%；GPT-5.6 Sol（Codex）22.4%；Claude Fable 5 21.4%；Opus 4.8 10.5%；GPT-5.6 Terra 8.6%；GLM 5.3 8.1%（开源最高）；Kimi K3 7.1%；Grok 4.6（Grok Build）7.1%；GPT-5.6 Luna 3.3%。同一批模型在 Terminal-Bench 3.0 上的解决率都高出 10 个百分点以上——审稿就是按「要难倒当前前沿」校准的。仓 github.com/harbor-framework/terminal-bench-science。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2093980301919957323" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/harbor-framework/terminal-bench-science" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://www.terminal-bench-science.ai/announcement" rel="noopener noreferrer" target="_blank">公告</a><a href="https://hub.harborframework.com/datasets/terminal-bench-science/terminal-bench-science/latest?tab=leaderboard&amp;leaderboard=v0-1-eval" rel="noopener noreferrer" target="_blank">排行榜</a></p>
+          </article>
+          <article>
+<h3>仓颉 Skill 2.5.0：一书一 skill，9.2K star</h3>
+      <p class="byline">袋鼠帝 <a href="https://x.com/aikangarooking" target="_blank" rel="noopener noreferrer">@aikangarooking</a></p>
+      <div class="fold">
+<p>与拓（Ta）同作者、不同仓。仓颉 Skill 升 2.5.0、9.2K star。以前一本书蒸馏十几个 skill，装完列表爆炸、名字易撞；现在书内方法论先沉成一份 Capability Bundle，再编译：single=整本书一个 skill 内置智能路由；pack=只拆高频能力。也可按通读学习或高频调用自动推荐。</p>
+<p>统一命令行可做编译、更新、修复、回滚、评测、体检；带写锁、原子发布和快照回滚。书更新走增量，只重做受影响能力卡，失败回滚。新增晋级门：方法论过 5 项判据才独立成 skill。盲测固定种子、匿名变体。纳瓦尔宝典试点 19 项能力、50 条真实任务，数据在仓里。大部头切块加缓存加 SQLite FTS5。新增 DeepSeek Harness 接入。官网依赖 Astro 7.2.9、js-yaml 5.4.1。</p>
+      </div>
+      <p class="links"><a href="https://x.com/aikangarooking/status/2093980523047932302" rel="noopener noreferrer" target="_blank">原帖一 · 袋鼠帝</a><a href="https://github.com/kangarooking/cangjie-skill" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>Mole 桌面端：AI 任务开多时看资源、清垃圾、强冷风扇</h3>
+      <p class="byline">余温 <a href="https://x.com/gkxspace" target="_blank" rel="noopener noreferrer">@gkxspace</a></p>
+      <div class="fold">
+<p>作者称命令行版 Mole 一行最多清出 142GB；桌面端越用越喜欢。Cursor、Codex 和各种 AI 任务开多后让它常驻：状态页列出 CPU / GPU / 内存 / 磁盘 / 网络 / 风扇和后台进程，清垃圾、一键优化 Mac。机身已烫但系统风扇不转时，切强冷几十秒就降温。产品页 / 仓未写，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/gkxspace/status/2094003948352909794" rel="noopener noreferrer" target="_blank">原帖一 · 余温</a></p>
+          </article>
           <article>
 <h3>拓（Ta）：AI 原生截图工具，Skill/CLI 接 Codex</h3>
       <p class="byline">袋鼠帝 <a href="https://x.com/aikangarooking" target="_blank" rel="noopener noreferrer">@aikangarooking</a></p>
@@ -288,13 +332,14 @@ article .links {
       </div>
       <p class="links"><a href="https://x.com/Adam38363368936/status/2093977664344465832" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a></p>
           </article>
-          <article>
-<h3>H3 Max Live：聊天驱动超实时无限视频流</h3>
-      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+                    <article>
+<h3>Infinite Slop.ai：H3 Max 聊天驱动无限直播，注册域名</h3>
+      <p class="byline">levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a> · Yanhua · huangserva</p>
       <div class="fold">
-<p>续 29 日 fal Minimax H3 Max / Infinite Slop：huangserva 写 H3 Max Live——生成快过实时、无限不循环画面、观众用 !prompt 当导演。称秒级延迟、每帧新生成、聊天即指令。产品落地仍见 fal / levelsio Infinite Slop 卡。</p>
+<p>续 4:00 H3 Max Live / 29 日 fal Minimax H3 Max。levelsio 称昨天 37,000 人看过 Infinite Slop，注册 infiniteslop.ai；同时在线曾过 1000+。生成上限约每分钟 4 条（4x15 秒=1 分钟），忙时不是每条聊天都能出片。拒绝付费插队，想保持 4chan / Hoodmaps 味。队列加了点赞，集体投票下一段生成什么。fal 赞助。</p>
+<p>有人建议用上一段最后一帧做下一段起始帧。levelsio 贴了推理链：帧链式会把 4 路并行收成串行（须等 N 在 fal 生成完、下载、抽末帧才能开 N+1）；约 15-40 秒/条、串行约 1.5-4 条/分，而频道播出 6 条/分，缓冲会饿、重播变多。直播聊天驱动时下一条还不存在，无法预链；还会让一条消息=一条独立片子变成上一段画面慢慢变成新梗，并打乱 VIP/最新优先。失败会级联。只适合聊天安静时的故事续写。Yanhua：聊天写剧情、AI 圆前后；称折扣成本约 3456 美元/天（原价 6912 美元/天），另写过一天烧掉 4000 美元；有人按 API 价估约 124 万美元/年、fal 吃一半。fal 工具页 H3 Max 每天免费 5 条 5 秒 768p 视频、实测生成不超过 3 秒、不用注册。</p>
       </div>
-      <p class="links"><a href="https://x.com/servasyy_ai/status/2093925698327167056" rel="noopener noreferrer" target="_blank">原帖一 · huangserva</a></p>
+      <p class="links"><a href="https://x.com/levelsio/status/2093984182154194989" rel="noopener noreferrer" target="_blank">原帖一 · levelsio</a><a href="https://x.com/levelsio/status/2094004712869601555" rel="noopener noreferrer" target="_blank">原帖二 · levelsio</a><a href="https://x.com/levelsio/status/2094024039081673067" rel="noopener noreferrer" target="_blank">原帖三 · levelsio</a><a href="https://x.com/levelsio/status/2094003159798571248" rel="noopener noreferrer" target="_blank">原帖四 · levelsio</a><a href="https://x.com/yanhua1010/status/2094004667856637960" rel="noopener noreferrer" target="_blank">原帖五 · Yanhua</a><a href="https://x.com/yanhua1010/status/2093994482677223853" rel="noopener noreferrer" target="_blank">原帖六 · Yanhua</a><a href="https://x.com/servasyy_ai/status/2093925698327167056" rel="noopener noreferrer" target="_blank">原帖七 · huangserva</a><a href="https://infiniteslop.ai" rel="noopener noreferrer" target="_blank">infiniteslop.ai</a><a href="https://fal.ai/tools/minimax-h3-max" rel="noopener noreferrer" target="_blank">fal H3 Max</a></p>
           </article>
           <article>
 <h3>又一无审核 GLM-5.3 Flash；4090 挑战 2-bit GGUF</h3>
@@ -328,13 +373,14 @@ article .links {
       </div>
       <p class="links"><a href="https://x.com/app_sail/status/2093947222597808449" rel="noopener noreferrer" target="_blank">原帖一 · Asa</a></p>
           </article>
-          <article>
-<h3>aimakemoney.io：推特 $1,300 后做成站让 AI 自投放</h3>
+                    <article>
+<h3>aimakemoney.io：推特 $1,300 后做成站；Yangyi 虚拟资料并行 GTM</h3>
       <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
       <div class="fold">
-<p>续 29 日 Yee/aimakemoney 价卡：Yangyi 回铁锤人——用 newmax 跑「AI 赚钱指南」，一条推特赚 1300 美金，现做成网站 aimakemoney.io，让 AI 自己去投放看能不能赚钱。</p>
+<p>续 4:00 / 29 日 Yee 价卡：Yangyi 回铁锤人——用 newmax 跑「AI 赚钱指南」，一条推特赚 1300 美金，现做成网站 aimakemoney.io，让 AI 自己去投放。Yee 原帖：3 小时建站 + 2 小时 SEO 和免费 Money Type 测试，并跑 Google Ads。</p>
+<p>Yangyi 自己的并行案例：虚拟资料小项目始于 2024，当时用 ChatGPT 插件看 YouTube 挖赚钱信息，建站费劲、没分发。2026-05 用 NewMax 再跑一遍方法，开 Gumroad 卖出几十份。8 月底开始不断 GTM + 优化历史项目，同期 5-6 个项目在迭代和 Campaign。未发明 Gumroad 商品 URL。</p>
       </div>
-      <p class="links"><a href="https://x.com/yangyi/status/2093932252233343336" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a><a href="https://aimakemoney.io/" rel="noopener noreferrer" target="_blank">aimakemoney.io</a></p>
+      <p class="links"><a href="https://x.com/yangyi/status/2093932252233343336" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a><a href="https://x.com/yangyi/status/2093982749992587661" rel="noopener noreferrer" target="_blank">原帖二 · Yangyi</a><a href="https://aimakemoney.io/" rel="noopener noreferrer" target="_blank">aimakemoney.io</a></p>
           </article>
           <article>
 <h3>vgpu.sh：Vercel Labs 22 个开源视觉 demo + Agent 安装</h3>
@@ -373,6 +419,50 @@ article .links {
         <section class="group">
           <h2>方法</h2>
           <div class="grid">
+          <article>
+<h3>Codex Computer Use + Chrome：没 API 的后台也能自己点</h3>
+      <p class="byline">余温 <a href="https://x.com/gkxspace" target="_blank" rel="noopener noreferrer">@gkxspace</a></p>
+      <div class="fold">
+<p>作者用 Codex 的 Computer Use + Chrome 插件跑通阿里云配置：以前改个参数要翻文档、多后台来回找；现在把结果告诉 Codex，它查资料、找入口、打开后台、改参数、读邮件拿验证码，改完接着跑测试。例子是更新 SMTP，后面真实 OTP 和业务 Smoke Test 也自己跑完。Chrome 里已登录的网站、电脑 App、没有 API 的后台都能看、点、填，工具之间来回切。提醒敏感数据仍要收着。产品页未另附，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/gkxspace/status/2094018795119456684" rel="noopener noreferrer" target="_blank">原帖一 · 余温</a></p>
+          </article>
+          <article>
+<h3>用 Codex 学新领域：先抽 20%，再地图，再做项目/出题</h3>
+      <p class="byline">铁锤人 <a href="https://x.com/lxfater" target="_blank" rel="noopener noreferrer">@lxfater</a></p>
+      <div class="fold">
+<p>两帖同构（中英句式略不同，并一条）。别把「学得越多越快」当方法。一个领域真正有用的知识只占两成、能解决八成问题——直接让 Codex 把这两成挑出来。第二：找到重点后别先啃最难的，让 Codex 排一张从基础到难的学习地图。第三：学完一定要用——做小项目，或让 Codex 出题考你，否则几天就忘。原话：高手学得快，不是快十倍，是要学的东西少十倍。</p>
+      </div>
+      <p class="links"><a href="https://x.com/lxfater/status/2093984285317632353" rel="noopener noreferrer" target="_blank">原帖一 · 铁锤人</a><a href="https://x.com/lxfater/status/2094013696645505236" rel="noopener noreferrer" target="_blank">原帖二 · 铁锤人</a></p>
+          </article>
+          <article>
+<h3>Lemmalog：用 Datalog 给 LLM 维护「当前知道什么」</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>转漏洞研究员 Jordy Zomer（pwning.systems）。LLM 做几小时漏洞研究就会丢掉「我们已经确认了什么」：重提被排除的思路，或从早被推翻的观察继续推。Embedding 记忆能存说过的话，但不能在一条观察变了之后自动让依赖它的结论失效。</p>
+<p>解法：LLM 负责把调试器/代码里的糊话抽成结构化事实（如 controls / points_to / kernel_object），Datalog 引擎按规则求不动点。事实撤回要跟踪多路径支撑——c 可能由 a 或 b 分别推出，删 a 不能盲删 c。副作用是能问 provenance（为什么相信某条结论）。事实还可挂有效性区间，同时回答「现在可行吗」和「我们当时为什么觉得可行」。实现仓 github.com/JordyZomer/lemmalog。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2093981514358837464" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/JordyZomer/lemmalog" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://pwning.systems/posts/llm-memory-program-analysis/" rel="noopener noreferrer" target="_blank">pwning.systems</a></p>
+          </article>
+          <article>
+<h3>别靠对话教 AI：三条提示把工作区变成可走读的知识</h3>
+      <p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" target="_blank" rel="noopener noreferrer">@alex_prompter</a></p>
+      <div class="fold">
+<p>引用 MIT @ProfBuehlerMIT：把数百个相同 agent 丢进可永久改写的共享世界、不预派角色；它们自发分化成探索/建造/看护/协调，95% 传开的技术是自己发现的；撤走全部 agent 后基础设施仍在。结论：监控 agent 互聊不够，环境本身就是记忆。Alex 把它收成入职测试——新来的 AI 不能走进工作区自学，就是你的问题。三条提示全文：</p>
+<pre>
+1. Find what fails the test
+You are my knowledge auditor. Your only job is finding what fails the walk-past test: knowledge nobody could learn without asking me. Ask me what I've explained more than twice this month, what lives only in my head or my DMs, what breaks if I disappear for two weeks. Sort it into three piles: already a file, conversation pretending to be knowledge, or in my head. Rank the last two by how often they get asked. End with the 5 items to convert first. Anything else is outside your scope.
+
+2. Turn the conversations into files
+You are my artifact writer. I'll paste an explanation I've given in a chat or call. Your only job is turning it into a file that teaches without me: a name that says what it is on sight, the process in plain language, the exact numbers and edge cases, and what to do when it doesn't apply. Write it for someone who can't ask follow-ups. If a detail is missing, ask me now, the file can't ask later. End with the finished file and where it should live. Anything else is outside your scope.
+
+3. Check the workspace actually teaches
+You are a new hire on day one. Your only job is reading the files I give you and reporting three lists: everything you now know how to do without asking me, everything you'd still have to ask me, and every file that told you nothing until you opened it. Don't be polite about list two, it's my to-do list. Anything else is outside your scope.
+</pre>
+<p>第 3 条建议每月跑。newsletter CTA 另帖已滤。</p>
+      </div>
+      <p class="links"><a href="https://x.com/alex_prompter/status/2093986065610588305" rel="noopener noreferrer" target="_blank">原帖一 · Alex</a><a href="https://x.com/ProfBuehlerMIT/status/2093630309585531033" rel="noopener noreferrer" target="_blank">原帖二 · ProfBuehlerMIT</a></p>
+          </article>
           <article>
 <h3>EIN / SSN / ITIN / SIN：美区 PayPal 个人税号怎么补</h3>
       <p class="byline">饭团 <a href="https://x.com/fantuantalk" target="_blank" rel="noopener noreferrer">@fantuantalk</a></p>
@@ -420,10 +510,35 @@ article .links {
           </article>
           </div>
         </section>
+    </div>
 <div id="pane-maybe" class="pane">
         <section class="group">
           <h2>拿不准</h2>
           <div class="grid">
+          <article>
+<h3>Monologue 语音转文字：播客里 Wade Foster 一句 It just gets me，无产品页/步骤。</h3>
+      <p class="byline">Monologue <a href="https://x.com/usemonologue" target="_blank" rel="noopener noreferrer">@usemonologue</a></p>
+      <div class="fold">
+<p>Dan Shipper 转帖。Wade Foster 在 myfirstmilpod 谈为什么用 Monologue 做 voice-to-text。只有产品名和口头好评，站/价/步骤未写，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/usemonologue/status/2093999784818508147" rel="noopener noreferrer" target="_blank">原帖一 · Monologue</a></p>
+          </article>
+          <article>
+<h3>AI 二创把《狂飙》改成渣女故事；技术+剧本+剪辑=流量只一句。</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>上次二创是李有田的车飞起来，这次改成渣女故事。立场是 AI 技术加创意剧本和剪辑能出流量爆款，没有提示词、工具链或可搬步骤。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2093991216140665137" rel="noopener noreferrer" target="_blank">原帖一 · Adam也叫吉米</a></p>
+          </article>
+          <article>
+<h3>真创意好像只能绑纸笔；AI research 能用但思考难以外包。反思无步骤。</h3>
+      <p class="byline">Bear Liu <a href="https://x.com/bearliu" target="_blank" rel="noopener noreferrer">@bearliu</a></p>
+      <div class="fold">
+<p>做 YouTube 已用 Perplexity / Obsidian / Claude，仍觉得和最终成果脱节；以前便利贴、Miro、索引卡虽然慢，感觉不同。不确定思考能否外包给 AI 或别人。没有可搬走的流程。</p>
+      </div>
+      <p class="links"><a href="https://x.com/bearliu/status/2093983568527577261" rel="noopener noreferrer" target="_blank">原帖一 · Bear</a></p>
+          </article>
           <article>
 <h3>「AI 里没有坏点子，只有不够强的模型」——半真半立场，无步骤。</h3>
       <p class="byline">凡人小北 <a href="https://x.com/frxiaobei" target="_blank" rel="noopener noreferrer">@frxiaobei</a></p>
@@ -522,10 +637,171 @@ article .links {
           </article>
           </div>
         </section>
+    </div>
 <div id="pane-filtered" class="pane">
         <section class="group">
           <h2>已过滤</h2>
           <div class="grid">
+          <article class="filt">
+      <p class="byline">-Zho- <a href="https://x.com/ZHO_ZHO_ZHO" target="_blank" rel="noopener noreferrer">@ZHO_ZHO_ZHO</a></p>
+<p>毕飞宇「美的误判」金句</p>
+      <p class="links"><a href="https://x.com/ZHO_ZHO_ZHO/status/2094037292579246324" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kevin Simback <a href="https://x.com/KSimback" target="_blank" rel="noopener noreferrer">@KSimback</a></p>
+<p>总有行情，看跟对人</p>
+      <p class="links"><a href="https://x.com/KSimback/status/2094037146218713149" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Geek <a href="https://x.com/geekbb" target="_blank" rel="noopener noreferrer">@geekbb</a></p>
+<p>转 R探长逆向致甲骨文账号被盗提醒</p>
+      <p class="links"><a href="https://x.com/geekbb/status/2094036553534472449" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">-Zho- <a href="https://x.com/ZHO_ZHO_ZHO" target="_blank" rel="noopener noreferrer">@ZHO_ZHO_ZHO</a></p>
+<p>毕飞宇审美长引</p>
+      <p class="links"><a href="https://x.com/ZHO_ZHO_ZHO/status/2094036197836570635" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Justin Welsh <a href="https://x.com/thejustinwelsh" target="_blank" rel="noopener noreferrer">@thejustinwelsh</a></p>
+<p>赚钱健康家人旅行，其余马戏</p>
+      <p class="links"><a href="https://x.com/thejustinwelsh/status/2094032943660376464" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">木马人 <a href="https://x.com/cnyzgkc" target="_blank" rel="noopener noreferrer">@cnyzgkc</a></p>
+<p>R90 睡眠法：一周期 90 分钟</p>
+      <p class="links"><a href="https://x.com/cnyzgkc/status/2094029572258078882" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>没多少裁员爆帖了，是裁完了？</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2094027436606591328" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+<p>迪拜没文化但安全干净</p>
+      <p class="links"><a href="https://x.com/levelsio/status/2094023174945993154" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">双拼推友 <a href="https://x.com/LostXtui" target="_blank" rel="noopener noreferrer">@LostXtui</a></p>
+<p>美国卖成分血一次约 70</p>
+      <p class="links"><a href="https://x.com/LostXtui/status/2094022706031448077" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">古一 <a href="https://x.com/MANISH1027512" target="_blank" rel="noopener noreferrer">@MANISH1027512</a></p>
+<p>GPT 200 刀额度依赖，想要 10 倍套餐</p>
+      <p class="links"><a href="https://x.com/MANISH1027512/status/2094021887433359377" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Bob Zhang | Humorist <a href="https://x.com/affLeopard" target="_blank" rel="noopener noreferrer">@affLeopard</a></p>
+<p>这应该就叫翻译的艺术</p>
+      <p class="links"><a href="https://x.com/affLeopard/status/2094017626473152909" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+<p>自动化程度不足令人不安（转食物生产线）</p>
+      <p class="links"><a href="https://x.com/levelsio/status/2094009952197046470" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+<p>法语政治：不想掌权的人抽签治国</p>
+      <p class="links"><a href="https://x.com/kaostyl/status/2094009127546560978" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">阑夕 <a href="https://x.com/foxshuo" target="_blank" rel="noopener noreferrer">@foxshuo</a></p>
+<p>夷为平地的具象化</p>
+      <p class="links"><a href="https://x.com/foxshuo/status/2094008085102866817" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Asa <a href="https://x.com/app_sail" target="_blank" rel="noopener noreferrer">@app_sail</a></p>
+<p>GrokBot 怎么会赠送这么多（无增量）</p>
+      <p class="links"><a href="https://x.com/app_sail/status/2094004248472322408" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+<p>看不到自己发的评论</p>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2094001633290318253" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Asa <a href="https://x.com/app_sail" target="_blank" rel="noopener noreferrer">@app_sail</a></p>
+<p>问 Grok bot 最佳姿势 / 后悔没冲 Heavy</p>
+      <p class="links"><a href="https://x.com/app_sail/status/2093999768615923916" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+<p>I have been wondering how this is done???</p>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2093999285247652345" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+<p>移动端先聊天还是先视频（问句）</p>
+      <p class="links"><a href="https://x.com/levelsio/status/2093997821003227186" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">CuiMao <a href="https://x.com/CuiMao" target="_blank" rel="noopener noreferrer">@CuiMao</a></p>
+<p>《抓特务》不如牛来</p>
+      <p class="links"><a href="https://x.com/CuiMao/status/2093997053928173652" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">dontbesilent <a href="https://x.com/dontbesilent" target="_blank" rel="noopener noreferrer">@dontbesilent</a></p>
+<p>10 万人的事怎么讲给 1000 万</p>
+      <p class="links"><a href="https://x.com/dontbesilent/status/2093994616811036683" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Asa <a href="https://x.com/app_sail" target="_blank" rel="noopener noreferrer">@app_sail</a></p>
+<p>5/N 旧帖链</p>
+      <p class="links"><a href="https://x.com/app_sail/status/2093994080057651460" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>有点宗教的味道了，你们真的在玩 Linux 吗</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2093992741726544243" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>下辈子大概率还在人口大国鸡汤</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2093992499962576902" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>Candy Japan 十年前 HN 糖果订阅年入 8 万</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2093999264947225019" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>早年给餐饮打电话上地图收 300-500，标注其实免费</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2093988933533134872" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>上班没挣到千万，你已亏上千万</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2093987783824036128" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" target="_blank" rel="noopener noreferrer">@alex_prompter</a></p>
+<p>newsletter CTA</p>
+      <p class="links"><a href="https://x.com/alex_prompter/status/2093986827640189320" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+<p>NewMax 提外链邮箱炸了</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2093986434302796060" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+<p>发现 yongfook 哥哥的船</p>
+      <p class="links"><a href="https://x.com/levelsio/status/2093986310209802417" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">@levelsio <a href="https://x.com/levelsio" target="_blank" rel="noopener noreferrer">@levelsio</a></p>
+<p>如果我是印度人</p>
+      <p class="links"><a href="https://x.com/levelsio/status/2093986080491987043" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+<p>Meta 买广告催 YouTube 给青少年 2h 上限，产业杂闻</p>
+      <p class="links"><a href="https://x.com/kaostyl/status/2093981736921100616" rel="noopener noreferrer" target="_blank">原帖</a></p>
+          </article>
           <article class="filt">
       <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
 <p>Team is cooking like never before</p>
@@ -723,7 +999,8 @@ article .links {
           </article>
           </div>
         </section>
-</div>
+    </div>
+  </div>
   <script>
   (function () {
     var tabs = document.querySelectorAll(".tabs .tab");
