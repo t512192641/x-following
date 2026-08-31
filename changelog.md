@@ -1,5 +1,7 @@
 # X 关注汇总：改动记录
 
+- 20:00 ET 窗（主任务未写 20.jsonl，20:10 补抓接手）：抓 32（DOM Following+最近；精确游标 2094150874658742424 未复现，已见更旧邻帖，边界已过；oldest 新 @dotey 2094155196993560829 ≈游标后 ~17 分钟；newest -Zho- 2094216475280330769）。并进 30 日页。正文新卡 11（X 5：FireCrawl→Grok Bot；Claude session 盗号注销删卡；TikTok slideshow 四种骨架；目录 18/44；褚时健红糖厂三招。推荐 4：Hy4；Qwen3.8-Flash-Next；Claude Code sandbox；Microduck。脑洞 2：Mozart Contained；UnderTheGAN）+ 更新 6（Factory 99%/1% 价值；Tibo/宝玉 PT6 重置；ChatGPT 桌面 Brent；Lenny 掌舵；Infinite Slop 脑洞博文；GLM-5.3-Flash 官方 HF）。拿不准 1（卫斯理不看 AI 代码）。已过滤 12 簇。合计正文 53 / 拿不准 22 / 已过滤 122（自 42/21/110）。20-articles 32/32 overlay（fxtwitter heredoc；t.co 1→grok.com/share，未发明）。recommended #2026-08-30 已并（跳过无硬链聚合站）；ideas 3（Infinite Slop 补原卡 + 2 新）。未发明。游标到 -Zho- / @ZHO_ZHO_ZHO 2094216475280330769。
+
 每次反馈、改版、漏做，写在这里。下一轮先读 playbook.md 和本文件。
 
 ## 2026-08-30

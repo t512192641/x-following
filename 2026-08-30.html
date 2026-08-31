@@ -238,7 +238,7 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-30</h1>
-      <p class="meta">美国时间 2026-08-30。16:00 ET 已并进：raw/2026-08-30/16.jsonl 53（DOM Following+最近；命中游标 2094096776928301477 @imwsl90，无缺口；DOM 56 剔 12.jsonl 重复 3）。16-articles 52/53 overlay（fxtwitter stdin；Factory 中文帖 404 保留 DOM；t.co 0，链已在文中展开 Spotify/Apple/YouTube/acquire/hoodmaps/infiniteslop/App Store，未发明）。新正文 11 卡（更新 Infinite Slop 2000+/桑拿手机搭建、Mole Tw93 v13 六点、Grok Bot 分享 Elon、Claude 周限 ahhhhfs）/ 拿不准 1 / 已过滤 13 簇。页合计正文 42 / 拿不准 21 / 已过滤 110。未并 recommended/ideas（非 20:00）。未发明。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-30。20:00 ET 已并进：raw/2026-08-30/20.jsonl 32（DOM Following+最近；精确游标 2094150874658742424 未复现但已见更旧邻帖，边界已过；oldest 新帖 @dotey 2094155196993560829 ≈游标后 ~17 分钟；newest -Zho- 2094216475280330769）。20-articles 32/32 overlay（fxtwitter heredoc；t.co 1/1 → grok.com/share）。新正文卡 11（X 5：FireCrawl→Grok Bot、Claude session 盗号、TikTok slideshow、目录 18/44、褚时健；推荐 4：Hy4、Qwen3.8-Flash-Next、Claude Code sandbox、Microduck；脑洞 2：Mozart Contained、UnderTheGAN）+ 更新 6（Factory 99%/1%、Tibo/宝玉 PT6 重置、ChatGPT 桌面 Brent、Lenny 掌舵、Infinite Slop 脑洞博文、GLM-5.3-Flash 官方）。拿不准 +1 / 已过滤 +12 簇。页合计正文 53 / 拿不准 22 / 已过滤 122。已并 recommended #2026-08-30（跳过无硬链聚合站 agentic-ai-news / llm-releases / startupcorners）+ ideas 3（Infinite Slop 补原卡）。未发明。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="site-nav" aria-label="日期">
       <a href="index.html">首页</a>
@@ -252,9 +252,9 @@ article .links {
       <a href="2026-08-23.html">08-23</a>
     </nav>
     <nav class="tabs" aria-label="页签">
-      <button type="button" class="tab is-active" data-pane="main">正文 42</button>
-      <button type="button" class="tab" data-pane="maybe">拿不准 21</button>
-      <button type="button" class="tab" data-pane="filtered">已过滤 110</button>
+      <button type="button" class="tab is-active" data-pane="main">正文 53</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 22</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 122</button>
     </nav>
     <div class="view-tools" aria-label="展开">
       <button type="button" class="tab" id="btn-expand">全部展开</button>
@@ -265,6 +265,54 @@ article .links {
         <section class="group">
           <h2>模型 / 产品</h2>
           <div class="grid">
+          <article>
+<h3>FireCrawl 接入 Grok Bot：补爬取与网页解析</h3>
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank" rel="noopener noreferrer">@berryxia</a></p>
+      <div class="fold">
+<p>Berryxia：FireCrawl 平时已在各种项目配置里常见，现支持接到 Grok Bot，补上爬取和网页解析能力。产品配置入口未另附，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/berryxia/status/2094213014681694604" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia</a></p>
+          </article>
+          <article>
+<h3>Claude 账号被盗 session：木马偷登录态，官方注销并删卡</h3>
+      <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
+      <div class="fold">
+<p>huangserva：Anthropic 近期给一批用户发邮件注销 Claude 账号并删除已存信用卡。根因是木马偷本机 Claude 登录 session——Windows：Vidar / LummaC2 / StealC / RedLine；Mac：Atomic Stealer。有 session 无需密码即可进后台。官方自查信号：额度莫名恢复又突然耗光。同机还跑本地 agent 时，shell / API key / 浏览器登录态风险更大。可操作：查邮件、轮换密钥、清本机窃取器。</p>
+      </div>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2094209704377630742" rel="noopener noreferrer" target="_blank">原帖一 · huangserva</a><a href="https://x.com/IntCyberDigest/status/2093793184518111344" rel="noopener noreferrer" target="_blank">原帖二 · IntCyberDigest</a></p>
+          </article>
+          <article>
+<h3>Tencent Hy4 preview 开源：770B MoE / 49B 激活 / 1M 上下文</h3>
+      <p class="byline">推荐源 · Tencent</p>
+      <div class="fold">
+<p>腾讯混元发布并开源 Hy4 preview（8/28）：770B 总参 / 49B 激活 MoE，&gt;1M token 上下文，Apache 2.0 权重约 1.56 TB（Hugging Face / ModelScope）。内部 203 项工程任务盲评 2.99/4（GLM-5.3 2.92、Kimi K3 2.94）。渠道：WorkBuddy/CodeBuddy（免费两周）、腾讯云 TokenHub、OpenRouter（$0.834/$2.501 per M）。早期预览；另有 FP8 变体。</p>
+      </div>
+      <p class="links"><a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/" rel="noopener noreferrer" target="_blank">Tencent</a></p>
+          </article>
+          <article>
+<h3>Qwen3.8-Flash-Next 开源权重：Qwen4 架构预览</h3>
+      <p class="byline">推荐源 · Qwen / Alibaba</p>
+      <div class="fold">
+<p>Qwen 发布 Qwen3.8-Flash-Next：125B MoE + 51B N-gram embedding、6B 激活、多模态；原生 262K（YaRN 可扩 1M）。训练成本约 Qwen3.7-Plus 的 1/9（SWE-bench Pro 62.5，DeepSWE 58.7）。权重 HF/ModelScope；生产版云端约 $0.16/$0.47。Unsloth GGUF 可本地（1-bit 约 75 GB）。</p>
+      </div>
+      <p class="links"><a href="https://github.com/QwenLM/Qwen3.8-Flash-Next" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>Claude Code 可选本地 sandbox：隔离跑命令，严格模式不回落宿主机</h3>
+      <p class="byline">推荐源 · testingcatalog</p>
+      <div class="fold">
+<p>Anthropic 为 Claude Code 桌面端增加选项：命令在隔离本地 sandbox 内执行。严格模式拦截无法在 sandbox 跑的命令（如 ssh），不回落宿主机。适用于新会话，可按项目覆盖。</p>
+      </div>
+      <p class="links"><a href="https://x.com/testingcatalog/status/2094194068351758567" rel="noopener noreferrer" target="_blank">原帖一 · testingcatalog</a></p>
+          </article>
+          <article>
+<h3>Hugging Face Microduck：$399 开源双足鸭机器人继续发酵</h3>
+      <p class="byline">推荐源 · Thomas Wolf</p>
+      <div class="fold">
+<p>Hugging Face / Pollen Robotics Microduck（约 $399 开源双足鸭）关注度仍高；Thomas Wolf 把它当作进入开源权重、私有数据与「自己造」而非纯 API 消费的入口。预购与社区演示在 8/27–30 前后活跃。规格页未另附，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Thom_Wolf/status/2094195635654156436" rel="noopener noreferrer" target="_blank">原帖一 · Thomas Wolf</a></p>
+          </article>
           <article>
 <h3>Google AI Overviews 默认展开完整答案</h3>
       <p class="byline">ahhhhfs <a href="https://x.com/abskoop" target="_blank" rel="noopener noreferrer">@abskoop</a></p>
@@ -357,16 +405,16 @@ article .links {
 <p>有人建议用上一段最后一帧做下一段起始帧。levelsio 贴了推理链：帧链式会把 4 路并行收成串行（须等 N 在 fal 生成完、下载、抽末帧才能开 N+1）；约 15-40 秒/条、串行约 1.5-4 条/分，而频道播出 6 条/分，缓冲会饿、重播变多。直播聊天驱动时下一条还不存在，无法预链；还会让一条消息=一条独立片子变成上一段画面慢慢变成新梗，并打乱 VIP/最新优先。失败会级联。只适合聊天安静时的故事续写。Yanhua：聊天写剧情、AI 圆前后；称折扣成本约 3456 美元/天（原价 6912 美元/天），另写过一天烧掉 4000 美元；有人按 API 价估约 124 万美元/年、fal 吃一半。fal 工具页 H3 Max 每天免费 5 条 5 秒 768p 视频、实测生成不超过 3 秒、不用注册。</p>
 <p>12:00：因大部分流量来自手机，生成从横向 16:9 切到纵向 9:16。</p>
 <p>16:00：同时在线破 2000+。竖屏已落地；队列移到左侧并加 upvote，每分钟上限 4 条（15s）时优先生成票高的；显示「下一即将播放」。流程：聊天打字 → 进队列给人点赞 → 票高的拉去生成 → 生成完进流待播。上下滚动回看仍 buggy。另：昨天整站在桑拿里用手机 Termius 连 Hetzner VPS + Claude Code 从零搭出——朋友群 14:30 UTC 起意，15:18 v1，17:30 上线（约 3 小时），域名 infiniteslop.ai。</p>
-      </div>
-      <p class="links"><a href="https://x.com/levelsio/status/2093984182154194989" rel="noopener noreferrer" target="_blank">原帖一 · levelsio</a><a href="https://x.com/levelsio/status/2094004712869601555" rel="noopener noreferrer" target="_blank">原帖二 · levelsio</a><a href="https://x.com/levelsio/status/2094024039081673067" rel="noopener noreferrer" target="_blank">原帖三 · levelsio</a><a href="https://x.com/levelsio/status/2094003159798571248" rel="noopener noreferrer" target="_blank">原帖四 · levelsio</a><a href="https://x.com/yanhua1010/status/2094004667856637960" rel="noopener noreferrer" target="_blank">原帖五 · Yanhua</a><a href="https://x.com/yanhua1010/status/2093994482677223853" rel="noopener noreferrer" target="_blank">原帖六 · Yanhua</a><a href="https://x.com/servasyy_ai/status/2093925698327167056" rel="noopener noreferrer" target="_blank">原帖七 · huangserva</a><a href="https://x.com/levelsio/status/2094036519489077636" rel="noopener noreferrer" target="_blank">原帖八 · levelsio</a><a href="https://x.com/yanhua1010/status/2093994485499994453" rel="noopener noreferrer" target="_blank">原帖九 · Yanhua</a><a href="https://x.com/levelsio/status/2094090589201392104" rel="noopener noreferrer" target="_blank">原帖十 · levelsio</a><a href="https://x.com/levelsio/status/2094129020770164871" rel="noopener noreferrer" target="_blank">原帖十一 · levelsio</a><a href="https://x.com/levelsio/status/2094113698453360663" rel="noopener noreferrer" target="_blank">原帖十二 · levelsio</a><a href="https://infiniteslop.ai" rel="noopener noreferrer" target="_blank">infiniteslop.ai</a><a href="https://fal.ai/tools/minimax-h3-max" rel="noopener noreferrer" target="_blank">fal H3 Max</a></p>
+      <p>20:00 脑洞源补：聊天驱动永不停止的 AI 视频直播——观众打字，系统立刻生成下一段并尽量接剧情；卖点是生成可比观看更快。玩法：打开网站聊天框输入想法。博文 levels.io/i-built-infinite-slop（与 infiniteslop.ai / fal H3 同题）。</p></div>
+      <p class="links"><a href="https://x.com/levelsio/status/2093984182154194989" rel="noopener noreferrer" target="_blank">原帖一 · levelsio</a><a href="https://x.com/levelsio/status/2094004712869601555" rel="noopener noreferrer" target="_blank">原帖二 · levelsio</a><a href="https://x.com/levelsio/status/2094024039081673067" rel="noopener noreferrer" target="_blank">原帖三 · levelsio</a><a href="https://x.com/levelsio/status/2094003159798571248" rel="noopener noreferrer" target="_blank">原帖四 · levelsio</a><a href="https://x.com/yanhua1010/status/2094004667856637960" rel="noopener noreferrer" target="_blank">原帖五 · Yanhua</a><a href="https://x.com/yanhua1010/status/2093994482677223853" rel="noopener noreferrer" target="_blank">原帖六 · Yanhua</a><a href="https://x.com/servasyy_ai/status/2093925698327167056" rel="noopener noreferrer" target="_blank">原帖七 · huangserva</a><a href="https://x.com/levelsio/status/2094036519489077636" rel="noopener noreferrer" target="_blank">原帖八 · levelsio</a><a href="https://x.com/yanhua1010/status/2093994485499994453" rel="noopener noreferrer" target="_blank">原帖九 · Yanhua</a><a href="https://x.com/levelsio/status/2094090589201392104" rel="noopener noreferrer" target="_blank">原帖十 · levelsio</a><a href="https://x.com/levelsio/status/2094129020770164871" rel="noopener noreferrer" target="_blank">原帖十一 · levelsio</a><a href="https://x.com/levelsio/status/2094113698453360663" rel="noopener noreferrer" target="_blank">原帖十二 · levelsio</a><a href="https://infiniteslop.ai" rel="noopener noreferrer" target="_blank">infiniteslop.ai</a><a href="https://fal.ai/tools/minimax-h3-max" rel="noopener noreferrer" target="_blank">fal H3 Max</a><a href="https://levels.io/i-built-infinite-slop" rel="noopener noreferrer" target="_blank">levels.io</a></p>
           </article>
           <article>
 <h3>又一无审核 GLM-5.3 Flash；4090 挑战 2-bit GGUF</h3>
       <p class="byline">huangserva <a href="https://x.com/servasyy_ai" target="_blank" rel="noopener noreferrer">@servasyy_ai</a></p>
       <div class="fold">
 <p>称又一个无限制审核版，仍是 GLM-5.3 Flash。考虑用 4090 48G + 128G 内存跑 2-bit GGUF；规格写 320B 总参、每 token 激活约 18B。引用 OrcaRouter。仓/端点未写全，未发明。</p>
-      </div>
-      <p class="links"><a href="https://x.com/servasyy_ai/status/2093926948686979549" rel="noopener noreferrer" target="_blank">原帖一 · huangserva</a></p>
+      <p>20:00 推荐源：Z.ai 开源 GLM-5.3-Flash（GLM-5 系首个原生多模态）——320B 总参 / 18B 激活、1M 上下文、稀疏+线性混合注意力；编码/代理接近 Claude Opus 4.8（Terminal-Bench 84.3 vs 85.0，DeepSWE 63.4）。曾以 Ox Alpha 在 OpenRouter 隐测。HF MIT；API 约 $0.15/$0.50 per M；GLM Coding Plan 3× 配额。</p></div>
+      <p class="links"><a href="https://x.com/servasyy_ai/status/2093926948686979549" rel="noopener noreferrer" target="_blank">原帖一 · huangserva</a><a href="https://huggingface.co/zai-org/GLM-5.3-Flash" rel="noopener noreferrer" target="_blank">Hugging Face</a></p>
           </article>
           <article>
 <h3>Grok Companions 将于 2026-09-01 从 App 移除</h3>
@@ -440,8 +488,8 @@ article .links {
       <p class="byline">Brent Traut <a href="https://x.com/btraut" target="_blank" rel="noopener noreferrer">@btraut</a> · pvncher</p>
       <div class="fold">
 <p>Brent Traut（Andrew Ambrosino 转）：上周改了 ChatGPT 桌面端线程加载——长线程加载快 90% 以上，长线程内存占用降 90% 以上。pvncher：关注 Brent 看 Codex/桌面端效率。Ambrosino「很棒的更新」无增量，进已过滤。</p>
-      </div>
-      <p class="links"><a href="https://x.com/btraut/status/2094119709222519134" rel="noopener noreferrer" target="_blank">原帖一 · Brent</a><a href="https://x.com/pvncher/status/2094131584924323980" rel="noopener noreferrer" target="_blank">原帖二 · pvncher</a></p>
+      <p>20:00 Tibo：Brent Traut 是桌面端打磨/性能/可靠性主要推动力之一，日复一日改进（呼应长线程 +90% / 内存 −90%）。</p></div>
+      <p class="links"><a href="https://x.com/btraut/status/2094119709222519134" rel="noopener noreferrer" target="_blank">原帖一 · Brent</a><a href="https://x.com/pvncher/status/2094131584924323980" rel="noopener noreferrer" target="_blank">原帖二 · pvncher</a><a href="https://x.com/thsottiaux/status/2094164029044646099" rel="noopener noreferrer" target="_blank">原帖二 · Tibo</a></p>
           </article>
           <article>
 <h3>OpenAI 11/12 停 Cursor 官方直供；BYOK/Codex 插件/Gateway 仍可用</h3>
@@ -472,8 +520,8 @@ article .links {
       <p class="byline">Factory <a href="https://x.com/FactoryAI" target="_blank" rel="noopener noreferrer">@FactoryAI</a> · Eno</p>
       <div class="fold">
 <p>Factory：「持续学习发生在控制层。考虑到这一点，你公司的智能主权归属谁？」并推 Eno Reyes × Harry Stebbings（20VC）播客（Spotify / Apple / YouTube 链在帖内）。Eno：赢家会拥有模型周边的验证、状态、学习循环与工作流。fxtwitter 对中文帖 404，正文取自 DOM；播客链已 overlay 展开，未发明。</p>
-      </div>
-      <p class="links"><a href="https://x.com/FactoryAI/status/2094150862876934524" rel="noopener noreferrer" target="_blank">原帖一 · Factory</a><a href="https://x.com/FactoryAI/status/2094150874658742424" rel="noopener noreferrer" target="_blank">原帖二 · Factory</a><a href="https://x.com/EnoReyes/status/2093750077198303532" rel="noopener noreferrer" target="_blank">原帖三 · Eno</a><a href="https://open.spotify.com/episode/1K7yijPmWta84oqajDwRAg?si=dc73758c625e4601" rel="noopener noreferrer" target="_blank">Spotify</a><a href="https://podcasts.apple.com/gb/podcast/20vc-is-anthropics-coding-business-worth-%242-trillion/id958230465?i=1000786623054" rel="noopener noreferrer" target="_blank">Apple Podcasts</a><a href="https://youtube.com/watch?v=h9VNB9TA2Hk&feature=youtu.be" rel="noopener noreferrer" target="_blank">YouTube</a></p>
+      <p>20:00：英文帖补口径——3 年内近 99% AI 工作流会跑在开源模型上，但其中 1% 任务将占未来智能经济价值的 30–40%。Eno 中间叙事：开源赢体量、专有模型占不成比例经济份额。Factory 已转 Eno。播客链同卡。</p></div>
+      <p class="links"><a href="https://x.com/FactoryAI/status/2094150862876934524" rel="noopener noreferrer" target="_blank">原帖一 · Factory</a><a href="https://x.com/FactoryAI/status/2094150874658742424" rel="noopener noreferrer" target="_blank">原帖二 · Factory</a><a href="https://x.com/EnoReyes/status/2093750077198303532" rel="noopener noreferrer" target="_blank">原帖三 · Eno</a><a href="https://open.spotify.com/episode/1K7yijPmWta84oqajDwRAg?si=dc73758c625e4601" rel="noopener noreferrer" target="_blank">Spotify</a><a href="https://podcasts.apple.com/gb/podcast/20vc-is-anthropics-coding-business-worth-%242-trillion/id958230465?i=1000786623054" rel="noopener noreferrer" target="_blank">Apple Podcasts</a><a href="https://youtube.com/watch?v=h9VNB9TA2Hk&feature=youtu.be" rel="noopener noreferrer" target="_blank">YouTube</a><a href="https://x.com/FactoryAI/status/2094178785566532046" rel="noopener noreferrer" target="_blank">原帖二 · Factory</a><a href="https://x.com/EnoReyes/status/2094195059415765432" rel="noopener noreferrer" target="_blank">原帖三 · Eno</a><a href="https://x.com/FactoryAI/status/2094178797381955987" rel="noopener noreferrer" target="_blank">原帖四 · Factory</a></p>
           </article>
           <article>
 <h3>Gazdecki：TTS SaaS 挂牌 Acquire（$136K TTM / $90K 利润 / $101K ARR）</h3>
@@ -488,14 +536,38 @@ article .links {
       <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
       <div class="fold">
 <p>例行重置提醒：Codex 与 ChatGPT Work 额度约太平洋时间下午 6 点落地；挑战把用量烧满并去 /fast 试新功能。今日页尚无 Tibo-reset 卡，新开短卡。</p>
-      </div>
-      <p class="links"><a href="https://x.com/thsottiaux/status/2094144275957350900" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a></p>
+      <p>20:00 宝玉跟帖确认：Codex 美国西部时间 6 点重置额度（同 Tibo PT 6pm /fast 提醒）。</p></div>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2094144275957350900" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a><a href="https://x.com/dotey/status/2094155196993560829" rel="noopener noreferrer" target="_blank">原帖二 · 宝玉</a></p>
           </article>
           </div>
         </section>
         <section class="group">
           <h2>方法</h2>
           <div class="grid">
+          <article>
+<h3>TikTok slideshow 低成本测试：1 分钟版 + 四种骨架</h3>
+      <p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu" target="_blank" rel="noopener noreferrer">@chuhaiqu</a></p>
+      <div class="fold">
+<p>slideshow 适合低成本测试：不用复杂拍摄、生产快，用户会滑/回看/截图/保存；跑出来的结构还能变 brief、广告素材和后续模板。</p><p>1 分钟版：① 找 3 个赛道（自己 1 + 不相关 2），每赛道存 10 条近 30 天好 slideshow，拆 3–5 个可复用结构；② 先自己做 20 套，记录首图、slide 数、产品出现位置、CTA、播放/保存/评论/转化；③ 明显高于账号基线后，先围绕它做 20 个变体，再决定找创作者放大。</p><p>筛样本：近 30 天、播放≥5–10 万、结构可复制、多账号跑通。拆 6 点：首图停滑、张数、产品第几张出现、caption、真图/生成图/混用、末张 CTA。抄骨架不抄内容。</p><p>四种骨架：Pain funnel（痛点→加深→软方案→产品→CTA）；List/swap（5–7 张 tip/替换，末张必须转化）；Identity（每张写「想成为的人」）；Quick hit（2–3 张直接结果）。首张≈视频前 1 秒。</p><p>生产：优先 TikTok 原生文字；真图+生成图混用但色调一致；成熟号每天 5–10 条正常。看转化不看纯播放。过 100 万后同一结构换皮重做再交创作者；brief 写清格式名/参考/每张职责/caption/目标/风格禁区。月入 1–2 万美元后再考虑代理放大。</p>
+      </div>
+      <p class="links"><a href="https://x.com/chuhaiqu/status/2094209804667605026" rel="noopener noreferrer" target="_blank">原帖一 · 出海去</a></p>
+          </article>
+          <article>
+<h3>免费 AI 导航站外链：44 投 18 成，可复用名单</h3>
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+      <div class="fold">
+<p>投递 44 个外链目录，成功 18 个；其余服务器挂了、域名停或收费。成功名单：Uneed、PeerPush、SaaSHub、LaunchIgniter、FoundrList、TinyLaunch、ShowMeBestAI、Neeed Directory、Turbo0、StartupRanked、Peerlist、ShipYard HQ、LaunchingNext、AgentHunter、ToolFame、SaaSFame、BetaPage/PitchWall、Slocco。作者继续征免费 AI 导航站以便让 AI 批量提交。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yangyi/status/2094203013187633258" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article>
+<h3>褚时健红糖厂扭亏：换燃料、提得率、密封改造</h3>
+      <p class="byline">Orange AI <a href="https://x.com/oran_ge" target="_blank" rel="noopener noreferrer">@oran_ge</a></p>
+      <div class="fold">
+<p>非 AI、可搬走的经营方法。褚时健首任厂长在连年亏损红糖厂，三件事扭亏：① 燃料从外购炭改废料甘蔗渣；② 加滚筒提高出糖率；③ 学白糖厂密封改造（用淘汰件），加工效率约 10×，等级从三极升一级。作者点出：技术驱动 + 供不应求年代「解决生产力就不愁销量」。</p>
+      </div>
+      <p class="links"><a href="https://x.com/oran_ge/status/2094182318516912317" rel="noopener noreferrer" target="_blank">原帖一 · Orange</a></p>
+          </article>
           <article>
 <h3>GEOFlow：AI 内容质检，知识库检索 vs 原子指标</h3>
       <p class="byline">姚金刚 <a href="https://x.com/yaojingang" target="_blank" rel="noopener noreferrer">@yaojingang</a></p>
@@ -586,8 +658,8 @@ You are a new hire on day one. Your only job is reading the files I give you and
       <p class="byline">Lenny Rachitsky <a href="https://x.com/lennysan" target="_blank" rel="noopener noreferrer">@lennysan</a></p>
       <div class="fold">
 <p>OpenAI 内部梗「Are you mainlining it yet?」——是否全天依赖产品并把品味压上去。Tara Seshan（Codex/ChatGPT work PM，EM Ambrosino）：内部 vibe 转向 Codex 不是政策，是人开始注意到。可搬走：为 frontier 模型 2–3 个月后的能力建（为今天或一年后都会失败）；PM 的工作是抬高所有人野心；知识工作未来是 steer 不是 paddle；OpenAI 是 founders-led（复数）不是单创始人密谋室。有一类写作她永不交给 AI。YouTube 访谈链在帖内。赞助帖进已过滤，播客链附本卡。</p>
-      </div>
-      <p class="links"><a href="https://x.com/lennysan/status/2094145378769912014" rel="noopener noreferrer" target="_blank">原帖一 · Lenny</a><a href="https://youtu.be/zMvBMfj4cSQ" rel="noopener noreferrer" target="_blank">YouTube</a><a href="https://open.spotify.com/episode/5vOt9MsvaQDIgpzN6tQMju?si=agFzLLYqR8S3HGzBUS3KVw" rel="noopener noreferrer" target="_blank">Spotify</a><a href="https://podcasts.apple.com/us/podcast/ais-third-era-the-rise-of-persistent-ai-coworkers/id1627920305?i=1000786817796" rel="noopener noreferrer" target="_blank">Apple Podcasts</a></p>
+      <p>20:00 Lenny 再引 Tara：「工作的未来更像掌舵而非划桨；agent 划桨，人越来越像掌舵。」同访谈口径。</p></div>
+      <p class="links"><a href="https://x.com/lennysan/status/2094145378769912014" rel="noopener noreferrer" target="_blank">原帖一 · Lenny</a><a href="https://youtu.be/zMvBMfj4cSQ" rel="noopener noreferrer" target="_blank">YouTube</a><a href="https://open.spotify.com/episode/5vOt9MsvaQDIgpzN6tQMju?si=agFzLLYqR8S3HGzBUS3KVw" rel="noopener noreferrer" target="_blank">Spotify</a><a href="https://podcasts.apple.com/us/podcast/ais-third-era-the-rise-of-persistent-ai-coworkers/id1627920305?i=1000786817796" rel="noopener noreferrer" target="_blank">Apple Podcasts</a><a href="https://x.com/lennysan/status/2094168420409561273" rel="noopener noreferrer" target="_blank">原帖二 · Lenny</a></p>
           </article>
           </div>
         </section>
@@ -641,11 +713,40 @@ You are a new hire on day one. Your only job is reading the files I give you and
 </article>
           </div>
         </section>
-    </div>
+            <section class="group">
+          <h2>脑洞</h2>
+          <div class="grid">
+          <article>
+<h3>手势指挥莫扎特四重奏：装置开始学观众</h3>
+      <p class="byline">脑洞源 · ERCIM</p>
+      <div class="fold">
+<p>Mozart Contained!：四座光雕对应莫扎特不协和弦乐四重奏四个声部，观众用手势靠近/挥动单独控制音量与速度。新进展引入认知 AI，从访客真实动作学意图，而不是死板匹配预设手势。玩法：走进装置，挥手靠近光雕，听四重奏被动作实时重塑。</p>
+      </div>
+      <p class="links"><a href="https://ercim-news.ercim.eu/en132/special/ai-meets-culture-cognitive-ai-enabling-user-interaction-in-multimodal-installation-art" rel="noopener noreferrer" target="_blank">ERCIM News</a></p>
+          </article>
+          <article>
+<h3>UnderTheGAN：早期 AI「童年博物馆」</h3>
+      <p class="byline">脑洞源 · UnderTheGAN</p>
+      <div class="fold">
+<p>在线博物馆专收 2015–2019 早期 GAN 与 DeepDream 作品。创始人花三年把机器学画画时期的笨拙、手指过多的脸、抽象实验归档——把 AI 生成物当有「童年」的历史对象。玩法：直接访问网站翻早期作品。</p>
+      </div>
+      <p class="links"><a href="https://underthegan.art/" rel="noopener noreferrer" target="_blank">underthegan.art</a></p>
+          </article>
+          </div>
+        </section>
+</div>
 <div id="pane-maybe" class="pane">
         <section class="group">
           <h2>拿不准</h2>
           <div class="grid">
+          <article>
+<h3>卫斯理：个人开发者已无力逐行看 AI 代码；怕的是没人用</h3>
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+      <div class="fold">
+<p>相对资深程序员「写一段检查一段」，作者称已无力看 AI 写的代码，体感个人开发者把握几个关键节点就够；更怕产品没人用。有态度、步骤偏薄，留拿不准。</p>
+      </div>
+      <p class="links"><a href="https://x.com/imwsl90/status/2094197413431140777" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a></p>
+          </article>
           <article>
 <h3>Elon：难任务上仍觉 Grok App 比 Bot 更有用</h3>
       <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer">@elonmusk</a></p>
@@ -821,6 +922,66 @@ You are a new hire on day one. Your only job is reading the files I give you and
         <section class="group">
           <h2>已过滤</h2>
           <div class="grid">
+          <article class="filt">
+      <p class="byline">-Zho- <a href="https://x.com/ZHO_ZHO_ZHO" target="_blank" rel="noopener noreferrer">@ZHO_ZHO_ZHO</a></p>
+<p>审美愿望/能力/水平决定民族与时代质量；配 nostalgia 图，无方法。</p>
+      <p class="links"><a href="https://x.com/ZHO_ZHO_ZHO/status/2094216475280330769" rel="noopener noreferrer" target="_blank">原帖一 · Zho</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>暴论：大部分软件到死到不了十万用户；转 Sinofsky「把慢重新包装成 agentic」笑话。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2094216112561074253" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a><a href="https://x.com/imwsl90/status/2094198915616911618" rel="noopener noreferrer" target="_blank">原帖二 · 卫斯理</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+<p>夸桑拿手机搭 Infinite Slop 一行；问宝玉重置换算北京时间。</p>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2094215595659264365" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a><a href="https://x.com/yanhua1010/status/2094214873408581716" rel="noopener noreferrer" target="_blank">原帖二 · Yanhua</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Austen Allred <a href="https://x.com/Austen" target="_blank" rel="noopener noreferrer">@Austen</a></p>
+<p>现实不必夸大；过度拟人化 agent 会变蠢；删群聊=创造毁灭文明。</p>
+      <p class="links"><a href="https://x.com/Austen/status/2094214954970915312" rel="noopener noreferrer" target="_blank">原帖一 · Austen</a><a href="https://x.com/Austen/status/2094212654978252889" rel="noopener noreferrer" target="_blank">原帖二 · Austen</a><a href="https://x.com/Austen/status/2094211731988074587" rel="noopener noreferrer" target="_blank">原帖三 · Austen</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank" rel="noopener noreferrer">@berryxia</a></p>
+<p>「牛」短回复。</p>
+      <p class="links"><a href="https://x.com/berryxia/status/2094213168881189215" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Chris Bakke <a href="https://x.com/ChrisJBakke" target="_blank" rel="noopener noreferrer">@ChrisJBakke</a></p>
+<p>中年才生孩子讽刺段子。</p>
+      <p class="links"><a href="https://x.com/ChrisJBakke/status/2094204291745735150" rel="noopener noreferrer" target="_blank">原帖一 · Chris</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Yangyi <a href="https://x.com/yangyi" target="_blank" rel="noopener noreferrer">@yangyi</a></p>
+<p>信息产品投 ads 审核难过，无步骤。</p>
+      <p class="links"><a href="https://x.com/yangyi/status/2094188655682429373" rel="noopener noreferrer" target="_blank">原帖一 · Yangyi</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">@jason <a href="https://x.com/Jason" target="_blank" rel="noopener noreferrer">@Jason</a></p>
+<p>#jwrae 得意帖；请 JasonKoon 分析牌局并穿衬衫；转 Adam Curry No Agenda 1899。</p>
+      <p class="links"><a href="https://x.com/Jason/status/2094185756902211820" rel="noopener noreferrer" target="_blank">原帖一 · Jason</a><a href="https://x.com/Jason/status/2094182548494582143" rel="noopener noreferrer" target="_blank">原帖二 · Jason</a><a href="https://x.com/JasonKoon/status/2094185048258027798" rel="noopener noreferrer" target="_blank">原帖三 · JasonKoon</a><a href="https://x.com/adamcurry/status/2094170438578364584" rel="noopener noreferrer" target="_blank">原帖四 · Adam Curry</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Andrew Gazdecki <a href="https://x.com/agazdecki" target="_blank" rel="noopener noreferrer">@agazdecki</a></p>
+<p>今日最大问题三年后或成优势——鸡汤。</p>
+      <p class="links"><a href="https://x.com/agazdecki/status/2094182972534718508" rel="noopener noreferrer" target="_blank">原帖一 · Gazdecki</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kaostyl <a href="https://x.com/kaostyl" target="_blank" rel="noopener noreferrer">@kaostyl</a></p>
+<p>Pixbid 仍第一刷屏。</p>
+      <p class="links"><a href="https://x.com/kaostyl/status/2094174216841023978" rel="noopener noreferrer" target="_blank">原帖一 · Kaostyl</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Sahil Bloom <a href="https://x.com/SahilBloom" target="_blank" rel="noopener noreferrer">@SahilBloom</a></p>
+<p>与 DAN KOE 互吹下单，无信息增量。</p>
+      <p class="links"><a href="https://x.com/SahilBloom/status/2094156181539328172" rel="noopener noreferrer" target="_blank">原帖一 · Sahil</a><a href="https://x.com/thedankoe/status/2094155614989783423" rel="noopener noreferrer" target="_blank">原帖二 · DAN KOE</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer">@elonmusk</a></p>
+<p>能编辑增强很具体的视频片段；附 Grok share。</p>
+      <p class="links"><a href="https://x.com/elonmusk/status/2094155810234335302" rel="noopener noreferrer" target="_blank">原帖一 · Elon</a><a href="https://grok.com/share/bGVnYWN5_0e357843-9f62-4e7d-b5dc-770b7ad8f302" rel="noopener noreferrer" target="_blank">Grok share</a></p>
+          </article>
           <article class="filt">
       <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer">@elonmusk</a></p>
 <p>FSD 推销；空视频回 Crémieux；意识向星际；脑=生物计算机/Neuralink MRI；转 Danny Penny 美国人获胜文；转 Meloni 评 Soros；转 SpaceX 布朗斯维尔 444 英亩+供水协议；转 Dan 儿子 Grok Imagine 短片。</p>
