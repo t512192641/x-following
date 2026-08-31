@@ -238,7 +238,7 @@ article .links {
   <div class="wrap">
     <header>
       <h1>X 关注 · 2026-08-30</h1>
-      <p class="meta">美国时间 2026-08-30。20:00 ET 已并进：raw/2026-08-30/20.jsonl 32（DOM Following+最近；精确游标 2094150874658742424 未复现但已见更旧邻帖，边界已过；oldest 新帖 @dotey 2094155196993560829 ≈游标后 ~17 分钟；newest -Zho- 2094216475280330769）。20-articles 32/32 overlay（fxtwitter heredoc；t.co 1/1 → grok.com/share）。新正文卡 11（X 5：FireCrawl→Grok Bot、Claude session 盗号、TikTok slideshow、目录 18/44、褚时健；推荐 4：Hy4、Qwen3.8-Flash-Next、Claude Code sandbox、Microduck；脑洞 2：Mozart Contained、UnderTheGAN）+ 更新 6（Factory 99%/1%、Tibo/宝玉 PT6 重置、ChatGPT 桌面 Brent、Lenny 掌舵、Infinite Slop 脑洞博文、GLM-5.3-Flash 官方）。拿不准 +1 / 已过滤 +12 簇。页合计正文 53 / 拿不准 22 / 已过滤 122。已并 recommended #2026-08-30（跳过无硬链聚合站 agentic-ai-news / llm-releases / startupcorners）+ ideas 3（Infinite Slop 补原卡）。未发明。清爽 8-bit，纯文字卡片。</p>
+      <p class="meta">美国时间 2026-08-30。0:00 ET 已并进完整版：raw/2026-08-30/00.jsonl 80 pre（DOM Following+最近；精确游标 2094216475280330769 未复现，已见更旧邻帖，边界已过；oldest 新 @WR4NYGov 2094226115955229171 ≈游标后 ~38 分钟；newest pre @liuren 2094272486909370860）。post-midnight 2 条仅 raw/2026-08-31/00-after.jsonl，不推 31 日薄页。00-articles 80/80 overlay（fxtwitter；t.co 0）。新正文卡 14（模型/产品 7：tokentab、Agro、Learn Inference、CooCoo、data-eng skills、WorkBuddy 海外/小程序/Office、strata；方法 6：Excel 静默清空公式、Yanhua 安全哲学、Indie Fox Pi、宝玉评测集提示词、Bear MVP 竖切、X Money 开通；提示词 1：Gear 活到下班/猫游戏）+ 更新 4（ChatGPT 桌面 10×+媒体标签、Codex CU 并行虚拟鼠标、Tibo 2500 万重置+Pro20X 周限/Claude Max@20 澄清、Lenny×Tara 第三时代播客）。拿不准 +5 / 已过滤 +24 簇。页合计正文 67 / 拿不准 27 / 已过滤 146。未并 recommended/ideas（非 20:00）。未发明。清爽 8-bit，纯文字卡片。</p>
     </header>
     <nav class="site-nav" aria-label="日期">
       <a href="index.html">首页</a>
@@ -252,9 +252,9 @@ article .links {
       <a href="2026-08-23.html">08-23</a>
     </nav>
     <nav class="tabs" aria-label="页签">
-      <button type="button" class="tab is-active" data-pane="main">正文 53</button>
-      <button type="button" class="tab" data-pane="maybe">拿不准 22</button>
-      <button type="button" class="tab" data-pane="filtered">已过滤 122</button>
+      <button type="button" class="tab is-active" data-pane="main">正文 67</button>
+      <button type="button" class="tab" data-pane="maybe">拿不准 27</button>
+      <button type="button" class="tab" data-pane="filtered">已过滤 146</button>
     </nav>
     <div class="view-tools" aria-label="展开">
       <button type="button" class="tab" id="btn-expand">全部展开</button>
@@ -265,6 +265,63 @@ article .links {
         <section class="group">
           <h2>模型 / 产品</h2>
           <div class="grid">
+          <article>
+<h3>tokentab：本地 CLI 汇总 Claude/Codex/Gemini 会话 token 花费</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb" target="_blank" rel="noopener noreferrer">@geekbb</a></p>
+      <div class="fold">
+<p>纯本地 CLI：翻 Claude Code、Codex、Gemini CLI 留在磁盘上的会话日志，按模型/项目/日期/活计列出 token 用量与花费。仓 github.com/damejan80/tokentab。</p>
+      </div>
+      <p class="links"><a href="https://x.com/geekbb/status/2094266174343389365" rel="noopener noreferrer" target="_blank">原帖一 · Geek</a><a href="https://github.com/damejan80/tokentab" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>Agro：4B 端侧全本地 Agent（五平台）</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>Agro：纯端侧本地 LLM + 自主 agent 聊天，覆盖 Android/iOS/macOS/Windows/Linux。推理与工具调用默认不碰云 API；只有你让它搜网页才联网。推理内核 Google LiteRT-LM 原生 C++，硬件加速含 Apple 等。仓 github.com/Onion99/Agro。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2094256051701125501" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/Onion99/Agro" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>Learn Inference：浏览器滑块学推理工程权衡</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>配套 Philip Kiely《Inference Engineering》（Baseten）的独立交互站 Learn Inference：拖滑块感受「启动快」与「跑得快」常常不可兼得。站点自称独立运营、与 Baseten/作者无隶属。站 learn-inference.com。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2094256242474828125" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://learn-inference.com" rel="noopener noreferrer" target="_blank">Learn Inference</a></p>
+          </article>
+          <article>
+<h3>CooCoo：Claude Code 要输入时菜单栏咕咕叫</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>macOS 菜单栏小应用：Claude Code 需要批准/输入时发咕咕声+系统通知，不用死盯终端。走 Claude Code 自带 hook，不靠偷看终端输出。仓 github.com/zzunaid/coo-coo。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2094255755700613137" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/zzunaid/coo-coo" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>Awesome Data Engineering Skills：36 个按需 skill 给 Claude Code</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>数据管道翻车常因 agent 不懂行规（重试重复数据、回填重写昨天、SELECT * 账单爆炸）。仓库把行规编成 36 个按需加载 Agent Skills（各带 SKILL.md），装进 Claude Code。根仓 github.com/Unknown-333/awesome-data-engineering-skills（含 dbt/Airflow/Dagster/幂等变换等子 skill）。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2094255007029977149" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://github.com/Unknown-333/awesome-data-engineering-skills" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>WorkBuddy 海外版：内置 GPT/Gemini + Cowrite；小程序/Office 续</h3>
+      <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank" rel="noopener noreferrer">@berryxia</a> · 木马人 · 夏林果</p>
+      <div class="fold">
+<p>Berryxia：发现 WorkBuddy 海外版，官方内置 GPT/Gemini（不必自配），强调 Cowrite「人机双写」贴合办公习惯；支持 BYOK。木马人：现实多是改半成品 Word/PPT/Excel，不想整份重生成——用 WorkBuddy 在原文件里改一段/一框/几列。夏林果文章：WorkBuddy 保姆级做微信小程序（杯杯岛奶茶 MVP）——准备（需求文档提示词、mp 注册、备案认证、logo、开发者工具）→ 做 → 发；不会写代码也能跑通。微信小程序规则链在文内。</p>
+      </div>
+      <p class="links"><a href="https://x.com/berryxia/status/2094262133420703995" rel="noopener noreferrer" target="_blank">原帖一 · Berryxia</a><a href="https://x.com/cnyzgkc/status/2094254387258671378" rel="noopener noreferrer" target="_blank">原帖二 · 木马人</a><a href="https://x.com/momo_peggy/status/2094246406907461861" rel="noopener noreferrer" target="_blank">原帖三 · 夏林果</a><a href="https://x.com/berryxia/status/2094255553933680909" rel="noopener noreferrer" target="_blank">原帖四 · Berryxia</a></p>
+          </article>
+          <article>
+<h3>strata：为 Omarchy 做的键盘优先文件管理器（Rust+GTK4）</h3>
+      <p class="byline">Geek <a href="https://x.com/geekbb" target="_blank" rel="noopener noreferrer">@geekbb</a></p>
+      <div class="fold">
+<p>实验性 Rust + GTK4 文件管理器，键盘优先，主要为 Omarchy 桌面设计，也可移植其他 Linux。仓 github.com/lgse/strata。</p>
+      </div>
+      <p class="links"><a href="https://x.com/geekbb/status/2094250611680362821" rel="noopener noreferrer" target="_blank">原帖一 · Geek</a><a href="https://github.com/lgse/strata" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+
           <article>
 <h3>FireCrawl 接入 Grok Bot：补爬取与网页解析</h3>
       <p class="byline">Berryxia.AI <a href="https://x.com/berryxia" target="_blank" rel="noopener noreferrer">@berryxia</a></p>
@@ -480,16 +537,16 @@ article .links {
       <div class="fold">
 <p>续 29 日 Claude Code 9/14 额度卡：歸藏吐槽官方话术——9 月 14 日后所有人订阅额度实际降约 17%，文案却像涨了 25%。引用 @ClaudeDevs 说明帖。</p>
 <p>16:00 ahhhhfs：「9 月 14 起 Claude Code 周限额 Weekly Limit 要下降了？」同题跟进；未改 −17% 数字（overlay 无新图数字）。</p>
-      </div>
-      <p class="links"><a href="https://x.com/op7418/status/2093954604493066244" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a><a href="https://x.com/ClaudeDevs/status/2093742322525810912" rel="noopener noreferrer" target="_blank">原帖二 · ClaudeDevs</a><a href="https://x.com/abskoop/status/2094117444369449119" rel="noopener noreferrer" target="_blank">原帖三 · ahhhhfs</a></p>
+      <p>0:00 宝玉澄清 Max@20：20× 多指 5h 窗口相对 Pro；周限额约 $100 计划的 2×。Bear 同感受：多用 $100 档，窗口偶超额；若周限只是 2× 则此前「5×」预期偏高。</p></div>
+      <p class="links"><a href="https://x.com/op7418/status/2093954604493066244" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a><a href="https://x.com/ClaudeDevs/status/2093742322525810912" rel="noopener noreferrer" target="_blank">原帖二 · ClaudeDevs</a><a href="https://x.com/abskoop/status/2094117444369449119" rel="noopener noreferrer" target="_blank">原帖三 · ahhhhfs</a><a href="https://x.com/dotey/status/2094270799175680460" rel="noopener noreferrer" target="_blank">原帖四 · 宝玉</a><a href="https://x.com/bearliu/status/2094271204886827385" rel="noopener noreferrer" target="_blank">原帖五 · Bear</a></p>
           </article>
           <article>
 <h3>ChatGPT 桌面端：长线程加载 +90%、内存 −90%</h3>
       <p class="byline">Brent Traut <a href="https://x.com/btraut" target="_blank" rel="noopener noreferrer">@btraut</a> · pvncher</p>
       <div class="fold">
 <p>Brent Traut（Andrew Ambrosino 转）：上周改了 ChatGPT 桌面端线程加载——长线程加载快 90% 以上，长线程内存占用降 90% 以上。pvncher：关注 Brent 看 Codex/桌面端效率。Ambrosino「很棒的更新」无增量，进已过滤。</p>
-      <p>20:00 Tibo：Brent Traut 是桌面端打磨/性能/可靠性主要推动力之一，日复一日改进（呼应长线程 +90% / 内存 −90%）。</p></div>
-      <p class="links"><a href="https://x.com/btraut/status/2094119709222519134" rel="noopener noreferrer" target="_blank">原帖一 · Brent</a><a href="https://x.com/pvncher/status/2094131584924323980" rel="noopener noreferrer" target="_blank">原帖二 · pvncher</a><a href="https://x.com/thsottiaux/status/2094164029044646099" rel="noopener noreferrer" target="_blank">原帖二 · Tibo</a></p>
+      <p>20:00 Tibo：Brent Traut 是桌面端打磨/性能/可靠性主要推动力之一，日复一日改进（呼应长线程 +90% / 内存 −90%）。</p><p>0:00 Ambrosino：ChatGPT/Codex 桌面长对话线程再提速约 10×（相对更早基线）；改进也进开源 codex app-server。James Sun：应用内浏览器本周再加两项——① 媒体标签页（有音视频活动的标签归侧栏一菜单）；② 空状态 URL 自动补全，更快回到浏览器工作。</p></div>
+      <p class="links"><a href="https://x.com/btraut/status/2094119709222519134" rel="noopener noreferrer" target="_blank">原帖一 · Brent</a><a href="https://x.com/pvncher/status/2094131584924323980" rel="noopener noreferrer" target="_blank">原帖二 · pvncher</a><a href="https://x.com/thsottiaux/status/2094164029044646099" rel="noopener noreferrer" target="_blank">原帖二 · Tibo</a><a href="https://x.com/ajambrosino/status/2094246826283299227" rel="noopener noreferrer" target="_blank">原帖三 · Ambrosino</a><a href="https://x.com/JamesZmSun/status/2094260430608748934" rel="noopener noreferrer" target="_blank">原帖四 · James</a></p>
           </article>
           <article>
 <h3>OpenAI 11/12 停 Cursor 官方直供；BYOK/Codex 插件/Gateway 仍可用</h3>
@@ -536,14 +593,63 @@ article .links {
       <p class="byline">Tibo <a href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">@thsottiaux</a></p>
       <div class="fold">
 <p>例行重置提醒：Codex 与 ChatGPT Work 额度约太平洋时间下午 6 点落地；挑战把用量烧满并去 /fast 试新功能。今日页尚无 Tibo-reset 卡，新开短卡。</p>
-      <p>20:00 宝玉跟帖确认：Codex 美国西部时间 6 点重置额度（同 Tibo PT 6pm /fast 提醒）。</p></div>
-      <p class="links"><a href="https://x.com/thsottiaux/status/2094144275957350900" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a><a href="https://x.com/dotey/status/2094155196993560829" rel="noopener noreferrer" target="_blank">原帖二 · 宝玉</a></p>
+      <p>20:00 宝玉跟帖确认：Codex 美国西部时间 6 点重置额度（同 Tibo PT 6pm /fast 提醒）。</p><p>0:00 Tibo：庆祝 ChatGPT Work/Codex 付费订阅达 2500 万活跃用户，已为所有付费订阅重置用量；并预告 The Reset Company 后续消息。澄清：Codex 里两档都叫 20X 时特指<strong>周限额</strong>，两种 Pro 都没有 5 小时限制；Pro 20X 精确是 Plus 用量的 20 倍。Ambrosino 同转发重置庆祝。</p><p>0:00 宝玉/Bear：Claude Max@20 易误解——20× 主要指每 5 小时会话窗口相对 Pro，周限额大约只是 $100 档的约 2 倍（不是全面 20×）。</p></div>
+      <p class="links"><a href="https://x.com/thsottiaux/status/2094144275957350900" rel="noopener noreferrer" target="_blank">原帖一 · Tibo</a><a href="https://x.com/dotey/status/2094155196993560829" rel="noopener noreferrer" target="_blank">原帖二 · 宝玉</a><a href="https://x.com/thsottiaux/status/2094252447271366730" rel="noopener noreferrer" target="_blank">原帖三 · Tibo</a><a href="https://x.com/thsottiaux/status/2094254532020818191" rel="noopener noreferrer" target="_blank">原帖四 · Tibo</a><a href="https://x.com/dotey/status/2094270799175680460" rel="noopener noreferrer" target="_blank">原帖五 · 宝玉</a><a href="https://x.com/bearliu/status/2094271204886827385" rel="noopener noreferrer" target="_blank">原帖六 · Bear</a><a href="https://x.com/ajambrosino/status/2094253543402402216" rel="noopener noreferrer" target="_blank">原帖七 · Ambrosino</a></p>
           </article>
           </div>
         </section>
         <section class="group">
           <h2>方法</h2>
           <div class="grid">
+          <article>
+<h3>AI Agent 悄悄清空 Excel 公式缓存值：打开看不出异常</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>Kookerella（FsOpenXmlDsl）实测：agent 给报表加无关一行后，公式还在，但缓存数值被悄悄清空；Excel 打开会重算所以人眼无异常，下游 pandas/PDF/仪表盘却吃到空值。文内给复现与库/MCP 链。博文 kookerella.com/posts/ai-agent-silently-breaks-formula-values/；发行版 github.com/Kookerella-Ltd/Kookerella.FsOpenXmlDsl/releases/tag/v0.6.3。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2094253894813802718" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a><a href="https://kookerella.com/posts/ai-agent-silently-breaks-formula-values/" rel="noopener noreferrer" target="_blank">博文</a><a href="https://github.com/Kookerella-Ltd/Kookerella.FsOpenXmlDsl/releases/tag/v0.6.3" rel="noopener noreferrer" target="_blank">GitHub Release</a></p>
+          </article>
+          <article>
+<h3>四个 coding agent 的安全哲学：沙箱 vs 审批（Yanhua 第 5 篇）</h3>
+      <p class="byline">Yanhua <a href="https://x.com/yanhua1010" target="_blank" rel="noopener noreferrer">@yanhua1010</a></p>
+      <div class="fold">
+<p>对照 OpenAI Codex、xAI grok-build、earendil pi（及 DeepSeek harness）：把「能碰到什么」（沙箱/内核边界）和「该不该做」（审批）拆开。pi：故意不自带沙箱，安全边界=用户账号，陌生仓配置有信任门，命令默认放行。Codex：默认 OS 沙箱（mac Seatbelt / Linux bubblewrap+seccomp），工作目录可写、网络默认断、.git 强制只读防 hooks；越权要人批准。dsh：沙箱与审批分配置，无人值守默认拒绝。grok-build：能力最全（沙箱+写时复制会话副本+危险命令分类器）但默认常关着。系列仓 github.com/yanhua1010/build-your-own-coding-agent。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yanhua1010/status/2094247582503763971" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a><a href="https://github.com/yanhua1010/build-your-own-coding-agent" rel="noopener noreferrer" target="_blank">GitHub</a></p>
+          </article>
+          <article>
+<h3>Indie Fox 纠正：agent 已是 loop；Pi 上下文别盲目拉满 1M</h3>
+      <p class="byline">Indie Fox <a href="https://x.com/indie_maker_fox" target="_blank" rel="noopener noreferrer">@indie_maker_fox</a></p>
+      <div class="fold">
+<p>纠正原帖两点：①「普通 coding agent=提问→改代码→返回」其实是 chat；现在 agent 都能 loop，Pi 尤其强。② 模型支持 1M 不等于该把窗口都设 1M——过大易 lost-in-the-middle，未必是长 session 最佳实践。</p>
+      </div>
+      <p class="links"><a href="https://x.com/indie_maker_fox/status/2094249777475272921" rel="noopener noreferrer" target="_blank">原帖一 · Indie Fox</a></p>
+          </article>
+          <article>
+<h3>提示词可用评测集代替手搓：目的是软件质量</h3>
+      <p class="byline">宝玉 <a href="https://x.com/dotey" target="_blank" rel="noopener noreferrer">@dotey</a></p>
+      <div class="fold">
+<p>手写代码/手搓提示词/审 AI 代码都是手段，目的是软件质量。写提示词场景：整理测试数据集、设基准线、反复测并给有价值反馈，用 AI 写提示词可以比人更好。</p>
+      </div>
+      <p class="links"><a href="https://x.com/dotey/status/2094257794866094083" rel="noopener noreferrer" target="_blank">原帖一 · 宝玉</a></p>
+          </article>
+          <article>
+<h3>MVP 不该是猫粮：竖切让功能/可靠/可用/愉悦同时成立</h3>
+      <p class="byline">Bear Liu <a href="https://x.com/bearliu" target="_blank" rel="noopener noreferrer">@bearliu</a></p>
+      <div class="fold">
+<p>Eric Ries 没说过 MVP 该粗糙；实践里常变成「功能先上、体验以后再补」然后没了以后。Aha! 猫粮比喻：能提供营养但不想再来一碗。Jussi Pasanen：竖着切一刀，四层同时过关而不是层层堆。设计师可用提示词做动效，不必再干等工程师；真问题仍需要质量过关的 MVP。</p>
+      </div>
+      <p class="links"><a href="https://x.com/bearliu/status/2094246484677955983" rel="noopener noreferrer" target="_blank">原帖一 · Bear</a></p>
+          </article>
+          <article>
+<h3>X Money 中文区放量：6% APY 数字银行要点 + ITIN 路径</h3>
+      <p class="byline">Asa <a href="https://x.com/app_sail" target="_blank" rel="noopener noreferrer">@app_sail</a></p>
+      <div class="fold">
+<p>Asa 文：X Money 8/31 起中文时间线明显放量——定位 digital banking（P2P 免手续费转账、最高约 6% APY、消费返现等，口径以官网当日为准）。文末附开通条件与坑；另帖推荐 IRS 代理办 ITIN（美司通，优惠价表述在帖内），并提醒开通可能还要美国信用。非 AI、可搬走的开通信息；淘宝短链在原帖，未发明官方站。</p>
+      </div>
+      <p class="links"><a href="https://x.com/app_sail/status/2094245640272560361" rel="noopener noreferrer" target="_blank">原帖一 · Asa</a><a href="https://x.com/app_sail/status/2094268334615240753" rel="noopener noreferrer" target="_blank">原帖二 · Asa</a></p>
+          </article>
+
           <article>
 <h3>TikTok slideshow 低成本测试：1 分钟版 + 四种骨架</h3>
       <p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu" target="_blank" rel="noopener noreferrer">@chuhaiqu</a></p>
@@ -582,8 +688,8 @@ article .links {
       <div class="fold">
 <p>作者用 Codex 的 Computer Use + Chrome 插件跑通阿里云配置：以前改个参数要翻文档、多后台来回找；现在把结果告诉 Codex，它查资料、找入口、打开后台、改参数、读邮件拿验证码，改完接着跑测试。例子是更新 SMTP，后面真实 OTP 和业务 Smoke Test 也自己跑完。Chrome 里已登录的网站、电脑 App、没有 API 的后台都能看、点、填，工具之间来回切。提醒敏感数据仍要收着。产品页未另附，未发明。</p>
 <p>12:00 huangserva：一条指令「完成中国吉隆口岸事故还原视频」，Codex + Computer Use + Chrome 自己找资料、搜现场视频、补堰塞湖和口岸被毁画面、核对 5200 米到 1200 米海拔落差、做三维地形动画、生成旁白、合成导出；网页/终端/本地工具来回切，没让人接手。旁白把「2026 年」念错后，自己重做语音、重排字幕、重新导出，再从成片识别确认改对。交付 8 分钟片子。额度吐槽（重置后剩 62% / 5.6 Sol Ultra 1.5x）另帖已滤，不并进本卡。</p>
-      </div>
-      <p class="links"><a href="https://x.com/gkxspace/status/2094018795119456684" rel="noopener noreferrer" target="_blank">原帖一 · 余温</a><a href="https://x.com/servasyy_ai/status/2094066847595508060" rel="noopener noreferrer" target="_blank">原帖二 · huangserva</a></p>
+      <p>0:00 逸尘：Codex Computer Use 可多任务并行且不抢本机鼠标——各任务像有「虚拟鼠标/虚拟窗口」，桌面被清空时虚拟指针仍在点、任务继续跑；适合依赖人点选、又想多开的长活。作者两账号 ChatGPT Pro20× 无积分焦虑时狂开并行。</p></div>
+      <p class="links"><a href="https://x.com/gkxspace/status/2094018795119456684" rel="noopener noreferrer" target="_blank">原帖一 · 余温</a><a href="https://x.com/servasyy_ai/status/2094066847595508060" rel="noopener noreferrer" target="_blank">原帖二 · huangserva</a><a href="https://x.com/gengdaJ/status/2094265319330373951" rel="noopener noreferrer" target="_blank">原帖三 · 逸尘</a></p>
           </article>
           <article>
 <h3>用 Codex 学新领域：先抽 20%，再地图，再做项目/出题</h3>
@@ -658,14 +764,23 @@ You are a new hire on day one. Your only job is reading the files I give you and
       <p class="byline">Lenny Rachitsky <a href="https://x.com/lennysan" target="_blank" rel="noopener noreferrer">@lennysan</a></p>
       <div class="fold">
 <p>OpenAI 内部梗「Are you mainlining it yet?」——是否全天依赖产品并把品味压上去。Tara Seshan（Codex/ChatGPT work PM，EM Ambrosino）：内部 vibe 转向 Codex 不是政策，是人开始注意到。可搬走：为 frontier 模型 2–3 个月后的能力建（为今天或一年后都会失败）；PM 的工作是抬高所有人野心；知识工作未来是 steer 不是 paddle；OpenAI 是 founders-led（复数）不是单创始人密谋室。有一类写作她永不交给 AI。YouTube 访谈链在帖内。赞助帖进已过滤，播客链附本卡。</p>
-      <p>20:00 Lenny 再引 Tara：「工作的未来更像掌舵而非划桨；agent 划桨，人越来越像掌舵。」同访谈口径。</p></div>
-      <p class="links"><a href="https://x.com/lennysan/status/2094145378769912014" rel="noopener noreferrer" target="_blank">原帖一 · Lenny</a><a href="https://youtu.be/zMvBMfj4cSQ" rel="noopener noreferrer" target="_blank">YouTube</a><a href="https://open.spotify.com/episode/5vOt9MsvaQDIgpzN6tQMju?si=agFzLLYqR8S3HGzBUS3KVw" rel="noopener noreferrer" target="_blank">Spotify</a><a href="https://podcasts.apple.com/us/podcast/ais-third-era-the-rise-of-persistent-ai-coworkers/id1627920305?i=1000786817796" rel="noopener noreferrer" target="_blank">Apple Podcasts</a><a href="https://x.com/lennysan/status/2094168420409561273" rel="noopener noreferrer" target="_blank">原帖二 · Lenny</a></p>
+      <p>20:00 Lenny 再引 Tara：「工作的未来更像掌舵而非划桨；agent 划桨，人越来越像掌舵。」同访谈口径。</p><p>0:00 Sherwin Wu 推 Lenny 播客续集：与 Tara（@tarstarr）谈「AI 第三个时代」可能是什么；YouTube watch?v=zMvBMfj4cSQ。</p></div>
+      <p class="links"><a href="https://x.com/lennysan/status/2094145378769912014" rel="noopener noreferrer" target="_blank">原帖一 · Lenny</a><a href="https://youtu.be/zMvBMfj4cSQ" rel="noopener noreferrer" target="_blank">YouTube</a><a href="https://open.spotify.com/episode/5vOt9MsvaQDIgpzN6tQMju?si=agFzLLYqR8S3HGzBUS3KVw" rel="noopener noreferrer" target="_blank">Spotify</a><a href="https://podcasts.apple.com/us/podcast/ais-third-era-the-rise-of-persistent-ai-coworkers/id1627920305?i=1000786817796" rel="noopener noreferrer" target="_blank">Apple Podcasts</a><a href="https://x.com/lennysan/status/2094168420409561273" rel="noopener noreferrer" target="_blank">原帖二 · Lenny</a><a href="https://x.com/sherwinwu/status/2094259477096825250" rel="noopener noreferrer" target="_blank">原帖二 · Sherwin</a><a href="https://www.youtube.com/watch?v=zMvBMfj4cSQ" rel="noopener noreferrer" target="_blank">YouTube</a></p>
           </article>
           </div>
         </section>
         <section class="group">
           <h2>提示词</h2>
           <div class="grid">
+          <article>
+<h3>Gear「活到下班」+ 猫版贪吃蛇/猫抓老鼠：把上班做成能玩的</h3>
+      <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
+      <div class="fold">
+<p>把脑洞交给 Gear：程序员闯关——躲需求、逃 Bug、穿会议迷宫，目标活到下班；又把贪吃蛇×猫和老鼠搓成可玩小游戏（通关撸猫）。可搬走点：用 agent 把段子直接做成可玩物，而不是只写段子。试玩链在原帖视频，未发明独立站名。</p>
+      </div>
+      <p class="links"><a href="https://x.com/Adam38363368936/status/2094248714475057232" rel="noopener noreferrer" target="_blank">原帖一 · Adam</a><a href="https://x.com/Adam38363368936/status/2094248842078396420" rel="noopener noreferrer" target="_blank">原帖二 · Adam</a><a href="https://x.com/Adam38363368936/status/2094250340862534040" rel="noopener noreferrer" target="_blank">原帖三 · Adam</a><a href="https://x.com/Adam38363368936/status/2094271312780992947" rel="noopener noreferrer" target="_blank">原帖四 · Adam</a></p>
+          </article>
+
           <article>
 <h3>旧店 10 秒改成咖啡店：9:16 竖屏改造提示词</h3>
       <p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" target="_blank" rel="noopener noreferrer">@Adam38363368936</a></p>
@@ -739,6 +854,47 @@ You are a new hire on day one. Your only job is reading the files I give you and
         <section class="group">
           <h2>拿不准</h2>
           <div class="grid">
+          <article>
+<h3>EverMe（杭州 evermind）内测：跨 Agent 共同记忆底座</h3>
+      <p class="byline">李韭二 <a href="https://x.com/li9292" target="_blank" rel="noopener noreferrer">@li9292</a></p>
+      <div class="fold">
+<p>转 evermind：EverMe 想让个人记忆成为各 AI Agent 可调用的共同底座；9/6 杭州线下体验会邀请重度用户/创业者等。产品细节与开放方式未展开，先留拿不准。</p>
+      </div>
+      <p class="links"><a href="https://x.com/li9292/status/2094265966440116532" rel="noopener noreferrer" target="_blank">原帖一 · 李韭二</a></p>
+          </article>
+          <article>
+<h3>即将入职 OpenAI/Anthropic 的首席设计师开源 Design Skill？</h3>
+      <p class="byline">逸尘 <a href="https://x.com/gengdaJ" target="_blank" rel="noopener noreferrer">@gengdaJ</a></p>
+      <div class="fold">
+<p>短帖惊叹「即将入职 OpenAI 和 Anthropic 的首席设计师开源的 Design Skill」。仓库/作者页未在帖内给出，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/gengdaJ/status/2094258285776150666" rel="noopener noreferrer" target="_blank">原帖一 · 逸尘</a></p>
+          </article>
+          <article>
+<h3>求推荐：网站帮助中心/知识库开源或商业产品</h3>
+      <p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh" target="_blank" rel="noopener noreferrer">@kevinma_dev_zh</a></p>
+      <div class="fold">
+<p>提问帖：搭建网站帮助中心知识库有何推荐。尚无答案清单。</p>
+      </div>
+      <p class="links"><a href="https://x.com/kevinma_dev_zh/status/2094267045596807198" rel="noopener noreferrer" target="_blank">原帖一 · Kevin</a></p>
+          </article>
+          <article>
+<h3>METR/Redwood 合著者谈 OpenAI×Hugging Face：仅钩子</h3>
+      <p class="byline">Theo Jaffee <a href="https://x.com/theojaffee" target="_blank" rel="noopener noreferrer">@theojaffee</a></p>
+      <div class="fold">
+<p>称这是 METR/Redwood 报告发布以来与合著者唯一一次谈 OpenAI–Hugging Face 事件的采访。访谈要点未抽出，未发明。</p>
+      </div>
+      <p class="links"><a href="https://x.com/theojaffee/status/2094262897946120681" rel="noopener noreferrer" target="_blank">原帖一 · Theo</a></p>
+          </article>
+          <article>
+<h3>会有人通过 skill 文件来学习吗？</h3>
+      <p class="byline">yibie <a href="https://x.com/yibie" target="_blank" rel="noopener noreferrer">@yibie</a></p>
+      <div class="fold">
+<p>开放问题，无方法展开。</p>
+      </div>
+      <p class="links"><a href="https://x.com/yibie/status/2094249218433331703" rel="noopener noreferrer" target="_blank">原帖一 · yibie</a></p>
+          </article>
+
           <article>
 <h3>卫斯理：个人开发者已无力逐行看 AI 代码；怕的是没人用</h3>
       <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
@@ -922,6 +1078,127 @@ You are a new hire on day one. Your only job is reading the files I give you and
         <section class="group">
           <h2>已过滤</h2>
           <div class="grid">
+          <article class="filt">
+      <p class="byline">卫斯理 <a href="https://x.com/imwsl90" target="_blank" rel="noopener noreferrer">@imwsl90</a></p>
+<p>DO 下线改 Vultr；武汉房租跌；修好 vless-reality-vision；星巴克太冷；感慨用不了某功能；Omarchy 任意用户进程可提权至 root 短讯。</p>
+      <p class="links"><a href="https://x.com/imwsl90/status/2094270611736744266" rel="noopener noreferrer" target="_blank">原帖一 · 卫斯理</a><a href="https://x.com/imwsl90/status/2094269640369480185" rel="noopener noreferrer" target="_blank">原帖二 · 卫斯理</a><a href="https://x.com/imwsl90/status/2094266237216068020" rel="noopener noreferrer" target="_blank">原帖三 · 卫斯理</a><a href="https://x.com/imwsl90/status/2094257449616486454" rel="noopener noreferrer" target="_blank">原帖四 · 卫斯理</a><a href="https://x.com/imwsl90/status/2094250790827524143" rel="noopener noreferrer" target="_blank">原帖五 · 卫斯理</a><a href="https://x.com/imwsl90/status/2094260012973777002" rel="noopener noreferrer" target="_blank">原帖六 · 卫斯理</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Morris <a href="https://x.com/Morris_LT" target="_blank" rel="noopener noreferrer">@Morris_LT</a></p>
+<p>加密货币分发权长议；上线前人生问答征集；估值=别人给的价格；教育忌过度提醒。</p>
+      <p class="links"><a href="https://x.com/Morris_LT/status/2094257967076102204" rel="noopener noreferrer" target="_blank">原帖一 · Morris</a><a href="https://x.com/Morris_LT/status/2094256180969480285" rel="noopener noreferrer" target="_blank">原帖二 · Morris</a><a href="https://x.com/Morris_LT/status/2094254219817779383" rel="noopener noreferrer" target="_blank">原帖三 · Morris</a><a href="https://x.com/Morris_LT/status/2094230137315442848" rel="noopener noreferrer" target="_blank">原帖四 · Morris</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Elon Musk <a href="https://x.com/elonmusk" target="_blank" rel="noopener noreferrer">@elonmusk</a></p>
+<p>周入 10k 则 PT-6 也 10k；边际成本趋近原料；「格罗克」一词。</p>
+      <p class="links"><a href="https://x.com/elonmusk/status/2094261015676354751" rel="noopener noreferrer" target="_blank">原帖一 · Elon</a><a href="https://x.com/elonmusk/status/2094260668950085816" rel="noopener noreferrer" target="_blank">原帖二 · Elon</a><a href="https://x.com/elonmusk/status/2094259860976103823" rel="noopener noreferrer" target="_blank">原帖三 · Elon</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">杨高能 <a href="https://x.com/430Yang" target="_blank" rel="noopener noreferrer">@430Yang</a></p>
+<p>抗衰老健康长文，非 AI 方法。</p>
+      <p class="links"><a href="https://x.com/430Yang/status/2094271549377245454" rel="noopener noreferrer" target="_blank">原帖一 · 杨高能</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Bob Zhang <a href="https://x.com/affLeopard" target="_blank" rel="noopener noreferrer">@affLeopard</a></p>
+<p>停止讨好全世界情感/业务鸡汤文。</p>
+      <p class="links"><a href="https://x.com/affLeopard/status/2094256639197192277" rel="noopener noreferrer" target="_blank">原帖一 · Bob</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">刘韧 <a href="https://x.com/liuren" target="_blank" rel="noopener noreferrer">@liuren</a></p>
+<p>桥梁/软件测试金句；向上流动与父母兜底。</p>
+      <p class="links"><a href="https://x.com/liuren/status/2094272486909370860" rel="noopener noreferrer" target="_blank">原帖一 · 刘韧</a><a href="https://x.com/liuren/status/2094245502070161805" rel="noopener noreferrer" target="_blank">原帖二 · 刘韧</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">宝玉 <a href="https://x.com/dotey" target="_blank" rel="noopener noreferrer">@dotey</a></p>
+<p>「真的很误导」短跟帖（细节在 Max@20 正文卡）。</p>
+      <p class="links"><a href="https://x.com/dotey/status/2094272208403144904" rel="noopener noreferrer" target="_blank">原帖一 · 宝玉</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Panda <a href="https://x.com/PandaTalk8" target="_blank" rel="noopener noreferrer">@PandaTalk8</a></p>
+<p>学概率统计；财政危机；贷款看现金流。</p>
+      <p class="links"><a href="https://x.com/PandaTalk8/status/2094257799664738530" rel="noopener noreferrer" target="_blank">原帖一 · Panda</a><a href="https://x.com/PandaTalk8/status/2094245960650297471" rel="noopener noreferrer" target="_blank">原帖二 · Panda</a><a href="https://x.com/PandaTalk8/status/2094243877117202699" rel="noopener noreferrer" target="_blank">原帖三 · Panda</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Orange AI <a href="https://x.com/oran_ge" target="_blank" rel="noopener noreferrer">@oran_ge</a></p>
+<p>K 型变 i 型经济一句。</p>
+      <p class="links"><a href="https://x.com/oran_ge/status/2094259064876474467" rel="noopener noreferrer" target="_blank">原帖一 · Orange</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Jason <a href="https://x.com/Jason" target="_blank" rel="noopener noreferrer">@Jason</a></p>
+<p>机器人很会剪辑。</p>
+      <p class="links"><a href="https://x.com/Jason/status/2094264867368628375" rel="noopener noreferrer" target="_blank">原帖一 · Jason</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Cell <a href="https://x.com/cellinlab" target="_blank" rel="noopener noreferrer">@cellinlab</a></p>
+<p>问有无测 Computer use；Mac 付费测试帮转。</p>
+      <p class="links"><a href="https://x.com/cellinlab/status/2094264671545278805" rel="noopener noreferrer" target="_blank">原帖一 · Cell</a><a href="https://x.com/cellinlab/status/2094248310785835229" rel="noopener noreferrer" target="_blank">原帖二 · Cell</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" target="_blank" rel="noopener noreferrer">@derrickcchoi</a></p>
+<p>「发疯吧」；空互动卡。</p>
+      <p class="links"><a href="https://x.com/derrickcchoi/status/2094249765240238380" rel="noopener noreferrer" target="_blank">原帖一 · Derrick</a><a href="https://x.com/derrickcchoi/status/2094249649557152205" rel="noopener noreferrer" target="_blank">原帖二 · Derrick</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">歸藏 <a href="https://x.com/op7418" target="_blank" rel="noopener noreferrer">@op7418</a></p>
+<p>重置约北京上午九/十点；「又重置了」。</p>
+      <p class="links"><a href="https://x.com/op7418/status/2094250137157804380" rel="noopener noreferrer" target="_blank">原帖一 · 歸藏</a><a href="https://x.com/op7418/status/2094246671068864573" rel="noopener noreferrer" target="_blank">原帖二 · 歸藏</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" target="_blank" rel="noopener noreferrer">@AI_Jasonyu</a></p>
+<p>谢谢。</p>
+      <p class="links"><a href="https://x.com/AI_Jasonyu/status/2094248034133532862" rel="noopener noreferrer" target="_blank">原帖一 · 鱼总聊AI</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Matthew Berman <a href="https://x.com/MatthewBerman" target="_blank" rel="noopener noreferrer">@MatthewBerman</a></p>
+<p>「旧金山的重置公司」短。</p>
+      <p class="links"><a href="https://x.com/MatthewBerman/status/2094259794563784766" rel="noopener noreferrer" target="_blank">原帖一 · Matthew</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">droidHZ <a href="https://x.com/hezhiyan7" target="_blank" rel="noopener noreferrer">@hezhiyan7</a></p>
+<p>粉丝少导致干货没流量，可找他转。</p>
+      <p class="links"><a href="https://x.com/hezhiyan7/status/2094255265512399138" rel="noopener noreferrer" target="_blank">原帖一 · droidHZ</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">yongge <a href="https://x.com/Michell49473040" target="_blank" rel="noopener noreferrer">@Michell49473040</a></p>
+<p>认同但孩子不听只能提醒。</p>
+      <p class="links"><a href="https://x.com/Michell49473040/status/2094256325131968530" rel="noopener noreferrer" target="_blank">原帖一 · yongge</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">小耳Jane <a href="https://x.com/xiaoerzhan" target="_blank" rel="noopener noreferrer">@xiaoerzhan</a></p>
+<p>fm.xiaoercamera.xyz；vgpu 国风特效放弃人参与。</p>
+      <p class="links"><a href="https://x.com/xiaoerzhan/status/2094265826308182039" rel="noopener noreferrer" target="_blank">原帖一 · 小耳Jane</a><a href="https://x.com/xiaoerzhan/status/2094265823087022114" rel="noopener noreferrer" target="_blank">原帖二 · 小耳Jane</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Asa <a href="https://x.com/app_sail" target="_blank" rel="noopener noreferrer">@app_sail</a></p>
+<p>「可以看我最新文章」短指针。</p>
+      <p class="links"><a href="https://x.com/app_sail/status/2094265631931875341" rel="noopener noreferrer" target="_blank">原帖一 · Asa</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">木马人 <a href="https://x.com/cnyzgkc" target="_blank" rel="noopener noreferrer">@cnyzgkc</a></p>
+<p>「是的，很强！」短回复。</p>
+      <p class="links"><a href="https://x.com/cnyzgkc/status/2094255856238170200" rel="noopener noreferrer" target="_blank">原帖一 · 木马人</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh" target="_blank" rel="noopener noreferrer">@kevinma_dev_zh</a></p>
+<p>推荐阅读/关注短。</p>
+      <p class="links"><a href="https://x.com/kevinma_dev_zh/status/2094246737049460813" rel="noopener noreferrer" target="_blank">原帖一 · Kevin</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Bear Liu <a href="https://x.com/bearliu" target="_blank" rel="noopener noreferrer">@bearliu</a></p>
+<p>中译一言难尽建议看视频。</p>
+      <p class="links"><a href="https://x.com/bearliu/status/2094248419867181193" rel="noopener noreferrer" target="_blank">原帖一 · Bear</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">conor <a href="https://x.com/contextconor" target="_blank" rel="noopener noreferrer">@contextconor</a></p>
+<p>SF Gate 要 OpenAI 缴税并建房办学的批评长帖，产业杂闻。</p>
+      <p class="links"><a href="https://x.com/contextconor/status/2094234196793553200" rel="noopener noreferrer" target="_blank">原帖一 · conor</a></p>
+          </article>
+          <article class="filt">
+      <p class="byline">Warren Redlich <a href="https://x.com/WR4NYGov" target="_blank" rel="noopener noreferrer">@WR4NYGov</a></p>
+<p>Grok Bot 接近奇点体验吹捧，无步骤。</p>
+      <p class="links"><a href="https://x.com/WR4NYGov/status/2094226115955229171" rel="noopener noreferrer" target="_blank">原帖一 · Warren</a></p>
+          </article>
+
           <article class="filt">
       <p class="byline">-Zho- <a href="https://x.com/ZHO_ZHO_ZHO" target="_blank" rel="noopener noreferrer">@ZHO_ZHO_ZHO</a></p>
 <p>审美愿望/能力/水平决定民族与时代质量；配 nostalgia 图，无方法。</p>
