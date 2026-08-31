@@ -4,6 +4,9 @@
 
 ## 2026-08-31
 
+- 16:00 ET 窗：抓 61（DOM Following+最近 via CDP；GraphQL 脚本 Auto-review 未绑定故回退；命中游标 2094457003087438218 @gefei55，无大缺口；oldest 新 orig @agazdecki 2094457778790416541 约游标后 3 分钟；newest Matthew Berman @MatthewBerman 2094522137919054103）。并进 31 日页。正文新卡 14（模型/产品 10：Factory Droid GLM-5.3；Circleback 免费；Free Claude Code 本地代理；ChatGPT Work 故障恢复；Rion 微信 CLI 推迟 9/1；歸藏国风海报 Skill；GBrain evals；WebMCP；Frontier Computing 神经元；Grok Bot 用例+Ultra 赠码。方法 4：Agent 文言文/Reporting Layer；Garry Tan 流程稀缺；向量库 RAG 栈；Tiny IP 是结果）+ 更新 2（Lenny×Tara 再发 2–3 个月；dbskill 改名免费豆包技能包）。拿不准 3（Grok Bot 购物议价一句；Every 15h Anthropic 课无正文；11 岁 OMP+Z.ai）。已过滤 22 簇。页合计正文 68 / 拿不准 29 / 已过滤 100（自 54/26/78）。16-articles 61/61 overlay（fxtwitter；t.co unresolved 0；X 文章 1 篇全文 WebMCP；未发明）。未并 recommended/ideas。未发明。未 git / 未推 / 未发 Pages。游标到 Matthew Berman / @MatthewBerman 2094522137919054103。
+
+
 - 12:00 ET 窗：抓 83（HomeLatestTimeline GraphQL；命中游标 2094399319558488138 @foxshuo，无缺口；oldest 新 orig @gkxspace 2094399720957345893 ≈游标后 ~2 分钟；newest 哥飞 @gefei55 2094457003087438218）。并进 31 日页。正文新卡 18（模型/产品 8：Hyper3D WorldGen；OpenClaw 2.0；GPT Sol 5.6 Ultra Goal+1.5×；350 构图图鉴；Seedance 2.5 雨夜巷战；H3 2K 香水广告；4090 重绘耐克 10s；OKX 开源交易所 MCP 107 工具。方法 7：Vencord Translate；matt palmer Chat is all you need；Mollick Twilight Factory/HF 700 agent；Lenny×Tara 九点；X 算法 20×/13.5×/10×；Linear Cycle 藏设置；PKMer。提示词 3：小小东 VOL.101/102 全文；Alex source-check）+ 更新 4（Infinite Slop 加 Slop News Network；Starryblu 免费卡排队数月付费即开；X Money 活期 6%；Mono-color 木马人再推）。拿不准 7（499 刀积分包无品名；Grok Bot vs Hermes 问句；宝玉学 Rust；Codex 访谈未抽出；新号 bot 播放；Every 8 levels 只给链接；Archify 个人故事）。已过滤 24 簇。页合计正文 54 / 拿不准 26 / 已过滤 78（自 36/19/54）。12-articles 83/83 overlay（fxtwitter；t.co 41 HTTP + 4 facet/文章链；X 文章 2 篇全文；未发明）。未并 recommended/ideas。未发明。游标到 哥飞 / @gefei55 2094457003087438218。
 
 

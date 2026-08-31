@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2094457003087438218
-- url: https://x.com/gefei55/status/2094457003087438218
-- author: 哥飞
-- handle: @gefei55
-- time_utc: 2026-08-31T16:07:17.000Z
-- note: 2026-08-31 12:00 ET 窗；HomeLatestTimeline GraphQL; hit cursor 2094399319558488138; 12.jsonl 83; overlay 83/83
+- status_id: 2094522137919054103
+- url: https://x.com/MatthewBerman/status/2094522137919054103
+- author: Matthew Berman
+- handle: @MatthewBerman
+- time_utc: 2026-08-31T20:26:06.000Z
+- note: 2026-08-31 16:00 ET 窗；DOM Following+最近；hit cursor 2094457003087438218; 16.jsonl 61; overlay 61/61
