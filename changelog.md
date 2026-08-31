@@ -1,5 +1,12 @@
 # X 关注汇总：改动记录
 
+- 4:00 ET 窗：抓 3（DOM Following+最近；精确游标 2094276146401841317 未强制复现，已见更旧邻帖 @loki_yan_seo 2094275636357714095，边界已过；oldest 新 @XiaohuiAI666 2094277341895946603 ≈游标后 ~5 分钟；newest @PandaTalk8 2094278305252049383）。00-after 2 并进今天第一页。正文新卡 2（产品 1：卫斯理 Signal 接码 rk.imwsl.com；方法 1：Loki JS 渲染排查 GSC/Screaming Frog，overlay 后由拿不准提升）/ 拿不准 0 / 已过滤 3（小灰×2 中推圈子簇 + Panda 住房观点）。页合计正文 2 / 拿不准 0 / 已过滤 3。04-articles 4/4 overlay（含 Loki；fxtwitter；t.co 1→rk.imwsl.com，未发明）。未并 recommended/ideas。未发明。游标到 Mr Panda / @PandaTalk8 2094278305252049383。
+
+## 2026-08-31
+
+- 4:00 ET 窗：抓 3（DOM Following+最近；精确游标 2094276146401841317 未强制复现，已见更旧邻帖 @loki_yan_seo 2094275636357714095，边界已过；oldest 新 @XiaohuiAI666 2094277341895946603 ≈游标后 ~5 分钟；newest @PandaTalk8 2094278305252049383）。00-after 2 并进今天第一页。正文新卡 2（产品 1：卫斯理 Signal 接码 rk.imwsl.com；方法 1：Loki JS 渲染排查 GSC/Screaming Frog，overlay 后由拿不准提升）/ 拿不准 0 / 已过滤 3（小灰×2 中推圈子簇 + Panda 住房观点）。页合计正文 2 / 拿不准 0 / 已过滤 3。04-articles 4/4 overlay（含 Loki；fxtwitter；t.co 1→rk.imwsl.com，未发明）。未并 recommended/ideas。未发明。游标到 Mr Panda / @PandaTalk8 2094278305252049383。
+
+
 - 0:00 ET 窗：抓 82（DOM Following+最近；精确游标 2094216475280330769 未复现，已见更旧邻帖，边界已过；oldest 新 @WR4NYGov 2094226115955229171 ≈游标后 ~38 分钟；newest @XiaohuiAI666 2094276146401841317）。pre 80 并进 30 日完整版；post 2 仅 raw/2026-08-31/00-after.jsonl，不推 31 日薄页。正文新卡 14（模型/产品 7：tokentab；Agro；Learn Inference；CooCoo；awesome-data-engineering-skills；WorkBuddy 海外/Office/小程序；strata。方法 6：Excel 静默清空公式；Yanhua coding agent 安全哲学；Indie Fox Pi loop/1M；宝玉评测集写提示词；Bear MVP 竖切；X Money 开通+ITIN。提示词 1：Gear 活到下班/猫游戏）+ 更新 4（ChatGPT 桌面 10×+媒体标签；Codex CU 并行虚拟鼠标；Tibo 2500 万重置+Pro20X 周限/Claude Max@20 澄清；Lenny×Tara 第三时代 YouTube）。拿不准 5（EverMe；Design Skill 无仓；帮助中心求荐；METR 采访钩子；skill 学习问句）。已过滤 24 簇。合计正文 67 / 拿不准 27 / 已过滤 146（自 53/22/122）。00-articles 80/80 overlay（fxtwitter；t.co 0，未发明）。未并 recommended/ideas。未发明。游标到 程序员小灰 / @XiaohuiAI666 2094276146401841317（含 00-after）。
 
 每次反馈、改版、漏做，写在这里。下一轮先读 playbook.md 和本文件。
