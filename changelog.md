@@ -1,3 +1,6 @@
+# 2026-09-01
+- 0:00 ET 窗：抓 110（X API reverse_chronological；since_id 2094578110373220620；credits 先 503 后约 $100；browserUse 备用中止）。pre 104 并入 08-31 完整版；post 6 仅 raw/2026-09-01/00-after.jsonl，不推 9/1 薄页。正文新卡 20（产品：Microduck / Obsidian 三插件 / Grok Bot 云主机感 / marketingskills / WorkBuddy Bench / SecondBrain Note；方法：Pi loop 纠正 / 吴恩达学习观 / PyPI 抢注 / ponytail 慎装 / HTML→PPTX / Gemini Landing / Walter Mitty / Discord bot 聋 / LLM 批处理 / ChatGPT Work 解读 / iOS 买量 / SEO 道 / 宝玉 AI 原生思维；提示词：画面成诗+多国早安+Mono-color 补）+ 补丁 8 张旧卡 / 拿不准 9 / 已过滤簇 33。页合计正文 105 / 拿不准 32 / 已过滤 147。00-articles 109/110 overlay（fxtwitter；1×404；未发明）。未并 recommended/ideas。游标到 @jason / @Jason 2094639649125745103（含 00-after）。
+
 # 2026-08-31
 - 20:10 ET 补抓：X 窗已齐（raw/20.jsonl 31），未重抓。拉取 grok-ops recommended 2026-08-31（8）+ ideas sourceDate 2026-09-01（2，sourceId: ideas）。并进 31 日页：OpenClaw 2.0 补原卡（>16k PR / 933 贡献者 / 安装探测凭据 / grounded dreaming 等）；新卡 7（ChatGPT Ads $1B ARR、Anthropic 对齐安全、GovCloud Bedrock、苹果诉 Chang Liu、Qwen3.8-Flash-Next 趋势、编码 agent 涨星、MHS 预览）；脑洞组新建 2（Burning Man 拱门、DeepMind Co-Scientist 长晶体）。正文 76→85 / 拿不准 32 / 已过滤 114。未发明。推公开库 + 聊天交付当天页。
 
