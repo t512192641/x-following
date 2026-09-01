@@ -1,3 +1,6 @@
+# 2026-08-31
+- 20:10 ET 补抓：X 窗已齐（raw/20.jsonl 31），未重抓。拉取 grok-ops recommended 2026-08-31（8）+ ideas sourceDate 2026-09-01（2，sourceId: ideas）。并进 31 日页：OpenClaw 2.0 补原卡（>16k PR / 933 贡献者 / 安装探测凭据 / grounded dreaming 等）；新卡 7（ChatGPT Ads $1B ARR、Anthropic 对齐安全、GovCloud Bedrock、苹果诉 Chang Liu、Qwen3.8-Flash-Next 趋势、编码 agent 涨星、MHS 预览）；脑洞组新建 2（Burning Man 拱门、DeepMind Co-Scientist 长晶体）。正文 76→85 / 拿不准 32 / 已过滤 114。未发明。推公开库 + 聊天交付当天页。
+
 # X 关注汇总：改动记录
 
 - 4:00 ET 窗：抓 3（DOM Following+最近；精确游标 2094276146401841317 未强制复现，已见更旧邻帖 @loki_yan_seo 2094275636357714095，边界已过；oldest 新 @XiaohuiAI666 2094277341895946603 ≈游标后 ~5 分钟；newest @PandaTalk8 2094278305252049383）。00-after 2 并进今天第一页。正文新卡 2（产品 1：卫斯理 Signal 接码 rk.imwsl.com；方法 1：Loki JS 渲染排查 GSC/Screaming Frog，overlay 后由拿不准提升）/ 拿不准 0 / 已过滤 3（小灰×2 中推圈子簇 + Panda 住房观点）。页合计正文 2 / 拿不准 0 / 已过滤 3。04-articles 4/4 overlay（含 Loki；fxtwitter；t.co 1→rk.imwsl.com，未发明）。未并 recommended/ideas。未发明。游标到 Mr Panda / @PandaTalk8 2094278305252049383。
