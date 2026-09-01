@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2094700082964947157
-- url: https://x.com/xiaohu/status/2094700082964947157
-- author: 小互
-- handle: @xiaohu
-- time_utc: 2026-09-01T08:13:12.000Z
-- note: 2026-09-01 04:00 ET 窗；X API reverse_chronological since 2094639649125745103; 85 + 00-after 6; overlay 85/85
+- status_id: 2094759328225820794
+- url: https://x.com/alex_prompter/status/2094759328225820794
+- author: Alex Prompter
+- handle: @alex_prompter
+- time_utc: 2026-09-01T12:08:37.000Z
+- note: 2026-09-01 08:00 ET 窗；X API reverse_chronological since 2094700082964947157; 91; overlay 91/91
