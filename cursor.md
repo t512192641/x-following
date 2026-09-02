@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2094999687715786847
-- url: https://x.com/imwsl90/status/2094999687715786847
-- author: 卫斯理
-- handle: @imwsl90
-- time_utc: 2026-09-02T04:03:43.000Z
-- note: 2026-09-02 0:00 ET 窗；since 2094941820048585164; 148; overlay 148/148；pre 146 / after 2；未并 rec/ideas
+- status_id: 2095061139734319397
+- url: https://x.com/alex_prompter/status/2095061139734319397
+- author: Alex Prompter
+- handle: @alex_prompter
+- time_utc: 2026-09-02T08:07:54.000Z
+- note: 2026-09-02 4:00 ET 窗；since 2094999687715786847; 109; overlay 109/109；未并 rec/ideas
