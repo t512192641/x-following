@@ -1,3 +1,10 @@
+## 2026-09-02 16:00 ET
+- 抓取 86（1 页，since 2095180998061310249）；overlay 85/86（1×fxtwitter 404）；未发明 URL。
+- 窗类 正文 26 / 拿不准 15 / 已过滤 45；页累计 正文 80 / 拿不准 52 / 已过滤 223。
+- 新卡：Muse Spark 1.3、H3 Max 降价、Kimi IPO、gpt-6-astra 探针、Compound Writing、7 仓 Agent OS、机器人 6 个月资源、开源模型三类风险、Claire 7 Bot、Human-AI 协作边界、Company Brain 四象限、Codex 常驻线程、AI 发散设计、GPT-Image-2 草图残余。
+- 补丁：Gemini 3.8→Cursor 已上、Grok Bot Android、Fable High+subagent、小小东 BIP、Five Whys、Work=Codex。
+- 跳过 recommended/ideas；游标 → Factory @FactoryAI 2095241076210803037。
+
 # 2026-09-02
 - 12:00 ET 窗：抓 132（X API get_users_timeline；since_id 2095127788651237387；2 页 + page3 空；oldest 小小东 @xiaoxiaodong01 2095128927090160082；newest Alex Prompter @alex_prompter 2095180998061310249）。并进 9/2 页。正文新卡约 17（ChatGPT Work=Codex·OKX AI Builder·FoloToy·Wonderful $550M·逸尘 Agent 剪辑；豆包蓝皮书·OpenSEO·Codex 15 Skill·Pi /stats；Kimi K3 harness·Uber 软件工厂·重定价 10 提示词·Five Whys/边缘缓存·Codex 清手机·仙侠 vibe coding·Adam 茶席·小小东 GPT2 三组）+ 补丁 Fable 指南/CleanShot/Fotor/Grok Bot 分身+Marketplace/MkAgent·Pi / 拿不准 23 / 已过滤 63。页合计正文 66 / 拿不准 40 / 已过滤 178。12-articles 132/132 overlay（fxtwitter；t.co unresolved 4；未发明）。未并 recommended/ideas。未发明。游标到 Alex Prompter / @alex_prompter 2095180998061310249。
 - 8:00 ET 窗：抓 123（X API get_users_timeline；since_id 2095061139734319397；2 页 + page3 空；oldest 逸尘 @gengdaJ 2095061810873577554 ≈游标后 3 分钟；newest Asa @app_sail 2095127788651237387）。并进 9/2 页。正文新卡约 24（Gemini 3.8 Flash·Cognition·Fotor Video Agent·WorkBuddy+Hy4·ChatGPT×Epic·Infinite Slop·智谱淘宝 Token·PSA；逸尘 Codex↔ChatGPT Skill·wu·LiveKit·Rion 延期·营销 Skills；Mannered prose·AI Factory·Brownfield 审计·九概念·Seedance 2.5·Adam 雨巷/夜桥·BIP·agy·GSC·Starryblu·Cohub）+ 补丁 Flatkey/Fable+autocompact/Omarchy $13M/Grok Bot/SpaceXAI/Pi 10万星/Atlas / 拿不准 14 / 已过滤 56。页合计正文 49 / 拿不准 24 / 已过滤 115。08-articles 123/123 overlay（fxtwitter；t.co unresolved 1；未发明）。未并 recommended/ideas。未发明。游标到 Asa / @app_sail 2095127788651237387。
