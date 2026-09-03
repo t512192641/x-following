@@ -1,3 +1,11 @@
+## 2026-09-02 20:00 ET
+- 抓取 62（1 页，since 2095241076210803037）；overlay 62/62；t.co unresolved 0；未发明 URL。
+- 窗类 正文 25 / 拿不准 8 / 已过滤 29；页累计 正文 91 / 拿不准 60 / 已过滤 252（含脑洞 3）。
+- 新卡：Cursor 自托管 Cloud Agents、Obsidian 1.14、AirType ASR 1.7B、ChatOllama+Harness 四视频、Codex 自动会话移交、Every Knowledge Work 指南、Codex CU 标题约定、B2B lender 三系统案例。
+- 补丁：Gemini 3.8 正式+Cyber+Stitch、Grok Bot Android、Muse Spark 克制细节、Seedance 日式一镜、Fable plugin/编排/Claude Tag、Claire Tradbot、Compound Writing、Kimi harness 五件套、营销 Skills→Fotor。
+- 已并 ideas 2026-09-02 脑洞 3；跳过 recommended（latest 仍 09-01）。
+- 游标 → huangserva @servasyy_ai 2095301345159074293。
+
 ## 2026-09-02 16:00 ET
 - 抓取 86（1 页，since 2095180998061310249）；overlay 85/86（1×fxtwitter 404）；未发明 URL。
 - 窗类 正文 26 / 拿不准 15 / 已过滤 45；页累计 正文 80 / 拿不准 52 / 已过滤 223。
