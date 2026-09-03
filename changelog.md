@@ -1,3 +1,13 @@
+## 2026-09-03 0:00 ET
+- 抓取 165（2 页，since 2095301345159074293）；overlay 165/165；t.co unresolved 5（X 文章/截断回退）；未发明 URL。
+- 按帖子时间：pre-midnight 146 并进 2026-09-02；after 19 种子 2026-09-03 薄页（不聊天交付）。
+- 窗类 正文 58 / 拿不准 17 / 已过滤 90（pre 56/16/74）。
+- 09-02 页累计 正文 122 / 拿不准 71 / 已过滤 284；09-03 种子 2/1/16。
+- 新卡：Renoise Live、commerce-agents、MHS、FrontierHarness、ChatGPT analytics、WorkBuddy Bench、乐天卡 Google 接码、中港澳 eSIM、Arnis、Kitter、qiaomu-book-reader、Codex 计算机历史、H3 官方 prompt、/claude-api prompt-audit、微信贴图链、视频号橱窗、Omarchy workspace、AI 摄影师 Skill、肖师傅三则、小小东 VOL.108、英语阅读法、Reddit SaaS、Pi loop、Spreadsheet 后端。
+- 补丁：Computer Use 静默后台、Fable、Muse 免费 OpenCode、Grok Bot Android、FoloToy 护照卡、WorkBuddy Hy3/Mail、MkAgent、Mannered prose、发散设计、Compound Writing。
+- 游标 → 傅盛 @FuSheng_0306 2095365975399170515。
+- 本地已并；**未** git commit/push；chat_delivery_needed（昨天完整版）。
+
 ## 2026-09-02 20:16 ET 补抓
 - X 窗已齐（raw/20.jsonl 62），未重抓。
 - 拉取 grok-ops：recommended 2026-09-02（8，20:00 当时本地仍是 09-01）+ ideas sourceDate 2026-09-03（3，sourceId: ideas；页上已有 09-02 脑洞 3，本期新题另开）。
