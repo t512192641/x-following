@@ -3,7 +3,7 @@
 - overlay 133/133；补全文/文章/引用/链接；t.co unresolved 0；去重后 133 条；完整性通过。
 - 窗类 正文 49 / 拿不准 10 / 已过滤 74；页累计 正文 93 / 拿不准 41 / 已过滤 290。
 - 新卡 20：GPT-6 Astra 正式发布、SpeedrunBench、Claude Function Hooks、Martian AI Frontier、AI 组织调整、小小东 VOL.112/113、Seedance 提示词、水彩 RL、Repodify、LLM 专业度、jj converge、bash-only harness、Grok Bot/Hermes 生意清单、本地 ASR 练口语、CleanShot 录屏、slop.theater、AI transformation loop、CoT 可监测性、Readmate、YC S26 等。
-- 跳过 recommended/ideas（非 20:00）；未发明 URL；视觉验收通过。
+- 跳过 recommended/ideas（非 20:00）；未发明 URL；视觉验收 16-qa.png pass（三页签 93/41/290）。
 - 游标到 Derrick的树洞 @PPDeWuli 2095610219418280081 2026-09-03T20:29:45.000Z。
 
 ## 2026-09-03 12:00 ET
