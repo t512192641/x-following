@@ -1,3 +1,11 @@
+## 2026-09-03 12:00 ET
+- 抓取 165（已登录网页 DOM Following→最近 via CDP；since 2095488965742932192；命中游标；newest Elon Musk @elonmusk 2095541022365266094，2026-09-03T15:54:47.000Z）。
+- overlay 165/165；补全文/文章/引用/链接；t.co unresolved 0；去重后 165 条；完整性通过。
+- 窗类 正文 47 / 拿不准 9 / 已过滤 109；页累计 正文 74 / 拿不准 31 / 已过滤 216。
+- 新卡 24：NVIDIA-HF、Yingzao Skill、AI 游戏、Raycast BYOAI、Factory 公共部门、Shadowrocket、提示词、Stripe review、知识工作、OpenClaw、zvec、GitHub 3D 星球、Tesla-Grok、Hotelist、爆款营销、MiniMax H3、服务故障、模型预热传闻、YC、Factory 播客、GPT2 VOL.111、杭州 Meetup、FedEx brownfield 等。
+- 跳过 recommended/ideas（非 20:00）；未发明 URL；视觉验收通过。
+- 游标到 Elon Musk @elonmusk 2095541022365266094 2026-09-03T15:54:47.000Z。
+
 ## 2026-09-03 8:00 ET
 - 抓取 95（DOM Following+最近 via CDP catch-up；since 2095427162153087426；命中游标；oldest @elliotchen100 2095428855381320040 ≈游标后 6.7 分钟；newest 卫斯理 @imwsl90 2095488965742932192）。
 - overlay 94/95（fxtwitter；1×404 `2095488350375584199`）；t.co unresolved 0；未发明 URL。

@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2095488965742932192
-- url: https://x.com/imwsl90/status/2095488965742932192
-- author: 卫斯理
-- handle: @imwsl90
-- time_utc: 2026-09-03T12:27:56.000Z
-- note: 2026-09-03 8:00 ET 窗（catch-up）；since 2095427162153087426；95；overlay 94/95（1×404）；hit_cursor yes
+- status_id: 2095541022365266094
+- url: https://x.com/elonmusk/status/2095541022365266094
+- author: Elon Musk
+- handle: @elonmusk
+- time_utc: 2026-09-03T15:54:47.000Z
+- note: 2026-09-03 12:00 ET 窗；raw 165；overlay 165/165；hit_cursor yes
