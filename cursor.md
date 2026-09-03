@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2095365975399170515
-- url: https://x.com/FuSheng_0306/status/2095365975399170515
-- author: 傅盛
-- handle: @FuSheng_0306
-- time_utc: 2026-09-03T04:19:13.000Z
-- note: 2026-09-03 0:00 ET 窗；since 2095301345159074293；165；overlay 165/165；pre 146→09-02；after 19→09-03 薄页
+- status_id: 2095427162153087426
+- url: https://x.com/imwsl90/status/2095427162153087426
+- author: 卫斯理
+- handle: @imwsl90
+- time_utc: 2026-09-03T08:22:21.000Z
+- note: 2026-09-03 4:00 ET 窗；since 2095365975399170515；78；overlay 78/78；hit_cursor yes；第一完整版

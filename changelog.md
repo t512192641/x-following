@@ -1,3 +1,21 @@
+## 2026-09-03 4:00 ET
+- 抓取 78（DOM Following+最近 via CDP；browserUse MCP 不可用；since 2095365975399170515；命中游标；oldest @ZHO_ZHO_ZHO 2095368037386043484 ≈游标后 8 分钟；newest 卫斯理 @imwsl90 2095427162153087426）。
+- overlay 78/78（fxtwitter）；t.co unresolved 0；未发明 URL。
+- 窗类 正文 25 / 拿不准 14 / 已过滤 39；页累计 正文 26 / 拿不准 15 / 已过滤 55（并 0:00 种子）。
+- 新卡：Fotor Video Agent、Codex 建站流程、ai-engineer-notebooks、拼豆小程序、Thiel/Girard prompt、VOL.109、SEO AI 内容、YouWare 1000 积分、Cursor Self-Hosted Machines、omakade、营销欲望两点、howie 内参、抖音讲书、frontend-design+Agent-Reach、Background CU、DHH Omarchy、Muse Spark 免费、Frosted Focus prompt、Genspark Gemini 3.8、Grok Bot→GLM-5.3-Flash、FastH3 Reactor、Cursor 接 Gemini 3.8、实拍+AI 电影。
+- 跳过 recommended/ideas；游标 → 卫斯理 @imwsl90 2095427162153087426。
+- 今天第一完整版；chat_delivery_needed。
+
+## 2026-09-03 抓取路径（用户纠正）
+- 不要默认 X API。默认已登录网页刷「正在关注」。
+- 需要授权时用户会给；不要每窗运行时现弹。助理这边没有永久授权开关可替用户按。
+- 撤回稍早「禁止 scrape-X 子代理、默认 API」的改法。
+
+## 2026-09-03 抓取路径
+- 用户连日看到「Training to launch a sub agent to scrape X」安全审核卡。那是 4 小时汇总为刷「正在关注」开浏览器子任务时弹的，不是训练任务。
+- 用户问要不要每次授权：不要。不点也能走 X API 出页。已改主任务/补抓：默认 API，禁止再派 scrape-X 子代理。
+- playbook 已加「抓取路径」一节。
+
 ## 2026-09-03 0:00 ET
 - 抓取 165（2 页，since 2095301345159074293）；overlay 165/165；t.co unresolved 5（X 文章/截断回退）；未发明 URL。
 - 按帖子时间：pre-midnight 146 并进 2026-09-02；after 19 种子 2026-09-03 薄页（不聊天交付）。
