@@ -1,3 +1,11 @@
+## 2026-09-03 8:00 ET
+- 抓取 95（DOM Following+最近 via CDP catch-up；since 2095427162153087426；命中游标；oldest @elliotchen100 2095428855381320040 ≈游标后 6.7 分钟；newest 卫斯理 @imwsl90 2095488965742932192）。
+- overlay 94/95（fxtwitter；1×404 `2095488350375584199`）；t.co unresolved 0；未发明 URL。
+- 窗类 正文 36 / 拿不准 7 / 已过滤 52；页累计 正文 50 / 拿不准 22 / 已过滤 107。
+- 新卡：小互 / Jensen…；凡人小北…；Alex…；Nicolechan…；Orange…；Asa…；DHH…；小互…；一叶…；一叶…；小小东…；小小东… 等共 24。补丁：Muse Spark /v1/responses、Codex 建站再发、Grok Bot 方便性、FastH3 反馈环。
+- 跳过 recommended/ideas（非 20:00）。未发明。
+- 游标到 卫斯理 @imwsl90 2095488965742932192 2026-09-03T12:27:56.000Z。
+
 ## 2026-09-03 4:00 ET
 - 抓取 78（DOM Following+最近 via CDP；browserUse MCP 不可用；since 2095365975399170515；命中游标；oldest @ZHO_ZHO_ZHO 2095368037386043484 ≈游标后 8 分钟；newest 卫斯理 @imwsl90 2095427162153087426）。
 - overlay 78/78（fxtwitter）；t.co unresolved 0；未发明 URL。
