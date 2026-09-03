@@ -1,3 +1,12 @@
+## 2026-09-02 20:16 ET 补抓
+- X 窗已齐（raw/20.jsonl 62），未重抓。
+- 拉取 grok-ops：recommended 2026-09-02（8，20:00 当时本地仍是 09-01）+ ideas sourceDate 2026-09-03（3，sourceId: ideas；页上已有 09-02 脑洞 3，本期新题另开）。
+- 同题补：Fable 加 Mythos 5.1 / Terminal-Bench-Science 52.6% / 1M·128K / Bedrock·GCP + Anthropic 博文；Gemini 3.8 加 1M context / thinking levels / computer use preview + Google Blog；Muse Spark 1.3 加 API 定价不变 / max reasoning 待测 + Meta 研究博文。
+- 新卡 4：Claude 后台 Computer Use（Cowork+Code，Pro/Max macOS）；GitHub 日榜 skills/harness（ponytail / mattpocock/skills / hermes-agent / ECC / academic-research-skills / atlas / humanizer）；Chrome DevTools MCP；VoiceStudio 本地语音。跳过 HF 日榜与「其他高互动」（无增量/无可用链）。
+- 脑洞 +3：USP 切眼装置、TechCrunch Disrupt 去灭绝舞台、QuEra Claude 修量子激光。正文 91→98 / 拿不准 60 / 已过滤 252（脑洞 6）。
+- 未发明 URL。顺手把页签从过期 80/52/223 改成与正文一致。
+- 游标不变 huangserva @servasyy_ai 2095301345159074293。
+
 ## 2026-09-02 20:00 ET
 - 抓取 62（1 页，since 2095241076210803037）；overlay 62/62；t.co unresolved 0；未发明 URL。
 - 窗类 正文 25 / 拿不准 8 / 已过滤 29；页累计 正文 91 / 拿不准 60 / 已过滤 252（含脑洞 3）。
