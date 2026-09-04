@@ -1,3 +1,15 @@
+## 2026-09-04 4:00 ET
+
+- DOM 抓取 94；overlay 94/94；unresolved_tco 0；hit_cursor yes；gap ~7min
+- 窗分类：正文 30 / 拿不准 25 / 已过滤 39；分类写回 04.jsonl
+- 今天第一完整页 days/2026-09-04.html：正文 22 / 拿不准 27 / 已过滤 40（保留 0:00 种子）
+- 游标 → Berryxia.AI @berryxia 2095785747974586641 2026-09-04T08:07:14.000Z
+- 跳过 recommended/ideas；待推 Pages + 聊天交付今天页
+
+## 2026-09-04 0:10 ET 补抓
+- X 窗已齐（raw/00.jsonl 137；overlay 137/137；分类已写回；页累计 正文 121 / 拿不准 97 / 已过滤 348；游标 @yangyi 2095725263283990992；git a41b3e0；Pages HTTP 200 last-mod 04:28 UTC；00-qa.png pass），未重抓。
+- 跳过 recommended/ideas（非 20:00）。chat_delivery_needed：交昨天完整页。
+
 ## 2026-09-04 0:00 ET
 - 抓取 137（已登录网页 DOM；overlay 137/137；unresolved_tco 0；hit_cursor yes；未重抓）。
 - 跨日：pre 134 并进 2026-09-03；after 3 种子 2026-09-04 薄页（不聊天交付）。
