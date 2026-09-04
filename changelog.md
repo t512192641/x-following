@@ -1,3 +1,14 @@
+## 2026-09-04 16:00 ET
+- DOM Following+最近；raw 71；overlay 71/71；unresolved_tco 0；hit_cursor yes；gap ≈5.9min。menu no-latest-item（同 12:00）。
+- 窗类 正文 25 / 拿不准 14 / 已过滤 32；页累计 正文 64 / 拿不准 77 / 已过滤 171。
+- 补丁：Astra 正式放量 Pro/Ent/API + Codex 清理 .md/技能 + STL/宿舍3D/意图体感；Flatkey Fable 机械臂 8×；Derrick 3D 卡补 Rion。
+- 新卡 11：AsideAI/GStack、Grok Bot×Pi、VOL.114/115、Gemini Colab 剪辑、Fable Strandbeest、Folder Is the Agent、Codex Voice、Every Slack agent、WeMM-Embedding、arxiv agent collusion。
+- 游标 → Sam Altman @sama 2095969579587821634 2026-09-04T20:17:43.000Z。跳过 recommended/ideas。chat_delivery_needed。
+
+## 2026-09-04 12:32 ET 抽查
+- 12:00 主窗自己醒来（12:12–12:29），不是补抓顶上；盯梢撤掉。
+- 轻微：菜单未点到「最近」(no-latest-item)，但仍命中游标、间隔正常。下窗继续注意点「正在关注→最近」，不返工本窗。
+
 ## 2026-09-04 12:00 ET
 - DOM Following+最近；raw 100；overlay 100/100；unresolved_tco 0；hit_cursor yes；gap ≈0.5min。
 - 窗类 正文 25 / 拿不准 18 / 已过滤 57；页累计 正文 53 / 拿不准 63 / 已过滤 139。同题补进 Starryblu / GPT-6 Astra；新卡 16。
