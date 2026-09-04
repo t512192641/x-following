@@ -1,3 +1,12 @@
+## 2026-09-04 0:00 ET
+- 抓取 137（已登录网页 DOM；overlay 137/137；unresolved_tco 0；hit_cursor yes；未重抓）。
+- 跨日：pre 134 并进 2026-09-03；after 3 种子 2026-09-04 薄页（不聊天交付）。
+- 窗类 正文 49 / 拿不准 39 / 已过滤 49；09-03 页累计 正文 121 / 拿不准 97 / 已过滤 348；09-04 种子 0/2/1。
+- 补丁：Astra 大卡（Sam/歸藏/yibie/Berryxia/刘小排/Background CU/Cell/banked reset）；禁止副词、Grok Bot 设计/Meetup/Roundup、NVIDIA×HF、Adam 财报、Fotor。
+- 新卡 19：Browser Use×Stripe Link、Namespace×Cursor M5、RD-Agent、GEO、markdown-graphs、Lenny UI、梳头提示词、OpenClash、Omarchy+Tailscale、Grok Bot Enterprise、WorkBuddy 微信、Austen 阅读清单、豆包多 Agent、dsh-TUI/market、小号破圈、Devin 抽奖、AI 痛点、eSIM、Remove.bg。
+- 跳过 recommended/ideas（非 20:00）；未发明 URL。
+- 游标 → Yangyi @yangyi 2095725263283990992 2026-09-04T04:06:54.000Z。
+
 ## 2026-09-03 20:10 ET 补抓
 - X 窗已齐（raw/20.jsonl 57；overlay 57/57；分类已写回；游标 @servasyy_ai 2095665168294527359；20-qa.png 主窗已过），未重抓。
 - 拉取 grok-ops：recommended 2026-09-03（8）+ ideas 2026-09-03（2）。
