@@ -1,3 +1,24 @@
+## 2026-09-03 20:00 ET
+- 抓取 57（已登录网页 DOM Following→最近 via CDP；since 2095610219418280081；命中游标；newest huangserva @servasyy_ai 2095665168294527359，2026-09-04T00:08:06.000Z）。
+- overlay 57/57；补全文/文章/引用/链接；t.co unresolved 0；去重后 57 条；完整性通过。未重抓。
+- 窗类 正文 28 / 拿不准 19 / 已过滤 10；页累计 正文 97 / 拿不准 60 / 已过滤 300。
+- 补丁：OpenAI GPT-6 Astra 发布卡（放量/Codex banked reset/榜数字/演示/价格细节，原帖按钮按序十/十一/十二…）；Derrick CoT 可监测性卡补英文原文。
+- 新卡 4：Town AI 群聊、Grok Bot「一直在」五物件、邮件召回小技巧、Fable 5.1 额度暴击。
+- 跳过 recommended/ideas（recommended 最新仍 2026-09-02、ideas sourceDate 2026-09-03 均已在 09-02 页）；未发明 URL。
+- 游标到 huangserva @servasyy_ai 2095665168294527359 2026-09-04T00:08:06.000Z。
+
+## 2026-09-03 16:48 ET 抽查
+- 16:00 窗产物通过，不重抓、不再发当天页。
+- 下窗（20:00）起：Astra 一类大卡原帖按钮 ≥10 时按序编号为原帖十、原帖十一、原帖十二…，不要再全部撞成「原帖十」；raw 分类只写 classification，不用 class_one。
+- 20:00 必须靠主任务自己醒来，不自行暂停，不走 API，不把 20:10 当主抓。
+
+## 2026-09-03 16:45 ET 主窗交付
+- 16:00 窗证据齐，未重抓；Pages 200 last-mod 20:42 UTC；chat 交父代理发当天页。
+
+## 2026-09-03 16:10 ET 补抓
+- X 窗已齐（raw/16.jsonl 133；overlay 133/133；分类已写回；页累计 正文 93 / 拿不准 41 / 已过滤 290；游标 @PPDeWuli 2095610219418280081；git 1fe6849 origin/main 0/0；Pages HTTP 200 last-mod 20:42 UTC；16-qa.png pass），未重抓。
+- 跳过 recommended/ideas（非 20:00）。chat_delivery_needed：交父代理发送当天页。
+
 ## 2026-09-03 16:00 ET
 - 抓取 133（已登录网页 DOM Following→最近 via CDP；since 2095541022365266094；命中游标；newest Derrick的树洞 @PPDeWuli 2095610219418280081，2026-09-03T20:29:45.000Z）。
 - overlay 133/133；补全文/文章/引用/链接；t.co unresolved 0；去重后 133 条；完整性通过。
