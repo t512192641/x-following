@@ -1,3 +1,8 @@
+## 2026-09-04 12:00 ET
+- DOM Following+最近；raw 100；overlay 100/100；unresolved_tco 0；hit_cursor yes；gap ≈0.5min。
+- 窗类 正文 25 / 拿不准 18 / 已过滤 57；页累计 正文 53 / 拿不准 63 / 已过滤 139。同题补进 Starryblu / GPT-6 Astra；新卡 16。
+- 游标 → Jason @Jason 2095905990117937489 2026-09-04T16:05:02.000Z。跳过 recommended/ideas。chat_delivery_needed。
+
 ## 2026-09-04 8:00 ET
 - 主 routine 漏跑；8:10 补抓作完整主抓（对标 9/3 8:00）。DOM Following+最近；raw 82；overlay 82/82；unresolved_tco 0；hit_cursor yes；gap ≈6min。
 - 窗类 正文 22 / 拿不准 18 / 已过滤 42；页累计 正文 37 / 拿不准 45 / 已过滤 82。同题补进 Starryblu / Flatkey / 肖师傅夜市；新卡 15。
