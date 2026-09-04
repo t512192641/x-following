@@ -1,10 +1,19 @@
+## 2026-09-04 8:00 ET
+- 主 routine 漏跑；8:10 补抓作完整主抓（对标 9/3 8:00）。DOM Following+最近；raw 82；overlay 82/82；unresolved_tco 0；hit_cursor yes；gap ≈6min。
+- 窗类 正文 22 / 拿不准 18 / 已过滤 42；页累计 正文 37 / 拿不准 45 / 已过滤 82。同题补进 Starryblu / Flatkey / 肖师傅夜市；新卡 15。
+- 游标 → Alex Prompter @alex_prompter 2095848743228654068 2026-09-04T12:17:34.000Z。跳过 recommended/ideas。chat_delivery_needed。
+
+## 2026-09-04 4:10 ET 补抓
+- X 窗已齐（raw/04.jsonl 94；overlay 94/94；分类已写回；页 正文 22 / 拿不准 27 / 已过滤 40；游标 @berryxia 2095785747974586641；git 49e614d；Pages HTTP 200 last-mod 08:47 UTC；04-qa.png pass），未重抓。
+- 空原文 2 条均为 @ZHO_ZHO_ZHO 已过滤媒体空帖，不补。跳过 recommended/ideas（非 20:00）。chat_delivery：交今天第一完整页。
+
 ## 2026-09-04 4:00 ET
 
 - DOM 抓取 94；overlay 94/94；unresolved_tco 0；hit_cursor yes；gap ~7min
 - 窗分类：正文 30 / 拿不准 25 / 已过滤 39；分类写回 04.jsonl
 - 今天第一完整页 days/2026-09-04.html：正文 22 / 拿不准 27 / 已过滤 40（保留 0:00 种子）
 - 游标 → Berryxia.AI @berryxia 2095785747974586641 2026-09-04T08:07:14.000Z
-- 跳过 recommended/ideas；待推 Pages + 聊天交付今天页
+- 跳过 recommended/ideas；Pages 已推 git 49e614d；聊天交付今天页（4:10 补抓交）
 
 ## 2026-09-04 0:10 ET 补抓
 - X 窗已齐（raw/00.jsonl 137；overlay 137/137；分类已写回；页累计 正文 121 / 拿不准 97 / 已过滤 348；游标 @yangyi 2095725263283990992；git a41b3e0；Pages HTTP 200 last-mod 04:28 UTC；00-qa.png pass），未重抓。
