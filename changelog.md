@@ -1,3 +1,8 @@
+## 2026-09-05 8:10 ET 补抓
+- X 窗已齐（raw/08.jsonl 75；overlay 75/75 fail0；unresolved_tco 0；分类已写回；页 正文44 / 拿不准40 / 已过滤92；游标 Paul Graham @paulg 2096209048370634916；git 7f695b9；Pages HTTP 200 last-mod 12:18:35 GMT；08-qa.png pass），未重抓。
+- 截断候选均为修辞省略号（@ZHO_ZHO_ZHO / @stark_nico99 正文已完整；已过滤短帖不补）。跳过 recommended/ideas（非 20:00）。chat_delivery：交今天页（主窗尚标 needed）。
+- 写于 2026-09-05 20:20 CST
+
 ## 2026-09-05 8:00 ET
 - HTL 抓取 75（hit_cursor 精确命中 prior @gefei55 2096148394607780151）；overlay 75/75 unresolved_tco 0。
 - 窗类 正文30 / 拿不准19 / 已过滤26；页合并后 正文44 / 拿不准40 / 已过滤92。
