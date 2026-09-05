@@ -1,3 +1,8 @@
+## 2026-09-05 16:10 ET 补抓
+- X 窗已齐（raw/16.jsonl 38；overlay 38/38 fail0；unresolved_tco 0；分类已写回；页 正文64 / 拿不准66 / 已过滤160；游标 @paulg 2096330495470576069；git d685767；Pages HTTP 200 last-mod 21:42:23 GMT；16-qa.png pass），未重抓。
+- truncated 标记帖正文已由主窗 overlay/fxtwitter 补全（小小东/宝玉/Zho 等长文齐全）；@berryxia 已过滤短帖修辞省略号，不补。跳过 recommended/ideas（非 20:00）。chat_delivery：交今天页（主窗尚标 needed）。
+- 写于 2026-09-06 05:45 CST
+
 ## 2026-09-05 16:00 ET
 
 - DOM Following→Latest 抓取 38（hit_cursor 精确；gap≈4.9min）；overlay 38/38 fail0 unresolved_tco 0；分类写回 16.jsonl。
