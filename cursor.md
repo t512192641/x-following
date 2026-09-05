@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2096087027158507630
-- url: https://x.com/rionaifantasy/status/2096087027158507630
-- author: Rion Wu
-- handle: @rionaifantasy
-- time_utc: 2026-09-05T04:04:25.000Z
-- note: 2026-09-05 0:00 ET；raw 134（pre128/after6）；overlay 133OK/1×404；hit_cursor yes；gap≈12.5min；窗 pre 正文51/拿不准13/已过滤64；页09-04 92/100/271；薄种子09-05 1/2/1；跳过 recommended/ideas
+- status_id: 2096148394607780151
+- url: https://x.com/gefei55/status/2096148394607780151
+- author: 哥飞
+- handle: @gefei55
+- time_utc: 2026-09-05T08:08:16.000Z
+- note: 2026-09-05 4:00 ET；raw 130；overlay 130/130 fail0 unresolved_tco 3；hit_cursor effective（gap≈4.9min；oldest @Austen 2096088269549416845 04:09:21Z；prior @rionaifantasy 2096087027158507630 04:04:25Z）；窗类 正文46/拿不准19/已过滤65；页 正文25/拿不准21/已过滤66；跳过 recommended/ideas

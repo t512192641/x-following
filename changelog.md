@@ -1,3 +1,15 @@
+## 2026-09-05 4:00 ET
+- HomeLatestTimeline GET 分页（DOM stuck 后）；raw 130；overlay 130/130 fail0；unresolved_tco 3（均已有 expanded_urls）；分类写回 04.jsonl。
+- 窗类 正文46 / 拿不准19 / 已过滤65；今天第一完整页 days/2026-09-05.html：正文25 / 拿不准21 / 已过滤66（保留 0:00 种子）。
+- 补丁：Rion 微信情报库（Astra 优化 + 更多 skill）；Astra 体感大卡（CU/额度/Medium/Tibo/宝玉）。
+- 新卡含：飞书 Astra 资料、Canva 肖像 CU、huangserva 3D 中庭、Genspark Astra、Codex Skills handoff/remotion、无为修仙传 Steam、Naval 时薪提示、Grok Bot API 脚本、肖师傅夜市四题、Voxytype、出海去 7 步、dontbesilent 提示词/算法、高客单咨询、哥飞留存、Shopify 0.8b、Grok Build 1.0.21、Product Designs、Bot template、Codex 重置卡、接码/eSIM。
+- 游标 → 哥飞 @gefei55 2096148394607780151 2026-09-05T08:08:16Z；hit_cursor effective；gap≈4.9min。
+- 跳过 recommended/ideas（非 20:00）。
+
+## 2026-09-05 0:10 ET 补抓
+- X 窗已齐（raw/00.jsonl 134；overlay 133OK/1×404；分类已写回；页 09-04 正文92 / 拿不准100 / 已过滤271；薄种子 09-05 1/2/1；游标 @rionaifantasy 2096087027158507630；git 4fd0e4f；Pages HTTP 200 last-mod 04:23:02 GMT；00-qa.png pass），未重抓。
+- 空原文 1 条 @realAIDean 已过滤媒体空帖，不补。跳过 recommended/ideas（非 20:00）。chat_delivery：交昨天完整页（主窗尚标 needed）。
+
 ## 2026-09-05 0:00 ET
 - 跨日窗：pre 128 并进 `days/2026-09-04.html`；after 6 分类完整并写薄种子 `days/2026-09-05.html`（不聊天交付）。
 - raw 134；overlay 133 OK / 1×404 `2096085777793048595`；unresolved_tco 0；分类写回 00.jsonl。
