@@ -5,7 +5,8 @@
 - 补丁：Zho 8h→13h（60/100、2.1亿 token）；小小东 VOL.117–121 全文提示词；CF Workers 卡补 D1 免费硬停→$5。
 - 新卡：Astra 循环深度/looped transformer（宝玉译 TI + 图灵/DeepLoop）；Grok Imagine Video 1.5；Aside harness；Every thesis-statements。
 - 游标 → @paulg 2096330495470576069 2026-09-05T20:11:52Z；oldest_new @xiaoxiaodong01 16:29:41Z。
-- 跳过 recommended/ideas（非 20:00）。视觉 16-qa.png（推送前验）。
+- 跳过 recommended/ideas（非 20:00）。视觉 16-qa.png pass（64/66/160；clippedBtns 0）。
+- git d685767 origin/main；Pages HTTP 200 last-mod 21:41:39 GMT（17:41 ET / 05:41 CST Sep 6）正文64/拿不准66/已过滤160。
 - chat_delivery_needed: true；交父代理发用户今天页。
 
 ## 2026-09-05 12:00 ET
