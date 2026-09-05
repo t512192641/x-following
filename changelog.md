@@ -1,3 +1,10 @@
+## 2026-09-04 20:00 ET
+- DOM Following+最近；raw 69；overlay 69/69；unresolved_tco 0；hit_cursor effective（saw_older）；gap ≈4.4min。menu no-latest-item（同 16:00）。
+- 窗类 正文 23 / 拿不准 10 / 已过滤 36；页累计 正文 73 / 拿不准 87 / 已过滤 207。
+- 补丁：Astra Plus/Business 全面放量 + Terminal Bench 4.0 居首/半价 + banked reset；AsideAI harness OpenClaw×Slack 2h→3min；Derrick 3D 卡交叉引用兵马俑演示。
+- 新卡 9：Grok Bot Marketplace/Haggle/iPad、Higgsfield 3D Jutsu、huangserva 兵马俑 GLB、Alex 登山假设提示、pvncher Astra skills 文、Austen multiplayer agents、Tide Garden、Factory Astra、Orange 额度体感。
+- 跳过 recommended/ideas（latest 仍 2026-09-03，archive 无 09-04）。
+
 ## 2026-09-04 16:00 ET
 - DOM Following+最近；raw 71；overlay 71/71；unresolved_tco 0；hit_cursor yes；gap ≈5.9min。menu no-latest-item（同 12:00）。
 - 窗类 正文 25 / 拿不准 14 / 已过滤 32；页累计 正文 64 / 拿不准 77 / 已过滤 171。
