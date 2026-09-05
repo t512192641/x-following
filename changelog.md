@@ -1,3 +1,13 @@
+## 2026-09-05 16:00 ET
+
+- DOM Following→Latest 抓取 38（hit_cursor 精确；gap≈4.9min）；overlay 38/38 fail0 unresolved_tco 0；分类写回 16.jsonl。
+- 窗类 正文14 / 拿不准6 / 已过滤18；并进日页 → **正文64 / 拿不准66 / 已过滤160**。
+- 补丁：Zho 8h→13h（60/100、2.1亿 token）；小小东 VOL.117–121 全文提示词；CF Workers 卡补 D1 免费硬停→$5。
+- 新卡：Astra 循环深度/looped transformer（宝玉译 TI + 图灵/DeepLoop）；Grok Imagine Video 1.5；Aside harness；Every thesis-statements。
+- 游标 → @paulg 2096330495470576069 2026-09-05T20:11:52Z；oldest_new @xiaoxiaodong01 16:29:41Z。
+- 跳过 recommended/ideas（非 20:00）。视觉 16-qa.png（推送前验）。
+- chat_delivery_needed: true；交父代理发用户今天页。
+
 ## 2026-09-05 12:00 ET
 
 - 主窗 12:00 ET 漏跑（无 raw/12.jsonl、无任务板 x-2026-09-05-12）；**12:10 ET 补抓作完整主抓**（对标 9/4 8:10）。
@@ -6,7 +16,7 @@
 - 游标 → @servasyy_ai 2096273351899791781 2026-09-05T16:24:48Z；hit_cursor effective；gap≈4.8min；oldest_new @xiaoxiaodong01 12:14:02Z。
 - 跳过 recommended/ideas（非 20:00）；视觉 12-qa.png pass（60/60/142；clippedBtns 0）。
 - git dc12bab origin/main；Pages HTTP 200 last-mod 16:52:39 GMT（12:52 ET / 00:52 CST Sep 6）正文60/拿不准60/已过滤142。
-- chat_delivery_needed: true（本窗首次交付今天页；待父代理交）。
+- chat_delivery_needed: false；主窗迟到复核齐，未重抓；交父代理发用户（2026-09-06 00:57 CST）。
 
 ## 2026-09-05 12:10 ET 补抓
 
