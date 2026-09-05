@@ -5,7 +5,8 @@
 - 窗类 正文30 / 拿不准20 / 已过滤50；并进日页 → **正文60 / 拿不准60 / 已过滤142**。
 - 游标 → @servasyy_ai 2096273351899791781 2026-09-05T16:24:48Z；hit_cursor effective；gap≈4.8min；oldest_new @xiaoxiaodong01 12:14:02Z。
 - 跳过 recommended/ideas（非 20:00）；视觉 12-qa.png pass（60/60/142；clippedBtns 0）。
-- chat_delivery_needed: true（本窗首次交付今天页）。
+- git dc12bab origin/main；Pages HTTP 200 last-mod 16:52:39 GMT（12:52 ET / 00:52 CST Sep 6）正文60/拿不准60/已过滤142。
+- chat_delivery_needed: true（本窗首次交付今天页；待父代理交）。
 
 ## 2026-09-05 12:10 ET 补抓
 
