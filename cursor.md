@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2096209048370634916
-- url: https://x.com/paulg/status/2096209048370634916
-- author: Paul Graham
-- handle: @paulg
-- time_utc: 2026-09-05T12:09:17.000Z
-- note: 2026-09-05 8:00 ET；raw 75；overlay 75/75 fail0 unresolved_tco 0；hit_cursor true；oldest @oran_ge 2096148972780028313 2026-09-05T08:10:34.000Z；prior @gefei55 2096148394607780151 08:08:16Z；窗类 正文30/拿不准19/已过滤26；页 正文44/拿不准40/已过滤92；跳过 recommended/ideas
+- status_id: 2096273351899791781
+- url: https://x.com/servasyy_ai/status/2096273351899791781
+- author: huangserva
+- handle: @servasyy_ai
+- time_utc: 2026-09-05T16:24:48.000Z
+- note: 2026-09-05 12:00 ET（主窗漏跑，12:10 补抓完整主抓）；raw 100；overlay 99/100 fail1 unresolved_tco 6（均已有 expanded_urls）；hit_cursor effective gap≈4.8min；oldest @xiaoxiaodong01 2096210242858352681 2026-09-05T12:14:02.000Z；prior @paulg 2096209048370634916 12:09:17Z；窗类 正文30/拿不准20/已过滤50；页 正文60/拿不准60/已过滤142；跳过 recommended/ideas

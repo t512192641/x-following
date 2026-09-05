@@ -1,3 +1,16 @@
+## 2026-09-05 12:00 ET
+
+- 主窗 12:00 ET 漏跑（无 raw/12.jsonl、无任务板 x-2026-09-05-12）；**12:10 ET 补抓作完整主抓**（对标 9/4 8:10）。
+- HomeLatestTimeline 页面原生分页（单页 96 + 小步滚动续页；menu no-latest-item）；raw **100**；overlay 99/100 fail1（404 仍有原文）unresolved_tco 6（均已有 expanded_urls，未发明）；分类写回 12.jsonl。
+- 窗类 正文30 / 拿不准20 / 已过滤50；并进日页 → **正文60 / 拿不准60 / 已过滤142**。
+- 游标 → @servasyy_ai 2096273351899791781 2026-09-05T16:24:48Z；hit_cursor effective；gap≈4.8min；oldest_new @xiaoxiaodong01 12:14:02Z。
+- 跳过 recommended/ideas（非 20:00）；视觉 12-qa.png pass（60/60/142；clippedBtns 0）。
+- chat_delivery_needed: true（本窗首次交付今天页）。
+
+## 2026-09-05 12:10 ET 补抓
+
+- 主窗漏跑已由本补抓完整主抓覆盖；详见上条 12:00 ET。
+
 ## 2026-09-05 8:10 ET 补抓
 - X 窗已齐（raw/08.jsonl 75；overlay 75/75 fail0；unresolved_tco 0；分类已写回；页 正文44 / 拿不准40 / 已过滤92；游标 Paul Graham @paulg 2096209048370634916；git 7f695b9；Pages HTTP 200 last-mod 12:18:35 GMT；08-qa.png pass），未重抓。
 - 截断候选均为修辞省略号（@ZHO_ZHO_ZHO / @stark_nico99 正文已完整；已过滤短帖不补）。跳过 recommended/ideas（非 20:00）。chat_delivery：交今天页（主窗尚标 needed）。
