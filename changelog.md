@@ -5,6 +5,8 @@
 - 新卡含：飞书 Astra 资料、Canva 肖像 CU、huangserva 3D 中庭、Genspark Astra、Codex Skills handoff/remotion、无为修仙传 Steam、Naval 时薪提示、Grok Bot API 脚本、肖师傅夜市四题、Voxytype、出海去 7 步、dontbesilent 提示词/算法、高客单咨询、哥飞留存、Shopify 0.8b、Grok Build 1.0.21、Product Designs、Bot template、Codex 重置卡、接码/eSIM。
 - 游标 → 哥飞 @gefei55 2096148394607780151 2026-09-05T08:08:16Z；hit_cursor effective；gap≈4.9min。
 - 跳过 recommended/ideas（非 20:00）。
+- QA：04-qa.png pass（clippedBtns 0；三页签 25/21/66）。
+- git 16eb527；Pages HTTP 200 last-mod 08:33:28 GMT；chat_delivery：今天第一完整页。
 
 ## 2026-09-05 0:10 ET 补抓
 - X 窗已齐（raw/00.jsonl 134；overlay 133OK/1×404；分类已写回；页 09-04 正文92 / 拿不准100 / 已过滤271；薄种子 09-05 1/2/1；游标 @rionaifantasy 2096087027158507630；git 4fd0e4f；Pages HTTP 200 last-mod 04:23:02 GMT；00-qa.png pass），未重抓。
