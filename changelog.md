@@ -1,3 +1,13 @@
+## 2026-09-05 8:00 ET
+- HTL 抓取 75（hit_cursor 精确命中 prior @gefei55 2096148394607780151）；overlay 75/75 unresolved_tco 0。
+- 窗类 正文30 / 拿不准19 / 已过滤26；页合并后 正文44 / 拿不准40 / 已过滤92。
+- 新卡含 Astra×Blender/Three.js、伪录片方卡、Zho 8h 清单、Rion 社群199、nomads.com $1、TCP Brutal v2、CF Worker 64M、reverse-skill、OnSolo 年付、Cola Astra 等；补丁哥飞留存/Rion skill/肖师傅包子鱼摊/Mai Yang 榜。
+- 跳过 recommended/ideas。游标→最新帖。2026-09-05 20:17 CST 写。
+
+## 2026-09-05 4:39 ET 抓取路径澄清
+- 幕僚长确认：已登录网页会话的 HomeLatestTimeline 分页，可作 DOM 卡住时的应急，不算改走付费 X API。
+- 规则：1) 默认仍是 Following→最近 DOM；2) 只有 DOM 明显卡死/过短才用会话时间线分页；3) 用了要在 meta 写明；4) 禁止切官方/付费 X API。正常窗不必再报拍板。
+
 ## 2026-09-05 4:10 ET 补抓
 - X 窗已齐（raw/04.jsonl 130；overlay 130/130 fail0；unresolved_tco 3 均已有 expanded_urls；分类已写回；页 正文25 / 拿不准21 / 已过滤66；游标 哥飞 @gefei55 2096148394607780151；git 97a2dc9；Pages HTTP 200 last-mod 08:34:26 GMT；04-qa.png pass），未重抓。
 - 截断候选 1 条 @kaostyl 已过滤法语短帖 ellipsis，不补。跳过 recommended/ideas（非 20:00）。chat_delivery：交今天第一完整页（主窗尚标 needed）。
