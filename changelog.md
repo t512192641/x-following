@@ -1,3 +1,7 @@
+## 2026-09-05 4:10 ET 补抓
+- X 窗已齐（raw/04.jsonl 130；overlay 130/130 fail0；unresolved_tco 3 均已有 expanded_urls；分类已写回；页 正文25 / 拿不准21 / 已过滤66；游标 哥飞 @gefei55 2096148394607780151；git 97a2dc9；Pages HTTP 200 last-mod 08:34:26 GMT；04-qa.png pass），未重抓。
+- 截断候选 1 条 @kaostyl 已过滤法语短帖 ellipsis，不补。跳过 recommended/ideas（非 20:00）。chat_delivery：交今天第一完整页（主窗尚标 needed）。
+
 ## 2026-09-05 4:00 ET
 - HomeLatestTimeline GET 分页（DOM stuck 后）；raw 130；overlay 130/130 fail0；unresolved_tco 3（均已有 expanded_urls）；分类写回 04.jsonl。
 - 窗类 正文46 / 拿不准19 / 已过滤65；今天第一完整页 days/2026-09-05.html：正文25 / 拿不准21 / 已过滤66（保留 0:00 种子）。
