@@ -1,3 +1,16 @@
+## 2026-09-05 0:00 ET
+- 跨日窗：pre 128 并进 `days/2026-09-04.html`；after 6 分类完整并写薄种子 `days/2026-09-05.html`（不聊天交付）。
+- raw 134；overlay 133 OK / 1×404 `2096085777793048595`；unresolved_tco 0；分类写回 00.jsonl。
+- 窗类 all 正文54/拿不准15/已过滤65；pre 51/13/64；页 09-04 正文92 / 拿不准100 / 已过滤271；薄种子 1/2/1。
+- 游标 → @rionaifantasy 2096087027158507630 2026-09-05T04:04:25Z；hit_cursor yes；gap≈12.5min。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：00-qa.png pass（clippedBtns 0；三页签 92/100/271）。
+- chat 交付昨天完整页：`9/4 完整版已更新：正文92 / 拿不准100 / 已过滤271。https://t512192641.github.io/x-following/2026-09-04.html`
+
+## 2026-09-04 20:10 ET 补抓
+- X 窗已齐（raw/20.jsonl 69；overlay 69/69；分类已写回；页 正文 73 / 拿不准 87 / 已过滤 207；游标 @lxfater 2096025325860016605；git 01bfd5e；Pages HTTP 200 last-mod 00:18:29 GMT；20-qa.png pass），未重抓。
+- 跳过 recommended/ideas（latest 仍 2026-09-03，archive 无 09-04）。chat_delivery：交今天页。
+
 ## 2026-09-04 20:00 ET
 - DOM Following+最近；raw 69；overlay 69/69；unresolved_tco 0；hit_cursor effective（saw_older）；gap ≈4.4min。menu no-latest-item（同 16:00）。
 - 窗类 正文 23 / 拿不准 10 / 已过滤 36；页累计 正文 73 / 拿不准 87 / 已过滤 207。
