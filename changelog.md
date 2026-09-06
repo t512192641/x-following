@@ -9,6 +9,12 @@
 - chat_delivery：交今天页。
 - 写于 2026-09-07 00:59 CST
 
+## 2026-09-06 12:10 ET 补抓
+- X 窗已齐（raw/12.jsonl 27；overlay 27/27 fail0；unresolved_tco 0；分类已写回；页 09-06 正文34 / 拿不准30 / 已过滤87；游标 @dotey 2096632991267033444；git a786265；Pages HTTP 200 last-mod 17:00:07 GMT；12-qa.png pass），未重抓。
+- truncated 标记帖正文已由主窗 overlay/fxtwitter 补全（@alex_prompter 1807；@lennysan×2）；小小东 VOL.148 省略号为链折行非截断。跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- chat_delivery：交今天页（主窗 checklist 仍标 needed，本补抓 WakeParent；若主窗刚发过同一句则勿重复）。
+- 写于 2026-09-07 01:03 CST
+
 ## 2026-09-06 8:10 ET 补抓
 - X 窗已齐（raw/08.jsonl 68；overlay 68/68 fail0；unresolved_tco 0；分类已写回；页 09-06 正文29 / 拿不准26 / 已过滤71；游标 @MaiYangAI 2096579694590316775；git 7a2b1ba / docs 3eb337f；Pages HTTP 200 last-mod 13:20:41 GMT；08-qa.png pass），未重抓。
 - truncated 标记帖正文已由主窗 overlay/fxtwitter 补全；空帖 @PandaTalk8 2096526238605271250 仅图无文已过滤。跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
