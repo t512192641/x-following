@@ -1,3 +1,9 @@
+## 2026-09-06 8:10 ET 补抓
+- X 窗已齐（raw/08.jsonl 68；overlay 68/68 fail0；unresolved_tco 0；分类已写回；页 09-06 正文29 / 拿不准26 / 已过滤71；游标 @MaiYangAI 2096579694590316775；git 7a2b1ba / docs 3eb337f；Pages HTTP 200 last-mod 13:20:41 GMT；08-qa.png pass），未重抓。
+- truncated 标记帖正文已由主窗 overlay/fxtwitter 补全；空帖 @PandaTalk8 2096526238605271250 仅图无文已过滤。跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- chat_delivery：交今天页（主窗 checklist 仍标 needed，本补抓 WakeParent）。
+- 写于 2026-09-06 21:24 CST
+
 ## 2026-09-06 8:00 ET
 
 - 抓 68（DOM Following→Latest；browserUse；命中游标 @noisepoint_agi 2096510837817008638；oldest 新 @elonmusk 2096511788317900982 ≈游标后 3.8 分钟；newest @MaiYangAI 2096579694590316775）。overlay 68/68 fail0；unresolved_tco 0；未发明。
