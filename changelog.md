@@ -1,3 +1,15 @@
+## 2026-09-06 0:00 ET
+
+- DOM Following→Latest + gap-fill 抓 42（pre 35 / after 7）；hit_cursor true；gap≈3.9min；oldest_new @imwsl90 2096416622449963359 01:54:06Z；newest @PandaTalk8 2096453266003620028 04:19:43Z。
+- overlay 41/42 fail1×404（2096445311946490169 仍有原文）unresolved_tco 0；分类写回 00.jsonl。
+- 窗类 全文 正文13 / 拿不准6 / 已过滤23；pre 正文12 / 拿不准5 / 已过滤18；after 正文1 / 拿不准1 / 已过滤5。
+- pre 并进 `days/2026-09-05.html` → **正文85 / 拿不准74 / 已过滤203**；after 薄种子 `days/2026-09-06.html` 正文1 / 拿不准1 / 已过滤5（不聊天交付）。
+- 新卡：Morris Codex 四档；小互 Astra 提示指南；小耳 70 usecase；human-atlas；孟岩 AI Engineering；MaiYang harness 10–35%；卫斯理 Omarchy 再评；Maddie Microduck。补丁：Astra 体感（海拉鲁+Berryxia CU）。
+- 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- 游标 → @PandaTalk8 2096453266003620028 2026-09-06T04:19:43.000Z。
+- QA：00-qa.png pass（+main/maybe/filt；clippedBtns 0；三页签 85/74/203）。
+- chat_delivery：交昨天完整页。
+
 ## 2026-09-05 20:10 ET 补抓
 - X 窗已齐（raw/20.jsonl 38；overlay 38/38 fail0；unresolved_tco 1（WSJ t.co，已有 expanded `on.wsj.com`，已过滤不补）；分类已写回；页 正文77 / 拿不准70 / 已过滤185；游标 @imwsl90 2096415651267224059；git 1a02497；Pages HTTP 200 last-mod 02:04:34 GMT；20-qa.png pass），未重抓。
 - truncated 标记帖正文已由主窗 overlay/fxtwitter 补全（yibie Latent Powers / 小小东 VOL.122 / 宝玉 Astra·Harness / Rion 短推链齐全）；空短帖 Elon Grok/Cybercab 已过滤。recommended/ideas 2026-09-04 主窗已并，无新文件，不重并。
