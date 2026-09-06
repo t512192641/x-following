@@ -9,6 +9,12 @@
 - chat_delivery：交今天页。
 - 写于 2026-09-07 04:32 CST
 
+## 2026-09-06 16:10 ET 补抓
+- X 窗已齐（raw/16.jsonl 18；overlay 18/18 fail0；unresolved_tco 0；分类已写回；页 09-06 正文39 / 拿不准30 / 已过滤98；游标 @lennysan 2096691127890170037；git cca71c5；Pages HTTP 200 last-mod 20:31:17 GMT；16-qa.png pass），未重抓。
+- truncated 标记 2 条均为已过滤（@agazdecki 524；@Svwang1 133），正文已够，无需补全文。跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- chat_delivery：交今天页（主窗 checklist 仍标 needed，本补抓 WakeParent；若主窗刚发过同一句则勿重复）。
+- 写于 2026-09-07 04:34 CST
+
 ## 2026-09-06 12:00 ET
 
 - 抓 27（DOM Following→Latest；browserUse；HTL 等价滚动补洞 in-gap 0；命中游标 effective；oldest 新 @gengdaJ 2096594235105673596 ≈游标后 57.8 分钟；newest @dotey 2096632991267033444）。overlay 27/27 fail0；unresolved_tco 0；未发明。
