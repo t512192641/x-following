@@ -1,3 +1,12 @@
+## 2026-09-05 20:00 ET
+
+- 抓 38（DOM Following→Latest 首抓 6 + 刷新 + page-native HomeLatestTimeline 补洞并集；命中游标；oldest_new 距游标 ≈7.2min；周末晚间内部有 3 段 >30min 空隙，HTL 已越过游标边界）。
+- overlay 38/38 fail0；unresolved_tco 1（WSJ t.co）。
+- 窗类 正文 9 / 拿不准 4 / 已过滤 25；分类已写回 20.jsonl。
+- 页合计 正文 77 / 拿不准 70 / 已过滤 185（含补丁 5 + 新卡 13，含 recommended/ideas 2026-09-04）。
+- 新卡要点：NInfer；Astra/Harness；Astra 验收；Latent Powers；Grok Bot 用例指南；UEVR 体积窗；推荐费马/K2/Enterprise/AA v4.2/GH 热门；脑洞 2。
+- 游标到 卫斯理 @imwsl90 2096415651267224059 2026-09-06T01:50:15.000Z。
+
 ## 2026-09-05 16:10 ET 补抓
 - X 窗已齐（raw/16.jsonl 38；overlay 38/38 fail0；unresolved_tco 0；分类已写回；页 正文64 / 拿不准66 / 已过滤160；游标 @paulg 2096330495470576069；git d685767；Pages HTTP 200 last-mod 21:42:23 GMT；16-qa.png pass），未重抓。
 - truncated 标记帖正文已由主窗 overlay/fxtwitter 补全（小小东/宝玉/Zho 等长文齐全）；@berryxia 已过滤短帖修辞省略号，不补。跳过 recommended/ideas（非 20:00）。chat_delivery：交今天页（主窗尚标 needed）。
