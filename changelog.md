@@ -1,3 +1,15 @@
+## 2026-09-06 8:00 ET
+
+- 抓 68（DOM Following→Latest；browserUse；命中游标 @noisepoint_agi 2096510837817008638；oldest 新 @elonmusk 2096511788317900982 ≈游标后 3.8 分钟；newest @MaiYangAI 2096579694590316775）。overlay 68/68 fail0；unresolved_tco 0；未发明。
+- 窗类 正文 15 / 拿不准 9 / 已过滤 44（分类已写回 08.jsonl）。并入后页合计正文 29 卡 / 拿不准 26 / 已过滤 71。
+- 正文要点：更新歸藏 Quark 客户端、余温微信情报库 fork、肖师傅 Seedance「中间」/单变量、Kevin/余温 Astra Skill 四条重构；新卡 Code Arena Astra#1、YoLive/H3、Alex 校准提示词、鱼总写作模型搭配、Bob 引用转发技巧与换角说优势、北辰不平等引流、Berryxia Agent 捷径、祥仔Leo 十大沟通、toolrush。
+- 空帖 @PandaTalk8 2096526238605271250 仅图无文 → 已过滤。
+- 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- QA：08-qa.png pass（+08-qa-main/maybe/filt；clippedBtns 0；三页签 29/26/71）。
+- git pending push；Pages 待确认。
+- chat_delivery：交今天页。
+- 写于 2026-09-06 21:18 CST
+
 ## 2026-09-06 4:10 ET 补抓
 - X 窗已齐（raw/04.jsonl 69；overlay 69/69 fail0；unresolved_tco 0；分类已写回；页 09-06 正文19 / 拿不准17 / 已过滤27；游标 @noisepoint_agi 2096510837817008638；git 9fe2efa / docs f49d34f；Pages HTTP 200 last-mod 08:44:13 GMT；04-qa.png pass），未重抓。
 - truncated 标记帖正文已由主窗 overlay/fxtwitter 补全；空短帖已分类（已过滤/拿不准）。跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。

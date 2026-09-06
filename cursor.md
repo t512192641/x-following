@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2096510837817008638
-- url: https://x.com/noisepoint_agi/status/2096510837817008638
-- author: 噪点noisepoint
-- handle: @noisepoint_agi
-- time_utc: 2026-09-06T08:08:29.000Z
-- note: 2026-09-06 4:00 ET；raw 69；overlay 69/69 fail0 unresolved_tco 0；hit_cursor true；gap≈5.8min；oldest_new @yangyi 2096454736904151270 2026-09-06T04:25:34.000Z；prior @PandaTalk8 2096453266003620028 04:19:43Z；窗类 正文31/拿不准16/已过滤22；页 09-06 正文19/拿不准17/已过滤27（含0:00种子）；跳过 rec/ideas（非20:00）
+- status_id: 2096579694590316775
+- url: https://x.com/MaiYangAI/status/2096579694590316775
+- author: Mai Yang
+- handle: @MaiYangAI
+- time_utc: 2026-09-06T12:42:06.000Z
+- note: 2026-09-06 8:00 ET；raw 68；overlay 68/68 fail0 unresolved_tco 0；hit_cursor true；gap≈3.8min；oldest_new @elonmusk 2096511788317900982 2026-09-06T08:12:16.000Z；prior @noisepoint_agi 2096510837817008638 08:08:29Z；窗类 正文15/拿不准9/已过滤44；页 09-06 正文29/拿不准26/已过滤71（含0:00种子+4:00）；跳过 rec/ideas（非20:00）
