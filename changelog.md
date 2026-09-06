@@ -1,3 +1,13 @@
+## 2026-09-06 4:00 ET
+
+- 抓 69（DOM Following→Latest；browserUse；命中游标 @PandaTalk8 2096453266003620028；oldest 新 @yangyi 2096454736904151270 ≈游标后 5.8 分钟；newest @noisepoint_agi 2096510837817008638）。overlay 69/69 fail0；unresolved_tco 0；未发明。
+- 窗类 正文 31 / 拿不准 16 / 已过滤 22（分类已写回 04.jsonl）。并入 0:00 薄种子后页合计正文 19 卡 / 拿不准 17 / 已过滤 27。
+- 正文要点：歸藏 Astra+Godot Roguelike；Rion 悉尼城 / 微信情报库 Windows；yibie Lily + S1-mini 续 + autoresearch；小灰游戏 ¥7646；WatermarkFlow；肖师傅伪纪录片提示词包；Charlie 多账号；dontbesilent 三板斧；Kevin Astra skills；Alex 同错点研究；GPT-6 聊天 Pro；卫斯理 8 平台接码；Yanhua/Zho 3D·Figma 路径；Bear CUBE emoji；awesome-mac。
+- 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- QA：04-qa.png pass（+main/maybe/filt；clippedBtns 0；三页签 19/17/27）。
+- chat_delivery：交今天第一页。
+- 写于 2026-09-06 16:42 CST
+
 ## 2026-09-06 0:10 ET 补抓
 - X 窗已齐（raw/00.jsonl 42；overlay 41/42 fail1×404 仍有原文；unresolved_tco 0；分类已写回；页 09-05 正文85 / 拿不准74 / 已过滤203；薄种子 09-06 1/1/5；游标 @PandaTalk8 2096453266003620028；git 8e77ab8；Pages HTTP 200 last-mod 05:23:53 GMT；00-qa.png pass），未重抓。
 - 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。

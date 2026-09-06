@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2096453266003620028
-- url: https://x.com/PandaTalk8/status/2096453266003620028
-- author: Mr Panda
-- handle: @PandaTalk8
-- time_utc: 2026-09-06T04:19:43.000Z
-- note: 2026-09-06 0:00 ET；raw 42（pre35/after7）；overlay 41/42 fail1×404 unresolved_tco 0；hit_cursor true；gap≈3.9min；oldest_new @imwsl90 2096416622449963359 2026-09-06T01:54:06.000Z；prior @imwsl90 2096415651267224059 01:50:15Z；窗类 正文13/拿不准6/已过滤23；页 09-05 正文85/拿不准74/已过滤203；薄种子 09-06 1/1/5；跳过 rec/ideas（非20:00 已并09-04）
+- status_id: 2096510837817008638
+- url: https://x.com/noisepoint_agi/status/2096510837817008638
+- author: 噪点noisepoint
+- handle: @noisepoint_agi
+- time_utc: 2026-09-06T08:08:29.000Z
+- note: 2026-09-06 4:00 ET；raw 69；overlay 69/69 fail0 unresolved_tco 0；hit_cursor true；gap≈5.8min；oldest_new @yangyi 2096454736904151270 2026-09-06T04:25:34.000Z；prior @PandaTalk8 2096453266003620028 04:19:43Z；窗类 正文31/拿不准16/已过滤22；页 09-06 正文19/拿不准17/已过滤27（含0:00种子）；跳过 rec/ideas（非20:00）
