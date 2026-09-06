@@ -1,3 +1,9 @@
+## 2026-09-05 20:10 ET 补抓
+- X 窗已齐（raw/20.jsonl 38；overlay 38/38 fail0；unresolved_tco 1（WSJ t.co，已有 expanded `on.wsj.com`，已过滤不补）；分类已写回；页 正文77 / 拿不准70 / 已过滤185；游标 @imwsl90 2096415651267224059；git 1a02497；Pages HTTP 200 last-mod 02:04:34 GMT；20-qa.png pass），未重抓。
+- truncated 标记帖正文已由主窗 overlay/fxtwitter 补全（yibie Latent Powers / 小小东 VOL.122 / 宝玉 Astra·Harness / Rion 短推链齐全）；空短帖 Elon Grok/Cybercab 已过滤。recommended/ideas 2026-09-04 主窗已并，无新文件，不重并。
+- chat_delivery：交今天页（主窗尚标 needed）。
+- 写于 2026-09-06 10:10 CST
+
 ## 2026-09-05 20:00 ET
 
 - 抓 38（DOM Following→Latest 首抓 6 + 刷新 + page-native HomeLatestTimeline 补洞并集；命中游标；oldest_new 距游标 ≈7.2min；周末晚间内部有 3 段 >30min 空隙，HTL 已越过游标边界）。
