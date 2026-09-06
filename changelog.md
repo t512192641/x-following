@@ -8,6 +8,7 @@
 - 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
 - 游标 → @PandaTalk8 2096453266003620028 2026-09-06T04:19:43.000Z。
 - QA：00-qa.png pass（+main/maybe/filt；clippedBtns 0；三页签 85/74/203）。
+- git 8e77ab8 origin/main；Pages HTTP 200 last-mod 05:23:03 GMT（01:23 ET / 13:23 CST）正文85/拿不准74/已过滤203。
 - chat_delivery：交昨天完整页。
 
 ## 2026-09-05 20:10 ET 补抓
