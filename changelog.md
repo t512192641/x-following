@@ -1,3 +1,14 @@
+## 2026-09-06 16:00 ET
+
+- 抓 18（DOM Following→Latest 初抓 9；HTL 等价滚动补洞 +9；命中游标 effective；oldest 新 @affLeopard 2096651240851841027 ≈游标后 72.5 分钟；newest @lennysan 2096691127890170037）。overlay 18/18 fail0；unresolved_tco 0；未发明。
+- 窗类 正文 7 / 拿不准 0 / 已过滤 11（分类已写回 16.jsonl；正文 7 帖→5 新卡 + 更新 1 旧卡：Blender 两帖合并；余温 wechat hub 链并入既有 Rion 卡）。
+- 正文要点：新卡 Tibo Astra low>Sol high、Bob Gemini Flash 润色、宝玉 Voyager/Astra Computer Use、Bob 台创六反常识、宝玉/Simon Blender MCP+macOS agents；更新 Rion 微信情报库（余温再丢链）。
+- 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- QA：16-qa.png pass（+16-qa-main/maybe/filt；clippedBtns 0；三页签 39/30/98）。
+- gap≈73min：HTL 已补 +9，不升幕僚长（周日傍晚安静，同 12 窗口径）。
+- chat_delivery：交今天页。
+- 写于 2026-09-07 04:32 CST
+
 ## 2026-09-06 12:00 ET
 
 - 抓 27（DOM Following→Latest；browserUse；HTL 等价滚动补洞 in-gap 0；命中游标 effective；oldest 新 @gengdaJ 2096594235105673596 ≈游标后 57.8 分钟；newest @dotey 2096632991267033444）。overlay 27/27 fail0；unresolved_tco 0；未发明。
