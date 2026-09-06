@@ -1,3 +1,9 @@
+## 2026-09-06 0:10 ET 补抓
+- X 窗已齐（raw/00.jsonl 42；overlay 41/42 fail1×404 仍有原文；unresolved_tco 0；分类已写回；页 09-05 正文85 / 拿不准74 / 已过滤203；薄种子 09-06 1/1/5；游标 @PandaTalk8 2096453266003620028；git 8e77ab8；Pages HTTP 200 last-mod 05:23:53 GMT；00-qa.png pass），未重抓。
+- 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
+- chat_delivery：交昨天完整页（主窗尚标 needed，本补抓 WakeParent）。
+- 写于 2026-09-06 13:27 CST
+
 ## 2026-09-06 0:00 ET
 
 - DOM Following→Latest + gap-fill 抓 42（pre 35 / after 7）；hit_cursor true；gap≈3.9min；oldest_new @imwsl90 2096416622449963359 01:54:06Z；newest @PandaTalk8 2096453266003620028 04:19:43Z。
