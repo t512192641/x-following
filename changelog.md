@@ -6,7 +6,7 @@
 - 空帖 @PandaTalk8 2096526238605271250 仅图无文 → 已过滤。
 - 跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。
 - QA：08-qa.png pass（+08-qa-main/maybe/filt；clippedBtns 0；三页签 29/26/71）。
-- git 7a2b1ba origin/main；Pages 待 curl 确认。
+- git 7a2b1ba origin/main（docs d10f5bb）；Pages HTTP 200 last-mod 13:19:42 GMT（09:19 ET / 21:19 CST）正文29/拿不准26/已过滤71。
 - chat_delivery：交今天页。
 - 写于 2026-09-06 21:18 CST
 
