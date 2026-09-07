@@ -1,3 +1,17 @@
+## 2026-09-07 8:10 ET 补抓（完整主抓）
+
+- **主窗 8:00 ET 漏跑**；8:10 补抓作完整主抓（对标 9/5 12:10）。
+- DOM Following→Latest 抓 61（CDP Runtime.evaluate scroll；hit_cursor true；oldest_new @kaostyl 2096878004500578330 ≈游标后 6.2min；newest @imwsl90 2096938672658796830）。
+- overlay 61/61 fail0；unresolved_tco 0；未发明；写回 08.jsonl。
+- 窗类 正文 22 / 拿不准 7 / 已过滤 32；并入后页 正文 20 卡 / 拿不准 7 / 已过滤 39。
+- 正文要点：AIsa GTM API；OpenAI Coding Agent 研究；Archify 扩散路径；Hyper3D WorldGen；Autonomy Ladder；傅盛 Blender 复刻；Astra PS 白纸作画；ego lite 澄清；Muse Spark 1.3；EverOS+Milvus；Mac 五工具；哥伦布付费出站；Seedance 单变量补丁。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：08-qa.png pass（20/7/39 clippedBtns 0）。
+- 游标 → 卫斯理 @imwsl90 2096938672658796830。
+- 异常：executor 无 computerUse，用同会话 DOM CDP（未改走官方 API）。
+- chat_delivery：交今天页。
+- 写于 2026-09-07 20:47 CST
+
 ## 2026-09-07 4:00 ET
 
 - DOM Following→Latest + gap-fill 抓 9（dom2+gap9 union9；hit_cursor effective；exact cursor 未渲染；oldest_new @vista8 2096862770461589691 ≈游标后 189min；newest @yibie 2096876438414647534）。HTL 网络补洞尝试未产出额外 in-hole 帖。
