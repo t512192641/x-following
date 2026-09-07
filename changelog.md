@@ -1,3 +1,24 @@
+## 2026-09-07 12:10 ET 补抓（完整主抓）
+
+- **主窗 12:00 ET 漏跑**；12:10 补抓作完整主抓（对标同日 8:10）。
+- DOM Following→Latest 抓 60（CDP Runtime.evaluate scroll；hit_cursor true；oldest_new @richardmcj 2096940598657785868 ≈游标后 7.7min；newest @dotey 2097001384709181646）。
+- overlay 60/60 fail0；unresolved_tco 0；未发明；写回 12.jsonl。
+- 窗类 正文 16 / 拿不准 7 / 已过滤 37；并入后页 正文 29 卡 / 拿不准 14 / 已过滤 76。
+- 正文要点：小小东 VOL.156/157/170；乔木 Obsidian AI RSS+上架；Astra 通关验证码 48 关；ai-memory；doska；TeamAI-CLI；Mai Yang Grok Bot 摘要；YC Harnesses；J.B. 本周荐读；傅盛 Blender 续测。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：12-qa.png pass（29/14/76 clippedBtns 0）。
+- 游标 → 宝玉 @dotey 2097001384709181646。
+- 异常：executor 无 computerUse，用同会话 DOM CDP（未改走官方 API）。
+- chat_delivery：交今天页。
+- 写于 2026-09-08 00:50 CST
+
+## 2026-09-07 8:55 ET 主窗迟到复核
+
+- 主 routine 8:00 漏跑后于 8:55 ET 才醒；8:10 补抓已完整主抓。
+- 复核：raw 61 / overlay 61/61 / 页 正文20/拿不准7/已过滤39 / Pages 200 last-mod 12:52:53 GMT / QA 08-qa.png pass / 游标 @imwsl90 2096938672658796830。
+- 未重抓；聊天已由 8:10 补抓 WakeParent，本窗不重复交。
+- 写于 2026-09-07 20:58 CST
+
 ## 2026-09-07 8:10 ET 补抓（完整主抓）
 
 - **主窗 8:00 ET 漏跑**；8:10 补抓作完整主抓（对标 9/5 12:10）。
