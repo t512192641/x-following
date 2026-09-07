@@ -9,6 +9,15 @@
 - chat_delivery：交今天页。
 - 写于 2026-09-07 04:32 CST
 
+## 2026-09-06 20:00 ET
+- DOM Following→Latest 抓 33（hit_cursor 精确命中 prior @lennysan 2096691127890170037）；overlay 33/33 fail0 unresolved_tco 0；分类写回 20.jsonl。
+- 窗类 正文 17 / 拿不准 3 / 已过滤 13；页合并后 正文 58 / 拿不准 33 / 已过滤 111（含 16/12/8/4/0）。
+- 新正文卡含：Astra 训练规模 100K+ GPU/Grok 核实/成本粗算；MaiYang Grok Bot 强在哪；zvec-grep DSH 插件；visual-thinking skill；海辛拆步骤；App Store 精选六组细节；Sara Walker《科学家之死》；Claude Code 团队工作流；JB B2B 购买窗口信号。更新 Tibo Astra 长尾用量 3–4×。
+- 已并 recommended/ideas 2026-09-05（Astra 官方上线/费马 Lean/HF 收购/Gemini 3.8/AIRA₃/wiki 事件/Qwen3.8/Muse Spark + 脑洞 2）。
+- 顺手补回 09-06 页缺失的 tab/展开 script（自 09-05）。
+- 游标 → 小互 @xiaohu 2096752907085656419；gap≈16.5min；QA 20-qa.png pass（58/33/111 clippedBtns 0）。
+- chat_delivery：交今天页。
+
 ## 2026-09-06 16:10 ET 补抓
 - X 窗已齐（raw/16.jsonl 18；overlay 18/18 fail0；unresolved_tco 0；分类已写回；页 09-06 正文39 / 拿不准30 / 已过滤98；游标 @lennysan 2096691127890170037；git cca71c5；Pages HTTP 200 last-mod 20:31:17 GMT；16-qa.png pass），未重抓。
 - truncated 标记 2 条均为已过滤（@agazdecki 524；@Svwang1 133），正文已够，无需补全文。跳过 recommended/ideas（非 20:00；latest 仍 2026-09-04 已并）。

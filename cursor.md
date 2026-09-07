@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2096691127890170037
-- url: https://x.com/lennysan/status/2096691127890170037
-- author: Lenny Rachitsky
-- handle: @lennysan
-- time_utc: 2026-09-06T20:04:54.000Z
-- note: 2026-09-06 16:00 ET；raw 18（DOM9+HTL9）；overlay 18/18 fail0 unresolved_tco 0；hit_cursor effective；gap≈73min after HTL（周日傍晚；oldest_new @affLeopard 2096651240851841027 17:26:24Z；prior @dotey 2096632991267033444 16:13:53Z）；窗类 正文7/拿不准0/已过滤11；页 09-06 正文39/拿不准30/已过滤98；跳过 rec/ideas（非20:00）
+- status_id: 2096752907085656419
+- url: https://x.com/xiaohu/status/2096752907085656419
+- author: 小互
+- handle: @xiaohu
+- time_utc: 2026-09-07T00:10:23.000Z
+- note: 2026-09-06 20:00 ET；raw 33（DOM）；overlay 33/33 fail0 unresolved_tco 0；hit_cursor true；gap≈16.5min（oldest_new @DavidMoss 2096695276035621272 20:21:23Z；prior @lennysan 2096691127890170037 20:04:54Z）；窗类 正文17/拿不准3/已过滤13；页 09-06 正文58/拿不准33/已过滤111；已并 rec/ideas 09-05
