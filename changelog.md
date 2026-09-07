@@ -1,3 +1,17 @@
+## 2026-09-07 16:10 ET 补抓（完整主抓）
+
+- **主窗 16:00 ET 漏跑**；16:10 补抓作完整主抓（对标同日 12:10）。
+- DOM Following→Latest 抓 33（CDP Runtime.evaluate scroll；hit_cursor effective；oldest_new @kobyjconrad 2097008514795450809 ≈游标后 28.3min；newest @ajambrosino 2097060985056231598）。
+- overlay 33/33 fail0；unresolved_tco 0；未发明；写回 16.jsonl。
+- 窗类 正文 14 / 拿不准 1 / 已过滤 18；并入后页 正文 39 卡 / 拿不准 15 / 已过滤 94。
+- 正文要点：Higgsfield+Astra 永不下线直播；Austen Astra 高尔夫模拟器；Astra 用量 6pm PST 重置；Dan Agents Find a Way；Lenny 明日 Grok Bot 访谈；Alex Voice Card 提示词；宝玉 Skill=说明书；GBrain on bot 八条；ChatGPT Work 学文风；乔木 qiaomu 上架。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：16-qa.png pass（39/15/94 clippedBtns 0）。
+- 游标 → Andrew Ambrosino @ajambrosino 2097060985056231598。
+- 异常：executor 无 computerUse，用同会话 DOM CDP；hit_cursor effective（未改走官方 API）。
+- chat_delivery：交今天页。
+- 写于 2026-09-08 04:41 CST
+
 ## 2026-09-07 12:10 ET 补抓（完整主抓）
 
 - **主窗 12:00 ET 漏跑**；12:10 补抓作完整主抓（对标同日 8:10）。
