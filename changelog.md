@@ -1,3 +1,15 @@
+## 2026-09-07 0:00 ET
+
+- DOM Following→Latest + gap-fill 抓 79（dom14+gap65；hit_cursor effective；exact cursor 未渲染；oldest_new @jason 2096763718835073176 ≈游标后 43min；newest @imwsl90 2096815113542279598）。
+- overlay 79/79 fail0；unresolved_tco 0；未发明；写回 00.jsonl。
+- 窗类 正文 28 / 拿不准 8 / 已过滤 43；pre→09-06（76）；after→09-07 薄种子（3：拿不准1/已过滤2）。
+- 页 09-06：正文 73 / 拿不准 40 / 已过滤 152（+15 新卡 / 补丁 4：Grok Bot 蓝皮书、海辛 Codex 3D、Computer Use 三 tip、Zho Astra 3D）。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：00-qa.png pass（73/40/152 clippedBtns 0）。
+- 游标 → 卫斯理 @imwsl90 2096815113542279598。
+- chat_delivery：交昨天完整版。
+- 写于 2026-09-07 13:11 CST
+
 ## 2026-09-06 20:10 ET 补抓
 - X 窗已齐（raw/20.jsonl 33；overlay 33/33 fail0；unresolved_tco 0；分类已写回；页 09-06 正文58 / 拿不准33 / 已过滤111；游标 @xiaohu 2096752907085656419；git 4bce6b8；Pages HTTP 200 last-mod 00:25:53 GMT；20-qa.png pass；已并 rec/ideas 09-05），未重抓。
 - truncated 标记 6 条均已有足够正文/overlay（正文3：MaiYang 907、出海去 121、yanhua 339；已过滤3：elon×2、MaiYang 51），无需补全文。
