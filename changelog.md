@@ -1,3 +1,16 @@
+## 2026-09-07 4:00 ET
+
+- DOM Following→Latest + gap-fill 抓 9（dom2+gap9 union9；hit_cursor effective；exact cursor 未渲染；oldest_new @vista8 2096862770461589691 ≈游标后 189min；newest @yibie 2096876438414647534）。HTL 网络补洞尝试未产出额外 in-hole 帖。
+- overlay 9/9 fail0；unresolved_tco 0；未发明；写回 04.jsonl。
+- 窗类 正文 4 / 拿不准 0 / 已过滤 5；并 0:00 薄种子后页 正文 4 / 拿不准 1 / 已过滤 7。
+- 正文要点：yibie 译 Cantrill《读者的反抗》；肖师傅快递柜 Seedance 提示词；Berryxia Grok Build 下视频；乔木 Astra 拥堵换 5.6 sol。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：04-qa.png pass（4/1/7 clippedBtns 0）。
+- 游标 → yibie @yibie 2096876438414647534。
+- 异常备注：gap≈189min（04:17Z–07:26Z）多轮 DOM/CDP/HTL 尝试后仍空；已记，升幕僚长知悉。
+- chat_delivery：交今天第一页。
+- 写于 2026-09-07 16:40 CST
+
 ## 2026-09-07
 
 - 0:10 ET 补抓：0:00 窗齐，未重抓。raw 79；overlay 79/79；页 09-06 正文73/拿不准40/已过滤152；薄种子 09-07 0/1/2；Pages 200 last-mod 05:12:00 GMT；git b4dc62d；chat WakeParent 交昨天完整版。
