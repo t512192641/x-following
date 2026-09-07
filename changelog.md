@@ -1,3 +1,9 @@
+## 2026-09-06 20:10 ET 补抓
+- X 窗已齐（raw/20.jsonl 33；overlay 33/33 fail0；unresolved_tco 0；分类已写回；页 09-06 正文58 / 拿不准33 / 已过滤111；游标 @xiaohu 2096752907085656419；git 4bce6b8；Pages HTTP 200 last-mod 00:25:53 GMT；20-qa.png pass；已并 rec/ideas 09-05），未重抓。
+- truncated 标记 6 条均已有足够正文/overlay（正文3：MaiYang 907、出海去 121、yanhua 339；已过滤3：elon×2、MaiYang 51），无需补全文。
+- chat_delivery：交今天页（主窗 checklist 仍标 needed，本补抓 WakeParent；若主窗刚发过同一句则勿重复）。
+- 写于 2026-09-07 08:28 CST
+
 ## 2026-09-06 16:00 ET
 
 - 抓 18（DOM Following→Latest 初抓 9；HTL 等价滚动补洞 +9；命中游标 effective；oldest 新 @affLeopard 2096651240851841027 ≈游标后 72.5 分钟；newest @lennysan 2096691127890170037）。overlay 18/18 fail0；unresolved_tco 0；未发明。
