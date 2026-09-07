@@ -1,3 +1,7 @@
+## 2026-09-07
+
+- 0:10 ET 补抓：0:00 窗齐，未重抓。raw 79；overlay 79/79；页 09-06 正文73/拿不准40/已过滤152；薄种子 09-07 0/1/2；Pages 200 last-mod 05:12:00 GMT；git b4dc62d；chat WakeParent 交昨天完整版。
+
 ## 2026-09-07 0:00 ET
 
 - DOM Following→Latest + gap-fill 抓 79（dom14+gap65；hit_cursor effective；exact cursor 未渲染；oldest_new @jason 2096763718835073176 ≈游标后 43min；newest @imwsl90 2096815113542279598）。
