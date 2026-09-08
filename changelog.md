@@ -1,3 +1,17 @@
+## 2026-09-08 0:00 ET
+
+- DOM Following→Latest 抓 75（CDP Runtime.evaluate scroll；hit_cursor effective；oldest_new @berryxia 2097124156332777524 ≈游标后 14.6min；newest @Jason 2097174823021563944）。
+- 按 ET 午夜拆：pre 63 归入 09-07；after 12 薄种子 09-08（不聊天交付）。
+- overlay 75/75 fail0；unresolved_tco 0；未发明；写回 00.jsonl。
+- 窗类（pre）正文 21 / 拿不准 8 / 已过滤 34；并入后页 正文 69 卡 / 拿不准 27 / 已过滤 134。
+- 正文要点：window-layout-memory；FreeCAD MCP；RSSHub Workers 64MiB；Alien Mind 要点；ChatGPT Work 原生文风；KV cache runtime；3D 白盒控视频；Ollama 批判；AIsa 对照实验；Clay 写作；VS Code+Lemonade；Agent IM/RBAC；MiniMax Code Desktop；Omarchy 中文站；OpenTerminal；Astra MathArena；Mai 24h Grok Bot；乔木教学视频；Astra Prompting Masterclass。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：00-qa.png pass（69/27/134 clippedBtns 0）。
+- 游标 → Jason @Jason 2097174823021563944。
+- 异常：executor 无 computerUse，用同会话 DOM CDP；hit_cursor effective（未改走官方 API）。
+- chat_delivery：交昨天完整页 09-07。
+- 写于 2026-09-08 12:20 CST
+
 ## 2026-09-07 20:10 ET 补抓（完整主抓）
 
 - **主窗 20:00 ET 漏跑**；20:10 补抓作完整主抓（对标同日 16:10）。
