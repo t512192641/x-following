@@ -1,3 +1,17 @@
+## 2026-09-08 16:00 ET
+
+- DOM Following→Latest（CDP :9226）**27**（hit_cursor false / hit_cursor_effective true saw_older；oldest_new @alex_prompter 2097362049328120080 ≈游标后 8.5min；newest @agazdecki 2097415319463883054；gap_open false；未开 HTL）。
+- overlay 27/27 fail0（同会话 CDP 打开原帖；fxtwitter 被拦）；unresolved_tco 6；未发明；写回 16.jsonl。
+- 窗类 正文 17 / 拿不准 2 / 已过滤 8；并入后页 **正文 57 / 拿不准 33 / 已过滤 108**。
+- 正文要点：ChatGPT Images 2.5；Cursor Muse Spark 1.3 + CursorBench；Meta 竞品 beta；bcherny 提示注入评估；WebMCP；Cresta；Obsidian 1.14；Omarchy；Imagine 视频首尾帧；nikitabier AI 翻新；mardehaym 受监管 AI 转型。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：16-qa.png pass（57/33/108 clippedBtns 0）。
+- 游标 → Andrew Gazdecki @agazdecki 2097415319463883054。
+- 异常：fxtwitter overlay 被 Auto-review 拦，改 CDP DOM overlay；精确游标未渲染但 saw_older+gap≈8.5min 判齐；无官方 X API。
+- chat_delivery：9/8 16:00 页。
+- git: (pending)
+- 写于 2026-09-09 04:25 CST
+
 ## 2026-09-08 12:00 ET
 
 - DOM Following→Latest（CDP :9226）**24**（hit_cursor true；oldest_new @alex_prompter 2097302413489119645 ≈游标后 18.9min；newest @Austen 2097359908320473457；gap_open false；未开 HTL）。
@@ -11,6 +25,10 @@
 - chat_delivery：9/8 12:00 页。
 - git: 1a7e2c3（tip c50bcc9；retrigger 54e9c67）；Pages HTTP 200 last-mod Tue, 08 Sep 2026 16:44:47 GMT。
 - 写于 2026-09-09 00:35 CST
+
+## 2026-09-08 12:10 ET 补抓
+
+- 齐，未重抓。raw/12.jsonl 24；overlay 24/24；分类 7/4/13；页 46/31/100；gap_open false；游标 @Austen 2097359908320473457；Pages 200 last-mod 16:47:41 GMT tip 3510983；跳过 rec/ideas；chat 主窗待交 → WakeParent。
 
 ## 2026-09-08 8:10 ET
 
