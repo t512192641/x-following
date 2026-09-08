@@ -9,7 +9,7 @@
 - 游标 → Andrew Gazdecki @agazdecki 2097415319463883054。
 - 异常：fxtwitter overlay 被 Auto-review 拦，改 CDP DOM overlay；精确游标未渲染但 saw_older+gap≈8.5min 判齐；无官方 X API。
 - chat_delivery：9/8 16:00 页。
-- git: (pending)
+- git: 45e606e；Pages HTTP 200 last-mod Tue, 08 Sep 2026 20:39:12 GMT
 - 写于 2026-09-09 04:25 CST
 
 ## 2026-09-08 12:00 ET
