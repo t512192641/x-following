@@ -1,3 +1,14 @@
+## 2026-09-07 20:00 ET（20:10 补抓完整主抓）
+
+- 主窗 20:00 漏跑；`raw/2026-09-07/20.*` 本补抓完整主抓（DOM CDP Following→Latest，:9226，无官方 X API）
+- scraped 20；hit_cursor effective（saw_older；gap≈46.7min vs 游标 @ajambrosino 2097060985056231598）
+- newest @gengdaJ 2097115883252646257 2026-09-08T00:12:43.000Z；oldest_new @axultan 2097072732785762813 2026-09-07T21:21:15.000Z
+- overlay 20/20 fail0 unresolved_tco 0（fxtwitter + t.co）
+- window class：正文 6 / 拿不准 2 / 已过滤 12；写回 20.jsonl
+- 页 totals：正文 52 / 拿不准 17 / 已过滤 106（含并 recommended/ideas 2026-09-06：资讯并原组/新卡；脑洞 3）
+- QA：20-qa.png pass；clippedBtns 0
+- chat_line：9/7 20:00：正文52 / 拿不准17 / 已过滤106。https://t512192641.github.io/x-following/2026-09-07.html
+
 ## 2026-09-08 05:44 CST
 
 - **补卡**：09-07 页补入 Berryxia Godot《兽潮》正文卡（sid `2097013217075798420`，已在 `16.jsonl` 分类正文）；不重抓整窗。正文 39→40。

@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2097060985056231598
-- url: https://x.com/ajambrosino/status/2097060985056231598
-- author: Andrew Ambrosino
-- handle: @ajambrosino
-- time_utc: 2026-09-07T20:34:35.000Z
-- updated: 2026-09-07 16:00 ET window (16:10 catch-up full main)
+- status_id: 2097115883252646257
+- url: https://x.com/gengdaJ/status/2097115883252646257
+- author: 逸尘
+- handle: @gengdaJ
+- time_utc: 2026-09-08T00:12:43.000Z
+- updated: 2026-09-07 20:00 ET window (20:10 catch-up full main)
