@@ -9,7 +9,7 @@
 - 游标 → Alex Prompter @alex_prompter 2097297663259816254。
 - 异常：首轮 DOM 跳空已由同窗 HTL 补齐；无官方 X API。
 - chat_delivery：9/8 8:00 页。
-- git/Pages：见 publish。
+- git: bd9da24（549a5f3 内容）；Pages HTTP 200 last-mod Tue, 08 Sep 2026 12:27:58 GMT。
 - 写于 2026-09-08 20:25 CST
 
 ## 2026-09-08 16:37 CST
