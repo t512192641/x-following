@@ -1,3 +1,25 @@
+## 2026-09-08 12:00 ET
+
+- DOM Following→Latest（CDP :9226）**24**（hit_cursor true；oldest_new @alex_prompter 2097302413489119645 ≈游标后 18.9min；newest @Austen 2097359908320473457；gap_open false；未开 HTL）。
+- overlay 24/24 fail0；unresolved_tco 0；未发明；写回 12.jsonl。
+- 窗类 正文 7 / 拿不准 4 / 已过滤 13；并入后页 **正文 46 / 拿不准 31 / 已过滤 100**。
+- 正文要点：Topview AI Marketer（Alex/Yanhua/鱼总）；Gauntlet AI 公司模拟评估；dontbesilent dbskill 改 PPT；子木 AI 搜索品牌曝光 Skill；Yanhua 菲律宾区 ChatGPT+mastercard。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：12-qa.png pass（46/31/100 clippedBtns 0）。
+- 游标 → Austen Allred @Austen 2097359908320473457。
+- 异常：无；无官方 X API。
+- chat_delivery：9/8 12:00 页。
+- git: （推送后回填）；Pages：（推送后回填）。
+- 写于 2026-09-09 00:35 CST
+
+## 2026-09-08 8:10 ET
+
+- 补抓复核：齐，未重抓。
+- 证据：raw/2026-09-08/08.jsonl 89；classification 正文25/拿不准11/已过滤53 全写回；overlay 89/89 fail0；gap_open false；hit_cursor true；页 正文41/拿不准27/已过滤87；游标 @alex_prompter 2097297663259816254；QA 08-qa.png；git tip 2ce6a63（meta 记 bb25529/bd9da24）；Pages HTTP 200 last-mod Tue, 08 Sep 2026 12:32:16 GMT。
+- 跳过 recommended/ideas（非 20:00）。
+- chat：主窗已交 t34s2，本补抓不重复交付。
+- 写于 2026-09-08 20:49 CST
+
 ## 2026-09-08 8:00 ET
 
 - DOM Following→Latest 首轮跳空（oldest≈09:50，gap≈95min）→同会话 HomeLatestTimeline 补齐；union **89**（hit_cursor true；oldest_new @dontbesilent 2097238857809035538 ≈游标后 5.7min；newest @alex_prompter 2097297663259816254）。
