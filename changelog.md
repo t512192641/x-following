@@ -1,28 +1,20 @@
-## 2026-09-07 20:00 ET（20:10 补抓完整主抓）
+## 2026-09-07 20:10 ET 补抓（完整主抓）
 
-- 主窗 20:00 漏跑；`raw/2026-09-07/20.*` 本补抓完整主抓（DOM CDP Following→Latest，:9226，无官方 X API）
-- scraped 20；hit_cursor effective（saw_older；gap≈46.7min vs 游标 @ajambrosino 2097060985056231598）
-- newest @gengdaJ 2097115883252646257 2026-09-08T00:12:43.000Z；oldest_new @axultan 2097072732785762813 2026-09-07T21:21:15.000Z
-- overlay 20/20 fail0 unresolved_tco 0（fxtwitter + t.co）
-- window class：正文 6 / 拿不准 2 / 已过滤 12；写回 20.jsonl
-- 页 totals：正文 52 / 拿不准 17 / 已过滤 106（含并 recommended/ideas 2026-09-06：资讯并原组/新卡；脑洞 3）
-- QA：20-qa.png pass；clippedBtns 0
-- chat_line：9/7 20:00：正文52 / 拿不准17 / 已过滤106。https://t512192641.github.io/x-following/2026-09-07.html
+- **主窗 20:00 ET 漏跑**；20:10 补抓作完整主抓（对标同日 16:10）。
+- DOM Following→Latest 抓 22（CDP Runtime.evaluate scroll；hit_cursor effective；oldest_new @axultan 2097072732785762813 ≈游标后 46.7min；newest @Adam38363368936 2097120482361585880）。
+- overlay 22/22 fail0；unresolved_tco 0；未发明；写回 20.jsonl。
+- 窗类 正文 12 / 拿不准 4 / 已过滤 6；并入后页 正文 55 卡 / 拿不准 19 / 已过滤 100。
+- 正文要点：Adam AI 沉浸课件；Bear 获客喂鸟养猫；Cindy 远程桌面；OpenVDN H3 开源；pi-zvec-grep；Astra+H3 Director；Adil Astra×Higgsfield demos；Axultan 3D 脑；逸尘续 Higgsfield 直播。
+- **并 recommended/ideas 2026-09-06**（8 资讯 + 3 脑洞；09-06 页此前未并 09-06 digest；无 09-07 文件）。
+- QA：20-qa.png pass（55/19/100 clippedBtns 0）。
+- 游标 → Adam @Adam38363368936 2097120482361585880。
+- 异常：executor 无 computerUse，用同会话 DOM CDP；hit_cursor effective（未改走官方 API）。
+- chat_delivery：交今天页。
+- 写于 2026-09-08 08:47 CST
 
-## 2026-09-08 05:44 CST
+## 2026-09-07 16:00 ET（主窗迟到复核）
 
-- **补卡**：09-07 页补入 Berryxia Godot《兽潮》正文卡（sid `2097013217075798420`，已在 `16.jsonl` 分类正文）；不重抓整窗。正文 39→40。
-- **4:00 空洞收口**：幕僚长拍板——接受本窗、不回补 04:17Z–07:26Z 空洞；游标保持 `@yibie`/`2096876438414647534` 链路后续已推进，不再开补洞。
-- **纪律**：禁止双开写同一 raw（并行误覆 `04.jsonl` 教训）。
-
-## 2026-09-07 17:38 ET 主窗迟到复核
-
-- 主 routine 16:00 漏跑后于 ~17:38 ET 才醒；16:10 补抓已完整主抓（git 089f238）。
-- 复核：Pages HTTP 200 last-mod 20:42:50 GMT 正文39/拿不准15/已过滤94；raw/16.jsonl 34（并行补抓口径 33）；QA 16-qa.png pass；游标 @ajambrosino 2097060985056231598。
-- 未重抓；chat 未见 t*s* 交证 → 本窗 WakeParent 交今天页（若补抓刚交过则父代理去重）。
-- 备注：并行补抓记 Berryxia Godot《兽潮》未并入 live 页，以 Pages 为准，不本窗重发。
-- 写于 2026-09-08 05:41 CST
-
+- 主窗约 16:49 ET 才醒；16:10 补抓已完整主抓（DOM33 / overlay 33/33 / 页 正文39·拿不准15·已过滤94 / git 089f238 / Pages 200）。未重抓。chat 已由补抓 WakeParent，本窗不重交。下窗 20:00 ET。
 ## 2026-09-07 16:10 ET 补抓（完整主抓）
 
 - **主窗 16:00 ET 漏跑**；16:10 补抓作完整主抓（对标同日 12:10）。
