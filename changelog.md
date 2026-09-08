@@ -1,3 +1,17 @@
+## 2026-09-08 16:37 CST
+
+- **口径确认（用户正式确认）**：接受公开回补后的 09-07 页 **正文71 / 拿不准26 / 已过滤133**（`94f7f2b` / tip `e3d34ac`→`dcd6e47`）。
+- **纪律**：该回补**曾违反**此前「4:00 空洞接受、不回补」收口；现经用户确认，**按接受收口**，本机已对齐；不重抓、不回拨游标。
+- 聊天已补更正句指向公开页。
+
+## 2026-09-08 4:10 ET
+
+- 补抓复核：齐，未重抓。
+- 证据：raw/2026-09-08/04.jsonl 66；classification 正文24/拿不准14/已过滤28 全写回；overlay 66/66 fail0；gap_open false；页 正文21/拿不准16/已过滤34；游标 @kevinma_dev_zh 2097237438582358154；QA 04-qa.png；git 9f05f3e；Pages HTTP 200 last-mod Tue, 08 Sep 2026 08:31:03 GMT。
+- 跳过 recommended/ideas（非 20:00）。
+- chat：主窗已交今天第一页，本补抓不重复交付。
+- 写于 2026-09-08 16:34 CST
+
 ## 2026-09-08 4:00 ET
 
 - DOM Following→Latest 抓 66（CDP Runtime.evaluate scroll；hit_cursor true；oldest_new @430Yang 2097175409561354310 ≈游标后 2.3min；newest @kevinma_dev_zh 2097237438582358154）。
