@@ -10,7 +10,8 @@
 - 游标 → Jason @Jason 2097174823021563944。
 - 异常：executor 无 computerUse，用同会话 DOM CDP；hit_cursor effective（未改走官方 API）。
 - chat_delivery：交昨天完整版（9/7）；今天薄种子不交。
-- 写于 2026-09-08 12:15 CST
+- 写于 2026-09-08 12:17 CST
+- git: 8f96a56；Pages 200 last-mod 04:17:14 GMT。
 
 ## 2026-09-08 0:00 ET（并行窗 e1c79c9 · 69/27/134）
 
