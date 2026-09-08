@@ -1,3 +1,17 @@
+## 2026-09-08 8:00 ET
+
+- DOM Following→Latest 首轮跳空（oldest≈09:50，gap≈95min）→同会话 HomeLatestTimeline 补齐；union **89**（hit_cursor true；oldest_new @dontbesilent 2097238857809035538 ≈游标后 5.7min；newest @alex_prompter 2097297663259816254）。
+- overlay 89/89 fail0；unresolved_tco 4；未发明；写回 08.jsonl。
+- 窗类 正文 25 / 拿不准 11 / 已过滤 53；并入后页 **正文 41 / 拿不准 27 / 已过滤 87**。
+- 正文要点：Aristotle 说服提示词；FUMO 融合模型；Minimax H3 实时视频拐点；果蝇+GPT-6 Minecraft；GPT-6 YouWare 案例合集；CF Worker 64MB；Hyper3D WorldGen；Grok Bot Marketplace；EverOS+Milvus；PSA 投资桌 Agent；xAI dynamic workflows；FDE 培训路径；Youmind PPT 邪修；Disk Raccoon；xxd-strip-ai-meta；旗袍女团人物编号提示词；DeepSeek V4.1 Flash 续（Cola/Vision-Exp）。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：08-qa.png pass（41/27/87 clippedBtns 0）。
+- 游标 → Alex Prompter @alex_prompter 2097297663259816254。
+- 异常：首轮 DOM 跳空已由同窗 HTL 补齐；无官方 X API。
+- chat_delivery：9/8 8:00 页。
+- git/Pages：见 publish。
+- 写于 2026-09-08 20:25 CST
+
 ## 2026-09-08 16:37 CST
 
 - **口径确认（用户正式确认）**：接受公开回补后的 09-07 页 **正文71 / 拿不准26 / 已过滤133**（`94f7f2b` / tip `e3d34ac`→`dcd6e47`）。
