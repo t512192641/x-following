@@ -1,5 +1,19 @@
 ## 2026-09-08 0:00 ET
 
+- DOM Following→Latest 抓 75（CDP Runtime.evaluate scroll；hit_cursor effective via saw_older；exact cursor 未渲染；oldest_new @berryxia 2097124156332777524 ≈游标后 14.6min；newest @Jason 2097174823021563944）。
+- overlay 75/75 fail0；unresolved_tco 0；未发明；写回 00.jsonl。
+- 窗类 正文 28 / 拿不准 9 / 已过滤 38（pre 正文24/拿不准7/已过滤32 → 并入昨天；after 正文4/拿不准2/已过滤6 → 今天薄种子）。
+- 并入后 **9/7 完整版** 正文 70 卡 / 拿不准 26 / 已过滤 132；薄种子 9/8 正文 4 / 拿不准 2 / 已过滤 6。
+- 正文要点：howie《Alien Mind》解读；ChatGPT Work 原生文风；AIsa 对照实验；KV cache agent 运行时；FreeCAD MCP；window-layout-memory；Lemonade 本地 Copilot；Stop Ollama；Astra Prompting Masterclass；OpenTerminal；MiniMax Code Desktop；Omarchy 中文站；Seedance 导演 skill；Yangyi agent 元工具 RBAC；卫斯理内容渠道先行；古一宫廷续；Astra 重置/比 Fable 更便宜。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：00-qa.png pass（70/26/132 clippedBtns 0）。
+- 游标 → Jason @Jason 2097174823021563944。
+- 异常：executor 无 computerUse，用同会话 DOM CDP；hit_cursor effective（未改走官方 API）。
+- chat_delivery：交昨天完整版（9/7）；今天薄种子不交。
+- 写于 2026-09-08 12:15 CST
+
+## 2026-09-08 0:00 ET（并行窗 e1c79c9 · 69/27/134）
+
 - DOM Following→Latest 抓 75（CDP Runtime.evaluate scroll；hit_cursor effective；oldest_new @berryxia 2097124156332777524 ≈游标后 14.6min；newest @Jason 2097174823021563944）。
 - 按 ET 午夜拆：pre 63 归入 09-07；after 12 薄种子 09-08（不聊天交付）。
 - overlay 75/75 fail0；unresolved_tco 0；未发明；写回 00.jsonl。
