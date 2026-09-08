@@ -1,5 +1,31 @@
-## 2026-09-08 0:00 ET
+## 2026-09-08 · 9/7 04:00 历史空洞 backfill merge
 
+- 父代理已 scrape；本步只 merge，不重抓 X、不用 X API、不回拨游标。
+- source：DOM + HTL（raw/2026-09-07/04-backfill-dom.json + htl/meta）。
+- +2 → 04.jsonl 9→11：@axichuhai 2096855625636389336 **正文**（开源免费 API 仓库）；@XFreeze 2096839957574750302 **已过滤**（Elon 转 abundance 短立场）。
+- 页 09-07：正文 70→71 / 拿不准 26 / 已过滤 132→133。
+- gap_open：05:56–07:26 已清；**仍 open** 04:17:34Z–05:56:17Z（多策略滚过 03:38 未见精确下界；Following Latest 非连续，该段可能空）。hole_from=2096815113542279598；hole_to=2096839957574750302。
+- QA：04-backfill-qa.png pass（71/26/133 clippedBtns 0）。
+- 游标仍 @Jason 2097174823021563944（与 backup 一致，未改）。
+- 写于 2026-09-08 14:15 CST
+
+## 2026-09-08 01:07 ET · 大空洞防复发（用户确认）
+- 用户确认：4:00 类大空洞更可能是时间线未吐全或滚页跳空，不是关注流真安静。
+- 已写入 playbook「抓取路径」：
+  1) prior_cursor→oldest_new ≳45min，或精确游标未渲染却撞到更旧数日帖 → 本窗标不完整；先不推进游标到 newest；留 hole_from/hole_to（gap_open）。
+  2) 下一主窗或 :10 必须先补该时间空洞，再 since 游标往前；补上或确认仍空后才清 hole。
+  3) DOM 首轮过短/跳旧帖：同窗刷新 Latest、小步滚动、会话 HTL 分页；都失败再升异常卡。
+  4) :10 见 gap_open 时第一件事补洞，不能因「已有 N 条」就判齐。
+- 仍禁止官方/付费 X API。
+- 9/7 04:17Z–07:26Z 历史空洞是否现在补：等用户下一句；此前「默认收口」只表示接受当时 9 帖交付与已推进游标的既成事实，不排除日后补洞。
+- 写于 2026-09-08 13:07 CST
+
+## 2026-09-08 01:04 ET · 4:00 空洞默认收口（已修订）
+- 幕僚长：用户当时未回 gap≈189min 拍板，按默认收口——接受本窗 9 帖交付；游标保持已推进（@yibie 2096876438414647534）。
+- **修订（同日稍后用户确认）**：大空洞口径改为「未吐全/跳空」优先；防复发见上条。历史空洞是否回头补，等用户下一句（不再写死「不必再开补洞」）。
+- 写于 2026-09-08；修订 2026-09-08 13:07 CST
+
+## 2026-09-08 0:00 ET
 - DOM Following→Latest 抓 75（CDP Runtime.evaluate scroll；hit_cursor effective via saw_older；exact cursor 未渲染；oldest_new @berryxia 2097124156332777524 ≈游标后 14.6min；newest @Jason 2097174823021563944）。
 - overlay 75/75 fail0；unresolved_tco 0；未发明；写回 00.jsonl。
 - 窗类 正文 28 / 拿不准 9 / 已过滤 38（pre 正文24/拿不准7/已过滤32 → 并入昨天；after 正文4/拿不准2/已过滤6 → 今天薄种子）。
@@ -9,7 +35,7 @@
 - QA：00-qa.png pass（70/26/132 clippedBtns 0）。
 - 游标 → Jason @Jason 2097174823021563944。
 - 异常：executor 无 computerUse，用同会话 DOM CDP；hit_cursor effective（未改走官方 API）。
-- chat_delivery：交昨天完整版（9/7）；今天薄种子不交。
+- chat_delivery：交昨天完整版（9/7）；今天薄种子不交。已交 t25s7。
 - 写于 2026-09-08 12:17 CST
 - git: 8f96a56；Pages 200 last-mod 04:17:14 GMT。
 
