@@ -1,3 +1,16 @@
+## 2026-09-08 4:00 ET
+
+- DOM Following→Latest 抓 66（CDP Runtime.evaluate scroll；hit_cursor true；oldest_new @430Yang 2097175409561354310 ≈游标后 2.3min；newest @kevinma_dev_zh 2097237438582358154）。
+- overlay 66/66 fail0；unresolved_tco 0；未发明；写回 04.jsonl。
+- 窗类 正文 24 / 拿不准 14 / 已过滤 28；并入薄种子后页 **正文 21 / 拿不准 16 / 已过滤 34**。
+- 正文要点：DeepSeek V4.1 Flash；韩国免费无限 AI；百度伐谋自演化科研 Agent；qiaomu-ai-rss；SentiaRead；awesome-autoresearch；Buckmaster/LLM 流体证明声明；Will Larson 迁移；Hermes WP→Astro；TikTok 养号；eDiscovery 测试瓶颈；Astra 剪辑 prompt；肖师傅伪纪录片提示词；小小东拼贴 VOL.207；Grok Bot 播客流水线。
+- 跳过 recommended/ideas（非 20:00）。
+- QA：04-qa.png pass（21/16/34 clippedBtns 0）。
+- 游标 → Kevin Ma @kevinma_dev_zh 2097237438582358154。
+- 异常：无（executor 无 computerUse，同会话 DOM CDP）。
+- chat_delivery：今天第一版。
+- 写于 2026-09-08 16:30 CST
+
 ## 2026-09-08 15:48 CST
 
 - **收口**：幕僚长因 4:00 开窗截止代拍板——将静默回补 `94f7f2b`（09-07 04:00 hole +2 → 正文71/拿不准26/已过滤133）按**接受**处理；本机已 pull/对齐到公开 tip `e3d34ac`，不重抓、不回拨游标、不回滚公开仓。
