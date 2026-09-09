@@ -1,3 +1,10 @@
+## 2026-09-09 4:00 ET
+- DOM Following→Latest 36；hit_cursor；gap≈5.53min；未跑 HTL；gap_open false
+- overlay 36/36 fail0；分类写回 正文12/拿不准8/已过滤16
+- 页累计（含 0:00 种子）正文9 / 拿不准8 / 已过滤25；QA pass clippedBtns=0
+- 游标 → 2097596831765323975 @derrickcchoi 2026-09-09T08:03:50.000Z
+- 发布 Pages 2026-09-09.html；chat：9/9 第一版
+
 ## 2026-09-09 0:10 ET 补抓
 - 齐，未重抓；页 09-08 正文91 / 拿不准47 / 已过滤234
 - raw 180 / overlay 180/180 / gap_open false / 游标未变 @affLeopard 2097537876615737505
