@@ -1,3 +1,18 @@
+## 2026-09-09 0:00 ET
+- git TBD；Pages TBD
+- source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
+- prior_cursor: @grok 2097477180125266374 2026-09-09T00:08:23Z
+- scraped union 180（DOM49→gap≈46.6min→HTL补齐）；hit_cursor true；oldest_new @imwsl90 2097477212794675470 00:08:31Z；newest @affLeopard 2097537876615737505 04:09:34Z
+- gap≈0.13min；gap_open false；无 AUTH_FAIL
+- overlay 180/180 fail0；31条 overlay 污染文已从 HTL/DOM 回写
+- 窗类(pre) 正文52 / 拿不准7 / 已过滤109；全窗 55/7/118
+- 页 09-08 **正文91 / 拿不准47 / 已过滤234**；薄种子 09-09 3/0/9 不交
+- QA 00-qa.png pass clippedBtns0
+- 跳过 recommended/ideas（非 20:00）
+- 游标推进 @affLeopard 2097537876615737505
+- chat_line：9/8 完整版：正文91 / 拿不准47 / 已过滤234。https://t512192641.github.io/x-following/2026-09-08.html
+- anomaly：Chrome ENOSPC 已重启；DOM 跳空已 HTL 补齐；overlay 文案污染已修
+
 ## 2026-09-08 20:00 ET（巡舟）
 - git d8e69e7；Pages HTTP 200 last-mod Wed, 09 Sep 2026 00:17:34 GMT；md5 51df11fa9887e328ad4bd82580d7ac19 live=local
 - source: DOM Following→Latest CDP chrome-profile-4 :9226；无官方 X API

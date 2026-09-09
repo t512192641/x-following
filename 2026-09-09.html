@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>X 关注汇总 2026-09-09（正文 3 / 拿不准 0 / 已过滤 9）</title>
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; }
+article:not(.is-open) { height: 320px; }
+article.is-open { height: auto; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+article.is-open h3 {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  overflow: visible;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+article:not(.is-open) .fold { overflow: hidden; }
+article.is-long:not(.is-open) .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 2026-09-09</h1>
+<p class="meta">0:00 ET 薄种子（不聊天交付）。正文 3 / 拿不准 0 / 已过滤 9。完整版等 4:00 ET。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="46" data-pane="pane-main" type="button">正文 3</button>
+<button class="tab" data-count="31" data-pane="pane-maybe" type="button">拿不准 0</button>
+<button class="tab" data-count="100" data-pane="pane-filtered" type="button">已过滤 9</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+
+<section class="group"><h2>模型 / 产品</h2><div class="grid"><article class="card"><h3>MANISH：GPT Image 2.5 负评——更会偷懒/底模脸与肢体问题</h3><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><div class="fold"><p>GPTImage2.5 就是个狡猾的猪妖。</p><p>你以为他升级了更快了，实际上更会偷懒了。</p><p>把之前的提示词拿出来溜一遍，我完全没有感受到多大提升，反而负面的感受更多！</p><p>底模脸/丑脸概率更高，肢体问题概率更高，低质量图概率更高~</p><p>你敢信左边2.0右边2.5？这不是狡猾的猪妖是什么？ https://t.co/iQFY7DO8M7</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MANISH1027512/status/2097537115760513420" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section><section class="group"><h2>方法 / 提示</h2><div class="grid"><article class="card"><h3>yibie：让 AI 发挥更好——优先干净上下文，而非一味换更强模型</h3><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><div class="fold"><p>让 AI 发挥更好，最重要的是干净的上下文。</p><p>大家都在问：怎么让 AI 发挥得更好？很多人第一反应是「用更强的模型」。我的答案是：不是。</p><p>先说模型。luna 确实流口水，但我可以用 astra low——在某些任务上 astra low 的智商甚至超过 sol ultra。</p><p>有朋友说，medium 的性价比最高，我同意，但只让它负责 coding 就大材小用了，我直接让它作为 leader agent，表现也相当不错。</p><p>我认为，绝大部分任务没必要开 max 最高档推理——除非真的很难。如果故意推高推理挡位，会让大模型思虑过多，反而产生大量不必要的 token，塞进了上下文，影响大模型的判断。</p><p>大模型的上下文就像一个仓库，什么都堆在里面，大模型是依靠自己的注意力机制在这个杂货库里翻找出自己要用的信息。如果这个仓库堆得太乱，注意力机制就会受到影响。</p><p>基于以上实践中的体感，我正式放弃 spec-drive（也就是"spec 流派"）的开发方式——已经进历史博物馆了。那种流派让太多内容进入上下文，导致上下文污染严重，干扰 llm 的智商水平。你以为在「描述需求」，实际是在给模型制造噪声。</p><p>那怎么做？我的做法很朴素：</p><p>我不分割上下文。就是把不相关的任务，尽量派给不同的 agent 来处理。agent 也不必太多——3-4 个就够了，多一个出来，专门干各种临时发现的杂活儿。我不用 worktree。</p><p>成本上也有惊喜：astra low 的缓存命中比 sol 准确很多，所以用 low 的时候，它的成本可能比 sol 还便宜。</p><p>一句话：好模型是前提，但真正拉开差距的是上下文管理——少塞内容、任务分流、按需开档。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yibie/status/2097537703868768405" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>哥飞：如何让 ChatGPT「爱上」你的站（反推提问→观察抓取→总结）</h3><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><div class="fold"><p>如何让ChatGPT “爱上”我们的站？</p><p>哥飞的方法如下：</p><p>1.先反推
+你去问 ChatGPT ，假如你是用户，你想找 XX 工具，可能会如何向 ChatGPT 提问。Claude 和 Gemini 同理。
+这样你会得到一些问题列表。</p><p>2.后提问
+拿到几个问题后，另开一个窗口，去一个一个问 AI这些问题，每一个问题，你看看他是如何思考的，如何拆解问题的，如何拆分搜索关键词的，抓取了哪些网页，这些网页的标题是什么。</p><p>3.再总结
+第二步得到的结果，再拿去给 AI 分析，让 AI 告诉你，如何写文章，发到哪些地方去。</p><p>以上三步，如果无效，请给我发红包。如果有效，请给我发大红包。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/gefei55/status/2097536870880334234" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+
+<section class="group"><h2>拿不准</h2><div class="grid"></div></section></div>
+<div class="pane" id="pane-filtered">
+
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">Bob Zhang <a href="https://x.com/affLeopard" rel="noopener noreferrer" target="_blank">@affLeopard</a></p><p>Bob Zhang：@imwsl90 他们不该学那些大佬现在的样子，得该学他们早期白手起家，从零开始一无所有事做了些什么！  但是没人喜欢这些，因为这些事情听起…</p><p class="links"><a href="https://x.com/affLeopard/status/2097537876615737505" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Yanhua <a href="https://x.com/yanhua1010" rel="noopener noreferrer" target="_blank">@yanhua1010</a></p><p>Yanhua：@lxfater 嘿嘿 starryblu</p><p class="links"><a href="https://x.com/yanhua1010/status/2097537614320644503" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bob Zhang <a href="https://x.com/affLeopard" rel="noopener noreferrer" target="_blank">@affLeopard</a></p><p>Bob Zhang：https://t.co/pGmzzmPItu</p><p class="links"><a href="https://x.com/affLeopard/status/2097537322732712349" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>卫斯理：我现在对年轻的创业者的信任感很低  感觉很多年轻的创业都学偏了 ，很多人拿孙哥哥当偶像  从第一天开始就想着如何坑合作伙伴   这也是一种极…</p><p class="links"><a href="https://x.com/imwsl90/status/2097537081107165216" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">jason <a href="https://x.com/Jason" rel="noopener noreferrer" target="_blank">@Jason</a></p><p>@jason：roll call for the @theallinpod summit in LA next week! im excited to b…</p><p class="links"><a href="https://x.com/Jason/status/2097536134448312525" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">jason <a href="https://x.com/Jason" rel="noopener noreferrer" target="_blank">@Jason</a></p><p>@jason：Meet your new All-In Summit Women’s Brunch Host, Po On. Fifth year run…</p><p class="links"><a href="https://x.com/Jason/status/2097536097454616689" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>卫斯理：@PandaTalk8 他们只想白嫖你....  我完全不相信现在的创业者，以前也不相信  现在年轻的创业者，孙学都学的很好</p><p class="links"><a href="https://x.com/imwsl90/status/2097535994652426308" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">jason <a href="https://x.com/Jason" rel="noopener noreferrer" target="_blank">@Jason</a></p><p>@jason：I was just writing the same tweet — thanks for saving month time Mehdi</p><p class="links"><a href="https://x.com/Jason/status/2097535920635269148" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Morris <a href="https://x.com/Morris_LT" rel="noopener noreferrer" target="_blank">@Morris_LT</a></p><p>Morris：你在人生成长、创业、交易、财富管理这些重要问题上，真正缺少的，往往不是更多信息，而是一个始终站在你角度的私人认知董事会。它了解你的经历、能力…</p><p class="links"><a href="https://x.com/Morris_LT/status/2097535869561471247" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+</div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    function setOpen(art, open) {
+      var btn = art.querySelector(".more");
+      art.classList.toggle("is-open", open);
+      if (btn) btn.textContent = open ? "收起" : "展开";
+    }
+    for (var i = 0; i < articles.length; i++) {
+      var art = articles[i];
+      var fold = art.querySelector(".fold");
+      var btn = art.querySelector(".more");
+      if (!fold || !btn) continue;
+      if (fold.scrollHeight > fold.clientHeight + 6) {
+        art.classList.add("is-long");
+        btn.hidden = false;
+        btn.textContent = "展开";
+        btn.addEventListener("click", function () {
+          setOpen(this.parentElement, !this.parentElement.classList.contains("is-open"));
+        });
+      }
+    }
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) exp.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], true);
+      }
+    });
+    if (col) col.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], false);
+      }
+    });
+  })();
+</script>
+</body>
+</html>
