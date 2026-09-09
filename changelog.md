@@ -1,3 +1,11 @@
+## 2026-09-09 8:10 ET 补抓（主窗 8:00 漏跑→完整主抓）
+- source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
+- DOM 首轮 42 hit_cursor false oldest≈09:08Z gap≈64min → 同会话 HTL 补齐；union **128**；hit_cursor true；oldest_new @PMbackttfuture 2097598374916874398 08:09:58Z；newest @xiaohu 2097664725873992054 12:33:38Z；gap≈6.13min；gap_open false
+- overlay 128/128 fail0；unresolved_tco 6；26 条 Grok Bot 推广文污染已从 HTL 回写
+- 窗类 正文36 / 拿不准18 / 已过滤74；页累计 正文33 / 拿不准26 / 已过滤99
+- 游标 → 2097664725873992054 @xiaohu；QA pass clippedBtns0；跳过 rec/ideas
+- 主窗漏跑由本补抓完成 → WakeParent 交付
+
 ## 2026-09-09 4:10 ET 补抓
 - 齐，未重抓；页 09-09 正文9 / 拿不准8 / 已过滤25
 - raw/04.jsonl 36；class 正文12/拿不准8/已过滤16 miss0；overlay 36/36 fail0；gap_open false
