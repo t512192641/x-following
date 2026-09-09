@@ -1,4 +1,5 @@
 ## 2026-09-08 20:00 ET（巡舟）
+- git d8e69e7；Pages HTTP 200 last-mod Wed, 09 Sep 2026 00:17:34 GMT；md5 51df11fa9887e328ad4bd82580d7ac19 live=local
 - source: DOM Following→Latest CDP chrome-profile-4 :9226；无官方 X API
 - prior_cursor: @agazdecki 2097415319463883054 2026-09-08T20:02:34Z
 - scraped 35；hit_cursor false / saw_older true → hit_cursor_effective；oldest_new @willcb 2097418444367142981 20:14:59Z；newest @grok 2097477180125266374 2026-09-09T00:08:23Z
