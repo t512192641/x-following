@@ -1,3 +1,15 @@
+## 2026-09-09 12:10 ET 补抓（主窗 12:00 漏跑→完整主抓）
+- source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
+- DOM 首轮 33 hit_cursor false oldest≈13:02Z gap≈29min（<45）未撞游标 → 同会话 HTL 补齐；union **149**；hit_cursor true；oldest_new @cnyzgkc 2097665256424349855 12:35:44Z；newest @affLeopard 2097721839682551982 16:20:35Z；gap≈2.1min；gap_open false
+- overlay 149/149 fail0；unresolved_tco 8；约 20 条 Grok Bot 推广文污染已从 HTL/DOM 回写
+- 窗类 正文53 / 拿不准38 / 已过滤58；页累计 正文57 / 拿不准64 / 已过滤157
+- 游标 → 2097721839682551982 @affLeopard；QA pass clippedBtns0；跳过 rec/ideas
+- 主窗漏跑由本补抓完成 → WakeParent 交付
+
+## 2026-09-09 22:27 CST（2026-09-09 10:27 ET）规则变更
+
+- **名单 overdue 自动补跑**：用户同意、幕僚长拍板。健康检查（`x-3`）发现今日 x-lists（`x-4`）未跑/overdue 时，**当场便宜补跑**（头顶+人数，有变再写），不等拍板、不打扰用户；补跑后向幕僚长一句结果。仍记 changelog「调度漏叫」证据。主窗仍靠 :10 补抓兜底。**不要**改走付费 X API；**不要**启 grok大总管 旧四条 routine。规则已写入 `x-3` prompt + `/workspace/x-lists/playbook.md`（私有 sync grok-ops）。
+
 ## 2026-09-09 21:54 CST（2026-09-09 09:54 ET）
 
 - **持续质量问题（调度漏叫）**：主窗整点漏跑、靠 :10 补抓兜底——今日再证：`2026-09-09 8:00` 主窗漏跑，由 `8:10` 补抓完整主抓（DOM+HTL128 → 页 正文33/拿不准26/已过滤99，chat t34s15）。**不要**为此改走付费 X API；**不要**重开 grok大总管 旧四条 routine（须保持 disabled）。
