@@ -1,3 +1,9 @@
+## 2026-09-09 0:10 ET 补抓
+- 齐，未重抓；页 09-08 正文91 / 拿不准47 / 已过滤234
+- raw 180 / overlay 180/180 / gap_open false / 游标未变 @affLeopard 2097537876615737505
+- Pages 200 last-mod 04:38:05 GMT md5 match git 8cefdf0
+- chat_delivery：WakeParent 交昨天完整页
+
 ## 2026-09-09 0:00 ET
 - git 8cefdf0；Pages HTTP 200 last-mod Wed, 09 Sep 2026 04:34:26 GMT；md5 b4e964f65bb7781931ba16a85dcdc189 live=local
 - source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
