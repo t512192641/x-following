@@ -1,3 +1,12 @@
+## 2026-09-09 4:10 ET 补抓
+- 齐，未重抓；页 09-09 正文9 / 拿不准8 / 已过滤25
+- raw/04.jsonl 36；class 正文12/拿不准8/已过滤16 miss0；overlay 36/36 fail0；gap_open false
+- 游标未变 @derrickcchoi 2097596831765323975；跳过 rec/ideas
+- Pages 200 last-mod 08:19:45 GMT md5 00d3f702 live=local git f15e4f2
+- trunc 4（1已过滤 Derrick 省略号；Zho×2 Pinterest 截断已并「见原帖」；姚金刚 TokEMS 已并含 GitHub，无需补全文）
+- chat_delivery：主窗待交 → 本补抓 WakeParent 交今天第一页
+- 写于 2026-09-09 16:24 CST
+
 ## 2026-09-09 4:00 ET
 - DOM Following→Latest 36；hit_cursor；gap≈5.53min；未跑 HTL；gap_open false
 - overlay 36/36 fail0；分类写回 正文12/拿不准8/已过滤16
