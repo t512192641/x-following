@@ -1,3 +1,8 @@
+## 2026-09-09 21:54 CST（2026-09-09 09:54 ET）
+
+- **持续质量问题（调度漏叫）**：主窗整点漏跑、靠 :10 补抓兜底——今日再证：`2026-09-09 8:00` 主窗漏跑，由 `8:10` 补抓完整主抓（DOM+HTL128 → 页 正文33/拿不准26/已过滤99，chat t34s15）。**不要**为此改走付费 X API；**不要**重开 grok大总管 旧四条 routine（须保持 disabled）。
+- **持续质量问题（名单）**：`x-4` 今日 `09:23 ET` 漏跑（enabled=true，上次成功仍 2026-09-08）；幕僚长代拍板立刻补跑便宜检查。证据写入 health/本条；补跑结果另记 meta/task-board。
+
 ## 2026-09-09 8:10 ET 补抓（主窗 8:00 漏跑→完整主抓）
 - source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
 - DOM 首轮 42 hit_cursor false oldest≈09:08Z gap≈64min → 同会话 HTL 补齐；union **128**；hit_cursor true；oldest_new @PMbackttfuture 2097598374916874398 08:09:58Z；newest @xiaohu 2097664725873992054 12:33:38Z；gap≈6.13min；gap_open false
