@@ -1,3 +1,18 @@
+## 2026-09-09 16:00 ET（巡舟）
+- source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
+- DOM 首轮 35 hit_cursor false oldest≈16:28Z gap≈8min（<45）未撞游标 → 同会话 HTL 补齐；union **116**；HTL hit_cursor true；oldest_new @lennysan 2097722497416528064 16:23:11Z；newest @bearliu 2097778625697517576 20:06:13Z；gap≈2.6min；gap_open false
+- overlay 116/116 fail0；unresolved_tco 0；33 条 Muse/Meta sunglasses 污染文已从 HTL 回写
+- 窗类 正文36 / 拿不准23 / 已过滤57；页累计 正文75 / 拿不准87 / 已过滤214
+- 游标 → 2097778625697517576 @bearliu；QA pass clippedBtns0；跳过 rec/ideas
+- chat：交大总管投递（executor 不 WakeParent）
+- 写于 2026-09-10 04:25 CST
+
+## 2026-09-09 12:00 主窗迟到火（~12:46 ET）
+- 齐，未重抓；12:10 补抓已完整主抓（raw149 / 页 正文57/拿不准64/已过滤157）
+- 游标未变 @affLeopard 2097721839682551982；Pages 200 md5 707848de
+- chat：主窗迟到复核 WakeParent 交
+- 写于 2026-09-10 00:48 CST
+
 ## 2026-09-09 12:10 ET 补抓（主窗 12:00 漏跑→完整主抓）
 - source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
 - DOM 首轮 33 hit_cursor false oldest≈13:02Z gap≈29min（<45）未撞游标 → 同会话 HTL 补齐；union **149**；hit_cursor true；oldest_new @cnyzgkc 2097665256424349855 12:35:44Z；newest @affLeopard 2097721839682551982 16:20:35Z；gap≈2.1min；gap_open false
