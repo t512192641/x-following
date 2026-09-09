@@ -1,3 +1,14 @@
+## 2026-09-08 20:00 ET（巡舟）
+- source: DOM Following→Latest CDP chrome-profile-4 :9226；无官方 X API
+- prior_cursor: @agazdecki 2097415319463883054 2026-09-08T20:02:34Z
+- scraped 35；hit_cursor false / saw_older true → hit_cursor_effective；oldest_new @willcb 2097418444367142981 20:14:59Z；newest @grok 2097477180125266374 2026-09-09T00:08:23Z
+- gap≈12.4min <45；gap_open false；无 HTL；无 AUTH_FAIL
+- overlay 35/35 fail0（CDP DOM）；空文 @verysmallwoods 点开 X 文章补全文；写回 20.jsonl
+- 窗类 正文11 / 拿不准7 / 已过滤17（classification 写回；_class20.json）
+- 页 totals 正文73 / 拿不准40 / 已过滤125（并 Images2.5 / Muse / Build / Grok Bot Marketplace；新卡 paulg过渡 / CUBE Type / Lunch Atlas / ChatOllama Runtime / Lenny人机循环；并 recommended 2026-09-07×8 + ideas 2026-09-08×3）
+- QA 20-qa.png pass clippedBtns0
+- 游标推进 @grok 2097477180125266374
+
 ## 2026-09-08 16:00 ET
 
 - DOM Following→Latest（CDP :9226）**27**（hit_cursor false / hit_cursor_effective true saw_older；oldest_new @alex_prompter 2097362049328120080 ≈游标后 8.5min；newest @agazdecki 2097415319463883054；gap_open false；未开 HTL）。
