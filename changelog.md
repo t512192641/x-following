@@ -1,3 +1,21 @@
+## 2026-09-10 0:00 ET
+
+- source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
+- DOM 首轮 37 hit_cursor false gap≈58.8min → HTL；首轮 HTL 点选失败仅 2 → 刷新+正在关注+查看新帖子后 HTL160 hit_cursor；union **161**；oldest @gengdaJ 00:44:50Z；newest @op7418 04:20:54Z；gap≈2.72min；gap_open false
+- overlay 161/161 fail0；unresolved_tco 0
+- 窗类 正文48 / 拿不准16 / 已过滤97（pre 40/16/84）；页 09-09 累计 **正文127 / 拿不准127 / 已过滤334**；薄种子 09-10 **6 / 0 / 13**
+- QA 00-qa.png pass clippedBtns0；跳过 rec/ideas；游标 → @op7418 2097903114192138243
+- chat：交昨天完整版（WakeParent）
+- 写于 2026-09-10 12:42 CST
+
+## 2026-09-09 20:10 ET 补抓
+
+- 齐，未重抓；产物完整：raw/20.jsonl 83 class 23/24/36 miss0；overlay 83/83 fail0；gap_open false；QA 20-qa.png pass
+- 页 09-09 正文103 / 拿不准111 / 已过滤250；Pages 200 last-mod 00:55:57 GMT md5 32193489 live=local git 2c7ad5b
+- 游标未变 @imwsl90 2097848056888889743；已并 rec 09-08 + ideas 09-09（主窗已做）；trunc 2 均已过滤，无需补全文
+- chat_delivery：主窗 pending → 本补抓 WakeParent 交今天页
+- 写于 2026-09-10 09:00 CST
+
 ## 2026-09-09
 
 - 20:00 ET 抓 83（DOM14+HTL82）并进 09 日页。窗类 正文23 / 拿不准24 / 已过滤36。页累计 正文103 / 拿不准111 / 已过滤250。已并 recommended 2026-09-08（8）+ ideas 2026-09-09（3，脑洞）。DOM 首轮未撞游标且 gap≈222min，管理时间线→最近后 HTL 撞游标，gap≈4.72min。overlay 83/83，19 条 Trusted Person/父帖污染已从 HTL 回写。QA 20-qa.png pass clippedBtns0。游标到 @imwsl90 2097848056888889743。

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>X 关注汇总 2026-09-10（正文 6 / 拿不准 0 / 已过滤 13）</title>
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; }
+article:not(.is-open) { height: 320px; }
+article.is-open { height: auto; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+article.is-open h3 {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  overflow: visible;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+article:not(.is-open) .fold { overflow: hidden; }
+article.is-long:not(.is-open) .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 2026-09-10</h1>
+<p class="meta">0:00 ET 薄种子（不聊天交付）。正文 6 / 拿不准 0 / 已过滤 13。完整版等 4:00 ET。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="103" data-pane="pane-main" type="button">正文 6</button>
+<button class="tab" data-count="111" data-pane="pane-maybe" type="button">拿不准 0</button>
+<button class="tab" data-count="250" data-pane="pane-filtered" type="button">已过滤 13</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+<section class="group"><h2>模型 / 产品</h2><div class="grid"><article class="card"><h3>Berryxia：YouWare 协作——成品/线程/任务状态同步</h3><p class="byline">Berryxia.AI <a href="https://x.com/berryxia" rel="noopener noreferrer" target="_blank">@berryxia</a></p><div class="fold"><p>卧槽！终于等到一个可以协作的AI！
+协作里最耗人的，往往是把同一件事再讲一遍。</p><p>特么你和AI协作完成了一个ppt、文稿，还要发给领导，你再把领导的要求发给AI继续改，包括其他同事的信息传递。</p><p>在这个过程中信息丢失就会发生，与其这样不如将其拉到一起指挥AI干活就行了。</p><p>YouWare上线了协作功能：一份成品、一条线程、任务状态同步。</p><p>网站、幻灯片、表格、报告都能接着上次往下做，不用每次重新给队友和Agent交代背景。过程可见，进度共享，做到哪就从哪继续。</p><p>当工作和大家的上下文都完整对齐的时候，协作才是真正的开始～</p><p>你觉得这种按成品协作的方式，能减少多少重复沟通？
+ 
+https://
+x.com/YouWareAI/stat
+us/2097897325842887149/video/1
+…</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/berryxia/status/2097902934281642271" rel="noopener noreferrer" target="_blank">原帖 · Berryxia.AI</a><a href="https://x.com/berryxia/status/2097902735589044557" rel="noopener noreferrer" target="_blank">原帖 · Berryxia.AI</a></p></article><article class="card"><h3>向阳：豆包输入法 Windows 版</h3><p class="byline">向阳乔木 <a href="https://x.com/vista8" rel="noopener noreferrer" target="_blank">@vista8</a></p><div class="fold"><p>豆包输入法Windows版下载：
+https://
+shurufa.doubao.com/pc</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/vista8/status/2097900955241177091" rel="noopener noreferrer" target="_blank">原帖 · 向阳乔木</a><a href="https://x.com/vista8/status/2097900879081025865" rel="noopener noreferrer" target="_blank">原帖 · 向阳乔木</a></p></article><article class="card"><h3>耿达：汽车硬件工程师推豆包工作——多项能力领先 Codex</h3><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><div class="fold"><p>前两天我和一个常用豆包工作的汽车硬件工程师聊天，听他的建议试用了下豆包工作，我只能说大家可能都低估了它。。。它的很多功能甚至很领先Codex。。。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/gengdaJ/status/2097899307110449516" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section><section class="group"><h2>方法 / 提示</h2><div class="grid"><article class="card"><h3>yibie 译：Zed 创始人《Xanadu 等的是 agent》——文档宇宙缺完美读者</h3><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><div class="fold"><p>Zed 创始人：Nelson 1965 年设计的文档宇宙空等了六十年——不是因为他错了，是因为他漏掉了最后一块依赖：一种会读一切的完美用户。agent 就是那个人。</p><p>《Xanadu 等的是 agent》</p><p>---</p><p>Xanadu 等的是 agent</p><p>作者：Nathan Sobo（Zed 创始人），2026-09-01</p><p>今年 Ted Nelson 在我脑子里出现得非常多。</p><p>Nelson 是计算先驱，1965 年他创造了"超文本"（hypertext）这个词——这是他职业生涯里定义性的项目 Project Xanadu（上都计划）的一部分。带着 Xanadu，他对计算能成为什么有一个具体愿景，他称之为"文档宇宙"（docuverse）。他想象一个系统：能保留文档的每一个版本；超文本链接知道自己的源和目的地；引用按"引用"保留（而不是复制），所以任何被包含的文本都保有自己的身份和出处。在这个版本的计算里，一切都是"缠绕交织"（intertwingled）和"仙那都式的"（xanalogical）。我们说的是精确到跨度的出处标注。</p><p>"仙那都式"意味着遵守两条规则：永不复制，永远引用（Nelson 造词：transclusion，引用嵌入）；永不覆盖，永远保留版本。按 Nelson 的设计，Xanadu 自己管理系统复杂度和海量记账的负担，用户只体验到一个"永不遗忘"的系统的好处。</p><p>这个无限记账的愿景，需要无限存储和面向未来的命名方案——这两个东西在 Nelson 研究 Xanadu 的几十年里都不存在。所以当 90 年代 web 技术爆炸时，开发者绕过了仙那都式计算，选择了简单：链接是简单字符串，目标移动就会断。维护成了用户的问题——而不是系统的责任——但任何人都能快速交付，他们就这么做了。Xanadu 从新时代的承诺褪色成计算史上最著名的"雾件"（vaporware）。</p><p>Nelson 整个职业生涯都在解释：web 是超文本本该成为的样子的扁平化戏仿。他说得对，但那不重要，因为人们其实并不需要能跟随每一个链接或比较每一个版本。我们是一个躁动的物种，更倾向于跟随看到别人在走的链接、读看到的版本。扁平够用了。</p><p>然后 agent 来了。</p><p>让 agent 成为尴尬协作者的特质，恰恰让它成为 Nelson 系统的完美公民。agent 能跟随比人类脑子一次性容纳的更多</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yibie/status/2097902402628124735" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>Cell：马格利特苹果便利贴座——可复用生图提示词</h3><p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" rel="noopener noreferrer" target="_blank">@cellinlab</a></p><div class="fold"><p>马格利特脸前的苹果，被我撕下来一片。</p><p>下面居然还有一片 😂</p><p>把《人类之子》画成苹果便利贴座之后，挡住脸的苹果，就成了每天都能用的纸。</p><p>这个点子可以从“什么能被替换”开始想：</p><p>① 保留礼帽、西装、红领带和遮脸构图。
+② 把立体苹果换成一叠苹果形纸张。
+③ 加一个撕纸动作，让人一眼看懂它是什么。</p><p>生图提示词：</p><p>&gt; 生成一张16:9横版设计展示图。左侧放马格利特《人类之子》的画作参考，中间是同款便利贴座的正面和侧面铅笔草图，右侧是桌面使用效果。一尊戴黑色圆顶礼帽、穿深灰西装和红领带的小胸像，底部平稳，脸前固定着一叠绿色苹果形便利贴。纸张侧面有清晰的薄层。一只真实的手轻轻揭起最外层的一张，纸角自然弯曲，下面仍是完整的绿色苹果形纸张。一定是薄纸，不是真苹果或切片水果。表现哑光帽子、树脂胸像和纸张的材质差别，胡桃木桌面，柔和窗光。草图与物件造型一致，不加文字、Logo或URL。</p><p>这张最关键的是“薄”：纸张要有弯曲和分层，撕下的是一张便利贴。</p><p>如果生成成一块苹果皮，功能就变味了。</p><p>Flatrouter 的 GPT Image 2.5 报价 ¥0.05/张，1K、2K、4K 同价！</p><p>想自己试试，可以先收藏这套流程，然后接入（新用户 ¥19.9 试用👉
+https://t.co/4jxzyPYWVG</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/cellinlab/status/2097901637889393064" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>Mai Yang：快捷指令分享→Grok Bot 读拆入库（收藏变知识库）</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>铁柱作为开发者，深谙效率哲学，今天这一篇 快捷指令 跟大家的日常结合起来了。</p><p>通过快捷指令分享键接到 Grok Bot：读、拆、入库，人可以锁屏走人。</p><p>对想把收藏变成知识库的人，这条很实用。边界自己定：什么能进库，什么必须人审。</p><p>我继续把这类大家可以借鉴落地的 Grok Bot 经验找出来分享给大家。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2097899055443775765" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+<section class="group"><h2>拿不准</h2><div class="grid"></div></section></div>
+<div class="pane" id="pane-filtered">
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">歸藏(guizang.ai) <a href="https://x.com/op7418" rel="noopener noreferrer" target="_blank">@op7418</a></p><p>歸藏(guizang.ai)：@berryxia 哦哦 我第一次看到</p><p class="links"><a href="https://x.com/op7418/status/2097903114192138243" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><p>Mr Panda：米总回国的时候我们在杭州线下见了一面，聊了很长时间，很受益， 学习到了不少。  …</p><p class="links"><a href="https://x.com/PandaTalk8/status/2097903079727542407" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Austen Allred <a href="https://x.com/Austen" rel="noopener noreferrer" target="_blank">@Austen</a></p><p>Austen Allred：All I’m saying is if you’re ascribing a …</p><p class="links"><a href="https://x.com/Austen/status/2097902554139017366" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bob Zhang <a href="https://x.com/affLeopard" rel="noopener noreferrer" target="_blank">@affLeopard</a></p><p>Bob Zhang：今天是9月10日，教师节！ 孔子说：三人行，必有我师。  这么一想，我在 𝕏 上…</p><p class="links"><a href="https://x.com/affLeopard/status/2097902274249175256" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">ahhhhfs <a href="https://x.com/abskoop" rel="noopener noreferrer" target="_blank">@abskoop</a></p><p>ahhhhfs：国行版iPhone 为啥和外版价格差那么多🤡  大家买什么版本 https://…</p><p class="links"><a href="https://x.com/abskoop/status/2097901710945431616" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><p>Mai Yang：我马上就要参加 Grok Bot 团队 Lauren Tan 给 Ambassa…</p><p class="links"><a href="https://x.com/MaiYangAI/status/2097901083456835719" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">双拼推友 <a href="https://x.com/LostXtui" rel="noopener noreferrer" target="_blank">@LostXtui</a></p><p>双拼推友：土豆拼青椒 https://t.co/rfKIa3vhE6</p><p class="links"><a href="https://x.com/LostXtui/status/2097900132876652654" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" rel="noopener noreferrer" target="_blank">@AI_Jasonyu</a></p><p>鱼总聊AI：我挺喜欢这个广告视频，场景切的很好👍</p><p class="links"><a href="https://x.com/AI_Jasonyu/status/2097899699625762981" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">huangserva <a href="https://x.com/servasyy_ai" rel="noopener noreferrer" target="_blank">@servasyy_ai</a></p><p>huangserva：这个缝是不是无解？  最可怕不是这个缝，而是用久了： 中间会裂开，华为就是这样！…</p><p class="links"><a href="https://x.com/servasyy_ai/status/2097898383474369001" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">dontbesilent <a href="https://x.com/dontbesilent" rel="noopener noreferrer" target="_blank">@dontbesilent</a></p><p>dontbesilent：发的内容才是个人简介  个人简介这个地方，一般写的是微信或者邮箱</p><p class="links"><a href="https://x.com/dontbesilent/status/2097898079949378025" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Plato <a href="https://x.com/0xPlato" rel="noopener noreferrer" target="_blank">@0xPlato</a></p><p>Plato：https://t.co/jKie64QkBR 注册了一个新域名SellerFD…</p><p class="links"><a href="https://x.com/0xPlato/status/2097897999884263910" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">双拼推友 <a href="https://x.com/LostXtui" rel="noopener noreferrer" target="_blank">@LostXtui</a></p><p>双拼推友：哪哪都有你，死绿鸟 https://t.co/uza9M7dNVO</p><p class="links"><a href="https://x.com/LostXtui/status/2097897910285541705" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Yanhua <a href="https://x.com/yanhua1010" rel="noopener noreferrer" target="_blank">@yanhua1010</a></p><p>Yanhua：卧槽，忍不住笑出声了🤣🤣🤣  折叠屏的折痕甚至破损问题貌似无解。 https:/…</p><p class="links"><a href="https://x.com/yanhua1010/status/2097897898545746374" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+</div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    function setOpen(art, open) {
+      var btn = art.querySelector(".more");
+      art.classList.toggle("is-open", open);
+      if (btn) btn.textContent = open ? "收起" : "展开";
+    }
+    for (var i = 0; i < articles.length; i++) {
+      var art = articles[i];
+      var fold = art.querySelector(".fold");
+      var btn = art.querySelector(".more");
+      if (!fold || !btn) continue;
+      if (fold.scrollHeight > fold.clientHeight + 6) {
+        art.classList.add("is-long");
+        btn.hidden = false;
+        btn.textContent = "展开";
+        btn.addEventListener("click", function () {
+          setOpen(this.parentElement, !this.parentElement.classList.contains("is-open"));
+        });
+      }
+    }
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) exp.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], true);
+      }
+    });
+    if (col) col.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], false);
+      }
+    });
+  })();
+</script>
+</body>
+</html>
