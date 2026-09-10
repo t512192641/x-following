@@ -1,4 +1,24 @@
+## 2026-09-10 9:25 ET 健康检查
+
+## 2026-09-10 12:00 ET
+- 巡舟主窗：DOM28 + HTL107 → union110；hit_cursor_effective；gap≈0.17min；gap_open false
+- overlay 110/110 fail0；窗类 正文30 / 拿不准23 / 已过滤57 miss0
+- 页累计 正文47 / 拿不准61 / 已过滤186；QA 12-qa.png pass clippedBtns0
+- 游标 → @genspark_ai 2098080790903243009
+- 跳过 rec/ideas；无官方 X API
+
+- 主窗：最近 8:00/8:10 齐；raw/08.jsonl 94 overlay 94/94；页 正文32/拿不准38/已过滤129；Pages 200 md5 dc37ff47 live=local；游标 @agazdecki 2098023015745572924；下窗 12:00 ET 未到期；gap_open false；旧四条 grok大总管 X routine 仍 disabled。
+- **名单调度漏叫**：今日 9:23 ET `x-4` 未醒（last run 仍 9/9）；按拍板当场便宜补跑。
+- 名单补跑：关注 **151→152** 头顶变 **@GrokBotRadar**（user_id 1965962389032935736，旧头 @grok 现第2）；bookmarks 头顶未变 AdrianPunk115 / 162；已写 following.jsonl + meta；抓完 x.com/home。
+- 写于 2026-09-10 21:35 CST
+
 ## 2026-09-10 8:00 ET
+
+## 2026-09-10 8:10 ET 补抓
+
+- 复核 8:00 窗：raw/08.jsonl 94、overlay 94/94、分类 26/17/51 miss0、gap_open false、页 正文32/拿不准38/已过滤129、Pages 200 md5 dc37ff47 live=local、git 5b38e9b；未重抓。
+- chat 主窗 pending，由本补抓 WakeParent 交付。
+
 - 窗完成：DOM33+HTL76→union94；overlay 94/94 fail0；分类 正文26/拿不准17/已过滤51；页累计 正文32/拿不准38/已过滤129
 - 游标推进 @agazdecki 2098023015745572924 12:17:20Z；gap≈5.87min；gap_open false
 - 跳过 recommended/ideas；QA pass clippedBtns0
