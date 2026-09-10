@@ -1,3 +1,15 @@
+## 2026-09-09
+
+- 20:00 ET 抓 83（DOM14+HTL82）并进 09 日页。窗类 正文23 / 拿不准24 / 已过滤36。页累计 正文103 / 拿不准111 / 已过滤250。已并 recommended 2026-09-08（8）+ ideas 2026-09-09（3，脑洞）。DOM 首轮未撞游标且 gap≈222min，管理时间线→最近后 HTL 撞游标，gap≈4.72min。overlay 83/83，19 条 Trusted Person/父帖污染已从 HTL 回写。QA 20-qa.png pass clippedBtns0。游标到 @imwsl90 2097848056888889743。
+
+## 2026-09-09 16:10 ET 补抓
+
+- 齐，未重抓；产物完整：raw/16.jsonl 116 class 36/23/57 miss0；overlay 116/116 fail0；gap_open false；QA 16-qa.png pass
+- 页 09-09 正文75 / 拿不准87 / 已过滤214；Pages 200 last-mod 20:24:38 GMT md5 5f2cfa42 live=local git b9f798b
+- 游标未变 @bearliu 2097778625697517576；跳过 rec/ideas；trunc 5（3已过滤+2拿不准，无需补全文）
+- chat_delivery：主窗 pending_parent → 本补抓 WakeParent 交今天页
+- 写于 2026-09-10 04:27 CST
+
 ## 2026-09-09 16:00 ET（巡舟）
 - source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
 - DOM 首轮 35 hit_cursor false oldest≈16:28Z gap≈8min（<45）未撞游标 → 同会话 HTL 补齐；union **116**；HTL hit_cursor true；oldest_new @lennysan 2097722497416528064 16:23:11Z；newest @bearliu 2097778625697517576 20:06:13Z；gap≈2.6min；gap_open false
