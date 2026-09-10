@@ -1,3 +1,45 @@
+## 2026-09-10 16:00 ET
+
+- raw/16.jsonl union **123**（DOM62 + HTL96 + 近游标 status 补4；首轮 DOM22 hit_cursor true；深扫补洞；max_internal≈11.5min；gap_open false）
+- overlay **123/123 fail0** unresolved_tco 0
+- class 正文**37** / 拿不准**35** / 已过滤**51** miss0
+- 页累计 正文**63** / 拿不准**96** / 已过滤**237**；跳过 rec/ideas
+- QA 16-qa.png pass clippedBtns0
+- 游标推进 → @SahilBloom 2098148004045738452 2026-09-10T20:34:00.000Z
+- chat_delivery pending（parent WakeParent）
+- 无 AUTH_FAIL
+
+## 2026-09-10 15:25 ET 健康检查
+
+- 主窗 12:00 齐：raw/12.jsonl 110 class 30/23/57 miss0；overlay 110/110 fail0；gap_open false；页 正文47/拿不准61/已过滤186；QA 12-qa.png pass；游标 @genspark_ai 2098080790903243009；git 2223a46；Pages 200 last-mod 16:24:44 GMT md5 5ad4df93 live=local；chat 已交 t36s13。
+- 12:10 补抓：齐，未重抓；gap_open false。
+- 名单：今日已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期（约 +5min）。无 AUTH_FAIL；无官方 X API；无 overdue gap。本 routine 约 15:55 ET 迟到火，仍按 15:25 窗核对。
+
+## 2026-09-10 14:25 ET 健康检查
+
+- 主窗 12:00 齐：raw/12.jsonl 110 class 30/23/57 miss0；overlay 110/110 fail0；gap_open false；页 正文47/拿不准61/已过滤186；QA 12-qa.png pass；游标 @genspark_ai 2098080790903243009；git 2223a46；Pages 200 last-mod 16:24:44 GMT md5 5ad4df93 live=local；chat 已交 t36s13。
+- 12:10 补抓：齐，未重抓（x-2 last run 12:59 CST 已确认）。
+- 名单：今日已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 02:35 CST
+
+## 2026-09-10 13:25 ET 健康检查
+
+- 主窗 12:00 齐：raw/12.jsonl 110 class 30/23/57 miss0；overlay 110/110 fail0；gap_open false；页 正文47/拿不准61/已过滤186；QA 12-qa.png pass；游标 @genspark_ai 2098080790903243009；git 2223a46；Pages 200 last-mod 16:24:44 GMT md5 5ad4df93 live=local；chat 已交 t36s13。
+- 12:10 补抓：齐，未重抓（x-2 正点迟到约 01:01 CST 已确认）；gap_open false。
+- 名单：今日已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 01:43 CST
+
+## 2026-09-10 12:25 ET 健康检查
+
+- 主窗 12:00 齐：raw/12.jsonl 110 class 30/23/57 miss0；overlay 110/110 fail0；gap_open false；页 正文47/拿不准61/已过滤186；QA 12-qa.png pass；游标 @genspark_ai 2098080790903243009；git 2223a46；Pages 200 last-mod 16:24:44 GMT md5 5ad4df93 live=local；chat 已交 t36s13。
+- **补抓调度漏叫**：今日 12:10 ET `x-2` 未醒（last run 仍 08:28 ET）；主窗已完整且 chat 已交，健康检查未扩大重跑；复核齐，未重抓。
+- 名单：今日已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期。无 AUTH_FAIL；无官方 X API。
+- 写于 2026-09-11 00:58 CST
+
 ## 2026-09-10 9:25 ET 健康检查
 
 ## 2026-09-10 12:00 ET
