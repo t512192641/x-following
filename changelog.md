@@ -1,4 +1,9 @@
+## 2026-09-10 8:00 ET
+- 窗完成：DOM33+HTL76→union94；overlay 94/94 fail0；分类 正文26/拿不准17/已过滤51；页累计 正文32/拿不准38/已过滤129
+- 游标推进 @agazdecki 2098023015745572924 12:17:20Z；gap≈5.87min；gap_open false
+- 跳过 recommended/ideas；QA pass clippedBtns0
 ## 2026-09-10 4:10 ET 补抓
+
 - 齐，未重抓；页 09-10 正文20/拿不准21/已过滤78；raw/04.jsonl 111 class 25/21/65 miss0；overlay 111/111 fail0；gap_open false
 - 游标未变 @gengdaJ 2097960663616471410；Pages 200 last-mod 08:32:37 GMT md5 1326e2de live=local git 73456f8
 - trunc 已并页卡无需补全文；跳过 rec/ideas；主窗 chat pending → 本补抓 WakeParent 交今天第一版
