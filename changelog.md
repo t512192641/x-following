@@ -1,4 +1,17 @@
+## 2026-09-10 4:00 ET
+- source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
+- DOM 首轮 43 hit_cursor false oldest≈04:49Z gap≈29min（<45）→ 同会话 HTL；刷新+正在关注+查看新帖子+最近后 HTL110 HIT CURSOR；union **111**；oldest @dontbesilent 04:28:21Z；newest @gengdaJ 08:09:35Z；gap≈7.45min；gap_open false
+- overlay 111/111 fail0；unresolved_tco 0；约 8 条父帖/卡片污染已从 HTL/DOM 回写
+- 窗类 正文25 / 拿不准21 / 已过滤65；页累计 **正文20 / 拿不准21 / 已过滤78**（含 0:00 薄种子）
+- QA 04-qa.png pass clippedBtns0；跳过 rec/ideas；游标 → @gengdaJ 2097960663616471410
+- chat：交今天第一版（executor 不 WakeParent；chat_delivery pending）
+- 写于 2026-09-10 16:35 CST
+
 ## 2026-09-10 0:00 ET
+
+## 2026-09-10 0:10 ET 补抓
+- 齐，未重抓；页 09-09 正文127/拿不准127/已过滤334；raw/00.jsonl 161 overlay 161/161；gap_open false；git 3fa02b2；Pages 200 md5 match；chat 由本补抓 WakeParent 交昨天完整版。
+
 
 - source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
 - DOM 首轮 37 hit_cursor false gap≈58.8min → HTL；首轮 HTL 点选失败仅 2 → 刷新+正在关注+查看新帖子后 HTL160 hit_cursor；union **161**；oldest @gengdaJ 00:44:50Z；newest @op7418 04:20:54Z；gap≈2.72min；gap_open false
