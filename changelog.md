@@ -3,7 +3,7 @@
 - DOM 首轮 43 hit_cursor false oldest≈04:49Z gap≈29min（<45）→ 同会话 HTL；刷新+正在关注+查看新帖子+最近后 HTL110 HIT CURSOR；union **111**；oldest @dontbesilent 04:28:21Z；newest @gengdaJ 08:09:35Z；gap≈7.45min；gap_open false
 - overlay 111/111 fail0；unresolved_tco 0；约 8 条父帖/卡片污染已从 HTL/DOM 回写
 - 窗类 正文25 / 拿不准21 / 已过滤65；页累计 **正文20 / 拿不准21 / 已过滤78**（含 0:00 薄种子）
-- QA 04-qa.png pass clippedBtns0；跳过 rec/ideas；游标 → @gengdaJ 2097960663616471410
+- QA 04-qa.png pass clippedBtns0；跳过 rec/ideas；游标 → @gengdaJ 2097960663616471410；git 357b77a；Pages 200 md5 1326e2de live=local
 - chat：交今天第一版（executor 不 WakeParent；chat_delivery pending）
 - 写于 2026-09-10 16:35 CST
 
