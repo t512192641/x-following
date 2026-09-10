@@ -1,10 +1,16 @@
+## 2026-09-10 4:10 ET 补抓
+- 齐，未重抓；页 09-10 正文20/拿不准21/已过滤78；raw/04.jsonl 111 class 25/21/65 miss0；overlay 111/111 fail0；gap_open false
+- 游标未变 @gengdaJ 2097960663616471410；Pages 200 last-mod 08:32:37 GMT md5 1326e2de live=local git 73456f8
+- trunc 已并页卡无需补全文；跳过 rec/ideas；主窗 chat pending → 本补抓 WakeParent 交今天第一版
+- 写于 2026-09-10 16:37 CST
+
 ## 2026-09-10 4:00 ET
 - source: DOM Following→Latest + HTL（CDP chrome-profile-4 :9226；无官方 X API）
 - DOM 首轮 43 hit_cursor false oldest≈04:49Z gap≈29min（<45）→ 同会话 HTL；刷新+正在关注+查看新帖子+最近后 HTL110 HIT CURSOR；union **111**；oldest @dontbesilent 04:28:21Z；newest @gengdaJ 08:09:35Z；gap≈7.45min；gap_open false
 - overlay 111/111 fail0；unresolved_tco 0；约 8 条父帖/卡片污染已从 HTL/DOM 回写
 - 窗类 正文25 / 拿不准21 / 已过滤65；页累计 **正文20 / 拿不准21 / 已过滤78**（含 0:00 薄种子）
 - QA 04-qa.png pass clippedBtns0；跳过 rec/ideas；游标 → @gengdaJ 2097960663616471410；git 357b77a；Pages 200 md5 1326e2de live=local
-- chat：交今天第一版（executor 不 WakeParent；chat_delivery pending）
+- chat：交今天第一版（executor 不 WakeParent；chat_delivery pending；由 4:10 补抓 WakeParent）
 - 写于 2026-09-10 16:35 CST
 
 ## 2026-09-10 0:00 ET
