@@ -6,7 +6,7 @@
 - class：正文33 / 拿不准17 / 已过滤46 miss0；写回 12.jsonl。
 - page：基 post-08（45/56/93）→.bak-12；同题并入既有卡（V2Fun / Duo / Dialbot / Adam / WorkBuddy）+ 新卡；累计 **正文62 / 拿不准73 / 已过滤139**；跳过 rec/ideas。
 - QA：12-qa.png pass；clippedBtns 0。
-- cursor→@grok 2098447906986746346；git tip（发布后填）；Pages（发布后填）；chat pending 父代理交付。
+- cursor→@grok 2098447906986746346；git tip ab2e8c4；Pages 200 last-mod 16:44:20 GMT md5 bb572fd2 live=local；chat pending 父代理交付。
 - 写于 2026-09-12 00:48 CST
 
 ## 2026-09-11 11:25 ET 健康检查
