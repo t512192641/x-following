@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2098203738205024315
-- url: https://x.com/dotey/status/2098203738205024315
-- author: 宝玉
-- handle: @dotey
-- time_utc: 2026-09-11T00:15:28.000Z
-- updated: 2026-09-10 20:00 ET window
+- status_id: 2098266504680907080
+- url: https://x.com/JAVE1_/status/2098266504680907080
+- author: JAVE1_
+- handle: @JAVE1_
+- time_utc: 2026-09-11T04:24:53.000Z
+- updated: 2026-09-11 0:00 ET window

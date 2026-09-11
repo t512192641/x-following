@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>X 关注汇总 2026-09-11（正文 3 / 拿不准 3 / 已过滤 13）</title>
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; }
+article:not(.is-open) { height: 320px; }
+article.is-open { height: auto; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+article.is-open h3 {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  overflow: visible;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+article:not(.is-open) .fold { overflow: hidden; }
+article.is-long:not(.is-open) .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 2026-09-11</h1>
+<p class="meta">0:00 ET 薄种子（不聊天交付）。正文 3 / 拿不准 3 / 已过滤 13。完整版等 4:00 ET。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="83" data-pane="pane-main" type="button">正文 3</button>
+<button class="tab" data-count="109" data-pane="pane-maybe" type="button">拿不准 3</button>
+<button class="tab" data-count="290" data-pane="pane-filtered" type="button">已过滤 13</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+<section class="group"><h2>模型 / 产品</h2><div class="grid"><article class="card"><h3>卫斯理：Omamail（Omarchy 邮件插件 + Gmail + AI 整理）</h3><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><div class="fold"><p>吃饭去</p><p>Omamail</p><p>这个Omarchy邮件插件，对接gmail</p><p>支持AI对邮件的整理，我还在深度体验中 https://t.co/dYn45CA3ev</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/imwsl90/status/2098265236616917466" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>Summation 发布：AI analytics（Benchmark &amp; KP $35M）</h3><p class="byline">J.B. <a href="https://x.com/VibeMarketer_" rel="noopener noreferrer" target="_blank">@VibeMarketer_</a></p><div class="fold"><p>I co-founded Opendoor ($10B+ rev). Today, I’m launching Summation.</p><p>We raised $35M from Benchmark &amp;amp; Kleiner Perkins to build an AI analyst you can trust.</p><p>Here’s where Claude and ChatGPT fall short: 🧵 https://t.co/ZmXGGU8R8h</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/VibeMarketer_/status/2098262980253118964" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section><section class="group"><h2>方法 / 提示</h2><div class="grid"><article class="card"><h3>affLeopard：Show, don't tell——对话/故事/演示都适用</h3><p class="byline">Bob Zhang <a href="https://x.com/affLeopard" rel="noopener noreferrer" target="_blank">@affLeopard</a></p><div class="fold"><p>在英文的写作提醒里有一个原则叫「Show, don't tell」
+但是它不止于写作！</p><p>在和别人对话时：别说你在听；你把手机放下。</p><p>讲故事时：别说那一年很难；写出你在车里坐了二十分钟才进家门的那天晚上。
+在跟客户演示时：别说你的产品多多牛、多创新；展示那件只有它能做到的事。</p><p>结论和观点容易被推翻。但是画面却很难被反驳！</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/affLeopard/status/2098261480345145376" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+<section class="group"><h2>拿不准</h2><div class="grid"><article class="card"><h3>跑步的最终归宿是受伤。如果开始没受伤，后面就会越来越张狂，距离越来越长，速度越来越拼，和别人攀比成绩</h3><p class="byline">硅谷王川 Chuan <a href="https://x.com/Svwang1" rel="noopener noreferrer" target="_blank">@Svwang1</a></p><div class="fold"><p>跑步的最终归宿是受伤。如果开始没受伤，后面就会越来越张狂，距离越来越长，速度越来越拼，和别人攀比成绩越来越勤奋，最后在自己都不知道的某个节点突然就受伤了。</p><p>只要限制时间，最安全的运动还是游泳，太极拳，站桩，乒乓球。力量训练对于长寿是必须的，但为了避免因错误姿势而受伤，一定要找教练。</p><p>当一个运动员在你面前炫耀其体能时，不必在意，也不要去攀比。等他受伤时，那就是“拔了毛的凤凰不如鸡”，而受伤对于运动员来说，是数学上的必然。你只要保持不受伤，就已经赢了。😂</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/Svwang1/status/2098266416348844451" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>"We wanna bank the AIs. They deserve financial ser</h3><p class="byline">Garry Tan <a href="https://x.com/garrytan" rel="noopener noreferrer" target="_blank">@garrytan</a></p><div class="fold"><p>"We wanna bank the AIs. They deserve financial services as well."</p><p>@coinbase CEO @brian_armstrong on why agentic finance means giving every AI agent its own account.</p><p>Full episode linked in the replies. https://t.co/D4wX0zmXGg</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/garrytan/status/2098263071928320492" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>我正把家庭局域网升级到 2.5G。①移动送的光猫，已是 2.5G 网口。②Wi-Fi 7 路由器，大</h3><p class="byline">刘韧 <a href="https://x.com/liuren" rel="noopener noreferrer" target="_blank">@liuren</a></p><div class="fold"><p>我正把家庭局域网升级到 2.5G。①移动送的光猫，已是 2.5G 网口。②Wi-Fi 7 路由器，大都配 2.5G 网口。③2.5G 交换机，100 元上下。④我的飞牛 NAS，一个 5G 网口、一个 2.5G 网口。⑤USB 2.5G 网卡，30 多元。⑥主流苹果设备Wi-Fi，实际速率已超过千兆。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/liuren/status/2098261437999415663" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-filtered">
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">JAVE <a href="https://x.com/JAVE1_" rel="noopener noreferrer" target="_blank">@JAVE1_</a></p><p>3元一个的蜜桃 https://t.co/dcdXtxvnrT</p><p class="links"><a href="https://x.com/JAVE1_/status/2098266504680907080" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><p>以后真的要all in 自媒体了，  而且要成为一个自媒体博主，  就不能太在意个人的隐私生活的保护。    显然，我是一个对于个人隐私非常看重的人， 但是成为</p><p class="links"><a href="https://x.com/PandaTalk8/status/2098266062496366934" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh" rel="noopener noreferrer" target="_blank">@kevinma_dev_zh</a></p><p>X 上给人的感觉是就是：  人人都造了一个自己的软件工厂，Agent 自动化，只要有 Token ，什么都能造。  就是不跟你说，他怎么造的，他造了啥。</p><p class="links"><a href="https://x.com/kevinma_dev_zh/status/2098266003088285867" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" rel="noopener noreferrer" target="_blank">@cellinlab</a></p><p>兄弟们，OKX 这周撒了 5 万 U，前 800 名就能分！！  门槛只有 100 刀交易量，还剩 3 天，第一次上链的正好拿它练手   说下福利：OKX 钱包</p><p class="links"><a href="https://x.com/cellinlab/status/2098265814021657083" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><p>best account on X to learn how enterprise AI actually gets done:</p><p class="links"><a href="https://x.com/alex_prompter/status/2098265507874951187" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">AI产品黄叔 <a href="https://x.com/PMbackttfuture" rel="noopener noreferrer" target="_blank">@PMbackttfuture</a></p><p>上周日收到阿里的月饼礼盒 女儿问我的一句话让我有点心酸  她问爸爸你是不是没那么受欢迎了？ 我愣了下：她咋知道的！ 于是问她为何这么说  她说因为过去你都会收到</p><p class="links"><a href="https://x.com/PMbackttfuture/status/2098264519499989322" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Garry Tan <a href="https://x.com/garrytan" rel="noopener noreferrer" target="_blank">@garrytan</a></p><p>🚨 Nvidia's @JensenHuang has a message for the AI doomers: Don’t confuse fear wit</p><p class="links"><a href="https://x.com/garrytan/status/2098263107709915250" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">宝玉 <a href="https://x.com/dotey" rel="noopener noreferrer" target="_blank">@dotey</a></p><p>@imwsl90 可以试试让 AI 帮你弄，Codex 里面登陆网页</p><p class="links"><a href="https://x.com/dotey/status/2098262698190417937" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Garry Tan <a href="https://x.com/garrytan" rel="noopener noreferrer" target="_blank">@garrytan</a></p><p>Ben Davis of @IlluminatedArts chatting with @garrytan inspiring us all to partic</p><p class="links"><a href="https://x.com/garrytan/status/2098261603057799536" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><p>其实我之前是很信Anthropic这公司的  但现在他们无论发什么，我都感觉是一场营销活动</p><p class="links"><a href="https://x.com/lxfater/status/2098261465564381330" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Lenny Rachitsky <a href="https://x.com/lennysan" rel="noopener noreferrer" target="_blank">@lennysan</a></p><p>Lenny's Summit: where you can't walk 5 steps without running into someone buildi</p><p class="links"><a href="https://x.com/lennysan/status/2098261395355975696" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">宝玉 <a href="https://x.com/dotey" rel="noopener noreferrer" target="_blank">@dotey</a></p><p>这个更夸张 https://t.co/mQAQLOOj4r</p><p class="links"><a href="https://x.com/dotey/status/2098261118368067823" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Lenny Rachitsky <a href="https://x.com/lennysan" rel="noopener noreferrer" target="_blank">@lennysan</a></p><p>Thank you, @lennysan and team, for an extraordinary Lenny &amp;amp; Friends Summit t</p><p class="links"><a href="https://x.com/lennysan/status/2098260444612084188" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+</div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    function setOpen(art, open) {
+      var btn = art.querySelector(".more");
+      art.classList.toggle("is-open", open);
+      if (btn) btn.textContent = open ? "收起" : "展开";
+    }
+    for (var i = 0; i < articles.length; i++) {
+      var art = articles[i];
+      var fold = art.querySelector(".fold");
+      var btn = art.querySelector(".more");
+      if (!fold || !btn) continue;
+      if (fold.scrollHeight > fold.clientHeight + 6) {
+        art.classList.add("is-long");
+        btn.hidden = false;
+        btn.textContent = "展开";
+        btn.addEventListener("click", function () {
+          setOpen(this.parentElement, !this.parentElement.classList.contains("is-open"));
+        });
+      }
+    }
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) exp.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], true);
+      }
+    });
+    if (col) col.addEventListener("click", function () {
+      for (var i = 0; i < articles.length; i++) {
+        if (articles[i].classList.contains("is-long")) setOpen(articles[i], false);
+      }
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,3 +1,47 @@
+# 2026-09-11 0:00 ET（巡舟｜信息与数据运营）
+
+- 抓取：CDP chrome-profile-4 :9226；DOM Following→Latest + 同会话 HomeLatestTimeline；无官方 X API。login hasCompose。
+- 游标 prior 2098203738205024315 @dotey 00:15:28Z。首轮 DOM47；HTL 错流全旧；深扫 管理时间线→最近 → DOM68∪HTL98 → **union 105**；hit_cursor false / hit_cursor_effective true；gap_prior_to_oldest_new ≈16.97min；gap_open false；max_internal_gap 39.8min。
+- oldest_new @op7418 2098208006156746768 00:32:26Z；newest @JAVE1_ 2098266504680907080 04:24:53Z。
+- overlay 105/105 fail0 unresolved_tco0。
+- 分类写回 classification：窗 正文35 / 拿不准14 / 已过滤56（pre 32/11/43 → 09-10；after 3/3/13 → 09-11 薄种子）。
+- 页累计 **2026-09-10 正文103 / 拿不准120 / 已过滤333**；薄种子 09-11 **3 / 3 / 13**（不聊天交付）。跳过 rec/ideas。
+- QA 00-qa.png clippedBtns0 pass。
+- 游标推进 @JAVE1_ 2098266504680907080。
+- chat：`9/10 完整版：正文103 / 拿不准120 / 已过滤333。https://t512192641.github.io/x-following/2026-09-10.html`（parent WakeParent）。
+
+## 2026-09-10 23:25 ET 健康检查
+
+- 主窗 20:00 齐：raw/20.jsonl 86 class 18/15/53 miss0；overlay 86/86 fail0；gap_open false；页 正文83/拿不准109/已过滤290；QA 20-qa.png pass；游标 @dotey 2098203738205024315；git b4cfd9f；Pages 200 last-mod 00:34:48 GMT md5 9ecd05cd live=local；已并 rec/ideas。
+- 20:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s17（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/10）已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。下一日 09:23 ET 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 未到期（约 +27min）。无 AUTH_FAIL；无官方 X API；无 overdue gap。本趟 ~23:33 ET 正点再核无变化。
+- 写于 2026-09-11 11:34 CST
+
+## 2026-09-10 22:25 ET 健康检查
+
+- 主窗 20:00 齐：raw/20.jsonl 86 class 18/15/53 miss0；overlay 86/86 fail0；gap_open false；页 正文83/拿不准109/已过滤290；QA 20-qa.png pass；游标 @dotey 2098203738205024315；git b4cfd9f；Pages 200 last-mod 00:34:48 GMT md5 9ecd05cd live=local；已并 rec/ideas。
+- 20:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s17（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/10）已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。下一日 09:23 ET 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。本趟 ~22:29 ET 正点再核无变化。
+- 写于 2026-09-11 10:29 CST
+
+## 2026-09-10 21:25 ET 健康检查
+
+- 主窗 20:00 齐：raw/20.jsonl 86 class 18/15/53 miss0；overlay 86/86 fail0；gap_open false；页 正文83/拿不准109/已过滤290；QA 20-qa.png pass；游标 @dotey 2098203738205024315；git b4cfd9f；Pages 200 last-mod 00:34:48 GMT md5 9ecd05cd live=local；已并 rec/ideas。
+- 20:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s17（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/10）已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。下一日 09:23 ET 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。本趟 ~21:33 ET 正点再核无变化。
+- 写于 2026-09-11 09:34 CST
+
+## 2026-09-10 20:25 ET 健康检查
+
+- 主窗 20:00 齐：raw/20.jsonl 86 class 18/15/53 miss0；overlay 86/86 fail0；gap_open false；页 正文83/拿不准109/已过滤290；QA 20-qa.png pass；游标 @dotey 2098203738205024315；git b4cfd9f；Pages 200 last-mod 00:34:48 GMT md5 9ecd05cd live=local；已并 rec/ideas。
+- 20:10 补抓：齐，未重抓；gap_open false；chat 已由补抓 WakeParent 交（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/10）已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。下一日 09:23 ET 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。本趟 ~20:38 ET 正点再核无变化。
+- 写于 2026-09-11 08:39 CST
+
 ## 2026-09-10 20:00 ET · 2026-09-11
 
 - 20:00 ET 抓 86（DOM61∪HTL70）并进 09-10 日页。窗类 正文18 / 拿不准15 / 已过滤53。页累计 正文**83** / 拿不准**109** / 已过滤**290**。
