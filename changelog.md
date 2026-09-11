@@ -5,7 +5,7 @@
 - class：正文28 / 拿不准27 / 已过滤39 miss0；写回 08.jsonl。
 - page：基 post-04（30/30/54）→.bak-08；同题并入既有卡 + 新卡；累计 **正文45 / 拿不准56 / 已过滤93**；跳过 rec/ideas。
 - QA：08-qa.png pass；clippedBtns 0。
-- cursor→@pvncher 2098393250503471584；chat pending WakeParent。
+- cursor→@pvncher 2098393250503471584；git 40ac52f；Pages 200 last-mod 13:07:50 GMT md5 41e94dfe live=local；chat pending WakeParent。
 - 写于 2026-09-11 21:10 CST
 
 ## 2026-09-11 7:25 ET 健康检查
