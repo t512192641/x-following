@@ -1,3 +1,40 @@
+## 2026-09-10 20:00 ET · 2026-09-11
+
+- 20:00 ET 抓 86（DOM61∪HTL70）并进 09-10 日页。窗类 正文18 / 拿不准15 / 已过滤53。页累计 正文**83** / 拿不准**109** / 已过滤**290**。
+- 已并 recommended 2026-09-09（8）+ ideas 2026-09-10（2，脑洞）。
+- hit_cursor_effective true（HTL HIT CURSOR）；gap≈3.15min；gap_open false；无 AUTH_FAIL。
+- overlay 86/86 fail0；unresolved_tco 0；无明显 Trusted Person 污染（1 条误扩已从 HTL 回写）。
+- QA 20-qa.png pass clippedBtns0。
+- 游标 → @dotey 2098203738205024315 2026-09-11T00:15:28Z。
+- 写于 2026-09-11 08:33 CST
+
+## 2026-09-10 19:25 ET 健康检查
+
+- 主窗 16:00 齐：raw/16.jsonl 123 class 37/35/51 miss0；overlay 123/123 fail0；gap_open false；页 正文63/拿不准96/已过滤237；QA 16-qa.png pass；游标 @SahilBloom 2098148004045738452；git a51a52a；Pages 200 last-mod 21:02:04 GMT md5 67b2cb2a live=local。
+- 16:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s15（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/10）已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。下一日 09:23 ET 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 20:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 07:30 CST
+
+## 2026-09-10 18:25 ET 健康检查
+
+- 主窗 16:00 齐：raw/16.jsonl 123 class 37/35/51 miss0；overlay 123/123 fail0；gap_open false；页 正文63/拿不准96/已过滤237；QA 16-qa.png pass；游标 @SahilBloom 2098148004045738452；git a51a52a；Pages 200 last-mod 21:02:04 GMT md5 67b2cb2a live=local。
+- 16:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s15（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/10）已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。下一日 09:23 ET 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 20:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。本趟 ~18:36 ET 正点再核无变化。
+- 写于 2026-09-11 06:36 CST
+
+## 2026-09-10 17:25 ET 健康检查
+
+- 主窗 16:00 齐：raw/16.jsonl 123 class 37/35/51 miss0；overlay 123/123 fail0；gap_open false；页 正文63/拿不准96/已过滤237；QA 16-qa.png pass；游标 @SahilBloom 2098148004045738452；git a51a52a；Pages 200 last-mod 21:02:04 GMT md5 67b2cb2a live=local。
+- 16:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s15（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/10）已齐（09:35 补跑 + 09:58 x-4 复核）；meta 09:58 ET；following 152/@GrokBotRadar；bookmarks AdrianPunk115/162。非 overdue，未再抓。下一日 09:23 ET 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 20:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。先有 ~17:07 ET 早写；本趟 ~17:33 ET 正点再核无变化。16:25 未见独立跑次，由本检查覆盖 16 窗后状态。
+- 写于 2026-09-11 05:10 CST；正点复核 2026-09-11 05:33 CST
+
+## 2026-09-10 16:10 ET 补抓
+- 齐，未重抓。页 正文63 / 拿不准96 / 已过滤237；raw/16.jsonl 123 class 37/35/51；overlay 123/123；gap_open false；游标 @SahilBloom 2098148004045738452；Pages 200 last-mod 21:02:04 GMT md5 67b2cb2a live=local git a51a52a；trunc 10 无需补全文；跳过 rec/ideas；chat 本补抓 WakeParent。写于 2026-09-11 05:07 CST
+
 ## 2026-09-10 16:00 ET
 
 - raw/16.jsonl union **123**（DOM62 + HTL96 + 近游标 status 补4；首轮 DOM22 hit_cursor true；深扫补洞；max_internal≈11.5min；gap_open false）
