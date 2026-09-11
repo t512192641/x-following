@@ -1,3 +1,42 @@
+## 2026-09-11 16:00 ET
+
+- scrape：DOM Following→Latest + 同会话深扫 HTL；DOM51 ∪ HTL65 → union **74**；hit_cursor false；hit_cursor_effective true（HTL HIT CURSOR + gap≈5.65min）；oldest @affLeopard 2098449327412932794 2026-09-11T16:31:21.000Z；newest @GrokBotRadar 2098505983714886105 2026-09-11T20:16:29.000Z；max_internal_gap≈14.6min；gap_open false；无 AUTH_FAIL；无官方 X API。
+- overlay：74/74 fail0；污染 0；正文关键 t.co 已解析。
+- class：正文22 / 拿不准9 / 已过滤43 miss0；写回 16.jsonl。
+- page：基 post-12（62/73/139）→.bak-16；同题并入（V2Fun / Anthropic Threat / 出海 / 降智 / Images 2.5）+ 新卡；累计 **正文73 / 拿不准82 / 已过滤182**；跳过 rec/ideas。
+- QA：16-qa.png pass；clippedBtns 0。
+- cursor→@GrokBotRadar 2098505983714886105；git/pages 见推送；chat pending WakeParent。
+- 写于 2026-09-12 04:40 CST
+
+## 2026-09-11 15:25 ET 健康检查
+
+- 主窗 12:00 齐（12:10 补抓完整主抓）：raw/12.jsonl 96 class 正文33/拿不准17/已过滤46 miss0；overlay 96/96 fail0；gap_open false；页 09-11 正文62/拿不准73/已过滤139；QA 12-qa.png pass；游标 @grok 2098447906986746346；git tip 0f2e379（页 md5 bb572fd2=ab2e8c4 内容）；Pages 200 last-mod 16:45:00 GMT md5 bb572fd2 live=local；跳过 rec/ideas；chat 已交 t36s25。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。
+- 14:25 未见独立健康检查条目；本趟 ~15:05 ET 火覆盖核对。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期（约 +55min）。无 AUTH_FAIL；无官方 X API；无 overdue gap；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 03:05 CST
+
+## 2026-09-11 13:25 ET 健康检查
+
+- 主窗 12:00 齐（12:10 补抓完整主抓）：raw/12.jsonl 96 class 正文33/拿不准17/已过滤46 miss0；overlay 96/96 fail0；gap_open false；页 09-11 正文62/拿不准73/已过滤139；QA 12-qa.png pass；游标 @grok 2098447906986746346；git tip ab2e8c4；Pages 200 last-mod 16:45:00 GMT md5 bb572fd2 live=local；跳过 rec/ideas；chat 已交 t36s25。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期（约 +155min）。无 AUTH_FAIL；无官方 X API；无 overdue gap；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 01:27 CST
+
+## 2026-09-11 12:00 ET（主窗迟到火 ~12:50）
+
+- 齐，未重抓。12:10 补抓已完整主抓：raw/12.jsonl 96 class 正文33/拿不准17/已过滤46；页 正文62/拿不准73/已过滤139；游标 @grok 2098447906986746346；git ab2e8c4；Pages 200 md5 bb572fd2 live=local；gap_open false；QA 12-qa.png pass。
+- chat：12:10 补抓与 12:25 健康检查均记 pending；健康检查实调 WakeParent 被 Aborted；transcript 未见正文62 → 本主窗 WakeParent 交。
+- 写于 2026-09-12 00:52 CST
+
+## 2026-09-11 12:25 ET 健康检查
+
+- 主窗 12:00 齐（主窗漏跑→12:10 补抓完整主抓）：raw/12.jsonl 96 class 正文33/拿不准17/已过滤46 miss0；overlay 96/96 fail0；gap_open false；页 09-11 正文62/拿不准73/已过滤139；QA 12-qa.png pass；游标 @grok 2098447906986746346；git tip ab2e8c4；Pages 200 last-mod 16:45:00 GMT md5 bb572fd2 live=local；跳过 rec/ideas。
+- chat：board/12-meta 仍 pending（补抓写「交父代理」且 executor 未实调 WakeParent；transcript 未见正文62）→ 本健康检查 WakeParent 交用户一句。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期（约 +191min）。无 AUTH_FAIL；无官方 X API；无 overdue gap；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 00:49 CST
+
 ## 2026-09-11 12:00 ET（12:10 补抓接管）
 
 - 主窗漏跑：无 raw/12*；12:10 补抓完整主抓。
