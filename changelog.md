@@ -1,4 +1,39 @@
+## 2026-09-11 12:00 ET（12:10 补抓接管）
+
+- 主窗漏跑：无 raw/12*；12:10 补抓完整主抓。
+- scrape：DOM Following→Latest（排序「最近」）+ 同会话深扫 HTL；DOM24 ∪ HTL94 → union **96**；hit_cursor false；hit_cursor_effective true（HTL HIT CURSOR + gap≈8.1min）；oldest @lxfater 2098395288818127349 12:56:37Z；newest @grok 2098447906986746346 16:25:42Z；max_internal_gap≈18.8min；gap_open false；无 AUTH_FAIL；无官方 X API。
+- overlay：96/96 fail0；父帖污染约 38 条（SWE-2）已对照 HTL/DOM 回写；正文 t.co 解析 33/35（2 条文章链用 overlay article_url）。
+- class：正文33 / 拿不准17 / 已过滤46 miss0；写回 12.jsonl。
+- page：基 post-08（45/56/93）→.bak-12；同题并入既有卡（V2Fun / Duo / Dialbot / Adam / WorkBuddy）+ 新卡；累计 **正文62 / 拿不准73 / 已过滤139**；跳过 rec/ideas。
+- QA：12-qa.png pass；clippedBtns 0。
+- cursor→@grok 2098447906986746346；git tip（发布后填）；Pages（发布后填）；chat pending 父代理交付。
+- 写于 2026-09-12 00:48 CST
+
+## 2026-09-11 11:25 ET 健康检查
+
+- 主窗 8:00 齐（8:10 补抓齐未重抓）：raw/08.jsonl 94 class 28/27/39 miss0；overlay 94/94 fail0；gap_open false；页 09-11 正文45/拿不准56/已过滤93；QA 08-qa.png pass；游标 @pvncher 2098393250503471584；git tip 40ac52f；Pages 200 last-mod 13:08:44 GMT md5 41e94dfe live=local；跳过 rec/ideas；chat 已交 t36s23。
+- 12:00 窗：到期约 +4min，未满 15 分钟门槛；尚无 raw/12*；本健康检查不扩大主窗重跑，交 :10 补抓/主窗兜底。
+- 名单：今日 9:23 x-4 漏叫已由 9:25/9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 进行中/刚到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。本趟 ~12:04 ET 迟到火（覆盖 11:25）。
+
+## 2026-09-11 10:25 ET 健康检查
+
+- 主窗 8:00 齐（8:10 补抓齐未重抓）：raw/08.jsonl 94 class 28/27/39 miss0；overlay 94/94 fail0；gap_open false；页 09-11 正文45/拿不准56/已过滤93；QA 08-qa.png pass；游标 @pvncher 2098393250503471584；git tip 40ac52f；Pages 200 last-mod 13:08:44 GMT md5 41e94dfe live=local；跳过 rec/ideas；chat 已交 t36s23。
+- 名单：今日 9:23 x-4 漏叫已由 9:25/9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 未到期（约 +70min）。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 22:50 CST
+
+## 2026-09-11 9:25 ET 健康检查
+
+- 主窗 8:00 齐（8:10 补抓齐未重抓）：raw/08.jsonl 94 class 28/27/39 miss0；overlay 94/94 fail0；gap_open false；页 09-11 正文45/拿不准56/已过滤93；QA 08-qa.png pass；游标 @pvncher 2098393250503471584；git tip 0652e18（内容 40ac52f）；Pages 200 last-mod 13:08:44 GMT md5 41e94dfe live=local；跳过 rec/ideas；chat 已交 t36s23。
+- **名单调度漏叫**：今日 9:23 ET `x-4` 未醒（last run 仍 9/10 09:58）；按拍板当场便宜补跑。
+- 名单补跑：关注/书签头顶未变 **152/@GrokBotRadar** + **AdrianPunk115**（计数仍按 162）；logged in；未改 jsonl；meta 09:57 ET；书签 URL 曾跳 /i/history 但页签可读；抓完 x.com/home。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 21:57 CST
+
+
 ## 2026-09-11 8:00 ET
+- 8:10 ET 补抓：齐，未重抓；Pages live=local；trunc 无需补全文；chat 由补抓 WakeParent。写于 2026-09-11 21:11 CST
 
 - scrape：DOM Following→Latest（排序「最近」）+ 同会话深扫 HTL；首轮 DOM17/HTL2 管理面板错流 → 深扫 DOM58 ∪ HTL92 → union **94**；hit_cursor false；hit_cursor_effective true（HTL HIT CURSOR + gap≈4.1min）；oldest @elonmusk 2098331112858693655 08:41:37Z；newest @pvncher 2098393250503471584 12:48:31Z；max_internal_gap≈15.3min；gap_open false；无 AUTH_FAIL；无官方 X API。
 - overlay：94/94 fail0；父帖污染约 16 条已对照 HTL/DOM 回写；unresolved_tco 0。
