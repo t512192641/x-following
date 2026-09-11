@@ -5,7 +5,7 @@
 - class：正文22 / 拿不准9 / 已过滤43 miss0；写回 16.jsonl。
 - page：基 post-12（62/73/139）→.bak-16；同题并入（V2Fun / Anthropic Threat / 出海 / 降智 / Images 2.5）+ 新卡；累计 **正文73 / 拿不准82 / 已过滤182**；跳过 rec/ideas。
 - QA：16-qa.png pass；clippedBtns 0。
-- cursor→@GrokBotRadar 2098505983714886105；git/pages 见推送；chat pending WakeParent。
+- cursor→@GrokBotRadar 2098505983714886105；git tip dfefce2；Pages 200 last-mod 20:38:43 GMT md5 c59614b6 live=local；chat pending WakeParent。
 - 写于 2026-09-12 04:40 CST
 
 ## 2026-09-11 15:25 ET 健康检查
