@@ -1,3 +1,49 @@
+## 2026-09-11 4:00 ET（4:10 补抓接管）
+
+- 主窗 lastRunAt 04:12 ET 后约 12 分钟仍无 `raw/2026-09-11/04*`；4:10 补抓按漏跑模式完整主抓。
+- scrape：DOM Following→Latest（排序「最近」）+ 同会话深扫 HTL；union **101**（DOM66 ∪ HTL100）；hit_cursor false；hit_cursor_effective true（见 older + gap≈11.9min）；oldest @op7418 2098269498986180886 04:36:47Z；newest @bozhou_ai 2098330081114628438 08:37:31Z；max_internal_gap≈29.2min；gap_open false；无 AUTH_FAIL；无官方 X API。
+- overlay：101/101 fail0；曾误吸同一条 iPhone Duo 父帖文约 24 条，已对照 HTL/DOM 回写；unresolved_tco 0。
+- 分类写回 04.jsonl：正文 33 / 拿不准 27 / 已过滤 41 miss0。
+- 页：薄种子 3/3/13 → 今天第一版 **正文30 / 拿不准30 / 已过滤54**；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0。
+- 游标 → @bozhou_ai 2098330081114628438。
+- 写于 2026-09-11 16:54 CST
+
+## 2026-09-11 3:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 105 class 35/14/56 miss0；overlay 105/105 fail0；gap_open false；页 09-10 正文103/拿不准120/已过滤333；薄种子 09-11 3/3/13 不交；QA 00-qa.png pass；游标 @JAVE1_ 2098266504680907080；git bad3203/tip175f2dd；Pages 200 last-mod 04:49:46 GMT md5 480747e6 live=local；跳过 rec/ideas。
+- 0:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s19（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期（约 +19min）。无 AUTH_FAIL；无官方 X API；无 overdue gap。本趟 ~03:41 ET 正点迟到再核无变化。
+- 写于 2026-09-11 15:42 CST
+
+## 2026-09-11 2:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 105 class 35/14/56 miss0；overlay 105/105 fail0；gap_open false；页 09-10 正文103/拿不准120/已过滤333；薄种子 09-11 3/3/13 不交；QA 00-qa.png pass；游标 @JAVE1_ 2098266504680907080；git bad3203/tip175f2dd；Pages 200 last-mod 04:49:46 GMT md5 480747e6 live=local；跳过 rec/ideas。
+- 0:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s19（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 14:53 CST
+
+## 2026-09-11 1:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 105 class 35/14/56 miss0；overlay 105/105 fail0；gap_open false；页 09-10 正文103/拿不准120/已过滤333；薄种子 09-11 3/3/13 不交；QA 00-qa.png pass；游标 @JAVE1_ 2098266504680907080；git bad3203/tip175f2dd；Pages 200 last-mod 04:49:46 GMT md5 480747e6 live=local；跳过 rec/ideas。
+- 0:10 补抓：齐，未重抓；gap_open false；chat 已交 t36s19（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 13:27 CST
+
+## 2026-09-11 0:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 105 class 35/14/56 miss0；overlay 105/105 fail0；gap_open false；页 09-10 正文103/拿不准120/已过滤333；薄种子 09-11 3/3/13 不交；QA 00-qa.png pass；游标 @JAVE1_ 2098266504680907080；git bad3203/tip175f2dd；Pages 200 last-mod 04:49:46 GMT md5 480747e6 live=local；跳过 rec/ideas。
+- 0:10 补抓：齐，未重抓；gap_open false；chat 已由补抓 WakeParent 交昨天完整页（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 12:53 CST
+
+## 2026-09-11 0:10 ET 补抓
+
+- 齐，未重抓。raw/00.jsonl 105 class 35/14/56 miss0；overlay 105/105；gap_open false；页 09-10 正文103/拿不准120/已过滤333；Pages 200 md5 480747e6 live=local；游标 @JAVE1_ 2098266504680907080。trunc 8 无需补全文。主窗 chat pending → 本补抓交昨天完整页。
+
 # 2026-09-11 0:00 ET（巡舟｜信息与数据运营）
 
 - 抓取：CDP chrome-profile-4 :9226；DOM Following→Latest + 同会话 HomeLatestTimeline；无官方 X API。login hasCompose。
