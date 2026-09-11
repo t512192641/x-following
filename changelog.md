@@ -1,3 +1,48 @@
+## 2026-09-11 8:00 ET
+
+- scrape：DOM Following→Latest（排序「最近」）+ 同会话深扫 HTL；首轮 DOM17/HTL2 管理面板错流 → 深扫 DOM58 ∪ HTL92 → union **94**；hit_cursor false；hit_cursor_effective true（HTL HIT CURSOR + gap≈4.1min）；oldest @elonmusk 2098331112858693655 08:41:37Z；newest @pvncher 2098393250503471584 12:48:31Z；max_internal_gap≈15.3min；gap_open false；无 AUTH_FAIL；无官方 X API。
+- overlay：94/94 fail0；父帖污染约 16 条已对照 HTL/DOM 回写；unresolved_tco 0。
+- class：正文28 / 拿不准27 / 已过滤39 miss0；写回 08.jsonl。
+- page：基 post-04（30/30/54）→.bak-08；同题并入既有卡 + 新卡；累计 **正文45 / 拿不准56 / 已过滤93**；跳过 rec/ideas。
+- QA：08-qa.png pass；clippedBtns 0。
+- cursor→@pvncher 2098393250503471584；chat pending WakeParent。
+- 写于 2026-09-11 21:10 CST
+
+## 2026-09-11 7:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓 + 主窗 ~4:57 迟到火复核未重抓）：raw/04.jsonl 101 class 33/27/41 miss0；overlay 101/101 fail0；gap_open false；页 09-11 正文30/拿不准30/已过滤54；QA 04-qa.png pass；游标 @bozhou_ai 2098330081114628438；git 839ba2f；Pages 200 last-mod 08:57:29 GMT md5 a4266428 live=local；跳过 rec/ideas；chat 已交 t36s21（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期（约 +93min）；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期（约 +10min）。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 19:50 CST
+
+## 2026-09-11 6:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓 + 主窗 ~4:57 迟到火复核未重抓）：raw/04.jsonl 101 class 33/27/41 miss0；overlay 101/101 fail0；gap_open false；页 09-11 正文30/拿不准30/已过滤54；QA 04-qa.png pass；游标 @bozhou_ai 2098330081114628438；git 839ba2f；Pages 200 last-mod 08:57:29 GMT md5 a4266428 live=local；跳过 rec/ideas；chat 已交 t36s21（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期（约 +172min）；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期（约 +89min）。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 18:32 CST
+
+## 2026-09-11 5:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓 + 主窗 ~4:57 迟到火复核未重抓）：raw/04.jsonl 101 class 33/27/41 miss0；overlay 101/101 fail0；gap_open false；页 09-11 正文30/拿不准30/已过滤54；QA 04-qa.png pass；游标 @bozhou_ai 2098330081114628438；git 839ba2f；Pages 200 last-mod 08:57:29 GMT md5 a4266428 live=local；跳过 rec/ideas；chat 已交 t36s21（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 17:30 CST
+
+## 2026-09-11 4:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓 + 主窗 ~4:57 迟到火复核未重抓）：raw/04.jsonl 101 class 33/27/41 miss0；overlay 101/101 fail0；gap_open false；页 09-11 正文30/拿不准30/已过滤54；QA 04-qa.png pass；游标 @bozhou_ai 2098330081114628438；git 839ba2f；Pages 200 last-mod 08:57:29 GMT md5 a4266428 live=local；跳过 rec/ideas。
+- 4:10 补抓：齐，未重抓；chat 主窗迟到火已 WakeParent 交今天第一版（board 已勾；本健康检查不重复交）。
+- 名单：今日（ET 9/11）09:23 未到期；上次 9/10 09:58 已齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；非 overdue，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue gap。
+- 写于 2026-09-11 17:00 CST
+
+## 2026-09-11 4:00 ET（主窗迟到火 ~4:57）
+
+- 齐，未重抓。4:10 补抓已完整主抓：raw/04.jsonl 101 class 33/27/41；页 正文30/拿不准30/已过滤54；游标 @bozhou_ai 2098330081114628438；git 839ba2f；Pages 200 md5 a4266428 live=local；gap_open false。
+- chat：meta 仍 pending 且 transcript 无正文30 → 本主窗 WakeParent 交今天第一版。
+- 写于 2026-09-11 16:59 CST
+
 ## 2026-09-11 4:00 ET（4:10 补抓接管）
 
 - 主窗 lastRunAt 04:12 ET 后约 12 分钟仍无 `raw/2026-09-11/04*`；4:10 补抓按漏跑模式完整主抓。
