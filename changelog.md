@@ -6,6 +6,7 @@
 - 分类写回 04.jsonl：正文 33 / 拿不准 27 / 已过滤 41 miss0。
 - 页：薄种子 3/3/13 → 今天第一版 **正文30 / 拿不准30 / 已过滤54**；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0。
 - 游标 → @bozhou_ai 2098330081114628438。
+- 发布：git 839ba2f；Pages HTTP 200 last-mod 08:55:17 GMT；md5 a4266428 live=local。
 - 写于 2026-09-11 16:54 CST
 
 ## 2026-09-11 3:25 ET 健康检查
