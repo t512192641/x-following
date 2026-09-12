@@ -6,6 +6,7 @@
 - 游标推进 @garrytan 2098863831732863310 2026-09-12T19:58:27.000Z
 - 跳过 rec/ideas（非 20:00）；无 AUTH_FAIL；无官方 X API
 - source：DOM Following→Latest + same-session HomeLatestTimeline（chrome-profile-4 :9226）
+- git tip d53ae21；Pages 200 last-mod 2026-09-12 20:22:42 GMT md5 d71f6e27c990372e365a68c58934c2b8 live=local
 - chat_delivery: pending → WakeParent
 - 写于 2026-09-13 04:25 CST
 
