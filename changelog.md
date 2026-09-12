@@ -1,3 +1,55 @@
+## 2026-09-12 16:00 ET 主窗
+
+- DOM58 + 深扫 HTL69 → union**74**；hit_cursor_effective（HTL hit CUR）；gap≈1.98min gap_open false；max_internal_gap≈19.65；n_gaps_gt45 0
+- overlay 74/74 fail0；窗类 正文24 / 拿不准26 / 已过滤24 miss0
+- 页累计 **正文75 / 拿不准71 / 已过滤178**；QA 16-qa.png pass clippedBtns0
+- 游标推进 @garrytan 2098863831732863310 2026-09-12T19:58:27.000Z
+- 跳过 rec/ideas（非 20:00）；无 AUTH_FAIL；无官方 X API
+- source：DOM Following→Latest + same-session HomeLatestTimeline（chrome-profile-4 :9226）
+- chat_delivery: pending → WakeParent
+- 写于 2026-09-13 04:25 CST
+
+## 2026-09-12 15:25 ET 健康检查
+
+- 主窗 12:00 齐（12:10 补抓齐未重抓）：raw/12.jsonl 111；窗类 正文29/拿不准15/已过滤67 miss0；overlay 111/111 fail0；gap≈0.73min gap_open false；页 正文65/拿不准45/已过滤154；QA 12-qa.png pass；游标 @bcherny 2098808144541675754；git tip 182c2ff；Pages 200 last-mod 2026-09-12 16:34:17 GMT md5 b9c400a23e4c77373662b54ae4783dca live=local；跳过 rec/ideas；**chat 已交 t36s41（2026-09-13 00:41 CST）**。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 03:36 CST
+
+## 2026-09-12 14:25 ET 健康检查
+
+- 主窗 12:00 齐（12:10 补抓齐未重抓）：raw/12.jsonl 111；窗类 正文29/拿不准15/已过滤67 miss0；overlay 111/111 fail0；gap≈0.73min gap_open false；页 正文65/拿不准45/已过滤154；QA 12-qa.png pass；游标 @bcherny 2098808144541675754；git tip 182c2ff；Pages 200 last-mod 2026-09-12 16:34:17 GMT md5 b9c400a23e4c77373662b54ae4783dca live=local；跳过 rec/ideas；**chat 已交 t36s41（2026-09-13 00:41 CST）**。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 02:31 CST
+
+## 2026-09-12 13:25 ET 健康检查
+
+- 主窗 12:00 齐（12:10 补抓齐未重抓）：raw/12.jsonl 111；窗类 正文29/拿不准15/已过滤67 miss0；overlay 111/111 fail0；gap≈0.73min gap_open false；页 正文65/拿不准45/已过滤154；QA 12-qa.png pass；游标 @bcherny 2098808144541675754；git tip 182c2ff；Pages 200 last-mod 2026-09-12 16:34:17 GMT md5 b9c400a23e4c77373662b54ae4783dca live=local；跳过 rec/ideas；**chat 已交 t36s41（2026-09-13 00:41 CST）**。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 01:33 CST
+
+## 2026-09-12 12:25 ET 健康检查
+
+- 主窗 12:00 齐（12:10 补抓齐未重抓）：raw/12.jsonl 111；窗类 正文29/拿不准15/已过滤67 miss0；overlay 111/111 fail0；gap≈0.73min gap_open false；页 正文65/拿不准45/已过滤154；QA 12-qa.png pass；游标 @bcherny 2098808144541675754；git tip 182c2ff；Pages 200 last-mod 2026-09-12 16:34:17 GMT md5 b9c400a23e4c77373662b54ae4783dca live=local；跳过 rec/ideas；**chat pending → WakeParent 交 12:00 页**（12-meta 已标 delivered_via_WakeParent / board 补抓写「主窗已交」，但 transcript 截至本检未见正文65实发）。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 00:40 CST
+
+## 2026-09-12 12:10 ET 补抓
+
+- 齐，未重抓；产物完整：raw/12.jsonl 111 class 29/15/67 miss0；overlay 111/111 fail0；gap≈0.73min gap_open false；页 正文65/拿不准45/已过滤154；QA 12-qa.png pass；游标 @bcherny 2098808144541675754；Pages 200 last-mod 2026-09-12 16:34:17 GMT md5 b9c400a2 live=local git 182c2ff
+- trunc 2 均已过滤（自然省略/短句），无需补全文；跳过 rec/ideas；chat 主窗已交不重复
+- 写于 2026-09-13 00:37 CST
+
+## 2026-09-12 12:00 ET 主窗
+
+- DOM32 + HTL108 → union111；hit_cursor_effective；gap≈0.73min gap_open false
+- overlay 111/111 fail0；窗类 正文29/拿不准15/已过滤67；页累计 正文65/拿不准45/已过滤154
+- QA 12-qa.png pass；游标 @bcherny 2098808144541675754；git 182c2ff；Pages 200 md5 b9c400a2 live=local
+- 跳过 rec/ideas；chat WakeParent 交。2026-09-13 00:36 CST
+
 ## 2026-09-12 12:00 ET
 
 - 主窗 12:00：raw/12.jsonl **111**；窗类 正文29 / 拿不准15 / 已过滤67 miss0；overlay 111/111 fail0（父帖污染 4 条已对照 HTL 回写）；gap≈0.73min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文65 / 拿不准45 / 已过滤154**；QA 12-qa.png pass clippedBtns0；游标推进 @bcherny 2098808144541675754 2026-09-12T16:17:10.000Z；跳过 rec/ideas；无 AUTH_FAIL；无官方 X API。
