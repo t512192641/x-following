@@ -1,3 +1,50 @@
+# 2026-09-12 16:34 CST — 2026-09-12 4:00 ET（4:10 补抓完整主抓）
+
+- 主窗 4:00 漏跑 → 4:10 补抓接管完整主抓（DOM14 + HTL82 → union82）
+- cursor prior 2098624503442035020 @pvncher → newest 2098687118277247406 @berryxia；gap_open false（0.45min）
+- overlay 82/82；父帖污染（Muse Spark 等）对照 HTL 回写 21 条
+- 窗类 正文22 / 拿不准20 / 已过滤40；页累计 正文18 / 拿不准20 / 已过滤40（含 0:00 薄种子）
+- QA clippedBtns=0 pass；跳过 recommended/ideas
+- 今天第一版 Pages：https://t512192641.github.io/x-following/2026-09-12.html
+
+## 2026-09-12 3:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 97 class 正文30/拿不准13/已过滤54 miss0；overlay 97/97 fail0；gap≈14.12min gap_open false；页 09-11 正文107/拿不准111/已过滤266；薄种子 09-12 1/0/0 不交；QA 00-qa.png pass；游标 @pvncher 2098624503442035020；git tip b269b25；Pages 200 last-mod 2026-09-12 04:25:49 GMT md5 0a4a8da6 live=local；跳过 rec/ideas；**chat 已交 t36s32**。
+- 0:10 补抓：齐，未重抓（board 已记）；trunc 7 无需补全文。
+- 名单：今日 9:23 ET 未到期（约 +6h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条（grok大总管）enabled=false；巡舟四条 enabled=true。无 overdue gap。
+---
+## 2026-09-12 2:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 97 class 正文30/拿不准13/已过滤54 miss0；overlay 97/97 fail0；gap≈14.12min gap_open false；页 09-11 正文107/拿不准111/已过滤266；薄种子 09-12 1/0/0 不交；QA 00-qa.png pass；游标 @pvncher 2098624503442035020；git tip b269b25；Pages 200 last-mod 2026-09-12 04:25:49 GMT md5 0a4a8da6 live=local；跳过 rec/ideas；**chat 已交 t36s32**。
+- 0:10 补抓：齐，未重抓（board 已记）；trunc 7 无需补全文。
+- 名单：今日 9:23 ET 未到期（约 +7h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 14:28 CST
+
+## 2026-09-12 1:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 97 class 正文30/拿不准13/已过滤54 miss0；overlay 97/97 fail0；gap≈14.12min gap_open false；页 09-11 正文107/拿不准111/已过滤266；薄种子 09-12 1/0/0 不交；QA 00-qa.png pass；游标 @pvncher 2098624503442035020；git tip b269b25；Pages 200 last-mod 2026-09-12 04:25:49 GMT md5 0a4a8da6 live=local；跳过 rec/ideas；**chat 已交 t36s32**。
+- 0:10 补抓：齐，未重抓（board 已记）；trunc 7 无需补全文。
+- 名单：今日 9:23 ET 未到期（约 +7.8h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 13:33 CST
+
+## 2026-09-12 0:25 ET 健康检查
+
+- 主窗 0:00 齐：raw/00.jsonl 97 class 正文30/拿不准13/已过滤54 miss0；overlay 97/97 fail0；gap≈14.12min gap_open false；页 09-11 正文107/拿不准111/已过滤266；薄种子 09-12 1/0/0 不交；QA 00-qa.png pass；游标 @pvncher 2098624503442035020；git tip b269b25；Pages 200 last-mod 2026-09-12 04:25:49 GMT md5 0a4a8da6 live=local；跳过 rec/ideas；**chat 已交 t36s32**。
+- 0:10 补抓：齐，未重抓（board 已记）；trunc 7 无需补全文。
+- 名单：今日 9:23 ET 未到期（约 +8.8h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 12:35 CST
+
+## 2026-09-12 0:10 ET 补抓
+
+- 齐，未重抓。主窗 0:00 产物齐：raw97 class 30/13/54；overlay 97/97；gap_open false；页 09-11 正文107/拿不准111/已过滤266；薄种子不交。
+- Pages 200 md5 0a4a8da6 live=local git b269b25；trunc 7 无需补全文；跳过 rec/ideas。
+- chat：主窗 pending → 本补抓 WakeParent 交昨天完整页。
+- 写于 2026-09-12 12:28 CST
+
 ## 2026-09-12 0:00 ET 主窗
 
 - 抓取：DOM Following→最近卡 4 条（虚拟列表异常）→ 同会话 HTL 首包 union **97**；hit_cursor false / hit_cursor_effective true；gap≈14.12min；max_internal_gap≈7.95；gap_open false；oldest @imwsl90 00:32Z；newest @pvncher 04:07Z。
