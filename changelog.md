@@ -1,3 +1,35 @@
+## 2026-09-12 0:00 ET 主窗
+
+- 抓取：DOM Following→最近卡 4 条（虚拟列表异常）→ 同会话 HTL 首包 union **97**；hit_cursor false / hit_cursor_effective true；gap≈14.12min；max_internal_gap≈7.95；gap_open false；oldest @imwsl90 00:32Z；newest @pvncher 04:07Z。
+- overlay 97/97 fail0；分类 正文30 / 拿不准13 / 已过滤54（pre 28/13/54；after 2/0/0）；写回 classification。
+- 页：09-11 完整版 正文**107** / 拿不准**111** / 已过滤**266**（基 94/98/212）；薄种子 09-12 **1/0/0** 不交；跳过 rec/ideas。
+- QA 00-qa.png pass clippedBtns0；游标→@pvncher 2098624503442035020；无 AUTH_FAIL / 无官方 X API。
+- chat_line：9/11 完整版：正文107 / 拿不准111 / 已过滤266。https://t512192641.github.io/x-following/2026-09-11.html
+
+## 2026-09-11 23:25 ET 健康检查
+
+- 主窗 20:00 齐：raw/20.jsonl 71 class 正文25/拿不准16/已过滤30 miss0；overlay 71/71 fail0；gap≈6.52min gap_open false；页 09-11 正文94/拿不准98/已过滤212；QA 20-qa.png pass；游标 @MaiYangAI 2098566818818613569；git tip 9c84c13；Pages 200 last-mod 2026-09-12 00:37:50 GMT md5 aeb498f3 live=local；已并 rec/ideas；**chat 已交 t36s29**。
+- 20:10 补抓：齐，未重抓（board 已记）；trunc 3 无需补全文。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记），不重复补跑。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 约 +30min 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 11:30 CST
+
+## 2026-09-11 21:25 ET 健康检查
+
+- 主窗 20:00 齐：raw/20.jsonl 71 class 正文25/拿不准16/已过滤30 miss0；overlay 71/71 fail0；gap≈6.52min gap_open false；页 09-11 正文94/拿不准98/已过滤212；QA 20-qa.png pass；游标 @MaiYangAI 2098566818818613569；git tip 9c84c13；Pages 200 last-mod 2026-09-12 00:37:50 GMT md5 aeb498f3 live=local；已并 rec/ideas；**chat 已交 t36s29**。
+- 20:10 补抓：齐，未重抓（board 已记）；trunc 3 无需补全文。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记），不重复补跑。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 09:28 CST
+
+## 2026-09-11 20:25 ET 健康检查
+
+- 主窗 20:00 齐：raw/20.jsonl 71 class 正文25/拿不准16/已过滤30 miss0；overlay 71/71 fail0；gap≈6.52min gap_open false；页 09-11 正文94/拿不准98/已过滤212；QA 20-qa.png pass；游标 @MaiYangAI 2098566818818613569；git tip 9c84c13；Pages 200 last-mod 2026-09-12 00:37:50 GMT md5 aeb498f3 live=local；已并 rec/ideas；**chat 已交 t36s29**。
+- 20:10 补抓：齐，未重抓（board 已记）；trunc 3 无需补全文。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记），不重复补跑。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 08:52 CST
+
 ## 2026-09-11 19:25 ET 健康检查
 
 ## 2026-09-11 20:00 ET（巡舟）
