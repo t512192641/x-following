@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2098505983714886105
-- url: https://x.com/GrokBotRadar/status/2098505983714886105
-- author: Fan Grok Bot Radar
-- handle: @GrokBotRadar
-- time_utc: 2026-09-11T20:16:29.000Z
-- updated: 2026-09-11 16:00 ET window
+- status_id: 2098566818818613569
+- url: https://x.com/MaiYangAI/status/2098566818818613569
+- author: Mai Yang
+- handle: @MaiYangAI
+- time_utc: 2026-09-12T00:18:13.000Z
+- updated: 2026-09-11 20:00 ET window

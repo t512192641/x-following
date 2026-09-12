@@ -1,3 +1,42 @@
+## 2026-09-11 19:25 ET 健康检查
+
+## 2026-09-11 20:00 ET（巡舟）
+
+- 网页 DOM Following→最近 + 同会话 HTL（CDP :9226）；无官方 X API。DOM 首轮 18 未撞游标 → 深扫；union 71（DOM45∪HTL64）；hit_cursor_effective true；gap≈6.52min；gap_open false；max_internal_gap≈20.62。
+- overlay 71/71 fail0；窗类 正文25 / 拿不准16 / 已过滤30；写回 classification。
+- 页累计 正文94 / 拿不准98 / 已过滤212；并 recommended 09-10 + ideas 09-11（脑洞）；QA clippedBtns0 pass。
+- 游标 → @MaiYangAI 2098566818818613569 2026-09-12T00:18:13Z。
+
+
+- 主窗 16:00 齐：raw/16.jsonl 74 class 正文22/拿不准9/已过滤43 miss0；overlay 74/74 fail0；gap≈5.65min gap_open false；页 09-11 正文73/拿不准82/已过滤182；QA 16-qa.png pass；游标 @GrokBotRadar 2098505983714886105；git tip 02dee8c/dfefce2；Pages 200 last-mod 20:39:31 GMT md5 c59614b6 live=local；跳过 rec/ideas；**chat 已交 t36s27**。
+- 16:10 补抓：齐，未重抓（board 已记）。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据已记），不重复补跑。
+- 旧四条（grok大总管）保持 disabled；接管四条 enabled。下窗 20:00 未到期；无 overdue。
+
+## 2026-09-11 18:25 ET 健康检查
+
+- 主窗 16:00 齐：raw/16.jsonl 74 class 正文22/拿不准9/已过滤43 miss0；overlay 74/74 fail0；gap≈5.65min gap_open false；页 09-11 正文73/拿不准82/已过滤182；QA 16-qa.png pass；游标 @GrokBotRadar 2098505983714886105；git tip 02dee8c/dfefce2；Pages 200 last-mod 20:39:31 GMT md5 c59614b6 live=local；跳过 rec/ideas；**chat 已交 t36s27**。
+- 16:10 补抓：齐，未重抓（board 已记）。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据已记），不重复补跑。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 20:00 ET 未到期（约 +74min）。无 AUTH_FAIL；无官方 X API；无 overdue 主窗缺口；本健康检查不扩大重跑。
+- 写于 2026-09-12 06:47 CST
+
+## 2026-09-11 17:25 ET 健康检查
+
+- 主窗 16:00 齐：raw/16.jsonl 74 class 正文22/拿不准9/已过滤43 miss0；overlay 74/74 fail0；gap≈5.65min gap_open false；页 09-11 正文73/拿不准82/已过滤182；QA 16-qa.png pass；游标 @GrokBotRadar 2098505983714886105；git tip dfefce2/02dee8c；Pages 200 last-mod 20:39:31 GMT md5 c59614b6 live=local；跳过 rec/ideas；**chat 已交 t36s27**。
+- 16:10 补抓：齐，未重抓（board 已记）。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 20:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue 主窗缺口；本健康检查不扩大重跑。
+- 写于 2026-09-12 05:51 CST
+
+## 2026-09-11 16:25 ET 健康检查
+
+- 主窗 16:00 齐：raw/16.jsonl 74 class 正文22/拿不准9/已过滤43 miss0；overlay 74/74 fail0；gap≈5.65min gap_open false；页 09-11 正文73/拿不准82/已过滤182；QA 16-qa.png pass；游标 @GrokBotRadar 2098505983714886105；git tip dfefce2（site tip 02dee8c meta finalize，页 md5 c59614b6）；Pages 200 last-mod 20:39:31 GMT md5 c59614b6 live=local；跳过 rec/ideas；**chat pending → WakeParent 交**。
+- 16:10 补抓：截至 ~16:39 ET 未见 16-10-catchup / x-2 未火（上次 12:22 ET）；主窗已齐，本健康检查不扩大重跑，等 :10 迟到火复核即可。
+- 名单：今日 9:23 x-4 漏叫已由 9:57 健康检查兜底补跑齐（following 152/@GrokBotRadar；bookmarks AdrianPunk115/162）；meta 09:57 ET；同日已齐，未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 20:00 ET 未到期。无 AUTH_FAIL；无官方 X API；无 overdue 主窗缺口。
+- 写于 2026-09-12 04:41 CST
+
 ## 2026-09-11 16:00 ET
 
 - scrape：DOM Following→Latest + 同会话深扫 HTL；DOM51 ∪ HTL65 → union **74**；hit_cursor false；hit_cursor_effective true（HTL HIT CURSOR + gap≈5.65min）；oldest @affLeopard 2098449327412932794 2026-09-11T16:31:21.000Z；newest @GrokBotRadar 2098505983714886105 2026-09-11T20:16:29.000Z；max_internal_gap≈14.6min；gap_open false；无 AUTH_FAIL；无官方 X API。
