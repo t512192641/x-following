@@ -1,3 +1,26 @@
+## 2026-09-12 8:10 ET 补抓（完整主抓）
+
+- 主窗 8:00 漏跑 → 8:10 补抓接管完整主抓（DOM66 + 深扫 HTL90 → union90）
+- cursor prior 2098687118277247406 @berryxia → newest 2098749267762712962 @oran_ge；gap_open false（7.72min）
+- overlay 90/90；父帖污染 6 条对照 HTL 回写
+- 窗类 正文33 / 拿不准10 / 已过滤47；页累计 正文42 / 拿不准30 / 已过滤87
+- QA clippedBtns=0 pass；跳过 recommended/ideas
+- Pages：https://t512192641.github.io/x-following/2026-09-12.html
+
+## 2026-09-12 7:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓）：raw/04.jsonl 82；窗类 正文22/拿不准20/已过滤40 miss0；overlay 82/82 fail0；页 正文18/拿不准20/已过滤40；QA 04-qa.png pass；游标 @berryxia 2098687118277247406；git tip 818f105；Pages 200 last-mod 2026-09-12 08:35:22 GMT md5 1de358556bcf3c2c1a679fa1ae3b1646 live=local；跳过 rec/ideas；**chat 已交 t36s35**。
+- 名单：今日 9:23 ET 未到期（约 +1.8h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 下窗 8:00 ET 未到期；旧四条 grok大总管 X routine 均 disabled；接管四条 enabled。无 overdue gap。
+
+## 2026-09-12 6:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓）：raw/04.jsonl 82；窗类 正文22/拿不准20/已过滤40 miss0；overlay 82/82 fail0；gap≈0.45min gap_open false；页 正文18/拿不准20/已过滤40；QA 04-qa.png pass clippedBtns0；游标 @berryxia 2098687118277247406；git tip 818f105；Pages 200 last-mod 2026-09-12 08:35:22 GMT md5 1de358556bcf3c2c1a679fa1ae3b1646 live=local；跳过 rec/ideas；**chat 已交 t36s35**。
+- 4:10 补抓：已完整主抓（board 已记）；主窗 4:00 漏跑证据已在 changelog。
+- 名单：今日 9:23 ET 未到期（约 +3h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 18:31 CST
+
 # 2026-09-12 16:34 CST — 2026-09-12 4:00 ET（4:10 补抓完整主抓）
 
 - 主窗 4:00 漏跑 → 4:10 补抓接管完整主抓（DOM14 + HTL82 → union82）
@@ -6,6 +29,22 @@
 - 窗类 正文22 / 拿不准20 / 已过滤40；页累计 正文18 / 拿不准20 / 已过滤40（含 0:00 薄种子）
 - QA clippedBtns=0 pass；跳过 recommended/ideas
 - 今天第一版 Pages：https://t512192641.github.io/x-following/2026-09-12.html
+
+## 2026-09-12 5:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓）：raw/04.jsonl 82；窗类 正文22/拿不准20/已过滤40 miss0；overlay 82/82 fail0；gap≈0.45min gap_open false；页 正文18/拿不准20/已过滤40；QA 04-qa.png pass clippedBtns0；游标 @berryxia 2098687118277247406；git tip 818f105；Pages 200 last-mod 2026-09-12 08:35:22 GMT md5 1de358556bcf3c2c1a679fa1ae3b1646 live=local；跳过 rec/ideas；**chat 已交 t36s35**。
+- 4:10 补抓：已完整主抓（board 已记）；主窗 4:00 漏跑证据已在 changelog。
+- 名单：今日 9:23 ET 未到期（约 +4h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 17:27 CST
+
+## 2026-09-12 4:25 ET 健康检查
+
+- 主窗 4:00 齐（4:10 补抓完整主抓）：raw/04.jsonl 82；窗类 正文22/拿不准20/已过滤40 miss0；overlay 82/82 fail0；gap≈0.45min gap_open false；页 正文18/拿不准20/已过滤40；QA 04-qa.png pass clippedBtns0；游标 @berryxia 2098687118277247406；git tip 818f105；Pages 200 last-mod 2026-09-12 08:35:22 GMT md5 1de358556bcf3c2c1a679fa1ae3b1646 live=local；跳过 rec/ideas；**chat 已交今天第一版**。
+- 4:10 补抓：已完整主抓（board 已记）；主窗 4:00 漏跑证据已在 changelog。
+- 名单：今日 9:23 ET 未到期（约 +5h）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 16:41 CST
 
 ## 2026-09-12 3:25 ET 健康检查
 
