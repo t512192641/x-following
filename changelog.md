@@ -1,3 +1,43 @@
+## 2026-09-12 12:00 ET
+
+- 主窗 12:00：raw/12.jsonl **111**；窗类 正文29 / 拿不准15 / 已过滤67 miss0；overlay 111/111 fail0（父帖污染 4 条已对照 HTL 回写）；gap≈0.73min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文65 / 拿不准45 / 已过滤154**；QA 12-qa.png pass clippedBtns0；游标推进 @bcherny 2098808144541675754 2026-09-12T16:17:10.000Z；跳过 rec/ideas；无 AUTH_FAIL；无官方 X API。
+- source：DOM Following→Latest + same-session HomeLatestTimeline（chrome-profile-4 :9226）。
+- chat_delivery: pending
+
+## 2026-09-12 11:25 ET 健康检查
+
+- 主窗 8:00 齐（8:10 补抓完整主抓）：raw/08.jsonl 90；窗类 正文33/拿不准10/已过滤47 miss0；overlay 90/90 fail0；gap≈7.72min gap_open false；页 正文42/拿不准30/已过滤87；QA 08-qa.png pass；游标 @oran_ge 2098749267762712962；git tip 57d8c1b；Pages 200 last-mod 2026-09-12 12:43:21 GMT md5 3fefacd08b417d794bde44b25d8572ba live=local；跳过 rec/ideas；**chat 已交 t36s38**。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+
+
+## 2026-09-12 10:25 ET 健康检查
+
+- 主窗 8:00 齐（8:10 补抓完整主抓）：raw/08.jsonl 90；窗类 正文33/拿不准10/已过滤47 miss0；overlay 90/90 fail0；gap≈7.72min gap_open false；页 正文42/拿不准30/已过滤87；QA 08-qa.png pass；游标 @oran_ge 2098749267762712962；git tip 57d8c1b；Pages 200 last-mod 2026-09-12 12:43:22 GMT md5 3fefacd08b417d794bde44b25d8572ba live=local；跳过 rec/ideas；**chat 已交 t36s38**。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 22:35 CST
+
+## 2026-09-12 9:25 ET 健康检查
+
+- 主窗 8:00 齐（8:10 补抓完整主抓）：raw/08.jsonl 90；窗类 正文33/拿不准10/已过滤47 miss0；overlay 90/90 fail0；gap≈7.72min gap_open false；页 正文42/拿不准30/已过滤87；QA 08-qa.png pass；游标 @oran_ge 2098749267762712962；git tip 57d8c1b；Pages 200 last-mod 2026-09-12 12:43:22 GMT md5 3fefacd08b417d794bde44b25d8572ba live=local；跳过 rec/ideas；**chat 已交 t36s38**。
+- 名单：x-4 9:23 漏叫 → 本健康检查 09:29 ET 当场便宜补跑；关注/书签头顶未变 152/@GrokBotRadar + AdrianPunk115；计数仍按 162；logged in；未改 jsonl；meta 09:29 ET；抓完 x.com/home。调度漏叫证据：x-4 lastRun 仍停在 9/10（9/11 亦由健康检查兜底）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 21:29 CST
+
+## 2026-09-12 8:00 ET 主窗（迟到火）
+- 主 routine 约 8:46 ET 才醒；8:10 补抓已完整主抓。
+- 未重抓；页/raw/游标/Pages 齐（正文42/拿不准30/已过滤87；raw 90；git 57d8c1b；md5 live=local）。
+- chat 仍 pending（健康 8:25 标 WakeParent 但 transcript 未见正文42）；本窗 WakeParent 交。写于 2026-09-12 20:47 CST
+
+## 2026-09-12 8:25 ET 健康检查
+
+- 主窗 8:00 齐（8:10 补抓完整主抓）：raw/08.jsonl 90；窗类 正文33/拿不准10/已过滤47 miss0；overlay 90/90 fail0；gap≈7.72min gap_open false；页 正文42/拿不准30/已过滤87；QA 08-qa.png pass；游标 @oran_ge 2098749267762712962；git tip 57d8c1b；Pages 200 last-mod 2026-09-12 12:43:21 GMT md5 3fefacd08b417d794bde44b25d8572ba live=local；跳过 rec/ideas；**chat pending → WakeParent 交 8:00 页**。
+- 主窗 8:00 漏跑证据已在 changelog（8:10 补抓完整主抓）。
+- 名单：今日 9:23 ET 未到期（约 +38min）；昨日 9:57 健康检查兜底已齐（152/@GrokBotRadar + AdrianPunk115/162）；未再抓。x-4 lastRun 仍停在 9/10（调度漏叫证据此前已记）。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-12 20:45 CST
+
 ## 2026-09-12 8:10 ET 补抓（完整主抓）
 
 - 主窗 8:00 漏跑 → 8:10 补抓接管完整主抓（DOM66 + 深扫 HTL90 → union90）
