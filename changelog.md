@@ -1,3 +1,36 @@
+## 2026-09-13 16:00 ET（16:10 补抓完整主抓）
+
+- scrape: DOM+HTL union **36**（DOM19 未撞游标；HTL HIT CURSOR；首轮 HTL 错流已重跑）；prior→oldest≈15.23min；gap_open false；max_internal≈23.27min；无 AUTH_FAIL；无官方 X API
+- overlay: 36/36 fail0；unresolved_tco 0
+- class 窗：正文10 / 拿不准3 / 已过滤23 miss0
+- page：正文51/拿不准36/已过滤102 → **正文61 / 拿不准39 / 已过滤125**；跳过 rec/ideas
+- QA：clippedBtns 0 pass true；16-qa.png
+- cursor → @danshipper 2099231248027730195 2026-09-13T20:18:26.000Z
+- publish：（见 meta 终稿）
+- chat_line：`9/13 16:00：正文61 / 拿不准39 / 已过滤125。https://t512192641.github.io/x-following/2026-09-13.html`
+- anomaly: HTL 首轮 Latest 点击漏 Recent→错旧流，当场补丁重跑；非 gap_open
+
+## 2026-09-13 14:25 ET 健康检查
+
+- 12:00 齐（12:10 补抓齐未重抓）：页 正文51/拿不准36/已过滤102；raw/12.jsonl 78 class 21/11/46 miss0；overlay 78/78 fail0；gap≈4.55min gap_open false；游标 @xiaoxiaodong01 2099166059098169350；git a58e0c4；Pages 200 last-mod 2026-09-13 16:34:41 GMT md5 10797c3beec963ee26d94ce152ee1c75 live=local；跳过 rec/ideas；**chat 已交 t36s59（2026-09-14 00:35 CST）**。
+- 名单：今日已齐（x-4 09:40 正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 约 +89min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-14 02:30 CST
+
+## 2026-09-13 13:25 ET 健康检查
+
+- 12:00 齐（12:10 补抓齐未重抓）：页 正文51/拿不准36/已过滤102；raw/12.jsonl 78 class 21/11/46 miss0；overlay 78/78 fail0；gap≈4.55min gap_open false；游标 @xiaoxiaodong01 2099166059098169350；git a58e0c4；Pages 200 last-mod 2026-09-13 16:34:41 GMT md5 10797c3beec963ee26d94ce152ee1c75 live=local；跳过 rec/ideas；**chat 已交 t36s59（2026-09-14 00:35 CST）**。
+- 名单：今日已齐（x-4 09:40 正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 约 +147min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-14 01:32 CST
+
+## 2026-09-13 12:25 ET 健康检查
+
+- 12:00 齐（12:10 补抓齐未重抓）：页 正文51/拿不准36/已过滤102；raw/12.jsonl 78 class 21/11/46 miss0；overlay 78/78 fail0；gap≈4.55min gap_open false；游标 @xiaoxiaodong01 2099166059098169350；git a58e0c4；Pages 200 last-mod 2026-09-13 16:34:41 GMT md5 10797c3beec963ee26d94ce152ee1c75 live=local；跳过 rec/ideas；**chat 已交 t36s59（2026-09-14 00:35 CST）**。
+- 名单：今日已齐（x-4 09:40 正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 16:00 ET 约 +195min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-14 00:44 CST
+
 ## 2026-09-13 12:10 ET 补抓
 - 齐，未重抓。raw/12.jsonl 78；页 正文51/拿不准36/已过滤102；Pages live=local md5 10797c3b；transcript 未见正文51 → WakeParent 交。
 

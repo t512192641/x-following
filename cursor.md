@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2099166059098169350
-- url: https://x.com/xiaoxiaodong01/status/2099166059098169350
-- author: 小小东
-- handle: @xiaoxiaodong01
-- time_utc: 2026-09-13T15:59:23.000Z
-- updated: 2026-09-13 12:00 ET window
+- status_id: 2099231248027730195
+- url: https://x.com/danshipper/status/2099231248027730195
+- author: Dan Shipper
+- handle: @danshipper
+- time_utc: 2026-09-13T20:18:26.000Z
+- updated: 2026-09-13 16:00 ET window (16:10 catch-up full main)
