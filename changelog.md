@@ -1,3 +1,47 @@
+## 2026-09-13 8:00 ET
+
+- 主窗：DOM 初跑 21 未撞游标且 prior→oldest≈125min；首轮 HTL 误落过旧包；`_rescan08_deep` 同会话撞游标。union **64**（DOM55+HTL64），hit_cursor_effective true，gap≈4.82min，max_internal_gap≈26.6min，n_gaps_gt45=0。
+- overlay 64/64 fail0 unresolved_tco0；4 条短帖曾被 overlay 写成 `open source won’t pace`，已从 HTL 回写。
+- 分类写回 08.jsonl：正文24 / 拿不准14 / 已过滤26。
+- 页面累计：正文33 / 拿不准25 / 已过滤56。跳过 recommended/ideas（非 20:00）。
+- QA 08-qa.png pass clippedBtns=0。
+- 游标推进 → @paulg / 2099108449669849393 / 2026-09-13T12:10:28.000Z。
+
+## 2026-09-13 7:25 ET 健康检查
+
+- 4:00 齐（4:10 补抓齐未重抓）：页 正文15/拿不准11/已过滤30；raw/04.jsonl 61 class 23/10/28 miss0；overlay 61/61 fail0；gap≈16.3min gap_open false；游标 @imwsl90 2099047569418784783；git 4f3b427；Pages 200 last-mod 2026-09-13 08:27:06 GMT md5 dbb48ca3 live=local；跳过 rec/ideas；**chat 已交 t36s53（2026-09-13 16:33 CST）**。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 约 +15min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 19:45 CST
+
+## 2026-09-13 6:25 ET 健康检查
+
+- 4:00 齐（4:10 补抓齐未重抓）：页 正文15/拿不准11/已过滤30；raw/04.jsonl 61 class 23/10/28 miss0；overlay 61/61 fail0；gap≈16.3min gap_open false；游标 @imwsl90 2099047569418784783；git 4f3b427；Pages 200 last-mod 2026-09-13 08:27:06 GMT md5 dbb48ca3 live=local；跳过 rec/ideas；**chat 已交 t36s53（2026-09-13 16:33 CST）**。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 约 +85min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 18:34 CST
+
+## 2026-09-13 5:25 ET 健康检查
+
+- 4:00 齐（4:10 补抓齐未重抓）：页 正文15/拿不准11/已过滤30；raw/04.jsonl 61 class 23/10/28 miss0；overlay 61/61 fail0；gap≈16.3min gap_open false；游标 @imwsl90 2099047569418784783；git 4f3b427；Pages 200 last-mod 2026-09-13 08:27:06 GMT md5 dbb48ca3 live=local；跳过 rec/ideas；**chat 已交 t36s53（2026-09-13 16:33 CST）**。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 约 +151min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 17:29 CST
+
+## 2026-09-13 4:25 ET 健康检查
+
+- 4:00 齐（4:10 补抓齐未重抓）：页 正文15/拿不准11/已过滤30；raw/04.jsonl 61 class 23/10/28 miss0；overlay 61/61 fail0；gap≈16.3min gap_open false；游标 @imwsl90 2099047569418784783；git 4f3b427；Pages 200 last-mod 2026-09-13 08:27:06 GMT md5 dbb48ca3 live=local；跳过 rec/ideas；**chat pending → WakeParent 交今天第一版**（transcript 未见正文15）。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 8:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 16:32 CST
+
+## 2026-09-13 4:10 ET 补抓
+
+- 主窗 4:00 已齐：**齐，未重抓**。raw/04.jsonl 61；窗类 正文23/拿不准10/已过滤28 miss0；overlay 61/61；gap≈16.3min gap_open false；页 正文15/拿不准11/已过滤30；QA pass；游标 @imwsl90 2099047569418784783。
+- trunc 4 自然省略/短钩子，无需补全文；跳过 rec/ideas。Pages 200 md5 dbb48ca3 live=local git tip 4f3b427。
+- chat_delivery → WakeParent 交今天第一版（主窗 pending；transcript 未见正文15）。
+- 写于 2026-09-13 16:30 CST
+
 ## 2026-09-13
 
 - 4:00 ET：DOM 13 未撞游标 → 同会话 HTL hit CUR → union **61**（prior→oldest≈16.3min；max_internal_gap≈24.2min；gap_open false）。窗类 正文23 / 拿不准10 / 已过滤28 miss0。并进 09-13 薄种子 → **今天第一版 正文15 / 拿不准11 / 已过滤30**。正文新卡含：MkSaaS 调价、MkAgent v0.1.2、自托管设计平台、Linear agent workspace、39 种图表模板、GPT Image 2.5 提示词、Seedance 2.5 提示词、Alex Dan Koe 7 prompts、MaiYang Grok Bot 模板/省额度、yibie Agent 非写代码用途、言华 Agent 内核收尾、Replit 收购案例。overlay 61/61 fail0（7 条 overlay 污染文本已从 HTL 回写）。QA 04-qa.png pass clippedBtns0。游标 → @imwsl90 2099047569418784783。git bb486d5；Pages 200 last-mod 2026-09-13 08:26:19 GMT md5 dbb48ca30d3815c2e163adba119a04c6 live=local。跳过 recommended/ideas（latest 仍 09-11）。chat pending → WakeParent。
