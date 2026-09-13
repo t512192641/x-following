@@ -1,6 +1,6 @@
 ## 2026-09-13
 
-- 4:00 ET：DOM 13 未撞游标 → 同会话 HTL hit CUR → union **61**（prior→oldest≈16.3min；max_internal_gap≈24.2min；gap_open false）。窗类 正文23 / 拿不准10 / 已过滤28 miss0。并进 09-13 薄种子 → **今天第一版 正文15 / 拿不准11 / 已过滤30**。正文新卡含：MkSaaS 调价、MkAgent v0.1.2、自托管设计平台、Linear agent workspace、39 种图表模板、GPT Image 2.5 提示词、Seedance 2.5 提示词、Alex Dan Koe 7 prompts、MaiYang Grok Bot 模板/省额度、yibie Agent 非写代码用途、言华 Agent 内核收尾、Replit 收购案例。overlay 61/61 fail0（7 条 overlay 污染文本已从 HTL 回写）。QA 04-qa.png pass clippedBtns0。游标 → @imwsl90 2099047569418784783。跳过 recommended/ideas（latest 仍 09-11）。
+- 4:00 ET：DOM 13 未撞游标 → 同会话 HTL hit CUR → union **61**（prior→oldest≈16.3min；max_internal_gap≈24.2min；gap_open false）。窗类 正文23 / 拿不准10 / 已过滤28 miss0。并进 09-13 薄种子 → **今天第一版 正文15 / 拿不准11 / 已过滤30**。正文新卡含：MkSaaS 调价、MkAgent v0.1.2、自托管设计平台、Linear agent workspace、39 种图表模板、GPT Image 2.5 提示词、Seedance 2.5 提示词、Alex Dan Koe 7 prompts、MaiYang Grok Bot 模板/省额度、yibie Agent 非写代码用途、言华 Agent 内核收尾、Replit 收购案例。overlay 61/61 fail0（7 条 overlay 污染文本已从 HTL 回写）。QA 04-qa.png pass clippedBtns0。游标 → @imwsl90 2099047569418784783。git bb486d5；Pages 200 last-mod 2026-09-13 08:26:19 GMT md5 dbb48ca30d3815c2e163adba119a04c6 live=local。跳过 recommended/ideas（latest 仍 09-11）。chat pending → WakeParent。
 
 ## 2026-09-13
 
