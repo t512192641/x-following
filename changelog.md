@@ -1,3 +1,6 @@
+## 2026-09-13 12:10 ET 补抓
+- 齐，未重抓。raw/12.jsonl 78；页 正文51/拿不准36/已过滤102；Pages live=local md5 10797c3b；transcript 未见正文51 → WakeParent 交。
+
 ## 2026-09-13 12:00 ET
 
 - scrape: DOM+HTL union **78**（DOM18 未撞游标；HTL HIT CURSOR）；prior→oldest≈4.55min；gap_open false；max_internal≈14.35min；无 deep rescan；无 AUTH_FAIL；无官方 X API
