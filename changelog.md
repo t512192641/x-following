@@ -1,3 +1,50 @@
+## 2026-09-13 12:00 ET
+
+- scrape: DOM+HTL union **78**（DOM18 未撞游标；HTL HIT CURSOR）；prior→oldest≈4.55min；gap_open false；max_internal≈14.35min；无 deep rescan；无 AUTH_FAIL；无官方 X API
+- overlay: 78/78 fail0；unresolved_tco 0
+- class 窗：正文21 / 拿不准11 / 已过滤46 miss0（MkAgent/MkSaaS 同文已在页→已过滤）
+- page：正文33/拿不准25/已过滤56 → **正文51 / 拿不准36 / 已过滤102**；跳过 rec/ideas
+- QA：clippedBtns 0 pass true；12-qa.png
+- cursor → @xiaoxiaodong01 2099166059098169350 2026-09-13T15:59:23.000Z
+- publish：(pending tip)；Pages pending
+- chat_line：`9/13 12:00：正文51 / 拿不准36 / 已过滤102。https://t512192641.github.io/x-following/2026-09-13.html`
+- anomaly: none
+
+## 2026-09-13 11:25 ET 健康检查
+
+- 8:00 齐（8:10 补抓齐未重抓）：页 正文33/拿不准25/已过滤56；raw/08.jsonl 64 class 24/14/26 miss0；overlay 64/64 fail0；gap≈4.82min gap_open false；游标 @paulg 2099108449669849393；git 8183485；Pages 200 last-mod 2026-09-13 12:23:38 GMT md5 6eb5a52e live=local；跳过 rec/ideas；**chat 已交 t36s56（2026-09-13 20:28 CST）**。
+- 名单：今日已齐（x-4 09:40 正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 约 +25min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 23:34 CST
+
+## 2026-09-13 10:25 ET 健康检查
+
+- 8:00 齐（8:10 补抓齐未重抓）：页 正文33/拿不准25/已过滤56；raw/08.jsonl 64 class 24/14/26 miss0；overlay 64/64 fail0；gap≈4.82min gap_open false；游标 @paulg 2099108449669849393；git 8183485；Pages 200 last-mod 2026-09-13 12:23:38 GMT md5 6eb5a52e live=local；跳过 rec/ideas；**chat 已交 t36s56（2026-09-13 20:28 CST）**。
+- 名单：今日已齐（x-4 09:40 正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 约 +84min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 22:35 CST
+
+## 2026-09-13 9:25 ET 健康检查
+
+- 8:00 齐（8:10 补抓齐未重抓）：页 正文33/拿不准25/已过滤56；raw/08.jsonl 64 class 24/14/26 miss0；overlay 64/64 fail0；gap≈4.82min gap_open false；游标 @paulg 2099108449669849393；git 8183485；Pages 200 last-mod 2026-09-13 12:23:38 GMT md5 6eb5a52e live=local；跳过 rec/ideas；**chat 已交 t36s56（2026-09-13 20:28 CST）**。
+- 名单：今日已齐（x-4 09:40 正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 约 +137min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 21:43 CST
+
+## 2026-09-13 8:25 ET 健康检查
+
+- 8:00 齐（8:10 补抓齐未重抓）：页 正文33/拿不准25/已过滤56；raw/08.jsonl 64 class 24/14/26 miss0；overlay 64/64 fail0；gap≈4.82min gap_open false；游标 @paulg 2099108449669849393；git 8183485；Pages 200 last-mod 2026-09-13 12:23:38 GMT md5 6eb5a52e live=local；跳过 rec/ideas；**chat 已交 t36s56（2026-09-13 20:28 CST）**。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 12:00 ET 约 +211min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 20:30 CST
+
+## 2026-09-13 8:10 ET 补抓
+
+- 主窗 8:00 已齐：**齐，未重抓**。raw/08.jsonl 64；窗类 正文24/拿不准14/已过滤26 miss0；overlay 64/64；gap≈4.82min gap_open false；页 正文33/拿不准25/已过滤56；QA pass；游标 @paulg 2099108449669849393。
+- trunc 自然省略/URL 收尾，无需补全文；跳过 rec/ideas。Pages 200 md5 6eb5a52e live=local git tip 8183485。
+- chat_delivery → WakeParent 交今天页（主窗待交；transcript 未见正文33）。
+- 写于 2026-09-13 20:27 CST
+
 ## 2026-09-13 8:00 ET
 
 - 主窗：DOM 初跑 21 未撞游标且 prior→oldest≈125min；首轮 HTL 误落过旧包；`_rescan08_deep` 同会话撞游标。union **64**（DOM55+HTL64），hit_cursor_effective true，gap≈4.82min，max_internal_gap≈26.6min，n_gaps_gt45=0。
