@@ -6,7 +6,7 @@
 - page：正文51/拿不准36/已过滤102 → **正文61 / 拿不准39 / 已过滤125**；跳过 rec/ideas
 - QA：clippedBtns 0 pass true；16-qa.png
 - cursor → @danshipper 2099231248027730195 2026-09-13T20:18:26.000Z
-- publish：（见 meta 终稿）
+- publish：git eced09c；Pages 200 last-mod 2026-09-13 20:31:01 GMT md5 f5faec2a6575cb5be4eea257f108dbcd live=local
 - chat_line：`9/13 16:00：正文61 / 拿不准39 / 已过滤125。https://t512192641.github.io/x-following/2026-09-13.html`
 - anomaly: HTL 首轮 Latest 点击漏 Recent→错旧流，当场补丁重跑；非 gap_open
 
