@@ -1,7 +1,48 @@
 ## 2026-09-13
 
+- 4:00 ET：DOM 13 未撞游标 → 同会话 HTL hit CUR → union **61**（prior→oldest≈16.3min；max_internal_gap≈24.2min；gap_open false）。窗类 正文23 / 拿不准10 / 已过滤28 miss0。并进 09-13 薄种子 → **今天第一版 正文15 / 拿不准11 / 已过滤30**。正文新卡含：MkSaaS 调价、MkAgent v0.1.2、自托管设计平台、Linear agent workspace、39 种图表模板、GPT Image 2.5 提示词、Seedance 2.5 提示词、Alex Dan Koe 7 prompts、MaiYang Grok Bot 模板/省额度、yibie Agent 非写代码用途、言华 Agent 内核收尾、Replit 收购案例。overlay 61/61 fail0（7 条 overlay 污染文本已从 HTL 回写）。QA 04-qa.png pass clippedBtns0。游标 → @imwsl90 2099047569418784783。跳过 recommended/ideas（latest 仍 09-11）。
+
+## 2026-09-13
+
 - 0:00 ET：深扫 DOM+HTL union 82（HTL hit CUR；prior→oldest≈2.7min；max_internal_gap≈12.1min；gap_open false）。pre 76 并进 09-12 完整版 → 正文111 / 拿不准82 / 已过滤252；after 6 开 09-13 薄种子 正文3/拿不准1/已过滤2（不聊天交付）。窗类 正文25 / 拿不准7 / 已过滤50（pre 22/6/48）。正文新卡含：果蝇视觉扩展、App 灵感站清单、GPT-Image-2.5 Arena 免费窗、Codex apply_patch、NotebookLLM 公开笔记本、Step back 提示词、TanStarter 送 MkImage、KV cache 文、ComfyUI MiniMax H3 Timeline、乐天 eSIM、DeepSeek V4.1 Flash 评测、Grok Bot 省额度/Sweeper、Grok Bot 上手、Lynote、Notion 原生成本、vivid-figures-skill、App 截图转化；薄种子含 Agent Harness 自愈、$50/月 AI 公司配置、348M 14位加法。跳过 recommended/ideas（latest 仍 09-11）。overlay 82/82 fail0。QA 00-qa.png pass clippedBtns0。游标 → @yibie 2098987938017051128。
 
+
+
+## 2026-09-13 3:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文111/拿不准82/已过滤252；raw/00.jsonl 82 class 25/7/50 miss0；overlay 82/82 fail0；gap≈2.7min gap_open false；游标 @yibie 2098987938017051128；git e994dfd；Pages 200 last-mod 2026-09-13 04:35:08 GMT md5 b40389d1 live=local；跳过 rec/ideas；薄种子不交；**chat 已交 t36s50（2026-09-13 12:42 CST）**。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 约 +30min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 15:29 CST
+
+## 2026-09-13 2:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文111/拿不准82/已过滤252；raw/00.jsonl 82 class 25/7/50 miss0；overlay 82/82 fail0；gap≈2.7min gap_open false；游标 @yibie 2098987938017051128；git e994dfd；Pages 200 last-mod 2026-09-13 04:35:08 GMT md5 b40389d1 live=local；跳过 rec/ideas；薄种子不交；**chat 已交 t36s50（2026-09-13 12:42 CST）**。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 约 +91min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 14:31 CST
+
+## 2026-09-13 1:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文111/拿不准82/已过滤252；raw/00.jsonl 82 class 25/7/50 miss0；overlay 82/82 fail0；gap≈2.7min gap_open false；游标 @yibie 2098987938017051128；git e994dfd；Pages 200 last-mod 2026-09-13 04:35:08 GMT md5 b40389d1 live=local；跳过 rec/ideas；薄种子不交；**chat 已交 t36s50（2026-09-13 12:42 CST）**。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 13:32 CST
+
+## 2026-09-13 0:10 ET 补抓
+
+- 主窗 0:00 已齐（raw/00.jsonl 82；窗类 正文25/拿不准7/已过滤50 miss0；overlay 82/82；gap≈2.7min gap_open false；页 09-12 正文111/拿不准82/已过滤252；薄种子 09-13 3/1/2 不交；QA pass；游标 @yibie 2098987938017051128）。**齐，未重抓**。
+- trunc 4 自然省略/URL 折行，无空帖补全文；跳过 rec/ideas。Pages 200 md5 b40389d1 live=local git e994dfd。
+- chat_delivery → WakeParent 交昨天完整页。
+- 写于 2026-09-13 12:38 CST
+
+## 2026-09-13 0:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文111/拿不准82/已过滤252；raw/00.jsonl 82 class 25/7/50 miss0；overlay 82/82 fail0；gap≈2.7min gap_open false；游标 @yibie 2098987938017051128；git e994dfd；Pages 200 last-mod 2026-09-13 04:35:08 GMT md5 b40389d1 live=local；跳过 rec/ideas；薄种子不交。
+- **chat pending → WakeParent 交昨天完整页**（0:10 已写 WakeParent；transcript 未见正文111）。
+- 名单：今日 9:23 未到期；昨已齐未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 4:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 12:40 CST
 
 ## 2026-09-12 23:25 ET 健康检查
 
