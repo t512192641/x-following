@@ -6,7 +6,7 @@
 - page：正文33/拿不准25/已过滤56 → **正文51 / 拿不准36 / 已过滤102**；跳过 rec/ideas
 - QA：clippedBtns 0 pass true；12-qa.png
 - cursor → @xiaoxiaodong01 2099166059098169350 2026-09-13T15:59:23.000Z
-- publish：(pending tip)；Pages pending
+- publish：git 40670b4；Pages 200 last-mod 2026-09-13 16:29:17 GMT md5 10797c3beec963ee26d94ce152ee1c75 live=local
 - chat_line：`9/13 12:00：正文51 / 拿不准36 / 已过滤102。https://t512192641.github.io/x-following/2026-09-13.html`
 - anomaly: none
 
