@@ -1,3 +1,39 @@
+## 2026-09-13
+
+- 0:00 ET：深扫 DOM+HTL union 82（HTL hit CUR；prior→oldest≈2.7min；max_internal_gap≈12.1min；gap_open false）。pre 76 并进 09-12 完整版 → 正文111 / 拿不准82 / 已过滤252；after 6 开 09-13 薄种子 正文3/拿不准1/已过滤2（不聊天交付）。窗类 正文25 / 拿不准7 / 已过滤50（pre 22/6/48）。正文新卡含：果蝇视觉扩展、App 灵感站清单、GPT-Image-2.5 Arena 免费窗、Codex apply_patch、NotebookLLM 公开笔记本、Step back 提示词、TanStarter 送 MkImage、KV cache 文、ComfyUI MiniMax H3 Timeline、乐天 eSIM、DeepSeek V4.1 Flash 评测、Grok Bot 省额度/Sweeper、Grok Bot 上手、Lynote、Notion 原生成本、vivid-figures-skill、App 截图转化；薄种子含 Agent Harness 自愈、$50/月 AI 公司配置、348M 14位加法。跳过 recommended/ideas（latest 仍 09-11）。overlay 82/82 fail0。QA 00-qa.png pass clippedBtns0。游标 → @yibie 2098987938017051128。
+
+
+## 2026-09-12 23:25 ET 健康检查
+
+- 20:00 齐（20:10 补抓齐未重抓）：页 正文94/拿不准76/已过滤204；raw/20.jsonl 50 class 17/6/27 miss0；overlay 50/50 fail0；gap≈11.72min gap_open false；游标 @AI_Jasonyu 2098927722248503630；git d005f85；Pages 200 last-mod 2026-09-13 00:23:50 GMT md5 089a9afe live=local；已并 rec/ideas 09-11；chat 已交 t36s47。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 约 +32min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 11:28 CST
+## 2026-09-12 22:25 ET 健康检查
+
+- 20:00 齐（20:10 补抓齐未重抓）：页 正文94/拿不准76/已过滤204；raw/20.jsonl 50 class 17/6/27 miss0；overlay 50/50 fail0；gap≈11.72min gap_open false；游标 @AI_Jasonyu 2098927722248503630；git d005f85；Pages 200 last-mod 2026-09-13 00:23:50 GMT md5 089a9afe live=local；已并 rec/ideas 09-11；chat 已交 t36s47。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 约 +89min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 10:30 CST
+## 2026-09-12 21:25 ET 健康检查
+
+- 20:00 齐（20:10 补抓齐未重抓）：页 正文94/拿不准76/已过滤204；raw/20.jsonl 50 class 17/6/27 miss0；overlay 50/50 fail0；gap≈11.72min gap_open false；游标 @AI_Jasonyu 2098927722248503630；git d005f85；Pages 200 last-mod 2026-09-13 00:23:50 GMT md5 089a9afe live=local；已并 rec/ideas 09-11；chat 已交 t36s47。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 约 +152min 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-13 09:28 CST
+
+## 2026-09-12 20:25 ET 健康检查
+
+- 20:00 齐（20:10 补抓齐未重抓）：页 正文94/拿不准76/已过滤204；raw/20.jsonl 50 class 17/6/27 miss0；overlay 50/50 fail0；gap≈11.72min gap_open false；游标 @AI_Jasonyu 2098927722248503630；git d005f85；Pages 200 last-mod 2026-09-13 00:23:50 GMT md5 089a9afe live=local；已并 rec/ideas 09-11；chat 已交 t36s47。
+- 名单：今日已齐（09:29 健康检查兜底 + 09:32 x-4 正点迟到火）；头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。下窗 0:00 ET 未到期；无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+
+## 2026-09-12 20:10 ET 补抓
+
+- 主窗 20:00 已齐（raw/20.jsonl 50；窗类 正文17/拿不准6/已过滤27 miss0；overlay 50/50；gap≈11.72min gap_open false；页 正文94/拿不准76/已过滤204；QA pass；游标 @AI_Jasonyu 2098927722248503630；已并 rec/ideas 09-11）。**齐，未重抓**。
+- trunc 自然省略/已展开，无空帖补全文；latest 仍 09-11 无新一期。Pages 200 md5 089a9afe live=local git d005f85。chat_delivery → WakeParent 交当天页。
+- 写于 2026-09-13 08:25 CST
+
 ## 2026-09-12 20:00 ET
 
 - DOM Following→Latest 初跑 22 未撞游标（prior→oldest≈85min）；同会话 HTL 补齐 hit CUR → union **50**（DOM22+HTL47）；gap_prior≈11.72min；gap_open false；n_gaps_gt45 0。
