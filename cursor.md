@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2099477455585063009
-- url: https://x.com/paulg/status/2099477455585063009
-- author: Paul Graham
-- handle: @paulg
-- time_utc: 2026-09-14T12:36:46.000Z
-- updated: 2026-09-14 8:00 ET window
+- status_id: 2099535850560188717
+- url: https://x.com/dotey/status/2099535850560188717
+- author: 宝玉
+- handle: @dotey
+- time_utc: 2026-09-14T16:28:48.000Z
+- updated: 2026-09-14 12:00 ET window

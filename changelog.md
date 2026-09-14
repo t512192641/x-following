@@ -1,4 +1,39 @@
-## 2026-09-14 8:00 ET
+## 2026-09-14
+
+## 2026-09-14 12:00 ET
+
+- scrape：DOM+HTL union **112**；login_ok；hit_cursor_effective（HTL HIT CURSOR；prior→oldest≈10.92min；n_gaps_gt45 0）；gap_open false；无 AUTH_FAIL。
+- overlay：112/112 fail0；unresolved_tco 0；16 条 banner「i updated my banner」已从 HTL/DOM 还原。
+- 窗类：正文 35 / 拿不准 28 / 已过滤 49 miss0。
+- 页：基 bak-12（正文56/拿不准36/已过滤118）→ **正文 84 / 拿不准 64 / 已过滤 167**；跳过 recommended/ideas（非 20:00）。
+- QA：12-qa.png pass；clippedBtns 0。
+- cursor → @dotey / 2099535850560188717 / 2026-09-14T16:28:48.000Z。
+- publish：见下方 git/Pages 行（推送后填）。
+- chat_line: 9/14 12:00：正文84 / 拿不准64 / 已过滤167。https://t512192641.github.io/x-following/2026-09-14.html
+- 写于 2026-09-15 00:46 CST
+
+## 2026-09-14 11:25 ET 健康检查
+
+- 8:00 齐（8:10 补抓齐未重抓）：raw/08.jsonl 139；overlay 139/139 fail0；窗类 正文45/拿不准25/已过滤69 miss0；页 09-14 **正文56/拿不准36/已过滤118**；gap≈6.18min gap_open false；游标 @paulg 2099477455585063009；git 3bf1ba5 / tip 00c0d32；Pages 200 last-mod 2026-09-14 13:08:19 GMT md5 60c430ed09836f8a06d5536e149b0142 live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；**chat 已交 t36s82（2026-09-14 21:11 CST）**。
+- 名单：今日已齐（09:49兜底+10:18正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。下窗 12:00 ET 约 +24min 未到期。旧四条 disabled。无主窗 overdue gap / 无重复抓取。
+- 写于 2026-09-14 23:36 CST
+
+
+## 2026-09-14 9:25 ET 健康检查
+
+- 8:00 齐（8:10 补抓齐未重抓）：raw/08.jsonl 139；overlay 139/139 fail0；窗类 正文45/拿不准25/已过滤69 miss0；页 09-14 **正文56/拿不准36/已过滤118**；gap≈6.18min gap_open false；游标 @paulg 2099477455585063009；git 3bf1ba5；Pages 200 last-mod 2026-09-14 13:08:19 GMT md5 60c430ed09836f8a06d5536e149b0142 live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；**chat 已交 t36s82（2026-09-14 21:11 CST）**。
+- **调度漏叫**：x-4 今日 9:23 ET 未跑（lastRun 仍 2026-09-13 09:32 ET）→ 09:49 健康检查当场便宜补跑；关注/书签头顶未变 152/@GrokBotRadar + AdrianPunk115；计数仍按 162；logged in；未改 jsonl；meta 09:49 ET；书签 URL 仍 /i/history 可读；抓完 x.com/home。已 sync 私有 grok-ops/x-lists/meta.md。
+- 8:25 健康检查未见单独条目（本 9:25 迟到火并记）。下窗 12:00 ET 约 +131min 未到期。旧四条 disabled。无主窗 overdue gap / 无重复抓取。
+- 写于 2026-09-14 21:49 CST
+
+## 2026-09-14 9:49 ET 名单补跑（健康检查兜底）
+
+- x-4 9:23 漏叫证据：routine lastRun 停在 2026-09-13 09:32 ET；meta last check 停在 2026-09-13 09:40 ET。
+- 补跑结果：logged in；following 152 头 @GrokBotRadar / Fan Grok Bot Radar / 1965962389032935736 未变；bookmarks 头 2097311704547987756 @AdrianPunk115 未变；计数仍 162；未改 jsonl。
+- 写于 2026-09-14 21:49 CST
+
+- 8:10 ET 补抓：齐，未重抓。raw/08.jsonl 139；overlay 139/139；页 正文56/拿不准36/已过滤118；gap≈6.18min gap_open false；Pages md5 60c430ed live=local；主窗已交不重交。
+ 8:00 ET
 
 - source: DOM Following→Latest + same-session HomeLatestTimeline（CDP chrome-profile-4 :9226；管理时间线→最近；无官方 X API）；login_ok。
 - scrape: DOM 34 未撞游标 → HTL HIT CURSOR → union **139**；prior→oldest≈6.18min；n_gaps_gt45 0；gap_open false；hit_cursor_effective true。
