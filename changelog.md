@@ -7,7 +7,7 @@
 - page: 正文20/拿不准11/已过滤49 → **正文 56 / 拿不准 36 / 已过滤 118**；跳过 rec/ideas。
 - QA: 08-qa.png pass clippedBtns 0。
 - cursor → @paulg / 2099477455585063009 / 2026-09-14T12:36:46.000Z。
-- publish：git (pending)；Pages (pending)
+- publish：git 3bf1ba5；Pages HTTP 200 last-mod Mon, 14 Sep 2026 13:07:38 GMT md5 match live=local 60c430ed09836f8a06d5536e149b0142
 - chat_line: 9/14 8:00：正文56 / 拿不准36 / 已过滤118。https://t512192641.github.io/x-following/2026-09-14.html
 
 ## 2026-09-14 7:25 ET 健康检查
