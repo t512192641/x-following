@@ -6,7 +6,7 @@
 - 页：基 bak-16（正文84/拿不准64/已过滤167）→ **正文 99 / 拿不准 70 / 已过滤 196**；跳过 recommended/ideas（非 20:00）。
 - QA：16-qa.png pass；clippedBtns 0。
 - cursor → @grok / 2099591914861240374 / 2026-09-14T20:11:35.000Z。
-- publish：git 448e620；Pages HTTP 200 last-mod Mon, 14 Sep 2026 20:26:35 GMT md5 match live=local 4bc3e6254c6399789f2dea74e9687238
+- publish：git 448e620 / tip 31f9265；Pages HTTP 200 last-mod Mon, 14 Sep 2026 20:26:35 GMT md5 match live=local 4bc3e6254c6399789f2dea74e9687238
 - chat_line: 9/14 16:00：正文99 / 拿不准70 / 已过滤196。https://t512192641.github.io/x-following/2026-09-14.html
 - 写于 2026-09-15 04:25 CST
 
