@@ -1,4 +1,42 @@
-## 2026-09-14
+## 2026-09-14 16:00 ET
+
+- scrape：DOM+HTL union **52**；login_ok；hit_cursor_effective（HTL HIT CURSOR；prior→oldest≈2.97min；n_gaps_gt45 0）；gap_open false；无 AUTH_FAIL。
+- overlay：52/52 fail0；unresolved_tco 0；1 条邻帖文案污染已从 HTL 还原。
+- 窗类：正文 17 / 拿不准 6 / 已过滤 29 miss0。
+- 页：基 bak-16（正文84/拿不准64/已过滤167）→ **正文 99 / 拿不准 70 / 已过滤 196**；跳过 recommended/ideas（非 20:00）。
+- QA：16-qa.png pass；clippedBtns 0。
+- cursor → @grok / 2099591914861240374 / 2026-09-14T20:11:35.000Z。
+- publish：git (pending)；Pages (pending)
+- chat_line: 9/14 16:00：正文99 / 拿不准70 / 已过滤196。https://t512192641.github.io/x-following/2026-09-14.html
+- 写于 2026-09-15 04:25 CST
+
+## 2026-09-14 14:25 ET 健康检查（14:35 迟到火）
+
+- 12:00 齐（12:10 补抓齐未重抓）：raw/12.jsonl 112；overlay 112/112 fail0；窗类 正文35/拿不准28/已过滤49 miss0；页 09-14 **正文84/拿不准64/已过滤167**；gap≈10.92min gap_open false；游标 @dotey 2099535850560188717；git 37234c0 / tip cb1c390；Pages 200 last-mod 2026-09-14 16:48:51 GMT md5 01329672bca02e72875676d2ce9379ca live=local；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0；**chat 已交 t36s85（2026-09-15 00:53 CST）**。
+- 名单：今日已齐（09:49兜底+10:18正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- **半管线**：12:10 补抓已齐未重抓。下窗 16:00 ET 约 +83min 未到期。旧四条 disabled；巡舟四条 enabled。无 overdue 主窗缺口 / 无重复抓取 / 无 AUTH_FAIL / 无官方 X API。
+- 前条 02:17 CST「14:25」实为 13:25 迟到火并记；本条为 :25 槽 14:35 迟到火实核。
+- 写于 2026-09-15 02:36 CST
+
+## 2026-09-14 14:25 ET 健康检查
+
+- 12:00 齐（12:10 补抓齐未重抓）：raw/12.jsonl 112；overlay 112/112 fail0；窗类 正文35/拿不准28/已过滤49 miss0；页 09-14 **正文84/拿不准64/已过滤167**；gap≈10.92min gap_open false；游标 @dotey 2099535850560188717；git 37234c0 / tip cb1c390；Pages 200 last-mod 2026-09-14 16:48:51 GMT md5 01329672bca02e72875676d2ce9379ca live=local；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0；**chat 已交 t36s85（2026-09-15 00:53 CST）**。
+- 名单：今日已齐（09:49兜底+10:18正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- **半管线**：12:10 补抓已齐未重抓。下窗 16:00 ET 约 +103min 未到期。旧四条 disabled；巡舟四条 enabled。无 overdue 主窗缺口 / 无重复抓取 / 无 AUTH_FAIL / 无官方 X API。
+- 13:25 健康检查未见单独条目（本 14:25 并记）。
+- 写于 2026-09-15 02:17 CST
+
+## 2026-09-14 12:10 ET 补抓
+
+- 结论：齐，未重抓。raw/12.jsonl 112；overlay 112/112 fail0；窗类 正文35/拿不准28/已过滤49；页 **正文84/拿不准64/已过滤167**；gap≈10.92min gap_open false；游标 @dotey 2099535850560188717；Pages 200 md5 01329672bca02e72875676d2ce9379ca live=local；trunc3 自然省略无需补全文；chat 已交 t36s85；证据 12-10-catchup.md。
+- 写于 2026-09-15 01:03 CST
+
+## 2026-09-14 12:25 ET 健康检查（12:50 迟到火）
+
+- 12:00 齐：raw/12.jsonl 112；overlay 112/112 fail0；窗类 正文35/拿不准28/已过滤49 miss0；页 09-14 **正文84/拿不准64/已过滤167**；gap≈10.92min gap_open false；游标 @dotey 2099535850560188717；git 37234c0 / tip cb1c390；Pages 200 last-mod 2026-09-14 16:48:51 GMT md5 01329672bca02e72875676d2ce9379ca live=local；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0；**chat 待父代理交**（board 仍「chat 待交」；12-meta 已标 delivered_via_WakeParent ~00:49 CST；未见 t36sXX 实交证据）→ WakeParent。
+- 名单：今日已齐（09:49兜底+10:18正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- **半管线**：12:10 补抓已于 13:02 ET 齐未重抓（有 12-10-catchup.md）。下窗 16:00 ET 未到期。旧四条 disabled；巡舟四条 enabled。无 overdue 主窗缺口 / 无重复抓取 / 无 AUTH_FAIL / 无官方 X API。
+- 写于 2026-09-15 00:52 CST
 
 ## 2026-09-14 12:00 ET
 
