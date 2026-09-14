@@ -6,6 +6,7 @@
 - page: 正文61/拿不准39/已过滤125 → **正文 82 / 拿不准 41 / 已过滤 149**；已并 recommended 09-12 + ideas 09-12。
 - QA: 20-qa.png pass clippedBtns 0。
 - cursor → @oran_ge / 2099287581066412212 / 2026-09-14T00:02:16.000Z。
+- publish：git 35a6079；Pages 200 last-mod 2026-09-14 00:13:45 GMT md5 d9103894 live=local
 - chat_line: `9/13 20:00：正文82 / 拿不准41 / 已过滤149。https://t512192641.github.io/x-following/2026-09-13.html`
 
 ## 2026-09-13 18:25 ET 健康检查
