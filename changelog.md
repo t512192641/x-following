@@ -8,7 +8,7 @@
 - 页：基 bak-12（正文56/拿不准36/已过滤118）→ **正文 84 / 拿不准 64 / 已过滤 167**；跳过 recommended/ideas（非 20:00）。
 - QA：12-qa.png pass；clippedBtns 0。
 - cursor → @dotey / 2099535850560188717 / 2026-09-14T16:28:48.000Z。
-- publish：见下方 git/Pages 行（推送后填）。
+- publish：git 37234c0；Pages HTTP 200 last-mod Mon, 14 Sep 2026 16:47:41 GMT md5 match live=local 01329672bca02e72875676d2ce9379ca
 - chat_line: 9/14 12:00：正文84 / 拿不准64 / 已过滤167。https://t512192641.github.io/x-following/2026-09-14.html
 - 写于 2026-09-15 00:46 CST
 
