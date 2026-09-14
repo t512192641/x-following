@@ -7,7 +7,7 @@
 - page: 薄种子 正文3/拿不准2/已过滤10 → **正文 20 / 拿不准 11 / 已过滤 49**；跳过 rec/ideas。
 - QA: 04-qa.png pass clippedBtns 0。
 - cursor → @xiaohu / 2099409639234289914 / 2026-09-14T08:07:17.000Z。
-- publish：pending
+- publish：git 73050ca；Pages 200 last-mod 2026-09-14 08:24:30 GMT md5 764323092f0b661e6b0c46a2f3831893 live=local
 - chat_line: 9/14 4:00：正文20 / 拿不准11 / 已过滤49。https://t512192641.github.io/x-following/2026-09-14.html
 
 ## 2026-09-14 3:25 ET 健康检查
