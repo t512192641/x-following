@@ -7,6 +7,7 @@
 - page: 正文82/拿不准41/已过滤149 → **正文 103 / 拿不准 51 / 已过滤 201**；跳过 rec/ideas。
 - QA: 00-qa.png pass clippedBtns 0。
 - cursor → @GrokBotRadar / 2099351180812198353 / 2026-09-14T04:15:00.000Z。
+- publish：git 2d6b919；Pages 200 last-mod 2026-09-14 04:34:58 GMT md5 1a19233791a46f51a3d54b7e42ff0347 live=local
 - chat_line: 9/13 0:00：正文103 / 拿不准51 / 已过滤201。https://t512192641.github.io/x-following/2026-09-13.html
 
 ## 2026-09-13 23:25 ET 健康检查
