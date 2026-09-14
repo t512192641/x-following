@@ -1,3 +1,33 @@
+## 2026-09-13 20:00 ET
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP chrome-profile-4 :9226；管理时间线→最近；无官方 X API）；login_ok。
+- scrape: DOM 17 未撞游标 → HTL HIT CURSOR → union **40**；prior→oldest≈26.25min；max_internal_gap≈37.80min；gap_open false；n_gaps_gt45 0。
+- overlay: 40/40 fail 0；article deep fetch 4（Next Token / Pace / P(doom) / 敬一丹）。
+- classification: 正文 13 / 拿不准 2 / 已过滤 25 miss0；写回 20.jsonl。
+- page: 正文61/拿不准39/已过滤125 → **正文 82 / 拿不准 41 / 已过滤 149**；已并 recommended 09-12 + ideas 09-12。
+- QA: 20-qa.png pass clippedBtns 0。
+- cursor → @oran_ge / 2099287581066412212 / 2026-09-14T00:02:16.000Z。
+- chat_line: `9/13 20:00：正文82 / 拿不准41 / 已过滤149。https://t512192641.github.io/x-following/2026-09-13.html`
+
+## 2026-09-13 18:25 ET 健康检查
+
+- 16:00 齐（16:10 补抓完整主抓）；raw36 overlay36/36 页正文61/拿不准39/已过滤125；gap≈15.23min gap_open false；Pages live=local md5 f5faec2a；游标 @danshipper 2099231248027730195。
+- chat 已交 t36s64（2026-09-14 04:36 CST）。
+- 名单今日已齐未再抓；旧四条 disabled；下窗 20:00 约 +88min 未到期；无 overdue；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-14 06:33 CST
+
+## 2026-09-13 16:25 ET 健康检查
+
+- 16:00 齐（16:10 补抓完整主抓）；raw36 overlay36/36 页正文61/拿不准39/已过滤125；gap≈15.23min gap_open false；Pages live=local md5 f5faec2a；游标 @danshipper 2099231248027730195。
+- 主窗 16:00 漏跑已由 :10 兜底（证据已在 16-10-catchup / task-board）；健康检查未扩大重跑。
+- chat pending → WakeParent 补交（transcript 未见正文61）。
+- 名单今日已齐未再抓；旧四条 disabled；下窗 20:00。2026-09-14 04:36 CST
+
+## 2026-09-13 16:32 ET 主窗迟到火
+
+- 目标窗 16:00：已由 16:10 补抓完整主抓，**齐，未重抓**。raw/16.jsonl 36 class 10/3/23；页 正文61/拿不准39/已过滤125；Pages live=local md5 f5faec2a；游标 @danshipper 2099231248027730195。
+- chat pending → WakeParent 交（transcript 未见正文61）。
+- 写于 2026-09-14 04:34 CST
+
 ## 2026-09-13 16:00 ET（16:10 补抓完整主抓）
 
 - scrape: DOM+HTL union **36**（DOM19 未撞游标；HTL HIT CURSOR；首轮 HTL 错流已重跑）；prior→oldest≈15.23min；gap_open false；max_internal≈23.27min；无 AUTH_FAIL；无官方 X API

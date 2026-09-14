@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2099231248027730195
-- url: https://x.com/danshipper/status/2099231248027730195
-- author: Dan Shipper
-- handle: @danshipper
-- time_utc: 2026-09-13T20:18:26.000Z
-- updated: 2026-09-13 16:00 ET window (16:10 catch-up full main)
+- status_id: 2099287581066412212
+- url: https://x.com/oran_ge/status/2099287581066412212
+- author: Orange AI
+- handle: @oran_ge
+- time_utc: 2026-09-14T00:02:16.000Z
+- updated: 2026-09-13 20:00 ET window
