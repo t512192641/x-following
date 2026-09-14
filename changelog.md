@@ -1,3 +1,42 @@
+## 2026-09-14 4:00 ET
+
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP chrome-profile-4 :9226；管理时间线→最近；无官方 X API）；login_ok。
+- scrape: DOM 20 未撞游标 → HTL HIT CURSOR → union **75**；prior→oldest≈3.32min；n_gaps_gt45 0；gap_open false；hit_cursor_effective true。
+- overlay: 75/75 fail 0。
+- classification: 正文 27 / 拿不准 9 / 已过滤 39 miss0；写回 04.jsonl。
+- page: 薄种子 正文3/拿不准2/已过滤10 → **正文 20 / 拿不准 11 / 已过滤 49**；跳过 rec/ideas。
+- QA: 04-qa.png pass clippedBtns 0。
+- cursor → @xiaohu / 2099409639234289914 / 2026-09-14T08:07:17.000Z。
+- publish：pending
+- chat_line: 9/14 4:00：正文20 / 拿不准11 / 已过滤49。https://t512192641.github.io/x-following/2026-09-14.html
+
+## 2026-09-14 3:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文103/拿不准51/已过滤201；raw/00.jsonl 99 class 25/12/62 miss0；overlay 99/99 fail0；gap≈8.73min gap_open false；游标 @GrokBotRadar 2099351180812198353；git 2d6b919 / tip f04efbe；Pages 200 last-mod 2026-09-14 04:35:59 GMT md5 1a19233791a46f51a3d54b7e42ff0347 live=local；跳过 rec/ideas；薄种子 09-14 3/2/10 不交；**chat 已交 t36s72（2026-09-14 12:41 CST）**。
+- 名单今日 9:23 未到期（昨 09:40 正点迟到火已齐）未再抓；下窗 4:00 约 +6min 未到期；旧四条 disabled；无 overdue gap / 无重复抓 / 无异常。
+- 写于 2026-09-14 15:54 CST
+
+## 2026-09-14 2:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文103/拿不准51/已过滤201；raw/00.jsonl 99 class 25/12/62 miss0；overlay 99/99 fail0；gap≈8.73min gap_open false；游标 @GrokBotRadar 2099351180812198353；git 2d6b919 / tip f04efbe；Pages 200 last-mod 2026-09-14 04:35:59 GMT md5 1a19233791a46f51a3d54b7e42ff0347 live=local；跳过 rec/ideas；薄种子 09-14 3/2/10 不交；**chat 已交 t36s72（2026-09-14 12:41 CST）**。
+- 名单：今日 9:23 未到期（昨 09:40 正点迟到火已齐）未再抓。下窗 4:00 ET 约 +76min 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-14 14:43 CST
+
+## 2026-09-14 1:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文103/拿不准51/已过滤201；raw/00.jsonl 99 class 25/12/62 miss0；overlay 99/99 fail0；gap≈8.73min gap_open false；游标 @GrokBotRadar 2099351180812198353；git 2d6b919 / tip f04efbe；Pages 200 last-mod 2026-09-14 04:35:58 GMT md5 1a19233791a46f51a3d54b7e42ff0347 live=local；跳过 rec/ideas；薄种子 09-14 3/2/10 不交；**chat 已交 t36s72（2026-09-14 12:41 CST）**。
+- 名单：今日 9:23 未到期（昨 09:40 正点迟到火已齐）未再抓。下窗 4:00 ET 约 +146min 未到期。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-14 13:34 CST
+
+## 2026-09-14 0:25 ET 健康检查
+
+- 0:00 齐（0:10 补抓齐未重抓）：页 正文103/拿不准51/已过滤201；raw/00.jsonl 99 class 25/12/62 miss0；overlay 99/99 fail0；gap≈8.73min gap_open false；游标 @GrokBotRadar 2099351180812198353；git 2d6b919 / tip f04efbe；Pages 200 last-mod 2026-09-14 04:35:58 GMT md5 1a19233791a46f51a3d54b7e42ff0347 live=local；跳过 rec/ideas；薄种子 09-14 3/2/10 不交；**chat pending → WakeParent 补交**（transcript 未见正文103/51/201）。
+- 名单：今日 9:23 未到期（昨 x-4 09:40正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。下窗 4:00 ET。
+- 旧四条 grok大总管 X routine 仍 disabled；巡舟四条 enabled。无 overdue 主窗缺口；无 AUTH_FAIL；无官方 X API；本健康检查不扩大主窗重跑。
+- 写于 2026-09-14 12:40 CST
+
 ## 2026-09-14 0:00 ET
 
 - source: DOM Following→Latest + same-session HomeLatestTimeline（CDP chrome-profile-4 :9226；管理时间线→最近；无官方 X API）；login_ok。
