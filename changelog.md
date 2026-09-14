@@ -1,3 +1,34 @@
+## 2026-09-14 8:00 ET
+
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP chrome-profile-4 :9226；管理时间线→最近；无官方 X API）；login_ok。
+- scrape: DOM 34 未撞游标 → HTL HIT CURSOR → union **139**；prior→oldest≈6.18min；n_gaps_gt45 0；gap_open false；hit_cursor_effective true。
+- overlay: 139/139 fail 0；10 条 banner 误文案 + 3 条严重偏离已从 HTL/DOM 还原。
+- classification: 正文 45 / 拿不准 25 / 已过滤 69 miss0；写回 08.jsonl。
+- page: 正文20/拿不准11/已过滤49 → **正文 56 / 拿不准 36 / 已过滤 118**；跳过 rec/ideas。
+- QA: 08-qa.png pass clippedBtns 0。
+- cursor → @paulg / 2099477455585063009 / 2026-09-14T12:36:46.000Z。
+- publish：git (pending)；Pages (pending)
+- chat_line: 9/14 8:00：正文56 / 拿不准36 / 已过滤118。https://t512192641.github.io/x-following/2026-09-14.html
+
+## 2026-09-14 7:25 ET 健康检查
+
+- 4:00 齐（4:10 补抓齐未重抓）：raw/04.jsonl 75；overlay 75/75 fail0；窗类 正文27/拿不准9/已过滤39 miss0；页 09-14 **正文20/拿不准11/已过滤49**；gap≈3.32min gap_open false；游标 @xiaohu 2099409639234289914；git 73050ca / tip e13afc4；Pages 200 last-mod 2026-09-14 08:25:05 GMT md5 764323092f0b661e6b0c46a2f3831893 live=local；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；**chat 已交 t36s77（2026-09-14 16:29 CST）**。
+- 名单：今日 9:23 未到期（昨 09:40 正点迟到火已齐）未再抓。下窗 8:00 ET 约 +8min 未到期。旧四条 disabled。无 overdue gap / 无重复抓取。
+- 写于 2026-09-14 19:51 CST
+
+## 2026-09-14 6:25 ET 健康检查
+
+- 4:00 齐（4:10 补抓齐未重抓）：raw/04.jsonl 75；overlay 75/75 fail0；窗类 正文27/拿不准9/已过滤39 miss0；页 09-14 **正文20/拿不准11/已过滤49**；gap≈3.32min gap_open false；游标 @xiaohu 2099409639234289914；git 73050ca / tip e13afc4；Pages 200 last-mod 2026-09-14 08:25:05 GMT md5 764323092f0b661e6b0c46a2f3831893 live=local；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；**chat 已交 t36s77（2026-09-14 16:29 CST）**。
+- 名单：今日 9:23 未到期（昨 09:40 正点迟到火已齐）未再抓。下窗 8:00 ET 约 +88min 未到期。旧四条 disabled。无 overdue gap / 无重复抓取。
+- 写于 2026-09-14 18:32 CST
+
+## 2026-09-14 4:25 ET 健康检查
+
+- 4:00 齐：raw/04.jsonl 75；overlay 75/75 fail0；窗类 正文27/拿不准9/已过滤39 miss0；页 09-14 **正文20/拿不准11/已过滤49**；gap≈3.32min gap_open false；游标 @xiaohu 2099409639234289914；git 73050ca；Pages 200 last-mod 2026-09-14 08:25:05 GMT md5 764323092f0b661e6b0c46a2f3831893 live=local；跳过 rec/ideas；QA 04-qa.png pass。
+- **chat 待父代理交**（主窗已写 chat_line；本检查 WakeParent 交付）。
+- 名单今日 9:23 未到期（昨 09:40 正点迟到火已齐）未再抓；4:10 补抓 lastRun 未见本窗（主窗已齐不扩大重跑）；下窗 8:00 未到期；旧四条 disabled。
+- 写于 2026-09-14 16:28 CST
+
 ## 2026-09-14 4:00 ET
 
 - source: DOM Following→Latest + same-session HomeLatestTimeline（CDP chrome-profile-4 :9226；管理时间线→最近；无官方 X API）；login_ok。

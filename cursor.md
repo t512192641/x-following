@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2099409639234289914
-- url: https://x.com/xiaohu/status/2099409639234289914
-- author: 小互
-- handle: @xiaohu
-- time_utc: 2026-09-14T08:07:17.000Z
-- updated: 2026-09-14 4:00 ET window
+- status_id: 2099477455585063009
+- url: https://x.com/paulg/status/2099477455585063009
+- author: Paul Graham
+- handle: @paulg
+- time_utc: 2026-09-14T12:36:46.000Z
+- updated: 2026-09-14 8:00 ET window
