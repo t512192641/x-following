@@ -8,6 +8,7 @@
 - QA：00-qa.png pass；clippedBtns 0。
 - cursor → @imwsl90 / 2099713873356214625 / 2026-09-15T04:16:12.000Z。
 - chat_line：9/14 0:00：正文138 / 拿不准108 / 已过滤327。https://t512192641.github.io/x-following/2026-09-14.html（待父代理 WakeParent）。
+- publish：git 924ab56；Pages HTTP 200 last-mod Tue, 15 Sep 2026 04:37:42 GMT md5 e100c01c3291c41c26799a5dfd993a5f live=local。
 
 ## 2026-09-14 20:10 ET 补抓
 
