@@ -1,3 +1,48 @@
+## 2026-09-15 4:00 ET
+
+- scrape：DOM Following→Latest 43 + same-session HTL 141 → union **143**；login_ok hasCompose；HTL 撞游标；hit_cursor false（字面未入输出）；hit_cursor_effective true（prior→oldest≈4.35min；HTL 日志 HIT CURSOR）；gap_open false；n_gaps_gt45 0；无 AUTH_FAIL。
+- overlay：143/143 fail0；unresolved_tco 0；无 Cline Desktop 邻帖污染。
+- 窗类：正文 51 / 拿不准 23 / 已过滤 69 miss0；写回 04.jsonl + _class04.json；字段 classification。
+- 页：基薄种子（正文1/拿不准4/已过滤4）→ .bak-04 → **正文 31 / 拿不准 27 / 已过滤 73**；**跳过 recommended/ideas**（非 20:00）。
+- QA：04-qa.png pass；clippedBtns 0。
+- cursor → @imwsl90 / 2099775961202143335 / 2026-09-15T08:22:55.000Z。
+- chat_line：9/15 4:00：正文31 / 拿不准27 / 已过滤73。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。
+- publish：git TIP_PLACEHOLDER；Pages PENDING。
+- anomaly：none（HTL 首跑空包已硬刷新重抓成功；DOM 虚列表 43 未撞）。
+
+## 2026-09-15 3:25 ET 健康检查（3:33 迟到火）
+
+- 0:00 齐（0:10 补抓完整主抓）：raw/00.jsonl 161；overlay 161/161 fail0；窗类 正文40/拿不准30/已过滤91 miss0；页 09-14 **正文138/拿不准108/已过滤327**；薄种子 09-15 1/4/4 不交；gap≈1.67min gap_open false；游标 @imwsl90 2099713873356214625；git 924ab56 / tip 97e57f9；Pages 200 last-mod 2026-09-15 04:39:14 GMT md5 e100c01c3291c41c26799a5dfd993a5f live=local；跳过 rec/ideas；QA 00-qa.png pass clippedBtns0；**chat 已交 t36s98（2026-09-15 12:40 CST）**。
+- 名单今日 9:23 未到期（昨 09:49兜底+10:18正点迟到火已齐）未再抓。
+- 下窗 4:00 ET 约 +26min 未到期；无 overdue main gap；旧四条 disabled；quiet_ok。
+- 写于 2026-09-15 15:34 CST
+
+## 2026-09-15 2:25 ET 健康检查（2:41 迟到火）
+
+- 0:00 齐（0:10 补抓完整主抓）：raw/00.jsonl 161；overlay 161/161 fail0；窗类 正文40/拿不准30/已过滤91 miss0；页 09-14 **正文138/拿不准108/已过滤327**；薄种子 09-15 1/4/4 不交；gap≈1.67min gap_open false；游标 @imwsl90 2099713873356214625；git 924ab56 / tip 97e57f9；Pages 200 last-mod 2026-09-15 04:39:14 GMT md5 e100c01c3291c41c26799a5dfd993a5f live=local；跳过 rec/ideas；QA 00-qa.png pass clippedBtns0；**chat 已交 t36s98（2026-09-15 12:40 CST）**。
+- 主窗：0:00 已齐；下窗 4:00 ET 约 +79min 未到期；无 overdue_main_gaps。
+- 名单今日 9:23 ET 未到期（昨 09:49 兜底+10:18 正点迟到火已齐）未再抓。
+- 旧四条 disabled；巡舟四条 enabled；无重复抓取 / 无 AUTH_FAIL / 无官方 X API。
+- quiet_ok / stay_quiet。
+- 写于 2026-09-15 14:43 CST
+
+## 2026-09-15 1:25 ET 健康检查（1:39 迟到火）
+
+- 0:00 齐（0:10 补抓完整主抓）：raw/00.jsonl 161；overlay 161/161 fail0；窗类 正文40/拿不准30/已过滤91 miss0；页 09-14 **正文138/拿不准108/已过滤327**；薄种子 09-15 1/4/4 不交；gap≈1.67min gap_open false；游标 @imwsl90 2099713873356214625；git 924ab56 / tip 97e57f9；Pages 200 last-mod 2026-09-15 04:39:14 GMT md5 e100c01c3291c41c26799a5dfd993a5f live=local；跳过 rec/ideas；QA 00-qa.png pass clippedBtns0；**chat 已交 t36s98（2026-09-15 12:40 CST）**。
+- 主窗：0:00 已齐；下窗 4:00 ET 约 +140min 未到期；无 overdue_main_gaps。
+- 名单今日 9:23 ET 未到期（昨 09:49 兜底+10:18 正点迟到火已齐）未再抓。
+- 旧四条 disabled；巡舟四条 enabled；无重复抓取 / 无 AUTH_FAIL / 无官方 X API。
+- quiet_ok / stay_quiet。
+
+## 2026-09-15 0:25 ET 健康检查（0:41 迟到火）
+
+- 0:00 齐（0:10 补抓完整主抓）：raw/00.jsonl 161；overlay 161/161 fail0；窗类 正文40/拿不准30/已过滤91 miss0；页 09-14 **正文138/拿不准108/已过滤327**；薄种子 09-15 1/4/4 不交；gap≈1.67min gap_open false；游标 @imwsl90 2099713873356214625；git 924ab56 / tip 97e57f9；Pages 200 last-mod 2026-09-15 04:39:14 GMT md5 e100c01c3291c41c26799a5dfd993a5f live=local；跳过 rec/ideas；QA 00-qa.png pass clippedBtns0；**chat 已交 t36s98（2026-09-15 12:40 CST）**。
+- 主窗：0:00 已齐；下窗 4:00 ET 约 +198min 未到期；无 overdue_main_gaps。
+- 名单今日 9:23 未到期（昨 09:49兜底+10:18正点迟到火已齐）头顶 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 旧 grok大总管 4 X routines：持续 disabled；巡舟四条 enabled；无 AUTH_FAIL / 无官方 X API / 无重复抓取。
+- quiet_ok / stay_quiet。
+- 写于 2026-09-15 12:42 CST
+
 ## 2026-09-15 0:00 ET（0:10 补抓完整主抓）
 
 - **主窗 0:00 漏跑** → 0:10 补抓代跑完整主抓（非仅核对）。
@@ -10,9 +55,33 @@
 - chat_line：9/14 0:00：正文138 / 拿不准108 / 已过滤327。https://t512192641.github.io/x-following/2026-09-14.html（待父代理 WakeParent）。
 - publish：git 924ab56；Pages HTTP 200 last-mod Tue, 15 Sep 2026 04:37:42 GMT md5 e100c01c3291c41c26799a5dfd993a5f live=local。
 
+## 2026-09-14 22:25 ET 健康检查（22:29 迟到火）
+
+- 20:00 齐（20:10 补抓齐未重抓）：raw/20.jsonl 70；overlay 70/70 fail0；窗类 正文14/拿不准12/已过滤44 miss0；页 09-14 **正文111/拿不准82/已过滤240**；gap≈4.92min gap_open false；游标 @genspark_ai 2099652222749720780；git ee50bcc / tip 443a1d2（via fe56c18）；Pages 200 last-mod 2026-09-15 00:25:11 GMT md5 476385b25ab588a8a45d1cc1d60123a0 live=local；跳过 rec/ideas；QA 20-qa.png pass clippedBtns0；**chat 已交 t36s93（2026-09-15 08:26 CST）**。
+- 主窗今日已齐：0/4/8/12/16/20；下窗 0:00 ET 约 +90min 未到期；无 overdue_main_gaps。
+- 名单今日已齐（09:49兜底+10:18正点迟到火）：following 152/@GrokBotRadar；bookmarks AdrianPunk115/162；头顶未变；未再抓。
+- 旧 grok大总管 4 X routines：task-board 持续记 disabled；未启旧 routine。
+- quiet_ok / stay_quiet。
+
+## 2026-09-14 21:25 ET 健康检查（21:35 迟到火）
+
+- 20:00 齐（20:10 补抓齐未重抓）：raw/20.jsonl 70；overlay 70/70 fail0；窗类 正文14/拿不准12/已过滤44 miss0；页 09-14 **正文111/拿不准82/已过滤240**；gap≈4.92min gap_open false；游标 @genspark_ai 2099652222749720780；git ee50bcc / tip 443a1d2（via fe56c18）；Pages 200 last-mod 2026-09-15 00:25:11 GMT md5 476385b25ab588a8a45d1cc1d60123a0 live=local；跳过 rec/ideas；QA 20-qa.png pass clippedBtns0；**chat 已交 t36s93（2026-09-15 08:26 CST）**。
+- 主窗今日已齐：0/4/8/12/16/20；下窗 0:00 ET 约 +143min 未到期；无 overdue_main_gaps。
+- 名单今日已齐（09:49兜底+10:18正点迟到火）：following 152/@GrokBotRadar；bookmarks AdrianPunk115/162；头顶未变；未再抓。
+- 旧四条 disabled；巡舟四条 enabled；quiet_ok true。
+- 写于 2026-09-15 09:36 CST
+
+## 2026-09-14 20:25 ET 健康检查
+
+- 20:00 齐（20:10 补抓齐未重抓）：raw/20.jsonl 70；overlay 70/70 fail0；窗类 正文14/拿不准12/已过滤44 miss0；页 09-14 **正文111/拿不准82/已过滤240**；gap≈4.92min gap_open false；游标 @genspark_ai 2099652222749720780；git ee50bcc / tip 443a1d2（via fe56c18）；Pages 200 last-mod 2026-09-15 00:25:11 GMT md5 476385b25ab588a8a45d1cc1d60123a0 live=local；跳过 rec/ideas；QA 20-qa.png pass clippedBtns0；**chat 已交 t36s93（2026-09-15 08:26 CST）**。
+- 主窗今日已齐：0/4/8/12/16/20；下窗 0:00 ET 约 +213min 未到期；无 overdue_main_gaps。
+- 名单今日已齐（09:49兜底+10:18正点迟到火）：following 152/@GrokBotRadar；bookmarks AdrianPunk115/162；头顶未变；未再抓。
+- 19:25 未见单独条目（本轮并记）。旧四条 disabled；巡舟四条 enabled；quiet_ok true。
+- 写于 2026-09-15 08:28 CST
+
 ## 2026-09-14 20:10 ET 补抓
 
-- 齐，未重抓。raw/20.jsonl 70 overlay 70/70；页 正文111/拿不准82/已过滤240；gap≈4.92min gap_open false；游标 @genspark_ai 2099652222749720780；跳过 rec/ideas；Pages md5 476385b25ab588a8a45d1cc1d60123a0 live=local；public tip ee50bcc / fe56c18；trunc1 已过滤自然省略无需补全文；chat 主窗 pending → 本补抓 WakeParent 交付。
+- 齐，未重抓。raw/20.jsonl 70 overlay 70/70；页 正文111/拿不准82/已过滤240；gap≈4.92min gap_open false；游标 @genspark_ai 2099652222749720780；跳过 rec/ideas；Pages md5 476385b25ab588a8a45d1cc1d60123a0 live=local；public tip ee50bcc / tip 443a1d2 (via fe56c18)；trunc1 已过滤自然省略无需补全文；chat 主窗 pending → 本补抓 WakeParent 交付。
 - 写于 2026-09-15 08:24 CST
 
 ## 2026-09-14 20:00 ET
