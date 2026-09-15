@@ -7,7 +7,7 @@
 - QA：08-qa.png pass clippedBtns0。
 - cursor：advanced → @frxiaobei 2099831519309332660。
 - chat_line：9/15 8:00：正文49 / 拿不准43 / 已过滤125。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。
-- publish：PENDING（push 后回填）。
+- publish：git 7081ccf；Pages HTTP 200 last-mod Tue, 15 Sep 2026 12:22:53 GMT md5 match live=local 74de0755c69c5b34e5f50d5875ea804e。
 - anomaly：none。
 
 ## 2026-09-15 7:25 ET 健康检查（7:57 迟到火）
