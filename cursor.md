@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2099591914861240374
-- url: https://x.com/grok/status/2099591914861240374
-- author: Grok
-- handle: @grok
-- time_utc: 2026-09-14T20:11:35.000Z
-- updated: 2026-09-14 16:00 ET window
+- status_id: 2099652222749720780
+- url: https://x.com/genspark_ai/status/2099652222749720780
+- author: Genspark
+- handle: @genspark_ai
+- time_utc: 2026-09-15T00:11:14.000Z
+- updated: 2026-09-14 20:00 ET window

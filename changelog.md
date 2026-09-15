@@ -1,3 +1,41 @@
+## 2026-09-14 20:00 ET
+
+- scrape：DOM+HTL union **70**；login_ok；hit_cursor_effective（prior→oldest≈4.92min；n_gaps_gt45 0）；gap_open false；无 AUTH_FAIL。
+- overlay：70/70 fail0；unresolved_tco 0；13 条邻帖 Cline Desktop 文案污染已从 HTL/DOM 还原。
+- 窗类：正文 14 / 拿不准 12 / 已过滤 44 miss0。
+- 页：基 bak-20（正文99/拿不准70/已过滤196）→ **正文 111 / 拿不准 82 / 已过滤 240**；**跳过 recommended/ideas**（仍 09-12，当日已并）。
+- QA：20-qa.png pass；clippedBtns 0。
+- cursor → @genspark_ai / 2099652222749720780 / 2026-09-15T00:11:14.000Z。
+- publish：见下方 git tip / Pages 行（commit 后回填）。
+- chat_line: 9/14 20:00：正文111 / 拿不准82 / 已过滤240。https://t512192641.github.io/x-following/2026-09-14.html
+- 写于 2026-09-15 08:25 CST
+
+## 2026-09-14 18:25 ET 健康检查（18:41 迟到火）
+
+- 16:00 齐（16:10 补抓齐未重抓）：raw/16.jsonl 52；overlay 52/52 fail0；窗类 正文17/拿不准6/已过滤29 miss0；页 09-14 **正文99/拿不准70/已过滤196**；gap≈2.97min gap_open false；游标 @grok 2099591914861240374；git 448e620 / tip 31f9265（site HEAD c54b49f）；Pages 200 last-mod 2026-09-14 20:27:38 GMT md5 4bc3e6254c6399789f2dea74e9687238 live=local；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 已交 t36s90（2026-09-15 04:28 CST）**。
+- 主窗今日已齐：0/4/8/12/16；20:00 未到期（约 +78min）；无 overdue_main_gaps。
+- 名单今日已齐（09:49兜底+10:18正点迟到火）：following 152/@GrokBotRadar；bookmarks AdrianPunk115/162；头顶未变；未再抓。
+- 旧四条 disabled；quiet_ok true。
+- 写于 2026-09-15 06:41 CST
+
+## 2026-09-14 17:25 ET 健康检查（17:51 迟到火）
+
+- 16:00 齐（16:10 补抓齐未重抓）：raw/16.jsonl 52；overlay 52/52 fail0；窗类 正文17/拿不准6/已过滤29 miss0；页 09-14 **正文99/拿不准70/已过滤196**；gap≈2.97min gap_open false；游标 @grok 2099591914861240374；git 448e620 / tip 31f9265；Pages 200 last-mod 2026-09-14 20:27:38 GMT md5 4bc3e6254c6399789f2dea74e9687238 live=local；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 已交 t36s90（2026-09-15 04:28 CST）**。
+- 名单：今日已齐（09:49兜底+10:18正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- **半管线**：16:10 补抓已齐未重抓（有 16-10-catchup.md）。下窗 20:00 ET 约 +129min 未到期。旧四条 disabled；巡舟四条 enabled。无 overdue 主窗缺口 / 无重复抓取 / 无 AUTH_FAIL / 无官方 X API。
+- 写于 2026-09-15 05:52 CST
+
+## 2026-09-14 16:10 ET 补抓
+- 齐，未重抓。raw/16.jsonl 52 overlay 52/52；页 正文99/拿不准70/已过滤196；gap≈2.97min gap_open false；Pages md5 4bc3e625 live=local；chat 已交 t36s90，不重交。
+- 写于 2026-09-15 05:03 CST
+
+## 2026-09-14 16:25 ET 健康检查（16:44 迟到火）
+
+- 16:00 齐（主窗已齐；16:10 补抓尚未见 16-10-catchup.md，routine lastRun 仍停在 12:10 ET；主窗已齐，健康检查不扩大重跑）：raw/16.jsonl 52；overlay 52/52 fail0；窗类 正文17/拿不准6/已过滤29 miss0；页 09-14 **正文99/拿不准70/已过滤196**；gap≈2.97min gap_open false；游标 @grok 2099591914861240374；git 448e620 / tip 31f9265；Pages 200 last-mod 2026-09-14 20:27:38 GMT md5 4bc3e6254c6399789f2dea74e9687238 live=local；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 已交 t36s90（2026-09-15 04:28 CST）**。
+- 名单：今日已齐（09:49兜底+10:18正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- **半管线**：16:10 补抓证据未到，主窗已齐不扩大重跑。下窗 20:00 ET 约 +193min 未到期。旧四条 disabled；巡舟四条 enabled。无 overdue 主窗缺口 / 无重复抓取 / 无 AUTH_FAIL / 无官方 X API。
+- 写于 2026-09-15 04:46 CST
+
 ## 2026-09-14 16:00 ET
 
 - scrape：DOM+HTL union **52**；login_ok；hit_cursor_effective（HTL HIT CURSOR；prior→oldest≈2.97min；n_gaps_gt45 0）；gap_open false；无 AUTH_FAIL。
