@@ -1,3 +1,14 @@
+## 2026-09-15 0:00 ET（0:10 补抓完整主抓）
+
+- **主窗 0:00 漏跑** → 0:10 补抓代跑完整主抓（非仅核对）。
+- scrape：DOM Following→Latest 43 + same-session HTL 159 → union **161**；login_ok hasCompose；HTL 撞游标；hit_cursor_effective（prior→oldest≈1.67min；n_gaps_gt45 0）；gap_open false；无 AUTH_FAIL。
+- overlay：161/161 fail0；unresolved_tco 0；24 条邻帖 Cline Desktop 污染已从 HTL/DOM 还原。
+- 窗类：正文 40 / 拿不准 30 / 已过滤 91 miss0；pre(<04:00Z) 正文39/拿不准26/已过滤87 → 并入 09-14；after 正文1/拿不准4/已过滤4 → 薄种子 09-15（不聊天交付）。
+- 页 09-14：**正文 138 / 拿不准 108 / 已过滤 327**；薄种子 09-15 正文1/拿不准4/已过滤4；**跳过 recommended/ideas**（非 20:00）。
+- QA：00-qa.png pass；clippedBtns 0。
+- cursor → @imwsl90 / 2099713873356214625 / 2026-09-15T04:16:12.000Z。
+- chat_line：9/14 0:00：正文138 / 拿不准108 / 已过滤327。https://t512192641.github.io/x-following/2026-09-14.html（待父代理 WakeParent）。
+
 ## 2026-09-14 20:10 ET 补抓
 
 - 齐，未重抓。raw/20.jsonl 70 overlay 70/70；页 正文111/拿不准82/已过滤240；gap≈4.92min gap_open false；游标 @genspark_ai 2099652222749720780；跳过 rec/ideas；Pages md5 476385b25ab588a8a45d1cc1d60123a0 live=local；public tip ee50bcc / fe56c18；trunc1 已过滤自然省略无需补全文；chat 主窗 pending → 本补抓 WakeParent 交付。
