@@ -1,3 +1,45 @@
+## 2026-09-15 12:00 ET（12:10 补抓完整主抓）
+
+- scrape：DOM Following→Latest + same-session HTL（CDP chrome-profile-4 :9226）；login_ok；DOM35→HTL150→union **154**；HTL HIT CURSOR；gap≈5.87min gap_open false；oldest @ZHO_ZHO_ZHO 2099832996216135874 12:09Z；newest @ericbahn 2099897284981108788 16:25Z；prior @frxiaobei 2099831519309332660。
+- overlay：154/154 fail0 unresolved_tco0；19 条邻帖污染已从 HTL/pre-overlay 回写恢复。
+- 窗类：正文38 / 拿不准21 / 已过滤95 miss0；写回 12.jsonl + _class12.json。
+- 页：.bak-12 → **正文78 / 拿不准64 / 已过滤220**；跳过 rec/ideas；新卡含 Devin Mac VM、Every 概率模型、蓬皮杜 GPT-6、Lenny 增长、Nex-AGI、Hyper3D MCP、Atria CAD、Teamily、动效 Skill、Claude Fable 密码等。
+- QA：12-qa.png pass clippedBtns0。
+- cursor：advanced → @ericbahn 2099897284981108788。
+- chat_line：9/15 12:00：正文78 / 拿不准64 / 已过滤220。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。
+- 写于 2026-09-16 00:44 CST
+
+## 2026-09-15 12:25 ET 健康检查（~12:07 火）
+
+- quiet_ok；无 overdue 主缺口。
+- 8:00 齐：raw/08.jsonl 100；overlay 100/100 fail0；窗类 正文32/拿不准16/已过滤52 miss0；页 09-15 **正文49/拿不准43/已过滤125**；gap≈4.08min gap_open false；游标 @frxiaobei 2099831519309332660；git tip b89123b / content 7081ccf；Pages 200 last-mod 2026-09-15 12:23:34 GMT md5 74de0755c69c5b34e5f50d5875ea804e live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；**chat 已交 t36s104（2026-09-15 20:24 CST）**。
+- 名单今日已齐（10:13 正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 11:25 未见单独条目（并记）；12:00 尚无 12-claim/raw（约 +7min；健康检查不扩大重跑，交 12:10 补抓）。
+- 旧四条 disabled；stay_quiet。
+
+## 2026-09-15 10:25 ET 健康检查（10:43 再核）
+
+- 8:00 齐：raw/08.jsonl 100；overlay 100/100 fail0；窗类 正文32/拿不准16/已过滤52 miss0；页 09-15 **正文49/拿不准43/已过滤125**；gap≈4.08min gap_open false；游标 @frxiaobei 2099831519309332660；git tip b89123b / content 7081ccf；Pages 200 last-mod 2026-09-15 12:23:34 GMT md5 74de0755c69c5b34e5f50d5875ea804e live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；**chat 已交 t36s104（2026-09-15 20:24 CST）**。
+- 名单今日已齐（10:13正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162 未再抓。
+- 同小时 10:18 已有 10:25 条目；本轮为 10:43 再核，状态未变。
+- 下窗 12:00 ET 约 +75min 未到期；无 overdue main gap；旧四条 disabled；quiet_ok / stay_quiet。
+- 写于 2026-09-15 22:45 CST
+## 2026-09-15 10:25 ET 健康检查（10:18 迟到火）
+
+- 8:00 齐：raw/08.jsonl 100；overlay 100/100 fail0；窗类 正文32/拿不准16/已过滤52 miss0；页 09-15 **正文49/拿不准43/已过滤125**；gap≈4.08min gap_open false；游标 @frxiaobei 2099831519309332660；git tip b89123b / content 7081ccf；Pages 200 last-mod 2026-09-15 12:23:34 GMT md5 74de0755c69c5b34e5f50d5875ea804e live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；**chat 已交 t36s104（2026-09-15 20:24 CST）**。
+- 名单今日已齐（10:13正点迟到火）头顶未变 152/@GrokBotRadar + AdrianPunk115/162 未再抓。
+- 8:25/9:25 未见单独条目（本轮并记）；自动化 lastRun 9:32 failed 无产物；本轮补记。
+- 下窗 12:00 ET 约 +100min 未到期；无 overdue main gap；旧四条 disabled；quiet_ok / stay_quiet。
+- 写于 2026-09-15 22:20 CST
+
+## 2026-09-15 8:10 ET 补抓（~8:39 迟到火）
+
+- 结论：齐，未重抓。
+- 8:00 主窗已齐：raw/08.jsonl 100；overlay 100/100 fail0；窗类 正文32/拿不准16/已过滤52 miss0；页 09-15 **正文49/拿不准43/已过滤125**；gap≈4.08min gap_open false；游标 @frxiaobei 2099831519309332660；git 7081ccf / tip b89123b；Pages 200 last-mod 2026-09-15 12:23:34 GMT md5 74de0755c69c5b34e5f50d5875ea804e live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；**chat 已交 t36s104（2026-09-15 20:24 CST）**。
+- 未重抓、不抢桌面；本补抓 stay_quiet。
+- 下窗 12:00 ET。
+- 写于 2026-09-15 20:39 CST
+
 ## 2026-09-15 8:00 ET
 
 - scrape：DOM Following→Latest + same-session HTL（CDP :9226）；login_ok；DOM28→HTL100→union **100**；hit_cursor_effective；gap≈4.08min gap_open false；oldest @GrokBotRadar 2099776986784698664 08:27Z；newest @frxiaobei 2099831519309332660 12:03Z；游标 prior @imwsl90 2099775961202143335。
