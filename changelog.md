@@ -1,3 +1,39 @@
+## 2026-09-15 8:00 ET
+
+- scrape：DOM Following→Latest + same-session HTL（CDP :9226）；login_ok；DOM28→HTL100→union **100**；hit_cursor_effective；gap≈4.08min gap_open false；oldest @GrokBotRadar 2099776986784698664 08:27Z；newest @frxiaobei 2099831519309332660 12:03Z；游标 prior @imwsl90 2099775961202143335。
+- overlay：100/100 fail0 unresolved_tco0；28 条邻帖/workhorse-font 污染已从 HTL 回写恢复。
+- 窗类：正文32 / 拿不准16 / 已过滤52 miss0；写回 08.jsonl + _class08.json。
+- 页：.bak-08 → **正文49 / 拿不准43 / 已过滤125**；跳过 rec/ideas；更新 Atria/DeepSeek/Hypit/Bryan Johnson/ZHO/礼品卡/小小东；新卡 Anthropic CI、ChatGPT Pro 三用法、Nous、Grok Build、MkAgent、GSC AI 报告等。
+- QA：08-qa.png pass clippedBtns0。
+- cursor：advanced → @frxiaobei 2099831519309332660。
+- chat_line：9/15 8:00：正文49 / 拿不准43 / 已过滤125。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。
+- publish：PENDING（push 后回填）。
+- anomaly：none。
+
+## 2026-09-15 7:25 ET 健康检查（7:57 迟到火）
+
+- 4:00 齐：raw/04.jsonl 143；overlay 143/143 fail0；窗类 正文51/拿不准23/已过滤69 miss0；页 09-15 **正文31/拿不准27/已过滤73**；gap≈4.35min gap_open false；游标 @imwsl90 2099775961202143335；git tip ed065bf / content 4027474；Pages 200 last-mod 2026-09-15 08:43:40 GMT md5 b0a0e9fd32034c70cc3c8e27826d9b69 live=local；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；**chat 已交 t36s101（2026-09-15 16:45 CST）**。
+- 0:00 齐（0:10 补抓完整主抓）页 09-14 正文138/拿不准108/已过滤327；薄种子已并入 4:00。
+- 名单今日 9:23 未到期（昨 09:49兜底+10:18正点迟到火已齐）未再抓。
+- 下窗 8:00 ET 约 +3min 未到期；无 overdue main gap；旧四条 disabled；quiet_ok / stay_quiet。
+- 写于 2026-09-15 19:57 CST
+
+## 2026-09-15 6:25 ET 健康检查（6:28 迟到火）
+
+- 4:00 齐：raw/04.jsonl 143；overlay 143/143 fail0；窗类 正文51/拿不准23/已过滤69 miss0；页 09-15 **正文31/拿不准27/已过滤73**；gap≈4.35min gap_open false；游标 @imwsl90 2099775961202143335；git tip ed065bf / content 4027474；Pages 200 last-mod 2026-09-15 08:43:40 GMT md5 b0a0e9fd32034c70cc3c8e27826d9b69 live=local；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；**chat 已交 t36s101（2026-09-15 16:45 CST）**。
+- 0:00 齐（0:10 补抓完整主抓）页 09-14 正文138/拿不准108/已过滤327；薄种子已并入 4:00。
+- 名单今日 9:23 未到期（昨 09:49兜底+10:18正点迟到火已齐）未再抓。
+- 下窗 8:00 ET 约 +91min 未到期；无 overdue main gap；旧四条 disabled；quiet_ok / stay_quiet。
+- 写于 2026-09-15 18:28 CST
+
+## 2026-09-15 5:25 ET 健康检查（5:28 迟到火）
+
+- 4:00 齐：raw/04.jsonl 143；overlay 143/143 fail0；窗类 正文51/拿不准23/已过滤69 miss0；页 09-15 **正文31/拿不准27/已过滤73**；gap≈4.35min gap_open false；游标 @imwsl90 2099775961202143335；git tip ed065bf / content 4027474；Pages 200 last-mod 2026-09-15 08:43:40 GMT md5 b0a0e9fd32034c70cc3c8e27826d9b69 live=local；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；**chat 已交 t36s101（2026-09-15 16:45 CST）**。
+- 0:00 齐（0:10 补抓完整主抓）页 09-14 正文138/拿不准108/已过滤327；薄种子已并入 4:00。
+- 名单今日 9:23 未到期（昨 09:49兜底+10:18正点迟到火已齐）未再抓。
+- 下窗 8:00 ET 约 +152min 未到期；无 overdue main gap；旧四条 disabled；quiet_ok / stay_quiet。
+- 写于 2026-09-15 17:29 CST
+
 ## 2026-09-15 4:00 ET
 
 - scrape：DOM Following→Latest 43 + same-session HTL 141 → union **143**；login_ok hasCompose；HTL 撞游标；hit_cursor false（字面未入输出）；hit_cursor_effective true（prior→oldest≈4.35min；HTL 日志 HIT CURSOR）；gap_open false；n_gaps_gt45 0；无 AUTH_FAIL。
