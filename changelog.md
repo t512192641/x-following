@@ -1,6 +1,6 @@
 ## 2026-09-15 16:00 ET
 
-- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0（邻帖污染约26条已从 HTL/pre-overlay 恢复）；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip (待填)；Pages (待填)；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 待父代理递送**。
+- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0（邻帖污染约26条已从 HTL/pre-overlay 恢复）；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 待父代理递送**。
 - 窗类：正文28 / 拿不准18 / 已过滤65 miss0；写回 16.jsonl + _class16.json。
 - 页：.bak-16 → **正文94 / 拿不准82 / 已过滤285**；续写 Every 概率模型 / Atria / Poolday；新卡含 GPT-5.5 日落、Grok Imagine Segments、Mach33 MCP、Compound Engineering 3.26、Hypit、vphone-cli、Salesforce in Claude、Bolt Forge、Meta Muse、Stripe Pay、Neon、Odyssey-3 等。
 - chat_line：9/15 16:00：正文94 / 拿不准82 / 已过滤285。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。
