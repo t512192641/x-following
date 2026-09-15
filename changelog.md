@@ -1,3 +1,8 @@
+## 2026-09-14 20:10 ET 补抓
+
+- 齐，未重抓。raw/20.jsonl 70 overlay 70/70；页 正文111/拿不准82/已过滤240；gap≈4.92min gap_open false；游标 @genspark_ai 2099652222749720780；跳过 rec/ideas；Pages md5 476385b25ab588a8a45d1cc1d60123a0 live=local；public tip ee50bcc / fe56c18；trunc1 已过滤自然省略无需补全文；chat 主窗 pending → 本补抓 WakeParent 交付。
+- 写于 2026-09-15 08:24 CST
+
 ## 2026-09-14 20:00 ET
 
 - scrape：DOM+HTL union **70**；login_ok；hit_cursor_effective（prior→oldest≈4.92min；n_gaps_gt45 0）；gap_open false；无 AUTH_FAIL。
