@@ -7,6 +7,7 @@
 - QA：12-qa.png pass clippedBtns0。
 - cursor：advanced → @ericbahn 2099897284981108788。
 - chat_line：9/15 12:00：正文78 / 拿不准64 / 已过滤220。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。
+- publish：git tip 861c79b；Pages HTTP 200 last-mod Tue, 15 Sep 2026 16:45:52 GMT md5 9296360f08e5fa3be394b72259b490de live=local。
 - 写于 2026-09-16 00:44 CST
 
 ## 2026-09-15 12:25 ET 健康检查（~12:07 火）
