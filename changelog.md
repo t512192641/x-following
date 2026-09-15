@@ -7,7 +7,7 @@
 - QA：04-qa.png pass；clippedBtns 0。
 - cursor → @imwsl90 / 2099775961202143335 / 2026-09-15T08:22:55.000Z。
 - chat_line：9/15 4:00：正文31 / 拿不准27 / 已过滤73。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。
-- publish：git TIP_PLACEHOLDER；Pages PENDING。
+- publish：git 4027474 / tip 4027474；Pages HTTP 200 last-mod Tue, 15 Sep 2026 08:42:45 GMT md5 b0a0e9fd32034c70cc3c8e27826d9b69 live=local。
 - anomaly：none（HTL 首跑空包已硬刷新重抓成功；DOM 虚列表 43 未撞）。
 
 ## 2026-09-15 3:25 ET 健康检查（3:33 迟到火）
