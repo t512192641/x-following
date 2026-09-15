@@ -6,7 +6,7 @@
 - 页：基 bak-20（正文99/拿不准70/已过滤196）→ **正文 111 / 拿不准 82 / 已过滤 240**；**跳过 recommended/ideas**（仍 09-12，当日已并）。
 - QA：20-qa.png pass；clippedBtns 0。
 - cursor → @genspark_ai / 2099652222749720780 / 2026-09-15T00:11:14.000Z。
-- publish：见下方 git tip / Pages 行（commit 后回填）。
+- publish：git ee50bcc；Pages HTTP 200 last-mod Tue, 15 Sep 2026 00:23:20 GMT md5 match live=local 476385b25ab588a8a45d1cc1d60123a0
 - chat_line: 9/14 20:00：正文111 / 拿不准82 / 已过滤240。https://t512192641.github.io/x-following/2026-09-14.html
 - 写于 2026-09-15 08:25 CST
 
