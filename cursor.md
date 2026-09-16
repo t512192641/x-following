@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2100282815153901657
-- url: https://x.com/foxshuo/status/2100282815153901657
-- author: foxshuo
-- handle: @foxshuo
-- time_utc: 2026-09-16T17:56:59.000Z
-- updated: 2026-09-16 12:00 ET window (幕僚长拍板补跑)
+- status_id: 2100334669539475814
+- url: https://x.com/430Yang/status/2100334669539475814
+- author: 430Yang
+- handle: @430Yang
+- time_utc: 2026-09-16T21:23:02.000Z
+- updated: 2026-09-16 16:00 ET window (16:10 补抓代主窗)

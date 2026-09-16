@@ -1,3 +1,10 @@
+## 2026-09-16 16:00 ET（16:10 补抓代主窗完整主抓）
+
+- 16:00 齐（补抓代主窗）：raw/16.jsonl **64**；DOM10+HTL64 HIT CURSOR；overlay 64/64 fail0；窗类 **正文28 / 拿不准3 / 已过滤33** miss0；并入 12:00/8:00/4:00/0:00 → 页 **正文147 / 拿不准25 / 已过滤272**；gap≈3.73min gap_open false；游标 **@430Yang 2100334669539475814** `2026-09-16T21:23:02.000Z`；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 待父代理递送**（chat_delivery pending_parent）。
+- fail_root_note: 仅平台 status=failed + 零产物。
+- chat_line：9/16 16:00：正文147 / 拿不准25 / 已过滤272。https://t512192641.github.io/x-following/2026-09-16.html
+- 写于 2026-09-17 05:36 CST
+
 ## 2026-09-16 12:00 ET（幕僚长拍板补跑完整主抓）
 
 - 12:00 齐（补跑）：raw/12.jsonl **156**；DOM36+HTL152 HIT CURSOR；overlay 156/156 fail0（Accordion×23 邻帖污染已从 HTL/DOM 还原）；窗类 **正文59 / 拿不准10 / 已过滤87** miss0；并入 8:00/4:00/0:00 → 页 **正文119 / 拿不准22 / 已过滤239**；gap≈3.7min gap_open false；游标 **@foxshuo 2100282815153901657** `2026-09-16T17:56:59.000Z`；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0；**chat 待父代理递送**（chat_delivery pending_parent）。
