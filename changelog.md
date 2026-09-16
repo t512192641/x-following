@@ -1,3 +1,56 @@
+## 2026-09-16 12:00 ET（幕僚长拍板补跑完整主抓）
+
+- 12:00 齐（补跑）：raw/12.jsonl **156**；DOM36+HTL152 HIT CURSOR；overlay 156/156 fail0（Accordion×23 邻帖污染已从 HTL/DOM 还原）；窗类 **正文59 / 拿不准10 / 已过滤87** miss0；并入 8:00/4:00/0:00 → 页 **正文119 / 拿不准22 / 已过滤239**；gap≈3.7min gap_open false；游标 **@foxshuo 2100282815153901657** `2026-09-16T17:56:59.000Z`；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0；**chat 待父代理递送**（chat_delivery pending_parent）。
+- fail_root_note: 仅平台 status=failed + 零产物，本地 automations/x|x-2 runs.json 无 error 明细。
+- chat_line：9/16 12:00：正文119 / 拿不准22 / 已过滤239。https://t512192641.github.io/x-following/2026-09-16.html
+- 写于 2026-09-17 02:18 CST
+
+## 2026-09-16 13:25 ET 健康检查（~13:30 正点迟到火）
+
+- **overdue 主缺口**：12:00 主窗（x-1 / c3a32b9b）automation **failed**（status lastRun ~12:52 ET），产物侧无 `12-claim` / `12.jsonl` / `12-meta` / overlay。
+- 12:10 补抓（x-2 / cdf0cd43）automation **failed**（status lastRun ~13:02 ET），无 `12-10-catchup`；兜底未落地。
+- 自 12:00 ET overdue ≈90min；游标仍 08:00 **@rionaifantasy 2100194948632973562**；页仍 09-16 **正文60/拿不准12/已过滤152**；raw/08 111 overlay111/111；Pages 200 md5 f1a12e7675139a924dcf756d9781a449 live=local；git tip b29a11e / content bf39cc1；chat 仍 t37s5。
+- 名单今日已齐（09:52 兜底 + 09:56 正点迟到火）关注 152/@GrokBotRadar 未变 + 书签头 @Jackywine/2099683107037409712 计数 163，未再抓。
+- 11:25 / 12:25 健康检查板未见单独条目（本轮并记）；接管四条：x-1/x-2 failed 本窗，x-3 本轮，x-4 昨 21:50 成功；旧四条保持 disabled。
+- 健康检查**不对主窗扩大重跑**；已向幕僚长发任务卡（建议查明 fail 原因并安排补抓完整主抓或等 16:00）；不打扰用户。
+
+## 2026-09-16 10:25 ET 健康检查（~10:51 迟到火）
+
+- quiet_ok；无 overdue 主缺口；不重抓主窗。
+- 08:00 齐：raw/08.jsonl 111；overlay 111/111 fail0；窗类 正文42/拿不准3/已过滤66 miss0；页 09-16 正文60/拿不准12/已过滤152；gap≈1.47min gap_open false；游标 @rionaifantasy 2100194948632973562；git tip b29a11e / content bf39cc1；Pages HTTP 200 md5 f1a12e7675139a924dcf756d9781a449 live=local；chat 已交 t37s5。
+- 名单今日已齐（09:52兜底+09:56正点迟到火）：关注 152/@GrokBotRadar 未变；书签头 @Jackywine/2099683107037409712 计数163；未再抓。
+- 8:10 catchup 齐未重抓；下窗 12:00 ET 约 +68min；旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 14:52 CST
+
+## 2026-09-16 09:56 ET x-4 名单正点迟到火
+- 同日 ~09:52 健康检查兜底已处理；本轮复核：关注 152/@GrokBotRadar 未变；书签头 Jackywine/`2099683107037409712`，计数 162→163；jsonl 去重后 163；meta 同步私有 grok-ops；抓完 x.com/home。
+
+## 2026-09-16 9:23 ET 名单补跑（健康检查兜底·~09:52 迟到火）
+
+- 调度漏叫 evidence：x-4 routine lastRun 仍停在 2026-09-09-15 10:13 ET，今日 9:23 ET 未产出；按 x-3 兜底只查网页头顶+人数，未走 API、未重抓主窗。
+- logged in；关注人数 152，头顶未变 @GrokBotRadar；书签页头顶变为 @Jackywine / `2099683107037409712`；书签计数仍按 162（页上不显示可靠总数）。
+- 已 prepend `2099683107037409712` 到 `x-lists/bookmarks.jsonl`，following.jsonl 未改；meta last check 更新为 2026-09-16 09:52 ET；已同步私有 `grok-ops/x-lists/`；未触碰公开 x-following；抓完 `https://x.com/home`。
+- 结果：人数/关注头顶无变，书签头顶有变；需向幕僚长报一句。
+- 写于 2026-09-16 21:52 CST
+
+## 2026-09-16 9:25 ET 健康检查（~09:52 迟到火）
+
+- quiet_ok；无 overdue 主缺口；不重抓主窗。
+- 08:00 齐：raw/08.jsonl 111；overlay 111/111 fail0；窗类 正文42/拿不准3/已过滤66 miss0；页 09-16 正文60/拿不准12/已过滤152；gap≈1.47min gap_open false；游标 @rionaifantasy 2100194948632973562；git tip b29a11e / content bf39cc1；Pages HTTP 200 md5 f1a12e7675139a924dcf756d9781a449 live=local。
+- 名单 catch-up：已检查网页并完成；关注 152/@GrokBotRadar 未变；书签头变为 @Jackywine/2099683107037409712，计数仍按 162；jsonl/meta/私有镜像已更新；调度漏叫证据已留。
+- 下窗 12:00 ET；旧四条 disabled；不启重复 routine；stay_quiet。
+- 写于 2026-09-16 21:52 CST
+
+## 2026-09-16 8:25 ET 健康检查（~08:43 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 8:00 齐：raw/08.jsonl 111；overlay 111/111 fail0；窗类 正文42/拿不准3/已过滤66 miss0；页 09-16 正文60/拿不准12/已过滤152；gap≈1.47min gap_open false；游标 @rionaifantasy 2100194948632973562；git tip b29a11e / content bf39cc1；Pages HTTP 200 md5 f1a12e7675139a924dcf756d9781a449 live=local；QA 08-qa.png pass；chat 已交 t37s5（2026-09-16 20:27 CST）。
+- 名单今日 9:23 ET 未到期；last check 2026-09-15 10:13 ET，头顶未变 152/@GrokBotRadar + AdrianPunk115/162，未补跑。
+- 8:10 catchup 齐未重抓；7:25 板/changelog 未见单独条（automation lastRun succeeded，本轮并记）。
+- 下窗 12:00 ET 约 +197min 未到期。
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 12:44 CST
+
 ## 2026-09-16 8:10 ET 补抓（~8:35 迟到火）
 
 - 结论：齐，未重抓。
