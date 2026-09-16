@@ -1,6 +1,6 @@
 ## 2026-09-16 8:00 ET
 - 8:00 齐（~08:05 火）：raw/08.jsonl **111**；DOM33+HTL111 HIT CURSOR；overlay 111/111 fail0（Accordion Supercharger 邻帖污染 31 条，已从 HTL/DOM 还原）；窗类 **正文42 / 拿不准3 / 已过滤66** miss0；并入 4:00+薄种子 → 页 **正文60 / 拿不准12 / 已过滤152**；gap≈1.47min gap_open false；游标 **@rionaifantasy 2100194948632973562** `2026-09-16T12:07:50.000Z`；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；chat 待父代理递送。
-- git tip (pending)；Pages pending verify
+- git tip bf39cc1；Pages 200 md5 f1a12e7675139a924dcf756d9781a449 live=local
 - chat_line：9/16 8:00：正文60 / 拿不准12 / 已过滤152。https://t512192641.github.io/x-following/2026-09-16.html
 - 写于 2026-09-16 20:24 CST
 
