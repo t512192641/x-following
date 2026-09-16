@@ -1,8 +1,56 @@
+## 2026-09-16 4:00 ET
+- 4:00 齐（~04:03 火）：raw/04.jsonl **112**；DOM32+HTL111 HIT CURSOR；overlay 112/112 fail0（Accordion Supercharger 邻帖污染 32 条，已从 HTL/DOM 还原）；窗类 **正文23 / 拿不准8 / 已过滤81** miss0；并入薄种子 09-16 → 页 **正文18 / 拿不准9 / 已过滤86**；gap≈1.08min gap_open false；游标 **@dontbesilent 2100133950123606289** `2026-09-16T08:05:26.000Z`；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；chat 待父代理递送。
+- chat_line：9/16 第一版：正文18 / 拿不准9 / 已过滤86。https://t512192641.github.io/x-following/2026-09-16.html
+- 写于 2026-09-16 16:25 CST
+
+## 2026-09-16 4:10 ET 补抓（~4:20 正点迟到火）
+
+- status: deferred_to_main；未重抓、不抢桌面。
+- 主窗 4:00 claim in_progress（c3a32b9b / ~04:03）；union112；overlay 112/112 fail0；分类进行中；尚无 04-meta/QA/页/发布。
+- gap≈1.08min gap_open false；prior_cursor @garrytan 2100075023914647863；交付交主窗。
+- 写于 2026-09-16 16:20 CST
+
+## 2026-09-16 3:25 ET 健康检查（~03:29 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 0:00 齐：raw/00.jsonl 166；overlay 166/166 fail0；窗类 正文37/拿不准23/已过滤106 miss0；页 09-15 **正文147/拿不准114/已过滤425**；薄种子 09-16 3/1/5 不交；gap≈4.67min gap_open false；游标 @garrytan 2100075023914647863；git tip e7d453f；Pages 200 md5 bff2547db5c5f31ccaea309961084c0b live=local；QA 00-qa.png pass；**chat 已交 t37s3（2026-09-16 12:35 CST）**。
+- 名单今日 9:23 未到期（昨 10:13 正点迟到火已齐）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 0:10 补抓 deferred_to_main（主窗已齐）；下窗 4:00 ET 约 +29min 未到期。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 15:31 CST
+
+## 2026-09-16 2:25 ET 健康检查（~02:31 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 0:00 齐：raw/00.jsonl 166；overlay 166/166 fail0；窗类 正文37/拿不准23/已过滤106 miss0；页 09-15 **正文147/拿不准114/已过滤425**；薄种子 09-16 3/1/5 不交；gap≈4.67min gap_open false；游标 @garrytan 2100075023914647863；git tip e7d453f；Pages 200 md5 bff2547db5c5f31ccaea309961084c0b live=local；QA 00-qa.png pass；**chat 已交 t37s3（2026-09-16 12:35 CST）**。
+- 名单今日 9:23 未到期（昨 10:13 正点迟到火已齐）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 0:10 补抓 deferred_to_main（主窗已齐）；下窗 4:00 ET 约 +88min 未到期。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 14:32 CST
+
+## 2026-09-16 1:25 ET 健康检查（~01:33 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 0:00 齐：raw/00.jsonl 166；overlay 166/166 fail0；窗类 正文37/拿不准23/已过滤106 miss0；页 09-15 **正文147/拿不准114/已过滤425**；薄种子 09-16 3/1/5 不交；gap≈4.67min gap_open false；游标 @garrytan 2100075023914647863；git tip e7d453f；Pages 200 md5 bff2547db5c5f31ccaea309961084c0b live=local；QA 00-qa.png pass；**chat 已交 t37s3（2026-09-16 12:35 CST）**。
+- 名单今日 9:23 未到期（昨 10:13 正点迟到火已齐）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 0:10 补抓 deferred_to_main（主窗已齐）；下窗 4:00 ET 约 +147min 未到期。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 13:34 CST
+
+## 2026-09-16 0:25 ET 健康检查（~00:34 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 0:00 齐：raw/00.jsonl 166；overlay 166/166 fail0；窗类 正文37/拿不准23/已过滤106 miss0；页 09-15 **正文147/拿不准114/已过滤425**；薄种子 09-16 3/1/5 不交；gap≈4.67min gap_open false；游标 @garrytan 2100075023914647863；git tip e7d453f；Pages 200 md5 bff2547db5c5f31ccaea309961084c0b live=local；QA 00-qa.png pass；**chat 已交 t37s3（2026-09-16 12:35 CST）**。
+- 名单今日 9:23 未到期（昨 10:13 正点迟到火已齐）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 0:10 补抓 deferred_to_main（主窗已齐）；下窗 4:00 ET 约 +204min 未到期。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 12:36 CST
+
 # 2026-09-16 00:00 ET
 
-- 00:00 齐（~00:07 迟到火）：raw/00.jsonl **166**；DOM42+HTL164 HIT CURSOR；overlay 166/166 fail0（Accordion Supercharger 邻帖污染 33 条，已从 HTL/DOM 还原）；窗类 **正文37 / 拿不准23 / 已过滤106** miss0；pre(<04:00Z) 正文34/拿不准22/已过滤101 → 并入 09-15；after 正文3/拿不准1/已过滤5 → 薄种子 09-16（不聊天交付）；页 09-15 **正文147 / 拿不准114 / 已过滤425**；gap≈4.67min gap_open false；游标 **@garrytan 2100075023914647863** `2026-09-16T04:11:17.000Z`；跳过 rec/ideas；QA 00-qa.png pass clippedBtns0；chat 待父代理递送。
+- 00:00 齐（~00:07 迟到火）：raw/00.jsonl **166**；DOM42+HTL164 HIT CURSOR；overlay 166/166 fail0（Accordion Supercharger 邻帖污染 33 条，已从 HTL/DOM 还原）；窗类 **正文37 / 拿不准23 / 已过滤106** miss0；pre(<04:00Z) 正文34/拿不准22/已过滤101 → 并入 09-15；after 正文3/拿不准1/已过滤5 → 薄种子 09-16（不聊天交付）；页 09-15 **正文147 / 拿不准114 / 已过滤425**；gap≈4.67min gap_open false；游标 **@garrytan 2100075023914647863** `2026-09-16T04:11:17.000Z`；跳过 rec/ideas；QA 00-qa.png pass clippedBtns0；**chat 已交 t37s3（2026-09-16 12:35 CST）**。
 - chat_line：9/15 0:00：正文147 / 拿不准114 / 已过滤425。https://t512192641.github.io/x-following/2026-09-15.html
-- 记录于 2026-09-16 04:31 CST（执行子代理）。
+- 记录于 2026-09-16 04:31 CST（执行子代理）；交付已核。
 
 ## 2026-09-16
 
