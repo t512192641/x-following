@@ -1,5 +1,6 @@
 ## 2026-09-16 4:00 ET
 - 4:00 齐（~04:03 火）：raw/04.jsonl **112**；DOM32+HTL111 HIT CURSOR；overlay 112/112 fail0（Accordion Supercharger 邻帖污染 32 条，已从 HTL/DOM 还原）；窗类 **正文23 / 拿不准8 / 已过滤81** miss0；并入薄种子 09-16 → 页 **正文18 / 拿不准9 / 已过滤86**；gap≈1.08min gap_open false；游标 **@dontbesilent 2100133950123606289** `2026-09-16T08:05:26.000Z`；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；chat 待父代理递送。
+- git tip bbf37d0；Pages 200 md5 d2e7d74bf18d41f4c59b90d623b399c1 live=local
 - chat_line：9/16 第一版：正文18 / 拿不准9 / 已过滤86。https://t512192641.github.io/x-following/2026-09-16.html
 - 写于 2026-09-16 16:25 CST
 
