@@ -1,3 +1,52 @@
+# 2026-09-15 20:00 ET
+
+- 20:00 齐（~20:19 迟到火）：raw/20.jsonl **74**；DOM17+HTL71 HIT CURSOR；overlay 74/74 fail0（Accordion Supercharger 邻帖污染约17条，已从 HTL/DOM 回写恢复）；窗类 **正文25 / 拿不准10 / 已过滤39** miss0；页 09-15 **正文113 / 拿不准92 / 已过滤324**；gap≈10.0min gap_open false；游标 **@pmarca 2100016732228501922** `2026-09-16T00:19:40.000Z`；**已并 recommended 09-15（9）+ ideas 09-15（3，脑洞组）**；QA 20-qa.png pass clippedBtns0；chat 待父代理递送。
+- 新/续卡要点：Gemini 3.8 Live、Obsidian 1.14.2 Mobile、Codex for OSS 第二轮、Temporal $550M、CF Sandbox×Agents API、sub-agent≤2、FDE 101、M3E Canvas、Factory $5B、capy+GStack、Stripe UnseriousT-ShirtShopBench、Meta Ads 投放方法；续写 Neon / Every 概率 / Lenny / Stripe / Slack CLI / GPT-5.5 / Salesforce / Muse WhatsApp MCP / DeepSeek 下载；推荐另补 Portable Computer、AEF-1、harness digest、Astra×Devin；脑洞三则。
+
+## 2026-09-15 20:25 ET 健康检查（~20:31 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ac0e239 / content ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；QA 16-qa.png pass；**chat 已交 t36s110（2026-09-16 04:33 CST）**。
+- 名单今日已齐（10:13）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 20:00 主窗 in_progress（claim c3a32b9b ~20:19 迟到火；union74 overlay74/74 fail0；gap≈10.0min；尚无 20-meta/分类/页/发布；不扩大重跑，交主窗收口）。
+- 20:10 补抓 deferred_to_main；rec/ideas latest 在场交主窗并；下窗 00:00 ET。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 00:32 CST
+
+## 2026-09-15 20:10 ET 补抓
+
+- status: deferred_to_main；未重抓、不抢桌面。
+- 主窗 20:00 claim in_progress（c3a32b9b / ~20:19 迟到火）；DOM17 hit_cursor false；HTL 进行中；尚无 20.jsonl/overlay/页面。
+- prior 16:00 齐（正文94/拿不准82/已过滤285；cursor @ChatGPT 2099954190600876533；gap_open false）。
+- 交付交主窗；rec/ideas 并入交主窗；stay_quiet。
+- 写于 2026-09-16 08:24 CST
+
+## 2026-09-15 18:25 ET 健康检查（~18:32 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ac0e239 / content ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；QA 16-qa.png pass；**chat 已交 t36s110（2026-09-16 04:33 CST）**。
+- 名单今日已齐（10:13）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 16:10 补抓 deferred_to_main（主窗已齐）；20:00 未见 20-claim/20.jsonl（约 +88min 未到期）。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 06:32 CST
+
+## 2026-09-15 17:25 ET 健康检查（~17:30 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ac0e239 / content ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；QA 16-qa.png pass；**chat 已交 t36s110（2026-09-16 04:33 CST）**。
+- 名单今日已齐（10:13）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 16:10 补抓 deferred_to_main（主窗已齐）；20:00 未见 20-claim/20.jsonl（约 +150min 未到期）。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 05:32 CST
+## 2026-09-15 16:25 ET 健康检查（~16:35 迟到火）
+
+- quiet_ok；无 overdue 主缺口。
+- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；QA 16-qa.png pass；**chat 已交 t36s110（2026-09-16 04:33 CST）**。
+- 名单今日已齐（10:13）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 16:10 补抓 deferred_to_main（主窗已齐）；20:00 未见 20-claim/20.jsonl（约 +205min 未到期）。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 04:36 CST
+
 ## 2026-09-15 16:00 ET
 
 - 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0（邻帖污染约26条已从 HTL/pre-overlay 恢复）；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 待父代理递送**。
