@@ -1,5 +1,12 @@
+## 2026-09-16 8:10 ET 补抓（~8:35 迟到火）
+
+- 结论：齐，未重抓。
+- 证据：raw/08.jsonl 111；classification 正文42/拿不准3/已过滤66 miss0；overlay 111/111 fail0；gap≈1.47min gap_open false；页 09-16 正文60/拿不准12/已过滤152；游标 @rionaifantasy 2100194948632973562；QA 08-qa.png 主窗已 pass；Pages HTTP 200 last-mod Wed, 16 Sep 2026 12:26:25 GMT md5 f1a12e7675139a924dcf756d9781a449 live=local；git tip 4efbbfe / content bf39cc1。
+- chat：主窗已交 t37s5，本补抓不重复交付；stay_quiet。
+- 写于 2026-09-16 20:35 CST
+
 ## 2026-09-16 8:00 ET
-- 8:00 齐（~08:05 火）：raw/08.jsonl **111**；DOM33+HTL111 HIT CURSOR；overlay 111/111 fail0（Accordion Supercharger 邻帖污染 31 条，已从 HTL/DOM 还原）；窗类 **正文42 / 拿不准3 / 已过滤66** miss0；并入 4:00+薄种子 → 页 **正文60 / 拿不准12 / 已过滤152**；gap≈1.47min gap_open false；游标 **@rionaifantasy 2100194948632973562** `2026-09-16T12:07:50.000Z`；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；chat 待父代理递送。
+- 8:00 齐（~08:05 火）：raw/08.jsonl **111**；DOM33+HTL111 HIT CURSOR；overlay 111/111 fail0（Accordion Supercharger 邻帖污染 31 条，已从 HTL/DOM 还原）；窗类 **正文42 / 拿不准3 / 已过滤66** miss0；并入 4:00+薄种子 → 页 **正文60 / 拿不准12 / 已过滤152**；gap≈1.47min gap_open false；游标 **@rionaifantasy 2100194948632973562** `2026-09-16T12:07:50.000Z`；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0；**chat 已交 t37s5（2026-09-16 20:27 CST）**。
 - git tip bf39cc1；Pages 200 md5 f1a12e7675139a924dcf756d9781a449 live=local
 - chat_line：9/16 8:00：正文60 / 拿不准12 / 已过滤152。https://t512192641.github.io/x-following/2026-09-16.html
 - 写于 2026-09-16 20:24 CST
