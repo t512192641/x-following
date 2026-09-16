@@ -1,3 +1,23 @@
+# 2026-09-16 00:00 ET
+
+- 00:00 齐（~00:07 迟到火）：raw/00.jsonl **166**；DOM42+HTL164 HIT CURSOR；overlay 166/166 fail0（Accordion Supercharger 邻帖污染 33 条，已从 HTL/DOM 还原）；窗类 **正文37 / 拿不准23 / 已过滤106** miss0；pre(<04:00Z) 正文34/拿不准22/已过滤101 → 并入 09-15；after 正文3/拿不准1/已过滤5 → 薄种子 09-16（不聊天交付）；页 09-15 **正文147 / 拿不准114 / 已过滤425**；gap≈4.67min gap_open false；游标 **@garrytan 2100075023914647863** `2026-09-16T04:11:17.000Z`；跳过 rec/ideas；QA 00-qa.png pass clippedBtns0；chat 待父代理递送。
+- chat_line：9/15 0:00：正文147 / 拿不准114 / 已过滤425。https://t512192641.github.io/x-following/2026-09-15.html
+- 记录于 2026-09-16 04:31 CST（执行子代理）。
+
+## 2026-09-16
+
+- 0:10 ET 补抓：主窗 0:00 in_progress（union166 overlay 进行中），deferred_to_main，未重抓。
+
+## 2026-09-15 21:25 ET 健康检查（~21:32 迟到火）
+- 23:25 ET 健康检查（~23:28）：quiet_ok；20:00 齐 正文113/拿不准92/已过滤324 raw74 overlay74/74；gap≈10.0min gap_open false；游标 @pmarca 2100016732228501922；git 4ac7367；Pages md5 df434d95 live=local；名单已齐未再抓；下窗 00:00 ET；旧四条 disabled。
+
+- quiet_ok；无 overdue 主缺口。
+- 20:00 齐：raw/20.jsonl 74；overlay 74/74 fail0；窗类 正文25/拿不准10/已过滤39 miss0；页 09-15 **正文113/拿不准92/已过滤324**；gap≈10.0min gap_open false；游标 @pmarca 2100016732228501922；git tip 4ac7367；Pages 200 md5 df434d955d713cc501b52b75bc23a090 live=local；QA 20-qa.png pass；**chat 已交 t37s2（2026-09-16 08:40 CST）**。
+- 名单今日已齐（10:13）头顶未变 152/@GrokBotRadar + AdrianPunk115/162；未再抓。
+- 20:10 补抓 deferred_to_main（主窗已齐）；下窗 00:00 ET 约 +147min 未到期。
+- 旧四条 disabled；stay_quiet。
+- 写于 2026-09-16 09:33 CST
+
 # 2026-09-15 20:00 ET
 
 - 20:00 齐（~20:19 迟到火）：raw/20.jsonl **74**；DOM17+HTL71 HIT CURSOR；overlay 74/74 fail0（Accordion Supercharger 邻帖污染约17条，已从 HTL/DOM 回写恢复）；窗类 **正文25 / 拿不准10 / 已过滤39** miss0；页 09-15 **正文113 / 拿不准92 / 已过滤324**；gap≈10.0min gap_open false；游标 **@pmarca 2100016732228501922** `2026-09-16T00:19:40.000Z`；**已并 recommended 09-15（9）+ ideas 09-15（3，脑洞组）**；QA 20-qa.png pass clippedBtns0；chat 待父代理递送。
