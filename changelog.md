@@ -1,6 +1,6 @@
 ## 2026-09-17 12:00 ET · x-following 主窗
 
-- 12:00 齐：raw/12.jsonl **154**；overlay 154/154 fail0；窗类 正文52/拿不准5/已过滤97 miss0；页 **正文93/拿不准20/已过滤239**；gap≈3.97min gap_open false；游标 **@JiangChengCi 2100624007532020074**；git tip (pending)；Pages (pending)；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0。
+- 12:00 齐：raw/12.jsonl **154**；overlay 154/154 fail0；窗类 正文52/拿不准5/已过滤97 miss0；页 **正文93/拿不准20/已过滤239**；gap≈3.97min gap_open false；游标 **@JiangChengCi 2100624007532020074**；git tip e10d396；Pages 200 md5 50ca5fea live=local；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0。
 - Arrow2 邻帖污染 26+PDF邻帖2 已从 HTL/DOM 还原。
 - chat_line：`9/17 12:00：正文93 / 拿不准20 / 已过滤239。https://t512192641.github.io/x-following/2026-09-17.html`
 - anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
