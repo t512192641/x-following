@@ -1,8 +1,29 @@
+# 2026-09-17 16:00 ET
+
+- 16:00 齐（~16:07 火）：raw/16.jsonl **64**；DOM16+HTL60 HIT CURSOR；overlay 64/64 fail0（Arrow2/邻帖污染 14 条已从 HTL/DOM 还原）；窗类 **正文27 / 拿不准9 / 已过滤28** miss0；并入 12:00/8:00/4:00/薄种子 → 页 **正文120 / 拿不准29 / 已过滤267**；gap≈3.82min gap_open false；游标 **@thejustinwelsh 2100678718087696454** `2026-09-17T20:10:09.000Z`；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；chat 待父代理递送。
+- publish：git tip pending；Pages pending。
+- anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
+
+## 2026-09-17 15:25 ET 健康检查（~15:38 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 12:00 齐：raw/12.jsonl **154**；overlay 154/154 fail0；窗类 正文52/拿不准5/已过滤97；页 **正文93/拿不准20/已过滤239**；gap≈3.97min gap_open false；游标 **@JiangChengCi 2100624007532020074**；git tip e10d396（docs tip de63f5b）；Pages 200 md5 50ca5fea live=local；**chat 已交 t38s7**。
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；12:10 catchup deferred_to_main 齐未重抓；16:00 约 +20min 未到期；旧四条 disabled；next 16:00 ET；stay_quiet。
+- 写于 2026-09-18 03:39 CST
+
+## 2026-09-17 14:25 ET 健康检查（~14:37 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 12:00 齐：raw/12.jsonl **154**；overlay 154/154 fail0；窗类 正文52/拿不准5/已过滤97；页 **正文93/拿不准20/已过滤239**；gap≈3.97min gap_open false；游标 **@JiangChengCi 2100624007532020074**；git tip e10d396；Pages 200 md5 50ca5fea live=local；**chat 已交 t38s7**。
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；12:10 catchup deferred_to_main 齐未重抓；13:25 板/changelog 未见单独条（automation lastRun succeeded≈13:42，本轮并记）；16:00 约 +83min 未到期；旧四条 disabled；next 16:00 ET；stay_quiet。
+- 写于 2026-09-18 02:38 CST
+
 ## 2026-09-17 12:00 ET · x-following 主窗
 
 - 12:00 齐：raw/12.jsonl **154**；overlay 154/154 fail0；窗类 正文52/拿不准5/已过滤97 miss0；页 **正文93/拿不准20/已过滤239**；gap≈3.97min gap_open false；游标 **@JiangChengCi 2100624007532020074**；git tip e10d396；Pages 200 md5 50ca5fea live=local；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0。
 - Arrow2 邻帖污染 26+PDF邻帖2 已从 HTL/DOM 还原。
 - chat_line：`9/17 12:00：正文93 / 拿不准20 / 已过滤239。https://t512192641.github.io/x-following/2026-09-17.html`
+- **chat 已交 t38s7（2026-09-18 00:57 CST）**
 - anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 - 写于 2026-09-18 00:55 CST
 
