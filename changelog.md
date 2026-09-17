@@ -1,3 +1,38 @@
+## 2026-09-17 08:00 ET · x-following 主窗
+
+- 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55 miss0；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip (pending push)；Pages (pending)；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0。
+- chat_line：`9/17 8:00：正文61 / 拿不准15 / 已过滤142。https://t512192641.github.io/x-following/2026-09-17.html`
+- anomaly：none
+
+## 2026-09-17 08:10 ET 补抓（~08:30）
+deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）；gap≈1.92min；未重抓不抢 CDP。2026-09-17 20:31 CST
+
+## 2026-09-17 7:25 ET 健康检查（~7:30 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 04:00 齐：raw/04.jsonl **112**；overlay 112/112 fail0；窗类 正文30/拿不准4/已过滤78 miss0；页 **正文26/拿不准4/已过滤87**；gap≈1.8min gap_open false；游标 **@xiaoxiaodong01 2100498041606373454**；git tip 1fafcc1；Pages 200 md5 821fb99e6a2a579c7047f072971fd58c live=local；**chat 已交 t38s5**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期（约 +112min）；04:10 catchup 齐未重抓；08:00 约 +29min 未到期；旧四条 disabled；next 08:00 ET；stay_quiet。
+- 写于 2026-09-17 19:30 CST
+## 2026-09-17 6:25 ET 健康检查（~6:28 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 04:00 齐：raw/04.jsonl **112**；overlay 112/112 fail0；窗类 正文30/拿不准4/已过滤78 miss0；页 **正文26/拿不准4/已过滤87**；gap≈1.8min gap_open false；游标 **@xiaoxiaodong01 2100498041606373454**；git tip 1fafcc1；Pages 200 md5 821fb99e6a2a579c7047f072971fd58c live=local；**chat 已交 t38s5**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期（约 +174min）；04:10 catchup 齐未重抓；08:00 约 +91min 未到期；旧四条 disabled；next 08:00 ET；stay_quiet。
+- 写于 2026-09-17 18:29 CST
+## 2026-09-17 5:25 ET 健康检查（~5:31 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 04:00 齐：raw/04.jsonl **112**；overlay 112/112 fail0；窗类 正文30/拿不准4/已过滤78 miss0；页 **正文26/拿不准4/已过滤87**；gap≈1.8min gap_open false；游标 **@xiaoxiaodong01 2100498041606373454**；git tip 1fafcc1；Pages 200 md5 821fb99e6a2a579c7047f072971fd58c live=local；**chat 已交 t38s5**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期（约 +230min）；04:10 catchup 齐未重抓；08:00 约 +147min 未到期；旧四条 disabled；next 08:00 ET；stay_quiet。
+- 写于 2026-09-17 17:32 CST
+
+## 2026-09-17 4:25 ET 健康检查（~4:33 正点迟到火）
+
+- quiet_ok；无 overdue 主缺口；不重抓主窗、不抢 CDP、不补名单。
+- 04:00 齐：raw/04.jsonl **112**；overlay 112/112 fail0；窗类 正文30/拿不准4/已过滤78 miss0；页 **正文26/拿不准4/已过滤87**；gap≈1.8min gap_open false；游标 **@xiaoxiaodong01 2100498041606373454**；git tip 1fafcc1；Pages 200 md5 821fb99e live=local；**chat 已交 t38s5**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期（约 +290min）；04:10 catchup deferred_to_main 齐未重抓；08:00 约 +207min 未到期；旧四条 disabled；next 08:00 ET；stay_quiet。
+- 写于 2026-09-17 16:34 CST
+
 ## 2026-09-17 04:00 ET · 主窗 complete（当天第一版）
 - union **112**（DOM33+HTL112）；overlay **112/112 fail0**；Kalypta 邻帖污染 38 条已从 HTL/DOM 还原
 - 窗类 正文30/拿不准4/已过滤78 miss0
