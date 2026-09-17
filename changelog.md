@@ -1,7 +1,59 @@
+## 2026-09-17 12:00 ET · x-following 主窗
+
+- 12:00 齐：raw/12.jsonl **154**；overlay 154/154 fail0；窗类 正文52/拿不准5/已过滤97 miss0；页 **正文93/拿不准20/已过滤239**；gap≈3.97min gap_open false；游标 **@JiangChengCi 2100624007532020074**；git tip (pending)；Pages (pending)；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0。
+- Arrow2 邻帖污染 26+PDF邻帖2 已从 HTL/DOM 还原。
+- chat_line：`9/17 12:00：正文93 / 拿不准20 / 已过滤239。https://t512192641.github.io/x-following/2026-09-17.html`
+- anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
+- 写于 2026-09-18 00:55 CST
+
+## 2026-09-17 12:25 ET 健康检查（~12:49 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip 2b8df7a；Pages 200 md5 54bafc05b1677564b7c8566c6cce3293 live=local；**chat 已交 t38s6**。
+- 12:00 主窗 **in_progress**（claim 12:34 ET；union154；overlay ~122/154 fail1 进行中；尚无 12-meta/分类/QA/页）；gap≈3.97min gap_open false；hit_cursor false；prior 仍 @verysmallwoods；12:10 catchup deferred_to_main 齐未重抓；健康检查未扩大重跑、不抢 CDP。
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；旧四条 disabled；next 16:00 ET；stay_quiet。
+- 写于 2026-09-18 00:49 CST
+
+## 2026-09-17 12:10 ET 补抓（~12:41）
+deferred_to_main：主窗 12:00 claim in_progress（union154 overlay~51/154）；gap≈3.97min；未重抓不抢 CDP。2026-09-18 00:42 CST
+
+## 2026-09-17 10:25 ET 健康检查（~10:54 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55 miss0；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip 2b8df7a；Pages 200 md5 54bafc05b1677564b7c8566c6cce3293 live=local；**chat 已交 t38s6**。
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；08:10 catchup deferred_to_main 齐未重抓；12:00 约 +66min 未到期；旧四条 disabled；next 12:00 ET；stay_quiet。
+- 写于 2026-09-17 22:56 CST
+
+## 2026-09-17 09:23 ET 名单（x-4 正点迟到火·~09:59）
+
+- 同日 ~09:52 健康检查兜底已写（关注 152→154/@cgnot996+@KinGao476942；书签 @mjjwiki/2100453699659366890→164）；本轮网页复核一致，未再改 jsonl。
+- meta last check **2026-09-17 09:59 ET**；logged in；抓完 `https://x.com/home`；私有 grok-ops meta 已同步。
+- 说明：x-4 于 ~09:47 ET 迟到火，与 x-3 9:25 迟到火并发；兜底先落盘，本条为 x-4 复核收口。
+
+## 2026-09-17 9:25 ET 健康检查（~9:52 迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55 miss0；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip 2b8df7a；Pages 200 md5 54bafc05b1677564b7c8566c6cce3293 live=local；**chat 已交 t38s6**。
+- **名单 x-4 9:23 漏叫 → 当场兜底补跑完成**（见下条）；08:10 catchup deferred_to_main 齐未重抓；12:00 约 +128min 未到期；旧四条 disabled；next 12:00 ET。
+
+## 2026-09-17 9:23 ET 名单补跑（健康检查兜底·~09:52 迟到火）
+
+- 调度漏叫 evidence：x-4 routine lastRun 仍停在 2026-09-16；今日 9:23 ET 未产出；按 x-3 兜底只查网页头顶+人数，未走 API、未重抓主窗。
+- logged in @pxNl8MfkN338618；关注 **152→154**，头顶变 **@cgnot996/铁柱AGI**（其下 **@KinGao476942/Kin**；旧头 @GrokBotRadar 仍第3）；书签头顶变 **@mjjwiki/2100453699659366890**（旧头 Jackywine 仍第2）；计数按 **163→164**（页上不显示总数）。
+- 已 prepend `cgnot996`+`KinGao476942` 到 `x-lists/following.jsonl`，`2100453699659366890` 到 `x-lists/bookmarks.jsonl`；meta last check **2026-09-17 09:52 ET**；已同步私有 `grok-ops/x-lists/`；未触碰公开 x-following；抓完 `https://x.com/home`。
+
+## 2026-09-17 8:25 ET 健康检查（~8:42 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口。
+- 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55 miss0；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip 2b8df7a；Pages 200 md5 54bafc05b1677564b7c8566c6cce3293 live=local；**chat 已交 t38s6**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期（约 +41min）；08:10 catchup deferred_to_main 齐未重抓；12:00 约 +198min 未到期；旧四条 disabled；next 12:00 ET；stay_quiet。
+- 写于 2026-09-17 20:43 CST
+
 ## 2026-09-17 08:00 ET · x-following 主窗
 
 - 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55 miss0；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip 3e7e3b9；Pages 200 md5 54bafc05 live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0。
 - chat_line：`9/17 8:00：正文61 / 拿不准15 / 已过滤142。https://t512192641.github.io/x-following/2026-09-17.html`
+- **chat 已交 t38s6（2026-09-17 20:41 CST）**
 - anomaly：none
 
 ## 2026-09-17 08:10 ET 补抓（~08:30）
