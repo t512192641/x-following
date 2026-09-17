@@ -1,3 +1,13 @@
+## 2026-09-17 00:00 ET · 主窗 complete
+- union **166**（DOM51+HTL163）；overlay **166/166 fail0**；无 Accordion 污染
+- 窗类 正文66/拿不准7/已过滤93 miss0（pre 65/7/84 → 09-16；after 1/0/9 → 薄种子）
+- 页 **正文183 / 拿不准40 / 已过滤375**；薄种子 09-17 1/0/9 不交
+- gap≈5.93min gap_open false；hit_cursor_effective true
+- 游标 **@indie_maker_fox 2100437013732438352** 2026-09-17T04:09:42.000Z
+- QA 00-qa.png clippedBtns0 pass；跳过 rec/ideas
+- chat_line：`9/16 0:00：正文183 / 拿不准40 / 已过滤375。https://t512192641.github.io/x-following/2026-09-16.html`
+- anomaly: none（DOM Latest 首次点选 null，HTL Recent 成功）
+
 ## 2026-09-16 20:00 ET
 
 - 20:00 齐：raw/20.jsonl **46**；DOM14+HTL45 HIT CURSOR；overlay 46/46 fail0；窗类 **正文19 / 拿不准8 / 已过滤19** miss0；并入 16/12/8/4/0 → 页 **正文168 / 拿不准33 / 已过滤291**；gap≈9.0min gap_open false；hit_cursor_effective true；游标 **@cellinlab 2100375932997664893** `2026-09-17T00:07:00.000Z`；**已并 recommended 09-16（9）+ ideas 09-16（4，脑洞组）**；QA 20-qa.png pass clippedBtns0；**chat 待父代理递送**。
