@@ -1,14 +1,48 @@
+## 2026-09-16 20:00 ET
+
+- 20:00 齐：raw/20.jsonl **46**；DOM14+HTL45 HIT CURSOR；overlay 46/46 fail0；窗类 **正文19 / 拿不准8 / 已过滤19** miss0；并入 16/12/8/4/0 → 页 **正文168 / 拿不准33 / 已过滤291**；gap≈9.0min gap_open false；hit_cursor_effective true；游标 **@cellinlab 2100375932997664893** `2026-09-17T00:07:00.000Z`；**已并 recommended 09-16（9）+ ideas 09-16（4，脑洞组）**；QA 20-qa.png pass clippedBtns0；**chat 待父代理递送**。
+- Accordion 污染 0；无 AUTH_FAIL。
+- chat_line：9/16 20:00：正文168 / 拿不准33 / 已过滤291。https://t512192641.github.io/x-following/2026-09-16.html
+- 写于 2026-09-17 08:20 CST
+## 2026-09-16 19:25 ET 健康检查（~19:32 迟到火）
+
+- quiet_ok；无 overdue 主缺口待拍板；不重抓主窗、不抢 CDP。
+- 16:00 齐（16:10 补抓代主窗）：raw/16.jsonl **64**；overlay 64/64 fail0；窗类 正文28/拿不准3/已过滤33 miss0；页 **正文147/拿不准25/已过滤272**；gap≈3.73min gap_open false；游标 **@430Yang 2100334669539475814**；git tip 33706d0 / content c875114；Pages 200 md5 f512cff3be708c9b364df1133d964514 live=local；chat 已交 t38s2。
+- 名单今日已齐（09:52兜底+09:56正点）关注152/@GrokBotRadar未变 + 书签@Jackywine/163 未再抓。
+- 20:00 未见 20-claim/20.jsonl（约 +28min 未到期）；旧四条 disabled；next 20:00 ET；stay_quiet。
+
+## 2026-09-16 18:25 ET 健康检查（~18:37 迟到火）
+
+- quiet_ok；无 overdue 主缺口待拍板；不重抓主窗、不抢 CDP。
+- 16:00 齐（16:10 补抓代主窗）：raw/16.jsonl **64**；overlay 64/64 fail0；窗类 正文28/拿不准3/已过滤33 miss0；页 **正文147/拿不准25/已过滤272**；gap≈3.73min gap_open false；游标 **@430Yang 2100334669539475814**；git tip 33706d0 / content c875114；Pages 200 md5 f512cff3be708c9b364df1133d964514 live=local；chat 已交 t38s2。
+- 主窗 x-1 本窗曾 failed（~16:51 ET 零产物）已由补抓收口；无 AUTH_FAIL / Accordion 异常。
+- 名单今日已齐（09:52兜底+09:56正点）关注 152/@GrokBotRadar 未变 + 书签头 @Jackywine/2099683107037409712 计数163；未再抓。
+- 20:00 未见 20-claim/20.jsonl（约 +83min 未到期）；接管四条：x-1 本窗 failed 已由 x-2 齐、x-2/x-3/x-4 近期 succeeded；旧四条保持 disabled。
+- stay_quiet。
+- 写于 2026-09-17 06:37 CST
+
 ## 2026-09-16 16:00 ET（16:10 补抓代主窗完整主抓）
 
-- 16:00 齐（补抓代主窗）：raw/16.jsonl **64**；DOM10+HTL64 HIT CURSOR；overlay 64/64 fail0；窗类 **正文28 / 拿不准3 / 已过滤33** miss0；并入 12:00/8:00/4:00/0:00 → 页 **正文147 / 拿不准25 / 已过滤272**；gap≈3.73min gap_open false；游标 **@430Yang 2100334669539475814** `2026-09-16T21:23:02.000Z`；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 待父代理递送**（chat_delivery pending_parent）。
-- fail_root_note: 仅平台 status=failed + 零产物。
+- 16:00 齐（补抓代主窗）：raw/16.jsonl **64**；DOM10+HTL64 HIT CURSOR；overlay 64/64 fail0；窗类 **正文28 / 拿不准3 / 已过滤33** miss0；并入 12:00/8:00/4:00/0:00 → 页 **正文147 / 拿不准25 / 已过滤272**；gap≈3.73min gap_open false；游标 **@430Yang 2100334669539475814** `2026-09-16T21:23:02.000Z`；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；******chat 已交 t38s2（2026-09-17 05:39 CST）******（chat_delivery pending_parent）。
 - git tip c875114；Pages 200 last-mod Wed, 16 Sep 2026 21:37:05 GMT md5 f512cff3be708c9b364df1133d964514 live=local
+- fail_root_note: 仅平台 status=failed + 零产物。
 - chat_line：9/16 16:00：正文147 / 拿不准25 / 已过滤272。https://t512192641.github.io/x-following/2026-09-16.html
 - 写于 2026-09-17 05:36 CST
 
+## 2026-09-16 17:25 ET 健康检查（~17:32 迟到火）
+
+- quiet_ok；无 overdue 主缺口待拍板；不重抓主窗、不抢 CDP。
+- 16:00 主窗（x-1）automation **failed**（status lastRun ~16:51 ET）曾零产物；16:10 补抓（x-2 / cdf0cd43）~17:22 ET 起跑，已占坑：`16-claim` in_progress；union **64**（DOM10+HTL64）；`16.jsonl` 已落；overlay **64/64 fail0**（本轮检查时刚齐）；尚无 16-meta/分类/QA/页（补抓后半段继续）。
+- scrape 侧：login_ok；gap≈3.73min gap_open false；hit_cursor false（prior→oldest≈3.7min）；prior 仍 @foxshuo 2100282815153901657。
+- 页仍 12:00 补跑态：正文119/拿不准22/已过滤239；Pages 200 md5 5c5ab60938423b79fb2ab02e656aeaea live=local；chat 仍 t38s1。
+- 名单今日已齐（09:52兜底+09:56正点）关注 152/@GrokBotRadar 未变 + 书签头 @Jackywine/2099683107037409712 计数163；未再抓。
+- 14:25 / 15:25 / 16:25 健康检查板未见单独条目（x-3 上一轮 failed，本轮并记）；接管四条：x-1 failed 本窗、x-2 running、x-3 本轮、x-4 昨 21:50 成功；旧四条保持 disabled。
+- stay_quiet（补抓兜底已落地推进中，无需幕僚长拍板）。
+- 写于 2026-09-17 05:35 CST
+
 ## 2026-09-16 12:00 ET（幕僚长拍板补跑完整主抓）
 
-- 12:00 齐（补跑）：raw/12.jsonl **156**；DOM36+HTL152 HIT CURSOR；overlay 156/156 fail0（Accordion×23 邻帖污染已从 HTL/DOM 还原）；窗类 **正文59 / 拿不准10 / 已过滤87** miss0；并入 8:00/4:00/0:00 → 页 **正文119 / 拿不准22 / 已过滤239**；gap≈3.7min gap_open false；游标 **@foxshuo 2100282815153901657** `2026-09-16T17:56:59.000Z`；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0；**chat 待父代理递送**（chat_delivery pending_parent）。
+- 12:00 齐（补跑）：raw/12.jsonl **156**；DOM36+HTL152 HIT CURSOR；overlay 156/156 fail0（Accordion×23 邻帖污染已从 HTL/DOM 还原）；窗类 **正文59 / 拿不准10 / 已过滤87** miss0；并入 8:00/4:00/0:00 → 页 **正文119 / 拿不准22 / 已过滤239**；gap≈3.7min gap_open false；游标 **@foxshuo 2100282815153901657** `2026-09-16T17:56:59.000Z`；跳过 rec/ideas；QA 12-qa.png pass clippedBtns0；****chat 已交 t38s1（2026-09-17 02:27 CST）****（chat_delivery delivered t38s1）。
 - git tip 67a1e70；Pages 200 last-mod Wed, 16 Sep 2026 18:19:12 GMT md5 5c5ab60938423b79fb2ab02e656aeaea live=local
 - fail_root_note: 仅平台 status=failed + 零产物，本地 automations/x|x-2 runs.json 无 error 明细。
 - chat_line：9/16 12:00：正文119 / 拿不准22 / 已过滤239。https://t512192641.github.io/x-following/2026-09-16.html
