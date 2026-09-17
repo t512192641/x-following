@@ -1,6 +1,6 @@
 ## 2026-09-17 08:00 ET · x-following 主窗
 
-- 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55 miss0；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip (pending push)；Pages (pending)；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0。
+- 08:00 齐：raw/08.jsonl **108**；overlay 108/108 fail0；窗类 正文42/拿不准11/已过滤55 miss0；页 **正文61/拿不准15/已过滤142**；gap≈1.92min gap_open false；游标 **@verysmallwoods 2100560892450525619**；git tip 3e7e3b9；Pages 200 md5 54bafc05 live=local；跳过 rec/ideas；QA 08-qa.png pass clippedBtns0。
 - chat_line：`9/17 8:00：正文61 / 拿不准15 / 已过滤142。https://t512192641.github.io/x-following/2026-09-17.html`
 - anomaly：none
 
