@@ -1,7 +1,7 @@
 # 2026-09-17 16:00 ET
 
 - 16:00 齐（~16:07 火）：raw/16.jsonl **64**；DOM16+HTL60 HIT CURSOR；overlay 64/64 fail0（Arrow2/邻帖污染 14 条已从 HTL/DOM 还原）；窗类 **正文27 / 拿不准9 / 已过滤28** miss0；并入 12:00/8:00/4:00/薄种子 → 页 **正文120 / 拿不准29 / 已过滤267**；gap≈3.82min gap_open false；游标 **@thejustinwelsh 2100678718087696454** `2026-09-17T20:10:09.000Z`；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；chat 待父代理递送。
-- publish：git tip pending；Pages pending。
+- publish：git tip 4f6efe6；Pages 200 md5 e5f9112cd750017b40a2f76765344645 live=local。
 - anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 
 ## 2026-09-17 15:25 ET 健康检查（~15:38 正点迟到火）
