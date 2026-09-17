@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2100437013732438352
-- url: https://x.com/indie_maker_fox/status/2100437013732438352
-- author: Fox
-- handle: @indie_maker_fox
-- time_utc: 2026-09-17T04:09:42.000Z
-- updated: 2026-09-17 00:00 ET window
+- status_id: 2100498041606373454
+- url: https://x.com/xiaoxiaodong01/status/2100498041606373454
+- author: 小小东
+- handle: @xiaoxiaodong01
+- time_utc: 2026-09-17T08:12:13.000Z
+- updated: 2026-09-17 04:00 ET window

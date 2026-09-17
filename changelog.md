@@ -1,3 +1,37 @@
+## 2026-09-17 04:00 ET · 主窗 complete（当天第一版）
+- union **112**（DOM33+HTL112）；overlay **112/112 fail0**；Kalypta 邻帖污染 38 条已从 HTL/DOM 还原
+- 窗类 正文30/拿不准4/已过滤78 miss0
+- 页 **正文26 / 拿不准4 / 已过滤87**（含 0:00 薄种子）
+- gap≈1.8min gap_open false；hit_cursor_effective true
+- 游标 **@xiaoxiaodong01 2100498041606373454** 2026-09-17T08:12:13.000Z（prior @indie_maker_fox 2100437013732438352）
+- QA 04-qa.png clippedBtns0 pass；跳过 rec/ideas
+- chat_line：`9/17 第一版：正文26 / 拿不准4 / 已过滤87。https://t512192641.github.io/x-following/2026-09-17.html`
+- anomaly: none（Kalypta 已还原；无 AUTH_FAIL）
+- 写于 2026-09-17 16:28 CST
+
+- 2026-09-17 4:10 ET 补抓：主窗 in_progress（union112 overlay~73/112），deferred_to_main 未重抓。
+
+## 2026-09-17 3:25 ET 健康检查（~3:33 正点迟到火）
+
+- quiet_ok；无 overdue 主缺口；不重抓主窗、不抢 CDP、不补名单。
+- 00:00 齐：raw/00.jsonl **166**；overlay 166/166 fail0；窗类 正文66/拿不准7/已过滤93 miss0；页 **正文183/拿不准40/已过滤375**；薄种子 1/0/9 不交；gap≈5.93min gap_open false；游标 **@indie_maker_fox 2100437013732438352**；git tip 6045d59；Pages 200 md5 ddc53ce5 live=local；**chat 已交 t38s4**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期（约 +348min）；00:10 catchup 齐未重抓；04:00 约 +25min 未到期；旧四条 disabled；next 04:00 ET；stay_quiet。
+- 写于 2026-09-17 15:34 CST
+
+## 2026-09-17 2:25 ET 健康检查（~2:36 正点迟到火）
+
+- quiet_ok；无 overdue 主缺口；不重抓主窗、不抢 CDP、不补名单。
+- 00:00 齐：raw/00.jsonl **166**；overlay 166/166 fail0；窗类 正文66/拿不准7/已过滤93 miss0；页 **正文183/拿不准40/已过滤375**；薄种子 1/0/9 不交；gap≈5.93min gap_open false；游标 **@indie_maker_fox 2100437013732438352**；git tip 6045d59；Pages 200 md5 ddc53ce5 live=local；**chat 已交 t38s4**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期；00:10 catchup 齐未重抓；04:00 约 +82min 未到期；旧四条 disabled；next 04:00 ET；stay_quiet。
+- 写于 2026-09-17 14:38 CST
+
+## 2026-09-17 1:25 ET 健康检查（~1:27 正点迟到火）
+
+- quiet_ok；无 overdue 主缺口；不重抓主窗、不抢 CDP、不补名单。
+- 00:00 齐：raw/00.jsonl **166**；overlay 166/166 fail0；窗类 正文66/拿不准7/已过滤93 miss0；页 **正文183/拿不准40/已过滤375**；薄种子 1/0/9 不交；gap≈5.93min gap_open false；游标 **@indie_maker_fox 2100437013732438352**；git tip 6045d59；Pages 200 md5 ddc53ce5 live=local；**chat 已交 t38s4（2026-09-17 13:35 CST）**。
+- 名单 Sep16 已齐未重抓；Sep17 09:23 未到期；00:10 catchup 齐未重抓；04:00 约 +153min 未到期；平台 x-1 仍标 running（claim complete）；旧四条 disabled；next 04:00 ET；stay_quiet。
+- 写于 2026-09-17 13:28 CST
+
 ## 2026-09-17 00:00 ET · 主窗 complete
 - union **166**（DOM51+HTL163）；overlay **166/166 fail0**；无 Accordion 污染
 - 窗类 正文66/拿不准7/已过滤93 miss0（pre 65/7/84 → 09-16；after 1/0/9 → 薄种子）
@@ -8,9 +42,39 @@
 - chat_line：`9/16 0:00：正文183 / 拿不准40 / 已过滤375。https://t512192641.github.io/x-following/2026-09-16.html`
 - anomaly: none（DOM Latest 首次点选 null，HTL Recent 成功）
 
+## 2026-09-17 0:10 ET 补抓（~0:20 正点迟到火）
+
+- 齐，未重抓；主窗 00:00 claim complete；raw166 overlay166/166；页 **正文183/拿不准40/已过滤375**；薄种子 1/0/9 不交；gap≈5.93min gap_open false；游标 **@indie_maker_fox 2100437013732438352**；Pages 200 md5 ddc53ce5 live=local；git tip 6045d59；chat 主窗 pending_parent，本补抓不重交；stay_quiet。
+- 写于 2026-09-17 12:35 CST
+
+## 2026-09-16 23:25 ET 健康检查（~23:31 正点迟到火）
+
+- quiet_ok；无 overdue 主缺口；20:00 claim complete，raw46 overlay46/46，页正文168/拿不准33/已过滤291，gap≈9.0min gap_open false；游标 @cellinlab 2100375932997664893；git tip ae184cf；Pages 200 md5 bd64194d286b01d582699293e9c62ae7 live=local；chat t38s3 done。名单 Sep16 已齐未重抓；20:10 catchup 齐未重抓；00:00 未见 00-claim（约 +28min 未到期）；接管 x-1/x-2/x-3/x-4 enabled，旧四条 disabled；next 00:00 ET；stay_quiet。
+
+- 写于 2026-09-17 11:32 CST
+## 2026-09-16 21:25 ET 健康检查（~21:31 迟到火）
+
+- quiet_ok；无 overdue 主缺口待拍板；不重抓主窗、不抢 CDP。
+- 20:00 齐：raw/20.jsonl **46**；overlay 46/46 fail0；窗类 正文19/拿不准8/已过滤19 miss0；页 **正文168/拿不准33/已过滤291**；gap≈9.0min gap_open false；游标 **@cellinlab 2100375932997664893**；git tip ae184cf；Pages 200 md5 bd64194d286b01d582699293e9c62ae7 live=local；chat 已交 t38s3；rec+ideas 09-16 已并。
+- 名单今日已齐（09:52兜底+09:56正点）关注152/@GrokBotRadar未变 + 书签@Jackywine/163 未再抓。
+- 20:10 补抓齐未重抓；00:00 未见 00-claim（约 +148min 未到期）；旧四条 disabled；next 00:00 ET；stay_quiet。
+- 写于 2026-09-17 09:32 CST
+
+## 2026-09-16 20:25 ET 健康检查（~20:33 迟到火）
+
+- quiet_ok；无 overdue 主缺口待拍板；不重抓主窗、不抢 CDP。
+- 20:00 齐：raw/20.jsonl **46**；overlay 46/46 fail0；窗类 正文19/拿不准8/已过滤19 miss0；页 **正文168/拿不准33/已过滤291**；gap≈9.0min gap_open false；游标 **@cellinlab 2100375932997664893**；git tip ae184cf；Pages 200 md5 bd64194d286b01d582699293e9c62ae7 live=local；chat 已交 t38s3；rec+ideas 09-16 已并。
+- 名单今日已齐（09:52兜底+09:56正点）关注152/@GrokBotRadar未变 + 书签@Jackywine/163 未再抓。
+- 20:10 补抓齐未重抓；00:00 未见 00-claim（约 +207min 未到期）；旧四条 disabled；next 00:00 ET；stay_quiet。
+- 写于 2026-09-17 08:34 CST
+
+## 2026-09-16 20:10 ET 补抓（~20:28 迟到火）
+
+- 齐，未重抓；主窗 20:00 claim complete；raw46 overlay46/46；页 **正文168/拿不准33/已过滤291**；gap≈9.0min gap_open false；游标 **@cellinlab 2100375932997664893**；rec+ideas 09-16 主窗已并；Pages 200 md5 bd64194d live=local；git tip ae184cf；chat 主窗已交 t38s3，本补抓不重交；stay_quiet。
+- 写于 2026-09-17 08:28 CST
 ## 2026-09-16 20:00 ET
 
-- 20:00 齐：raw/20.jsonl **46**；DOM14+HTL45 HIT CURSOR；overlay 46/46 fail0；窗类 **正文19 / 拿不准8 / 已过滤19** miss0；并入 16/12/8/4/0 → 页 **正文168 / 拿不准33 / 已过滤291**；gap≈9.0min gap_open false；hit_cursor_effective true；游标 **@cellinlab 2100375932997664893** `2026-09-17T00:07:00.000Z`；**已并 recommended 09-16（9）+ ideas 09-16（4，脑洞组）**；QA 20-qa.png pass clippedBtns0；**chat 待父代理递送**。
+- 20:00 齐：raw/20.jsonl **46**；DOM14+HTL45 HIT CURSOR；overlay 46/46 fail0；窗类 **正文19 / 拿不准8 / 已过滤19** miss0；并入 16/12/8/4/0 → 页 **正文168 / 拿不准33 / 已过滤291**；gap≈9.0min gap_open false；hit_cursor_effective true；游标 **@cellinlab 2100375932997664893** `2026-09-17T00:07:00.000Z`；**已并 recommended 09-16（9）+ ideas 09-16（4，脑洞组）**；QA 20-qa.png pass clippedBtns0；****chat 已交 t38s3（2026-09-17 08:21 CST）****。
 - Accordion 污染 0；无 AUTH_FAIL。
 - chat_line：9/16 20:00：正文168 / 拿不准33 / 已过滤291。https://t512192641.github.io/x-following/2026-09-16.html
 - 写于 2026-09-17 08:20 CST
