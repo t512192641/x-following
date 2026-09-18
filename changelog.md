@@ -1,3 +1,53 @@
+# 2026-09-18 16:00 ET
+
+- 主窗 16:00：raw/16.jsonl **85**；窗类 正文19 / 拿不准4 / 已过滤62 miss0；overlay 85/85 fail0（Ternary Bonsai 20 + 父帖污染 7 已对照 HTL/DOM 回写）；gap≈5.43min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文60 / 拿不准27 / 已过滤347**；QA 16-qa.png pass clippedBtns0；游标推进 @Jason 2101039901223653588 2026-09-18T20:05:22.000Z；跳过 rec/ideas；无 AUTH_FAIL；无官方 X API。
+- scrape：DOM 13 未撞游标（英文 UI Latest 首轮 l:None）→ 同会话 HTL HIT CUR → union 85；prior→oldest≈5.43min；max_internal≈13.73min；n_gaps_gt45=0。
+- 正文要点：Factory Private 三部署；ChatGPT 多账户补链 + Chrome 扩展；Meta Muse 邀请码；Claude Code AGENTS.md；Pro 20x 重开；Compositor 开源；AgentCloak 脱敏；MAGNET/Sherpa 世界状态；企业 AI 五步；Jev 媒体监控/Mode/快思考/compaction/awesome-jev 补链；Alzheimer 补链；自动化→专家收尾。
+- fire ~5min late；chat pending_parent。
+
+## 2026-09-18 15:25 ET 健康检查（~15:54 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 12:00 齐：页 live 正文50/拿不准23/已过滤285；raw134 overlay134/134 fail0 窗类16/11/107；Pages 200 md5 656b7c6c1724c68782668fe15acf66c1 live=local；git tip 30f46d6（docs a957c14）；chat t38s13 done
+- gap≈1.65min gap_open false；游标 @lijigang 2100983416997232947
+- 12:10 catchup 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；16:00 未见 16-claim/16.jsonl（约 +5min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染已还原不升幕僚长；无 AUTH_FAIL/重复抓取；next 16:00 ET；stay_quiet
+- recorded 2026-09-19 03:54 CST
+
+## 2026-09-18 14:25 ET 健康检查（~14:45 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 12:00 齐：页 live 正文50/拿不准23/已过滤285；raw134 overlay134/134 fail0 窗类16/11/107；Pages 200 md5 656b7c6c1724c68782668fe15acf66c1 live=local；git tip 30f46d6（docs a957c14）；chat t38s13 done
+- gap≈1.65min gap_open false；游标 @lijigang 2100983416997232947
+- 12:10 catchup 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；16:00 未见 16-claim/16.jsonl（约 +75min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染已还原不升幕僚长；无 AUTH_FAIL/重复抓取；next 16:00 ET；stay_quiet
+- recorded 2026-09-19 02:46 CST
+
+## 2026-09-18 13:25 ET 健康检查（~13:42 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 12:00 齐：页 live 正文50/拿不准23/已过滤285；raw134 overlay134/134 fail0 窗类16/11/107；Pages 200 md5 656b7c6c live=local；git tip 30f46d6（docs a957c14）；chat t38s13 done
+- gap≈1.65min gap_open false；游标 @lijigang 2100983416997232947
+- 12:10 catchup 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；16:00 未见 16-claim/16.jsonl（约 +137min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染已还原不升幕僚长；next 16:00 ET；stay_quiet
+- recorded 2026-09-19 01:43 CST
+## 2026-09-18 12:25 ET 健康检查（~12:54 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 12:00 齐：页 live 正文50/拿不准23/已过滤285；raw134 overlay134/134 fail0 窗类16/11/107；Pages 200 md5 656b7c6c live=local；git tip 30f46d6；chat t38s13 done
+- gap≈1.65min gap_open false；游标 @lijigang 2100983416997232947
+- 12:10 catchup 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；16:00 未见 16-claim/16.jsonl（约 +180min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染已还原不升幕僚长；next 16:00 ET；stay_quiet
+- recorded 2026-09-19 01:00 CST
+
+## 2026-09-18 12:10 ET 补抓（~12:44）
+
+- 齐，未重抓；主窗 12:00 已 complete + chat t38s13
+- raw/12.jsonl 134 class 16/11/107 miss0；overlay 134/134 fail0；gap≈1.65min gap_open false
+- 页 09-18 正文50/拿不准23/已过滤285；游标 @lijigang 2100983416997232947；Pages 200 md5 656b7c6c live=local
+- 跳过 rec/ideas；QA 主窗已 pass；本补抓不重交 / stay_quiet
+- recorded 2026-09-19 00:46 CST
+
 ## 2026-09-18 12:00 ET 主窗
 
 - late fire ~21min；DOM Following→Latest + same-session HTL（CDP :9226；无官方 X API）
@@ -10,6 +60,7 @@
 - 游标 @levelsio 2100924949883982332 → @lijigang 2100983416997232947 2026-09-18T16:20:55.000Z
 - publish：git tip 6990a81（content 30f46d6）；Pages 200 md5 656b7c6c1724c68782668fe15acf66c1 live=local；grok-ops 84f3d78
 - chat_line：9/18 12:00：正文50 / 拿不准23 / 已过滤285。https://t512192641.github.io/x-following/2026-09-18.html
+- **chat 已交 t38s13（2026-09-19 00:43 CST）**
 - recorded 2026-09-19 00:40 CST
 
 ## 2026-09-18 11:25 ET 健康检查（~11:58 ET 正点迟到火）
