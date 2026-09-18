@@ -1,7 +1,7 @@
 # 2026-09-17 20:00 ET
 
 - 20:00 齐（~20:16 火）：raw/20.jsonl **90**；DOM15+HTL89 HIT CURSOR；overlay 90/90 fail0（Arrow2/邻帖污染 26 条已从 HTL/DOM 还原）；窗类 **正文25 / 拿不准6 / 已过滤59** miss0；并入 16:00/12:00/8:00/4:00/薄种子 → 页 **正文133 / 拿不准35 / 已过滤326**；gap≈2.63min gap_open false；游标 **@abskoop 2100741326903853413** `2026-09-18T00:18:56.000Z`；**跳过 rec/ideas**（latest 仍 09-16，已并 09-16 页）；QA 20-qa.png pass clippedBtns0；chat 待父代理递送。
-- publish：git tip PENDING；Pages 200 md5 PENDING live=local。
+- publish：git tip 90fd87d；Pages 200 md5 57725c220f7374babb598548f5cf20be live=local。
 - anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 
 ## 2026-09-17 20:10 ET 补抓（~20:25）
