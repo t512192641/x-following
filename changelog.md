@@ -8,7 +8,7 @@
 - merge12 08-era sed 坏 ID 已按本窗重写
 - QA 12-qa.png clippedBtns 0 pass
 - 游标 @levelsio 2100924949883982332 → @lijigang 2100983416997232947 2026-09-18T16:20:55.000Z
-- publish：git tip 30f46d6；Pages 200 md5 656b7c6c1724c68782668fe15acf66c1 live=local；ee4bbd1
+- publish：git tip 6990a81（content 30f46d6）；Pages 200 md5 656b7c6c1724c68782668fe15acf66c1 live=local；grok-ops 84f3d78
 - chat_line：9/18 12:00：正文50 / 拿不准23 / 已过滤285。https://t512192641.github.io/x-following/2026-09-18.html
 - recorded 2026-09-19 00:40 CST
 
