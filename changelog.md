@@ -5,7 +5,7 @@
 - cursor prior @bearliu 2100858114387976644 → new @levelsio 2100924949883982332 2026-09-18T12:28:36.000Z。
 - anomaly：Ternary Bonsai 邻帖污染38已从 HTL/DOM 还原；U+2028 破行已 sanitize；跳过 rec/ideas。
 - QA 08-qa.png pass clippedBtns 0。
-- publish：git tip ff7ad41（content 7c5726f）；Pages 200 md5 42eb1a81e0f87b1af26ef0b992ab6c8b live=local；grok-ops PENDING。
+- publish：git tip ff7ad41（content 7c5726f）；Pages 200 md5 42eb1a81e0f87b1af26ef0b992ab6c8b live=local；grok-ops c9c9c3e。
 - chat_line：9/18 8:00：正文39 / 拿不准12 / 已过滤178。https://t512192641.github.io/x-following/2026-09-18.html
 - Next：12:00 ET。
 
