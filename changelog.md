@@ -1,11 +1,55 @@
+# 2026-09-18 0:00 ET
+
+- 0:00 齐（~00:36 火）：raw/00.jsonl **149**；DOM43+HTL142 HIT CURSOR；overlay 149/149 fail0（Ternary Bonsai 邻帖污染 27 条已从 HTL/DOM 还原）；窗类 **正文38 / 拿不准11 / 已过滤100** miss0；pre→09-17 / after→薄种子09-18；页 **正文160 / 拿不准45 / 已过滤417**；薄种子 0/1/9 不交；gap≈6.1min gap_open false；游标 **@grok 2100801345905135886** `2026-09-18T04:17:26.000Z`；**跳过 rec/ideas**（非 20:00）；QA 00-qa.png pass clippedBtns0；**chat pending_parent**。
+- publish：pending tip/md5（见随后条目）。
+- anomaly：Ternary Bonsai 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
+
+## 2026-09-18 0:25 ET 健康检查（~0:33 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 20:00 齐：页 live 正文133/拿不准35/已过滤326；Pages 200 md5 57725c22 live=local；git tip 8833730（content 90fd87d）；chat t38s9 done
+- 主窗 00:00 in_progress：union149 overlay149/149 fail0；尚无 00-meta/分类/QA/页；gap≈6.1min gap_open false；游标仍 @abskoop 2100741326903853413
+- 00:10 catchup deferred_to_main 齐未重抓；名单 Sep17 已齐 154/@cgnot996 + mjjwiki/164；Sep18 lists 未到期（09:23 ET，约 +530min）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交昨天页 → 4:00 ET；stay_quiet
+- recorded 2026-09-18 12:33 CST
+
+## 2026-09-18 0:10 ET 补抓（~0:18）
+deferred_to_main：主窗 0:00 claim in_progress（union149 overlay~6/149）；gap≈6.1min；未重抓不抢 CDP。2026-09-18 12:18 CST
+
+## 2026-09-17 23:25 ET 健康检查（~23:35 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 20:00 齐：raw90 overlay90/90 fail0 窗类25/6/59；页 live 正文133/拿不准35/已过滤326；Pages 200 md5 57725c22 live=local；git tip 8833730（content 90fd87d）；chat t38s9 done
+- gap≈2.63min gap_open false；游标 @abskoop 2100741326903853413
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；Sep18 lists 未到期（09:23 ET，约 +587min）；20:10 catchup deferred_to_main 齐未重抓；00:00 约 +24min 未到期
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet
+- recorded 2026-09-18 11:36 CST
+
+## 2026-09-17 22:25 ET 健康检查（~22:36 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 20:00 齐：raw90 overlay90/90 fail0 窗类25/6/59；页 live 正文133/拿不准35/已过滤326；Pages 200 md5 57725c22 live=local；git tip 8833730（content 90fd87d）；chat t38s9 done
+- gap≈2.63min gap_open false；游标 @abskoop 2100741326903853413
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；Sep18 lists 未到期（09:23 ET，约 +647min）；20:10 catchup deferred_to_main 齐未重抓；21:25 板/changelog 未见单独条（automation lastRun succeeded≈21:34，本轮并记）；00:00 约 +84min 未到期
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet
+- recorded 2026-09-18 10:36 CST
 # 2026-09-17 20:00 ET
 
-- 20:00 齐（~20:16 火）：raw/20.jsonl **90**；DOM15+HTL89 HIT CURSOR；overlay 90/90 fail0（Arrow2/邻帖污染 26 条已从 HTL/DOM 还原）；窗类 **正文25 / 拿不准6 / 已过滤59** miss0；并入 16:00/12:00/8:00/4:00/薄种子 → 页 **正文133 / 拿不准35 / 已过滤326**；gap≈2.63min gap_open false；游标 **@abskoop 2100741326903853413** `2026-09-18T00:18:56.000Z`；**跳过 rec/ideas**（latest 仍 09-16，已并 09-16 页）；QA 20-qa.png pass clippedBtns0；chat 待父代理递送。
+- 20:00 齐（~20:16 火）：raw/20.jsonl **90**；DOM15+HTL89 HIT CURSOR；overlay 90/90 fail0（Arrow2/邻帖污染 26 条已从 HTL/DOM 还原）；窗类 **正文25 / 拿不准6 / 已过滤59** miss0；并入 16:00/12:00/8:00/4:00/薄种子 → 页 **正文133 / 拿不准35 / 已过滤326**；gap≈2.63min gap_open false；游标 **@abskoop 2100741326903853413** `2026-09-18T00:18:56.000Z`；**跳过 rec/ideas**（latest 仍 09-16，已并 09-16 页）；QA 20-qa.png pass clippedBtns0；**chat 已交 t38s9（2026-09-18 08:34 CST）**。
 - publish：git tip 90fd87d；Pages 200 md5 57725c220f7374babb598548f5cf20be live=local。
 - anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 
 ## 2026-09-17 20:10 ET 补抓（~20:25）
 deferred_to_main：主窗 20:00 claim in_progress（union90 overlay~42/90）；gap≈2.63min；未重抓不抢 CDP。2026-09-18 08:25 CST
+
+## 2026-09-17 20:25 ET 健康检查（~20:39 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 20:00 齐：raw90 overlay90/90 fail0 窗类25/6/59；页 live 正文133/拿不准35/已过滤326；Pages 200 md5 57725c22 live=local；git tip 8833730（content 90fd87d）；chat t38s9 done
+- gap≈2.63min gap_open false；游标 @abskoop 2100741326903853413
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；20:10 catchup deferred_to_main 齐未重抓；00:00 约 +199min 未到期
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet
+- recorded 2026-09-18 08:40 CST
 
 ## 2026-09-17 19:25 ET 健康检查（~19:33 正点迟到火）
 
