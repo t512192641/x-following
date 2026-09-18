@@ -1,6 +1,54 @@
+# 2026-09-17 20:00 ET
+
+- 20:00 齐（~20:16 火）：raw/20.jsonl **90**；DOM15+HTL89 HIT CURSOR；overlay 90/90 fail0（Arrow2/邻帖污染 26 条已从 HTL/DOM 还原）；窗类 **正文25 / 拿不准6 / 已过滤59** miss0；并入 16:00/12:00/8:00/4:00/薄种子 → 页 **正文133 / 拿不准35 / 已过滤326**；gap≈2.63min gap_open false；游标 **@abskoop 2100741326903853413** `2026-09-18T00:18:56.000Z`；**跳过 rec/ideas**（latest 仍 09-16，已并 09-16 页）；QA 20-qa.png pass clippedBtns0；chat 待父代理递送。
+- publish：git tip PENDING；Pages 200 md5 PENDING live=local。
+- anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
+
+## 2026-09-17 20:10 ET 补抓（~20:25）
+deferred_to_main：主窗 20:00 claim in_progress（union90 overlay~42/90）；gap≈2.63min；未重抓不抢 CDP。2026-09-18 08:25 CST
+
+## 2026-09-17 19:25 ET 健康检查（~19:33 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 16:00 齐：raw64 overlay64/64 fail0 窗类27/9/28；页 live 正文120/拿不准29/已过滤267；Pages 200 md5 e5f9112c live=local；git tip e42fd4e（content 4f6efe6）；chat t38s8 done
+- gap≈3.82min gap_open false；游标 @thejustinwelsh 2100678718087696454
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；16:10 catchup 齐未重抓；20:00 未见 20-claim/20.jsonl（约 +27min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet
+- recorded 2026-09-18 07:33 CST
+
+## 2026-09-17 18:25 ET 健康检查（~18:36 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 16:00 齐：raw64 overlay64/64 fail0 窗类27/9/28；页 live 正文120/拿不准29/已过滤267；Pages 200 md5 e5f9112c live=local；git tip e42fd4e（content 4f6efe6）；chat t38s8 done
+- gap≈3.82min gap_open false；游标 @thejustinwelsh 2100678718087696454
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓；16:10 catchup 齐未重抓；20:00 未见 20-claim/20.jsonl（约 +84min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet
+- recorded 2026-09-18 06:36 CST
+
+## 2026-09-17 17:25 ET 健康检查（~17:37 正点迟到火）
+- quiet_ok: true；无 overdue 主缺口
+- 16:00 齐：raw64 overlay64/64 fail0 窗类27/9/28；页 live 正文120/拿不准29/已过滤267；Pages 200 md5 e5f9112c live=local；git tip 4f6efe6；chat t38s8 done
+- gap≈3.82min gap_open false；游标 @thejustinwelsh 2100678718087696454
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓
+- 16:10 catchup 齐未重抓；20:00 约 +142min 未到期；旧四条 disabled；stay_quiet
+- recorded: 2026-09-18 05:38 CST
+
+## 2026-09-17 16:25 ET 健康检查（~16:42 正点迟到火）
+- quiet_ok: true；无 overdue 主缺口
+- 16:00 齐：raw64 overlay64/64 fail0 窗类27/9/28；页 live 正文120/拿不准29/已过滤267；Pages 200 md5 e5f9112c live=local；git tip 4f6efe6（docs e42fd4e）；chat t38s8 done
+- gap≈3.82min gap_open false；游标 @thejustinwelsh 2100678718087696454
+- 名单 Sep17 已齐（09:52兜底+09:59正点）关注154/@cgnot996 + 书签@mjjwiki/164 未再抓
+- 16:10 catchup 齐未重抓；20:00 约 +198min 未到期；旧四条 disabled；stay_quiet
+- recorded: 2026-09-18 04:43 CST
+
+# 2026-09-17 16:10 ET 补抓（~16:25）
+
+- 齐，未重抓；主窗 16:00 claim complete；raw64 overlay64/64；窗类 正文27/拿不准9/已过滤28 miss0；页 **正文120/拿不准29/已过滤267**；gap≈3.82min gap_open false；游标 **@thejustinwelsh 2100678718087696454**；Pages 200 md5 e5f9112c live=local；git tip 4f6efe6；chat 主窗已交 t38s8，本补抓不重交；stay_quiet。
+- 写于 2026-09-18 04:26 CST
+
 # 2026-09-17 16:00 ET
 
-- 16:00 齐（~16:07 火）：raw/16.jsonl **64**；DOM16+HTL60 HIT CURSOR；overlay 64/64 fail0（Arrow2/邻帖污染 14 条已从 HTL/DOM 还原）；窗类 **正文27 / 拿不准9 / 已过滤28** miss0；并入 12:00/8:00/4:00/薄种子 → 页 **正文120 / 拿不准29 / 已过滤267**；gap≈3.82min gap_open false；游标 **@thejustinwelsh 2100678718087696454** `2026-09-17T20:10:09.000Z`；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；chat 待父代理递送。
+- 16:00 齐（~16:07 火）：raw/16.jsonl **64**；DOM16+HTL60 HIT CURSOR；overlay 64/64 fail0（Arrow2/邻帖污染 14 条已从 HTL/DOM 还原）；窗类 **正文27 / 拿不准9 / 已过滤28** miss0；并入 12:00/8:00/4:00/薄种子 → 页 **正文120 / 拿不准29 / 已过滤267**；gap≈3.82min gap_open false；游标 **@thejustinwelsh 2100678718087696454** `2026-09-17T20:10:09.000Z`；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 已交 t38s8（2026-09-18 04:24 CST）**。
 - publish：git tip 4f6efe6；Pages 200 md5 e5f9112cd750017b40a2f76765344645 live=local。
 - anomaly：Arrow2 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 
