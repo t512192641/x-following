@@ -1,3 +1,53 @@
+## 2026-09-18 12:00 ET 主窗
+
+- late fire ~21min；DOM Following→Latest + same-session HTL（CDP :9226；无官方 X API）
+- union **134**（DOM39+HTL129）；overlay **134/134 fail0**；窗类 正文16 / 拿不准11 / 已过滤107 miss0
+- gap≈1.65min gap_open false；hit_cursor_effective true（HTL HIT CURSOR；字面 hit_cursor false）
+- 页：正文39/拿不准12/已过滤178 → **正文50 / 拿不准23 / 已过滤285**（ChatGPT 多账户；Jev OpenRouter+demo+普通人；剪映/ZCode 补链；跳过 rec/ideas）
+- Ternary Bonsai CDP 污染 32+ 已从 HTL/DOM 还原；cross_pollution_suspects_after 0；不升幕僚长
+- merge12 08-era sed 坏 ID 已按本窗重写
+- QA 12-qa.png clippedBtns 0 pass
+- 游标 @levelsio 2100924949883982332 → @lijigang 2100983416997232947 2026-09-18T16:20:55.000Z
+- publish：（下方补 tip/md5）
+- chat_line：9/18 12:00：正文50 / 拿不准23 / 已过滤285。https://t512192641.github.io/x-following/2026-09-18.html
+- recorded 2026-09-19 00:40 CST
+
+## 2026-09-18 11:25 ET 健康检查（~11:58 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 08:00 齐：页 live 正文39/拿不准12/已过滤178；raw118 overlay118/118 fail0 窗类20/7/91；Pages 200 md5 42eb1a81 live=local；git tip 340249b（content 7c5726f）；chat t38s12 done
+- gap≈7.85min gap_open false；游标 @levelsio 2100924949883982332
+- 08:10 catchup deferred_to_main 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim/12.jsonl（约 +2min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染38已还原不升幕僚长；next 12:00 ET；stay_quiet
+- recorded 2026-09-18 23:58 CST
+
+## 2026-09-18 10:25 ET 健康检查（~10:54 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 08:00 齐：页 live 正文39/拿不准12/已过滤178；raw118 overlay118/118 fail0 窗类20/7/91；Pages 200 md5 42eb1a81 live=local；git tip 340249b（content 7c5726f）；chat t38s12 done
+- gap≈7.85min gap_open false；游标 @levelsio 2100924949883982332
+- 08:10 catchup deferred_to_main 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim/12.jsonl（约 +64min 未到期）
+- 9:25 板/changelog 未见单独条（automation lastRun 仍停在 8:25 迟到火，本轮并记）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染38已还原不升幕僚长；next 12:00 ET；stay_quiet
+- recorded 2026-09-18 22:56 CST
+
+## 2026-09-18 8:25 ET 健康检查（~10:14 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 08:00 齐：页 live 正文39/拿不准12/已过滤178；raw118 overlay118/118 fail0 窗类20/7/91；Pages 200 md5 42eb1a81 live=local；git tip 340249b（content 7c5726f）；chat t38s12 done
+- gap≈7.85min gap_open false；游标 @levelsio 2100924949883982332
+- 08:10 catchup deferred_to_main 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim（约 +106min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染38已还原不升幕僚长；next 12:00 ET；stay_quiet
+- recorded 2026-09-18 22:14 CST
+
+## 2026-09-18 09:56 ET 名单（x-4 正点迟到火）
+
+- logged in；关注 **未变** 154 / 头顶 @cgnot996（第2 @KinGao476942；第3 @GrokBotRadar）。
+- 书签头顶变 **@0xGenAi / 2100287496294711426**（旧 @mjjwiki / 2100453699659366890 现第4）。
+- 新增 3：@0xGenAi、@xiaoniaoziming/2100539160004014535、@AYi_AInotes/2100437460895371551；计数 **164→167**。
+- 已 prepend `bookmarks.jsonl`，更新 `meta.md`，sync 私有 grok-ops；抓完 x.com/home。
+- 写于 2026-09-18 22:08 CST（火于 2026-09-18 10:08 ET）
+
 # 2026-09-18 8:00 ET
 
 - 主窗 complete（late ~23min）：DOM+HTL CDP :9226；union **118**；overlay 118/118 fail0；窗类 正文20/拿不准7/已过滤91；页 **正文39 / 拿不准12 / 已过滤178**。
@@ -5,8 +55,9 @@
 - cursor prior @bearliu 2100858114387976644 → new @levelsio 2100924949883982332 2026-09-18T12:28:36.000Z。
 - anomaly：Ternary Bonsai 邻帖污染38已从 HTL/DOM 还原；U+2028 破行已 sanitize；跳过 rec/ideas。
 - QA 08-qa.png pass clippedBtns 0。
-- publish：git tip ff7ad41（content 7c5726f）；Pages 200 md5 42eb1a81e0f87b1af26ef0b992ab6c8b live=local；grok-ops c9c9c3e。
+- publish：git tip 340249b（content 7c5726f）；Pages 200 md5 42eb1a81e0f87b1af26ef0b992ab6c8b live=local；grok-ops 61fdd1e。
 - chat_line：9/18 8:00：正文39 / 拿不准12 / 已过滤178。https://t512192641.github.io/x-following/2026-09-18.html
+- **chat 已交 t38s12（2026-09-18 20:50 CST）**
 - Next：12:00 ET。
 
 ## 2026-09-18 7:25 ET 健康检查（~7:38 ET 正点迟到火）
