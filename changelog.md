@@ -1,8 +1,54 @@
+# 2026-09-18 8:00 ET
+
+- 主窗 complete（late ~23min）：DOM+HTL CDP :9226；union **118**；overlay 118/118 fail0；窗类 正文20/拿不准7/已过滤91；页 **正文39 / 拿不准12 / 已过滤178**。
+- gap_prior_to_oldest≈7.85min；hit_cursor_effective true；gap_open false；n_gaps_gt45 0。
+- cursor prior @bearliu 2100858114387976644 → new @levelsio 2100924949883982332 2026-09-18T12:28:36.000Z。
+- anomaly：Ternary Bonsai 邻帖污染38已从 HTL/DOM 还原；U+2028 破行已 sanitize；跳过 rec/ideas。
+- QA 08-qa.png pass clippedBtns 0。
+- publish：git tip PENDING；Pages PENDING。
+- chat_line：9/18 8:00：正文39 / 拿不准12 / 已过滤178。https://t512192641.github.io/x-following/2026-09-18.html
+- Next：12:00 ET。
+
+## 2026-09-18 7:25 ET 健康检查（~7:38 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 04:00 齐：页 live 正文24/拿不准5/已过滤87；raw115 overlay115/115 fail0 窗类33/4/78；Pages 200 md5 5a0a9e21 live=local；git tip 6d177d3（content 61a9c9c）；chat t38s11 done
+- gap≈0.63min gap_open false；游标 @bearliu 2100858114387976644
+- 04:10 catchup deferred_to_main 齐未重抓；名单 Sep17 已齐 154/@cgnot996 + mjjwiki/164 未再抓；Sep18 lists 未到期（09:23 ET，约 +105min）；08:00 未见 08-claim（约 +22min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染已还原不升幕僚长；next 08:00 ET；stay_quiet
+- recorded 2026-09-18 19:38 CST
+## 2026-09-18 6:25 ET 健康检查（~6:30 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 04:00 齐：页 live 正文24/拿不准5/已过滤87；raw115 overlay115/115 fail0 窗类33/4/78；Pages 200 md5 5a0a9e21 live=local；git tip 6d177d3（content 61a9c9c）；chat t38s11 done
+- gap≈0.63min gap_open false；游标 @bearliu 2100858114387976644
+- 04:10 catchup deferred_to_main 齐未重抓；名单 Sep17 已齐 154/@cgnot996 + mjjwiki/164 未再抓；Sep18 lists 未到期（09:23 ET，约 +173min）；08:00 未见 08-claim（约 +90min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染已还原不升幕僚长；next 08:00 ET；stay_quiet
+- recorded 2026-09-18 18:30 CST
+
+## 2026-09-18 5:25 ET 健康检查（~5:32 ET 正点迟到火）
+
+- quiet_ok true；无 overdue 主缺口
+- 04:00 齐：页 live 正文24/拿不准5/已过滤87；raw115 overlay115/115 fail0 窗类33/4/78；Pages 200 md5 5a0a9e21 live=local；git tip 6d177d3（content 61a9c9c）；chat t38s11 done
+- gap≈0.63min gap_open false；游标 @bearliu 2100858114387976644
+- 04:10 catchup deferred_to_main 齐未重抓；名单 Sep17 已齐 154/@cgnot996 + mjjwiki/164 未再抓；Sep18 lists 未到期（09:23 ET，约 +231min）；08:00 未见 08-claim（约 +148min 未到期）
+- 接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；Ternary Bonsai 污染已还原不升幕僚长；next 08:00 ET；stay_quiet
+- recorded 2026-09-18 17:33 CST
+
+## 2026-09-18 4:25 ET 健康检查（~4:32 ET 正点迟到火）
+
+- quiet_ok true；最新主窗 04:00 已 complete：raw/04.jsonl 115；overlay 115/115 fail0；窗类正文33/拿不准4/已过滤78；页正文24/拿不准5/已过滤87；gap≈0.63min、gap_open false；游标 @bearliu 2100858114387976644；git tip 6d177d3（content 61a9c9c）；Pages HTTP 200、md5 5a0a9e218be2656885d1da9afe137fce 与本地一致；chat t38s11 delivered。
+- 04:10 catchup 为 deferred_to_main（约 04:18 ET）；主窗已完成，未重抓、不抢 CDP。HTL HIT CURSOR，hit_cursor_effective true；无 AUTH_FAIL、无 overdue gap、无重复抓取信号。
+- 名单：Sep17 已完成（关注154/@cgnot996；书签164/@mjjwiki）；Sep18 x-4 09:23 ET 才到，当前未 overdue，不补跑。
+- Ternary Bonsai 邻帖污染32条已还原，不升级；旧 grok大总管四条 routine 仍 disabled，巡舟接管四条 enabled。
+- next 08:00 ET；stay_quiet。
+- recorded 2026-09-18 16:32 CST
+
 # 2026-09-18 4:00 ET
 
-- 4:00 齐（~04:24 火）：raw/04.jsonl **115**；DOM38+HTL115 HIT CURSOR；overlay 115/115 fail0（Ternary Bonsai 邻帖污染 32 条已从 HTL/DOM 还原）；窗类 **正文33 / 拿不准4 / 已过滤78** miss0；并入薄种子09-18 → 页 **正文24 / 拿不准5 / 已过滤87**（当天第一版）；gap≈0.63min gap_open false；游标 **@bearliu 2100858114387976644** `2026-09-18T08:03:01.000Z`；**跳过 rec/ideas**（非 20:00）；QA 04-qa.png pass clippedBtns0；**chat pending_parent**。
+- 4:00 齐（~04:24 火）：raw/04.jsonl **115**；DOM38+HTL115 HIT CURSOR；overlay 115/115 fail0（Ternary Bonsai 邻帖污染 32 条已从 HTL/DOM 还原）；窗类 **正文33 / 拿不准4 / 已过滤78** miss0；并入薄种子09-18 → 页 **正文24 / 拿不准5 / 已过滤87**（当天第一版）；gap≈0.63min gap_open false；游标 **@bearliu 2100858114387976644** `2026-09-18T08:03:01.000Z`；**跳过 rec/ideas**（非 20:00）；QA 04-qa.png pass clippedBtns0；**chat delivered t38s11**。
 - 04:10 catchup deferred_to_main 齐未重抓（主窗进行中时观测）。
-- publish：git tip 61e1031（content 61a9c9c）；Pages 200 md5 5a0a9e218be2656885d1da9afe137fce live=local；grok-ops 5a25d1e。
+- publish：git tip 6d177d3（content 61a9c9c）；Pages 200 md5 5a0a9e218be2656885d1da9afe137fce live=local；grok-ops afc66b6。
 - anomaly：Ternary Bonsai 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 
 # 2026-09-18 0:00 ET
@@ -2778,3 +2824,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - 心跳发现 routine succeeded 但只落 12.jsonl 139；未重抓，从 overlay/分类/页面后半段续做。
 - overlay 138/139（1 条 404 回退 raw）；累计正文 70 / 拿不准 19 / 已过滤 84。
+
+## 2026-09-18 08:10 补抓
+- deferred_to_main：主窗 08:00 in_progress（union118 overlay~40/118）；gap≈7.85min gap_open false；未重抓不抢 CDP；交付交主窗。

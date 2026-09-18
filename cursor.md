@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2100858114387976644
-- url: https://x.com/bearliu/status/2100858114387976644
-- author: Bear Liu
-- handle: @bearliu
-- time_utc: 2026-09-18T08:03:01.000Z
-- updated: 2026-09-18 4:00 ET window
+- status_id: 2100924949883982332
+- url: https://x.com/levelsio/status/2100924949883982332
+- author: levelsio
+- handle: @levelsio
+- time_utc: 2026-09-18T12:28:36.000Z
+- updated: 2026-09-18 8:00 ET window
