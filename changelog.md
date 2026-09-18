@@ -4,6 +4,7 @@
 - scrape：DOM 13 未撞游标（英文 UI Latest 首轮 l:None）→ 同会话 HTL HIT CUR → union 85；prior→oldest≈5.43min；max_internal≈13.73min；n_gaps_gt45=0。
 - 正文要点：Factory Private 三部署；ChatGPT 多账户补链 + Chrome 扩展；Meta Muse 邀请码；Claude Code AGENTS.md；Pro 20x 重开；Compositor 开源；AgentCloak 脱敏；MAGNET/Sherpa 世界状态；企业 AI 五步；Jev 媒体监控/Mode/快思考/compaction/awesome-jev 补链；Alzheimer 补链；自动化→专家收尾。
 - fire ~5min late；chat pending_parent。
+- git tip ca6d5a0；Pages 200 md5 a609170e9e77d1bdce867159f342a9a4 live=local；url https://t512192641.github.io/x-following/2026-09-18.html
 
 ## 2026-09-18 15:25 ET 健康检查（~15:54 ET 正点迟到火）
 
