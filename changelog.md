@@ -1,7 +1,7 @@
 # 2026-09-18 0:00 ET
 
 - 0:00 齐（~00:36 火）：raw/00.jsonl **149**；DOM43+HTL142 HIT CURSOR；overlay 149/149 fail0（Ternary Bonsai 邻帖污染 27 条已从 HTL/DOM 还原）；窗类 **正文38 / 拿不准11 / 已过滤100** miss0；pre→09-17 / after→薄种子09-18；页 **正文160 / 拿不准45 / 已过滤417**；薄种子 0/1/9 不交；gap≈6.1min gap_open false；游标 **@grok 2100801345905135886** `2026-09-18T04:17:26.000Z`；**跳过 rec/ideas**（非 20:00）；QA 00-qa.png pass clippedBtns0；**chat pending_parent**。
-- publish：pending tip/md5（见随后条目）。
+- publish：git tip 83cac73；Pages 200 md5 3de31e2fcc6adf9df470b04430c044c1 live=local；grok-ops b023123。
 - anomaly：Ternary Bonsai 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 
 ## 2026-09-18 0:25 ET 健康检查（~0:33 正点迟到火）
