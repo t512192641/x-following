@@ -2,7 +2,7 @@
 
 - 4:00 齐（~04:24 火）：raw/04.jsonl **115**；DOM38+HTL115 HIT CURSOR；overlay 115/115 fail0（Ternary Bonsai 邻帖污染 32 条已从 HTL/DOM 还原）；窗类 **正文33 / 拿不准4 / 已过滤78** miss0；并入薄种子09-18 → 页 **正文24 / 拿不准5 / 已过滤87**（当天第一版）；gap≈0.63min gap_open false；游标 **@bearliu 2100858114387976644** `2026-09-18T08:03:01.000Z`；**跳过 rec/ideas**（非 20:00）；QA 04-qa.png pass clippedBtns0；**chat pending_parent**。
 - 04:10 catchup deferred_to_main 齐未重抓（主窗进行中时观测）。
-- publish：git tip PENDING；Pages PENDING。
+- publish：git tip 61a9c9c；Pages 200 md5 5a0a9e218be2656885d1da9afe137fce live=local；grok-ops PENDING。
 - anomaly：Ternary Bonsai 污染已还原（不升幕僚长）；无 AUTH_FAIL / gap_open
 
 # 2026-09-18 0:00 ET
