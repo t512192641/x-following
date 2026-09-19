@@ -1,3 +1,28 @@
+## 2026-09-19 16:00 ET
+- fire ~4min late（Chrome 曾因 font_data No space left 崩；重启 chrome-profile :9226 后继续）；DOM17 + HTL69 → union **71**；HTL HIT CURSOR；gap≈11.7min gap_open false
+- overlay 71/71 fail0；跨帖污染 23 条（Anthropic agent 开源线程 / Meetup / CausalWM / 巧克力等）已从 HTL/DOM 还原；suspects_after 0
+- 窗类 正文14 / 拿不准8 / 已过滤49 miss0；人工校对：降政治/芬太尼/Summit/巧克力/招聘/Seneca；升 CausalWM 链帖 / Muse 出海；薄信号进拿不准
+- 页 12 基 正文50/拿不准42/已过滤195 → **正文60 / 拿不准50 / 已过滤244**（CausalWM 两帖并、PayPal 五折并；Muse/Gemini 补进原卡）
+- 跳过 recommended/ideas；游标 → @elonmusk 2101398902503068015 2026-09-19T19:51:55.000Z
+- QA clippedBtns 0 pass true；已拷 x-following-site 并推送
+- chat_line：9/19 16:00：正文60 / 拿不准50 / 已过滤244。https://t512192641.github.io/x-following/2026-09-19.html（pending_parent）
+- 无 AUTH_FAIL（重启后 login_ok）；无 gap_open；无官方 X API；不升幕僚长
+
+## 2026-09-19 15:28 ET health check
+## 2026-09-19 16:10 ET catchup — deferred_to_main
+- fire ~16:17 ET；主窗 16:00 claim in_progress（c3a32b9b）
+- scrape 已齐：union71 overlay71/71 fail0；gap≈11.7min gap_open false；login_ok
+- 无 16-meta / 分类未写回 / 游标仍停 @cgnot996 12:00；补抓未重抓、不抢 CDP
+- 交付交主窗；stay_quiet
+
+- [x] 2026-09-19 15:25 ET 健康检查（~15:28 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文50/拿不准42/已过滤195 raw88 overlay88/88 fail0 窗类23/12/53；gap≈5.95min gap_open false；cursor @cgnot996 2101340394579783964；git tip ba91e1f；Pages 200 md5 3e2da628a21744b84de3ccb2439f9fc3 live=local；chat t38s21 delivered；12:10 catchup complete_no_rescrape；名单 Sep19 已齐 154/@cgnot996 + @0xGenAi/167 未再抓；16:00 未见 16-claim/16.jsonl（约 +31min 未到期）；无 AUTH_FAIL/重复抓取；跨帖污染9已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 16:00 ET；stay_quiet。
+
+- [x] 2026-09-19 13:25 ET 健康检查（~13:28 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文50/拿不准42/已过滤195 raw88 overlay88/88 fail0 窗类23/12/53；gap≈5.95min gap_open false；cursor @cgnot996 2101340394579783964；git tip ba91e1f；Pages 200 md5 3e2da628a21744b84de3ccb2439f9fc3 live=local；chat t38s21 delivered；12:10 catchup complete_no_rescrape；名单 Sep19 已齐 154/@cgnot996 + @0xGenAi/167 未再抓；16:00 未见 16-claim/16.jsonl（约 +150min 未到期）；无 AUTH_FAIL/重复抓取；跨帖污染9已还原不升幕僚长；旧四条 disabled；next 16:00 ET；stay_quiet。 2026-09-20 01:29 CST
+- [x] 2026-09-19 12:25 ET 健康检查（~12:34 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文50/拿不准42/已过滤195 raw88 overlay88/88 fail0 窗类23/12/53；gap≈5.95min gap_open false；cursor @cgnot996 2101340394579783964；git tip ba91e1f；Pages 200 md5 3e2da628a21744b84de3ccb2439f9fc3 live=local；chat t38s21 delivered；12:10 catchup complete_no_rescrape；名单 Sep19 已齐 154/@cgnot996 + @0xGenAi/167 未再抓；无 AUTH_FAIL/重复抓取；旧四条 disabled；next 16:00 ET；stay_quiet。 2026-09-20 00:35 CST
+# 2026-09-19 12:10 ET 补抓
+
+- complete_no_rescrape：主窗 12:00 已齐（claim complete）；union88 overlay88/88 fail0；窗类23/12/53；页 **正文50/拿不准42/已过滤195**；gap≈5.95min gap_open false；cursor @cgnot996 2101340394579783964；git tip ba91e1f；Pages 200 md5 3e2da628a21744b84de3ccb2439f9fc3 live=local；**未重抓**；chat delivered t38s21 不重复发送；跳过 rec/ideas；next 16:00 ET；stay_quiet。  2026-09-20 00:20 CST
+
 - [x] 2026-09-19 11:25 ET 健康检查（~11:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文31/拿不准30/已过滤142 raw114 overlay114/114 fail0 窗类25/9/80；gap≈1.72min gap_open false；游标 @MaiYangAI 2101284661855187427；git tip cc5f872（content e34e942）；Pages 200 md5 90d2132124c90853dfb912a5e653d63e live=local；chat t38s19 done；08:10 catchup deferred_to_main 齐未重抓；名单 Sep19 已齐（09:31 正点迟到火）154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim/12.jsonl（约 +28min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-19 23:32 CST
 - [x] 2026-09-19 10:25 ET 健康检查（~10:29 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文31/拿不准30/已过滤142 raw114 overlay114/114 fail0 窗类25/9/80；gap≈1.72min gap_open false；游标 @MaiYangAI 2101284661855187427；git tip cc5f872（content e34e942）；Pages 200 md5 90d2132124c90853dfb912a5e653d63e live=local；chat t38s19 done；08:10 catchup deferred_to_main 齐未重抓；名单 Sep19 已齐（09:31 正点迟到火）154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim/12.jsonl（约 +91min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-19 22:29 CST
 ## 2026-09-19 12:00 ET
@@ -3077,3 +3102,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-09-19 01:34 ET health check
 - [x] 2026-09-19 01:34 ET 健康检查（~01:32 ET 迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文91/拿不准48/已过滤483 raw130 overlay130/130 fail0 窗类21/12/97；薄种子09-19 0/0/2不交；gap≈3.1min gap_open false；游标 @ZHO_ZHO_ZHO 2101161336642388376；git tip c230055（content d078009）；Pages HTTP 200 md5 8873c9ace93d73b5fc588d1405c148ab live=local；chat t38s16 delivered；00:10 catchup 齐未重抓；名单 Sep18 已齐154/@cgnot996 + 0xGenAi/167未再抓；Sep19 lists 未到期（09:23 ET，约+469min）；04:00 ET 未到期（约+146min）；无 AUTH_FAIL/重复抓取；Ternary Bonsai 污染41已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-19 13:34 CST
+
+## 2026-09-19 14:28 ET health check
+- [x] 2026-09-19 14:25 ET 健康检查（~14:28 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文50/拿不准42/已过滤195 raw88 overlay88/88 fail0 窗类23/12/53；gap≈5.95min gap_open false；cursor @cgnot996 2101340394579783964；git tip ba91e1f；Pages 200 md5 3e2da628a21744b84de3ccb2439f9fc3 live=local；chat t38s21 delivered；12:10 catchup complete_no_rescrape；名单 Sep19 已齐 154/@cgnot996 + @0xGenAi/167 未再抓；16:00 未见 16-claim/16.jsonl（约 +90min 未到期）；无 AUTH_FAIL/重复抓取；跨帖污染9已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 16:00 ET；stay_quiet。  2026-09-20 02:29 CST
