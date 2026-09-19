@@ -3,7 +3,7 @@
 - 主窗 20:00：raw/20.jsonl **62**；窗类 正文12 / 拿不准9 / 已过滤41 miss0；overlay 62/62 fail0（Ternary Bonsai 跨帖污染 10 已对照 HTL 回写）；gap≈5.27min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文80 / 拿不准36 / 已过滤388**；QA 20-qa.png pass clippedBtns0；游标推进 @JAVE1_ 2101101627306655888 2026-09-19T00:10:39.000Z；已并 recommended 09-17（Astra 补链+10 新卡）+ ideas 09-17（脑洞 4）；无 AUTH_FAIL；无官方 X API。
 - scrape：DOM 17 未撞游标 → 同会话 HTL HIT CUR → union 62；prior→oldest≈5.27min；max_internal≈30.25min；n_gaps_gt45=0。
 - 正文要点：Cloudflare security-audit-skill；Jev 生态/实测/TypeSafe 申请补链；Grok Bot 入门进度+精选；ChatGPT Word/Excel/PPT 加载项（免费预览至 9/30）；高德 MCP 回升；Factory on-prem 补链；AgentRun（pidot+Jev）；AGENTS.md 行为细节补链。
-- fire ~7min late；chat_line 待父代理交付。
+- fire ~7min late；git tip 91df3a1；Pages 200 md5 c88944f87c807bb2571a285471ca1233 live=local；grok-ops 3cd4450；chat_line 待父代理交付。
 
 ## 2026-09-18 19:25 ET 健康检查（~19:31 正点迟到火）
 - quiet_ok true；无 overdue 主缺口
