@@ -3,7 +3,7 @@
 - 主窗 08:00：raw/08.jsonl **114**；窗类 正文25 / 拿不准9 / 已过滤80 miss0；overlay 114/114 fail0（Jev 跨帖污染 34 已对照 HTL/DOM 回写）；gap≈1.72min gap_open false；hit_cursor_effective true；页累计 **正文31 / 拿不准30 / 已过滤142**；QA 08-qa.png pass clippedBtns0；游标推进 @MaiYangAI 2101284661855187427 2026-09-19T12:17:58.000Z；**跳过 rec/ideas**（非 20:00）；无 AUTH_FAIL；无官方 X API。
 - scrape：DOM 39 未撞游标 → 同会话 HTL HIT CUR → union 114；prior→oldest≈1.72min；n_gaps_gt45=0。
 - 正文要点：Hermes×Grokbot 机群；OpenAI 模型失配报告框架；Jev vs ChatGPT 输出/12306 实测；全能下载 Skill；Seneca 时间审计 prompts；Gemini 误入真实公司；AI Mention Effect；Grok Bot 分工；Codex/Claude 定价体感；OPC 务实论。
-- fire ~15min late；git tip PENDING；Pages PENDING；chat_line 待父代理交付。
+- fire ~15min late；git tip e34e942；Pages 200 md5 90d2132124c90853dfb912a5e653d63e live=local；chat_line 待父代理交付。
 
 ## 2026-09-19 08:25 ET health check
 - [x] 2026-09-19 08:25 ET 健康检查（~08:30 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文11/拿不准21/已过滤62 raw96 overlay96/96 fail0 窗类15/21/60；gap≈5.27min gap_open false；游标 @CuiMao 2101219332269515238；git tip 6d31408（content 644fa60）；Pages 200 md5 b408467e live=local；chat t38s17 done；04:10 catchup 齐未重抓；08:10 catchup deferred_to_main；主窗 08:00 in_progress（claim c3a32b9b；union114 hit_cursor true；overlay 114/114 fail0；尚无分类/QA/页）；gap≈1.72min gap_open false；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；Sep19 lists 未到期（09:23 ET，约 +53min）；无 AUTH_FAIL/重复抓取；不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交 08:00 → 12:00 ET；stay_quiet。  2026-09-19 20:30 CST
