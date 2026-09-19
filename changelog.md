@@ -1,3 +1,16 @@
+- [x] 2026-09-19 11:25 ET 健康检查（~11:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文31/拿不准30/已过滤142 raw114 overlay114/114 fail0 窗类25/9/80；gap≈1.72min gap_open false；游标 @MaiYangAI 2101284661855187427；git tip cc5f872（content e34e942）；Pages 200 md5 90d2132124c90853dfb912a5e653d63e live=local；chat t38s19 done；08:10 catchup deferred_to_main 齐未重抓；名单 Sep19 已齐（09:31 正点迟到火）154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim/12.jsonl（约 +28min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-19 23:32 CST
+- [x] 2026-09-19 10:25 ET 健康检查（~10:29 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文31/拿不准30/已过滤142 raw114 overlay114/114 fail0 窗类25/9/80；gap≈1.72min gap_open false；游标 @MaiYangAI 2101284661855187427；git tip cc5f872（content e34e942）；Pages 200 md5 90d2132124c90853dfb912a5e653d63e live=local；chat t38s19 done；08:10 catchup deferred_to_main 齐未重抓；名单 Sep19 已齐（09:31 正点迟到火）154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim/12.jsonl（约 +91min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-19 22:29 CST
+## 2026-09-19 12:00 ET
+- fire ~3min late（~12:03 ET）；DOM15 + HTL87 → union **88**；HIT CURSOR；gap≈5.95min gap_open false
+- overlay 88/88 fail0；跨帖污染 9 条（xiaohu 线程 / Meetup 回复 / FDE 回复）已从 HTL/DOM 还原；suspects_after 0
+- 窗类 正文23 / 拿不准12 / 已过滤53 miss0；人工校对：升 Jev高考92.9% / AGENTS.md / bearliu 临时代码·整页交付 / LiveTranslate 摄像头消歧；降 META$10B / 马拉松 / SaaS收购 / exit timing / Uranium玩笑 / 举手率
+- 页 08 基 正文31/拿不准30/已过滤142 → **正文50 / 拿不准42 / 已过滤195**（Qwen三帖、WeVisDoc、bearliu 各并一张）
+- 跳过 recommended/ideas；游标 → @cgnot996 2101340394579783964 2026-09-19T15:59:25.000Z
+- QA clippedBtns 0 pass true；已拷 x-following-site 并推送
+
+## 2026-09-19 09:25 ET health check
+- [x] 2026-09-19 09:25 ET 健康检查（~09:36 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文31/拿不准30/已过滤142 raw114 overlay114/114 fail0 窗类25/9/80；gap≈1.72min gap_open false；游标 @MaiYangAI 2101284661855187427；git tip cc5f872（content e34e942）；Pages 200 md5 90d2132124c90853dfb912a5e653d63e live=local；chat t38s19 done；08:10 catchup deferred_to_main 齐未重抓；名单 Sep19 已齐（09:31 正点迟到火）154/@cgnot996 + 0xGenAi/167 未再抓；12:00 未见 12-claim/12.jsonl（约 +144min 未到期）；无 AUTH_FAIL/重复抓取；Jev污染34已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-19 21:37 CST
+
 # 2026-09-19 08:00 ET
 
 - 主窗 08:00：raw/08.jsonl **114**；窗类 正文25 / 拿不准9 / 已过滤80 miss0；overlay 114/114 fail0（Jev 跨帖污染 34 已对照 HTL/DOM 回写）；gap≈1.72min gap_open false；hit_cursor_effective true；页累计 **正文31 / 拿不准30 / 已过滤142**；QA 08-qa.png pass clippedBtns0；游标推进 @MaiYangAI 2101284661855187427 2026-09-19T12:17:58.000Z；**跳过 rec/ideas**（非 20:00）；无 AUTH_FAIL；无官方 X API。
