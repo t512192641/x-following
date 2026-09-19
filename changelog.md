@@ -1,3 +1,13 @@
+# 2026-09-19 00:00 ET
+
+- 主窗 00:00：raw/00.jsonl **130**；窗类 正文21 / 拿不准12 / 已过滤97 miss0；overlay 130/130 fail0（Ternary Bonsai 跨帖污染 41 已对照 HTL/DOM 回写）；gap≈3.1min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文91 / 拿不准48 / 已过滤483**；薄种子 09-19 0/0/2 不交；QA 00-qa.png pass clippedBtns0；游标推进 @ZHO_ZHO_ZHO 2101161336642388376 2026-09-19T04:07:55.000Z；**跳过 rec/ideas**（非 20:00）；无 AUTH_FAIL；无官方 X API。
+- scrape：DOM 36 未撞游标 → 同会话 HTL 130 HIT CUR → union 130；prior→oldest≈3.1min；max_internal≈9.23min；n_gaps_gt45=0。
+- 正文要点：Jev 媒体监控/实测/harness 补链；歸藏 product-video-skill；夸克网盘转写 Skill；wx-cli+Codex 闭环；COS 服化道技巧；剪映 11.5.0 补链；TanStarter/MkImage；EverMe；失业 spreadsheet 方法；Astra for Law 补链；AGENTS.md gist 补链；39 图表开源；早安提示词；多账号 MCP；HF 存储营收。
+- fire ~6–8min late；chat_line 待父代理交付昨天完整页。
+
+## 2026-09-18 22:25 ET 健康检查（~22:26 正点迟到火）
+- quiet_ok；20:00 live 正文80/拿不准36/已过滤388；gap≈5.27min closed；cursor @JAVE1_ 2101101627306655888；Pages md5 c88944f8 live=local；chat t38s15；名单 Sep18 已齐未再抓；00:00 ~+94min 未到期；旧四条 disabled；stay_quiet。
+
 # 2026-09-18 20:00 ET
 
 - 主窗 20:00：raw/20.jsonl **62**；窗类 正文12 / 拿不准9 / 已过滤41 miss0；overlay 62/62 fail0（Ternary Bonsai 跨帖污染 10 已对照 HTL 回写）；gap≈5.27min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文80 / 拿不准36 / 已过滤388**；QA 20-qa.png pass clippedBtns0；游标推进 @JAVE1_ 2101101627306655888 2026-09-19T00:10:39.000Z；已并 recommended 09-17（Astra 补链+10 新卡）+ ideas 09-17（脑洞 4）；无 AUTH_FAIL；无官方 X API。
@@ -5,7 +15,16 @@
 - 正文要点：Cloudflare security-audit-skill；Jev 生态/实测/TypeSafe 申请补链；Grok Bot 入门进度+精选；ChatGPT Word/Excel/PPT 加载项（免费预览至 9/30）；高德 MCP 回升；Factory on-prem 补链；AgentRun（pidot+Jev）；AGENTS.md 行为细节补链。
 - fire ~7min late；git tip 3bbf8fa（content 91df3a1）；Pages 200 md5 c88944f87c807bb2571a285471ca1233 live=local；grok-ops 02f5b7e；chat_line 待父代理交付。
 
+# 2026-09-18 20:10 ET 补抓
+
+- ~20:23 ET（sched 20:10；fire ~20:23 ET）：齐，未重抓
+- 目标 20:00：raw/20.jsonl **62**；overlay 62/62 fail0；窗类 正文12/拿不准9/已过滤41；页 **正文80/拿不准36/已过滤388**
+- gap≈5.27min gap_open false；hit_cursor_effective true；游标 @JAVE1_ 2101101627306655888
+- Pages 200 md5 c88944f87c807bb2571a285471ca1233 live=local；git tip 91df3a1；QA 20-qa.png 主窗已 pass；chat pending_parent 不重交
+- rec/ideas 主窗已并 09-17；无 AUTH_FAIL；next 00:00 ET；stay_quiet
+
 ## 2026-09-18 19:25 ET 健康检查（~19:31 正点迟到火）
+- 21:25 ET 健康检查（~21:34 正点迟到火）：quiet_ok；20:00 live 正文80/拿不准36/已过滤388；gap≈5.27min closed；cursor @JAVE1_ 2101101627306655888；Pages md5 c88944f8 live=local；chat t38s15；名单 Sep18 已齐未再抓；00:00 ~+144min 未到期；旧四条 disabled；stay_quiet。
 - quiet_ok true；无 overdue 主缺口
 - 16:00 页 live 正文60/拿不准27/已过滤347；raw85 overlay85/85 fail0 窗类19/4/62；gap≈5.43min gap_open false
 - 游标 @Jason 2101039901223653588；git tip a23b833（content ca6d5a0）；Pages 200 md5 a609170e live=local；chat t38s14 done
@@ -616,7 +635,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 写于 2026-09-16 16:30 CST
 
 ## 2026-09-16 4:00 ET
-- 4:00 齐（~04:03 火）：raw/04.jsonl **112**；DOM32+HTL111 HIT CURSOR；overlay 112/112 fail0（Accordion Supercharger 邻帖污染 32 条，已从 HTL/DOM 还原）；窗类 **正文23 / 拿不准8 / 已过滤81** miss0；并入薄种子 09-16 → 页 **正文18 / 拿不准9 / 已过滤86**；gap≈1.08min gap_open false；游标 **@dontbesilent 2100133950123606289** `2026-09-16T08:05:26.000Z`；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；chat 待父代理递送。
+- 4:00 齐（~04:03 火）：raw/04.jsonl **112**；DOM32+HTL111 HIT CURSOR；overlay 112/112 fail0（Accordion Supercharger 邻帖污染 32 条，已从 HTL/DOM 还原）；窗类 **正文23 / 拿不准8 / 已过滤81** miss0；并入薄种子 09-16 → 页 **正文18 / 拿不准9 / 已过滤86**；gap≈1.08min gap_open false；游标 **@dontbesilent 2100133950123606289** `2026-09-16T08:05:26.000Z`；跳过 rec/ideas；QA 04-qa.png pass clippedBtns0；**chat 已交 t38s15（2026-09-19 08:23 CST）**。
 - git tip bbf37d0；Pages 200 md5 d2e7d74bf18d41f4c59b90d623b399c1 live=local
 - chat_line：9/16 第一版：正文18 / 拿不准9 / 已过滤86。https://t512192641.github.io/x-following/2026-09-16.html
 - 写于 2026-09-16 16:25 CST
