@@ -1,9 +1,18 @@
+# 2026-09-19 04:10 ET 补抓复核
+
+- ~04:19 ET（sched 04:10；fire ~04:19 ET）：**齐，未重抓**
+- 目标 04:00：raw/04.jsonl **96**；overlay 96/96 fail0；窗类 正文15/拿不准21/已过滤60 miss0；页 **正文11/拿不准21/已过滤62**
+- gap≈5.27min gap_open false；hit_cursor_effective true；游标 @CuiMao 2101219332269515238
+- Pages 200 md5 b408467edd6e68c9afb1b1c22c2a950f live=local；git tip 3ccf39e（content 644fa60）；QA 04-qa.png 主窗已 pass clippedBtns0
+- 截断/空原文复核：truncish 0；articles 96；跳过 rec/ideas（非 20:00）
+- chat pending_parent 不重交；next 08:00 ET；stay_quiet
+
 # 2026-09-19 04:00 ET
 
 - 主窗 04:00（当天第一版）：raw/04.jsonl **96**；窗类 正文15 / 拿不准21 / 已过滤60 miss0；overlay 96/96 fail0（Jev/Cua 跨帖污染 33 已对照 HTL/DOM 回写；gengdaJ 误展开已还原）；gap≈5.27min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文11 / 拿不准21 / 已过滤62**（基薄种子 0/0/2）；QA 04-qa.png pass clippedBtns0；游标推进 @CuiMao 2101219332269515238 2026-09-19T07:58:22.000Z；**跳过 rec/ideas**（非 20:00）；无 AUTH_FAIL；无官方 X API。
 - scrape：DOM 24 未撞游标 → 同会话 HTL HIT CUR → union 96；prior→oldest≈5.27min；n_gaps_gt45=0。
 - 正文要点：Jev 快速判断模型解读+申请（约一天过审）+media monitoring；Stripe Atlas $500→$250 + Delaware $250 包 + Mercury 开户；awesome-autoresearch 巡检（NVIDIA SoL-Pi 等）；人形机器人出货 97% 中国；Typeless 周额度 8000→2000/$10；付费 API 不训练承诺（百炼/千帆/混元）；OPC≤10 人定义；Google 创作者认证 30K→10K；Encoder/BERT 路线；Zcode vs Cursor 索引；剪映仓库 11.5.0。
-- fire ~1min late；git tip 644fa60（content 644fa60）；Pages 200 md5 b408467edd6e68c9afb1b1c22c2a950f live=local；chat_line 待父代理交付当天第一版。
+- fire ~1min late；git tip 3ccf39e（content 644fa60）；Pages 200 md5 b408467edd6e68c9afb1b1c22c2a950f live=local；chat_line 待父代理交付当天第一版。
 
 ## 2026-09-19 03:25 ET 健康检查（~03:34 正点迟到火）
 - quiet_ok true；无 overdue 主缺口
