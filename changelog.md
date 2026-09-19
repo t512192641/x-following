@@ -1,9 +1,41 @@
+# 2026-09-19 04:00 ET
+
+- 主窗 04:00（当天第一版）：raw/04.jsonl **96**；窗类 正文15 / 拿不准21 / 已过滤60 miss0；overlay 96/96 fail0（Jev/Cua 跨帖污染 33 已对照 HTL/DOM 回写；gengdaJ 误展开已还原）；gap≈5.27min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文11 / 拿不准21 / 已过滤62**（基薄种子 0/0/2）；QA 04-qa.png pass clippedBtns0；游标推进 @CuiMao 2101219332269515238 2026-09-19T07:58:22.000Z；**跳过 rec/ideas**（非 20:00）；无 AUTH_FAIL；无官方 X API。
+- scrape：DOM 24 未撞游标 → 同会话 HTL HIT CUR → union 96；prior→oldest≈5.27min；n_gaps_gt45=0。
+- 正文要点：Jev 快速判断模型解读+申请（约一天过审）+media monitoring；Stripe Atlas $500→$250 + Delaware $250 包 + Mercury 开户；awesome-autoresearch 巡检（NVIDIA SoL-Pi 等）；人形机器人出货 97% 中国；Typeless 周额度 8000→2000/$10；付费 API 不训练承诺（百炼/千帆/混元）；OPC≤10 人定义；Google 创作者认证 30K→10K；Encoder/BERT 路线；Zcode vs Cursor 索引；剪映仓库 11.5.0。
+- fire ~1min late；git tip pending；chat_line 待父代理交付当天第一版。
+
+## 2026-09-19 03:25 ET 健康检查（~03:34 正点迟到火）
+- quiet_ok true；无 overdue 主缺口
+- 00:00 页 live 正文91/拿不准48/已过滤483；raw130 overlay130/130 fail0 窗类21/12/97；薄种子0/0/2不交
+- gap≈3.1min gap_open false；游标 @ZHO_ZHO_ZHO 2101161336642388376
+- git tip c230055（content d078009）；Pages 200 md5 8873c9ac live=local；chat t38s16 done
+- 00:10 catchup 齐未重抓；名单 Sep18 已齐未再抓；Sep19 lists ~+348min 未到期；04:00 ~+25min 未到期（无04-claim）
+- 02:25 板已记；无 AUTH_FAIL/重复抓取；旧四条 disabled；next 04:00 ET；stay_quiet
+## 2026-09-19 02:25 ET 健康检查（~02:32 正点迟到火）
+- quiet_ok true；无 overdue 主缺口
+- 00:00 页 live 正文91/拿不准48/已过滤483；raw130 overlay130/130 fail0 窗类21/12/97；薄种子0/0/2不交
+- gap≈3.1min gap_open false；游标 @ZHO_ZHO_ZHO 2101161336642388376
+- git tip c230055（content d078009）；Pages 200 md5 8873c9ac live=local；chat t38s16 done
+- 00:10 catchup 齐未重抓；名单 Sep18 已齐未再抓；Sep19 lists ~+411min 未到期；04:00 ~+88min 未到期
+- 01:25 板已记；无 AUTH_FAIL/重复抓取；旧四条 disabled；next 04:00 ET；stay_quiet
+- recorded 2026-09-19 14:32 CST
+
+## 2026-09-19 00:25 ET 健康检查（~00:32 正点迟到火）
+- quiet_ok true；无 overdue 主缺口
+- 00:00 页 live 正文91/拿不准48/已过滤483；raw130 overlay130/130 fail0 窗类21/12/97；薄种子0/0/2不交
+- gap≈3.1min gap_open false；游标 @ZHO_ZHO_ZHO 2101161336642388376
+- git tip c230055（content d078009）；Pages 200 md5 8873c9ac live=local；chat t38s16 done
+- 00:10 catchup 齐未重抓；名单 Sep18 已齐未再抓；Sep19 lists ~+530min 未到期；04:00 ~+207min 未到期
+- 23:25 板/changelog 未见单独条（automation≈23:34 并记）；无 AUTH_FAIL/重复抓取；旧四条 disabled；next 04:00 ET；stay_quiet
+- recorded 2026-09-19 12:34 CST
+
 # 2026-09-19 00:00 ET
 
 - 主窗 00:00：raw/00.jsonl **130**；窗类 正文21 / 拿不准12 / 已过滤97 miss0；overlay 130/130 fail0（Ternary Bonsai 跨帖污染 41 已对照 HTL/DOM 回写）；gap≈3.1min gap_open false；hit_cursor false / hit_cursor_effective true；页累计 **正文91 / 拿不准48 / 已过滤483**；薄种子 09-19 0/0/2 不交；QA 00-qa.png pass clippedBtns0；游标推进 @ZHO_ZHO_ZHO 2101161336642388376 2026-09-19T04:07:55.000Z；**跳过 rec/ideas**（非 20:00）；无 AUTH_FAIL；无官方 X API。
 - scrape：DOM 36 未撞游标 → 同会话 HTL 130 HIT CUR → union 130；prior→oldest≈3.1min；max_internal≈9.23min；n_gaps_gt45=0。
 - 正文要点：Jev 媒体监控/实测/harness 补链；歸藏 product-video-skill；夸克网盘转写 Skill；wx-cli+Codex 闭环；COS 服化道技巧；剪映 11.5.0 补链；TanStarter/MkImage；EverMe；失业 spreadsheet 方法；Astra for Law 补链；AGENTS.md gist 补链；39 图表开源；早安提示词；多账号 MCP；HF 存储营收。
-- fire ~6–8min late；chat_line 待父代理交付昨天完整页。
+- fire ~6–8min late；git tip c230055（content d078009）；Pages 200 md5 8873c9ace93d73b5fc588d1405c148ab live=local；grok-ops f8adb39；chat_line 待父代理交付昨天完整页。
 
 ## 2026-09-18 22:25 ET 健康检查（~22:26 正点迟到火）
 - quiet_ok；20:00 live 正文80/拿不准36/已过滤388；gap≈5.27min closed；cursor @JAVE1_ 2101101627306655888；Pages md5 c88944f8 live=local；chat t38s15；名单 Sep18 已齐未再抓；00:00 ~+94min 未到期；旧四条 disabled；stay_quiet。
@@ -705,7 +737,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 # 2026-09-15 20:00 ET
 
-- 20:00 齐（~20:19 迟到火）：raw/20.jsonl **74**；DOM17+HTL71 HIT CURSOR；overlay 74/74 fail0（Accordion Supercharger 邻帖污染约17条，已从 HTL/DOM 回写恢复）；窗类 **正文25 / 拿不准10 / 已过滤39** miss0；页 09-15 **正文113 / 拿不准92 / 已过滤324**；gap≈10.0min gap_open false；游标 **@pmarca 2100016732228501922** `2026-09-16T00:19:40.000Z`；**已并 recommended 09-15（9）+ ideas 09-15（3，脑洞组）**；QA 20-qa.png pass clippedBtns0；chat 待父代理递送。
+- 20:00 齐（~20:19 迟到火）：raw/20.jsonl **74**；DOM17+HTL71 HIT CURSOR；overlay 74/74 fail0（Accordion Supercharger 邻帖污染约17条，已从 HTL/DOM 回写恢复）；窗类 **正文25 / 拿不准10 / 已过滤39** miss0；页 09-15 **正文113 / 拿不准92 / 已过滤324**；gap≈10.0min gap_open false；游标 **@pmarca 2100016732228501922** `2026-09-16T00:19:40.000Z`；**已并 recommended 09-15（9）+ ideas 09-15（3，脑洞组）**；QA 20-qa.png pass clippedBtns0；**chat 已交 t38s16（2026-09-19 12:28 CST）**。
 - 新/续卡要点：Gemini 3.8 Live、Obsidian 1.14.2 Mobile、Codex for OSS 第二轮、Temporal $550M、CF Sandbox×Agents API、sub-agent≤2、FDE 101、M3E Canvas、Factory $5B、capy+GStack、Stripe UnseriousT-ShirtShopBench、Meta Ads 投放方法；续写 Neon / Every 概率 / Lenny / Stripe / Slack CLI / GPT-5.5 / Salesforce / Muse WhatsApp MCP / DeepSeek 下载；推荐另补 Portable Computer、AEF-1、harness digest、Astra×Devin；脑洞三则。
 
 ## 2026-09-15 20:25 ET 健康检查（~20:31 迟到火）
@@ -2990,3 +3022,9 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-09-18 08:10 补抓
 - deferred_to_main：主窗 08:00 in_progress（union118 overlay~40/118）；gap≈7.85min gap_open false；未重抓不抢 CDP；交付交主窗。
+
+## 2026-09-19 00:10 ET 补抓复核
+- 齐，未重抓；union130，overlay130/130 fail0；窗类正文21/拿不准12/已过滤97；页09-18正文91/拿不准48/已过滤483；gap≈3.1min gap_open false；游标 @ZHO_ZHO_ZHO 2101161336642388376；Pages 200 md5 8873c9ace93d73b5fc588d1405c148ab live=local；chat pending_parent，不重复发送；next 04:00 ET；stay_quiet。
+
+## 2026-09-19 01:34 ET health check
+- [x] 2026-09-19 01:34 ET 健康检查（~01:32 ET 迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文91/拿不准48/已过滤483 raw130 overlay130/130 fail0 窗类21/12/97；薄种子09-19 0/0/2不交；gap≈3.1min gap_open false；游标 @ZHO_ZHO_ZHO 2101161336642388376；git tip c230055（content d078009）；Pages HTTP 200 md5 8873c9ace93d73b5fc588d1405c148ab live=local；chat t38s16 delivered；00:10 catchup 齐未重抓；名单 Sep18 已齐154/@cgnot996 + 0xGenAi/167未再抓；Sep19 lists 未到期（09:23 ET，约+469min）；04:00 ET 未到期（约+146min）；无 AUTH_FAIL/重复抓取；Ternary Bonsai 污染41已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-19 13:34 CST
