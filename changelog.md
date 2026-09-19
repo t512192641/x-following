@@ -1,4 +1,31 @@
+# 2026-09-19 08:00 ET
+
+- 主窗 08:00：raw/08.jsonl **114**；窗类 正文25 / 拿不准9 / 已过滤80 miss0；overlay 114/114 fail0（Jev 跨帖污染 34 已对照 HTL/DOM 回写）；gap≈1.72min gap_open false；hit_cursor_effective true；页累计 **正文31 / 拿不准30 / 已过滤142**；QA 08-qa.png pass clippedBtns0；游标推进 @MaiYangAI 2101284661855187427 2026-09-19T12:17:58.000Z；**跳过 rec/ideas**（非 20:00）；无 AUTH_FAIL；无官方 X API。
+- scrape：DOM 39 未撞游标 → 同会话 HTL HIT CUR → union 114；prior→oldest≈1.72min；n_gaps_gt45=0。
+- 正文要点：Hermes×Grokbot 机群；OpenAI 模型失配报告框架；Jev vs ChatGPT 输出/12306 实测；全能下载 Skill；Seneca 时间审计 prompts；Gemini 误入真实公司；AI Mention Effect；Grok Bot 分工；Codex/Claude 定价体感；OPC 务实论。
+- fire ~15min late；git tip PENDING；Pages PENDING；chat_line 待父代理交付。
+
+## 2026-09-19 08:25 ET health check
+- [x] 2026-09-19 08:25 ET 健康检查（~08:30 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文11/拿不准21/已过滤62 raw96 overlay96/96 fail0 窗类15/21/60；gap≈5.27min gap_open false；游标 @CuiMao 2101219332269515238；git tip 6d31408（content 644fa60）；Pages 200 md5 b408467e live=local；chat t38s17 done；04:10 catchup 齐未重抓；08:10 catchup deferred_to_main；主窗 08:00 in_progress（claim c3a32b9b；union114 hit_cursor true；overlay 114/114 fail0；尚无分类/QA/页）；gap≈1.72min gap_open false；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；Sep19 lists 未到期（09:23 ET，约 +53min）；无 AUTH_FAIL/重复抓取；不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交 08:00 → 12:00 ET；stay_quiet。  2026-09-19 20:30 CST
+
+# 2026-09-19 08:10 ET 补抓
+
+- ~08:18 ET（sched 08:10；fire ~08:18 ET）：**deferred_to_main，未重抓**
+- 主窗 08:00 claim in_progress（c3a32b9b / ~08:17 ET）；DOM39 hit_cursor false；HTL 进行中；尚无 union/overlay/分类/QA/页
+- gap≈1.72min gap_open false；prior @CuiMao 2101219332269515238；login_ok；无 AUTH_FAIL
+- 未重抓、不抢 CDP；交付/游标/页交主窗；skip rec/ideas；next 12:00 ET；stay_quiet
+- recorded: 2026-09-19 20:19 CST
+
+## 2026-09-19 07:25 ET health check
+- [x] 2026-09-19 07:25 ET 健康检查（~07:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文11/拿不准21/已过滤62 raw96 overlay96/96 fail0 窗类15/21/60；gap≈5.27min gap_open false；游标 @CuiMao 2101219332269515238；git tip 6d31408（content 644fa60）；Pages 200 md5 b408467e live=local；chat t38s17 done；04:10 catchup 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；Sep19 lists 未到期（09:23 ET，约 +111min）；08:00 未见 08-claim/08.jsonl（约 +28min 未到期）；无 AUTH_FAIL/重复抓取；Ternary Bonsai/Jev污染33已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 08:00 ET；stay_quiet。  2026-09-19 19:32 CST
+
+## 2026-09-19 06:25 ET health check
+- [x] 2026-09-19 06:25 ET 健康检查（~06:27 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文11/拿不准21/已过滤62 raw96 overlay96/96 fail0 窗类15/21/60；gap≈5.27min gap_open false；游标 @CuiMao 2101219332269515238；git tip 6d31408（content 644fa60）；Pages 200 md5 b408467e live=local；chat t38s17 done；04:10 catchup 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；Sep19 lists 未到期（09:23 ET，约 +175min）；08:00 未见 08-claim/08.jsonl（约 +92min 未到期）；无 AUTH_FAIL/重复抓取；Ternary Bonsai/Jev污染33已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 08:00 ET；stay_quiet。  2026-09-19 18:28 CST
+
 # 2026-09-19 04:10 ET 补抓复核
+
+## 2026-09-19 05:25 ET health check
+- [x] 2026-09-19 05:25 ET 健康检查（~05:28 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文11/拿不准21/已过滤62 raw96 overlay96/96 fail0 窗类15/21/60；gap≈5.27min gap_open false；游标 @CuiMao 2101219332269515238；git tip 6d31408（content 644fa60；04-publish tip 曾 3ccf39e）；Pages 200 md5 b408467e live=local；chat t38s17 done；04:10 catchup 齐未重抓；名单 Sep18 已齐 154/@cgnot996 + 0xGenAi/167 未再抓；Sep19 lists 未到期（09:23 ET，约 +234min）；08:00 未见 08-claim/08.jsonl（约 +151min 未到期）；04:25 板/changelog 未见单独条（automation lastRun succeeded≈04:30，本轮并记）；无 AUTH_FAIL/重复抓取；Ternary Bonsai/Jev污染33已还原不升幕僚长；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 08:00 ET；stay_quiet。  2026-09-19 17:29 CST
 
 - ~04:19 ET（sched 04:10；fire ~04:19 ET）：**齐，未重抓**
 - 目标 04:00：raw/04.jsonl **96**；overlay 96/96 fail0；窗类 正文15/拿不准21/已过滤60 miss0；页 **正文11/拿不准21/已过滤62**
@@ -795,7 +822,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-09-15 16:00 ET
 
-- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0（邻帖污染约26条已从 HTL/pre-overlay 恢复）；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；**chat 待父代理递送**。
+- 16:00 齐：raw/16.jsonl 111；overlay 111/111 fail0（邻帖污染约26条已从 HTL/pre-overlay 恢复）；窗类 正文28/拿不准18/已过滤65 miss0；页 09-15 **正文94/拿不准82/已过滤285**；gap≈4.0min gap_open false；游标 @ChatGPT 2099954190600876533；git tip ef63afc；Pages 200 md5 a25dda5503d2957bdb95d8e4940050dd live=local；跳过 rec/ideas；QA 16-qa.png pass clippedBtns0；****chat 已交 t38s17（2026-09-19 16:19 CST）****。
 - 窗类：正文28 / 拿不准18 / 已过滤65 miss0；写回 16.jsonl + _class16.json。
 - 页：.bak-16 → **正文94 / 拿不准82 / 已过滤285**；续写 Every 概率模型 / Atria / Poolday；新卡含 GPT-5.5 日落、Grok Imagine Segments、Mach33 MCP、Compound Engineering 3.26、Hypit、vphone-cli、Salesforce in Claude、Bolt Forge、Meta Muse、Stripe Pay、Neon、Odyssey-3 等。
 - chat_line：9/15 16:00：正文94 / 拿不准82 / 已过滤285。https://t512192641.github.io/x-following/2026-09-15.html（待父代理 WakeParent）。

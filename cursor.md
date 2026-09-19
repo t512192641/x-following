@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2101219332269515238
-- url: https://x.com/CuiMao/status/2101219332269515238
-- author: CuiMao
-- handle: @CuiMao
-- time_utc: 2026-09-19T07:58:22.000Z
-- updated: 2026-09-19 04:00 ET window
+- status_id: 2101284661855187427
+- url: https://x.com/MaiYangAI/status/2101284661855187427
+- author: MaiYangAI
+- handle: @MaiYangAI
+- time_utc: 2026-09-19T12:17:58.000Z
+- updated: 2026-09-19 08:00 ET window
