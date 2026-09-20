@@ -5,7 +5,7 @@
 - 人工校对：降产业融资/S-1/Hyperloop/人生破局/短立场/mentor软赞；升尽调/Claude Code回路/Jev巡检/Maka-cu/桃花源提示词/Grok Bot刘海原型
 - 页 12:00 基 正文72/拿不准19/已过滤181 → **正文78 / 拿不准22 / 已过滤217**
 - 跳过 recommended/ideas；游标 → @elonmusk 2101766218399260894 2026-09-20T20:11:30.000Z
-- QA clippedBtns 0 pass true；git tip e049463；Pages 200 md5 0f2e9b42f28e24637cb12aa1f418a016；已拷 x-following-site 并推送
+- QA clippedBtns 0 pass true；git tip e049463（changelog tip 7d42adc）；Pages 200 md5 0f2e9b42f28e24637cb12aa1f418a016 live=local；已拷 x-following-site 并推送
 - chat_line：9/20 16:00：正文78 / 拿不准22 / 已过滤217。https://t512192641.github.io/x-following/2026-09-20.html
 - 无 AUTH_FAIL；无 gap_open；无官方 X API；污染0不升幕僚长
   2026-09-21 04:19 CST
