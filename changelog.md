@@ -1,5 +1,5 @@
 ## 2026-09-20 00:00 ET 主窗
-- [x] union152 overlay152/152 fail0；depollute restored33；窗类正文29/拿不准11/已过滤112；页 **正文92/拿不准67/已过滤382**；薄种子09-20 正文5/拿不准1/已过滤8；gap≈1.3min gap_open false；hit_cursor_effective true；cursor @yanhua1010 2101524564320936150；跳过 rec/ideas；git tip pending；QA pass；fire ~12min late；chat pending_parent→deliver；next 04:00 ET。  2026-09-20 12:34 CST
+- [x] union152 overlay152/152 fail0；depollute restored33；窗类正文29/拿不准11/已过滤112；页 **正文92/拿不准67/已过滤382**；薄种子09-20 正文5/拿不准1/已过滤8；gap≈1.3min gap_open false；hit_cursor_effective true；cursor @yanhua1010 2101524564320936150；跳过 rec/ideas；git tip bb07477；Pages 200 md5 b9c16979 live=local；QA pass；fire ~12min late；chat pending_parent→deliver；next 04:00 ET。  2026-09-20 12:34 CST
 
 ## 2026-09-20 00:00 ET
 - fire ~12min late；DOM41 + HTL149 → union **152**；HTL HIT CURSOR；gap≈1.3min gap_open false
