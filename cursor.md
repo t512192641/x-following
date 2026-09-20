@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2101465292006436910
-- url: https://x.com/MaiYangAI/status/2101465292006436910
-- author: MaiYangAI
-- handle: @MaiYangAI
-- time_utc: 2026-09-20T00:15:43.000Z
-- updated: 2026-09-19 20:00 ET window
+- status_id: 2101524564320936150
+- url: https://x.com/yanhua1010/status/2101524564320936150
+- author: yanhua1010
+- handle: @yanhua1010
+- time_utc: 2026-09-20T04:11:15.000Z
+- updated: 2026-09-20 00:00 ET window

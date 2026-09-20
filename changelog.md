@@ -1,3 +1,25 @@
+## 2026-09-20 00:00 ET 主窗
+- [x] union152 overlay152/152 fail0；depollute restored33；窗类正文29/拿不准11/已过滤112；页 **正文92/拿不准67/已过滤382**；薄种子09-20 正文5/拿不准1/已过滤8；gap≈1.3min gap_open false；hit_cursor_effective true；cursor @yanhua1010 2101524564320936150；跳过 rec/ideas；git tip pending；QA pass；fire ~12min late；chat pending_parent→deliver；next 04:00 ET。  2026-09-20 12:34 CST
+
+## 2026-09-20 00:00 ET
+- fire ~12min late；DOM41 + HTL149 → union **152**；HTL HIT CURSOR；gap≈1.3min gap_open false
+- overlay 152/152 fail0；跨帖污染 33（MY TERMINAL TOOK $5,007 accordion）已从 HTL/DOM 还原；suspects_after 0
+- 窗类 正文29 / 拿不准11 / 已过滤112 miss0；pre→09-19；after→薄种子09-20
+- 人工校对：降 Morris鸡汤/币圈/Starlink/营销/短立场；升剪映Hub/助手/ICG/逆向、BrowserSkill、TanStarter/MkSaaS案例、额度边栏、提示词
+- 页 20:00 基 正文81/拿不准57/已过滤278 → **正文92 / 拿不准67 / 已过滤382**；薄种子 正文5/拿不准1/已过滤8（不交付）
+- 跳过 recommended/ideas；游标 → @yanhua1010 2101524564320936150 2026-09-20T04:11:15.000Z
+- QA clippedBtns 0 pass true；已拷 x-following-site 并推送
+- chat_line：9/20 0:00：正文92 / 拿不准67 / 已过滤382。https://t512192641.github.io/x-following/2026-09-19.html（pending_parent→deliver）
+- 无 AUTH_FAIL；无 gap_open；无官方 X API；污染已还原不升幕僚长
+
+## 2026-09-20 00:10 ET 补抓
+- deferred_to_main：主窗 00:00 in_progress（union152 overlay~29/152）；gap≈1.3min gap_open false；未重抓不抢 CDP；交付（昨天完整页）交主窗。
+## 2026-09-19 21:25 ET health check
+- [x] 2026-09-19 21:25 ET 健康检查（~21:26 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文81/拿不准57/已过滤278 raw55 overlay55/55 fail0 窗类14/7/34；gap≈18.27min closed；cursor @MaiYangAI 2101465292006436910；git tip 8f670bc；Pages 200 md5 b4b97876 live=local；chat t38s25 delivered；20:10 catchup deferred_to_main complete_no_rescrape；lists Sep19 done 154/@cgnot996 + 0xGenAi/167 not rerun；Sep20 lists 未到期（约 +716min）；00:00 未见 Sep20 raw（约 +153min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet。  2026-09-20 09:27 CST
+
+## 2026-09-19 20:00 ET 主窗
+- [x] union55 overlay55/55 fail0；窗类正文14/拿不准7/已过滤34；页 **正文81/拿不准57/已过滤278**；gap≈18.27min gap_open false；hit_cursor_effective true；cursor @MaiYangAI 2101465292006436910；已并 rec+ideas 09-18；git tip 8f670bc；Pages 200 md5 b4b97876 live=local；QA pass；fire ~13min late；chat delivered t38s25→deliver；next 00:00 ET。  2026-09-20 08:32 CST
+
 ## 2026-09-19 20:00 ET
 - fire ~13min late；DOM18 + HTL54 → union **55**；HTL HIT CURSOR；gap≈18.27min gap_open false
 - overlay 55/55 fail0；depollute restored 0
@@ -3134,3 +3156,9 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-09-19 18:25 ET health check
 - [x] 2026-09-19 18:25 ET 健康检查（~18:35 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文60/拿不准50/已过滤244 raw71 overlay71/71 fail0 窗类14/8/49；gap≈11.7min closed；cursor @elonmusk 2101398902503068015；git tip d6e5b8f；Pages 200 md5 77866320704c5d927dead9293f3abe58 live=local；chat t38s23 delivered；16:10 catchup deferred_to_main 齐未重抓；lists Sep19 done 154/@cgnot996 + 0xGenAi/167 not rerun；20:00 未见 20-claim/20.jsonl（约 +83min 未到期）；无 AUTH_FAIL/重复抓取；depollute23 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet。  2026-09-20 06:36 CST
 
+
+## 2026-09-19 23:25 ET health check
+- [x] 2026-09-19 23:25 ET 健康检查（~23:34 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文81/拿不准57/已过滤278 raw55 overlay55/55 fail0 窗类14/7/34；gap≈18.27min closed；cursor @MaiYangAI 2101465292006436910；git tip 8f670bc；Pages 200 md5 b4b97876 live=local；chat t38s25 delivered；20:10 catchup deferred_to_main complete_no_rescrape；lists Sep19 done 154/@cgnot996 + 0xGenAi/167 not rerun；Sep20 lists 未到期（09:23 ET，约 +589min）；00:00 未见 00-claim/Sep20 raw（约 +26min 未到期）；22:25 板/changelog 未见单独条（automation lastRun succeeded≈22:29，本轮并记）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet。
+
+## 2026-09-20 00:25 ET health check
+- [x] 2026-09-20 00:25 ET 健康检查（~00:26 ET 正点火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文81/拿不准57/已过滤278 raw55 overlay55/55 fail0 窗类14/7/34；gap≈18.27min closed；cursor @MaiYangAI 2101465292006436910；git tip 8f670bc；Pages 200 md5 b4b97876 live=local；chat t38s25 delivered；00:10 catchup deferred_to_main；主窗 00:00 in_progress（claim c3a32b9b ~00:12；union152 hit_cursor_effective；overlay ~111/152 进行中；尚无 00-meta/分类/QA/页）；gap≈1.3min gap_open false；login_ok；lists Sep19 done 154/@cgnot996 + 0xGenAi/167 not rerun；Sep20 lists 未到期（09:23 ET，约 +536min）；无 AUTH_FAIL/重复抓取；不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交 00:00（昨天完整页）→ 04:00 ET；stay_quiet。  2026-09-20 12:26 CST
