@@ -5,7 +5,7 @@
 - 人工校对：降鸡汤/政治/产业融资/短立场；升 ASR/Qwen-Image/剪映Agent/飞书CLI/Jev/尽调
 - 页 08:00 基 正文48/拿不准17/已过滤119 → **正文72 / 拿不准19 / 已过滤181**
 - 跳过 recommended/ideas；游标 → @levelsio 2101704749074497649 2026-09-20T16:07:14.000Z
-- QA clippedBtns 0 pass true；已拷 x-following-site 并推送（git tip 见 commit）
+- QA clippedBtns 0 pass true；git tip 6756a00；Pages 200 md5 56b86ece9a0812877638d83e8b3ca1cb live=local；已拷 x-following-site 并推送
 - chat_line：9/20 12:00：正文72 / 拿不准19 / 已过滤181。https://t512192641.github.io/x-following/2026-09-20.html
 - 无 AUTH_FAIL；无 gap_open；无官方 X API；污染已还原不升幕僚长
   2026-09-21 00:25 CST
