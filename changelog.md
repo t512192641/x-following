@@ -1,4 +1,26 @@
+## 2026-09-21 07:25 ET health check
+
+# 2026-09-21 08:00 ET 主窗
+
+- fire ~08:09 ET（~9min late）；DOM47 + HTL116 → union **116**；saw_older + gap≈9.52min → hit_cursor_effective true；gap_open false
+- overlay 116/116（accept42 / reject_href74 / js_err0；ID gate overlay_cdp_template）；depollute restored **4**
+- 窗类 正文26 / 拿不准3 / 已过滤87 miss0；页累计 **正文41 / 拿不准11 / 已过滤171**
+- cursor @cellinlab 2101948956322525362 → @lxfater 2102008091453816960 2026-09-21T12:12:37.000Z
+- QA 08-qa.png pass clippedBtns0；skip rec/ideas；无 AUTH_FAIL；无官方 X API
+- chat_line: 9/21 8:00：正文41 / 拿不准11 / 已过滤171。https://t512192641.github.io/x-following/2026-09-21.html
+
+- [x] 2026-09-21 07:25 ET 健康检查（~07:36 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文25/拿不准8/已过滤84 raw122 overlay122/122 fail0 窗类33/8/81；gap≈2.68min closed；cursor @cellinlab 2101948956322525362；git tip a4ed0e4（content f3f4b87 / ui 21710a8）；Pages 200 md5 984134cc live=local；chat t40s1 delivered；04:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +105min）；08:00 未见 08-claim/08.jsonl（约 +22min 未到期）；06:25 板/changelog 未见单独条（automation lastRun succeeded≈06:31，本轮并记）；无 AUTH_FAIL/重复抓取；depollute30 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 08:00 ET；stay_quiet。  2026-09-21 19:37 CST
+
+## 2026-09-21 05:25 ET health check
+- [x] 2026-09-21 05:25 ET 健康检查（~05:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文25/拿不准8/已过滤84 raw122 overlay122/122 fail0 窗类33/8/81；gap≈2.68min closed；cursor @cellinlab 2101948956322525362；git tip a4ed0e4（content f3f4b87 / ui 21710a8）；Pages 200 md5 984134cc live=local；chat t40s1 delivered；04:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +232min）；08:00 未见 08-claim/08.jsonl（约 +149min 未到期）；无 AUTH_FAIL/重复抓取；depollute30 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 08:00 ET；stay_quiet。  2026-09-21 17:31 CST
+
+# changelog
+
+## 2026-09-21 overlay 加 status_id 验收
+- overlay 加 status_id 验收（URL+主帖 ID），防 For You 串台。navigate 后须 `href` 含目标 `/status/<id>` 且主帖 ID==目标，否则 `overlay_reject_href` / `overlay_reject_id_mismatch` 拒写保留 HTL。模板 `tools/overlay_cdp_template.py`；自检 `tools/test_overlay_id_gate.py` 全过；示例补丁 `raw/2026-09-20/_overlay20_cdp.py`。playbook **§3 ID 验收**已写入（含 grok-ops mirror）。  2026-09-21 16:35 CST
+
 ## 2026-09-21 UI：长文浮层展开（网格不再纵向拉开）
+- **chat 已交 t40s1（2026-09-21 16:36 CST）**
 - 用户拍板：展开用浮层，不再 in-grid `is-open` 拉高（Politico 等长卡会把多列网格扯歪）
 - `days/2026-09-20.html` + `days/2026-09-21.html`：卡高固定 320px；「展开」→ 8-bit 奶油浮层；关：收起/关闭、遮罩、Esc；body scroll lock
 - 「全部展开」= **(a)** 当前页签全部长文可滚动浮层清单（文档化选择；不用网格批量拉开）
@@ -12,7 +34,8 @@
 - 汇总页长文展开改为**浮层**（网格内不纵向拉开）；新日页跟幕僚长皮肤同一套浮层脚本。
 - 幕僚长改模板/近两日页与 playbook；**不重抓 9/20**。  2026-09-21 16:35 CST
 
-# changelog
+## 2026-09-21 04:25 ET health check
+- [x] 2026-09-21 04:25 ET 健康检查（~04:37 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文25/拿不准8/已过滤84 raw122 overlay122/122 fail0 窗类33/8/81；gap≈2.68min closed；cursor @cellinlab 2101948956322525362；git tip a4ed0e4（content f3f4b87 / ui 21710a8）；Pages 200 md5 984134cc live=local；chat t40s1 delivered；04:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +284min）；08:00 未见 08-claim/08.jsonl（约 +201min 未到期）；03:25 板/changelog 未见单独条（automation lastRun succeeded≈03:35，本轮并记）；无 AUTH_FAIL/重复抓取；depollute30 restored；平台 automation 仍标 x-1 running（04-meta complete~04:35 / chat t40s1，视为状态滞后）；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 08:00 ET；stay_quiet。  2026-09-21 16:38 CST
 
 ## 2026-09-21 04:00 ET（~04:13 ET fire，~13min late）
 - status: complete；login_ok hasCompose；source DOM Following→Latest + same-session HTL（CDP :9226；无官方 X API）
