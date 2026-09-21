@@ -1,3 +1,16 @@
+## 2026-09-21 16:00 ET
+- 主窗完成：union66（DOM10∪HTL61）overlay66/66 accept9 reject_href57 fail0；depollute0；窗类正文19/拿不准9/已过滤38；页09-21 正文102/拿不准33/已过滤329；gap≈0.7min gap_open false；hit_cursor_effective true；cursor prior @lennysan 2102077658398068984 → new @levelsio 2102130156626117000 2026-09-21T20:17:39.000Z；skip rec/ideas；QA pass clippedBtns 0；fire ~13min late。
+- public tip: **(fill after push)**；Pages HTTP 200 md5 (fill) live=local
+
+## 2026-09-21 15:25 ET health check
+- [x] 2026-09-21 15:25 ET 健康检查（~15:45 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文83/拿不准24/已过滤291 raw187 overlay accept80/reject_href107 fail0 窗类54/13/120；gap≈2.23min closed；cursor @lennysan 2102077658398068984；git tip 7265017（docs e8e0923）；Pages 200 md5 bb9b551a live=local；chat t40s5 delivered；12:10 catchup deferred_to_main complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；16:00 未见 16-claim/16.jsonl（约 +15min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 16:00 ET；stay_quiet。  2026-09-22 03:45 CST
+
+## 2026-09-21 14:25 ET health check
+- [x] 2026-09-21 14:25 ET 健康检查（~14:49 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文83/拿不准24/已过滤291 raw187 overlay accept80/reject_href107 fail0 窗类54/13/120；gap≈2.23min closed；cursor @lennysan 2102077658398068984；git tip 7265017（docs e8e0923）；Pages 200 md5 bb9b551a live=local；chat t40s5 delivered；12:10 catchup deferred_to_main complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；16:00 未见 16-claim/16.jsonl（约 +71min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 16:00 ET；stay_quiet。  2026-09-22 02:49 CST
+
+## 2026-09-21 13:25 ET health check
+- [x] 2026-09-21 13:25 ET 健康检查（~13:49 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文83/拿不准24/已过滤291 raw187 overlay accept80/reject_href107 fail0 窗类54/13/120；gap≈2.23min closed；cursor @lennysan 2102077658398068984；git tip 7265017（docs e8e0923）；Pages 200 md5 bb9b551a live=local；chat t40s5 delivered；12:10 catchup deferred_to_main complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；16:00 未见 16-claim/16.jsonl（约 +131min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 16:00 ET；stay_quiet。  2026-09-22 01:50 CST
+
 ## 2026-09-21 12:00 ET
 - 主窗完成：union187（DOM38∪HTL183）overlay187/187 accept80 reject_href107 fail0；depollute0；窗类正文54/拿不准13/已过滤120；页09-21 正文83/拿不准24/已过滤291；gap≈2.23min gap_open false；hit_cursor_effective true；cursor prior @lxfater 2102008091453816960 → new @lennysan 2102077658398068984 2026-09-21T16:49:03.000Z；skip rec/ideas；QA pass clippedBtns 0；fire ~46min late。
 - public tip: **7265017** content；Pages HTTP 200 md5 bb9b551a13712cb9b8461f003a57a082 live=local
