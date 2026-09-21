@@ -4,7 +4,7 @@
 - 「全部展开」= **(a)** 当前页签全部长文可滚动浮层清单（文档化选择；不用网格批量拉开）
 - 「全部收起」关闭浮层；页签切换逻辑未改
 - 可复用片段：`tools/day-page-modal-snippet.html`；playbook「页面 UI」已改
-- 已 sync `x-following-site` 同名日页并 push
+- 已 sync `x-following-site` 同名日页并 push；tip **21710a8**
   2026-09-21 16:40 CST
 
 ## 2026-09-21 overlay/UI 补强（用户拍板）
