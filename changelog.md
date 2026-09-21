@@ -5,7 +5,7 @@
 - 人工校对：升 R2T2/JEV开放注册；降 genspark 论坛杂闻；预测/播客/仅链文章→拿不准
 - 页 16:00 基 正文78/拿不准22/已过滤217 → **正文102 / 拿不准29 / 已过滤249**（含 recommended 09-19 ×11 + ideas/脑洞 09-19 ×3）
 - 游标 → @yanhua1010 2101828144235987056 2026-09-21T00:17:34.000Z
-- QA clippedBtns 0 pass true；git tip PENDING；Pages PENDING；已拷 x-following-site 并推送（见下）
+- QA clippedBtns 0 pass true；git tip 129e463；Pages 200 md5 9b41f4f4d59e5dac53d4b1a64076bc12 live=local；已拷 x-following-site 并推送（见下）
 - chat_line：9/20 20:00：正文102 / 拿不准29 / 已过滤249。https://t512192641.github.io/x-following/2026-09-20.html
 - 无 AUTH_FAIL；无 gap_open；无官方 X API；污染0不升幕僚长
   2026-09-21 08:26 CST
