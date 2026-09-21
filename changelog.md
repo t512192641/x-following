@@ -1,6 +1,27 @@
+## 2026-09-21 12:00 ET
+- 主窗完成：union187（DOM38∪HTL183）overlay187/187 accept80 reject_href107 fail0；depollute0；窗类正文54/拿不准13/已过滤120；页09-21 正文83/拿不准24/已过滤291；gap≈2.23min gap_open false；hit_cursor_effective true；cursor prior @lxfater 2102008091453816960 → new @lennysan 2102077658398068984 2026-09-21T16:49:03.000Z；skip rec/ideas；QA pass clippedBtns 0；fire ~46min late。
+
+## 2026-09-21 12:25 ET health check
+- [x] 2026-09-21 12:25 ET 健康检查（~13:02 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文41/拿不准11/已过滤171 raw116 overlay accept42/reject_href74 fail0 窗类26/3/87；gap≈9.52min closed；cursor @lxfater 2102008091453816960；git tip d185d16（docs 931ee54）；Pages 200 md5 a1493233 live=local；chat t40s3 delivered；08:10 catchup deferred_to_main complete_no_rescrape；12:10 catchup deferred_to_main；主窗 12:00 in_progress（claim c3a32b9b ~12:46；union187 hit_cursor_effective；overlay ~138/187 进行中；尚无 12-meta/分类/QA/页）；gap≈2.23min gap_open false；login_ok；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；11:25 板/changelog 未见单独条（automation lastRun succeeded≈12:05，本轮并记）；无 AUTH_FAIL/重复抓取；不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交 12:00 → 16:00 ET；stay_quiet。  2026-09-22 01:03 CST
+
+## 2026-09-21 12:10 ET catchup
+- [x] `x-2026-09-21-12-10` 2026-09-21 12:10 ET 补抓（~12:51 正点迟到火）：deferred_to_main；主窗 12:00 in_progress（c3a32b9b claimed_at 12:46；union187 overlay~29/187；尚无 12-meta/分类/QA）；gap≈2.23min gap_open false；cursor still @lxfater 2102008091453816960；未重抓不抢 CDP；交付交主窗；skip rec/ideas；next 16:00 ET；stay_quiet。  2026-09-22 00:53 CST
+
+## 2026-09-21 10:25 ET health check
+- [x] 2026-09-21 10:25 ET 健康检查（~11:10 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文41/拿不准11/已过滤171 raw116 overlay accept42/reject_href74 fail0 窗类26/3/87；gap≈9.52min closed；cursor @lxfater 2102008091453816960；git tip d185d16（docs 931ee54）；Pages 200 md5 a1493233 live=local；chat t40s3 delivered；08:10 catchup deferred_to_main complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；12:00 未见 12-claim/12.jsonl（约 +50min 未到期）；无 AUTH_FAIL/重复抓取；depollute4 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-21 23:10 CST
+## 2026-09-21 09:25 ET health check
+- [x] 2026-09-21 09:25 ET 健康检查（~10:08 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文41/拿不准11/已过滤171 raw116 overlay accept42/reject_href74 fail0 窗类26/3/87；gap≈9.52min closed；cursor @lxfater 2102008091453816960；git tip d185d16（docs 931ee54）；Pages 200 md5 a1493233 live=local；chat t40s3 delivered；08:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170；Sep21 lists：x-4 正点迟到火 in_progress（started ~10:08 ET，sched 09:23，约 +45min late）— 健康检查不重复补跑；12:00 未见 12-claim/12.jsonl（约 +112min 未到期）；无 AUTH_FAIL/重复抓取；depollute4 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；平台 automation 标 x-4 running（视为正点迟到交接）；next 12:00 ET；stay_quiet。  2026-09-21 22:09 CST
+
+## 2026-09-21 08:25 ET health check
+- [x] 2026-09-21 08:25 ET 健康检查（~08:50 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文41/拿不准11/已过滤171 raw116 overlay accept42/reject_href74 fail0 窗类26/3/87；gap≈9.52min closed；cursor @lxfater 2102008091453816960；git tip d185d16（docs 931ee54）；Pages 200 md5 a1493233 live=local；chat t40s3 delivered；08:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +33min）；12:00 未见 12-claim/12.jsonl（约 +190min 未到期）；无 AUTH_FAIL/重复抓取；depollute4 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-21 20:50 CST
+
+## 2026-09-21 08:10 补抓
+- complete_no_rescrape / deferred_to_main：主窗 08:00 已齐（union116 overlay116 accept42/reject74；窗类26/3/87；页正文41/拿不准11/已过滤171）；gap≈9.52min gap_open false；cursor @lxfater 2102008091453816960；Pages 200 md5 a1493233 live=local；chat t40s3 已交不重发；**未重抓**；skip rec/ideas；next 12:00 ET；stay_quiet。  2026-09-21 20:45 CST
+
 ## 2026-09-21 07:25 ET health check
 
 # 2026-09-21 08:00 ET 主窗
+- **chat 已交 t40s3（2026-09-21 20:32 CST）**
 
 - fire ~08:09 ET（~9min late）；DOM47 + HTL116 → union **116**；saw_older + gap≈9.52min → hit_cursor_effective true；gap_open false
 - overlay 116/116（accept42 / reject_href74 / js_err0；ID gate overlay_cdp_template）；depollute restored **4**
