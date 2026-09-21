@@ -163,10 +163,9 @@ summary { cursor: pointer; font-size: 12px; color: var(--muted); }
 .links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
 .note { color: var(--muted); margin: 0 0 12px; }
 
+
 .grid { align-items: stretch; }
-article { display: flex; flex-direction: column; }
-article:not(.is-open) { height: 320px; }
-article.is-open { height: auto; }
+article { display: flex; flex-direction: column; height: 320px; }
 article h3 {
   flex: 0 0 auto;
   display: -webkit-box;
@@ -175,11 +174,6 @@ article h3 {
   overflow: hidden;
   min-height: 2.7em;
   max-height: 2.7em;
-}
-article.is-open h3 {
-  -webkit-line-clamp: unset;
-  max-height: none;
-  overflow: visible;
 }
 .byline {
   flex: 0 0 auto;
@@ -191,9 +185,9 @@ article .fold {
   position: relative;
   flex: 1 1 auto;
   min-height: 0;
+  overflow: hidden;
 }
-article:not(.is-open) .fold { overflow: hidden; }
-article.is-long:not(.is-open) .fold::after {
+article.is-long .fold::after {
   content: "";
   position: absolute;
   left: 0; right: 0; bottom: 0;
@@ -233,6 +227,115 @@ article .links {
 .site-nav a:hover { text-decoration: underline; }
 .site-nav a.is-here { color: var(--ink); font-weight: 700; }
 
+/* Floating modal expand — grid cards never grow */
+body.modal-open { overflow: hidden; }
+.card-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+.card-modal.is-open { display: flex; }
+.card-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(29, 42, 40, 0.55);
+  image-rendering: pixelated;
+}
+.card-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(720px, 96vw);
+  max-height: min(92vh, 920px);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 4px solid var(--line);
+  box-shadow: 8px 8px 0 var(--shadow);
+  color: var(--ink);
+}
+.card-modal.is-multi .card-modal-dialog {
+  width: min(880px, 96vw);
+}
+.card-modal-head {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-bottom: 3px solid var(--line);
+  background: var(--chip);
+}
+.card-modal-title {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--accent);
+}
+.card-modal-close {
+  appearance: none;
+  flex: 0 0 auto;
+  border: 3px solid var(--line);
+  background: var(--tab-on);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  padding: 6px 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.card-modal-close:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.card-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 14px 16px 18px;
+  -webkit-overflow-scrolling: touch;
+}
+.card-modal-body h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: block;
+  max-height: none;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+.card-modal-body .byline {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  margin: 0 0 12px;
+}
+.card-modal-body .fold {
+  position: static;
+  overflow: visible;
+  flex: none;
+  min-height: 0;
+}
+.card-modal-body .fold::after { display: none !important; }
+.card-modal-body .links { margin-top: 14px; }
+.card-modal-block {
+  padding: 0 0 18px;
+  margin: 0 0 18px;
+  border-bottom: 3px dashed var(--line);
+}
+.card-modal-block:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.card-modal-empty {
+  color: var(--muted);
+  margin: 0;
+}
 
 
 </style>
@@ -320,37 +423,145 @@ chq.sh/sfd2026 包含两个上午的 Solo Founder Day，现场还有增长专家
 
   (function () {
     var articles = document.querySelectorAll("article");
-    function setOpen(art, open) {
-      var btn = art.querySelector(".more");
-      art.classList.toggle("is-open", open);
-      if (btn) btn.textContent = open ? "收起" : "展开";
+    var modal = document.createElement("div");
+    modal.className = "card-modal";
+    modal.id = "card-modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.innerHTML =
+      '<div class="card-modal-backdrop" data-close="1"></div>' +
+      '<div class="card-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="card-modal-title">' +
+      '<div class="card-modal-head">' +
+      '<p class="card-modal-title" id="card-modal-title">阅读</p>' +
+      '<button class="card-modal-close" type="button" data-close="1">关闭</button>' +
+      "</div>" +
+      '<div class="card-modal-body"></div>' +
+      "</div>";
+    document.body.appendChild(modal);
+    var bodyEl = modal.querySelector(".card-modal-body");
+    var titleEl = modal.querySelector("#card-modal-title");
+    var open = false;
+
+    function clonePiece(art, sel) {
+      var el = art.querySelector(sel);
+      return el ? el.cloneNode(true) : null;
     }
-    for (var i = 0; i < articles.length; i++) {
-      var art = articles[i];
-      var fold = art.querySelector(".fold");
-      var btn = art.querySelector(".more");
-      if (!fold || !btn) continue;
-      if (fold.scrollHeight > fold.clientHeight + 6) {
-        art.classList.add("is-long");
-        btn.hidden = false;
-        btn.textContent = "展开";
-        btn.addEventListener("click", function () {
-          setOpen(this.parentElement, !this.parentElement.classList.contains("is-open"));
+
+    function fillSingle(art) {
+      bodyEl.innerHTML = "";
+      modal.classList.remove("is-multi");
+      titleEl.textContent = "阅读";
+      ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+        var node = clonePiece(art, sel);
+        if (node) bodyEl.appendChild(node);
+      });
+      var closeRow = document.createElement("p");
+      closeRow.className = "links";
+      var closeBtn = document.createElement("button");
+      closeBtn.type = "button";
+      closeBtn.className = "more";
+      closeBtn.style.visibility = "visible";
+      closeBtn.style.marginTop = "14px";
+      closeBtn.textContent = "收起";
+      closeBtn.setAttribute("data-close", "1");
+      closeRow.appendChild(closeBtn);
+      bodyEl.appendChild(closeRow);
+    }
+
+    function fillMulti(list) {
+      bodyEl.innerHTML = "";
+      modal.classList.add("is-multi");
+      titleEl.textContent = "全部长文 · " + list.length;
+      if (!list.length) {
+        var empty = document.createElement("p");
+        empty.className = "card-modal-empty";
+        empty.textContent = "当前页签没有超长卡片。";
+        bodyEl.appendChild(empty);
+        return;
+      }
+      for (var i = 0; i < list.length; i++) {
+        var block = document.createElement("div");
+        block.className = "card-modal-block";
+        ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+          var node = clonePiece(list[i], sel);
+          if (node) block.appendChild(node);
         });
+        bodyEl.appendChild(block);
       }
     }
+
+    function openModal(mode, payload) {
+      if (mode === "multi") fillMulti(payload || []);
+      else fillSingle(payload);
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      open = true;
+      bodyEl.scrollTop = 0;
+      var closer = modal.querySelector(".card-modal-close");
+      if (closer) closer.focus();
+    }
+
+    function closeModal() {
+      if (!open) return;
+      modal.classList.remove("is-open");
+      modal.classList.remove("is-multi");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      bodyEl.innerHTML = "";
+      open = false;
+    }
+
+    modal.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute("data-close")) {
+        closeModal();
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && open) {
+        e.preventDefault();
+        closeModal();
+      }
+    });
+
+    for (var i = 0; i < articles.length; i++) {
+      (function (art) {
+        var fold = art.querySelector(".fold");
+        var btn = art.querySelector(".more");
+        if (!fold || !btn) return;
+        if (fold.scrollHeight > fold.clientHeight + 6) {
+          art.classList.add("is-long");
+          btn.hidden = false;
+          btn.textContent = "展开";
+          btn.addEventListener("click", function () {
+            openModal("single", art);
+          });
+        }
+      })(articles[i]);
+    }
+
+    function activePaneLongCards() {
+      var pane = document.querySelector(".pane.is-active");
+      if (!pane) return [];
+      var list = pane.querySelectorAll("article.is-long");
+      var out = [];
+      for (var i = 0; i < list.length; i++) out.push(list[i]);
+      return out;
+    }
+
     var exp = document.getElementById("btn-expand-all");
     var col = document.getElementById("btn-collapse-all");
-    if (exp) exp.addEventListener("click", function () {
-      for (var i = 0; i < articles.length; i++) {
-        if (articles[i].classList.contains("is-long")) setOpen(articles[i], true);
-      }
-    });
-    if (col) col.addEventListener("click", function () {
-      for (var i = 0; i < articles.length; i++) {
-        if (articles[i].classList.contains("is-long")) setOpen(articles[i], false);
-      }
-    });
+    if (exp) {
+      exp.title = "在浮层中列出当前页签全部长文（网格内不拉开）";
+      exp.addEventListener("click", function () {
+        openModal("multi", activePaneLongCards());
+      });
+    }
+    if (col) {
+      col.addEventListener("click", function () {
+        closeModal();
+      });
+    }
   })();
 </script>
 </body>
