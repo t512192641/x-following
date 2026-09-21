@@ -9,6 +9,9 @@
 - QA 08-qa.png pass clippedBtns0；skip rec/ideas；无 AUTH_FAIL；无官方 X API
 - chat_line: 9/21 8:00：正文41 / 拿不准11 / 已过滤171。https://t512192641.github.io/x-following/2026-09-21.html
 
+- public tip: **d185d16**；Pages HTTP 200 md5 a1493233f2874d936cc26112143b0ceb live=local
+- grok-ops tip: dae308f
+
 - [x] 2026-09-21 07:25 ET 健康检查（~07:36 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文25/拿不准8/已过滤84 raw122 overlay122/122 fail0 窗类33/8/81；gap≈2.68min closed；cursor @cellinlab 2101948956322525362；git tip a4ed0e4（content f3f4b87 / ui 21710a8）；Pages 200 md5 984134cc live=local；chat t40s1 delivered；04:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +105min）；08:00 未见 08-claim/08.jsonl（约 +22min 未到期）；06:25 板/changelog 未见单独条（automation lastRun succeeded≈06:31，本轮并记）；无 AUTH_FAIL/重复抓取；depollute30 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 08:00 ET；stay_quiet。  2026-09-21 19:37 CST
 
 ## 2026-09-21 05:25 ET health check
