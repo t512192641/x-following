@@ -1,5 +1,38 @@
+# changelog
+
+## 2026-09-21 04:00 ET（~04:13 ET fire，~13min late）
+- status: complete；login_ok hasCompose；source DOM Following→Latest + same-session HTL（CDP :9226；无官方 X API）
+- scrape: DOM34 hit_cursor false saw_older；HTL121 HIT CURSOR；union122；gap≈2.68min gap_open false；hit_cursor_effective true
+- oldest_new @dotey 2101887749154287808 2026-09-21T04:14:25.000Z；newest @cellinlab 2101948956322525362 2026-09-21T08:17:38.000Z
+- overlay 122/122 fail0；depollute restored 30（Karpathy/闲鱼礼品卡跨帖污染）；suspects_after 0
+- classify: heur 正文30/拿不准5/已过滤87 → manual 正文33/拿不准8/已过滤81；miss0
+- page days/2026-09-21.html：正文25 / 拿不准8 / 已过滤84（含 0:00 薄种子3）；今天第一版完整页
+- QA clippedBtns 0 pass true；04-qa.png
+- cursor prior @yangyi 2101887075973022204 → new @cellinlab 2101948956322525362
+- skip recommended/ideas（非 20:00）
+- chat_line：`9/21 4:00：正文25 / 拿不准8 / 已过滤84。https://t512192641.github.io/x-following/2026-09-21.html`
+
+
+## 2026-09-21 04:10 ET catchup
+- [x] `x-2026-09-21-04-10` 2026-09-21 04:10 ET 补抓（~04:26 正点迟到火）：deferred_to_main；主窗 04:00 in_progress（c3a32b9b claimed_at 04:13；union122 overlay~83/122；尚无 04-meta/分类/QA）；gap≈2.68min gap_open false；cursor still @yangyi 2101887075973022204；未重抓不抢 CDP；交付（今天第一版09-21）交主窗；skip rec/ideas；next 08:00 ET；stay_quiet。  2026-09-21 16:28 CST
+
+## 2026-09-21 overlay 硬规则（Karpathy 脏卡）
+- **事故**：09-20 页正文卡「Karpathy 进 Anthropic…免费黄金」为脏数据。`2101766776325595530`(@elonmusk) 真文 Tesla 洗冤；`2101770363839336726`(@yucheng) 真文机场午餐买黄金玩笑。20 窗 cdp-dom overlay 误写同一段 Karpathy free-gold（`extract.href=explore/tabs/for-you`）；旧 depollute 门槛同指纹≥3，仅 2 次未回退，聚类合成假正文卡。HTL 原文正确。
+- **处置**：用户拍板摘掉该卡；幕僚长改本机 `days/2026-09-20.html` + 回写 `20.jsonl`；**不重抓**。
+- **硬规则已写入** `playbook.md`（并 sync `grok-ops/x-following-playbook.md`）：① overlay `extract.href` 非 status URL → 拒写；② overlay≠HTL 且同文≥2 → 回退 HTL。  2026-09-21 16:26 CST
+
+## 2026-09-21 02:25 ET health check
+- [x] 2026-09-21 02:25 ET 健康检查（~02:38 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文143/拿不准36/已过滤334 raw136 overlay136/136 fail0 窗类41/7/88；薄种子09-21 0/0/3不交；gap≈5.52min closed；cursor @yangyi 2101887075973022204；git tip 6ea72d3（changelog 9b68daa）；Pages 200 md5 7077fc16 live=local；chat t38s39 delivered；00:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +405min）；04:00 未见 04-claim（约 +82min 未到期）；无 AUTH_FAIL/重复抓取；depollute35 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。
+
+## 2026-09-21 01:25 ET health check
+- [x] 2026-09-21 01:25 ET 健康检查（~01:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文143/拿不准36/已过滤334 raw136 overlay136/136 fail0 窗类41/7/88；薄种子09-21 0/0/3不交；gap≈5.52min closed；cursor @yangyi 2101887075973022204；git tip 6ea72d3（changelog 9b68daa）；Pages 200 md5 7077fc16 live=local；chat t38s39 delivered；00:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +471min）；04:00 未见 04-claim（约 +148min 未到期）；无 AUTH_FAIL/重复抓取；depollute35 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-21 13:31 CST
+
+## 2026-09-21 00:25 ET health check
+- [x] 2026-09-21 00:25 ET 健康检查（~00:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文143/拿不准36/已过滤334 raw136 overlay136/136 fail0 窗类41/7/88；薄种子09-21 0/0/3不交；gap≈5.52min closed；cursor @yangyi 2101887075973022204；git tip 6ea72d3（changelog 9b68daa）；Pages 200 md5 7077fc16 live=local；chat t38s39 delivered；00:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；Sep21 lists 未到期（09:23 ET，约 +531min）；04:00 未见 04-claim（约 +208min 未到期）；无 AUTH_FAIL/重复抓取；depollute35 restored；平台 automation 仍标 x-1 running（claim complete~00:31，视为状态滞后）；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-21 12:33 CST
+
 ## 2026-09-21 00:00 ET 主窗
 - fire ~00:08 ET（~8min late）；DOM42 + HTL135 → union **136**；HTL HIT CURSOR → hit_cursor_effective true；gap≈5.52min gap_open false
+- **chat 已交 t38s39（2026-09-21 12:32 CST）**
 - overlay 136/136 fail0；跨帖污染 **35** 已还原（MOBILE DESIGN SKILL…）
 - 窗类 正文41 / 拿不准7 / 已过滤88 miss0（manual 32 条）
 - 切日 CUTOFF 04:00Z：pre→09-20；after→薄种子09-21

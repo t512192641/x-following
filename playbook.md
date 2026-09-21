@@ -30,6 +30,11 @@
   3. `:10` 见 `gap_open` 时不能因「已有 N 条」就判齐。
   4. 仍禁止官方/付费 X API。历史空洞是否补洞，等用户/幕僚长明确指示。
 
+- **overlay 硬规则（2026-09-21 用户拍板 / 幕僚长确认）**：cdp-dom 点开补文时，禁止把邻居帖/Explore 文案写进目标 status。
+  1. **拒写非 status URL**：若 `extract.href` 是 `explore/tabs/for-you`、`explore`、`home`、`i/lists` 等**不含** `/status/<id>` 的页面，**不得**用该 extract 覆盖目标帖正文；保留 HTL/DOM 原文，meta 记 `overlay_reject_href`。
+  2. **同文≥2 回退 HTL**：overlay 后正文与 HTL/DOM 原文不一致，且同一 overlay 文案在本窗出现 **≥2** 次（指纹可取全文或前 60 字）→ **一律回退**到 HTL/DOM 原文（阈值门槛从旧的 ≥3 **降为 ≥2**）。不得因「只撞 2 次」放过。
+  3. 回退后写 `HH-depollute.md`；不因此升幕僚长。用户已确认的脏卡直接摘页，不必为修脏卡重抓。
+
 ## 存档（不许丢原文）
 
 - 每窗先把抓到的全部帖写入 `/workspace/x-following/raw/YYYY-MM-DD/HH.jsonl`，再分类写当天 HTML。
