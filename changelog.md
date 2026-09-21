@@ -8,7 +8,7 @@
 - 游标 → @yangyi 2101887075973022204 2026-09-21T04:11:44.000Z
 - QA pass clippedBtns 0；skip rec/ideas（非20:00）
 - chat_line：`9/21 0:00：正文143 / 拿不准36 / 已过滤334。https://t512192641.github.io/x-following/2026-09-20.html`
-- public tip / Pages md5：见 commit 后回填
+- public tip: 6ea72d3；Pages HTTP 200 md5 7077fc16869a8c2f37831bd9aef7edae live=local
 - completed 2026-09-21 12:31 CST
 
 ## 2026-09-21 00:10 ET catchup
