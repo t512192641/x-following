@@ -1,5 +1,28 @@
+## 2026-09-20 20:00 ET 主窗
+- fire ~20:14 ET（~14min late）；DOM19 + HTL50 → union **51**；精确游标帖已删（页面不存在）但 HTL raw saw_older + gap≈2.22min → hit_cursor_effective true；gap_open false
+- overlay 51/51 fail0；跨帖污染 0
+- 窗类 正文12 / 拿不准7 / 已过滤32 miss0
+- 人工校对：升 R2T2/JEV开放注册；降 genspark 论坛杂闻；预测/播客/仅链文章→拿不准
+- 页 16:00 基 正文78/拿不准22/已过滤217 → **正文102 / 拿不准29 / 已过滤249**（含 recommended 09-19 ×11 + ideas/脑洞 09-19 ×3）
+- 游标 → @yanhua1010 2101828144235987056 2026-09-21T00:17:34.000Z
+- QA clippedBtns 0 pass true；git tip PENDING；Pages PENDING；已拷 x-following-site 并推送（见下）
+- chat_line：9/20 20:00：正文102 / 拿不准29 / 已过滤249。https://t512192641.github.io/x-following/2026-09-20.html
+- 无 AUTH_FAIL；无 gap_open；无官方 X API；污染0不升幕僚长
+  2026-09-21 08:26 CST
+
+## 2026-09-20 20:10 ET catchup
+- [x] `x-2026-09-20-20-10` 2026-09-20 20:10 ET 补抓（~20:21 正点迟到火）：deferred_to_main；主窗 20:00 in_progress（c3a32b9b claimed_at 20:14；union51 overlay~27/51；尚无 20-meta/分类/QA）；gap≈2.22min gap_open false；cursor still @elonmusk 2101766218399260894；未重抓不抢 CDP；交付/rec+ideas 交主窗；next 00:00 ET；stay_quiet。  2026-09-21 08:22 CST
+
+
+## 2026-09-20 19:25 ET health check
+- [x] 2026-09-20 19:25 ET 健康检查（~19:36 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文78/拿不准22/已过滤217 raw46 overlay46/46 fail0 窗类7/3/36；gap≈8.57min closed；cursor @elonmusk 2101766218399260894；git tip e049463（site docs 5931e97）；Pages 200 md5 0f2e9b42 live=local；chat t38s35 delivered；16:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；20:00 未见 20-claim/20.jsonl（约 +23min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet。  2026-09-21 07:37 CST
+
+## 2026-09-20 16:25 ET health check
+- [x] 2026-09-20 16:25 ET 健康检查（~16:30 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文78/拿不准22/已过滤217 raw46 overlay46/46 fail0 窗类7/3/36；gap≈8.57min closed；cursor @elonmusk 2101766218399260894；git tip e049463；Pages 200 md5 0f2e9b42 live=local；chat t38s35 delivered；16:10 catchup deferred_to_main complete_no_rescrape（板已记；raw 未见 16-10-catchup.md 不补造）；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；20:00 未见 20-claim/20.jsonl（约 +210min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet。  2026-09-21 04:31 CST
+
 ## 2026-09-20 16:00 ET 主窗
 - fire ~16:09 ET（~9min late）；DOM12 + HTL39 → union **46**；HTL HIT CURSOR；gap≈8.57min gap_open false
+- **chat 已交 t38s35（2026-09-21 04:21 CST）**
 - overlay 46/46 fail0；跨帖污染 0（无需还原）
 - 窗类 正文7 / 拿不准3 / 已过滤36 miss0
 - 人工校对：降产业融资/S-1/Hyperloop/人生破局/短立场/mentor软赞；升尽调/Claude Code回路/Jev巡检/Maka-cu/桃花源提示词/Grok Bot刘海原型
@@ -3259,3 +3282,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-09-20 01:25 ET health check
 - [x] 2026-09-20 01:25 ET 健康检查（~01:29 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文92/拿不准67/已过滤382 raw152 overlay152/152 fail0 窗类29/11/112；薄种子09-20 5/1/8不交；gap≈1.3min gap_open false；cursor @yanhua1010 2101524564320936150；git tip a795721；Pages 200 md5 b9c16979 live=local；chat t38s27 delivered；00:10 catchup deferred_to_main complete_no_rescrape；lists Sep19 done 154/@cgnot996 + 0xGenAi/167 not rerun；Sep20 lists 未到期（09:23 ET，约 +473min）；04:00 未见 04-claim/04.jsonl（约 +150min 未到期）；无 AUTH_FAIL/重复抓取；depollute33 restored；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-20 13:29 CST
 
+
+## 2026-09-20 18:25 ET health check
+- [x] 2026-09-20 18:25 ET 健康检查（~18:29 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文78/拿不准22/已过滤217 raw46 overlay46/46 fail0 窗类7/3/36；gap≈8.57min closed；cursor @elonmusk 2101766218399260894；git tip e049463（site docs 5931e97）；Pages 200 md5 0f2e9b42 live=local；chat t38s35 delivered；16:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；20:00 未见 20-claim/20.jsonl（约 +90min 未到期）；17:25 板/changelog 未见单独条（automation lastRun succeeded≈17:30，本轮并记）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet。  2026-09-21 06:30 CST
