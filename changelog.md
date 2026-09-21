@@ -1,5 +1,6 @@
 ## 2026-09-21 12:00 ET
 - 主窗完成：union187（DOM38∪HTL183）overlay187/187 accept80 reject_href107 fail0；depollute0；窗类正文54/拿不准13/已过滤120；页09-21 正文83/拿不准24/已过滤291；gap≈2.23min gap_open false；hit_cursor_effective true；cursor prior @lxfater 2102008091453816960 → new @lennysan 2102077658398068984 2026-09-21T16:49:03.000Z；skip rec/ideas；QA pass clippedBtns 0；fire ~46min late。
+- public tip: **7265017** content；Pages HTTP 200 md5 bb9b551a13712cb9b8461f003a57a082 live=local
 
 ## 2026-09-21 12:25 ET health check
 - [x] 2026-09-21 12:25 ET 健康检查（~13:02 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文41/拿不准11/已过滤171 raw116 overlay accept42/reject_href74 fail0 窗类26/3/87；gap≈9.52min closed；cursor @lxfater 2102008091453816960；git tip d185d16（docs 931ee54）；Pages 200 md5 a1493233 live=local；chat t40s3 delivered；08:10 catchup deferred_to_main complete_no_rescrape；12:10 catchup deferred_to_main；主窗 12:00 in_progress（claim c3a32b9b ~12:46；union187 hit_cursor_effective；overlay ~138/187 进行中；尚无 12-meta/分类/QA/页）；gap≈2.23min gap_open false；login_ok；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；11:25 板/changelog 未见单独条（automation lastRun succeeded≈12:05，本轮并记）；无 AUTH_FAIL/重复抓取；不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交 12:00 → 16:00 ET；stay_quiet。  2026-09-22 01:03 CST
