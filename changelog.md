@@ -3,6 +3,7 @@
 - gap≈10.3min gap_open false；hit_cursor_effective true（HTL HIT CURSOR）；游标推进 @KinGao476942 2102309153050124514。
 - QA pass clippedBtns 0；今天第一版完整页；跳过 rec/ideas（非 20:00）。
 - fire ~04:07 ET（~7min late）。
+- Pages HTTP 200 md5 32e59eb5182a1f558ee1d032b910d0f7 live=local；public tip **944303d**。
 
 ## 2026-09-22 04:10 ET catchup
 - deferred_to_main → 主窗已 complete；未重抓。
