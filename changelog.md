@@ -1,3 +1,18 @@
+## 2026-09-21 20:00 ET
+- 主窗完成：union77（DOM12∪HTL72）overlay77/77 accept22 reject_href55 fail0；depollute0；窗类正文15/拿不准8/已过滤54；页09-21 正文126/拿不准41/已过滤383；gap≈4.35min gap_open false；hit_cursor_effective true；cursor prior @levelsio 2102130156626117000 → new @MaiYangAI 2102188011991777738 2026-09-22T00:07:33.000Z；**已并 rec+ideas 09-20**（rec9 + ideas4→脑洞）；QA pass clippedBtns 0；fire ~5min late。
+- public tip: （push 后填）；Pages pending
+- chat_line: 9/21 20:00：正文126 / 拿不准41 / 已过滤383。https://t512192641.github.io/x-following/2026-09-21.html
+
+## 2026-09-21 19:25 ET health check
+- [x] 2026-09-21 19:25 ET 健康检查（~19:37 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文102/拿不准33/已过滤329 raw union66 overlay accept9/reject_href57 fail0 窗类19/9/38；gap≈0.7min closed；hit_cursor_effective true；cursor @levelsio 2102130156626117000；git tip 3d82ac6（docs 40f5c67）；Pages HTTP 200 md5 9fc16575e885ea0b2e9d0414342b0d83 live=local；chat t40s6 delivered；16:10 catchup complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；20:00 未见 20-claim/20.jsonl（当前约+23min未到点）；无 AUTH_FAIL/重复抓取/主窗缺口；depollute0；旧四条 grok大总管 routine 仍 disabled；接管 x-1/x-2/x-3/x-4 enabled；next 20:00 ET；stay_quiet。 2026-09-22 07:37 CST
+
+
+## 2026-09-21 17:25 ET health check
+- [x] 2026-09-21 17:25 ET 健康检查（~17:38 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文102/拿不准33/已过滤329 raw66 overlay accept9/reject_href57 fail0 窗类19/9/38；gap≈0.7min closed；cursor @levelsio 2102130156626117000；git tip 3d82ac6（docs 40f5c67）；Pages 200 md5 9fc16575 live=local；chat t40s6 delivered；16:10 catchup complete_no_rescrape；lists Sep21 done 155/@HiTw93 + DongQingAi/171 not rerun；20:00 未见 20-claim/20.jsonl（约 +142min 未到期）；16:25 板/changelog 未见单独条（automation lastRun succeeded≈16:40，本轮并记）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet。  2026-09-22 05:39 CST
+
+## 2026-09-21 16:10 补抓
+- complete_no_rescrape：主窗 16:00 已齐（union66 overlay66 accept9/reject_href57；窗类19/9/38；页正文102/拿不准33/已过滤329）；gap≈0.7min gap_open false；cursor @levelsio 2102130156626117000；Pages 200 md5 9fc16575 live=local；chat t40s6 已交不重发；**未重抓**；skip rec/ideas；next 20:00 ET；stay_quiet。  2026-09-22 04:36 CST
+
 ## 2026-09-21 16:00 ET
 - 主窗完成：union66（DOM10∪HTL61）overlay66/66 accept9 reject_href57 fail0；depollute0；窗类正文19/拿不准9/已过滤38；页09-21 正文102/拿不准33/已过滤329；gap≈0.7min gap_open false；hit_cursor_effective true；cursor prior @lennysan 2102077658398068984 → new @levelsio 2102130156626117000 2026-09-21T20:17:39.000Z；skip rec/ideas；QA pass clippedBtns 0；fire ~13min late。
 - public tip: **3d82ac6** content；Pages HTTP 200 md5 9fc16575e885ea0b2e9d0414342b0d83 live=local
