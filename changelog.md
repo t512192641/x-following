@@ -2,7 +2,7 @@
 - [x] 2026-09-22 12:25 ET 健康检查（~12:55 ET 正点迟到火；复核 12:02 提早条之后态）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文30/拿不准20/已过滤129；cursor @liuren 2102372207263445403；Pages 200 md5 98303c80 live=local；chat t40s10；lists Sep22 done 155/@HiTw93+DongQingAi/171；主窗 12:00 in_progress union198 overlay~19/198；catchup running 未见 12-10-catchup；不抢 CDP；escalate no；stay_quiet。  2026-09-23 00:57 CST
 
 ## 2026-09-22 12:00 ET
-- [x] `x-2026-09-22-12` 2026-09-22 12:00 ET x-following：union198 overlay accept109/reject_href89；depollute13；窗类42/16/140；页 **正文57/拿不准36/已过滤269**；gap≈7.9min；游标 @_catwu 2102437713781944397；git tip TBD；Pages TBD；**chat 待交 WakeParent**；next 16:00 ET。
+- [x] `x-2026-09-22-12` 2026-09-22 12:00 ET x-following：union198 overlay accept109/reject_href89；depollute13；窗类42/16/140；页 **正文57/拿不准36/已过滤269**；gap≈7.9min；游标 @_catwu 2102437713781944397；git tip **7faf6da**；Pages 200 md5 b1279630c9dd665fb76e76525ab7baf5 live=local；**chat 待交 WakeParent**；next 16:00 ET。
 
 ## 2026-09-22 11:25 ET health check
 - [x] 2026-09-22 11:25 ET 健康检查（~11:07 ET 正点提早火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文30/拿不准20/已过滤129 raw union82 overlay accept20/reject_href62 fail0 窗类19/9/54；gap≈3.8min closed；hit_cursor_effective true；cursor @liuren 2102372207263445403；git tip efcd0e3（docs bba4d94）；Pages HTTP 200 md5 98303c807184c770e94ff42a8fbfdb09 live=local；chat t40s10 delivered；08:10 catchup complete_no_rescrape；lists Sep22 done 155/@HiTw93 + @DongQingAi/171 not rerun；10:25 未见单独条（automation 上轮 lastRun≈10:04=09:25迟到火，本轮并记）；12:00 未见 12-claim/12.jsonl（约 +53min 未到期）；无 AUTH_FAIL/重复抓取；depollute1；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 12:00 ET；stay_quiet。  2026-09-22 23:07 CST
