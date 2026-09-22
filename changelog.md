@@ -1,3 +1,34 @@
+## 2026-09-22 16:00 ET
+- [x] `x-2026-09-22-16` resume_post_overlay_no_cdp：union131 overlay accept53/reject_href78；depollute0；窗类正文34/拿不准9/已过滤88；页 **正文69/拿不准45/已过滤357**；gap≈0.53min closed；游标 @kaostyl 2102493983171617249；QA pass clippedBtns0；跳过 rec/ideas；**chat 待父代理交付**；next 20:00 ET。  2026-09-23 07:50 CST
+
+## 2026-09-22 假 succeeded 事故
+- 平台 automation 在 16:00 窗仅完成抓取+overlay 后标 **succeeded**，但缺 depollute/classify/merge/QA/meta/cursor/publish；claim 仍 in_progress，后半段停滞≥3h。
+- 处置：幕僚长拍板续后半段（禁重抓/禁CDP）；playbook 写入「claim complete 硬门禁」——须 depollute + class miss=0（或显式失败）+ 日页 merge + meta 齐备，禁止把「只抓完+overlay」当 succeeded。  2026-09-23 07:50 CST
+
+## 2026-09-22 19:25 ET health check
+- [x] 2026-09-22 19:25 ET 健康检查（~19:38 ET 正点迟到火，约 +13min）：quiet_ok false；12:00 页 live 57/36/269；cursor @_catwu 2102437713781944397；Pages 200 md5 b1279630 live=local；chat t40s11；lists Sep22 done 155/@HiTw93+DongQingAi/171 not rerun；主窗 16:00 in_progress overlay 齐 class miss131 无16-meta/QA/页（后半段停滞≥3.3h；16:10 deferred TIMEOUT；平台 succeeded 但 claim 未 complete）；20:00 约+21min 未到期；不扩大重跑；**escalate yes 幕僚长任务卡**。  2026-09-23 07:40 CST
+
+## 2026-09-22 18:25 ET health check
+- [x] 2026-09-22 18:25 ET 健康检查（~18:46 ET 正点迟到火，约 +21min）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文57/拿不准36/已过滤269；cursor @_catwu 2102437713781944397；Pages 200 md5 b1279630 live=local；chat t40s11；lists Sep22 done 155/@HiTw93+DongQingAi/171 not rerun；主窗 16:00 in_progress union131 overlay accept53/reject_href78 class miss131 无16-meta/QA/页（后半段停滞≥2h；16:10 deferred TIMEOUT）；20:00 未到期；不扩大重跑；escalate no；stay_quiet。  2026-09-23 06:46 CST
+
+## 2026-09-22 16:10 ET catchup
+- deferred_to_main：主窗 16:00 仍 in_progress（c3a32b9b）；overlay 齐 accept53/reject_href78 后未分类/页/交付；轮询超时未重抓不抢 CDP；交付交主窗。  2026-09-23 06:12 CST
+
+## 2026-09-22 17:25 ET health check
+- [x] 2026-09-22 17:25 ET 健康检查（~17:41 ET 正点迟到火，约 +16min）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文57/拿不准36/已过滤269 raw union198 overlay accept109/reject_href89 fail0 窗类42/16/140；depollute13；gap≈7.9min closed；hit_cursor_effective true；cursor @_catwu 2102437713781944397；git tip 7faf6da（docs e416b36）；Pages HTTP 200 md5 b1279630c9dd665fb76e76525ab7baf5 live=local；chat t40s11 delivered；12:10 catchup complete_no_rescrape；lists Sep22 done 155/@HiTw93 + @DongQingAi/171 not rerun；主窗 16:00 in_progress（claim c3a32b9b ~16:19 ET；union131 overlay accept53/reject_href78 fail0；尚无 16-meta/分类/QA/页）；16:10 catchup 平台 running、未见 16-10-catchup.md；20:00 未到期；无 AUTH_FAIL；不扩大重跑；escalate no；stay_quiet。  2026-09-23 05:42 CST
+
+## 2026-09-22 16:25 ET health check
+- [x] 2026-09-22 16:25 ET 健康检查（~16:41 ET 正点迟到火，约 +16min）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文57/拿不准36/已过滤269；cursor @_catwu 2102437713781944397；Pages 200 md5 b1279630 live=local；chat t40s11；lists Sep22 done 155/@HiTw93+DongQingAi/171；主窗 16:00 in_progress union131 overlay accept53/reject_href78；gap≈0.53min；catchup running 未见 16-10-catchup；不抢 CDP；escalate no；stay_quiet。  2026-09-23 04:42 CST
+
+## 2026-09-22 14:25 ET health check
+- [x] 2026-09-22 14:25 ET 健康检查（~14:44 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文57/拿不准36/已过滤269 raw union198 overlay accept109/reject_href89 fail0 窗类42/16/140；depollute13；gap≈7.9min closed；hit_cursor_effective true；cursor @_catwu 2102437713781944397；git tip 7faf6da（docs e416b36；grok-ops 7f78427）；Pages HTTP 200 md5 b1279630c9dd665fb76e76525ab7baf5 live=local；chat t40s11 delivered；12:10 catchup complete_no_rescrape；lists Sep22 done 155/@HiTw93 + @DongQingAi/171 not rerun；16:00 未见 16-claim/16.jsonl（约 +74min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 16:00 ET；escalate no；stay_quiet。  2026-09-23 02:46 CST
+
+## 2026-09-22 13:25 ET health check
+- [x] 2026-09-22 13:25 ET 健康检查（~13:48 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文57/拿不准36/已过滤269 raw union198 overlay accept109/reject_href89 fail0 窗类42/16/140；depollute13；gap≈7.9min closed；hit_cursor_effective true；cursor @_catwu 2102437713781944397；git tip 7faf6da（docs e416b36；grok-ops 7f78427）；Pages HTTP 200 md5 b1279630c9dd665fb76e76525ab7baf5 live=local；chat t40s11 delivered；12:10 catchup complete_no_rescrape；lists Sep22 done 155/@HiTw93 + @DongQingAi/171 not rerun；16:00 未见 16-claim/16.jsonl（约 +132min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 16:00 ET；escalate no；stay_quiet。  2026-09-23 01:49 CST
+
+## 2026-09-22 12:10 ET catchup
+- complete_no_rescrape：主窗 12:00 已齐（union198 overlay109/89 depollute13；页 57/36/269；cursor @_catwu；Pages live=local md5 b1279630；chat t40s11）。补抓火时主窗 overlay 中，等齐后验收，未重抓不重发。
+
 ## 2026-09-22 12:55 ET health check
 - [x] 2026-09-22 12:25 ET 健康检查（~12:55 ET 正点迟到火；复核 12:02 提早条之后态）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文30/拿不准20/已过滤129；cursor @liuren 2102372207263445403；Pages 200 md5 98303c80 live=local；chat t40s10；lists Sep22 done 155/@HiTw93+DongQingAi/171；主窗 12:00 in_progress union198 overlay~19/198；catchup running 未见 12-10-catchup；不抢 CDP；escalate no；stay_quiet。  2026-09-23 00:57 CST
 

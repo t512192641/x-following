@@ -39,6 +39,13 @@
      - 任一不满足 → **拒写**：保留 HTL/DOM 原文，meta 记 `overlay_reject_href`（URL 非目标 status / 非 status 落地）或 `overlay_reject_id_mismatch`（落地到别的 status），**不得**用 scraped 文覆盖目标行。
   4. 回退后写 `HH-depollute.md`；不因此升幕僚长。用户已确认的脏卡直接摘页，不必为修脏卡重抓。
 
+- **主窗 claim complete / 对外成功硬门禁（2026-09-22 假 succeeded 事故后）**：claim 标 `complete` 或对外宣称成功的前提是本窗至少齐备：
+  1. `HH-depollute.md`（或显式记录无污染/restored=0）；
+  2. classification **miss=0**（每条都有 `正文|拿不准|已过滤`），或在 meta 显式写失败原因且不得 complete；
+  3. 日页 merge 完成（`days/YYYY-MM-DD.html` 本窗已入）；
+  4. `HH-meta.md` 写齐。
+  **禁止**把「只抓完 + overlay」当成 succeeded/complete。平台 automation 标 succeeded 不等于流水线收口。
+
 
 ## 存档（不许丢原文）
 
