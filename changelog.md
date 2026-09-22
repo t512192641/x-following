@@ -1,3 +1,6 @@
+## 2026-09-22 08:10 补抓
+- complete_no_rescrape：主窗 08:00 已齐（union82 overlay accept20/reject_href62；页正文30/拿不准20/已过滤129；gap≈3.8min；cursor @liuren 2102372207263445403；Pages 200 md5 98303c80 live=local；chat t40s10 已交）；未重抓不抢 CDP；不重复交付；next 12:00 ET。  2026-09-22 20:41 CST
+
 ## 2026-09-22 08:00 ET
 - 主窗完成：union82（DOM21∪HTL80）overlay82/82 accept20 reject_href62 fail0；depollute1；窗类正文19/拿不准9/已过滤54；页09-22 **正文30 / 拿不准20 / 已过滤129**（含 0:00/4:00）。
 - gap≈3.8min gap_open false；hit_cursor_effective true（HTL HIT CURSOR）；游标推进 @liuren 2102372207263445403。
