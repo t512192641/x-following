@@ -1,3 +1,6 @@
+## 2026-09-21 20:10 补抓
+- complete_no_rescrape：主窗 20:00 已齐（union77 overlay77 accept22/reject_href55；窗类15/8/54；页正文126/拿不准41/已过滤383）；gap≈4.35min gap_open false；cursor @MaiYangAI 2102188011991777738；Pages 200 md5 fb0dfa91 live=local；rec+ideas 09-20 已并；chat t40s7 已交不重发；**未重抓**；next 00:00 ET；stay_quiet。  2026-09-22 08:28 CST
+
 ## 2026-09-21 20:00 ET
 - 主窗完成：union77（DOM12∪HTL72）overlay77/77 accept22 reject_href55 fail0；depollute0；窗类正文15/拿不准8/已过滤54；页09-21 正文126/拿不准41/已过滤383；gap≈4.35min gap_open false；hit_cursor_effective true；cursor prior @levelsio 2102130156626117000 → new @MaiYangAI 2102188011991777738 2026-09-22T00:07:33.000Z；**已并 rec+ideas 09-20**（rec9 + ideas4→脑洞）；QA pass clippedBtns 0；fire ~5min late。
 - public tip: **7f1ec9b** content；Pages HTTP 200 md5 fb0dfa91134afdae7e84028ccbde801f live=local；last-modified Tue, 22 Sep 2026 00:21:41 GMT
