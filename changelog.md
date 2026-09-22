@@ -1,5 +1,5 @@
 ## 2026-09-22 16:00 ET
-- [x] `x-2026-09-22-16` resume_post_overlay_no_cdp：union131 overlay accept53/reject_href78；depollute0；窗类正文34/拿不准9/已过滤88；页 **正文69/拿不准45/已过滤357**；gap≈0.53min closed；游标 @kaostyl 2102493983171617249；QA pass clippedBtns0；跳过 rec/ideas；**chat 待父代理交付**；next 20:00 ET。  2026-09-23 07:50 CST
+- [x] `x-2026-09-22-16` resume_post_overlay_no_cdp：union131 overlay accept53/reject_href78；depollute0；窗类正文34/拿不准9/已过滤88；页 **正文69/拿不准45/已过滤357**；gap≈0.53min closed；游标 @kaostyl 2102493983171617249；QA pass clippedBtns0；跳过 rec/ideas；git tip **2dc93ab**；Pages 200 md5 45e847d4 live=local；**chat 待父代理交付**；next 20:00 ET。  2026-09-23 07:50 CST
 
 ## 2026-09-22 假 succeeded 事故
 - 平台 automation 在 16:00 窗仅完成抓取+overlay 后标 **succeeded**，但缺 depollute/classify/merge/QA/meta/cursor/publish；claim 仍 in_progress，后半段停滞≥3h。
