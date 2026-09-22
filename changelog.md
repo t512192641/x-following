@@ -1,4 +1,28 @@
+## 2026-09-22 00:00 ET
+
+- 主窗 complete：union147（DOM42∪HTL146）；overlay accept63 / reject_href84（ID gate；大量 explore/for-you 拒写保留 HTL）；depollute0；窗类正文40 / 拿不准8 / 已过滤99。
+- pre(<04:00Z) 并入 09-21：页累计 **正文163 / 拿不准49 / 已过滤479**；薄种子 09-22 正文3/拿不准0/已过滤3（不聊天交付）。
+- gap≈0.45min gap_open false；hit_cursor_effective true（HTL HIT CURSOR）；游标推进 @elonmusk 2102249364043505664。
+- QA pass clippedBtns 0；chat 交昨天完整页 09-21；跳过 rec/ideas（非 20:00）。
+- fire ~00:09 ET（~9min late）。
+
+## 2026-09-22 00:10 ET catchup
+- deferred_to_main：00:00 主窗 in_progress（union147 / overlay~71/147 / gap≈0.45min closed）；未重抓不抢 CDP；交付交主窗。
+- recorded: 2026-09-22 12:22 CST
+
+## 2026-09-21 23:25 ET health check
+- [x] 2026-09-21 23:25 ET 健康检查（~23:28 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文126/拿不准41/已过滤383 raw union77 overlay accept22/reject_href55 fail0 窗类15/8/54；gap≈4.35min closed；hit_cursor_effective true；cursor @MaiYangAI 2102188011991777738；git tip 7f1ec9b（docs 2b59061）；Pages HTTP 200 md5 fb0dfa91134afdae7e84028ccbde801f live=local；chat t40s7 delivered；20:10 catchup complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep22 lists 未到期（09:23 ET，约 +593min）；00:00 未见 00-claim/Sep22 raw（约 +30min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet。  2026-09-22 11:30 CST
+## 2026-09-21 22:25 ET health check
+- [x] 2026-09-21 22:25 ET 健康检查（~22:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文126/拿不准41/已过滤383 raw union77 overlay accept22/reject_href55 fail0 窗类15/8/54；gap≈4.35min closed；hit_cursor_effective true；cursor @MaiYangAI 2102188011991777738；git tip 7f1ec9b（docs 2b59061）；Pages HTTP 200 md5 fb0dfa91134afdae7e84028ccbde801f live=local；chat t40s7 delivered；20:10 catchup complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep22 lists 未到期（09:23 ET，约 +650min）；00:00 未见 00-claim/Sep22 raw（约 +88min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet。  2026-09-22 10:33 CST
+
+## 2026-09-21 21:25 ET health check
+- [x] 2026-09-21 21:25 ET 健康检查（~21:39 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文126/拿不准41/已过滤383 raw union77 overlay accept22/reject_href55 fail0 窗类15/8/54；gap≈4.35min closed；hit_cursor_effective true；cursor @MaiYangAI 2102188011991777738；git tip 7f1ec9b（docs 2b59061）；Pages HTTP 200 md5 fb0dfa91134afdae7e84028ccbde801f live=local；chat t40s7 delivered；20:10 catchup complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；00:00 未见 00-claim/Sep22 raw（约 +141min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet。  2026-09-22 09:41 CST
+
 ## 2026-09-21 20:10 补抓
+
+## 2026-09-21 20:25 ET health check
+- [x] 2026-09-21 20:25 ET 健康检查（~20:44 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文126/拿不准41/已过滤383 raw union77 overlay accept22/reject_href55 fail0 窗类15/8/54；gap≈4.35min closed；hit_cursor_effective true；cursor @MaiYangAI 2102188011991777738；git tip 7f1ec9b（docs 2b59061）；Pages HTTP 200 md5 fb0dfa91134afdae7e84028ccbde801f live=local；chat t40s7 delivered；20:10 catchup complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；00:00 未见 00-claim/Sep22 raw（约 +196min 未到期）；18:25 板/changelog 未见单独条（automation lastRun succeeded≈19:37 前一轮，本轮并记）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；stay_quiet。  2026-09-22 08:45 CST
+
 - complete_no_rescrape：主窗 20:00 已齐（union77 overlay77 accept22/reject_href55；窗类15/8/54；页正文126/拿不准41/已过滤383）；gap≈4.35min gap_open false；cursor @MaiYangAI 2102188011991777738；Pages 200 md5 fb0dfa91 live=local；rec+ideas 09-20 已并；chat t40s7 已交不重发；**未重抓**；next 00:00 ET；stay_quiet。  2026-09-22 08:28 CST
 
 ## 2026-09-21 20:00 ET
