@@ -1,3 +1,21 @@
+## 2026-09-22 04:00 ET
+- 主窗完成：union104（DOM34∪HTL104）overlay104/104 accept42 reject_href62 fail0；depollute0；窗类正文21/拿不准11/已过滤72；页09-22 **正文17 / 拿不准11 / 已过滤75**（含薄种子3/0/3）。
+- gap≈10.3min gap_open false；hit_cursor_effective true（HTL HIT CURSOR）；游标推进 @KinGao476942 2102309153050124514。
+- QA pass clippedBtns 0；今天第一版完整页；跳过 rec/ideas（非 20:00）。
+- fire ~04:07 ET（~7min late）。
+
+## 2026-09-22 04:10 ET catchup
+- deferred_to_main → 主窗已 complete；未重抓。
+
+## 2026-09-22 03:25 ET health check
+- [x] 2026-09-22 03:25 ET 健康检查（~03:35 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文163/拿不准49/已过滤479 raw union147 overlay accept63/reject_href84 fail0 窗类40/8/99；薄种子09-22 3/0/3不交；gap≈0.45min closed；hit_cursor_effective true；cursor @elonmusk 2102249364043505664；git tip 35d100f（docs 8144534）；Pages HTTP 200 md5 2e34e8fc42d123d424b068bee9ed297e live=local；chat t40s8 delivered；00:10 catchup deferred_to_main complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep22 lists 未到期（09:23 ET，约 +348min）；04:00 未见 04-claim/04.jsonl（约 +25min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-22 15:35 CST
+
+## 2026-09-22 02:25 ET health check
+- [x] 2026-09-22 02:25 ET 健康检查（~02:39 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文163/拿不准49/已过滤479 raw union147 overlay accept63/reject_href84 fail0 窗类40/8/99；薄种子09-22 3/0/3不交；gap≈0.45min closed；hit_cursor_effective true；cursor @elonmusk 2102249364043505664；git tip 35d100f（docs 8144534）；Pages HTTP 200 md5 2e34e8fc42d123d424b068bee9ed297e live=local；chat t40s8 delivered；00:10 catchup deferred_to_main complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep22 lists 未到期（09:23 ET，约 +403min）；04:00 未见 04-claim/04.jsonl（约 +80min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-22 14:39 CST
+
+## 2026-09-22 01:25 ET health check
+- [x] 2026-09-22 01:25 ET 健康检查（~01:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 正文163/拿不准49/已过滤479 raw union147 overlay accept63/reject_href84 fail0 窗类40/8/99；薄种子09-22 3/0/3不交；gap≈0.45min closed；hit_cursor_effective true；cursor @elonmusk 2102249364043505664；git tip 35d100f（docs 8144534）；Pages HTTP 200 md5 2e34e8fc42d123d424b068bee9ed297e live=local；chat t40s8 delivered；00:10 catchup deferred_to_main complete_no_rescrape；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep22 lists 未到期（09:23 ET，约 +471min）；04:00 未见 04-claim/04.jsonl（约 +148min 未到期）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 04:00 ET；stay_quiet。  2026-09-22 13:32 CST
+
 ## 2026-09-22 00:25 ET health check
 - [x] 2026-09-22 00:25 ET 健康检查（~00:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文126/拿不准41/已过滤383 raw union77 overlay accept22/reject_href55 fail0 窗类15/8/54；gap≈4.35min closed；hit_cursor_effective true；cursor @MaiYangAI 2102188011991777738；git tip 7f1ec9b（docs 2b59061）；Pages HTTP 200 md5 fb0dfa91134afdae7e84028ccbde801f live=local；chat t40s7 delivered；00:10 catchup deferred_to_main；主窗 00:00 in_progress（claim c3a32b9b ~00:09；union147 hit_cursor_effective；overlay accept63/reject_href84 fail0；depollute0；窗类正文46/拿不准13/已过滤88；days 09-21 本地重建中正文163/拿不准49/已过滤479 尚未推 live；尚无 00-meta/QA/正式发布）；gap≈0.45min gap_open false；login_ok；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep22 lists 未到期（09:23 ET，约 +531min）；无 AUTH_FAIL/重复抓取；不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交 00:00（昨天完整页09-21）→ 04:00 ET；stay_quiet。  2026-09-22 12:32 CST
 
