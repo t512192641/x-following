@@ -1,6 +1,6 @@
 ## 2026-09-23 08:00 ET
 
-- [x] 2026-09-23 08:00 ET 主窗完成：union105 (DOM2∪HTL105) overlay accept33/reject_href72 fail0；depollute0；窗类正文22/拿不准10/已过滤73 miss0；页09-23 正文31/拿不准20/已过滤135；gap≈4.93min gap_open false；hit_cursor_effective true；cursor prior @imwsl90 2102676101952659559 → new @alex_prompter 2102738989300215909 2026-09-23T12:36:56.000Z；skip rec/ideas；git/Pages 待本窗推送；QA 08-qa.png pass clippedBtns0；fire ~27min late 收口 ~08:51 ET；chat_line 9/23 8:00：正文31 / 拿不准20 / 已过滤135；next 12:00 ET；anomaly 首轮 HTL hard-reload 后 bottom-cursor 分页（完整 auth headers）HIT CURSOR — 不升幕僚长。
+- [x] 2026-09-23 08:00 ET 主窗完成：union105 (DOM2∪HTL105) overlay accept33/reject_href72 fail0；depollute0；窗类正文22/拿不准10/已过滤73 miss0；页09-23 正文31/拿不准20/已过滤135；gap≈4.93min gap_open false；hit_cursor_effective true；cursor prior @imwsl90 2102676101952659559 → new @alex_prompter 2102738989300215909 2026-09-23T12:36:56.000Z；skip rec/ideas；public tip 54802ad；Pages md5 473bd962 live=local；QA 08-qa.png pass clippedBtns0；fire ~27min late 收口 ~08:51 ET；chat_line 9/23 8:00：正文31 / 拿不准20 / 已过滤135；next 12:00 ET；anomaly 首轮 HTL hard-reload 后 bottom-cursor 分页（完整 auth headers）HIT CURSOR — 不升幕僚长。
 
 ## 2026-09-23 08:10 ET catchup
 - deferred_to_main；08:00 in_progress union105 overlay~47/105；gap≈4.93min closed；cursor @imwsl90；stay_quiet。  2026-09-23 20:42 CST
