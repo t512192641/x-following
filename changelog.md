@@ -3,7 +3,7 @@
 
 ## 2026-09-23 12:00 ET
 
-- [x] 2026-09-23 12:00 ET 主窗完成：union136 (DOM32∪HTL131) overlay accept66/reject_href70 fail0；depollute restored4；窗类正文24/拿不准7/已过滤105 miss0；页09-23 正文55/拿不准27/已过滤240；gap≈0.78min gap_open false；hit_cursor_effective true；cursor prior @alex_prompter 2102738989300215909 → new @op7418 2102802137906630955 2026-09-23T16:47:52.000Z；skip rec/ideas；public tip PLACEHOLDER；Pages md5 PLACEHOLDER live=local；QA 12-qa.png pass clippedBtns0；fire ~46min late 收口 ~13:05 ET；chat_line 9/23 12:00：正文55 / 拿不准27 / 已过滤240；next 16:00 ET；anomaly 首轮 HTL hard-reload 后 HIT CURSOR；overlay reject_href70 按 ID 门禁保留 HTL；depollute4 — 不升幕僚长。
+- [x] 2026-09-23 12:00 ET 主窗完成：union136 (DOM32∪HTL131) overlay accept66/reject_href70 fail0；depollute restored4；窗类正文24/拿不准7/已过滤105 miss0；页09-23 正文55/拿不准27/已过滤240；gap≈0.78min gap_open false；hit_cursor_effective true；cursor prior @alex_prompter 2102738989300215909 → new @op7418 2102802137906630955 2026-09-23T16:47:52.000Z；skip rec/ideas；public tip 94e7a24；Pages md5 a19bb432 live=local；QA 12-qa.png pass clippedBtns0；fire ~46min late 收口 ~13:05 ET；chat_line 9/23 12:00：正文55 / 拿不准27 / 已过滤240；next 16:00 ET；anomaly 首轮 HTL hard-reload 后 HIT CURSOR；overlay reject_href70 按 ID 门禁保留 HTL；depollute4 — 不升幕僚长。
 
 ## 2026-09-23 12:10 ET catchup
 - [x] `x-2026-09-23-12-10` 2026-09-23 12:10 ET 补抓（~12:47 正点迟到火，约 +37min）：deferred_to_main；主窗 12:00 in_progress（c3a32b9b claimed_at ~12:46；仅 12-claim）；cursor still @alex_prompter 2102738989300215909；08 complete 31/20/135 gap closed；Pages md5 473bd962 live=local；未重抓不抢 CDP；escalate no；stay_quiet。  2026-09-24 00:49 CST
