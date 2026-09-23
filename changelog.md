@@ -1,3 +1,24 @@
+## 2026-09-23 00:00 ET
+- [x] `x-2026-09-23-00` 主窗：union159（DOM2∪HTL159；同会话 bottom-cursor 分页补洞，修嵌套 CUR 假 HIT）overlay accept70/reject_href89 fail0；depollute0；窗类正文52/拿不准12/已过滤95；页 **正文161/拿不准62/已过滤498**；薄种子09-23 4/2/3不交；gap≈4.88min closed；hit_cursor_effective true；游标 @imwsl90 2102612963807130050；跳过 rec/ideas；QA pass clippedBtns0；fire ~00:11 ET（~11min late）；**chat 待父代理交付**；next 2026-09-23 04:00 ET。
+
+## 2026-09-23 00:25 ET health check
+- [x] 2026-09-23 00:25 ET 健康检查（~00:32 ET 正点迟到火，约 +7min）：quiet_ok true；无 overdue 主缺口（scrape-meta gap_open false）；20:00 页 live 正文113/拿不准52/已过滤406 raw union90 overlay accept37/reject_href53；gap≈3.95min closed；cursor @yucheng 2102552376708305097；Pages 200 md5 76b3e7db live=local；chat t41s1；00:10 deferred_to_main；主窗 00:00 in_progress union159 overlay~91/159；scrape-meta gap≈4.88min closed（补抓时曾见 gap_open≈84min 已由主窗续抓收口）；lists Sep22 done；Sep23 lists 未到期（约 +531min）；escalate no；stay_quiet。  2026-09-23 12:33 CST
+
+## 2026-09-23 00:10 ET catchup
+- [x] `x-2026-09-23-00-10` deferred_to_main；主窗 00:00 in_progress（claim c3a32b9b ~00:11）；DOM2∪HTL88 union88；**gap_open≈84.2min** hit_cursor_effective false；login_ok；尚无 overlay/分类/meta/页；游标仍 @yucheng；09-22 Pages live 113/52/406 md5 76b3e7db；未重抓不抢CDP；交付与补洞交主窗；escalate no；stay_quiet。  2026-09-23 12:22 CST
+
+## 2026-09-22 23:25 ET health check
+- [x] 2026-09-22 23:25 ET 健康检查（~23:32 ET 正点迟到火，约 +7min）：quiet_ok true；无 overdue 主缺口（gap_open false）；20:00 页 live 正文113/拿不准52/已过滤406 raw union90 overlay accept37/reject_href53 fail0 窗类34/7/49；depollute0；gap≈3.95min closed；hit_cursor_effective true；cursor @yucheng 2102552376708305097；git tip e4ee6fa（docs 61b1383；grok-ops b5a2381）；Pages HTTP 200 md5 76b3e7db473b0a30b42725b34789af04 live=local；chat t41s1 delivered；20:10 catchup deferred_to_main complete；16:00 resume complete；lists Sep22 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep23 lists 未到期（09:23 ET，约 +590min）；00:00 未见 00-claim/Sep23 raw（约 +27min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；escalate no；stay_quiet。  2026-09-23 11:34 CST
+
+## 2026-09-22 22:25 ET health check
+- [x] 2026-09-22 22:25 ET 健康检查（~22:38 ET 正点迟到火，约 +13min）：quiet_ok true；无 overdue 主缺口（gap_open false）；20:00 页 live 正文113/拿不准52/已过滤406 raw union90 overlay accept37/reject_href53 fail0 窗类34/7/49；depollute0；gap≈3.95min closed；hit_cursor_effective true；cursor @yucheng 2102552376708305097；git tip e4ee6fa（docs 61b1383；grok-ops b5a2381）；Pages HTTP 200 md5 76b3e7db473b0a30b42725b34789af04 live=local；chat t41s1 delivered；20:10 catchup deferred_to_main complete；16:00 resume complete；lists Sep22 done 155/@HiTw93 + @DongQingAi/171 not rerun；00:00 未见 00-claim/Sep23 raw（约 +82min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；escalate no；stay_quiet。  2026-09-23 10:38 CST
+
+## 2026-09-22 20:25 ET health check
+- [x] 2026-09-22 20:25 ET 健康检查（~20:45 ET 正点迟到火，约 +20min）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文113/拿不准52/已过滤406 raw union90 overlay accept37/reject_href53 fail0 窗类34/7/49；depollute0；gap≈3.95min closed；hit_cursor_effective true；cursor @yucheng 2102552376708305097；git tip e4ee6fa（docs 61b1383）；Pages 200 md5 76b3e7db live=local；chat t41s1 delivered；20:10 catchup deferred_to_main complete；lists Sep22 done 155/@HiTw93 + DongQingAi/171 not rerun；00:00 未见 00-claim/Sep23 raw（约 +195min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 00:00 ET；escalate no；stay_quiet。  2026-09-23 08:45 CST
+
+## 2026-09-22 20:10 ET catchup
+- [x] `x-2026-09-22-20-10` deferred_to_main；主窗 20:00 in_progress union90 overlay37/53 页113/52/406；游标已 @yucheng；Pages live=local；尚无20-meta/claim；未重抓不抢CDP；交付交主窗；stay_quiet。  2026-09-23 08:33 CST
+
 ## 2026-09-22 20:00 ET
 - [x] `x-2026-09-22-20` 主窗：union90（DOM4∪HTL90）overlay accept37/reject_href53 fail0；depollute0；窗类正文34/拿不准7/已过滤49；页 **正文113/拿不准52/已过滤406**；gap≈3.95min closed；hit_cursor_effective true；游标 @yucheng 2102552376708305097；rec+ideas 09-22 merged（rec_new6 skip3 + ideas4）；QA pass clippedBtns0；fire ~20:10 ET（~10min late）；git tip **e4ee6fa**；Pages 200 md5 76b3e7db473b0a30b42725b34789af04 live=local；**chat 待父代理交付**；next 2026-09-23 00:00 ET。  2026-09-23 08:35 CST
 
@@ -93,6 +114,10 @@
 
 ## 2026-09-22 00:25 ET health check
 - [x] 2026-09-22 00:25 ET 健康检查（~00:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文126/拿不准41/已过滤383 raw union77 overlay accept22/reject_href55 fail0 窗类15/8/54；gap≈4.35min closed；hit_cursor_effective true；cursor @MaiYangAI 2102188011991777738；git tip 7f1ec9b（docs 2b59061）；Pages HTTP 200 md5 fb0dfa91134afdae7e84028ccbde801f live=local；chat t40s7 delivered；00:10 catchup deferred_to_main；主窗 00:00 in_progress（claim c3a32b9b ~00:09；union147 hit_cursor_effective；overlay accept63/reject_href84 fail0；depollute0；窗类正文46/拿不准13/已过滤88；days 09-21 本地重建中正文163/拿不准49/已过滤479 尚未推 live；尚无 00-meta/QA/正式发布）；gap≈0.45min gap_open false；login_ok；lists Sep21 done 155/@HiTw93 + @DongQingAi/171 not rerun；Sep22 lists 未到期（09:23 ET，约 +531min）；无 AUTH_FAIL/重复抓取；不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 主窗交 00:00（昨天完整页09-21）→ 04:00 ET；stay_quiet。  2026-09-22 12:32 CST
+
+## 2026-09-22 21:25 ET health check
+- [x] 2026-09-22 21:25 ET 健康检查（~21:42 ET 正点迟到火，约 +17min）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文113/拿不准52/已过滤406 raw union90 overlay accept37/reject_href53；gap≈3.95min closed；cursor @yucheng 2102552376708305097；Pages 200 md5 76b3e7db live=local；chat t41s1；lists Sep22 done 155/@HiTw93 + DongQingAi/171 not rerun；00:00 未到期（约 +138min）；escalate no；stay_quiet。  2026-09-23 09:43 CST
+
 
 ## 2026-09-22 00:00 ET
 
