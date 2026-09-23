@@ -1,3 +1,6 @@
+## 2026-09-22 20:00 ET
+- [x] `x-2026-09-22-20` 主窗：union90（DOM4∪HTL90）overlay accept37/reject_href53 fail0；depollute0；窗类正文34/拿不准7/已过滤49；页 **正文113/拿不准52/已过滤406**；gap≈3.95min closed；hit_cursor_effective true；游标 @yucheng 2102552376708305097；rec+ideas 09-22 merged（rec_new6 skip3 + ideas4）；QA pass clippedBtns0；fire ~20:10 ET（~10min late）；git tip **PENDING**；Pages PENDING；**chat 待父代理交付**；next 2026-09-23 00:00 ET。  2026-09-23 08:35 CST
+
 ## 2026-09-22 16:00 ET
 - [x] `x-2026-09-22-16` resume_post_overlay_no_cdp：union131 overlay accept53/reject_href78；depollute0；窗类正文34/拿不准9/已过滤88；页 **正文69/拿不准45/已过滤357**；gap≈0.53min closed；游标 @kaostyl 2102493983171617249；QA pass clippedBtns0；跳过 rec/ideas；git tip **2dc93ab**；Pages 200 md5 45e847d4 live=local；**chat 待父代理交付**；next 20:00 ET。  2026-09-23 07:50 CST
 
