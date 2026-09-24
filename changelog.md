@@ -1,8 +1,34 @@
+## 2026-09-24 16:10 ET catchup
+- [x] 2026-09-24 16:00 ET 主窗完成：union106 (DOM21∪HTL102) overlay accept26/reject_href80 fail0；depollute restored3；窗类正文20/拿不准11/已过滤75 miss0；页09-24 正文91/拿不准48/已过滤355；gap≈0.27min gap_open false；hit_cursor_effective true；cursor prior @Jason 2103156882772836387 → new @beihuo 2103215734403043374 2026-09-24T20:11:21.000Z；skip rec/ideas；QA 16-qa.png pass clippedBtns0；fire ~+5min late；chat_line 9/24 16:00：正文91 / 拿不准48 / 已过滤355；next 20:00 ET；anomaly overlay reject_href80 按 ID 门禁保留 HTL；depollute3 — 不升幕僚长。  2026-09-25 04:31 CST
+- [x] `x-2026-09-24-16-10` 2026-09-24 16:10 ET 补抓（~16:18 正点迟到火，约 +8min）：deferred_to_main；主窗 16:00 in_progress（c3a32b9b claimed_at ~16:10；union106 DOM21∪HTL102 hit_cursor_effective true；gap≈0.27min closed；overlay ~10/106 accept≈3/reject_href≈7 fail0 进程活跃；尚无 16-meta/depollute/分类/QA/页/游标推进）；cursor still @Jason 2103156882772836387；12:00 页 live 76/37/280 md5 b004528a live=local chat t42s3；未重抓不抢 CDP；交付交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-25 04:19 CST
+
+## 2026-09-24 15:25 ET health check
+- quiet_ok；12:00 齐 76/37/280；gap≈5.18min closed；cursor @Jason；lists Sep24 已齐不重跑；16:00 约 +30min 未到期；escalate no；stay_quiet。  2026-09-25 03:31 CST
+
 ## 2026-09-24 12:00 ET
+
+## 2026-09-24 14:25 ET health check
+- quiet_ok；12:00 齐 76/37/280；gap≈5.18min closed；cursor @Jason；lists Sep24 已齐不重跑；16:00 约 +85min 未到期；escalate no；stay_quiet。  2026-09-25 02:35 CST
 - complete；交当天续页 days/2026-09-24.html；union **145**（DOM39∪HTL141）overlay accept**65**/reject_href**80**/fail**0**；depollute restored**3**；窗类 正文**26**/拿不准**15**/已过滤**104** miss0；页累计 正文**76**/拿不准**37**/已过滤**280**；gap≈**5.18**min closed；hit_cursor_effective true；cursor prior @agazdecki 2103099702132838671 → @Jason **2103156882772836387**；跳过 rec/ideas；QA pass clippedBtns0；fire ~12:14 ET（sched 12:05，~+9min late）；anomaly：overlay explore/for-you 劫持拒写（同 08 窗模式，ID 门禁保留 HTL）。
 
-## 2026-09-24 08:00 ET
+## 2026-09-24 12:25 ET health check
 
+- [x] 2026-09-24 12:25 ET 健康检查（~12:30 ET 正点迟到火，sched :25，约 +5min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap_open false）；最近完成窗 **08:00** 页 live 正文50/拿不准22/已过滤176 raw union112 overlay accept40/reject_href72 fail0 窗类27/9/76 miss0；depollute2；gap≈2.72min closed；hit_cursor_effective true；cursor @agazdecki 2103099702132838671；git tip 01989e9（grok-ops 21cbab7）；Pages HTTP 200 md5 e0d16c685e6d070cba7e73fc2587085a live=local；QA pass；08-meta/claim complete；**chat t42s2 delivered**；08:10 deferred_to_main complete；04:00 亦齐；**12:00 in_progress**（c3a32b9b ~12:14 龄≈17min；union145；overlay ~133/145 accept≈57/reject_href≈74 fail0 进程活跃非假 succeeded；尚无 12-meta/分类/QA/页）；12:10 deferred complete；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 主窗交 12:00 → 16:00 ET；escalate no；stay_quiet。  2026-09-25 00:31 CST
+
+## 2026-09-24 11:25 ET health check
+- [x] 2026-09-24 11:25 ET 健康检查（~11:30 ET 正点迟到火，sched :25，约 +5min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap_open false）；最近完成窗 **08:00** 页 live 正文50/拿不准22/已过滤176 raw union112 overlay accept40/reject_href72 fail0 窗类27/9/76 miss0；depollute2；gap≈2.72min closed；hit_cursor_effective true；cursor @agazdecki 2103099702132838671；git tip 01989e9（grok-ops 21cbab7）；Pages HTTP 200 md5 e0d16c685e6d070cba7e73fc2587085a live=local；QA pass；08-meta/claim complete；**chat t42s2 delivered**；08:10 deferred_to_main complete；04:00 亦齐；无 stuck in_progress；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；12:00 未见 12-claim/12.jsonl（约 +29min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 12:00 ET；escalate no；stay_quiet。  2026-09-24 23:31 CST
+
+## 2026-09-24 10:25 ET health check
+- [x] 2026-09-24 10:25 ET 健康检查（~10:26 ET 正点迟到火，sched :25，约 +1min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap_open false）；最近完成窗 **08:00** 页 live 正文50/拿不准22/已过滤176 raw union112 overlay accept40/reject_href72 fail0 窗类27/9/76 miss0；depollute2；gap≈2.72min closed；hit_cursor_effective true；cursor @agazdecki 2103099702132838671；git tip 01989e9（grok-ops 21cbab7）；Pages HTTP 200 md5 e0d16c685e6d070cba7e73fc2587085a live=local；QA pass；08-meta/claim complete；**chat t42s2 delivered**；08:10 deferred_to_main complete；04:00 亦齐；无 stuck in_progress；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；12:00 未见 12-claim/12.jsonl（约 +94min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 12:00 ET；escalate no；stay_quiet。  2026-09-24 22:27 CST
+
+## 2026-09-24 09:25 ET health check
+- [x] 2026-09-24 09:25 ET 健康检查（~09:50 ET 正点迟到火，sched :25，约 +25min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap_open false）；最近完成窗 **08:00** 页 live 正文50/拿不准22/已过滤176 raw union112 overlay accept40/reject_href72 fail0 窗类27/9/76 miss0；depollute2；gap≈2.72min closed；hit_cursor_effective true；cursor @agazdecki 2103099702132838671；git tip 01989e9（grok-ops a719a4f）；Pages HTTP 200 md5 e0d16c685e6d070cba7e73fc2587085a live=local；QA pass；08-meta/claim complete；**chat t42s2 delivered**；08:10 deferred_to_main complete；04:00 亦齐；无 stuck in_progress；**lists Sep24 overdue**（x-4 lastRun 09-23；sched 09:23 约 +27min）→ 当场便宜补跑 ~09:52：关注未变 155/@HiTw93；书签未变 Mileson07/172；未改 jsonl；meta/_check 已写；**调度漏叫**（x-4 09:23 未火）已记；12:00 未见 12-claim（约 +128min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 12:00 ET；escalate no（名单无变只交幕僚长一句）；stay_quiet_user。  2026-09-24 21:55 CST
+
+## 2026-09-24 09:52 ET x-lists (health catchup)
+- [x] 2026-09-24 ~09:52 ET 名单补跑（健康检查兜底·x-4 9:23 漏叫）：logged in；关注未变 155/@HiTw93；书签未变 @Mileson07/2102408085029667293 计数 172；未改 jsonl；meta/_check 已写；sync 私有 grok-ops；抓完 x.com/home。  2026-09-24 21:55 CST
+## 2026-09-24 08:25 ET health check
+- [x] 2026-09-24 08:25 ET 健康检查（~08:49 ET 正点迟到火，sched :25，约 +24min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap_open false）；最近完成窗 **08:00** 页 live 正文50/拿不准22/已过滤176 raw union112 overlay accept40/reject_href72 fail0 窗类27/9/76 miss0；depollute2；gap≈2.72min closed；hit_cursor_effective true；cursor @agazdecki 2103099702132838671；git tip 01989e9（grok-ops 6a9afb2）；Pages HTTP 200 md5 e0d16c685e6d070cba7e73fc2587085a live=local；QA pass；08-meta/claim complete；**chat t42s2 delivered**（08-meta + ops 板已钉）；08:10 deferred_to_main complete；04:00 亦齐（29/13/100 chat t42s1）；无 stuck in_progress；lists Sep23 done 155/@HiTw93 + @Mileson07/172 not rerun；Sep24 lists 未到期（09:23 ET，约 +34min）不早跑；12:00 未见 12-claim/12.jsonl（约 +191min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 12:00 ET；escalate no；stay_quiet。  2026-09-24 20:51 CST
+## 2026-09-24 08:00 ET
 - [x] 2026-09-24 08:00 ET 主窗（~08:27 ET 火，sched 08:05，约 +22min late）：complete；交当天续页 days/2026-09-24.html；union **112**（DOM41∪HTL111）overlay accept**40**/reject_href**72**/fail**0**；depollute restored**2**；窗类 正文**27**/拿不准**9**/已过滤**76** miss0；页累计 正文**50**/拿不准**22**/已过滤**176**；gap≈**2.72**min closed；hit_cursor_effective true；cursor prior @imwsl90 2103035320262607354 → @agazdecki **2103099702132838671**；跳过 rec/ideas；QA pass clippedBtns0；chat_line pending_parent；next 12:00 ET。
 
 ## 2026-09-24 08:10 ET catchup
