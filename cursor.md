@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2102859292001136680
-- url: https://x.com/garrytan/status/2102859292001136680
-- author: Garry Tan
-- handle: @garrytan
-- time_utc: 2026-09-23T20:34:59.000Z
-- updated: 2026-09-23 16:00 ET window
+- status_id: 2102918820109471745
+- url: https://x.com/derrickcchoi/status/2102918820109471745
+- author: Derrick Choi
+- handle: @derrickcchoi
+- time_utc: 2026-09-24T00:31:31.000Z
+- updated: 2026-09-23 20:00 ET window
