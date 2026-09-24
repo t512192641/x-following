@@ -1,3 +1,28 @@
+## 2026-09-24 00:00 ET
+- [x] 2026-09-24 00:00 ET 补抓完整主抓收口（overlay 45→161 续跑）：union161 overlay accept58/reject_href103 fail0；depollute restored2；窗类正文25/拿不准23/已过滤113 miss0；页09-23 正文103/拿不准60/已过滤464；薄种子09-24 1/0/5 不交；gap≈0.73min closed；hit_cursor_effective true；cursor prior @derrickcchoi 2102918820109471745 → new @garrytan 2102976118068498534 2026-09-24T04:19:12.000Z；rec/ideas skipped；public tip 38dc018；Pages md5 c7d9a34c37fdfd1d93186247b507ece0 live=local；QA pass clippedBtns0；claim complete；chat_line pending_parent；**假 succeeded 再钉死**：claim complete 前必须齐备 depollute+class miss0+merge+meta+QA+游标+chat_line pending_parent（平台 automation succeeded ≠ 流水线收口）；anomaly 旧 CDP tab 卡 for-you，换新 tab 续跑；next 04:00 ET（交今天第一版，勿塞昨天完整页）。
+
+## 2026-09-24 01:25 ET health check
+- [x] ~01:27 ET：00 窗假 succeeded 续卡（overlay 45/161 停≈63min，无进程；缺硬门禁与昨天完整页交付）；不扩大重跑；升幕僚长。  2026-09-24 13:29 CST
+
+## 2026-09-24 00:25 ET health check
+- [x] 2026-09-24 00:25 ET 健康检查（~00:35 ET 正点迟到火，sched :25，约 +10min）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文79/拿不准37/已过滤356 raw union73 overlay accept18/reject_href55 fail0 窗类17/5/51；gap≈10.03min closed；hit_cursor_effective true；cursor @derrickcchoi 2102918820109471745；git tip d94dde7 docs 8503bc1 grok-ops 409786b；Pages 200 md5 86daadd5 live=local；QA pass；chat t41s7 delivered；**00 窗仍 in_progress（平台补抓/主窗假 succeeded）**：union161 overlay mid~45/161；缺 articles/depollute/class/meta/QA/页/游标/chat；主窗 00:05 漏跑→补抓 cdf0cd43 占坑；不扩大重跑不抢 CDP；lists Sep23 done；Sep24 lists 未到期不早跑；escalate no；stay_quiet。  2026-09-24 12:37 CST
+- 调度：平台自动化显示补抓 last~12:15 CST、主窗~12:18 CST 均 succeeded，但磁盘 claim 仍 in_progress、硬门禁未齐、overlay 停于 45/161（12:26 CST）且本机无进程——记为假 succeeded；交后续窗/补抓按硬门禁收口，健康检查不重跑。
+
+## 2026-09-24 00:00 ET
+- [x] 主窗 c3a32b9b ~00:18 ET 迟到火：deferred_to_catchup；补抓已占坑完整主抓（00-claim in_progress；prior @derrickcchoi 2102918820109471745）；未重抓不抢 CDP；交付交补抓；escalate no；stay_quiet。  2026-09-24 12:19 CST
+
+## 2026-09-23 23:25 ET health check
+- [x] 2026-09-23 23:25 ET 健康检查（~23:40 ET 正点迟到火，sched :25，约 +15min）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文79/拿不准37/已过滤356 raw union73 overlay accept18/reject_href55 fail0 窗类17/5/51；depollute0；gap≈10.03min closed；hit_cursor_effective true；cursor @derrickcchoi 2102918820109471745；git tip d94dde7 docs 8503bc1 grok-ops 409786b；Pages 200 md5 86daadd5 live=local；QA pass；chat t41s7 delivered；lists Sep23 done 155/@HiTw93 + Mileson07/172 not rerun；00:00 not due (~+20min)；escalate no；stay_quiet。  2026-09-24 11:40 CST
+
+## 2026-09-23 22:25 ET health check
+- [x] 2026-09-23 22:25 ET 健康检查（~22:40 ET 正点迟到火，sched :25，约 +15min）：quiet_ok true；无 overdue 主缺口（20 scrape-meta gap_open false）；20:00 页 live 正文79/拿不准37/已过滤356 raw union73 overlay accept18/reject_href55 fail0 窗类17/5/51；depollute0；gap≈10.03min closed；hit_cursor_effective true；cursor @derrickcchoi 2102918820109471745；git tip d94dde7（docs 8503bc1；grok-ops 409786b）；Pages HTTP 200 md5 86daadd5065b335479acff5efa0b9a33 live=local；QA pass；20-meta/claim complete；chat t41s7 delivered；20:10 deferred_to_main complete；lists Sep23 done 155/@HiTw93 + @Mileson07/172 not rerun；Sep24 lists 未到期（09:23 ET，约 +642min）；00:00 未见 00-claim/Sep24 raw（约 +79min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 00:00 ET（交昨天完整页 09-23）；escalate no；stay_quiet。  2026-09-24 10:41 CST
+
+## 2026-09-23 21:25 ET health check
+- [x] 2026-09-23 21:25 ET 健康检查（~21:41 ET 正点迟到火，sched :25，约 +16min）：quiet_ok true；无 overdue 主缺口（20 scrape-meta gap_open false）；20:00 页 live 正文79/拿不准37/已过滤356 raw union73 overlay accept18/reject_href55 fail0 窗类17/5/51；depollute0；gap≈10.03min closed；hit_cursor_effective true；cursor @derrickcchoi 2102918820109471745；git tip d94dde7（docs 8503bc1；grok-ops 409786b）；Pages HTTP 200 md5 86daadd5065b335479acff5efa0b9a33 live=local；QA pass；20-meta/claim complete；chat t41s7 delivered；20:10 deferred_to_main complete；lists Sep23 done 155/@HiTw93 + @Mileson07/172 not rerun；Sep24 lists 未到期（09:23 ET，约 +699min）；00:00 未见 00-claim/Sep24 raw（约 +136min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 00:00 ET（交昨天完整页 09-23）；escalate no；stay_quiet。  2026-09-24 09:43 CST
+
+## 2026-09-23 20:25 ET health check
+- [x] 2026-09-23 20:25 ET 健康检查（~20:44 ET 正点迟到火，sched :25，约 +19min）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文79/拿不准37/已过滤356 raw union73 overlay accept18/reject_href55 fail0 窗类17/5/51；depollute0；gap≈10.03min closed；hit_cursor_effective true；cursor @derrickcchoi 2102918820109471745；git tip d94dde7 docs 1e643c4 grok-ops 8bce056；Pages 200 md5 86daadd5 live=local；chat pending_parent（主窗仍 running）；20:10 deferred complete；lists Sep23 done 155/@HiTw93 + Mileson07/172 not rerun；00:00 not due（~+196min）；escalate no；stay_quiet。  2026-09-24 08:45 CST
+
 ## 2026-09-23 20:00 ET
 - [x] 2026-09-23 20:00 ET 主窗完成：union73 (DOM18∪HTL72) overlay accept18/reject_href55 fail0；depollute restored0；窗类正文17/拿不准5/已过滤51 miss0；页09-23 正文79/拿不准37/已过滤356；gap≈10.03min gap_open false；hit_cursor_effective true；cursor prior @garrytan 2102859292001136680 → new @derrickcchoi 2102918820109471745 2026-09-24T00:31:31.000Z；rec/ideas skipped（latest 仍 2026-09-22，已并进 09-22 日页）；public tip d94dde7 docs 1e643c4 grok-ops f878eb7；Pages md5 86daadd5065b335479acff5efa0b9a33 live=local；QA 20-qa.png pass clippedBtns0；fire ~26min late；chat_line 9/23 20:00：正文79 / 拿不准37 / 已过滤356；next 2026-09-24 00:00 ET（交昨天完整页 09-23）；anomaly overlay reject_href55 按 ID 门禁保留 HTL；HTL hard-reload 后 HIT CURSOR — 不升幕僚长。
 
