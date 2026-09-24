@@ -1,4 +1,8 @@
+## 2026-09-24 12:00 ET
+- complete；交当天续页 days/2026-09-24.html；union **145**（DOM39∪HTL141）overlay accept**65**/reject_href**80**/fail**0**；depollute restored**3**；窗类 正文**26**/拿不准**15**/已过滤**104** miss0；页累计 正文**76**/拿不准**37**/已过滤**280**；gap≈**5.18**min closed；hit_cursor_effective true；cursor prior @agazdecki 2103099702132838671 → @Jason **2103156882772836387**；跳过 rec/ideas；QA pass clippedBtns0；fire ~12:14 ET（sched 12:05，~+9min late）；anomaly：overlay explore/for-you 劫持拒写（同 08 窗模式，ID 门禁保留 HTL）。
+
 ## 2026-09-24 08:00 ET
+
 - [x] 2026-09-24 08:00 ET 主窗（~08:27 ET 火，sched 08:05，约 +22min late）：complete；交当天续页 days/2026-09-24.html；union **112**（DOM41∪HTL111）overlay accept**40**/reject_href**72**/fail**0**；depollute restored**2**；窗类 正文**27**/拿不准**9**/已过滤**76** miss0；页累计 正文**50**/拿不准**22**/已过滤**176**；gap≈**2.72**min closed；hit_cursor_effective true；cursor prior @imwsl90 2103035320262607354 → @agazdecki **2103099702132838671**；跳过 rec/ideas；QA pass clippedBtns0；chat_line pending_parent；next 12:00 ET。
 
 ## 2026-09-24 08:10 ET catchup
