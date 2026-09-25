@@ -1,3 +1,25 @@
+## 2026-09-25 00:00 ET
+
+- [x] 2026-09-25 00:00 ET 主窗完成：union123 (DOM37∪HTL123) overlay accept53/reject_href70 fail0；depollute restored2；窗类正文15/拿不准6/已过滤102 miss0；页09-24 正文125/拿不准56/已过滤521；薄种子09-25 4/0/7；gap≈2.13min gap_open false；hit_cursor_effective true；cursor prior @Michell49473040 2103276130887405893 → new @HiTw93 2103338006778348023 2026-09-25T04:17:13.000Z；skip rec/ideas；QA 00-qa.png pass clippedBtns0；fire ~+8min late；chat_line 9/24 0:00：正文125 / 拿不准56 / 已过滤521；next 04:00 ET；anomaly overlay reject_href70 explore/for-you+引用 ID mismatch（HTL 保留）— 不升幕僚长。  2026-09-25 12:32 CST
+
+## 2026-09-25 00:25 ET health check
+- [x] 2026-09-25 00:25 ET 健康检查（~00:30 ET 正点迟到火，sched :25，约 +5min）：quiet_ok true；无 overdue 主缺口（20 scrape-meta gap_open false；00 scrape gap≈2.13min closed）；最近完成窗 **20:00** 页 live 正文114/拿不准50/已过滤426 raw union81 overlay accept10/reject_href71 fail0 窗类8/2/71 miss0；depollute3；gap≈6.33min closed；hit_cursor_effective true；cursor still @Michell49473040 2103276130887405893；git tip 3870c9f（grok-ops 1929141；site origin 3870c9f，本地 checkout 落后无碍）；Pages HTTP 200 md5 501c745b7566e8f7f11d303073a0edd0 live=local；QA pass；20-meta/claim complete；chat t42s442 delivered；20:10 deferred_to_main complete；16/12/08/04/00(Sep24) 亦齐；**00:00 in_progress**（c3a32b9b claimed_at ~00:14 龄≈17min；union123 DOM37∪HTL123 hit_cursor_effective true gap≈2.13min closed；overlay 齐 accept53/reject_href70 fail0；depollute restored2；classify 进行中 `_class*`/`00-classify-run.out` mtime 更新；尚无 00-meta/QA/昨天完整页 merge/游标推进/chat；平台 running 与磁盘一致，非假 succeeded）；00:10 deferred_to_main complete；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；Sep25 lists 未到期（09:23 ET，约 +533min）不早跑；04:00 未见 04-claim（约 +210min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 主窗交 00:00（昨天完整页 09-24）→ 04:00 ET；escalate no；stay_quiet。  2026-09-25 12:31 CST
+
+## 2026-09-25 00:10 ET catchup
+- [x] `x-2026-09-25-00-10` 2026-09-25 00:10 ET 补抓（~00:16 正点迟到火，约 +6min）：deferred_to_main；主窗 00:00 in_progress（c3a32b9b claimed_at ~00:14；DOM37 login_ok；HTL 进行中 ~123+；尚无 union/overlay/meta/分类/QA/页/游标推进）；HTL oldest→prior ≈2.1min；cursor still @Michell49473040 2103276130887405893；20:00 页 live 114/50/426 md5 501c745b live=local chat t42s442；未重抓不抢 CDP；交付（昨天完整页）交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-25 12:18 CST
+
+## 2026-09-24 23:25 ET
+- health x-3：quiet_ok；20:00 live 114/50/426 md5 501c745b；lists Sep24 done；00:00 ~+29min；stay_quiet。  2026-09-25 11:31 CST
+
+## 2026-09-24 22:25 ET
+- health x-3：quiet_ok；20:00 live 114/50/426 md5 501c745b；lists Sep24 done；00:00 ~+87min；stay_quiet。  2026-09-25 10:32 CST
+
+## 2026-09-24 21:25 ET health check
+- [x] 2026-09-24 21:25 ET 健康检查（~21:32 ET 正点迟到火，sched :25，约 +7min）：quiet_ok true；无 overdue 主缺口（20 scrape-meta gap_open false）；最近完成窗 **20:00** 页 live 正文114/拿不准50/已过滤426 raw union81 overlay accept10/reject_href71 fail0 窗类8/2/71 miss0；depollute3；gap≈6.33min closed；hit_cursor_effective true；cursor @Michell49473040 2103276130887405893；git tip 3870c9f（grok-ops 1929141；site origin 3870c9f，本地 checkout 落后无碍）；Pages HTTP 200 md5 501c745b7566e8f7f11d303073a0edd0 live=local；QA pass；20-meta/claim complete；chat t42s442 delivered；20:10 deferred_to_main complete；16/12/08/04/00 亦齐；无 stuck in_progress；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；Sep25 lists 未到期（09:23 ET，约 +710min）不早跑；00:00 未见 00-claim/Sep25 raw（约 +147min 未到期）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 00:00 ET；escalate no；stay_quiet。  2026-09-25 09:32 CST
+
+## 2026-09-24 20:25 ET health check
+- [x] 2026-09-24 20:25 ET 健康检查（~20:26 ET 正点火，sched :25，约 +1min）：quiet_ok true；无 overdue 主缺口（20 scrape-meta gap_open false）；最近完成窗 **20:00** 页 live 正文114/拿不准50/已过滤426 raw union81 overlay accept10/reject_href71 fail0 窗类8/2/71 miss0；depollute3；gap≈6.33min closed；hit_cursor_effective true；cursor @Michell49473040 2103276130887405893；git tip 3870c9f；Pages HTTP 200 md5 501c745b live=local；QA pass；20-meta/claim complete；chat t42s442 delivered；20:10 deferred complete；16/12/08/04/00 亦齐；无 stuck；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；Sep25 lists 未到期（约 +776min）；00:00 约 +213min 未到期；无 AUTH_FAIL/重复抓取；不扩大重跑；接管四条 enabled；旧四条 disabled；next 00:00 ET；escalate no；stay_quiet。  2026-09-25 08:27 CST
+
 ## 2026-09-24 20:00 ET
 
 - [x] 2026-09-24 20:00 ET 主窗完成：union81 (DOM16∪HTL75) overlay accept10/reject_href71 fail0；depollute restored3；窗类正文8/拿不准2/已过滤71 miss0；页09-24 正文114/拿不准50/已过滤426；gap≈6.33min gap_open false；hit_cursor_effective true；cursor prior @beihuo 2103215734403043374 → new @Michell49473040 2103276130887405893 2026-09-25T00:11:21.000Z；**并 recommended+ideas 2026-09-23**（rec11+ideas4）；QA 20-qa.png pass clippedBtns0；fire ~+3min late；chat_line 9/24 20:00：正文114 / 拿不准50 / 已过滤426；next 次日 00:00 ET；anomaly overlay reject_href71 explore/for-you+引用 ID mismatch（HTL 保留）；Higgsfield $1B 洪水人工压至 2 正文 — 不升幕僚长。  2026-09-25 08:23 CST
