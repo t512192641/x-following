@@ -1,3 +1,25 @@
+## 2026-09-25 12:10 ET 补抓
+- deferred_to_main：主窗 12:00 in_progress（union96 overlay~31/96 accept≈10/reject_href≈21）；gap≈1.58min gap_open false；未重抓不抢 CDP；交付交主窗。
+
+## 2026-09-25 12:00 ET
+- 主窗 complete：union96（DOM22∪HTL91）overlay accept23/reject_href73 fail0；depollute restored3；窗类正文15/拿不准7/已过滤74 miss0；页09-25 **36/21/214**；gap≈1.58min closed；hit_cursor_effective true；cursor @KSimback 2103457592882204780 → @geekbb **2103515590174626259**；skip rec/ideas；QA pass clippedBtns0；chat pending_parent；next 16:00 ET；escalate no。
+
+
+## 2026-09-25 11:25 ET health check
+- [x] 2026-09-25 11:25 ET 健康检查（~11:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **08:00** 页 live 正文25/拿不准14/已过滤140；gap≈7.28min closed；cursor @KSimback 2103457592882204780；Pages 200 md5 5a9e0f45 live=local；chat t42s445；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；12:00 未到期（约 +26min）；escalate no；stay_quiet。  2026-09-25 23:34 CST
+
+## 2026-09-25 10:25 ET health check
+- [x] 2026-09-25 10:25 ET 健康检查（~10:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **08:00** 页 live 正文25/拿不准14/已过滤140；gap≈7.28min closed；cursor @KSimback 2103457592882204780；Pages 200 md5 5a9e0f45 live=local；chat t42s445；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；12:00 未到期（约 +86min）；escalate no；stay_quiet。  2026-09-25 22:34 CST
+
+## 2026-09-25 09:25 ET health check
+- [x] 2026-09-25 09:25 ET 健康检查（~09:32 ET 正点迟到火，sched :25，约 +7min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **08:00** 页 live 正文25/拿不准14/已过滤140；gap≈7.28min closed；cursor @KSimback 2103457592882204780；Pages 200 md5 5a9e0f45 live=local；chat t42s445；**lists Sep25 overdue** → 当场便宜补跑 ~09:35：关注未变 155/@HiTw93；书签未变 Mileson07/172；未改 jsonl；**名单调度漏叫**：x-4 今日 9:23 ET 未醒（last run 仍 09-24 21:50）；按拍板当场补跑。12:00 未到期（约 +145min）；escalate no（名单无变只交幕僚长一句）；stay_quiet_user。  2026-09-25 21:35 CST
+
+## 2026-09-25 09:35 ET x-lists (health catchup)
+- [x] 2026-09-25 ~09:35 ET 名单补跑（健康检查兜底·x-4 9:23 漏叫）：logged in；关注未变 155/@HiTw93；书签未变 @Mileson07/2102408085029667293 计数 172；未改 jsonl；meta/_check 已写；sync 私有 grok-ops；抓完 x.com/home。  2026-09-25 21:35 CST
+
+## 2026-09-25 08:25 ET health check
+- [x] 2026-09-25 08:25 ET 健康检查（~08:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap_open false）；最近完成窗 **08:00** 页 live 正文25/拿不准14/已过滤140 raw union96 overlay accept30/reject_href66 fail0 窗类13/8/75 miss0；depollute7；gap≈7.28min closed；hit_cursor_effective true；cursor @KSimback 2103457592882204780；git tip public 7a1c429（grok-ops 951f1c2；site origin 本地 checkout 落后至 fdebdc2 无碍，Pages live=local）；Pages HTTP 200 md5 5a9e0f45262acd2bf3469a23b13a2889 live=local；QA pass；08-meta/claim complete；chat t42s445 delivered；08:10 deferred_to_main complete；04:00/00:00 亦齐；无 stuck in_progress；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；Sep25 lists 未到期（09:23 ET，约 +50min）不早跑；12:00 未见 12-claim/12.jsonl（约 +207min 未到期）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 12:00 ET；escalate no；stay_quiet。  2026-09-25 20:33 CST
+
 ## 2026-09-25 08:00 ET
 - 主窗 complete：union96（DOM24∪HTL95）overlay accept30/reject_href66 fail0；depollute restored7；窗类正文13/拿不准8/已过滤75 miss0；页09-25 **25/14/140**；gap≈7.28min closed；hit_cursor_effective true；cursor @ajambrosino 2103396361081336104 → @KSimback **2103457592882204780**；skip rec/ideas；QA pass clippedBtns0；chat pending_parent；next 12:00 ET；escalate no。
 
