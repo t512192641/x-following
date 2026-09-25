@@ -1,3 +1,23 @@
+## 2026-09-25 16:00 ET
+
+- 主窗完成：union52（DOM10∪HTL51）overlay accept18/reject_href34 fail0（含 clear-tab 续跑 +14）；depollute restored0；窗类正文12/拿不准6/已过滤34 miss0；页09-25 正文46/拿不准27/已过滤248；gap≈0.48min closed；hit_cursor_effective true；cursor @geekbb 2103515590174626259 → @thejustinwelsh 2103577820177793352；skip rec/ideas；QA pass clippedBtns0；chat_line pending_parent；next 20:00 ET。
+- anomaly：overlay explore/for-you 拒写门禁（reject_href34 保留 HTL）；不升幕僚长。
+
+## 2026-09-25 16:10 ET 补抓
+- deferred_to_main：主窗 16:00 in_progress（union52 overlay accept4/reject_href48 fail0 刚 merge；尚无 meta/分类/页）；gap≈0.48min gap_open false；未重抓不抢 CDP；交付交主窗。
+
+## 2026-09-25 15:25 ET health check
+- [x] 2026-09-25 15:25 ET 健康检查（~15:32 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口（12 scrape-meta gap_open false）；最近完成窗 **12:00** 页 live 正文36/拿不准21/已过滤214 raw union96 overlay accept23/reject_href73 fail0 窗类15/7/74 miss0；depollute3；gap≈1.58min closed；hit_cursor_effective true；cursor @geekbb 2103515590174626259；git tip public 0d255a0（grok-ops 将跟本条；site origin 本地 checkout 落后至 fdebdc2 无碍，Pages live=local）；Pages HTTP 200 md5 22f2bd59b885031df32dfdbe1cb5eab1 live=local；QA pass；12-meta/claim complete；chat t42s447 delivered；12:10 deferred_to_main complete；08:00/04:00/00:00 亦齐；无 stuck in_progress；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；16:00 未见 16-claim/16.jsonl（约 +27min 未到期）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 16:00 ET；escalate no；stay_quiet。  2026-09-26 03:32 CST
+
+## 2026-09-25 14:25 ET health check
+- [x] 2026-09-25 14:25 ET 健康检查（~14:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口（12 scrape-meta gap_open false）；最近完成窗 **12:00** 页 live 正文36/拿不准21/已过滤214 raw union96 overlay accept23/reject_href73 fail0 窗类15/7/74 miss0；depollute3；gap≈1.58min closed；hit_cursor_effective true；cursor @geekbb 2103515590174626259；git tip public 0d255a0（grok-ops 将跟本条；site origin 本地 checkout 落后至 fdebdc2 无碍，Pages live=local）；Pages HTTP 200 md5 22f2bd59b885031df32dfdbe1cb5eab1 live=local；QA pass；12-meta/claim complete；chat t42s447 delivered；12:10 deferred_to_main complete；08:00/04:00/00:00 亦齐；无 stuck in_progress；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；16:00 未见 16-claim/16.jsonl（约 +86min 未到期）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 16:00 ET；escalate no；stay_quiet。  2026-09-26 02:34 CST
+
+## 2026-09-25 13:25 ET — health check quiet_ok
+- fire ~13:26 ET（sched :25，+1min）；quiet_ok；12:00 页 live 36/21/214 md5 22f2bd59 live=local；cursor @geekbb 2103515590174626259；lists Sep25 done not rerun；next 16:00 ET；escalate no。
+
+## 2026-09-25 12:25 ET health check
+- [x] 2026-09-25 12:25 ET 健康检查（~12:27 ET 正点火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **12:00** 页 live 正文36/拿不准21/已过滤214；gap≈1.58min closed；cursor @geekbb 2103515590174626259；Pages 200 md5 22f2bd59 live=local；chat t42s447；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；16:00 未到期（约 +212min）；escalate no；stay_quiet。  2026-09-26 00:27 CST
+
 ## 2026-09-25 12:10 ET 补抓
 - deferred_to_main：主窗 12:00 in_progress（union96 overlay~31/96 accept≈10/reject_href≈21）；gap≈1.58min gap_open false；未重抓不抢 CDP；交付交主窗。
 
