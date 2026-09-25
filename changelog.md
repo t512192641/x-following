@@ -1,4 +1,20 @@
+## 2026-09-24 20:00 ET
+
+- [x] 2026-09-24 20:00 ET 主窗完成：union81 (DOM16∪HTL75) overlay accept10/reject_href71 fail0；depollute restored3；窗类正文8/拿不准2/已过滤71 miss0；页09-24 正文114/拿不准50/已过滤426；gap≈6.33min gap_open false；hit_cursor_effective true；cursor prior @beihuo 2103215734403043374 → new @Michell49473040 2103276130887405893 2026-09-25T00:11:21.000Z；**并 recommended+ideas 2026-09-23**（rec11+ideas4）；QA 20-qa.png pass clippedBtns0；fire ~+3min late；chat_line 9/24 20:00：正文114 / 拿不准50 / 已过滤426；next 次日 00:00 ET；anomaly overlay reject_href71 explore/for-you+引用 ID mismatch（HTL 保留）；Higgsfield $1B 洪水人工压至 2 正文 — 不升幕僚长。  2026-09-25 08:23 CST
+
+## 2026-09-24 20:10 ET
+- catchup x-2 deferred_to_main：20:00 主窗 in_progress（union81 overlay mid）；不重抓不抢 CDP；交付交主窗。  2026-09-25 08:13 CST
+## 2026-09-24 18:25 ET health check
+- [x] 2026-09-24 18:25 ET 健康检查（~18:28 ET 正点迟到火，约 +3min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文91/拿不准48/已过滤355 raw union106 overlay accept26/reject_href80 fail0 窗类20/11/75；gap≈0.27min closed；cursor @beihuo 2103215734403043374；Pages 200 md5 0c152a8e live=local；chat t42s441；16:10 deferred；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未到期（约 +95min）；escalate no；stay_quiet。  2026-09-25 06:29 CST
+
 ## 2026-09-24 16:10 ET catchup
+
+## 2026-09-24 17:25 ET health check
+- [x] 2026-09-24 17:25 ET 健康检查（~17:26 ET 正点火，约 +1min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文91/拿不准48/已过滤355 raw union106 overlay accept26/reject_href80 fail0 窗类20/11/75；gap≈0.27min closed；cursor @beihuo 2103215734403043374；Pages 200 md5 0c152a8e live=local；chat t42s441；16:10 deferred；lists Sep24 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未到期（约 +154min）；escalate no；stay_quiet。  2026-09-25 05:27 CST
+
+## 2026-09-24 16:25 ET health check
+- quiet_ok；16:00 页 live 91/48/355 md5 0c152a8e live=local；cursor @beihuo；claim/chat 主窗收口中；lists Sep24 已齐未再抓；escalate no；stay_quiet。
+
 - [x] 2026-09-24 16:00 ET 主窗完成：union106 (DOM21∪HTL102) overlay accept26/reject_href80 fail0；depollute restored3；窗类正文20/拿不准11/已过滤75 miss0；页09-24 正文91/拿不准48/已过滤355；gap≈0.27min gap_open false；hit_cursor_effective true；cursor prior @Jason 2103156882772836387 → new @beihuo 2103215734403043374 2026-09-24T20:11:21.000Z；skip rec/ideas；QA 16-qa.png pass clippedBtns0；fire ~+5min late；chat_line 9/24 16:00：正文91 / 拿不准48 / 已过滤355；next 20:00 ET；anomaly overlay reject_href80 按 ID 门禁保留 HTL；depollute3 — 不升幕僚长。  2026-09-25 04:31 CST
 - [x] `x-2026-09-24-16-10` 2026-09-24 16:10 ET 补抓（~16:18 正点迟到火，约 +8min）：deferred_to_main；主窗 16:00 in_progress（c3a32b9b claimed_at ~16:10；union106 DOM21∪HTL102 hit_cursor_effective true；gap≈0.27min closed；overlay ~10/106 accept≈3/reject_href≈7 fail0 进程活跃；尚无 16-meta/depollute/分类/QA/页/游标推进）；cursor still @Jason 2103156882772836387；12:00 页 live 76/37/280 md5 b004528a live=local chat t42s3；未重抓不抢 CDP；交付交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-25 04:19 CST
 

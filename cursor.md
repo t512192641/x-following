@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2103215734403043374
-- url: https://x.com/beihuo/status/2103215734403043374
-- author: 北火
-- handle: @beihuo
-- time_utc: 2026-09-24T20:11:21.000Z
-- updated: 2026-09-24 16:00 ET window
+- status_id: 2103276130887405893
+- url: https://x.com/Michell49473040/status/2103276130887405893
+- author: yongge
+- handle: @Michell49473040
+- time_utc: 2026-09-25T00:11:21.000Z
+- updated: 2026-09-24 20:00 ET window
