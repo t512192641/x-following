@@ -1,3 +1,24 @@
+## 2026-09-25 20:00 ET main
+- [x] 2026-09-25 20:00 ET 主窗完成：union101（DOM24∪HTL99）overlay accept46/reject_href55 fail0；depollute5；窗类18/8/75 miss0；页09-25 **76/35/323**；gap≈6.38min closed；hit_cursor_effective true；cursor @thejustinwelsh → @derrickcchoi 2103638975026176081；**并 recommended+ideas 2026-09-24**（rec10+ideas3）；QA pass clippedBtns0；chat pending_parent；next 2026-09-26 00:00 ET；escalate no。  2026-09-26 08:46 CST
+
+## 2026-09-25 20:10 ET 补抓
+- deferred_to_main：主窗 20:00 in_progress（c3a32b9b ~20:14 ET；尚无 20-claim/jsonl；CDP 留给主窗）；cursor still @thejustinwelsh 2103577820177793352；16 页 live 46/27/248 md5 5d295e7b；rec/ideas 09-24 交主窗并；未重抓不抢 CDP；escalate no。
+
+## 2026-09-25 20:25 ET health check
+- [x] 2026-09-25 20:25 ET 健康检查（~20:30 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文46/拿不准27/已过滤248 raw52 overlay18/34/0 窗类12/6/34；gap≈0.48min closed；cursor still @thejustinwelsh 2103577820177793352；Pages 200 md5 5d295e7b live=local；chat t42s448；20:00 in_progress（union101 overlay retry mid accept29→；龄≈16min；CDP :9226）；20:10 deferred；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；next 主窗交 20:00→00:00；escalate no；stay_quiet。  2026-09-26 08:31 CST
+
+## 2026-09-25 19:25 ET health check
+- [x] 2026-09-25 19:25 ET 健康检查（~19:26 ET 正点火，sched :25，约 +1min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；chat t42s448 delivered；16:10 deferred_to_main complete；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim/20.jsonl（约 +35min 未到期）；escalate no；stay_quiet。  2026-09-26 07:26 CST
+
+## 2026-09-25 18:25 ET health check
+- [x] 2026-09-25 18:25 ET 健康检查（~18:26 ET 正点火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；chat t42s448 delivered；16:10 deferred_to_main complete；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim/20.jsonl（约 +93min 未到期）；escalate no；stay_quiet。  2026-09-26 06:28 CST
+
+## 2026-09-25 17:25 ET health check
+- [x] 2026-09-25 17:25 ET 健康检查（~17:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；chat t42s448 delivered；16:10 deferred_to_main complete；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim/20.jsonl（约 +145min 未到期）；escalate no；stay_quiet。  2026-09-26 05:35 CST
+
+## 2026-09-25 16:25 ET health check
+- [x] 2026-09-25 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +3min）：quiet_ok true；无 overdue 主缺口（16 scrape-meta gap_open false）；最近完成窗 **16:00** 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34 miss0；depollute0；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；QA pass；16-meta/claim complete；chat pending_parent（主窗交付中）；16:10 deferred；lists Sep25 done not rerun；20:00 未到期（约 +212min）；overlay 拒写同前不升；escalate no；stay_quiet。  2026-09-26 04:29 CST
+
 ## 2026-09-25 16:00 ET
 
 - 主窗完成：union52（DOM10∪HTL51）overlay accept18/reject_href34 fail0（含 clear-tab 续跑 +14）；depollute restored0；窗类正文12/拿不准6/已过滤34 miss0；页09-25 正文46/拿不准27/已过滤248；gap≈0.48min closed；hit_cursor_effective true；cursor @geekbb 2103515590174626259 → @thejustinwelsh 2103577820177793352；skip rec/ideas；QA pass clippedBtns0；chat_line pending_parent；next 20:00 ET。
@@ -478,6 +499,9 @@
 ## 2026-09-21 07:25 ET health check
 
 # 2026-09-21 08:00 ET 主窗
+
+- [x] 2026-09-25 20:00 ET 主窗完成：union101（DOM24∪HTL99）overlay accept46/reject_href55 fail0；depollute5；窗类18/8/75 miss0；页09-25 **76/35/323**；gap≈6.38min closed；hit_cursor_effective true；cursor @thejustinwelsh → @derrickcchoi 2103638975026176081；**并 recommended+ideas 2026-09-24**（rec10+ideas3）；QA pass clippedBtns0；chat pending_parent；next 2026-09-26 00:00 ET；escalate no。  2026-09-26 08:45 CST
+
 - **chat 已交 t40s3（2026-09-21 20:32 CST）**
 
 - fire ~08:09 ET（~9min late）；DOM47 + HTL116 → union **116**；saw_older + gap≈9.52min → hit_cursor_effective true；gap_open false

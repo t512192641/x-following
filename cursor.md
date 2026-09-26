@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2103577820177793352
-- url: https://x.com/thejustinwelsh/status/2103577820177793352
-- author: Justin Welsh
-- handle: @thejustinwelsh
-- time_utc: 2026-09-25T20:10:09.000Z
-- updated: 2026-09-25 16:00 ET window
+- status_id: 2103638975026176081
+- url: https://x.com/derrickcchoi/status/2103638975026176081
+- author: Derrick Choi
+- handle: @derrickcchoi
+- time_utc: 2026-09-26T00:13:10.000Z
+- updated: 2026-09-25 20:00 ET window
