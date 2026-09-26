@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2103638975026176081
-- url: https://x.com/derrickcchoi/status/2103638975026176081
-- author: Derrick Choi
-- handle: @derrickcchoi
-- time_utc: 2026-09-26T00:13:10.000Z
-- updated: 2026-09-25 20:00 ET window
+- status_id: 2103699386949914962
+- url: https://x.com/gefei55/status/2103699386949914962
+- author: 哥飞
+- handle: @gefei55
+- time_utc: 2026-09-26T04:13:13.000Z
+- updated: 2026-09-26 00:00 ET window
