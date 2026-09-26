@@ -1,5 +1,27 @@
+## 2026-09-26 12:00 ET
+- [x] 2026-09-26 12:00 ET 主窗完成：union123（DOM31∪HTL120）overlay accept54/reject_href69 fail0（clear-tab retry ok_new+12）；depollute1；窗类29/14/80 miss0；页09-26 **59/27/200**；gap≈2.1min closed；hit_cursor_effective true；cursor @CuiMao → @Cydiar404 2103880124085186943；skip rec/ideas；QA pass clippedBtns0；chat pending_parent；next 16:00 ET；escalate no。  2026-09-27 00:40 CST
+
+## 2026-09-26 12:25 ET health check
+- [x] 2026-09-26 12:25 ET 健康检查（~12:31 ET 正点迟到火，sched :25，约 +6min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap_open false）；最近完成窗 **08:00** 页 live 正文35/拿不准13/已过滤120 raw union89 overlay accept45/reject_href44 fail0 窗类27/6/56 miss0；depollute5；gap≈4.10min closed；hit_cursor_effective true；cursor @CuiMao 2103820436249489431；git tip public e104681（grok-ops 6206090；本地 site checkout 仍 adb9d4a 无碍，Pages live=local）；Pages HTTP 200 md5 5aadde8661284da6c01089bf91941390 live=local；QA pass；08-meta/claim complete；chat t42s452 delivered；08:10 deferred_to_main complete；04:00/00:00 亦齐；**12:00 in_progress**（c3a32b9b started ~12:08 ET；龄≈24min；12-claim in_progress；union123 DOM31∪HTL120 hit_cursor_effective true gap≈2.1min closed；overlay 初跑 accept42/reject_href81 fail0 后 clear-tab retry 进行中 `_overlay12_retry.py` 活跃 ~45/81 ok+3 still_reject≈42、CDP :9226；尚无 12-meta/depollute/分类/QA/日页 merge/游标推进/chat；平台 running 与磁盘一致，非假 succeeded）；12:10 deferred_to_main complete；CDP :9226 chrome 主窗占用 不抢；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun（x-4 ~09:25 已齐）；16:00 未见 16-claim（约 +208min 未到期）；01:25 仍未见落板（shared memory 有 episode；本条不补写历史）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 主窗交 12:00 → 16:00 ET；escalate no；stay_quiet。  2026-09-27 00:32 CST
+
+## 2026-09-26 12:10 ET 补抓
+- [x] `x-2026-09-26-12-10` 2026-09-26 12:10 ET 补抓（~12:17 正点迟到火，约 +7min）：deferred_to_main；主窗 12:00 in_progress（c3a32b9b ~12:08 ET；union123 overlay ~51/123 accept≈11/reject_href≈40；尚无 meta/分类/页；CDP 留给主窗）；cursor still @CuiMao 2103820436249489431；08 页 live 35/13/120 md5 5aadde86；未重抓不抢 CDP；交付交主窗；escalate no。  2026-09-27 00:19 CST
+- deferred_to_main：主窗 12:00 in_progress（c3a32b9b ~12:08 ET；union123 DOM31∪HTL120 hit_cursor_effective；gap≈2.1min closed；overlay mid ~51/123 accept≈11/reject_href≈40 fail0；尚无 12-meta/depollute/分类/QA/页/游标推进）；cursor still @CuiMao 2103820436249489431；08 页 live 35/13/120 md5 5aadde86；未重抓不抢 CDP；交付交主窗；escalate no。
+
+## 2026-09-26 11:25 ET health check
+- [x] 2026-09-26 11:25 ET 健康检查（~11:34 ET 正点迟到火，sched :25，约 +10min）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文35/拿不准13/已过滤120 raw union89 overlay accept45/reject_href44 fail0 窗类27/6/56；gap≈4.10min closed；cursor @CuiMao 2103820436249489431；Pages 200 md5 5aadde86 live=local；chat t42s452；08:10 deferred；lists Sep26 done 155/@HiTw93 +Mileson07/172 not rerun；12:00 not due（~+26min）；01:25 still missing from board；escalate no；stay_quiet。  2026-09-26 23:34 CST
+
+## 2026-09-26 10:25 ET health check
+- [x] 2026-09-26 10:25 ET 健康检查（~10:32 ET 正点迟到火，sched :25，约 +7min）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文35/拿不准13/已过滤120 raw union89 overlay accept45/reject_href44 fail0 窗类27/6/56；gap≈4.10min closed；cursor @CuiMao 2103820436249489431；Pages 200 md5 5aadde86 live=local；chat t42s452；08:10 deferred；lists Sep26 done 155/@HiTw93 +Mileson07/172 not rerun；12:00 not due（~+88min）；01:25 still missing from board；escalate no；stay_quiet。  2026-09-26 22:33 CST
+
+## 2026-09-26 09:25 ET health check
+- [x] 2026-09-26 09:25 ET 健康检查（~09:27 ET 正点迟到火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；08:00 页 live 正文35/拿不准13/已过滤120 raw union89 overlay accept45/reject_href44 fail0 窗类27/6/56；gap≈4.10min closed；cursor @CuiMao 2103820436249489431；Pages 200 md5 5aadde86 live=local；chat t42s452；08:10 deferred；lists Sep26 done 155/@HiTw93 +Mileson07/172 not rerun；12:00 not due（~+153min）；01:25 still missing from board；escalate no；stay_quiet。  2026-09-26 21:28 CST
+
+## 2026-09-26 09:25 ET x-lists
+- x-4 名单更新（sched 09:23 +~2min）：login_ok；关注未变 155/@HiTw93；书签未变 Mileson07/2102408085029667293 count 172；未改 jsonl；meta/_check 已写；final x.com/home；escalate no；stay_quiet。
+
 ## 2026-09-26 08:00 ET
-- [x] 2026-09-26 08:00 ET 主窗完成：union89（DOM31∪HTL89）overlay accept45/reject_href44 fail0（clear-tab retry ok_new+25）；depollute5；窗类27/6/56 miss0；页09-26 **35/13/120**；gap≈4.10min closed；hit_cursor_effective true；cursor @cgnot996 → @CuiMao 2103820436249489431；skip rec/ideas；QA pass clippedBtns0；chat pending_parent；next 12:00 ET；escalate no。  2026-09-26 20:36 CST
+- [x] 2026-09-26 08:00 ET 主窗完成：union89（DOM31∪HTL89）overlay accept45/reject_href44 fail0（clear-tab retry ok_new+25）；depollute5；窗类27/6/56 miss0；页09-26 **35/13/120**；gap≈4.10min closed；hit_cursor_effective true；cursor @cgnot996 → @CuiMao 2103820436249489431；skip rec/ideas；QA pass clippedBtns0；**chat 已交 t42s452（2026-09-26 20:39 CST）**；next 12:00 ET；escalate no。  2026-09-26 20:36 CST
 
 ## 2026-09-26 08:25 ET health check
 - [x] 2026-09-26 08:25 ET 健康检查（~08:33 ET 正点迟到火，约 +8min）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文18/拿不准7/已过滤64 raw union82 overlay accept57/reject_href25 fail0 窗类16/6/60；gap≈6.17min closed；cursor @cgnot996 2103759706477199613；Pages 200 md5 e810a573 live=local；chat t42s451；04:10 deferred；**08:00 in_progress**（union89 overlay45/44 fail0 depollute5 heur31/3/55；尚无 meta/QA/页）；08:10 deferred；lists Sep25 done 155/@HiTw93 +Mileson07/172 not rerun；Sep26 lists not due（~+49min）；01:25 still missing from board；escalate no；stay_quiet。  2026-09-26 20:35 CST
