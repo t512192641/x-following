@@ -1,3 +1,15 @@
+## 2026-09-26 04:10 ET 补抓
+## 2026-09-26 04:00 ET
+- [x] 2026-09-26 04:00 ET 主窗完成：union82 overlay accept57/reject_href25 fail0；depollute1；窗类16/6/60 miss0；页09-26 **18/7/64**（今天第一版；含薄种子2/1/4）；gap≈6.17min closed；hit_cursor_effective true；cursor @cgnot996 2103759706477199613；skip rec/ideas；QA pass；chat pending_parent；next 08:00 ET；escalate no。  2026-09-26 16:32 CST
+
+- deferred_to_main：主窗 04:00 in_progress（c3a32b9b ~04:09 ET；DOM20 DONE hit False；HTL 活跃；尚无 union/meta/分类/页；CDP :9226 留给主窗）；cursor still @gefei55 2103699386949914962；00 页 live 96/43/416 md5 aaee54f3；未重抓不抢 CDP；交付交主窗；escalate no。
+
+## 2026-09-26 03:25 ET health check
+- [x] 2026-09-26 03:25 ET 健康检查（~03:26 ET 正点火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口（00 scrape-meta gap_open false）；最近完成窗 **00:00** 页 live 正文96/拿不准43/已过滤416 raw union128 overlay accept54/reject_href74 fail0 窗类22/9/97 miss0；depollute4；gap≈6.37min closed；hit_cursor_effective true；cursor @gefei55 2103699386949914962；git tip public daa85b3（grok-ops 7c3f07d；本地 site checkout 仍 adb9d4a 无碍，Pages live=local）；Pages HTTP 200 md5 aaee54f3fac188d498e31376f0d60288 live=local；QA pass；00-meta/claim complete；chat t42s450 delivered；00:10 deferred_to_main complete；薄种子09-26 2/1/4不交；20/16/12/08/04(Sep25) 亦齐；无 stuck in_progress；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；Sep26 lists 未到期（09:23 ET，约 +356min）不早跑；04:00 未见 04-claim（约 +33min 未到期，交今天第一版）；01:25 仍未见落板（shared memory 有 ~01:31 episode，ops/changelog 无；02:25 已记，本条不补写历史）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 04:00 ET；escalate no；stay_quiet。  2026-09-26 15:27 CST
+
+## 2026-09-26 02:25 ET health check
+- [x] 2026-09-26 02:25 ET 健康检查（~02:29 ET 正点迟到火，sched :25，约 +5min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **00:00** 页 live 正文96/拿不准43/已过滤416 raw union128 overlay accept54/reject_href74 fail0 窗类22/9/97；depollute4；gap≈6.37min closed；cursor @gefei55 2103699386949914962；Pages 200 md5 aaee54f3 live=local；chat t42s450；00:10 deferred；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；Sep26 lists 未到期（约 +413min）不早跑；04:00 未到期（约 +90min）；01:25 未见落板（memory 有 episode）；escalate no；stay_quiet。  2026-09-26 14:29 CST
+
 ## 2026-09-26 00:00 ET main
 - [x] 2026-09-26 00:00 ET 主窗完成：union128（DOM38∪HTL126）overlay accept54/reject_href74 fail0（clear-tab +4）；depollute4；窗类22/9/97 miss0；昨页09-25 **96/43/416**；薄种子09-26 **2/1/4**；gap≈6.37min closed；hit_cursor_effective true；cursor @derrickcchoi → @gefei55 2103699386949914962；**skip rec/ideas**；QA pass clippedBtns0；chat pending_parent；next 04:00 ET；escalate no。  2026-09-26 12:45 CST
 
