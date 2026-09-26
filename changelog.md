@@ -1,6 +1,28 @@
+## 2026-09-26 08:00 ET
+- [x] 2026-09-26 08:00 ET 主窗完成：union89（DOM31∪HTL89）overlay accept45/reject_href44 fail0（clear-tab retry ok_new+25）；depollute5；窗类27/6/56 miss0；页09-26 **35/13/120**；gap≈4.10min closed；hit_cursor_effective true；cursor @cgnot996 → @CuiMao 2103820436249489431；skip rec/ideas；QA pass clippedBtns0；chat pending_parent；next 12:00 ET；escalate no。  2026-09-26 20:36 CST
+
+## 2026-09-26 08:25 ET health check
+- [x] 2026-09-26 08:25 ET 健康检查（~08:33 ET 正点迟到火，约 +8min）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文18/拿不准7/已过滤64 raw union82 overlay accept57/reject_href25 fail0 窗类16/6/60；gap≈6.17min closed；cursor @cgnot996 2103759706477199613；Pages 200 md5 e810a573 live=local；chat t42s451；04:10 deferred；**08:00 in_progress**（union89 overlay45/44 fail0 depollute5 heur31/3/55；尚无 meta/QA/页）；08:10 deferred；lists Sep25 done 155/@HiTw93 +Mileson07/172 not rerun；Sep26 lists not due（~+49min）；01:25 still missing from board；escalate no；stay_quiet。  2026-09-26 20:35 CST
+
+## 2026-09-26 08:10 ET 补抓
+- [x] `x-2026-09-26-08-10` 2026-09-26 08:10 ET 补抓（~08:18 正点迟到火，约 +8min）：deferred_to_main；主窗 08:00 in_progress（c3a32b9b ~08:12 ET；union89 overlay ~29/89 accept≈8/reject_href≈21；尚无 meta/分类/页；CDP 留给主窗）；cursor still @cgnot996 2103759706477199613；04 页 live 18/7/64 md5 e810a573；未重抓不抢 CDP；交付交主窗；escalate no。  2026-09-26 20:19 CST
+- deferred_to_main：主窗 08:00 in_progress（c3a32b9b ~08:12 ET；union89 DOM31∪HTL89 hit_cursor_effective；gap≈4.10min closed；overlay mid ~29/89 accept≈8/reject_href≈21 fail0；尚无 08-meta/depollute/分类/QA/页/游标推进）；cursor still @cgnot996 2103759706477199613；04 页 live 18/7/64 md5 e810a573；未重抓不抢 CDP；交付交主窗；escalate no。
+
+## 2026-09-26 07:25 ET health check
+- [x] 2026-09-26 07:25 ET 健康检查（~07:30 ET 正点迟到火，约 +5min）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文18/拿不准7/已过滤64 raw union82 overlay accept57/reject_href25 fail0 窗类16/6/60；gap≈6.17min closed；cursor @cgnot996 2103759706477199613；Pages 200 md5 e810a573 live=local；chat t42s451；04:10 deferred；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；Sep26 lists not due（~+113min）；08:00 not due（~+30min）；01:25 still missing from board；escalate no；stay_quiet。  2026-09-26 19:31 CST
+
+## 2026-09-26 06:25 ET health check
+- [x] 2026-09-26 06:25 ET 健康检查（~06:33 ET 正点迟到火，约 +8min）：quiet_ok true；无 overdue 主缺口；04:00 页 live 正文18/拿不准7/已过滤64 raw union82 overlay accept57/reject_href25 fail0 窗类16/6/60；gap≈6.17min closed；cursor @cgnot996 2103759706477199613；Pages 200 md5 e810a573 live=local；chat t42s451；04:10 deferred；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；Sep26 lists not due（~+170min）；08:00 not due（~+87min）；01:25 still missing from board；escalate no；stay_quiet。  2026-09-26 18:33 CST
+
+## 2026-09-26 05:25 ET health check
+- [x] 2026-09-26 05:25 ET 健康检查（~05:26 ET 正点火，sched :25，约 +1min）：quiet_ok true；无 overdue 主缺口（04 scrape-meta gap_open false）；最近完成窗 **04:00** 页 live 正文18/拿不准7/已过滤64 raw union82 overlay accept57/reject_href25 fail0 窗类16/6/60 miss0；depollute1；gap≈6.17min closed；hit_cursor_effective true；cursor @cgnot996 2103759706477199613；git tip public f37d0d3（grok-ops 8fbb30e；本地 site checkout 仍 adb9d4a 无碍，Pages live=local）；Pages HTTP 200 md5 e810a573ee7d9518ddf04ffdfdef51b2 live=local；QA pass；04-meta/claim complete；chat t42s451 delivered；04:10 deferred_to_main complete；00:00 亦齐；无 pipeline 脚本；CDP :9226 chrome idle 不抢；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；Sep26 lists 未到期（09:23 ET，约 +237min）不早跑；08:00 未见 08-claim（约 +154min 未到期）；01:25 仍未见落板（shared memory 有 episode；本条不补写历史）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 08:00 ET；escalate no；stay_quiet。  2026-09-26 17:27 CST
+
+## 2026-09-26 04:25 ET health check
+- [x] 2026-09-26 04:25 ET 健康检查（~04:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口（04 scrape-meta gap_open false）；最近完成窗 **04:00** 页 live 正文18/拿不准7/已过滤64 raw union82 overlay accept57/reject_href25 fail0 窗类16/6/60 miss0；depollute1；gap≈6.17min closed；hit_cursor_effective true；cursor @cgnot996 2103759706477199613；git tip public f37d0d3（grok-ops 8fbb30e；本地 site checkout 仍 adb9d4a 无碍，Pages live=local）；Pages HTTP 200 md5 e810a573ee7d9518ddf04ffdfdef51b2 live=local；QA pass；04-meta/claim complete；chat t42s451 delivered；04:10 deferred_to_main complete；00:00 亦齐；平台 c3a32b9b 仍标 running 但磁盘硬门禁齐+chat 已交（非卡住/非假 succeeded）；无 pipeline 脚本；CDP :9226 chrome idle 不抢；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；Sep26 lists 未到期（09:23 ET，约 +289min）不早跑；08:00 未见 08-claim（约 +206min 未到期）；01:25 仍未见落板（shared memory 有 episode；本条不补写历史）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 08:00 ET；escalate no；stay_quiet。  2026-09-26 16:34 CST
+
 ## 2026-09-26 04:10 ET 补抓
 ## 2026-09-26 04:00 ET
-- [x] 2026-09-26 04:00 ET 主窗完成：union82 overlay accept57/reject_href25 fail0；depollute1；窗类16/6/60 miss0；页09-26 **18/7/64**（今天第一版；含薄种子2/1/4）；gap≈6.17min closed；hit_cursor_effective true；cursor @cgnot996 2103759706477199613；skip rec/ideas；QA pass；chat pending_parent；next 08:00 ET；escalate no。  2026-09-26 16:32 CST
+- [x] 2026-09-26 04:00 ET 主窗完成：union82 overlay accept57/reject_href25 fail0；depollute1；窗类16/6/60 miss0；页09-26 **18/7/64**（今天第一版；含薄种子2/1/4）；gap≈6.17min closed；hit_cursor_effective true；cursor @cgnot996 2103759706477199613；skip rec/ideas；QA pass；**chat 已交 t42s451（2026-09-26 16:33 CST）**；next 08:00 ET；escalate no。  2026-09-26 16:32 CST
 
 - deferred_to_main：主窗 04:00 in_progress（c3a32b9b ~04:09 ET；DOM20 DONE hit False；HTL 活跃；尚无 union/meta/分类/页；CDP :9226 留给主窗）；cursor still @gefei55 2103699386949914962；00 页 live 96/43/416 md5 aaee54f3；未重抓不抢 CDP；交付交主窗；escalate no。
 
