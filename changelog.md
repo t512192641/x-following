@@ -1,5 +1,24 @@
+## 2026-09-26 20:00 ET main
+- [x] `x-2026-09-26-20` 2026-09-26 20:00 ET 主窗 complete：页09-26 **98/41/271**；union56 overlay29/27/0 depollute4；窗类15/8/33；gap≈2.57min closed；cursor @Michell49473040 2104001572661526978；并 recommended+ideas 2026-09-26（rec10+ideas3）；chat pending_parent；next 2026-09-27 00:00 ET；escalate no。  2026-09-27 08:28 CST
+
+## 2026-09-26 20:10 ET 补抓
+- [x] `x-2026-09-26-20-10` 2026-09-26 20:10 ET 补抓（~20:14 正点迟到火，约 +4min）：deferred_to_main；主窗 20:00 in_progress（c3a32b9b ~20:11 ET；union56 DOM17∪HTL56；HTL HIT CURSOR；尚无 20.jsonl/overlay/meta/分类/页；CDP 留给主窗）；scrape-meta gap_open≈248.8 疑 prior_cursor_time 误用旧帖 16:11Z（正确 prior @agazdecki 20:17Z→oldest≈2.57min）；cursor still @agazdecki 2103942089293849001；16 页 live 72/33/238 md5 8f14ba6e；未重抓不抢 CDP；交付+rec/ideas 交主窗；escalate no；stay_quiet。  2026-09-27 08:16 CST
+- deferred_to_main：主窗 20:00 in_progress（c3a32b9b ~20:11 ET；union56；HTL HIT CURSOR；尚无 overlay/分类/页）；gap 字段疑误标交主窗；cursor still @agazdecki 2103942089293849001；未重抓不抢 CDP；escalate no。
+
+## 2026-09-26 19:25 ET health check
+- [x] 2026-09-26 19:25 ET 健康检查（~19:26 ET 正点火，sched :25，约 +1min）：quiet_ok true；无 overdue 主缺口（16 scrape-meta gap_open false）；最近完成窗 **16:00** 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38 miss0；depollute2；gap≈2.72min closed；hit_cursor_effective true；cursor @agazdecki 2103942089293849001；git tip public c72e0a2（Pages live；本地 site checkout 仍 adb9d4a 无碍）；Pages HTTP 200 md5 8f14ba6ec2fd0edb50ce1871144a33ad live=local；QA pass；16-meta/claim complete；chat t42s454 delivered；16:10 deferred_to_main complete；12:00/08:00/04:00/00:00 亦齐；无 stuck in_progress；CDP :9226 chrome idle（x.com/home）不抢；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun（x-4 ~09:25 已齐）；20:00 未见 20-claim/20.jsonl（约 +34min 未到期；磁盘仅有旧 _class20/_classify_sheet20 残片 mtime 00窗，非本窗 claim）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 20:00 ET；escalate no；stay_quiet。  2026-09-27 07:26 CST
+
+## 2026-09-26 18:25 ET health check
+- [x] 2026-09-26 18:25 ET 健康检查（~18:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口（16 scrape-meta gap_open false）；最近完成窗 **16:00** 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38 miss0；depollute2；gap≈2.72min closed；hit_cursor_effective true；cursor @agazdecki 2103942089293849001；git tip public c72e0a2（Pages live；本地 site checkout 仍 adb9d4a 无碍）；Pages HTTP 200 md5 8f14ba6ec2fd0edb50ce1871144a33ad live=local；QA pass；16-meta/claim complete；chat t42s454 delivered；16:10 deferred_to_main complete；12:00/08:00/04:00/00:00 亦齐；无 stuck in_progress；CDP :9226 chrome idle（x.com/home）不抢；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun（x-4 ~09:25 已齐）；20:00 未见 20-claim/20.jsonl（约 +86min 未到期；磁盘仅有旧 _class20/_classify_sheet20 残片，非本窗 claim）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 20:00 ET；escalate no；stay_quiet。  2026-09-27 06:34 CST
+
+## 2026-09-26 17:25 ET health check
+- [x] 2026-09-26 17:25 ET 健康检查（~17:31 ET 正点迟到火，sched :25，约 +6min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38；gap≈2.72min closed；cursor @agazdecki 2103942089293849001；Pages 200 md5 8f14ba6e live=local；chat t42s454；16:10 deferred；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+149min）；escalate no；stay_quiet。  2026-09-27 05:32 CST
+
+## 2026-09-26 16:25 ET health check
+- [x] 2026-09-26 16:25 ET 健康检查（~16:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38；gap≈2.72min closed；cursor @agazdecki 2103942089293849001；Pages 200 md5 8f14ba6e live=local；chat pending_parent；16:10 deferred；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+205min）；escalate no；stay_quiet。  2026-09-27 04:36 CST
+
 ## 2026-09-26 16:00 ET
-- [x] 2026-09-26 16:00 ET 主窗完成：union64（DOM14∪HTL60）overlay accept38/reject_href26 fail0（clear-tab retry ok_new+16）；depollute2；窗类20/6/38 miss0；页09-26 **72/33/238**；gap≈2.72min closed；hit_cursor_effective true；cursor @Cydiar404 → @agazdecki 2103942089293849001；skip rec/ideas；QA pass clippedBtns0；chat pending_parent；next 20:00 ET；escalate no。  2026-09-27 04:34 CST
+- [x] 2026-09-26 16:00 ET 主窗完成：union64（DOM14∪HTL60）overlay accept38/reject_href26 fail0（clear-tab retry ok_new+16）；depollute2；窗类20/6/38 miss0；页09-26 **72/33/238**；gap≈2.72min closed；hit_cursor_effective true；cursor @Cydiar404 → @agazdecki 2103942089293849001；skip rec/ideas；QA pass clippedBtns0；**chat 已交 t42s454（2026-09-27 04:37 CST）**；next 20:00 ET；escalate no。  2026-09-27 04:34 CST
 
 ## 2026-09-26 16:10 ET 补抓
 - [x] `x-2026-09-26-16-10` 2026-09-26 16:10 ET 补抓（~16:17 正点迟到火，约 +7min）：deferred_to_main；主窗 16:00 in_progress（c3a32b9b ~16:13 ET；union64 overlay ~3/64 accept≈1/reject_href≈2；尚无 meta/分类/页；CDP 留给主窗）；cursor still @Cydiar404 2103880124085186943；12 页 live 59/27/200 md5 fdb9022f；未重抓不抢 CDP；交付交主窗；escalate no；stay_quiet。  2026-09-27 04:19 CST
