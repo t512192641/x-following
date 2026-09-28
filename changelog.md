@@ -1,3 +1,6 @@
+## 2026-09-28 08:00 ET
+- 页累计 **正文35 / 拿不准19 / 已过滤144**；cursor @alex_prompter 2104545440637304833；gap≈6.65 closed；QA pass。
+
 ## 2026-09-28 04:00 ET — 主窗 complete（今天第一版）
 - union96（DOM32∪HTL96）overlay accept62/reject_href34 fail0；depollute1；窗类15/10/71 miss0；页累计 **16/11/74**；gap≈7.48 closed；hit_cursor_effective true；cursor @KinGao476942 2104483857143840801（prior @stark_nico99 2104423080558997989）；rec/ideas skipped；QA pass clippedBtns0；chat_delivery pending_parent；next 08:00 ET；escalate no。  2026-09-28 16:32 CST
 
