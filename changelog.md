@@ -1,3 +1,24 @@
+
+## 2026-09-27 20:00 ET
+
+- [x] 2026-09-27 20:00 ET 主窗完整主抓：union63（DOM12∪HTL62）overlay accept35/reject_href28 fail0（初11+retry24）；depollute2；窗类正文21/拿不准1/已过滤41 miss0；页09-27 正文121/拿不准14/已过滤282；并 recommended9+ideas4（sourceDate 2026-09-27；Opus5.5 题已存在跳过1）；gap≈6.62min closed；hit_cursor_effective true；prior @danshipper 2104302924251951553 → new @MaiYangAI 2104362281215909952；QA pass clippedBtns0；chat_delivery pending_parent；next 2026-09-28 00:00 ET。
+
+## 2026-09-27 20:10 ET 补抓
+- [x] `x-2026-09-27-20-10` 2026-09-27 20:10 ET 补抓（~20:10 正点火）：deferred_to_main；主窗 20:00 in_progress（c3a32b9b ~20:05 ET；union63 DOM12∪HTL62 hit_cursor_effective true gap≈6.62min closed；overlay mid ~12/63 accept≈2/reject_href≈10 fail0 CDP；尚无 20-meta/depollute/分类/QA/日页 merge/游标推进）；cursor still @danshipper 2104302924251951553；16:00 页 live 87/13/241 md5 87062d30 live=local chat t42s461；rec/ideas latest 在场交主窗并；未重抓不抢 CDP；交付交主窗；escalate no；stay_quiet。  2026-09-28 08:12:26 CST
+- deferred_to_main：主窗 20:00 in_progress（c3a32b9b ~20:05 ET；union63 overlay ~12/63 accept2/reject10；尚无 meta/分类/页；CDP :9226 留给主窗）；gap≈6.62min gap_open false；cursor still @danshipper 2104302924251951553；16 页 live 87/13/241 md5 87062d30；未重抓不抢 CDP；交付+rec/ideas 交主窗；escalate no。
+
+## 2026-09-27 19:25 ET health check
+- [x] 2026-09-27 19:25 ET 健康检查（~19:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文87/拿不准13/已过滤241 raw union63 overlay32/31/0 depollute2 窗类19/3/41；gap≈4.82min closed；cursor @danshipper 2104302924251951553；git tip 90aaf0e；Pages 200 根页+days md5 87062d30 live=local；chat t42s461 delivered；16:10 catchup complete；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim/20.jsonl（约 +29min 未到期）；CDP :9226 idle x.com/home not stolen；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；escalate no；stay_quiet。  2026-09-28 07:31 CST
+
+## 2026-09-27 18:25 ET health check
+- [x] 2026-09-27 18:25 ET 健康检查（~18:33 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文87/拿不准13/已过滤241 raw union63 overlay32/31/0 depollute2 窗类19/3/41；gap≈4.82min closed；cursor @danshipper 2104302924251951553；git tip 90aaf0e；Pages 200 md5 87062d30 live=local；chat t42s461 delivered；16:10 catchup complete；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim/20.jsonl（约 +87min 未到期）；无 AUTH_FAIL/重复抓取；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet。  2026-09-28 06:35 CST
+
+## 2026-09-27 17:25 ET health check
+- [x] 2026-09-27 17:25 ET 健康检查（~17:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文87/拿不准13/已过滤241 raw union63 overlay32/31/0 depollute2 窗类19/3/41；gap≈4.82min closed；cursor @danshipper 2104302924251951553；git tip public 90aaf0e；Pages 200 根页+days md5 87062d30 live=local；chat t42s461 delivered；16:10 catchup complete_no_rescrape；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim（约 +147min 未到期）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 05:33 CST
+
+## 2026-09-27 16:25 ET health check
+- [x] 2026-09-27 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00**（:10 补抓代跑）页 live/days 正文87/拿不准13/已过滤241 raw union63 overlay32/31/0 depollute2 窗类19/3/41；gap≈4.82min closed；cursor @danshipper 2104302924251951553；Pages tip 1bff716 days md5 87062d30 live=local；**chat URL 仍 12:00 md5 6eceaafe（index 未跟）**；chat pending_parent；12/08/04/00 亦齐；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+212min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 04:30 CST
+
 ## 2026-09-27 15:25 ET health check
 
 - [x] `x-2026-09-27-16` 主窗 c3a32b9b 迟到火（≈16:14 ET，sched 16:05 漏约 +9min）：补抓 cdf0cd43 已 full_main_takeover（16-claim @16:11；union63；overlay mid ~11/63）；主窗 deferred_to_catchup；未重抓不抢 CDP；交付交补抓；escalate no；stay_quiet。  2026-09-28 04:15 CST
@@ -6,6 +27,7 @@
 
 ## 2026-09-27 16:00 ET 主窗（16:10 补抓代跑）
 - [x] `x-2026-09-27-16` 2026-09-27 16:00 ET 主窗 complete（**主窗 c3a32b9b 漏跑 → 16:10 补抓完整主抓**；claimed_by cdf0cd43）：union63（DOM12∪HTL60）overlay accept32/reject_href31 fail0（clear-tab retry ok_new+16）；depollute2；窗类正文19/拿不准3/已过滤41 miss0；页09-27 **87/13/241**；gap≈4.82min closed；hit_cursor_effective true；cursor prior @elonmusk 2104241882280706176 → new @danshipper 2104302924251951553；skip rec/ideas；QA pass clippedBtns0；source DOM+HTL CDP :9226；chat_delivery pending_parent；next 20:00 ET；escalate no（主窗漏跑已 :10 兜底，记调度）。  2026-09-28 04:26 CST
+- chat 交付：**chat 已交 t42s461（2026-09-28 04:34 CST）**；交付前已核根页 `/2026-09-27.html` live md5 87062d30＝days 页（root 修复 29650de/90aaf0e）。
 
 ## 2026-09-27 14:25 ET health check
 - [x] 2026-09-27 14:25 ET 健康检查（~14:29 ET 正点迟到火，sched :25，约 +4min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **12:00** 页 live 正文73/拿不准10/已过滤200 raw union125 overlay62/63/0 depollute3 窗类36/3/86；gap≈2.02min closed；cursor @elonmusk 2104241882280706176；Pages 200 md5 6eceaafe live=local tip b6d18ec；chat t42s460；12:10 deferred；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；16:00 not due（~+90min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 02:31 CST
