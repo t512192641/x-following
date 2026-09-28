@@ -1,5 +1,29 @@
+## 2026-09-28 00:00 ET
+- [x] 2026-09-28 00:00 ET 主窗完整主抓：union159（DOM39∪HTL158）overlay accept94/reject_href65 fail0（初63+retry31）；depollute2；窗类正文27/拿不准17/已过滤115 miss0；页09-27 **145/30/394**；薄种子09-28 3/1/3 不交；gap≈2.92min closed；hit_cursor_effective true；prior @MaiYangAI 2104362281215909952 → new @stark_nico99 2104423080558997989；rec/ideas skipped；QA pass clippedBtns0；chat_delivery pending_parent；next 2026-09-28 04:00 ET。
+
+## 2026-09-28 00:25 ET health check
+- [x] 2026-09-28 00:25 ET 健康检查（~00:26 ET 正点火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 121/14/282 raw63 overlay35/28/0 窗类21/1/41；gap≈6.62 closed；cursor @MaiYangAI 2104362281215909952；Pages tip bb266c5 md5 6cf47e50 live=local；chat t42s462 delivered；00:10 deferred_to_main；**00:00 in_progress**（c3a32b9b ~00:05；union159 gap≈2.92 closed；overlay 初跑 63/159 reject_href96 后 retry 中；尚无 meta/分类/页）；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；Sep28 lists 未到期（09:23，约 +537min）；CDP :9226 主窗 overlay retry 不抢；grok-ops 4268c98；escalate no；stay_quiet。  2026-09-28 12:27 CST
+
+## 2026-09-28 00:10 ET 补抓
+- [x] `x-2026-09-28-00-10` 2026-09-28 00:10 ET 补抓（~00:10 正点火）：deferred_to_main；主窗 00:00 in_progress（c3a32b9b ~00:05 ET；union159 DOM39∪HTL158 hit_cursor_effective true gap≈2.92min closed；overlay mid ~22/159 accept≈7/reject_href≈15 fail0 CDP；尚无 00-meta/depollute/分类/QA/日页 merge/游标推进）；cursor still @MaiYangAI 2104362281215909952；20:00 页 live 121/14/282 md5 6cf47e50 live=local tip bb266c5 chat t42s462；未重抓不抢 CDP；交付交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-28 12:11:51 CST
+- deferred_to_main：主窗 00:00 in_progress（c3a32b9b ~00:05 ET；union159 overlay ~22/159 accept≈7/reject_href≈15 fail0；尚无 meta/分类/页；CDP :9226 留给主窗）；gap≈2.92min gap_open false；cursor still @MaiYangAI 2104362281215909952；20 页 live 121/14/282 md5 6cf47e50；未重抓不抢 CDP；交付交主窗；escalate no。
+
+## 2026-09-27 23:25 ET health check
+- [x] 2026-09-27 23:25 ET 健康检查（~23:31 ET 正点迟到火，sched :25，约 +6min）：quiet_ok true；无 overdue 主缺口（20 scrape-meta gap≈6.62min closed gap_open false；16≈4.82 / 12≈2.02 / 08≈6.07 / 04≈2.65 / 00≈2.2 均 closed）；最近完成窗 **20:00**（主窗 c3a32b9b 正点完整主抓）：页09-27 **121/14/282** raw union63 overlay accept35/reject_href28 fail0 depollute2 窗类21/1/41 miss0；并 recommended9+ideas4；gap≈6.62min closed；hit_cursor_effective true；cursor @MaiYangAI 2104362281215909952（prior @danshipper 2104302924251951553）；git tip public **bb266c5**（本地 site checkout 仍 94aede8 behind 无碍）；Pages HTTP 200 md5 **6cf47e50951d43baf64c76f5d6579a52** live=local（root==days）；QA pass clippedBtns0；20-meta/claim complete；**chat t42s462 delivered**（2026-09-28 08:27 CST；交付前根页已核）；20:10 catchup deferred_to_main complete；16/12/08/04/00 亦齐；无 stuck in_progress；CDP :9226 chrome idle（x.com/home tab 0319D623）不抢；**lists Sep27** done 155/@HiTw93 + Mileson07/172 not rerun（x-4 ~09:30 已齐）；00:00 未见 00-claim/Sep28 raw（约 +29min 未到期）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 2026-09-28 00:00 ET；escalate no；stay_quiet。  2026-09-28 11:33 CST
+
+## 2026-09-27 22:25 ET health check
+- [x] 2026-09-27 22:25 ET 健康检查（~22:29 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文121/拿不准14/已过滤282 raw union63 overlay35/28/0 depollute2 窗类21/1/41；gap≈6.62min closed；cursor @MaiYangAI 2104362281215909952；Pages tip bb266c5 md5 6cf47e50951d43baf64c76f5d6579a52 live=local；chat t42s462 delivered；20:10 deferred_to_main；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；00:00 not due（~+91min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 10:30 CST
+
+
+## 2026-09-27 21:25 ET health check
+- [x] 2026-09-27 21:25 ET 健康检查（~21:29 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文121/拿不准14/已过滤282 raw union63 overlay35/28/0 depollute2 窗类21/1/41；gap≈6.62min closed；cursor @MaiYangAI 2104362281215909952；Pages tip bb266c5 md5 6cf47e50951d43baf64c76f5d6579a52 live=local；chat t42s462 delivered；20:10 deferred_to_main；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；00:00 not due（~+151min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 09:29 CST
+
+
+## 2026-09-27 20:25 ET health check
+- [x] 2026-09-27 20:25 ET 健康检查（~20:26 ET 正点火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文121/拿不准14/已过滤282 raw union63 overlay35/28/0 depollute2 窗类21/1/41；gap≈6.62min closed；cursor @MaiYangAI 2104362281215909952；Pages tip bb266c5 md5 6cf47e50951d43baf64c76f5d6579a52 live=local；chat 20:00 pending_parent；16:00 t42s461 delivered；20:10 deferred_to_main；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 08:26 CST
 
 ## 2026-09-27 20:00 ET
+- chat 交付：**chat 已交 t42s462（2026-09-28 08:27 CST）**；交付前核根页 md5 6cf47e50＝days 页。
 
 - [x] 2026-09-27 20:00 ET 主窗完整主抓：union63（DOM12∪HTL62）overlay accept35/reject_href28 fail0（初11+retry24）；depollute2；窗类正文21/拿不准1/已过滤41 miss0；页09-27 正文121/拿不准14/已过滤282；并 recommended9+ideas4（sourceDate 2026-09-27；Opus5.5 题已存在跳过1）；gap≈6.62min closed；hit_cursor_effective true；prior @danshipper 2104302924251951553 → new @MaiYangAI 2104362281215909952；QA pass clippedBtns0；chat_delivery pending_parent；next 2026-09-28 00:00 ET。
 
