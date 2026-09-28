@@ -1,5 +1,24 @@
+## 2026-09-28 16:00 ET
+
+- [x] `x-2026-09-28-16` 2026-09-28 16:00 ET 主窗 complete（~16:12 正点迟到火，约 +11min）：union101（DOM28∪HTL97）overlay accept51/reject_href50 fail0（初20+retry31）；depollute4；窗类正文20/拿不准15/已过滤66 miss0；页09-28 **65/62/295**；gap≈0.37min closed；hit_cursor_effective true；prior @liuren 2104609357984055564 → new @cursor_ai 2104666044220821594；skip rec/ideas；QA pass clippedBtns0；source DOM+HTL CDP :9226；chat_delivery pending_parent；next 20:00 ET；escalate no。  2026-09-29 04:45 CST
+
+## 2026-09-28 16:25 ET health check
+- [x] 2026-09-28 16:25 ET 健康检查（~16:35 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 正文55/拿不准47/已过滤229 tip d77ec37 md5 81228875 live=local chat t42s467；cursor still @liuren 2104609357984055564；gap≈2.05 closed；16:00 in_progress c3a32b9b union101 overlay51/50/0 depollute4 heur35/2/64；16:10 deferred；lists Sep28 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due；CDP :9226 x.com/home not stolen；grok-ops sync；escalate no；stay_quiet。  2026-09-29 04:35 CST
+
+## 2026-09-28 16:10 ET 补抓
+- deferred_to_main：主窗 16:00 in_progress（union101 overlay~60/101）；gap≈0.37min gap_open false；未重抓不抢 CDP；交付交主窗。
+- [x] `x-2026-09-28-16-10` ~16:20 ET（sched 16:10，约 +10min）：claim c3a32b9b in_progress；scrape login_ok；union101 hit_cursor_effective；cursor still @liuren 2104609357984055564；12 页 live 55/47/229 tip d77ec37 chat t42s467；证据 16-10-catchup.md；escalate no；stay_quiet。  2026-09-29 04:22:03 CST
+
+## 2026-09-28 15:25 ET health check
+- [x] 2026-09-28 15:25 ET 健康检查（~15:37 ET 正点迟到火，sched :25，约 +12min）：quiet_ok true；无 overdue 主缺口（12 scrape-meta gap≈2.05min closed gap_open false；08≈6.65 / 04≈7.48 / 00≈2.92 均 closed）；最近完成窗 **12:00**（主窗 c3a32b9b）：页09-28 **55/47/229** raw union144 overlay accept73/reject_href71 fail0 depollute6 窗类31/28/85 miss0；gap≈2.05min closed；hit_cursor_effective true；cursor @liuren 2104609357984055564（prior @alex_prompter 2104545440637304833）；git tip public **d77ec37**（远端 tip fd982ad；本地 site checkout 仍 20ed622 behind 无碍）；Pages HTTP 200 md5 **8122887571f98f0c7cd7a314fb9114cd** live=local（root==days）；QA pass clippedBtns0；12-meta/claim complete；**chat t42s467 delivered**（2026-09-29 00:58 CST）；12:10 deferred_to_main complete；08/04/00 亦齐；无 stuck in_progress；CDP :9226 chrome idle（x.com/home tab 0319D623）不抢；**lists Sep28** done 155/@HiTw93 + Mileson07/172 not rerun（x-4 ~09:46 已齐）；16:00 未见 16-claim/16.jsonl（约 +23min 未到期）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 16:00 ET；escalate no；stay_quiet。  2026-09-29 03:37 CST
+## 2026-09-28 14:25 ET health check
+- [x] 2026-09-28 14:25 ET 健康检查（~14:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **12:00** 页 live 正文55/拿不准47/已过滤229 raw union144 overlay73/71/0 depollute6 窗类31/28/85；gap≈2.05min closed；cursor @liuren 2104609357984055564；Pages 200 md5 81228875 live=local tip d77ec37；chat t42s467；12:10 deferred；lists Sep28 done 155/@HiTw93 + Mileson07/172 not rerun；16:00 not due（~+86min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-29 02:35 CST
+## 2026-09-28 13:25 ET health check
+- [x] 2026-09-28 13:25 ET 健康检查（~13:33 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **12:00** 页 live 正文55/拿不准47/已过滤229 raw union144 overlay73/71/0 depollute6 窗类31/28/85；gap≈2.05min closed；cursor @liuren 2104609357984055564；Pages 200 md5 81228875 live=local tip d77ec37；chat t42s467；12:10 deferred；lists Sep28 done 155/@HiTw93 + Mileson07/172 not rerun；16:00 not due（~+146min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-29 01:34 CST
+
 ## 2026-09-28 12:00 ET
 
+- chat 交付：**chat 已交 t42s467（2026-09-29 00:58 CST）**
 - 主窗 complete：union144（DOM42∪HTL140）overlay accept73/reject_href71 fail0；depollute6；窗类正文31/拿不准28/已过滤85；页09-28 正文55/拿不准47/已过滤229；gap≈2.05min closed；cursor @liuren 2104609357984055564；public tip d77ec37；Pages 200 md5 81228875 live=local；chat pending_parent；next 16:00 ET；escalate no。
 
 ## 2026-09-28 12:25 ET — x-3 health quiet_ok
