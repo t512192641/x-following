@@ -1,4 +1,5 @@
 ## 2026-09-28 20:10 ET 补抓
+- [x] 2026-09-29 00:00 ET 主窗（fire ~00:11 ET，sched 00:05，约 +6min）：union141（DOM36∪HTL139）overlay accept64/reject_href77 fail0；depollute2；窗类正文41/拿不准24/已过滤76 miss0；昨页09-28 **133/112/416**；薄种子09-29 **3/1/3**；gap≈2.3min closed；hit_cursor_effective true；cursor @grok 2104785892380442694（prior @danshipper 2104725262906835015）；rec_ideas skipped；QA pass clippedBtns0；chat pending_parent；next 04:00 ET。  2026-09-29 12:39 CST
 ## 2026-09-28 20:00 ET
 - [x] `x-2026-09-28-20` 主窗 complete（fire ~20:06 ET，sched 20:05，约 +1min）：union110（DOM31∪HTL105）overlay accept53/reject_href57 fail0（初40/70 + retry ok_new+13）；depollute6；窗类正文35/拿不准27/已过滤48 miss0；页09-28 **95/89/343**；gap≈1.63 closed；hit_cursor_effective true；cursor @danshipper 2104725262906835015（prior @cursor_ai 2104666044220821594）；并 recommended+ideas 2026-09-28（rec_new8 skip1 DevDay；ideas_n4）；QA pass clippedBtns0；chat pending_parent；next 2026-09-29 00:00 ET；escalate no。
 
