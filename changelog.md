@@ -4,8 +4,8 @@
 - 窗类 正文43 / 拿不准54 / 已过滤94 miss0；页累计 **82/105/394**
 - gap≈4.98 closed；hit_cursor_effective true；gap_open false
 - cursor @lennysan 2104971174262583773 → **@danshipper 2105026422981153037**
-- QA pass clippedBtns0；chat_delivery pending_parent
-- chat_line: 9/29 16:00：正文82 / 拿不准105 / 已过滤394。https://t512192641.github.io/x-following/2026-09-29.html
+- QA pass clippedBtns0；public tip **28af95d**；Pages HTTP 200 md5 **5f6a6c7c5cc5ff52bd279285a08aa642** live=local；grok-ops **39a47de**
+- chat_delivery pending_parent；chat_line: 9/29 16:00：正文82 / 拿不准105 / 已过滤394。https://t512192641.github.io/x-following/2026-09-29.html
 - escalate no；next 20:00 ET
 
 ## 2026-09-29 16:25 ET · x-3 health
