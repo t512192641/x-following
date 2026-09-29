@@ -1,7 +1,70 @@
-## 2026-09-29 12:00 ET
-- [x] 12:10 catchup full_main_takeover（cdf0cd43；主窗 deferred）：页09-29 **63/51/300**；public tip **0d0aac8**；Pages md5 **f49db1fa8ecfa8e9dc70db7513080c21** live=local；cursor **@lennysan 2104971174262583773**；chat pending_parent；next 16:00 ET。
+## 2026-09-29 16:00 ET · x-1 主窗
+- status: **complete**；claimed_by c3a32b9b；fire_late ~+1min；rec_ideas skipped
+- union191（DOM37∪HTL181）overlay accept126/reject_href65 fail0（retry ok_new+57）depollute2
+- 窗类 正文43 / 拿不准54 / 已过滤94 miss0；页累计 **82/105/394**
+- gap≈4.98 closed；hit_cursor_effective true；gap_open false
+- cursor @lennysan 2104971174262583773 → **@danshipper 2105026422981153037**
+- QA pass clippedBtns0；chat_delivery pending_parent
+- chat_line: 9/29 16:00：正文82 / 拿不准105 / 已过滤394。https://t512192641.github.io/x-following/2026-09-29.html
+- escalate no；next 20:00 ET
+
+## 2026-09-29 16:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-29 63/51/300 tip 0d0aac8 md5 f49db1fa live=local chat t42s473；cursor @lennysan 2104971174262583773
+- **16:00 in_progress**（c3a32b9b ~16:06；union191 overlay 初69/191 + retry mid ~22/122；gap≈4.98 closed；缺 meta/QA/merge/chat）；16:10 deferred_to_main；CDP busy overlay 不抢；不扩大重跑
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；escalate no；stay_quiet
+- recorded 2026-09-30 04:30 CST
+
+## 2026-09-29 16:10 ET 补抓
+- deferred_to_main：主窗 16:00 in_progress（c3a32b9b ~16:06 ET；union191 overlay ~71/191 accept≈10/reject_href≈61 fail0；尚无 meta/分类/页；CDP :9226 留给主窗）；gap≈4.98min gap_open false；cursor still @lennysan 2104971174262583773；12 页 live 63/51/300 md5 f49db1fa；未重抓不抢 CDP；交付交主窗；escalate no。
+- [x] `x-2026-09-29-16-10` 2026-09-29 16:10 ET 补抓（~16:13 正点迟到火，约 +3min）：deferred_to_main；主窗 16:00 in_progress（c3a32b9b ~16:06 ET；union191 DOM37∪HTL181 hit_cursor_effective true gap≈4.98min closed；overlay mid ~71/191 accept≈10/reject_href≈61 fail0 CDP；尚无 16-meta/depollute/分类/QA/日页 merge/游标推进）；cursor still @lennysan 2104971174262583773；12:00 页 live 63/51/300 md5 f49db1fa live=local tip ac1cf9b chat t42s473；未重抓不抢 CDP；交付交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-30 04:15:50 CST
+
+## 2026-09-29 15:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-29 63/51/300 tip 0d0aac8 md5 f49db1fa live=local chat t42s473；cursor @lennysan 2104971174262583773
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；CDP :9226 idle tab 448F4377 x.com/home；16:00 not due (~+32min)；escalate no；stay_quiet
+- recorded 2026-09-30 03:29 CST
+
+## 2026-09-29 14:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-29 63/51/300 tip 0d0aac8 md5 f49db1fa live=local chat t42s473；cursor @lennysan 2104971174262583773
+- union222 overlay135/87/0 depollute10 窗类30/29/163 miss0；gap≈2.37 closed；hit_cursor_effective true；12-meta/claim/catchup complete
+- lists Sep29 已齐 155/@HiTw93 + Manu_Sisti/173 未重跑；CDP :9226 idle tab 448F4377 x.com/home 不抢；16:00 未到期（~+85min）
+- escalate no；stay_quiet；recorded 2026-09-30 02:34 CST
+
+## 2026-09-29 13:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-29 63/51/300 tip 0d0aac8 md5 f49db1fa live=local chat t42s473；cursor @lennysan 2104971174262583773
+- union222 overlay135/87/0 depollute10 窗类30/29/163 miss0；gap≈2.37 closed；hit_cursor_effective true；12-meta/claim/catchup complete
+- lists Sep29 已齐 155/@HiTw93 + Manu_Sisti/173 未重跑；CDP :9226 idle tab 448F4377 x.com/home 不抢；16:00 未到期（~+145min）
+- escalate no；stay_quiet；recorded 2026-09-30 01:37 CST
+
+## 2026-09-29 12:00 ET · x-1/cdf0cd43 full_main_takeover（12:10 catchup）
+- 主窗 c3a32b9b deferred；补抓 full_main_takeover complete
+- chat 交付：**chat 已交 t42s473（2026-09-30 01:16 CST）**
+- union222（DOM70∪HTL217）overlay accept135/reject_href87 fail0（retry ok_new+68）depollute10
+- 窗类 正文30 / 拿不准29 / 已过滤163 miss0；页累计 **63/51/300**
+- gap≈2.37 closed；hit_cursor_effective true
+- cursor @alex_prompter 2104908751493079311 → **@lennysan 2104971174262583773**
+- QA pass clippedBtns0；public tip **0d0aac8**；Pages HTTP 200 md5 **f49db1fa8ecfa8e9dc70db7513080c21** live=local
+- chat_delivery: pending_parent；chat_line: 9/29 12:00：正文63 / 拿不准51 / 已过滤300。https://t512192641.github.io/x-following/2026-09-29.html
+- escalate no；next 16:00 ET
+## 2026-09-29 12:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **08:00** 页09-29 40/22/137 tip 2d97882 md5 d6f89889 chat t42s472；cursor @alex_prompter 2104908751493079311
+- **12:00 in_progress**（补抓 cdf0cd43 full_main_takeover；主窗 deferred_to_catchup）：union222 overlay mid 167/222 ok≈59/rej≈108 fail0；gap≈2.37 closed；尚无 meta/QA/merge/chat；CDP busy 不抢；不扩大重跑
+- lists Sep29 已齐 155/@HiTw93 + Manu_Sisti/173 未重跑
+- escalate no；stay_quiet；recorded 2026-09-30 00:45 CST
+
+## 2026-09-29 12:00 ET 主窗（deferred_to_catchup）
+- [x] 2026-09-29 12:00 ET 主窗 c3a32b9b 迟到火（≈12:24 ET，sched 12:05，约 +19min）：到点时 12-claim 已被 **cdf0cd43**（12:10 补抓）标 in_progress + full_main_takeover；CDP :9226 idle 但未抢；无 12.jsonl/DOM/HTL；主窗 **deferred_to_catchup**；未重抓；交付交补抓；证据 `raw/2026-09-29/12-main-deferred.md`；cursor 仍 @alex_prompter 2104908751493079311；08 页 live 40/22/137 tip 2d97882 md5 d6f89889；escalate no；stay_quiet。  2026-09-30 00:25 CST
+
+## 2026-09-29 11:25 ET health check
+- [x] 2026-09-29 11:25 ET 健康检查（~11:43 ET late ~18min，sched :25，约 +18min）：quiet_ok true；无 overdue 主缺口（08≈4.57 /04≈4.17 /00-Sep29≈2.3 /20≈1.63 /16≈0.37 /12≈2.05 /08-Sep28≈6.65 均 closed）；最近完成窗 **08:00** 页09-29 **40/22/137** tip **2d97882** md5 **d6f89889** live=local chat **t42s472**；cursor **@alex_prompter 2104908751493079311**；union88 overlay54/34/0 depollute2 窗类24/11/53 miss0；gap≈4.57 closed；hit_cursor_effective true；08-meta/claim/catchup complete；04 亦齐 19/11/84 t42s471；00 亦齐 133/112/416 t42s470；**CDP :9226 idle** tab 448F4377 x.com/home 不抢；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；12:00 未到期（~+17min）无 12-claim；escalate no；stay_quiet。  2026-09-29 23:44 CST
+
+## 2026-09-29 10:25 ET health check
+- [x] 2026-09-29 10:25 ET 健康检查（~10:37 ET late ~12min，sched :25，约 +12min）：quiet_ok true；无 overdue 主缺口（08≈4.57 /04≈4.17 /00-Sep29≈2.3 /20≈1.63 /16≈0.37 /12≈2.05 /08-Sep28≈6.65 均 closed）；最近完成窗 **08:00** 页09-29 **40/22/137** tip **2d97882** md5 **d6f89889** live=local chat **t42s472**；cursor **@alex_prompter 2104908751493079311**；union88 overlay54/34/0 depollute2 窗类24/11/53 miss0；gap≈4.57 closed；hit_cursor_effective true；08-meta/claim/catchup complete；04 亦齐 19/11/84 t42s471；00 亦齐 133/112/416 t42s470；**CDP :9226 idle** tab 448F4377 x.com/home 不抢；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；12:00 未到期（~+83min）无 12-claim；escalate no；stay_quiet。  2026-09-29 22:39 CST
+
+## 2026-09-29 09:25 ET health check
+- [x] 2026-09-29 09:25 ET 健康检查（~09:41 ET late ~16min，sched :25，约 +16min）：quiet_ok true；无 overdue 主缺口（08≈4.57 /04≈4.17 /00-Sep29≈2.3 /20≈1.63 /16≈0.37 /12≈2.05 /08-Sep28≈6.65 均 closed）；最近完成窗 **08:00** 页09-29 **40/22/137** tip **2d97882** md5 **d6f89889** live=local chat **t42s472**；cursor **@alex_prompter 2104908751493079311**；union88 overlay54/34/0 depollute2 窗类24/11/53 miss0；gap≈4.57 closed；hit_cursor_effective true；08-meta/claim/catchup complete；04 亦齐 19/11/84 t42s471；00 亦齐 133/112/416 t42s470；**CDP :9226 idle** tab 448F4377 x.com/home 不抢；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；12:00 未到期（~+139min）无 12-claim；escalate no；stay_quiet。  2026-09-29 21:43 CST
+
 ## 2026-09-29 08:25 ET health check
-- [x] 2026-09-29 08:00 ET 主窗（08:10 catchup **full_main_takeover** cdf0cd43；主窗 c3a32b9b 08:05 漏跑 deferred）：union88（DOM16∪HTL84）overlay accept54/reject_href34 fail0（retry ok_new+36）depollute2；窗类正文24/拿不准11/已过滤53 miss0；页09-29 **40/22/137**；gap≈4.57 closed；hit_cursor_effective true；cursor **@alex_prompter 2104908751493079311**（prior @yibie 2104845706502541777）；rec_ideas skipped；QA pass clippedBtns0；public tip **2d97882**；Pages HTTP 200 md5 **d6f8988920ed28c642d58c0055302769** live=local；md5 **d6f8988920ed28c642d58c0055302769**；08-meta/claim/catchup complete；**chat pending_parent**；next 2026-09-29 12:00 ET；escalate no。  2026-09-29 20:40 CST
+- [x] 2026-09-29 08:00 ET 主窗（08:10 catchup **full_main_takeover** cdf0cd43；主窗 c3a32b9b 08:05 漏跑 deferred）：union88（DOM16∪HTL84）overlay accept54/reject_href34 fail0（retry ok_new+36）depollute2；窗类正文24/拿不准11/已过滤53 miss0；页09-29 **40/22/137**；gap≈4.57 closed；hit_cursor_effective true；cursor **@alex_prompter 2104908751493079311**（prior @yibie 2104845706502541777）；rec_ideas skipped；QA pass clippedBtns0；public tip **2d97882**；Pages HTTP 200 md5 **d6f8988920ed28c642d58c0055302769** live=local；md5 **d6f8988920ed28c642d58c0055302769**；08-meta/claim/catchup complete；**chat 已交 t42s472（2026-09-29 20:43 CST）**；next 2026-09-29 12:00 ET；escalate no。  2026-09-29 20:40 CST
 
 - [x] 2026-09-29 08:25 ET 健康检查（~08:33 ET late ~8min，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口（04≈4.17 /00-Sep29≈2.3 /20≈1.63 /16≈0.37 /12≈2.05 /08-Sep28≈6.65 均 closed；08-Sep29 gap≈4.57 closed·补抓 in_progress）；最近完成窗 **04:00** 页09-29 **19/11/84** tip **762419e** md5 **e10780e8** live=local chat **t42s471**；cursor **@yibie 2104845706502541777**；**08:00 in_progress**（cdf0cd43 full_main_takeover 龄≈19min；union88 overlay 初18/70 + retry mid [64/70] ok≈36；缺 meta/depollute/class/QA/merge/cursor/chat；非假 succeeded）；主窗 deferred_to_catchup；**CDP :9226 busy overlay** tab 448F4377 不抢；lists Sep28 done 155/@HiTw93 + Mileson07/172；Sep29 未到期（~+47min）不早跑；escalate no；stay_quiet。  2026-09-29 20:35 CST
 
