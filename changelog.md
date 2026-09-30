@@ -1,3 +1,6 @@
+## 2026-09-30 08:00 ET · x-1 catchup full_main_takeover
+- [x] 2026-09-30 08:00 ET（cdf0cd43 08:10 catchup full_main_takeover；主窗 c3a32b9b 08:05 漏跑）：union**86**（DOM15∪HTL86）overlay accept**86**/reject_href**0**/fail**0**（初47/39 + retry ok_new+39）depollute**2**；窗类正文**19**/拿不准**4**/已过滤**63** miss0；页累计 **27/16/167**；gap≈**0.67** closed；hit_cursor_effective true；cursor prior @lxfater 2105208529959182687 → @alex_prompter **2105270212555948362**；rec_ideas skipped；QA pass clippedBtns0；next 2026-09-30 12:00 ET；escalate no。  2026-09-30 20:32 CST
+
 ## 2026-09-30 04:00 ET · x-1 主窗
 - [x] 2026-09-30 04:00 ET 主窗（c3a32b9b，火 2026-09-30T08:06:28.585Z ~04:06 ET late ~+1min）：union125（DOM22∪HTL123）overlay accept64/reject_href61 fail0（初52/73 + retry ok_new+12）depollute5；窗类正文14/拿不准10/已过滤101 miss0；页09-30 **14/12/104**（今天第一版；薄种子0/2/3上追加）；gap≈0.98 closed；hit_cursor_effective true；cursor **@lxfater 2105208529959182687**（prior @pmarca 2105148872951763128）；rec_ideas skipped；QA pass clippedBtns0；next 2026-09-30 08:00 ET；escalate no。  2026-09-30 16:32 CST
 
