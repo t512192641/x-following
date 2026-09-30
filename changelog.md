@@ -1,3 +1,37 @@
+## 2026-09-30 16:25 ET · x-3 health
+
+- quiet_ok；无 overdue 主缺口（16 scrape gap≈1.32 closed·主窗 in_progress 非 overdue）；最近完成 **12:00** 页09-30 55/21/252 tip 4b2f410 md5 15d777830f2c673b66da76587483ce26 live=local days==site==Pages；**chat delivered ✅**（10-01 00:38 CST）；cursor @berryxia 2105329071265923158
+- **16:00 in_progress**（c3a32b9b ~16:14；union103 overlay 初21/103 fail82 + retry mid ~[17/82]；尚无 meta/分类/页/chat）；16:10 deferred_to_main；08 亦齐 27/16/167 chat delivered；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 busy** overlay retry not stolen；escalate no；stay_quiet；parent_notify no
+- recorded 2026-10-01 04:30 CST
+
+## 2026-09-30 16:00 ET · x-1 主窗
+- [x] 2026-09-30 16:00 ET 主窗（c3a32b9b，火 ~16:14 ET late~9min）：union**103**（DOM25∪HTL102）overlay accept**56**/reject_href**47**/fail**0**（初21/82 + retry ok_new+35）depollute**1**；窗类正文**26**/拿不准**14**/已过滤**63** miss0；页累计 **77/35/315**；gap≈**1.32** closed；hit_cursor_effective true；cursor prior @berryxia 2105329071265923158 → @danshipper **2105390229045879142**；rec_ideas skipped；QA pass clippedBtns0；chat_line pending_parent；next 2026-09-30 20:00 ET；escalate no。  2026-10-01 04:39 CST
+
+## 2026-09-30 16:10 ET · x-2 catchup
+- deferred_to_main；16:00 主窗 c3a32b9b in_progress（~16:14；DOM25 done + `_scrape16_htl.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 12 complete 55/21/252 tip 4b2f410 md5 15d77783 chat delivered；cursor still @berryxia 2105329071265923158
+- evidence raw/2026-09-30/16-10-catchup.md；escalate no；stay_quiet
+- recorded 2026-10-01 04:18 CST
+
+## 2026-09-30 14:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-30 55/21/252 tip 4b2f410 md5 15d777830f2c673b66da76587483ce26 live=local days==site==Pages；**chat delivered ✅**（10-01 00:38 CST）；cursor @berryxia 2105329071265923158
+- 12:10 deferred_to_main；08 亦齐 27/16/167 chat delivered；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；16:00 not due（~+86min）；escalate no；stay_quiet；parent_notify no
+- recorded 2026-10-01 02:33 CST
+
+## 2026-09-30 13:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-30 55/21/252 tip 4b2f410 md5 15d777830f2c673b66da76587483ce26 live=local days==site==Pages；**chat delivered ✅**（10-01 00:38 CST；12:25 时尚 pending_parent 已收口）；cursor @berryxia 2105329071265923158
+- 12:10 deferred_to_main；08 亦齐 27/16/167 chat delivered；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；16:00 not due（~+146min）；escalate no；stay_quiet；parent_notify no
+- recorded 2026-10-01 01:34 CST
+
+## 2026-09-30 12:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-30 55/21/252 tip 4b2f410 md5 15d777830f2c673b66da76587483ce26 live=local days==site==Pages；chat 已交（10-01 00:38 CST）（主窗平台 RUNNING）；cursor @berryxia 2105329071265923158
+- 12:10 deferred_to_main；08 亦齐 27/16/167 chat delivered；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；16:00 not due（~+206min）；escalate no；stay_quiet；parent_notify no
+- recorded 2026-10-01 00:34 CST
+
 ## 2026-09-30 12:00 ET · x-1 主窗
 - [x] 2026-09-30 12:00 ET 主窗（c3a32b9b，火 2026-09-30T16:05Z ~12:05 ET）：union**129**（DOM41∪HTL124）overlay accept**60**/reject_href**69**/fail**0**（初50/79 + retry ok_new+10）depollute**2**；窗类正文**39**/拿不准**5**/已过滤**85** miss0；页累计 **55/21/252**；gap≈**1.25** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105270212555948362 → @berryxia **2105329071265923158**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **4b2f410** md5 15d777830f2c673b66da76587483ce26 live=local；chat_line pending_parent；next 2026-09-30 16:00 ET；escalate no。  2026-10-01 00:32 CST
 
