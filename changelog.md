@@ -1,6 +1,25 @@
-## 2026-09-29 16:00 ET · x-1 主窗
+## 2026-09-29 20:00 ET · x-1 主窗
 - [x] 2026-09-29 20:00 ET 主窗（c3a32b9b，火 2026-09-30T00:05:52.809Z ~20:05 ET late ~+1min）：union124（DOM35∪HTL120）overlay accept50/reject_href74 fail0（retry ok_new+10）depollute3；窗类正文27/拿不准15/已过滤82 miss0；页09-29 **104/120/476**；gap≈4.02 closed；hit_cursor_effective true；cursor **@levelsio 2105087277206737029**（prior @danshipper 2105026422981153037）；**rec_ideas merged**（rec_new7 + ideas_n3；data-*-source=2026-09-29）；QA pass clippedBtns0；next 2026-09-30 00:00 ET；escalate no。  2026-09-30 08:35 CST
 - public tip **7f4b624**；Pages md5 **aa22416baa71fc55fe648c8226233038** live=local；chat_line ready。  2026-09-30 08:35 CST
+
+## 2026-09-29 20:10 ET 补抓
+- deferred_to_main：主窗 20:00 in_progress（c3a32b9b ~20:06 ET；union124 overlay ~10/124 accept≈10/reject_href≈35 fail0；尚无 meta/分类/页；CDP :9226 留给主窗）；gap≈4.02min gap_open false；cursor still @danshipper 2105026422981153037；16 页 live 82/105/394 md5 5f6a6c7c；未重抓不抢 CDP；交付/rec+ideas 交主窗；escalate no。
+- [x] `x-2026-09-29-20-10` 2026-09-29 20:10 ET 补抓（~20:13 正点迟到火，约 +3min）：deferred_to_main；主窗 20:00 in_progress（c3a32b9b ~20:06 ET；union124 DOM35∪HTL120 hit_cursor_effective true gap≈4.02min closed；overlay mid ~10/124 accept≈10/reject_href≈35 fail0 CDP；尚无 20-meta/depollute/分类/QA/日页 merge/游标推进/rec+ideas）；cursor still @danshipper 2105026422981153037；16:00 页 live 82/105/394 md5 5f6a6c7c live=local tip 28af95d chat delivered；未重抓不抢 CDP；交付交主窗；escalate no；stay_quiet。  2026-09-30 08:15:01 CST
+
+## 2026-09-29 19:25 ET health check
+- quiet_ok；16:00 齐 82/105/394 tip 28af95d md5 5f6a6c7c live=local chat delivered；cursor @danshipper；lists Sep29 齐；20:00 未到期；CDP idle；escalate no；stay_quiet。
+
+## 2026-09-29 18:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **16:00** 页09-29 82/105/394 tip 28af95d md5 5f6a6c7c live=local chat delivered WakeParent；cursor @danshipper 2105026422981153037
+- 16:10 deferred_to_main；12/08/04/00 亦齐；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；CDP :9226 idle tab 448F4377 x.com/home；20:00 not due (~+88min)；escalate no；stay_quiet
+- recorded 2026-09-30 06:34 CST
+
+## 2026-09-29 17:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **16:00** 页09-29 82/105/394 tip 28af95d md5 5f6a6c7c live=local chat delivered WakeParent；cursor @danshipper 2105026422981153037
+- 16:10 deferred_to_main；12/08/04/00 亦齐；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；CDP :9226 idle tab 448F4377 x.com/home；20:00 not due (~+151min)；escalate no；stay_quiet
+- recorded 2026-09-30 05:31 CST
+
+## 2026-09-29 16:00 ET · x-1 主窗
 - status: **complete**；claimed_by c3a32b9b；fire_late ~+1min；rec_ideas skipped
 - union191（DOM37∪HTL181）overlay accept126/reject_href65 fail0（retry ok_new+57）depollute2
 - 窗类 正文43 / 拿不准54 / 已过滤94 miss0；页累计 **82/105/394**
@@ -112,7 +131,7 @@
 
 ## 2026-09-28 20:10 ET 补抓
 ## 2026-09-28 20:25 ET health check
-- [x] 2026-09-28 20:25 ET 健康检查（~20:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；**20:00 late-stage** 页 live 正文95/拿不准89/已过滤343 raw union110 overlay53/57/0 depollute6 窗类35/27/48；gap≈1.63 closed；cursor @danshipper 2104725262906835015；Pages 200 md5 8146eda9 live=local tip 93ae51c；chat pending_parent；20:10 deferred；lists Sep28 done 155/@HiTw93 + Mileson07/172 not rerun；00:00 not due（~+206min）；**CDP :9226 up** home not stolen；escalate no；stay_quiet。  2026-09-29 08:34 CST
+- [x] 2026-09-28 20:25 ET 健康检查（~20:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；**20:00 late-stage** 页 live 正文95/拿不准89/已过滤343 raw union110 overlay53/57/0 depollute6 窗类35/27/48；gap≈1.63 closed；cursor @danshipper 2104725262906835015；Pages 200 md5 8146eda9 live=local tip 93ae51c；chat 已交（04:49 CST）；20:10 deferred；lists Sep28 done 155/@HiTw93 + Mileson07/172 not rerun；00:00 not due（~+206min）；**CDP :9226 up** home not stolen；escalate no；stay_quiet。  2026-09-29 08:34 CST
 
 ## 2026-09-28 20:00 ET
 - [x] `x-2026-09-28-20` 主窗 complete（fire ~20:06 ET，sched 20:05，约 +1min）：union110（DOM31∪HTL105）overlay accept53/reject_href57 fail0（初40/70 + retry ok_new+13）；depollute6；窗类正文35/拿不准27/已过滤48 miss0；页09-28 **95/89/343**；gap≈1.63 closed；hit_cursor_effective true；cursor @danshipper 2104725262906835015（prior @cursor_ai 2104666044220821594）；并 recommended+ideas 2026-09-28（rec_new8 skip1 DevDay；ideas_n4）；QA pass clippedBtns0；**chat 已交 t42s469（2026-09-29 08:36 CST）**；next 2026-09-29 00:00 ET；escalate no。
