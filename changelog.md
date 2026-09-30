@@ -1,5 +1,56 @@
+## 2026-09-30 12:00 ET · x-1 主窗
+- [x] 2026-09-30 12:00 ET 主窗（c3a32b9b，火 2026-09-30T16:05Z ~12:05 ET）：union**129**（DOM41∪HTL124）overlay accept**60**/reject_href**69**/fail**0**（初50/79 + retry ok_new+10）depollute**2**；窗类正文**39**/拿不准**5**/已过滤**85** miss0；页累计 **55/21/252**；gap≈**1.25** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105270212555948362 → @berryxia **2105329071265923158**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **PENDING** md5 15d777830f2c673b66da76587483ce26 live=PENDING；chat_line pending_parent；next 2026-09-30 16:00 ET；escalate no。  2026-10-01 00:32 CST
+
+## 2026-09-30 12:10 ET 补抓
+- deferred_to_main：主窗 12:00 in_progress（c3a32b9b ~12:05 ET；union129 overlay ~79/129 accept≈15/reject_href≈64 fail0；尚无 meta/分类/页；CDP :9226 留给主窗）；gap≈1.25min gap_open false；cursor still @alex_prompter 2105270212555948362；08 页 live 27/16/167 md5 9557e391 tip 0ca8a17 chat delivered；未重抓不抢 CDP；交付交主窗；escalate no。
+- [x] `x-2026-09-30-12-10` 2026-09-30 12:10 ET 补抓（~12:16 正点迟到火，约 +6min）：deferred_to_main；主窗 12:00 in_progress（c3a32b9b ~12:05 ET；union129 DOM41∪HTL124 hit_cursor_effective true gap≈1.25min closed；overlay mid ~79/129 accept≈15/reject_href≈64 fail0 CDP；尚无 12-meta/depollute/分类/QA/日页 merge/游标推进）；cursor still @alex_prompter 2105270212555948362；08:00 页 live 27/16/167 md5 9557e391 live=local tip 0ca8a17 chat delivered；未重抓不抢 CDP；交付交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-10-01 00:17 CST
+
+## 2026-09-30 11:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **08:00** 页09-30 27/16/167 tip 0ca8a17（site HEAD 2d09e22）md5 9557e391 live=local chat delivered ✅ 20:37 CST；cursor @alex_prompter 2105270212555948362
+- 08:10 catchup complete；04 亦齐 14/12/104 chat delivered；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；12:00 not due（~+30min）；escalate no；stay_quiet；parent_notify no
+- recorded 2026-09-30 23:29 CST
+
+## 2026-09-30 09:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **08:00** 页09-30 27/16/167 tip 0ca8a17（site HEAD 2d09e22）md5 9557e391 live=local chat delivered ✅ 20:37 CST；cursor @alex_prompter 2105270212555948362
+- 08:10 catchup complete；04 亦齐 14/12/104 chat delivered；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；escalate no；stay_quiet；parent_notify no
+- recorded 2026-09-30 21:35 CST
+
 ## 2026-09-30 08:00 ET · x-1 catchup full_main_takeover
-- [x] 2026-09-30 08:00 ET（cdf0cd43 08:10 catchup full_main_takeover；主窗 c3a32b9b 08:05 漏跑）：union**86**（DOM15∪HTL86）overlay accept**86**/reject_href**0**/fail**0**（初47/39 + retry ok_new+39）depollute**2**；窗类正文**19**/拿不准**4**/已过滤**63** miss0；页累计 **27/16/167**；gap≈**0.67** closed；hit_cursor_effective true；cursor prior @lxfater 2105208529959182687 → @alex_prompter **2105270212555948362**；rec_ideas skipped；QA pass clippedBtns0；next 2026-09-30 12:00 ET；escalate no。  2026-09-30 20:32 CST
+- [x] 2026-09-30 08:00 ET（cdf0cd43 08:10 catchup full_main_takeover；主窗 c3a32b9b 08:05 漏跑 / ≈08:14 deferred_to_catchup）：union**86**（DOM15∪HTL86）overlay accept**86**/reject_href**0**/fail**0**（初47/39 + retry ok_new+39）depollute**2**；窗类正文**19**/拿不准**4**/已过滤**63** miss0；页累计 **27/16/167**；gap≈**0.67** closed；hit_cursor_effective true；cursor prior @lxfater 2105208529959182687 → @alex_prompter **2105270212555948362**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **0ca8a17** md5 9557e3912d1cdd38cf8829a3cf936b82 live=local；chat_line pending_parent；next 2026-09-30 12:00 ET；escalate no。  2026-09-30 20:35 CST
+
+## 2026-09-30 08:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口（08 scrape gap≈0.67 closed·补抓 in_progress 非 overdue）；最近完成 **04:00** 页09-30 14/12/104 tip a020408 md5 436bddc4 live=local chat delivered ✅ 16:35 CST；cursor @lxfater 2105208529959182687
+- **08:00 in_progress**（补抓 cdf0cd43 full_main_takeover 龄≈19min；主窗 deferred_to_catchup；union86 overlay 初47/86 fail39 + retry→accept86/reject0；depollute2；classify 已开；缺 meta/class-manual/QA/merge/cursor/chat）；08:10 full_main_takeover_in_progress
+- 04:10 deferred_to_main；00 亦齐 128/156/620 tip 9191a58 chat delivered WakeParent；20 亦齐 104/120/476 t42s475
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+53min）不早跑；**CDP :9226 idle** home（retry 已收口）not stolen；escalate no；stay_quiet；parent_notify no
+- recorded 2026-09-30 20:29 CST## 2026-09-30 08:00 ET 主窗（deferred_to_catchup）
+- [x] 2026-09-30 08:00 ET 主窗 c3a32b9b 迟到火（≈08:14 ET，sched 08:05，约 +9min）：到点时 08-claim 已被 **cdf0cd43**（08:10 补抓）标 in_progress + full_main_takeover；CDP :9226 busy `_scrape08_dom.py` 不抢；尚无 08.jsonl/HTL/union；主窗 **deferred_to_catchup**；未重抓；交付交补抓；证据 `raw/2026-09-30/08-main-deferred.md`；cursor 仍 @lxfater 2105208529959182687；04 页 live 14/12/104 tip a020408 md5 436bddc4；escalate no；stay_quiet。  2026-09-30 20:15 CST
+
+## 2026-09-30 07:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **04:00** 页09-30 14/12/104 tip a020408 md5 436bddc4 live=local chat delivered ✅ 16:35 CST；cursor @lxfater 2105208529959182687
+- 04:10 deferred_to_main；00 亦齐 128/156/620 tip 9191a58 chat delivered WakeParent；20 亦齐 104/120/476 t42s475
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+111min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 19:32 CST
+
+## 2026-09-30 06:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **04:00** 页09-30 14/12/104 tip a020408 md5 436bddc4 live=local chat delivered ✅ 16:35 CST；cursor @lxfater 2105208529959182687
+- 04:10 deferred_to_main；00 亦齐 128/156/620 tip 9191a58 chat delivered WakeParent；20 亦齐 104/120/476 t42s475
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+168min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 18:37 CST
+
+## 2026-09-30 05:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **04:00** 页09-30 14/12/104 tip a020408 md5 436bddc4 live=local chat delivered ✅ 16:35 CST；cursor @lxfater 2105208529959182687
+- 04:10 deferred_to_main；00 亦齐 128/156/620 tip 9191a58 chat delivered WakeParent；20 亦齐 104/120/476 t42s475
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+237min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 17:27 CST
+
+## 2026-09-30 04:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **04:00** 页09-30 14/12/104 tip a020408 md5 436bddc4 live=local chat pending_parent；cursor @lxfater 2105208529959182687
+- 04:10 deferred_to_main；00 亦齐 128/156/620 tip 9191a58 chat delivered WakeParent；20 亦齐 104/120/476 t42s475
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+289min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 16:34 CST
 
 ## 2026-09-30 04:00 ET · x-1 主窗
 - [x] 2026-09-30 04:00 ET 主窗（c3a32b9b，火 2026-09-30T08:06:28.585Z ~04:06 ET late ~+1min）：union125（DOM22∪HTL123）overlay accept64/reject_href61 fail0（初52/73 + retry ok_new+12）depollute5；窗类正文14/拿不准10/已过滤101 miss0；页09-30 **14/12/104**（今天第一版；薄种子0/2/3上追加）；gap≈0.98 closed；hit_cursor_effective true；cursor **@lxfater 2105208529959182687**（prior @pmarca 2105148872951763128）；rec_ideas skipped；QA pass clippedBtns0；next 2026-09-30 08:00 ET；escalate no。  2026-09-30 16:32 CST
