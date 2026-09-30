@@ -1,5 +1,6 @@
 ## 2026-09-29 16:00 ET · x-1 主窗
 - [x] 2026-09-29 20:00 ET 主窗（c3a32b9b，火 2026-09-30T00:05:52.809Z ~20:05 ET late ~+1min）：union124（DOM35∪HTL120）overlay accept50/reject_href74 fail0（retry ok_new+10）depollute3；窗类正文27/拿不准15/已过滤82 miss0；页09-29 **104/120/476**；gap≈4.02 closed；hit_cursor_effective true；cursor **@levelsio 2105087277206737029**（prior @danshipper 2105026422981153037）；**rec_ideas merged**（rec_new7 + ideas_n3；data-*-source=2026-09-29）；QA pass clippedBtns0；next 2026-09-30 00:00 ET；escalate no。  2026-09-30 08:35 CST
+- public tip **7f4b624**；Pages md5 **aa22416baa71fc55fe648c8226233038** live=local；chat_line ready。  2026-09-30 08:35 CST
 - status: **complete**；claimed_by c3a32b9b；fire_late ~+1min；rec_ideas skipped
 - union191（DOM37∪HTL181）overlay accept126/reject_href65 fail0（retry ok_new+57）depollute2
 - 窗类 正文43 / 拿不准54 / 已过滤94 miss0；页累计 **82/105/394**
