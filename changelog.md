@@ -6,7 +6,7 @@
 - recorded 2026-10-01 04:30 CST
 
 ## 2026-09-30 16:00 ET · x-1 主窗
-- [x] 2026-09-30 16:00 ET 主窗（c3a32b9b，火 ~16:14 ET late~9min）：union**103**（DOM25∪HTL102）overlay accept**56**/reject_href**47**/fail**0**（初21/82 + retry ok_new+35）depollute**1**；窗类正文**26**/拿不准**14**/已过滤**63** miss0；页累计 **77/35/315**；gap≈**1.32** closed；hit_cursor_effective true；cursor prior @berryxia 2105329071265923158 → @danshipper **2105390229045879142**；rec_ideas skipped；QA pass clippedBtns0；chat_line pending_parent；next 2026-09-30 20:00 ET；escalate no。  2026-10-01 04:39 CST
+- [x] 2026-09-30 16:00 ET 主窗（c3a32b9b，火 ~16:14 ET late~9min）：union**103**（DOM25∪HTL102）overlay accept**56**/reject_href**47**/fail**0**（初21/82 + retry ok_new+35）depollute**1**；窗类正文**26**/拿不准**14**/已过滤**63** miss0；页累计 **77/35/315**；gap≈**1.32** closed；hit_cursor_effective true；cursor prior @berryxia 2105329071265923158 → @danshipper **2105390229045879142**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **681887d** md5 408cddd5806d317466118febdda008f7 live=local；chat_line pending_parent；grok-ops **de5bf8c**；next 2026-09-30 20:00 ET；escalate no。  2026-10-01 04:40 CST
 
 ## 2026-09-30 16:10 ET · x-2 catchup
 - deferred_to_main；16:00 主窗 c3a32b9b in_progress（~16:14；DOM25 done + `_scrape16_htl.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
