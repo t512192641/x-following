@@ -1,3 +1,18 @@
+## 2026-09-30 04:00 ET · x-1 主窗
+- [x] 2026-09-30 04:00 ET 主窗（c3a32b9b，火 2026-09-30T08:06:28.585Z ~04:06 ET late ~+1min）：union125（DOM22∪HTL123）overlay accept64/reject_href61 fail0（初52/73 + retry ok_new+12）depollute5；窗类正文14/拿不准10/已过滤101 miss0；页09-30 **14/12/104**（今天第一版；薄种子0/2/3上追加）；gap≈0.98 closed；hit_cursor_effective true；cursor **@lxfater 2105208529959182687**（prior @pmarca 2105148872951763128）；rec_ideas skipped；QA pass clippedBtns0；next 2026-09-30 08:00 ET；escalate no。  2026-09-30 16:32 CST
+
+## 2026-09-30 03:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **00:00** 昨页09-29 128/156/620 tip 9191a58 md5 c2ea9487 live=local chat delivered WakeParent（13:56 CST）；cursor @pmarca 2105148872951763128
+- 00:10 deferred_to_main；20 亦齐 104/120/476 t42s475；04:00 not due（~+32min）
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+355min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 15:28 CST
+
+## 2026-09-30 02:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **00:00** 昨页09-29 128/156/620 tip 9191a58 md5 c2ea9487 live=local chat delivered WakeParent（13:56 CST）；cursor @pmarca 2105148872951763128
+- 00:10 deferred_to_main；20 亦齐 104/120/476 t42s475；04:00 not due（~+90min）
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+413min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 14:30 CST
+
 ## 2026-09-30 00:00 ET · x-1 主窗
 - [x] 2026-09-30 00:00 ET 主窗（c3a32b9b，火 2026-09-30T04:08:28.926Z ~00:08 ET late ~+3min）：union209（DOM55∪HTL207）overlay accept115/reject_href94 fail0（初85/124 + retry ok_new+30）depollute5；窗类正文24/拿不准38/已过滤147 miss0；昨页09-29 **128/156/620**；薄种子09-30 **0/2/3**；gap≈4.67 closed；hit_cursor_effective true；cursor **@pmarca 2105148872951763128**（prior @levelsio 2105087277206737029）；rec_ideas skipped；QA pass clippedBtns0；next 2026-09-30 04:00 ET；escalate no。  2026-09-30 13:52 CST
 
@@ -200,7 +215,7 @@
 ## 2026-09-28 12:00 ET
 
 - chat 交付：**chat 已交 t42s467（2026-09-29 00:58 CST）**
-- 主窗 complete：union144（DOM42∪HTL140）overlay accept73/reject_href71 fail0；depollute6；窗类正文31/拿不准28/已过滤85；页09-28 正文55/拿不准47/已过滤229；gap≈2.05min closed；cursor @liuren 2104609357984055564；public tip d77ec37；Pages 200 md5 81228875 live=local；chat pending_parent；next 16:00 ET；escalate no。
+- 主窗 complete：union144（DOM42∪HTL140）overlay accept73/reject_href71 fail0；depollute6；窗类正文31/拿不准28/已过滤85；页09-28 正文55/拿不准47/已过滤229；gap≈2.05min closed；cursor @liuren 2104609357984055564；public tip d77ec37；Pages 200 md5 81228875 live=local；chat 已交（13:56 CST）；next 16:00 ET；escalate no。
 
 ## 2026-09-28 12:25 ET — x-3 health quiet_ok
 - [x] 2026-09-28 12:25 ET 健康检查（~12:38 ET 正点迟到火，sched :25，约 +13min）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap≈6.65min closed；04≈7.48 / 00≈2.92 / 20≈6.62 / 16≈4.82 / prior12≈2.02 均 closed）；最近完成窗 **08:00**（主窗 c3a32b9b）：页09-28 **35/19/144** raw union100 overlay accept57/reject_href43 fail0 depollute3 窗类22/8/70 miss0；gap≈6.65min closed；hit_cursor_effective true；cursor @alex_prompter 2104545440637304833（prior @KinGao476942 2104483857143840801）；git tip public **20ed622**；Pages HTTP 200 md5 **f39a1ca953bce4f33ec64a9d974c1e4c** live=local（days==site）；QA pass clippedBtns0；08-meta/claim complete；**chat t42s466 delivered**（2026-09-28 20:41 CST）；08:10 deferred_to_main complete；04/00 亦齐；**12:00 in_progress**（c3a32b9b claimed_at ~12:26 龄≈12min；union144 DOM42∪HTL140 hit_cursor_effective true gap≈2.05min closed；overlay mid 100/144 accept≈32/reject_href≈68 fail0 CDP 持续更新；尚无 12-meta/depollute/分类/QA/日页 merge/游标推进/chat；平台 running 与磁盘一致，非假 succeeded）；12:10 deferred_to_main complete；lists Sep28 done 155/@HiTw93 + Mileson07/172 not rerun（x-4 ~09:46 已齐）；16:00 未见 16-claim（约 +202min 未到期）；无 AUTH_FAIL/重复抓取；overlay explore/for-you 拒写同前窗已记不升；不扩大重跑主窗/不抢 CDP（:9226 tab 0319D623 在 status 页·主窗 overlay）；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled（板史）；next 主窗交 12:00 → 16:00 ET；escalate no；stay_quiet。  2026-09-29 00:39 CST
