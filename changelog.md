@@ -1,3 +1,34 @@
+## 2026-09-30 00:00 ET · x-1 主窗
+- [x] 2026-09-30 00:00 ET 主窗（c3a32b9b，火 2026-09-30T04:08:28.926Z ~00:08 ET late ~+3min）：union209（DOM55∪HTL207）overlay accept115/reject_href94 fail0（初85/124 + retry ok_new+30）depollute5；窗类正文24/拿不准38/已过滤147 miss0；昨页09-29 **128/156/620**；薄种子09-30 **0/2/3**；gap≈4.67 closed；hit_cursor_effective true；cursor **@pmarca 2105148872951763128**（prior @levelsio 2105087277206737029）；rec_ideas skipped；QA pass clippedBtns0；next 2026-09-30 04:00 ET；escalate no。  2026-09-30 13:52 CST
+
+## 2026-09-30 01:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **20:00** 页09-29 104/120/476 tip 7f4b624 md5 aa22416b live=local chat t42s475；cursor @levelsio 2105087277206737029
+- **00:00 in_progress**（c3a32b9b ~00:08 龄≈87min；union209 gap≈4.67 closed；overlay1 85/124/0；retry mid ~44/124；末段 ~01:32 ET；非假 succeeded）；00:10 deferred_to_main
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+467min）；**CDP :9226** explore/for-you not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 13:35 CST
+
+## 2026-09-30 00:25 ET · x-3 health
+- quiet_ok；无 overdue 主缺口；最近完成 **20:00** 页09-29 104/120/476 tip 7f4b624 md5 aa22416b live=local chat t42s475；cursor @levelsio 2105087277206737029
+- **00:00 in_progress**（c3a32b9b ~00:08；union209 gap≈4.67 closed；overlay1 85/124/0；retry mid；非假 succeeded）；00:10 deferred_to_main
+- lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+526min）；**CDP :9226 busy main overlay** not stolen；escalate no；stay_quiet
+- recorded 2026-09-30 12:37 CST
+
+## 2026-09-30 00:10 ET 补抓
+- deferred_to_main：主窗 00:00 in_progress（c3a32b9b ~00:08 ET；phase DOM scrape `_scrape00_dom.py` + CDP :9226 tab 448F4377 Following/Latest；尚无 00.jsonl/union/overlay/meta/分类/QA/日页；硬门禁须齐）；cursor still @levelsio 2105087277206737029；20 页 live 104/120/476 md5 aa22416b tip 7f4b624 chat t42s475；未重抓不抢 CDP；交付交主窗；escalate no。
+- [x] `x-2026-09-30-00-10` 2026-09-30 00:10 ET 补抓（~00:11 正点火，约 +1min）：deferred_to_main；主窗 00:00 in_progress（c3a32b9b ~00:08 ET；DOM 进行中 login_ok；尚无 00.jsonl/HTL/union/overlay/depollute/分类/QA/日页 merge/游标推进）；cursor still @levelsio 2105087277206737029；20:00 页 live 104/120/476 md5 aa22416b live=local tip 7f4b624 chat t42s475；未重抓不抢 CDP；交付交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-30 12:12:24 CST
+
+## 2026-09-29 23:25 ET health check
+- [x] 2026-09-29 23:25 ET 健康检查（~2026-09-29 23:27 ET 正点迟到火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **20:00** 页 live 正文104/拿不准120/已过滤476 raw union124 overlay50/74/0 depollute3 窗类27/15/82；gap≈4.02 closed；cursor @levelsio 2105087277206737029；Pages 200 md5 aa22416b live=local tip 7f4b624；**chat t42s475 delivered**；20:10 deferred；16 亦齐 82/105/394 tip 28af95d chat delivered；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+596min）；00:00 not due（~+33min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet。  2026-09-30 11:29 CST
+
+## 2026-09-29 22:25 ET health check
+- [x] 2026-09-29 22:25 ET 健康检查（~2026-09-29 22:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **20:00** 页 live 正文104/拿不准120/已过滤476 raw union124 overlay50/74/0 depollute3 窗类27/15/82；gap≈4.02 closed；cursor @levelsio 2105087277206737029；Pages 200 md5 aa22416b live=local tip 7f4b624；**chat t42s475 delivered**；20:10 deferred；16 亦齐 82/105/394 tip 28af95d chat delivered；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+650min）；00:00 not due（~+87min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet。  2026-09-30 10:35 CST
+
+## 2026-09-29 21:25 ET health check
+- [x] 2026-09-29 21:25 ET 健康检查（~2026-09-29 21:27 ET 正点迟到火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **20:00** 页 live 正文104/拿不准120/已过滤476 raw union124 overlay50/74/0 depollute3 窗类27/15/82；gap≈4.02 closed；cursor @levelsio 2105087277206737029；Pages 200 md5 aa22416b live=local tip 7f4b624；**chat t42s475 delivered**；20:10 deferred；16 亦齐 82/105/394 tip 28af95d chat delivered；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+715min）；00:00 not due（~+152min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet。  2026-09-30 09:29 CST
+
+## 2026-09-29 20:25 ET health check
+- [x] 2026-09-29 20:25 ET 健康检查（~2026-09-29 20:37 ET 正点迟到火，sched :25，约 +12min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **20:00** 页 live 正文104/拿不准120/已过滤476 raw union124 overlay50/74/0 depollute3 窗类27/15/82；gap≈4.02 closed；cursor @levelsio 2105087277206737029；Pages 200 md5 aa22416b live=local tip 7f4b624；**chat t42s475 delivered**；20:10 deferred；16 亦齐 82/105/394 tip 28af95d chat delivered；lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+766min）；00:00 not due（~+203min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet。  2026-09-30 08:37 CST
+
 ## 2026-09-29 20:00 ET · x-1 主窗
 - [x] 2026-09-29 20:00 ET 主窗（c3a32b9b，火 2026-09-30T00:05:52.809Z ~20:05 ET late ~+1min）：union124（DOM35∪HTL120）overlay accept50/reject_href74 fail0（retry ok_new+10）depollute3；窗类正文27/拿不准15/已过滤82 miss0；页09-29 **104/120/476**；gap≈4.02 closed；hit_cursor_effective true；cursor **@levelsio 2105087277206737029**（prior @danshipper 2105026422981153037）；**rec_ideas merged**（rec_new7 + ideas_n3；data-*-source=2026-09-29）；QA pass clippedBtns0；next 2026-09-30 00:00 ET；escalate no。  2026-09-30 08:35 CST
 - public tip **7f4b624**；Pages md5 **aa22416baa71fc55fe648c8226233038** live=local；chat_line ready。  2026-09-30 08:35 CST
