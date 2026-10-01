@@ -1,6 +1,22 @@
+## 2026-10-01 16:10 ET · x-2 catchup
+
+- deferred_to_main；16:00 主窗 c3a32b9b in_progress（~16:12 ET；16-claim + `_scrape16_dom.py` mid CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 12 complete 110/19/215 tip 2ca3bc7 md5 a337b9ab chat delivered；cursor still @Michell49473040 2105693112991715556；gap≈2.4 closed；交当天页 10-01 交主窗
+- evidence raw/2026-10-01/16-10-catchup.md；escalate no；stay_quiet
+- recorded 2026-10-02 04:15 CST
+
+## 2026-10-01 15:25 ET health check
+- [x] 2026-10-01 15:25 ET 健康检查（~15:26 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 110/19/215 tip 2ca3bc7 md5 a337b9ab live=local chat delivered ✅ 00:59 CST；cursor @Michell49473040 2105693112991715556；12:10 deferred；prior_08 70/14/97 tip 5fdc2f5 chat ✅；lists Oct1 done Sep30 done not rerun；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-02 03:28 CST
+
+## 2026-10-01 14:25 ET health check
+- [x] 2026-10-01 14:25 ET 健康检查（~14:33 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 110/19/215 tip 2ca3bc7 md5 a337b9ab live=local chat delivered ✅ 00:59 CST；cursor @Michell49473040 2105693112991715556；12:10 deferred；prior_08 70/14/97 tip 5fdc2f5 chat ✅；lists Oct1 done Sep30 done not rerun；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-02 02:33 CST
+
+## 2026-10-01 13:25 ET health check
+- [x] 2026-10-01 13:25 ET 健康检查（~13:34 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；12:00 页 live 110/19/215 tip 2ca3bc7 md5 a337b9ab live=local chat delivered ✅ 00:59 CST；cursor @Michell49473040 2105693112991715556；12:10 deferred；prior_08 70/14/97 tip 5fdc2f5 chat ✅；lists Oct1 done Sep30 done not rerun；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-02 01:36 CST
+
 ## 2026-10-01 12:00 ET
 
-- [x] 2026-10-01 12:00 ET 主窗（c3a32b9b，火 ~12:12 ET late~7min）：union**163**（DOM41∪HTL158）overlay accept**112**/reject_href**51**/fail**0**（初52/163 + retry ok_new+57 + retry2 ok_new+3；explore sticky 后半保留 HTL）depollute**5**；窗类正文**40**/拿不准**5**/已过滤**118** miss0；页累计 **110/19/215**（08窗70/14/97+本窗）；gap≈**2.4** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105632593861546192 → @Michell49473040 **2105693112991715556**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **390ea0a** md5 a337b9abfa78883254f7c4eda1e32a84 live=local；chat_delivery=pending_parent；chat_line：`10/1 12:00：正文110 / 拿不准19 / 已过滤215。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 16:00 ET；escalate no。  2026-10-02 00:55 CST
+- [x] 2026-10-01 12:00 ET 主窗（c3a32b9b，火 ~12:12 ET late~7min）：union**163**（DOM41∪HTL158）overlay accept**112**/reject_href**51**/fail**0**（初52/163 + retry ok_new+57 + retry2 ok_new+3；explore sticky 后半保留 HTL）depollute**5**；窗类正文**40**/拿不准**5**/已过滤**118** miss0；页累计 **110/19/215**（08窗70/14/97+本窗）；gap≈**2.4** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105632593861546192 → @Michell49473040 **2105693112991715556**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **2ca3bc7** md5 a337b9abfa78883254f7c4eda1e32a84 live=local；chat_delivery=已交（10-02 00:59 CST）；chat_line：`10/1 12:00：正文110 / 拿不准19 / 已过滤215。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 16:00 ET；escalate no。  2026-10-02 00:55 CST
 
 ## 2026-10-01 12:25 ET · x-3 health
 
@@ -4627,3 +4643,12 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-09-20 18:25 ET health check
 - [x] 2026-09-20 18:25 ET 健康检查（~18:29 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文78/拿不准22/已过滤217 raw46 overlay46/46 fail0 窗类7/3/36；gap≈8.57min closed；cursor @elonmusk 2101766218399260894；git tip e049463（site docs 5931e97）；Pages 200 md5 0f2e9b42 live=local；chat t38s35 delivered；16:10 catchup deferred_to_main complete_no_rescrape；lists Sep20 done 154/@cgnot996 + @ScottyBeamIO/170 not rerun；20:00 未见 20-claim/20.jsonl（约 +90min 未到期）；17:25 板/changelog 未见单独条（automation lastRun succeeded≈17:30，本轮并记）；无 AUTH_FAIL/重复抓取；depollute0；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 20:00 ET；stay_quiet。  2026-09-21 06:30 CST
+
+## 2026-10-01 16:00 ET 主窗
+
+- fire ~16:12 ET（late ~7min）。union **107**（DOM28 ∪ HTL102）；overlay accept**107** / reject_href**0** / fail**0**（pass1 23 + retry+39 + retry2+45；explore/for-you sticky 后清 tab 重试）。
+- depollute restored**3**（430Yang 逆龄代谢跨帖指纹）。
+- 窗类 正文**22** / 拿不准**7** / 已过滤**78**；miss**0**（含手工纠偏 16 条）。
+- 页累计 正文**126** / 拿不准**26** / 已过滤**293**。
+- gap≈**1.4**min closed；hit_cursor_effective true；游标 @Michell49473040 2105693112991715556 → @thejustinwelsh 2105752244914139275。
+- rec_ideas skipped（非 20:00）。QA clippedBtns**0**。
