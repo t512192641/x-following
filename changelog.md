@@ -1,6 +1,6 @@
 ## 2026-10-01 12:00 ET
 
-- [x] 2026-10-01 12:00 ET 主窗（c3a32b9b，火 ~12:12 ET late~7min）：union**163**（DOM41∪HTL158）overlay accept**112**/reject_href**51**/fail**0**（初52/163 + retry ok_new+57 + retry2 ok_new+3；explore sticky 后半保留 HTL）depollute**5**；窗类正文**40**/拿不准**5**/已过滤**118** miss0；页累计 **110/19/215**（08窗70/14/97+本窗）；gap≈**2.4** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105632593861546192 → @Michell49473040 **2105693112991715556**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **2ca3bc7** md5 a337b9abfa78883254f7c4eda1e32a84 live=local；chat_delivery=pending_parent；chat_line：`10/1 12:00：正文110 / 拿不准19 / 已过滤215。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 16:00 ET；escalate no。  2026-10-02 00:55 CST
+- [x] 2026-10-01 12:00 ET 主窗（c3a32b9b，火 ~12:12 ET late~7min）：union**163**（DOM41∪HTL158）overlay accept**112**/reject_href**51**/fail**0**（初52/163 + retry ok_new+57 + retry2 ok_new+3；explore sticky 后半保留 HTL）depollute**5**；窗类正文**40**/拿不准**5**/已过滤**118** miss0；页累计 **110/19/215**（08窗70/14/97+本窗）；gap≈**2.4** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105632593861546192 → @Michell49473040 **2105693112991715556**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **390ea0a** md5 a337b9abfa78883254f7c4eda1e32a84 live=local；chat_delivery=pending_parent；chat_line：`10/1 12:00：正文110 / 拿不准19 / 已过滤215。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 16:00 ET；escalate no。  2026-10-02 00:55 CST
 
 ## 2026-10-01 12:25 ET · x-3 health
 
