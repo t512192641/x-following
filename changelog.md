@@ -1,5 +1,31 @@
+## 2026-10-01 12:00 ET
+
+- [x] 2026-10-01 12:00 ET 主窗（c3a32b9b，火 ~12:12 ET late~7min）：union**163**（DOM41∪HTL158）overlay accept**112**/reject_href**51**/fail**0**（初52/163 + retry ok_new+57 + retry2 ok_new+3；explore sticky 后半保留 HTL）depollute**5**；窗类正文**40**/拿不准**5**/已过滤**118** miss0；页累计 **110/19/215**（08窗70/14/97+本窗）；gap≈**2.4** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105632593861546192 → @Michell49473040 **2105693112991715556**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **TIP_PLACEHOLDER** md5 MD5_PLACEHOLDER live=local；chat_delivery=pending_parent；chat_line：`10/1 12:00：正文110 / 拿不准19 / 已过滤215。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 16:00 ET；escalate no。  2026-10-02 00:55 CST
+
+## 2026-10-01 12:25 ET · x-3 health
+
+- quiet_ok true；无 overdue 主缺口；最近完成 08:00 页 70/14/97 tip 5fdc2f5 md5 de8926f2 chat ✅ 20:46 CST
+- 12:00 主窗 c3a32b9b in_progress（union163 overlay 初跑 52/163 fail111 + retry mid；CDP :9226 busy）；12:10 deferred；不抢 CDP/不扩大重跑
+- lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；escalate no；stay_quiet
+
+## 2026-10-01 12:10 ET · x-2 catchup
+
+- deferred_to_main；12:00 主窗 c3a32b9b in_progress（~12:12 ET；union163 overlay mid ~29/163 accept≈2/reject_href≈27 fail0 + CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 08 complete 70/14/97 tip 5fdc2f5 md5 de8926f2 chat delivered；cursor still @alex_prompter 2105632593861546192；gap≈2.4 closed；交当天页 10-01 交主窗
+- evidence raw/2026-10-01/12-10-catchup.md；escalate no；stay_quiet
+- recorded 2026-10-02 00:21 CST
+
+## 2026-10-01 11:25 ET health check
+- [x] 2026-10-01 11:25 ET 健康检查（~11:30 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 70/14/97 tip 5fdc2f5 md5 de8926f2 live=local chat delivered ✅ 20:46 CST；cursor @alex_prompter 2105632593861546192；08:10 deferred；prior_04 35/12/51 tip 9109020 chat ✅；lists Oct1 done Sep30 done not rerun；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 23:32 CST
+
+## 2026-10-01 10:25 ET health check
+- [x] 2026-10-01 10:25 ET 健康检查（~10:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 70/14/97 tip 5fdc2f5 md5 de8926f2 live=local chat delivered ✅ 20:46 CST；cursor @alex_prompter 2105632593861546192；08:10 deferred；prior_04 35/12/51 tip 9109020 chat ✅；lists Oct1 done Sep30 done not rerun；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 22:35 CST
+
+## 2026-10-01 09:25 ET health check
+- [x] 2026-10-01 09:25 ET 健康检查（~09:36 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；08:00 页 live 70/14/97 tip 5fdc2f5 md5 de8926f2 live=local chat delivered ✅ 20:46 CST；cursor @alex_prompter 2105632593861546192；08:10 deferred；prior_04 35/12/51 tip 9109020 chat ✅；lists Oct1 done Sep30 done not rerun；CDP idle not stolen；workspace root←days cosmetic sync；不扩大重跑；escalate no；stay_quiet。  2026-10-01 21:38 CST
+
 ## 2026-10-01 08:00 ET · x-1 主窗
-- [x] 2026-10-01 08:00 ET 主窗（c3a32b9b，火 ~08:12 ET late~7min）：union**83**（DOM19∪HTL80）overlay accept**46**/reject_href**37**/fail**0**（初9/83 + retry ok_new+37 + retry2+0；explore sticky 后半保留 HTL）depollute**2**；窗类正文**35**/拿不准**2**/已过滤**46** miss0；页累计 **70/14/97**（04窗35/12/51+本窗）；gap≈**2.15** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105567907937993132 → @alex_prompter **2105632593861546192**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **9ad5d4b** md5 de8926f2047ff742556b456648f42dbb live=local；chat_delivery=pending_parent；chat_line：`10/1 8:00：正文70 / 拿不准14 / 已过滤97。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 12:00 ET；escalate no。  2026-10-01 20:42 CST
+- [x] 2026-10-01 08:00 ET 主窗（c3a32b9b，火 ~08:12 ET late~7min）：union**83**（DOM19∪HTL80）overlay accept**46**/reject_href**37**/fail**0**（初9/83 + retry ok_new+37 + retry2+0；explore sticky 后半保留 HTL）depollute**2**；窗类正文**35**/拿不准**2**/已过滤**46** miss0；页累计 **70/14/97**（04窗35/12/51+本窗）；gap≈**2.15** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105567907937993132 → @alex_prompter **2105632593861546192**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **9ad5d4b** md5 de8926f2047ff742556b456648f42dbb live=local；chat_delivery=已交（10-01 20:46 CST）；chat_line：`10/1 8:00：正文70 / 拿不准14 / 已过滤97。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 12:00 ET；escalate no。  2026-10-01 20:42 CST
 
 ## 2026-10-01 08:10 ET · x-2 catchup
 
