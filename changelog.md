@@ -1,5 +1,19 @@
+## 2026-10-01 04:00 ET · x-1 主窗
+- [x] 2026-10-01 04:00 ET 主窗（c3a32b9b，火 ~04:05 ET late~0min）：union**93**（DOM26∪HTL91）overlay accept**73**/reject_href**20**/fail**0**（初23/93 + retry ok_new+50 + retry2+0）depollute**6**；窗类正文**33**/拿不准**11**/已过滤**49** miss0；页累计 **35/12/51**（薄种子2/1/2+本窗）；gap≈**3.3** closed；hit_cursor_effective true；cursor prior @ZHO_ZHO_ZHO 2105510781634924779 → @alex_prompter **2105567907937993132**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **PENDING** md5 4c4ed0ede1e81b8445be028bdba3e402 live=PENDING；chat_line pending_parent：`10/1 4:00：正文35 / 拿不准12 / 已过滤51。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 08:00 ET；escalate no。  2026-10-01 16:28 CST
+
+## 2026-10-01 04:10 ET · x-2 catchup
+
+- deferred_to_main；04:00 主窗 c3a32b9b in_progress（~04:05 ET；union93 overlay mid ~89/93 accept≈20/reject_href≈69 fail0 + `_overlay04_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 00 complete 141/65/442 tip fe49adb md5 807007e3 chat delivered；cursor still @ZHO_ZHO_ZHO 2105510781634924779；gap≈3.3 closed；交今天第一版 10-01 交主窗
+- evidence raw/2026-10-01/04-10-catchup.md；escalate no；stay_quiet
+- recorded 2026-10-01 16:15 CST
+
+## 2026-10-01 03:25 ET health check
+- [x] 2026-10-01 03:25 ET 健康检查（~03:26 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 141/65/442 tip fe49adb md5 807007e3 live=local chat delivered ✅ 12:52 CST；thin 2/1/2；cursor @ZHO_ZHO_ZHO 2105510781634924779；00:10 deferred；lists Sep30 done Oct1 not due (~+358min)；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 15:28 CST
+## 2026-10-01 02:25 ET health check
+- [x] 2026-10-01 02:25 ET 健康检查（~02:32 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；00:00 页 live 141/65/442 tip fe49adb md5 807007e3 live=local chat delivered ✅ 12:52 CST；thin 2/1/2；cursor @ZHO_ZHO_ZHO 2105510781634924779；00:10 deferred；lists Sep30 done Oct1 not due (~+411min)；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 14:34 CST
 ## 2026-10-01 00:00 ET · x-1 主窗
-- [x] 2026-10-01 00:00 ET 主窗（c3a32b9b，火 ~00:12 ET late~7min）：union**130**（DOM35∪HTL128）overlay accept**108**/reject_href**22**/fail**0**（初61/130 + retry ok_new+11 + retry2 ok_new+36）depollute**13**；窗类正文**39**/拿不准**17**/已过滤**74** miss0；CUTOFF 04:00Z；pre→昨页 **141/65/442**；thin_seed 今天 **2/1/2** 不交聊天；gap≈**0.82** closed；hit_cursor_effective true；cursor prior @KinGao476942 2105451340927508542 → @ZHO_ZHO_ZHO **2105510781634924779**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **fe49adb** md5 807007e371338cd24a2ee24887436519 live=local；thin seed md5 7816be20354f0f3ce7ac9c2538b28e63；chat_line pending_parent：`9/30 0:00：正文141 / 拿不准65 / 已过滤442。https://t512192641.github.io/x-following/2026-09-30.html`；next 2026-10-01 04:00 ET；escalate no。  2026-10-01 12:52 CST
+- [x] 2026-10-01 00:00 ET 主窗（c3a32b9b，火 ~00:12 ET late~7min）：union**130**（DOM35∪HTL128）overlay accept**108**/reject_href**22**/fail**0**（初61/130 + retry ok_new+11 + retry2 ok_new+36）depollute**13**；窗类正文**39**/拿不准**17**/已过滤**74** miss0；CUTOFF 04:00Z；pre→昨页 **141/65/442**；thin_seed 今天 **2/1/2** 不交聊天；gap≈**0.82** closed；hit_cursor_effective true；cursor prior @KinGao476942 2105451340927508542 → @ZHO_ZHO_ZHO **2105510781634924779**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **fe49adb** md5 807007e371338cd24a2ee24887436519 live=local；thin seed md5 7816be20354f0f3ce7ac9c2538b28e63；chat_line 已交（10-01 12:52 CST）：`9/30 0:00：正文141 / 拿不准65 / 已过滤442。https://t512192641.github.io/x-following/2026-09-30.html`；next 2026-10-01 04:00 ET；escalate no。  2026-10-01 12:52 CST
 
 ## 2026-10-01 00:25 ET health check
 - [x] 2026-10-01 00:25 ET 健康检查（~00:34 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 104/49/370 tip 4303d7e md5 65da5f59 live=local chat delivered ✅ 08:42 CST；**00:00 in_progress** c3a32b9b union130 gap≈0.82 closed overlay retry mid reject_href；00:10 deferred；lists Sep30 done Oct1 not due (~+527min)；CDP busy not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 12:35 CST
