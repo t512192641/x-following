@@ -1,8 +1,8 @@
 # X 关注游标
 
-- status_id: 2105567907937993132
-- url: https://x.com/alex_prompter/status/2105567907937993132
+- status_id: 2105632593861546192
+- url: https://x.com/alex_prompter/status/2105632593861546192
 - author: Alex Prompter
 - handle: @alex_prompter
-- time_utc: 2026-10-01T07:58:03.000Z
-- updated: 2026-10-01 04:00 ET window
+- time_utc: 2026-10-01T12:15:05.000Z
+- updated: 2026-10-01 08:00 ET window

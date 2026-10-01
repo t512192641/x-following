@@ -1,8 +1,19 @@
-## tip note
-- docs: 04:00 tip **9109020** live=local md5 4c4ed0ede1e81b8445be028bdba3e402
+## 2026-10-01 08:00 ET · x-1 主窗
+- [x] 2026-10-01 08:00 ET 主窗（c3a32b9b，火 ~08:12 ET late~7min）：union**83**（DOM19∪HTL80）overlay accept**46**/reject_href**37**/fail**0**（初9/83 + retry ok_new+37 + retry2+0；explore sticky 后半保留 HTL）depollute**2**；窗类正文**35**/拿不准**2**/已过滤**46** miss0；页累计 **70/14/97**（04窗35/12/51+本窗）；gap≈**2.15** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105567907937993132 → @alex_prompter **2105632593861546192**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **TIPPLACEHOLDER** md5 de8926f2047ff742556b456648f42dbb live=local；chat_delivery=pending_parent；chat_line：`10/1 8:00：正文70 / 拿不准14 / 已过滤97。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 12:00 ET；escalate no。  2026-10-01 20:42 CST## 2026-10-01 08:10 ET · x-2 catchup
+
+- deferred_to_main；08:00 主窗 c3a32b9b in_progress（~08:12 ET；08-claim + 08-dom-run mid CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 04 complete 35/12/51 tip 9109020 md5 4c4ed0ed chat delivered；cursor still @alex_prompter 2105567907937993132；gap≈3.3 closed；交当天页 10-01 交主窗
+- evidence raw/2026-10-01/08-10-catchup.md；escalate no；stay_quiet
+- recorded 2026-10-01 20:15 CST
+
+## 2026-10-01 07:25 ET health check
+- [x] 2026-10-01 07:25 ET 健康检查（~07:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 35/12/51 tip 9109020 md5 4c4ed0ed live=local chat delivered ✅ 16:30 CST；cursor @alex_prompter 2105567907937993132；04:10 deferred；prior_00 141/65/442 tip fe49adb chat ✅；lists Sep30 done Oct1 not due (~+111min)；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 19:32 CST
+
+## 2026-10-01 06:25 ET health check
+- [x] 2026-10-01 06:25 ET 健康检查（~06:28 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；04:00 页 live 35/12/51 tip 9109020 md5 4c4ed0ed live=local chat delivered ✅ 16:30 CST；cursor @alex_prompter 2105567907937993132；04:10 deferred；prior_00 141/65/442 tip fe49adb chat ✅；lists Sep30 done Oct1 not due (~+175min)；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 18:31 CST
 
 ## 2026-10-01 04:00 ET · x-1 主窗
-- [x] 2026-10-01 04:00 ET 主窗（c3a32b9b，火 ~04:05 ET late~0min）：union**93**（DOM26∪HTL91）overlay accept**73**/reject_href**20**/fail**0**（初23/93 + retry ok_new+50 + retry2+0）depollute**6**；窗类正文**33**/拿不准**11**/已过滤**49** miss0；页累计 **35/12/51**（薄种子2/1/2+本窗）；gap≈**3.3** closed；hit_cursor_effective true；cursor prior @ZHO_ZHO_ZHO 2105510781634924779 → @alex_prompter **2105567907937993132**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **9109020** md5 4c4ed0ede1e81b8445be028bdba3e402 live=local；chat_line pending_parent：`10/1 4:00：正文35 / 拿不准12 / 已过滤51。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 08:00 ET；escalate no。  2026-10-01 16:28 CST
+- [x] 2026-10-01 04:00 ET 主窗（c3a32b9b，火 ~04:05 ET late~0min）：union**93**（DOM26∪HTL91）overlay accept**73**/reject_href**20**/fail**0**（初23/93 + retry ok_new+50 + retry2+0）depollute**6**；窗类正文**33**/拿不准**11**/已过滤**49** miss0；页累计 **35/12/51**（薄种子2/1/2+本窗）；gap≈**3.3** closed；hit_cursor_effective true；cursor prior @ZHO_ZHO_ZHO 2105510781634924779 → @alex_prompter **2105567907937993132**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **9109020** md5 4c4ed0ede1e81b8445be028bdba3e402 live=local；chat_line 已交（10-01 16:30 CST）：`10/1 4:00：正文35 / 拿不准12 / 已过滤51。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 08:00 ET；escalate no。  2026-10-01 16:28 CST
 
 ## 2026-10-01 04:10 ET · x-2 catchup
 

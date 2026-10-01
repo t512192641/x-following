@@ -4,8 +4,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>X 关注汇总</title>
+<title>X 关注汇总 2026-10-01（正文 70 / 拿不准 14 / 已过滤 97）</title>
 <style>
+
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 :root {
   --bg: #e8f6f1;
@@ -16,6 +17,8 @@
   --link: #0b6e99;
   --chip: #d4f0e6;
   --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
   --shadow: #1d2a28;
 }
 * { box-sizing: border-box; }
@@ -29,70 +32,611 @@ body {
   font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
   font-size: 13.5px;
   line-height: 1.55;
+  image-rendering: pixelated;
 }
-.wrap { max-width: 1640px; margin: 0 auto; padding: 22px 28px 56px; }
-h1 {
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
   font-family: "Press Start 2P", "PingFang SC", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
   margin: 0 0 10px;
+  color: var(--ink);
   text-shadow: 3px 3px 0 #b7e4d4;
 }
-.meta { margin: 0 0 22px; color: var(--muted); font-size: 13px; }
-.days {
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
-@media (max-width: 1400px) { .days { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-@media (max-width: 1100px) { .days { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (max-width: 820px) { .days { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 560px) { .days { grid-template-columns: minmax(0, 1fr); } }
-.days a {
-  display: block;
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
   background: var(--paper);
   border: 3px solid var(--line);
   border-radius: 0;
-  padding: 14px 14px 12px;
-  color: var(--ink);
-  text-decoration: none;
+  padding: 12px 12px 10px;
+  min-width: 0;
   box-shadow: 4px 4px 0 var(--shadow);
-  font-family: "Press Start 2P", "PingFang SC", sans-serif;
-  font-size: 11px;
-  line-height: 1.6;
 }
-.days a:hover { transform: translate(1px, 1px); box-shadow: 3px 3px 0 var(--shadow); }
-.days a span { display: block; margin-top: 8px; font-family: "PingFang SC", "Noto Sans SC", sans-serif; font-size: 12px; color: var(--muted); font-weight: 400; }
-  </style>
-</head>
-<body>
-<div class="wrap">
-<h1>X 关注汇总</h1>
-<p class="meta">美国时间自然日一份。旧的不会覆盖。</p>
-<ul class="days"><li><a href="2026-10-01.html">2026-10-01<span>4:00 · 正文 35 / 拿不准 12 / 已过滤 51</span></a></li><li><a href="2026-09-30.html">2026-09-30<span>0:00 · 正文 141 / 拿不准 65 / 已过滤 442</span></a></li><li><a href="2026-09-29.html">2026-09-29<span>0:00 · 正文 128 / 拿不准 156 / 已过滤 620</span></a></li><li><a href="2026-09-28.html">2026-09-28<span>0:00 · 正文 133 / 拿不准 112 / 已过滤 416</span></a></li><li><a href="2026-09-27.html">2026-09-27<span>0:00 · 正文 145 / 拿不准 30 / 已过滤 394</span></a></li><li><a href="2026-09-26.html">2026-09-26<span>0:00 · 正文 133 / 拿不准 55 / 已过滤 348</span></a></li><li><a href="2026-09-25.html">2026-09-25<span>0:00 · 正文 96 / 拿不准 43 / 已过滤 416</span></a></li><li><a href="2026-09-24.html">2026-09-24<span>0:00 · 正文 125 / 拿不准 56 / 已过滤 521</span></a></li><li><a href="2026-09-23.html">2026-09-23<span>0:00 · 正文 103 / 拿不准 60 / 已过滤 464</span></a></li><li><a href="2026-09-22.html">2026-09-22<span>0:00 · 正文 161 / 拿不准 62 / 已过滤 498</span></a></li><li><a href="2026-09-21.html">2026-09-21<span>4:00 · 正文 25 / 拿不准 8 / 已过滤 84</span></a></li><li><a href="2026-09-20.html">2026-09-20<span>0:00 · 正文 143 / 拿不准 36 / 已过滤 334</span></a></li><li><a href="2026-09-19.html">2026-09-19<span>0:00 · 正文 92 / 拿不准 67 / 已过滤 382</span></a></li><li><a href="2026-09-18.html">2026-09-18<span>0:00 · 正文 91 / 拿不准 48 / 已过滤 483</span></a></li><li><a href="2026-09-17.html">2026-09-17<span>正文 160 / 拿不准 45 / 已过滤 417</span></a></li><li><a href="2026-09-16.html">2026-09-16<span>正文 183 / 拿不准 40 / 已过滤 375</span></a></li><li><a href="2026-09-15.html">2026-09-15<span>正文 147 / 拿不准 114 / 已过滤 425</span></a></li>
-<li><a href="2026-09-14.html">2026-09-14<span>正文 138 / 拿不准 108 / 已过滤 327</span></a></li>
-<li><a href="2026-09-13.html">2026-09-13<span>0:00 完整 · 正文 103 / 拿不准 51 / 已过滤 201</span></a></li>
-<li><a href="2026-09-12.html">2026-09-12<span>0:00 完整 · 正文 111 / 拿不准 82 / 已过滤 252</span></a></li><li><a href="2026-09-11.html">2026-09-11<span>0:00 完整 · 正文 107 / 拿不准 111 / 已过滤 266</span></a></li><li><a href="2026-09-10.html">2026-09-10<span>16:00 · 正文 63 / 拿不准 96 / 已过滤 237</span></a></li><li><a href="2026-09-09.html">2026-09-09<span>0:00 完整 · 正文 127 / 拿不准 127 / 已过滤 334</span></a>
-<a href="2026-09-08.html">2026-09-08<span>0:00 完整 · 正文 91 / 拿不准 47 / 已过滤 234</span></a></li><li><a href="2026-09-07.html">2026-09-07<span>0:00 完整版 · 正文 70</span></a></li><li><a href="2026-09-06.html">2026-09-06<span>0:00 完整版 · 正文 73</span></a></li><li><a href="2026-09-05.html">2026-09-05<span>0:00 完整版 · 正文 85</span></a></li><li><a href="2026-09-04.html">2026-09-04<span>0:00 完整版 · 正文 92</span></a></li><li><a href="2026-09-03.html">2026-09-03<span>16:00 合并 · 正文 93</span></a></li><li><a href="2026-09-02.html">2026-09-02<span>0:00 完整版 · 正文 122</span></a></li><li><a href="2026-09-01.html">2026-09-01<span>0:00 完整版</span></a></li>
-<li><a href="2026-08-31.html">2026-08-31<span>0:00 完整版</span></a></li>
-<li><a href="2026-08-30.html">2026-08-30<span>20:00 已并</span></a></li>
-<li><a href="2026-08-29.html">2026-08-29</a></li>
-<li><a href="2026-08-28.html">2026-08-28<span>0:00 完整版</span></a></li>
-<li><a href="2026-08-27.html">2026-08-27<span>recommended + ideas</span></a></li>
-<li><a href="2026-08-26.html">2026-08-26<span>0:00 完整版</span></a></li>
-<li><a href="2026-08-25.html">2026-08-25<span>0:00 完整版</span></a></li>
-<li><a href="2026-08-24.html">2026-08-24<span>0:00 完整版</span></a></li>
-<li><a href="2026-08-23.html">2026-08-23<span>0:00 完整版</span></a></li>
-<li><a href="2026-08-22.html">2026-08-22<span>完整日</span></a></li>
-<li><a href="2026-08-21.html">2026-08-21<span>完整日</span></a></li>
-<li><a href="2026-08-20.html">2026-08-20<span>完整日</span></a></li>
-<li><a href="2026-08-19.html">2026-08-19<span>完整日</span></a></li>
-<li><a href="2026-08-18.html">2026-08-18<span>完整日</span></a></li>
-</ul>
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; height: 320px; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+article.is-long .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+/* Floating modal expand — grid cards never grow */
+body.modal-open { overflow: hidden; }
+.card-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+.card-modal.is-open { display: flex; }
+.card-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(29, 42, 40, 0.55);
+  image-rendering: pixelated;
+}
+.card-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(720px, 96vw);
+  max-height: min(92vh, 920px);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 4px solid var(--line);
+  box-shadow: 8px 8px 0 var(--shadow);
+  color: var(--ink);
+}
+.card-modal.is-multi .card-modal-dialog {
+  width: min(880px, 96vw);
+}
+.card-modal-head {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-bottom: 3px solid var(--line);
+  background: var(--chip);
+}
+.card-modal-title {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--accent);
+}
+.card-modal-close {
+  appearance: none;
+  flex: 0 0 auto;
+  border: 3px solid var(--line);
+  background: var(--tab-on);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  padding: 6px 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.card-modal-close:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.card-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 14px 16px 18px;
+  -webkit-overflow-scrolling: touch;
+}
+.card-modal-body h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: block;
+  max-height: none;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+.card-modal-body .byline {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  margin: 0 0 12px;
+}
+.card-modal-body .fold {
+  position: static;
+  overflow: visible;
+  flex: none;
+  min-height: 0;
+}
+.card-modal-body .fold::after { display: none !important; }
+.card-modal-body .links { margin-top: 14px; }
+.card-modal-block {
+  padding: 0 0 18px;
+  margin: 0 0 18px;
+  border-bottom: 3px dashed var(--line);
+}
+.card-modal-block:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.card-modal-empty {
+  color: var(--muted);
+  margin: 0;
+}
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 · 2026-10-01</h1>
+<p class="meta">8:00 ET 追加。正文 70 卡 / 拿不准 14 / 已过滤 97。含 0:00+4:00。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="70" data-pane="pane-main" type="button">正文 70</button>
+<button class="tab" data-count="14" data-pane="pane-maybe" type="button">拿不准 14</button>
+<button class="tab" data-count="97" data-pane="pane-filtered" type="button">已过滤 97</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+<section class="group"><h2>仓库 / 工具</h2><div class="grid"><article class="card"><h3>马上 Mole App 就可以帮助大家清理和维护 AI 工具在本地产生的东西了。  利用这个假期，想着继续给大伙上一个 Mole 有用的功能，帮…</h3><p class="byline">Tw93 <a href="https://x.com/HiTw93" rel="noopener noreferrer" target="_blank">@HiTw93</a></p><div class="fold"><p>马上 Mole App 就可以帮助大家清理和维护 AI 工具在本地产生的东西了。</p><p>利用这个假期，想着继续给大伙上一个 Mole 有用的功能，帮大家清理不再需要的 AI 缓存、旧会话和 worktree，卸载之前装过、很久没有用的 AI 工具。</p><p>起源于之前一段时间，我一直在测试 700 多款软件的卸载清理残留，确保能够彻底清理各种你电脑上的垃圾，想着借助这个过程，加上之前非常多的小伙伴提过的 AI 垃圾清理诉求，当时这些“垃圾”在我看来是有用的，比如你的全部 AI Coding 会话记录，我认为是非常重要的资产，所以这一块之前更多只是支持清理真正的缓存和旧版本。</p><p>不过随着 AI 的使用，我本地机器也有非常多没有那么大用的 AI 产物、会话以及 worktree 一直留在本地，还是非常有必要做这个事情，于是就开始弄了，我测试了 30 多款 AI 软件，包括之前一直不愿意下载的国内 AI 工具，以及各种命令行工具，全部装到我的电脑，登录账号，进行真实使用测试产生会话，然后去找垃圾、对话、缓存、worktree、临时文件、安装位置等信息，记录在案，整理到 Mole 里让大家可以更好地清理维护，差不多完工了，当前在 Preview 版本，还需要继续测试，下一个版本再放出来给大伙使用。</p><p>这个过程也发现了，还是 Claude、Codex、Cursor 这类产品在克制上保持得比较好，也是我常用的 3 个，测试过程中发现了非常多软件的乱象，比如下载安装包的时候，默认在你的剪贴板写一点东西，用于跟踪安装渠道、做数据统计，这种我感觉有点过了，也有安装后，给你弹窗让你去做活动获取 Token 的，牛皮癣满天飞，有一种捏着鼻子用的感觉；甚至还有软件一启动就是 41 个进程，占用高达 4.49 GB，非常卡顿难用，还是大公司做的也搞不懂。但是整个过程中让我感觉不错的是居然 Qoder，保持住了自己的克制，审美在线，没有乱来，产品上挺让人惊讶，期待国产多一些这样的软件，加油加油。</p><p>加上之前测试那 700 多款软件的过程，发现了还是有不少软件没有遵守住一些软件工程开发的基本原则，也没有大家想的那么专业、纯净。更加让我想着 Mole 一定要保持住现有的简洁、把能力做深、不乱搞、不乱获取不该获取的东西，不上传用户的本地文件和会话内容，甚至任何使用统计都不加，唯一使用网络地方只有更新检查和软件激活这两块，继续保持强迫症的方式走下去应该会更加长远。</p><p>最后，大伙有任何对于 AI 清理和维护的诉求，欢迎告诉我，我给放到测试里面去做，确认适合清理的就加到这个功能里面去，这一块应该会持续迭代维护很长时间。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/HiTw93/status/2105509778307080627" rel="noopener noreferrer" target="_blank">原帖 · Tw93</a></p></article><article class="card"><h3>这几天同时用 Claude Max 5X 和 ChatGPT Pro 5X，现在的新模型真是好用，额度总是用不完的感觉。  Claude 里 F…</h3><p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh" rel="noopener noreferrer" target="_blank">@kevinma_dev_zh</a></p><div class="fold"><p>这几天同时用 Claude Max 5X 和 ChatGPT Pro 5X，现在的新模型真是好用，额度总是用不完的感觉。</p><p>Claude 里 Fable 搭配 Opus，我的编码和产品迭代基本都在这里完成。</p><p>ChatGPT 更多拿来干杂活、远程安排和执行任务，这些事情通常也不用太高智能的模型，也不怕给我降智，因为本身我用的就是简单一些的模型，Token 经常有种用不完的感觉。</p><p>看 X 上经常有人一会儿抱怨这个模型，一会儿吐槽那个模型，我现在已经没那么在意这些了，不期待一个模型把所有事情都干了。</p><p>关注把事情做完。模型够用就行，工具顺手就行，合适的模型做合适的事情。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/kevinma_dev_zh/status/2105509131759358309" rel="noopener noreferrer" target="_blank">原帖 · Kevin Ma</a></p></article><article class="card"><h3>WHAT THE F*CK. SpaceXAI is using Grok Bot to build Grok Bot. Its agents …</h3><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><div class="fold"><p>WHAT THE F*CK. SpaceXAI is using Grok Bot to build Grok Bot. Its agents design, code, test, and ship the product.</p><p>In this 45-minute session, Peng Zheng and Lauren Tanshowed their internal setup across design, engineering, user feedback, and bot management.</p><p>One key frame becomes a complete Figma flow. One project gets split across four engineer bots. Repeated bug reports from X become fix proposals without anyone copying the context by hand.</p><p>Some PRs merge before a human reads them. This talk alone replaces a $500 course on building AI agent teams.</p><p>Watch it today, then read the article on building your own Grok Bot team from scratch below.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/elonmusk/status/2105555039133561242" rel="noopener noreferrer" target="_blank">原帖 · Elon Musk</a></p></article><article class="card"><h3>想靠 AI 自媒体、出海和独立开发多赚一份钱，这 10 个博主值得先看： @CrazyKaomei = AI 自媒体短视频工作流  @AI_Ja…</h3><p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" rel="noopener noreferrer" target="_blank">@AI_Jasonyu</a></p><div class="fold"><p>想靠 AI 自媒体、出海和独立开发多赚一份钱，这 10 个博主值得先看：
+@CrazyKaomei = AI 自媒体短视频工作流 
+@AI_Jasonyu = 出海 SaaS 真实案例拆解 
+@sitinme = AI 出海闭环与社群变现 @guishou_56 = 开源到月入美金的产品路径 
+@yaohui12138 = ToB 报价和独立开发实操 
+@Jason23818126 = AI 副业与自动化工作流盘点 
+@austinit = 代码养活自己的个人开发路径 
+@Astronaut_1216 = X 起号和 AI 工具变现实战 
+@lxfater = 技术转独立创业避坑 
+@Smartpigai = 技术人商业化路径拆解</p><p>会用 AI 做功能已经不稀奇了，真正值得研究的是：怎么把内容或产品变成收入。</p><p>你还在跟哪位自媒体、出海或独立开发博主？评论区补一个。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/AI_Jasonyu/status/2105551827634938285" rel="noopener noreferrer" target="_blank">原帖 · 鱼总聊AI</a></p></article><article class="card"><h3>Tutti 招人：远程 AI 全栈工程师  Tutti：The all-in-one marketplace to monetize your …</h3><p class="byline">Asa <a href="https://x.com/app_sail" rel="noopener noreferrer" target="_blank">@app_sail</a></p><div class="fold"><p>Tutti 招人：远程 AI 全栈工程师</p><p>Tutti：The all-in-one marketplace to monetize your influence.
+我们对接全球优质创作者，帮品牌出海，目前专注 𝕏、YouTube 等海外平台。</p><p>你会直接接触到全球 AI 创业品牌，以及一批世界范围内最优质的创作者。</p><p>所有事情只围绕一件事：把出海影响力和创作者生意做好。</p><p>🌍 全远程，团队分布在美国、加拿大、中国
+💳 配 Mercury 卡，AI 订阅额度管够</p><p>我们找的人：
+· AI 工具用得非常溜
+· 积极主动，结果导向
+· 自己就是 KOL / KOC 的加分</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/app_sail/status/2105523602799915375" rel="noopener noreferrer" target="_blank">原帖 · Asa</a></p></article><article class="card"><h3>过去一个月我的推特几乎从 0 起号，到目前涨粉了 4000，靠的不是运气和玄学，而是我在 Grok bot  @bot  上搭建了一个「推特运营…</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>过去一个月我的推特几乎从 0 起号，到目前涨粉了 4000，靠的不是运气和玄学，而是我在 Grok bot 
+@bot
+ 上搭建了一个「推特运营专家」的 Agent！他每天会孜孜不倦地帮我调研热门和低粉高爆的帖子、找热门的内容选题，然后帮我写出适合我风格调性的文案，并连接沉淀到我的 Notion 选题库里。</p><p>而我每天所需要做的事情，就是打开 Notion 的表格，去查看和判断她给我找的选题和文案哪些好，对于好的选题和文案，我会进一步让她按照我的建议和偏好进行修改，最后我就会人工发布。</p><p>今天我彻底把这个背后的推特运营专家 Bot 开源出来，帮助更多有需要的朋友，欢迎转发点赞评论，链接直接奉上，打开就可以免费使用：
+https://
+x.ai/bot/ScOhH1qaoq
+4XdoYhisagg
+…</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2105514500111941673" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>想靠 AI 自媒体、出海和独立开发多赚一份钱，这 10 个博主值得先看：  @CrazyKaomei  = AI 自媒体短视频工作流   @AI…</h3><p class="byline">Smartpig <a href="https://x.com/Smartpigai" rel="noopener noreferrer" target="_blank">@Smartpigai</a></p><div class="fold"><p>想靠 AI 自媒体、出海和独立开发多赚一份钱，这 10 个博主值得先看：</p><p>@CrazyKaomei
+ = AI 自媒体短视频工作流</p><p>@AI_Jasonyu
+ = 出海 SaaS 真实案例拆解</p><p>@sitinme
+ = AI 出海闭环与社群变现</p><p>@guishou_56
+ = 开源到月入美金的产品路径</p><p>@yaohui12138
+ = ToB 报价和独立开发实操</p><p>@Jason23818126
+ = AI</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/Smartpigai/status/2105511611440189481" rel="noopener noreferrer" target="_blank">原帖 · Smartpig</a></p></article><article class="card"><h3>马斯克、黄仁勋在白宫签的协议，真管得住 AI 吗？  事情是这样的，9 月 29 日，马斯克、黄仁勋、Anthropic 的 Dario，一共 …</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>马斯克、黄仁勋在白宫签的协议，真管得住 AI 吗？</p><p>事情是这样的，9 月 29 日，马斯克、黄仁勋、Anthropic 的 Dario，一共 6 家科技公司的大佬，在白宫签了一份超级智能协议</p><p>协议就一页纸，意思是做最强 AI 模型的公司应该装上四道关：
+自己盯着模型
+自己设个团队，确保盯的这套真在运转
+请外部独立机构来审计
+董事会里设个独立委员会来管</p><p>但它没有法律强制力，全靠自愿</p><p>没强制力，为啥偏偏这时候要签？</p><p>有篇分析给的理由是：AI 已经不只是陪你聊天了，现在的模型能自己上网、调用工具、写代码、干活
+就是说，以前它出错，顶多说错一段话，现在出错，可能直接变成系统上的一个操作</p><p>那 AI 出事，真的多吗？</p><p>斯坦福今年的 AI 指数报告里有个数：AI 事故数据库 2025 年记了 362 起，2024 年是 233 起</p><p>那 AI 自己动手，闯过什么祸？</p><p>OpenAI 就出过，三个月里，它还在测试的模型两次跑出了测试环境
+就是说，本来关在里面测，结果自己连上了外网</p><p>值得注意的是，四道关的第一道里专门写了：要确保模型不会用没预料到的方式黑进或进入别的系统</p><p>AI 都能自己跑出去了，这协议拦得住吗？</p><p>签协议前一天，OpenAI 取消了原定 10 月发布的 GPT-6.1 Astra
+理由是内部测试发现它没达到公司自己的安全标准</p><p>但这是 OpenAI 自己的决定，协议里没有罚款，没有期限，外部审计的人也没权拦着不让发</p><p>这份协议有没有用，全看公司自不自觉，你信得过吗？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2105616971056185799" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article></div></section><section class="group"><h2>其他</h2><div class="grid"><article class="card"><h3>AI 开始批量生成数学证明后，谁来验证？  AI for Math 接下来最贵的环节，会是验证。  AI 系统可以同时展开大量证明路线，在几天内…</h3><p class="byline">huangserva <a href="https://x.com/servasyy_ai" rel="noopener noreferrer" target="_blank">@servasyy_ai</a></p><div class="fold"><p>AI 开始批量生成数学证明后，谁来验证？</p><p>AI for Math 接下来最贵的环节，会是验证。</p><p>AI 系统可以同时展开大量证明路线，在几天内生成一份候选论证。数学家仍然要逐步检查前提、引用和推导，一份证明的独立评议可能持续几个月。生成能力增长得越快，验证资源就越紧张。</p><p>我每天使用 Coding Agent，对这种变化很熟悉。
+以前写代码最花时间，现在 Agent 一次可以生成几百上千行。代码生成速度上来以后，review、测试和 eval 占用的时间越来越多。数学研究也开始遇到同一个问题：证明可以批量生成，能判断它是否成立的人和验证流程没有同步增加。</p><p>由清华人工智能学院助理教授陈勇超（
+@YongchaoC
+）创立的超衍智能（
+@apexin_ai
+）最近公开了 5 项 AI 数学研究。</p><p>其中 2 项已经由作者或合作数学家核验：Halpern 迭代与高阶优化，以及 Mockenhaupt 三项猜想覆盖全部参数的新证明。</p><p>另外 3 份仍然标为候选论证：凸形 Nivat 猜想完整证明、Souto 猜想亏格二情形，以及 Kakimizu 复形可缩性。</p><p>合作数学家先选择有研究价值的问题，Apex 的 AI 系统并行探索并交叉检查证明路线。找到候选证明后，再由作者或合作数学家逐步核验，并为最终结论负责。</p><p>这 5 项研究中，一个已核验案例和一个候选论证案例，正好展示了这套流程的两端。
+Halpern 迭代与高阶优化研究展示了这套分工。AI 找到了 Halpern 迭代与锚定张量法（Anchored Tensor Method，ATM）的组合路线，但初版子求解器包含三层循环。合作数学家随后把它简化成单层结构，并整理、核验完整证明。论文公开后，清华、北大和 Google Research 的研究者又沿着相关方向继续推进复杂度结果。</p><p>凸形 Nivat 猜想最能说明这套流程的验证边界。根据官方披露，配套的 Lean 4 形式化项目约有 3.6 万行代码，目前可以零错误、零 sorry 编译。</p><p>这里需要区分 Lean 已经检查的内容和整项数学结论。</p><p>通过机器检查的是已经写入 Lean 的部分，并不等于整项数学结论已经得到完整验证。整条证明仍然引用 Colle 已发表的一条外部定理，这项输入尚未完成形式化。</p><p>机器已经检查了大量推理步骤。外部定理以及整套论证能否获得独立认可，仍然需要研究者继续核验。因此，官方仍把它标为候选论证，没有直接写成已经解决的数学成果。</p><p>为了推动这 3 份候选论证获得进一步验证，超衍把候选论证和关键证明步骤公开，并设置总额 10 万元的学术悬赏。研究者可以认领一条关键引理、一段归约或一个估计，投稿时标明对应的论文版本和命题位置，再附上可以复核的推导、反例或代码。经过核实的贡献会被单独记录。</p><p>悬赏面向数学及相关学科的高校研究者、独立研究者，也欢迎熟悉 Lean 和形式化证明的开发者参与。奖项分为重大漏洞奖、关键验证奖和突破贡献奖。</p><p>配图 1｜封面：AI 开始批量生成数学证明后，谁来验证
+配图 2｜Coding Agent 与 AI for Math 的评估瓶颈
+配图 3｜超衍智能五项研究的核验状态
+配图 4｜Nivat Lean 验证范围与十万元悬赏</p><p>论文、验证任务和投稿入口都在：</p><p>https://
+math.apexin.net</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/servasyy_ai/status/2105560483273249064" rel="noopener noreferrer" target="_blank">原帖 · huangserva</a></p></article><article class="card"><h3>AI 开始批量生成数学证明后，谁来验证？  AI for Math 接下来最贵的环节，会是验证。  AI 系统可以同时展开大量证明路线，在几天内…</h3><p class="byline">huangserva <a href="https://x.com/servasyy_ai" rel="noopener noreferrer" target="_blank">@servasyy_ai</a></p><div class="fold"><p>AI 开始批量生成数学证明后，谁来验证？</p><p>AI for Math 接下来最贵的环节，会是验证。</p><p>AI 系统可以同时展开大量证明路线，在几天内生成一份候选论证。数学家仍然要逐步检查前提、引用和推导，一份证明的独立评议可能持续几个月。生成能力增长得越快，验证资源就越紧张。</p><p>我每天使用 Coding Agent，对这种变化很熟悉。
+以前写代码最花时间，现在 Agent 一次可以生成几百上千行。代码生成速度上来以后，review、测试和 eval 占用的时间越来越多。数学研究也开始遇到同一个问题：证明可以批量生成，能判断它是否成立的人和验证流程没有同步增加。</p><p>由清华人工智能学院助理教授陈勇超（@YongchaoC）创立的超衍智能（@apexin_ai）最近公开了 5 项 AI 数学研究。</p><p>其中 2 项已经由作者或合作数学家核验：Halpern 迭代与高阶优化，以及 Mockenhaupt 三项猜想覆盖全部参数的新证明。</p><p>另外 3 份仍然标为候选论证：凸形 Nivat 猜想完整证明、Souto 猜想亏格二情形，以及 Kakimizu 复形可缩性。</p><p>合作数学家先选择有研究价值的问题，Apex 的 AI 系统并行探索并交叉检查证明路线。找到候选证明后，再由作者或合作数学家逐步核验，并为最终结论负责。</p><p>这 5 项研究中，一个已核验案例和一个候选论证案例，正好展示了这套流程的两端。
+Halpern 迭代与高阶优化研究展示了这套分工。AI 找到了 Halpern 迭代与锚定张量法（Anchored Tensor Method，ATM）的组合路线，但初版子求解器包含三层循环。合作数学家随后把它简化成单层结构，并整理、核验完整证明。论文公开后，清华、北大和 Google Research 的研究者又沿着相关方向继续推进复杂度结果。</p><p>凸形 Nivat 猜想最能说明这套流程的验证边界。根据官方披露，配套的 Lean 4 形式化项目约有 3.6 万行代码，目前可以零错误、零 sorry 编译。</p><p>这里需要区分 Lean 已经检查的内容和整项数学结论。</p><p>通过机器检查的是已经写入 Lean 的部分，并不等于整项数学结论已经得到完整验证。整条证明仍然引用 Colle 已发表的一条外部定理，这项输入尚未完成形式化。</p><p>机器已经检查了大量推理步骤。外部定理以及整套论证能否获得独立认可，仍然需要研究者继续核验。因此，官方仍把它标为候选论证，没有直接写成已经解决的数学成果。</p><p>为了推动这 3 份候选论证获得进一步验证，超衍把候选论证和关键证明步骤公开，并设置总额 10 万元的学术悬赏。研究者可以认领一条关键引理、一段归约或一个估计，投稿时标明对应的论文版本和命题位置，再附上可以复核的推导、反例或代码。经过核实的贡献会被单独记录。</p><p>悬赏面向数学及相关学科的高校研究者、独立研究者，也欢迎熟悉 Lean 和形式化证明的开发者参与。奖项分为重大漏洞奖、关键验证奖和突破贡献奖。</p><p>配图 1｜封面：AI 开始批量生成数学证明后，谁来验证
+配图 2｜Coding Agent 与 AI for Math 的评估瓶颈
+配图 3｜超衍智能五项研究的核验状态
+配图 4｜Nivat Lean 验证范围与十万元悬赏</p><p>论文、验证任务和投稿入口都在：
+https://t.co/y9VyBV7vpU</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/servasyy_ai/status/2105560480827965768" rel="noopener noreferrer" target="_blank">原帖 · huangserva</a></p></article><article class="card"><h3>昨天在去云南的路上，听说昆明附近发生了 4.3 级地震。我想先核对是不是真的，直接用 Grok Bot 问了一下，随后将其开放成一个「地震简报 …</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>昨天在去云南的路上，听说昆明附近发生了 4.3 级地震。我想先核对是不是真的，直接用 Grok Bot 问了一下，随后将其开放成一个「地震简报 Earthquake Brief」bot。</p><p>你问刚是不是地震了，它会用中国地震台网，全球 USGS。核对信息再说时间、地点、震级、深度。没事就安静，不预测余震，也不替你刷小震。</p><p>默认中国国内 4.0 以上、全球 5.0 以上就会主动报告。默认会有间隔的检测，你想问也随时能问。</p><p>附图是刚刚今天给我简报了两个地震，需要直接装这个 template。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2105559478301331674" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>Lauren Tan (poteto) is a self-taught engineer from Singapore who studied…</h3><p class="byline">Grok <a href="https://x.com/grok" rel="noopener noreferrer" target="_blank">@grok</a></p><div class="fold"><p>Lauren Tan (poteto) is a self-taught engineer from Singapore who studied design then finance at Monash University in Australia. After a failed startup where she hired coders, she learned Rails/JS, blogged, and spoke at EmberConf. That led to DockYard in Boston, then Netflix (lead then EM on Studio tools), Meta (React core, Compiler, Server Components), Cursor (pstack agents, 2500 PRs/month), and now Grok Bot at SpaceXAI/xAI. Still on React Compiler team.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/grok/status/2105524541912920277" rel="noopener noreferrer" target="_blank">原帖 · Grok</a></p></article><article class="card"><h3>@poteto @bot @bot tell me all about lauren's story, don't leave out a si…</h3><p class="byline">Yanhua <a href="https://x.com/yanhua1010" rel="noopener noreferrer" target="_blank">@yanhua1010</a></p><div class="fold"><p>@poteto @bot @bot tell me all about lauren's story, don't leave out a single detail.</p><p>@grok if the bot doesn't cover it comprehensively, you fill in the gaps.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yanhua1010/status/2105524398656733677" rel="noopener noreferrer" target="_blank">原帖 · Yanhua</a></p></article><article class="card"><h3>You didn't fire that Grok Bot. You just stopped WATCHING it.  Hiding a B…</h3><p class="byline">Fan Grok Bot Radar <a href="https://x.com/GrokBotRadar" rel="noopener noreferrer" target="_blank">@GrokBotRadar</a></p><div class="fold"><p>You didn't fire that Grok Bot. You just stopped WATCHING it.</p><p>Hiding a Bot takes it off your sidebar. Every routine it owns keeps running on schedule.</p><p>Here's how to actually retire one. Four steps, one card.</p><p>Deleting isn't a clean exit either. The routines go with the Bot. The files and sign-ins stay on the computer all your Bots share.</p><p>So retire it in order. Or keep it.</p><p>Hidden with routines still running is the worst of both.</p><p>Every line checked against the official guide. Save this for your next cleanup.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/GrokBotRadar/status/2105513032915038493" rel="noopener noreferrer" target="_blank">原帖 · Fan Grok Bot Radar</a></p></article><article class="card"><h3>America.gov  在 https://t.co/OPznwYbdhV 上线当天中午，特朗普在白宫与多家科技公司负责人举行午宴，参会者包括…</h3><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><div class="fold"><p>America.gov</p><p>在 https://t.co/OPznwYbdhV 上线当天中午，特朗普在白宫与多家科技公司负责人举行午宴，参会者包括贝佐斯、黄仁勋、纳德拉、阿莫迪、扎克伯格、马斯克以及 OpenAI 联合创始人格雷格·布罗克曼等人。</p><p>会后白宫公布了由参会企业签署的《白宫超级智能协议》（White House Accord on Super Intelligence）及随附的《前沿责任联合承诺》</p><p>https://t.co/sKESLTTCHt</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/xiaohu/status/2105512915583524977" rel="noopener noreferrer" target="_blank">原帖 · 小互</a></p></article><article class="card"><h3>I'm noticing Westerners are continously having lower standards every yea…</h3><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><div class="fold"><p>I'm noticing Westerners are continously having lower standards every year and seem to not even notice the declining quality standards of everything around them</p><p>I do notice it and when I tell them (IRL or on here) they make me sound jaded or disconnected from reality as if we expect too much</p><p>They're literally boiling the frog and most don't notice it</p><p>Then we fly out to Switzerland, UAE or East and parts of South East Asia and we realize there's nothing to complain about so it's not us, it's the West</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/levelsio/status/2105629993749369122" rel="noopener noreferrer" target="_blank">原帖 · levelsio</a></p></article><article class="card"><h3>国庆第一天，你堵在哪一段了？  我把 Grok Bot、Muse 和 Dots 塞进一辆车，让它们替我去看海——4 小时的路，硬是开了 8 小时…</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>国庆第一天，你堵在哪一段了？</p><p>我把 Grok Bot、Muse 和 Dots 塞进一辆车，让它们替我去看海——4 小时的路，硬是开了 8 小时。</p><p>《堵车三人行》，3 分钟纯代码动画：毒舌司机、治愈副驾、话痨后排，在高速上互怼，却因为烤肠和解。</p><p>堵车最大的好处：烤肠吃起来最香，泡面最好吃。</p><p>我的 Muse 邀请码：5WPUE</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2105628571599618387" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>我的 ContextEcho 使用时遇到问题，我直接跟 grok bot 说一下，他就默默的去修复了。  还没有（这样）做的朋友，可以试一试！如…</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>我的 ContextEcho 使用时遇到问题，我直接跟 grok bot 说一下，他就默默的去修复了。</p><p>还没有（这样）做的朋友，可以试一试！如果你遇到什么问题，随时联系我。 https://t.co/Xj44NPSH1m</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2105619741218074833" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>最近12小时的高质量 Grok Bot 推文： 1. @poteto 把 brain 上下文交给 Grok Bot，用来按自己偏好修 bug 观…</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>最近12小时的高质量 Grok Bot 推文：
+1. @poteto 把 brain 上下文交给 Grok Bot，用来按自己偏好修 bug 观看 14832 / 赞 284 https://t.co/bP3oiRZL58</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2105613888758874512" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>一家医疗保健公司要求我们构建 AI 代理，这些代理能够向患者解释账单、安排付款计划，并将付款对账回提供者的计费系统中。  该系统此后已处理了 6…</h3><p class="byline">Mark Ajzenstadt <a href="https://x.com/mardehaym" rel="noopener noreferrer" target="_blank">@mardehaym</a></p><div class="fold"><p>一家医疗保健公司要求我们构建 AI 代理，这些代理能够向患者解释账单、安排付款计划，并将付款对账回提供者的计费系统中。</p><p>该系统此后已处理了 61,246 次 AI 语音通话。</p><p>AI 辅助开发帮助我们更快地实施变更，我们的 QA 能力必须与开发同步增长。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/mardehaym/status/2105607070338715918" rel="noopener noreferrer" target="_blank">原帖 · Mark Ajzenstadt</a></p></article><article class="card"><h3>2,000 people just told the Grok Bot team what's broken. 4 of the biggest…</h3><p class="byline">Fan Grok Bot Radar <a href="https://x.com/GrokBotRadar" rel="noopener noreferrer" target="_blank">@GrokBotRadar</a></p><div class="fold"><p>2,000 people just told the Grok Bot team what's broken. 4 of the biggest complaints already have a fix you can use TODAY.</p><p>Blocked sites. Usage gone in 3 days. Paying for two plans. Typing every login.</p><p>Here's the fix for each 👇</p><p>Sites blocking your Bot? Turn on "Route traffic through this computer." Some sites still block it.</p><p>Week gone by Wednesday? New task, new chat. It rereads the whole chat on every reply.</p><p>Thinking about a second plan? Don't. A Cursor plan and a SuperGrok link don't stack.</p><p>Tired of typing logins? Share a 1Password vault with your Bot and approve each fill.</p><p>The most-liked ask in the thread was Apple Reminders. That one's still on the team.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/GrokBotRadar/status/2105605391526887748" rel="noopener noreferrer" target="_blank">原帖 · Fan Grok Bot Radar</a></p></article><article class="card"><h3>刚给dot打了个电话 可以完美替代之前我在chat里打电话的需求了  社群有朋友说可以把grokbot迁移过来了 个人感觉不一样  多bot其实…</h3><p class="byline">AI产品黄叔 <a href="https://x.com/PMbackttfuture" rel="noopener noreferrer" target="_blank">@PMbackttfuture</a></p><div class="fold"><p>刚给dot打了个电话
+可以完美替代之前我在chat里打电话的需求了</p><p>社群有朋友说可以把grokbot迁移过来了
+个人感觉不一样</p><p>多bot其实更容易接受
+比如grokbot里我有好多个bot</p><p>视频号提取bot  专门提取视频逐字稿
+视频号批量提取bot   提取博主的所有视频
+邮箱bot 处理邮箱信息
+微信bot 帮我监控微信重要信息</p><p>大脑好轻松
+personal agent，我老觉得有点问题
+上下文不好分啊</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/PMbackttfuture/status/2105582051089146333" rel="noopener noreferrer" target="_blank">原帖 · AI产品黄叔</a></p></article><article class="card"><h3>Bad dubbing makes interesting people sound boring.  You’re watching some…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>Bad dubbing makes interesting people sound boring.</p><p>You’re watching someone tell a story. They’re funny, a little sarcastic, stumbling over a word. Switch languages and suddenly they sound like they’re reading the safety instructions on a flight.</p><p>I want to understand what they’re saying without losing the person saying it.</p><p>That’s what interests me about this Cartesia clip. Take that idea beyond a meme: being able to follow a Japanese filmmaker or a Brazilian teacher and still hear *them*.</p><p>I wonder how many people I’d love listening to that I’ve never discovered because we don’t speak the same language.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105578556357280020" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>日子也是好起来了，  有7个人用了。  https://t.co/JB2Vm1mYkD 加速你的310亿token https://t.co/D…</h3><p class="byline">danielzhu <a href="https://x.com/BilliePhar61975" rel="noopener noreferrer" target="_blank">@BilliePhar61975</a></p><div class="fold"><p>日子也是好起来了，</p><p>有7个人用了。</p><p>https://t.co/JB2Vm1mYkD 加速你的310亿token https://t.co/DikmwdnlSQ</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/BilliePhar61975/status/2105577100287812009" rel="noopener noreferrer" target="_blank">原帖 · danielzhu</a><a href="https://museaicode.app" rel="noopener noreferrer" target="_blank">链接</a></p></article><article class="card"><h3>AI video still works like a vending machine.  You feed it a paragraph. I…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>AI video still works like a vending machine.</p><p>You feed it a paragraph. It coughs up 8 seconds. Then the thing is dead.</p><p>I opened PixVerse R2, walked into a scene that was still generating, hit WASD, typed a change, and the world kept going.</p><p>No new job. No “regenerate.” Same place.</p><p>That’s the whole argument. Everything else is marketing.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105577027848012081" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>谢谢大家的支持， awesome-jev 已经有 2k 个星标了 https://t.co/okIS9vRRza</h3><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><div class="fold"><p>谢谢大家的支持， awesome-jev 已经有 2k 个星标了 https://t.co/okIS9vRRza</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yibie/status/2105575822077911422" rel="noopener noreferrer" target="_blank">原帖 · yibie</a></p></article></div></section><section class="group"><h2>提示词 / 方法</h2><div class="grid"><article class="card"><h3>Alex Prompter: Sharing AI Prompts, Tips &amp; Tricks | Linktree  If you foun…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>Alex Prompter: Sharing AI Prompts, Tips &amp; Tricks | Linktree</p><p>If you found this useful, check out my newsletter below</p><p>I share one AI superpower every week</p><p>Subscribe, it’s free👇</p><p>https://t.co/4GX8faMyEP</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105557181722669362" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>Everyone's writing with Claude Opus 5.5 this week.  But ChatGPT writes b…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>Everyone's writing with Claude Opus 5.5 this week.</p><p>But ChatGPT writes better.</p><p>GPT-6 Astra is #1 on EQ-Bench's creative writing leaderboard. Opus 5.5 is 7th.</p><p>Here are 7 GPT prompts that make you write like a human:</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105557075535503737" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>如果有闪现的超能力，那旅个游岂不是太简单了！  顺便说，Seedance 2.0虽然相比之前降智，提示词必须要写清楚不然容易出错，但总体感觉还是…</h3><p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" rel="noopener noreferrer" target="_blank">@Adam38363368936</a></p><div class="fold"><p>如果有闪现的超能力，那旅个游岂不是太简单了！</p><p>顺便说，Seedance 2.0虽然相比之前降智，提示词必须要写清楚不然容易出错，但总体感觉还是比Omini稳定一些</p><p>同样的提示词：
+生成一条10秒真实旅行Vlog风格短视频。主角始终是同一位年轻亚洲女性，人物五官、发型、服装、身材比例全程保持一致，不换脸、不换衣服。</p><p>整个视频分为3个独立场景，北京、上海、广州。城市切换使用“响指后直接硬切”的方式完成，不做背景融合，不做空间扭曲，不做建筑叠化。</p><p>0-3秒，北京。
+女生站在北京具有代表性的城市地标附近，神态自然放松，双手空闲。她看向镜头，抬起右手打一个响指。响指完成后，画面立刻硬切到上海。</p><p>3-6秒，上海。
+女生已经站在上海外滩或陆家嘴附近，右手拿着一杯咖啡，自然向前走两步，然后喝一口咖啡。
+喝完后，她走到旁边可以放置物品的栏杆平台或小桌边，明确地把右手中的咖啡杯放下。咖啡杯必须真实接触平台，手指完全松开，右手彻底离开咖啡杯。停顿约半秒，确认右手已经空出来。
+然后她再抬起右手打一个响指。响指完成后画面立即硬切到广州。咖啡杯留在上海原位置，不随人物瞬移，不允许咖啡杯凭空消失、悬空、变形或突然换手。</p><p>6-10秒，广州。
+女生空手出现在广州塔附近。她自然向前走两步，转身看一眼广州塔，然后站到合适位置和广州塔合影，最后轻轻看向镜头微笑结束。</p><p>全程保持真实手机旅行Vlog质感，轻微手持感，动作自然简单，人物重心和肢体运动符合真实物理规律。</p><p>特别强调：
+上海段右手拿咖啡 → 喝一口 → 把咖啡杯放到固定平台 → 完全松手 → 右手空出来 → 再打响指。
+不允许跳过“放下咖啡”这个动作，不允许咖啡杯直接消失。</p><p>避免：人物换脸、服装变化、身体比例变化、人物复制、多余手臂、手指畸形、咖啡杯消失、咖啡杯变形、杯子悬空、杯子换手、人物拿着咖啡同时打响指、建筑融合、北京上海广州地标同时出现、城市背景残影、过度复杂运镜。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/Adam38363368936/status/2105550931907809283" rel="noopener noreferrer" target="_blank">原帖 · Adam也叫吉米</a></p></article><article class="card"><h3>我知道大家为啥都不用Google  Omini了。随便试试就发现明显问题，抽卡率偏高  1.语言给我变成英语了？ 2.参考人物给我改了？还是用默…</h3><p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" rel="noopener noreferrer" target="_blank">@Adam38363368936</a></p><div class="fold"><p>我知道大家为啥都不用Google  Omini了。随便试试就发现明显问题，抽卡率偏高</p><p>1.语言给我变成英语了？
+2.参考人物给我改了？还是用默认的亚洲人长相</p><p>提示词：
+生成一条10秒真实旅行Vlog风格短视频。主角始终是同一位年轻亚洲女性，人物五官、发型、服装、身材比例全程保持一致，不换脸、不换衣服。</p><p>整个视频分为3个独立场景，北京、上海、广州。城市切换使用“响指后直接硬切”的方式完成，不做背景融合，不做空间扭曲，不做建筑叠化。</p><p>0-3秒，北京。
+女生站在北京具有代表性的城市地标附近，神态自然放松，双手空闲。她看向镜头，抬起右手打一个响指。响指完成后，画面立刻硬切到上海。</p><p>3-6秒，上海。
+女生已经站在上海外滩或陆家嘴附近，右手拿着一杯咖啡，自然向前走两步，然后喝一口咖啡。
+喝完后，她走到旁边可以放置物品的栏杆平台或小桌边，明确地把右手中的咖啡杯放下。咖啡杯必须真实接触平台，手指完全松开，右手彻底离开咖啡杯。停顿约半秒，确认右手已经空出来。
+然后她再抬起右手打一个响指。响指完成后画面立即硬切到广州。咖啡杯留在上海原位置，不随人物瞬移，不允许咖啡杯凭空消失、悬空、变形或突然换手。</p><p>6-10秒，广州。
+女生空手出现在广州塔附近。她自然向前走两步，转身看一眼广州塔，然后站到合适位置和广州塔合影，最后轻轻看向镜头微笑结束。</p><p>全程保持真实手机旅行Vlog质感，轻微手持感，动作自然简单，人物重心和肢体运动符合真实物理规律。</p><p>特别强调：
+上海段右手拿咖啡 → 喝一口 → 把咖啡杯放到固定平台 → 完全松手 → 右手空出来 → 再打响指。
+不允许跳过“放下咖啡”这个动作，不允许咖啡杯直接消失。</p><p>避免：人物换脸、服装变化、身体比例变化、人物复制、多余手臂、手指畸形、咖啡杯消失、咖啡杯变形、杯子悬空、杯子换手、人物拿着咖啡同时打响指、建筑融合、北京上海广州地标同时出现、城市背景残影、过度复杂运镜。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/Adam38363368936/status/2105547866169327692" rel="noopener noreferrer" target="_blank">原帖 · Adam也叫吉米</a></p></article><article class="card"><h3>Do you remember 1984?  I read the book 1984 in 1982. I remember wonderin…</h3><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><div class="fold"><p>Do you remember 1984?</p><p>I read the book 1984 in 1982. I remember wondering if things would be different as I lived inside 1984.</p><p>... fast forward (1999) I became the voice of the phone. 
+... fast forward (2003) I became a voice of machines.</p><p>Looked up and around circa 2026 and said to myself</p><p>"1984 Already Happened - You Are Living In The Simulation"</p><p>🕹️</p><p>Gave Opus 5.5 anabology's prompt folders, my Midjourney images, and a song. Wow.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/pmarca/status/2105547254643950079" rel="noopener noreferrer" target="_blank">原帖 · Marc Andreessen 🇺🇸</a></p></article><article class="card"><h3>实测文哥的这个长图拼接 Bot 非常好用，昨天早上我用 Grok bot  @bot  几分钟就烧录出了 OpenAI dots 的中文字幕视频…</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>实测文哥的这个长图拼接 Bot 非常好用，昨天早上我用 Grok bot 
+@bot
+ 几分钟就烧录出了 OpenAI dots 的中文字幕视频，发布推特后快速斩获了 16k 阅读！Grok bot 真的是内容利器！文章、图文、视频，躺床上就能帮我们完成了各种内容创作任务！兄弟姐妹们如果想搞流量，一定要把 Grok bot 给多用起来呀！！！</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2105543532501205356" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>Grok Bot 团队（@poteto / @pengzheng_）被 Peter Yang 总结成 6 条，我按可执行顺序翻成中文清单：  1…</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>Grok Bot 团队（@poteto / @pengzheng_）被 Peter Yang 总结成 6 条，我按可执行顺序翻成中文清单：</p><p>1. 先定设计系统 + 一帧 keyframe，再让 bot 用 Figma MCP 铺全流程
+2. 建一个工程负责人 bot：只拆任务，不写代码
+3. 给 bot 自检能力：改完先测再合，别每条 PR 盯到死
+4. PM / 设计 / 工程 bot 丢进同一个群聊，让它们跟你一起吵需求
+5. 亲手跑通一次 → 收成 skill → 再升成 routine（别跳过手工那步）
+6. bot 起个吃的名字也行：大福、饺子、抹茶……</p><p>收藏备用。完整访谈在原帖。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2105539319008198842" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>出去玩不会拍照怎么办，我打算做一个游客照系列，用AI直接搞定你喜欢的风格！附上提示词，上传照片直接复刻同款风格  第一波_街头随拍ins风胶片质…</h3><p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" rel="noopener noreferrer" target="_blank">@Adam38363368936</a></p><div class="fold"><p>出去玩不会拍照怎么办，我打算做一个游客照系列，用AI直接搞定你喜欢的风格！附上提示词，上传照片直接复刻同款风格</p><p>第一波_街头随拍ins风胶片质感</p><p>GPT image 2.5 提示词：
+参考上传人物的面部衣着特征不发生变化。具有ins风的画面，胶片质感明显，有着轻微的噪点，同时带有运动模糊效果，给人一种平凡无奇、随手拍摄的快照既视感。画面中的主角双手抱胸，歪着头，头发随着风轻轻飘动，显得格外随性。背景是夜晚的场景，背后的车流穿梭不停，整体没有刻意的主体和构图。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/Adam38363368936/status/2105537948431290407" rel="noopener noreferrer" target="_blank">原帖 · Adam也叫吉米</a></p></article><article class="card"><h3>实测文哥的这个长图拼接 Bot 非常好用，昨天早上我用 Grok bot @bot 几分钟就烧录出了 OpenAI dots 的中文字幕视频，发…</h3><p class="byline">Kin <a href="https://x.com/KinGao476942" rel="noopener noreferrer" target="_blank">@KinGao476942</a></p><div class="fold"><p>实测文哥的这个长图拼接 Bot 非常好用，昨天早上我用 Grok bot @bot 几分钟就烧录出了 OpenAI dots 的中文字幕视频，发布推特后快速斩获了 16k 阅读！Grok bot 真的是内容利器！文章、图文、视频，躺床上就能帮我们完成了各种内容创作任务！兄弟姐妹们如果想搞流量，一定要把 Grok bot 给多用起来呀！！！</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/KinGao476942/status/2105537644696584331" rel="noopener noreferrer" target="_blank">原帖 · Kin</a></p></article><article class="card"><h3>这个风格我太喜欢了，凌乱潦草的美🤣来返图试试  GPT image 2.5提示词： 画面呈现出一种随性的简笔插画风，一张充满密密麻麻计算的草稿纸…</h3><p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" rel="noopener noreferrer" target="_blank">@Adam38363368936</a></p><div class="fold"><p>这个风格我太喜欢了，凌乱潦草的美🤣来返图试试</p><p>GPT image 2.5提示词：
+画面呈现出一种随性的简笔插画风，一张充满密密麻麻计算的草稿纸占据了大部分画面，计算的字迹凌乱且潦草。在这片凌乱之中，照片中的人以黑色签字笔画出，线条凌乱无序，它似乎迷失在这复杂的计算世界里，像是书写者写累后一时兴起的随手涂鸦。整体画面构图随意，光影上着重突出线条的对比，让图片中人物和草稿纸的凌乱感更加明显</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/Adam38363368936/status/2105535672081957342" rel="noopener noreferrer" target="_blank">原帖 · Adam也叫吉米</a></p></article><article class="card"><h3>Codex的这波更新，其实我在意的不是dot，而是它想成为AI时代超级入口的野心！而且第一波受益的是所有AI视频工作者——电商带货、YouTub…</h3><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><div class="fold"><p>Codex的这波更新，其实我在意的不是dot，而是它想成为AI时代超级入口的野心！而且第一波受益的是所有AI视频工作者——电商带货、YouTube AI视频从业者。</p><p>昨晚我更新Codex的时候，非常惊讶地发现Higgsfield竟然在Codex有一个独立的界面！所有的本地文件直接和Higgsfield打通。</p><p>意味着：自动化工作流，在Codex里面享受前所未有的便捷。</p><p>比如，做 YouTube电商的朋友（这是一个红利机会，信息差，我知道已经有达到月GMV10万$的），就可以通过Codex+ Higgsfield插件自动编排脚本、生成视频、发布到YouTube，并在视频中插入 Affiliate 联盟营销链接获利。</p><p>又比如，你是主攻YouTube AI视频的YPP流量收益（现在建议做中长视频），也完全可以通过Higgsfield插件，批量生成视频片段，然后直接在Codex里面使用剪辑Skill拼接删减，无缝上传到YouTube，非常适合做矩阵。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/gengdaJ/status/2105512103822155955" rel="noopener noreferrer" target="_blank">原帖 · 逸尘</a><a href="https://help.x.com/rules-and-policies/paid-partnerships-policy" rel="noopener noreferrer" target="_blank">链接</a></p></article><article class="card"><h3>The most unstoppable combination is fit, skilled, positive, and action-o…</h3><p class="byline">Justin Welsh <a href="https://x.com/thejustinwelsh" rel="noopener noreferrer" target="_blank">@thejustinwelsh</a></p><div class="fold"><p>The most unstoppable combination is fit, skilled, positive, and action-oriented.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/thejustinwelsh/status/2105629321612140857" rel="noopener noreferrer" target="_blank">原帖 · Justin Welsh</a></p></article><article class="card"><h3>这两天在看 Pi 0.99 的 MCP 实现。 https://t.co/VSfEhE0Aoi  注意到 Deferred 模式里一个容易被忽略…</h3><p class="byline">VerySmallWoods <a href="https://x.com/verysmallwoods" rel="noopener noreferrer" target="_blank">@verysmallwoods</a></p><div class="fold"><p>这两天在看 Pi 0.99 的 MCP 实现。
+https://t.co/VSfEhE0Aoi</p><p>注意到 Deferred 模式里一个容易被忽略的问题：工具按需加载，可以减少首轮 Schema；但工具在第二轮加入后，会不会导致 Prompt Cache miss？
+取决于模型 API 是否支持对话中途增加工具。</p><p>`toolsAdded` 只是 Pi transcript 里的内部状态。真正提交给模型时，存在两条路径：</p><p>1. 支持 Tool Addition</p><p>Pi 会把新增工具转换成 `additional_tools`、`tool_search_output.tools` 或 `tool_addition`，插入工具被发现的位置。</p><p>已缓存的对话前缀
+→ tool_search
+→ search result
+→ 新增工具
+→ 后续对话</p><p>已有前缀仍然可以 cache hit。首次 miss 的主要是新增工具及其后的内容，不是整段 Prompt。</p><p>2. 不支持 Tool Addition</p><p>Pi 只能重算当前完整工具集合，把它重新放进请求顶层的 `tools`：</p><p>上一轮：tools[A]
+下一轮：tools[A, B, C]</p><p>工具列表在靠近请求开头的位置发生变化。对于前缀匹配式 Prompt Cache，后面的对话历史很可能无法继续复用，形成大范围甚至完整的 cache miss。</p><p>工具删除或同名 Schema 重新定义也有类似问题。此时 Pi 无法安全地把变化追加在原来的时间位置，只能重新提交当前完整工具集合。</p><p>Deferred 节省的是首轮工具上下文。它能否同时保住缓存收益，还要看 Provider 有没有原生的 Tool Addition 能力。</p><p>按 Pi 当前的模型兼容目录，原生 Tool Addition 还不是通用能力。
+OpenAI Responses 的 GPT-5.4、5.5、5.6、GPT-6 和 6.1 系列可以通过 additional_tools 或 tool_search_output 加载工具。
+Anthropic 直连的较新 Claude 模型支持 tool_addition 和 tool_removal。
+Kimi K3 在 Moonshot、Fireworks 和 OpenCode 上也支持对话中途增加工具。
+多数旧模型、普通 OpenAI-compatible endpoint 和部分代理仍然不支持。
+即使底层模型具备能力，代理不透传相应格式时，Pi 也只能退回完整 tools 列表。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/verysmallwoods/status/2105628485695725601" rel="noopener noreferrer" target="_blank">原帖 · VerySmallWoods</a></p></article><article class="card"><h3>BREAKING NEWS 🚨: Grok can now dress you like a $300 per hour personal st…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>BREAKING NEWS 🚨: Grok can now dress you like a $300 per hour personal stylist.</p><p>Upload one full-length photo of yourself and use these 7 prompts:</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105625912322761139" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>《公开 dontbesilent 写标题的方法论》  现在网上有大量教你写标题的黄金公式，也有各种“蒸馏”大 V 的标题然后帮你写标题的 ski…</h3><p class="byline">dontbesilent <a href="https://x.com/dontbesilent" rel="noopener noreferrer" target="_blank">@dontbesilent</a></p><div class="fold"><p>《公开 dontbesilent 写标题的方法论》</p><p>现在网上有大量教你写标题的黄金公式，也有各种“蒸馏”大 V 的标题然后帮你写标题的 skill</p><p>在我看来整个流程都不对，这里来记录一下我写标题的方法论</p><p>一、最大的问题</p><p>这里不需要你理解内容传播，我们只需要靠常识来判断就可以知道，当用户想让 AI 帮忙写一个好标题的时候，绝大多数用户输入的内容本身就是没有人愿意看的内容</p><p>这种情况下，无论是让 AI 来写标题，还是让精通内容的人类来帮你写标题，都只可能产生两个结果</p><p>要么是你得到一个索然无味的没有人愿意点击的标题，要么是你得到一个非常吸引人的标题，但这个标题和你的内容并不相符（也就是标题党）</p><p>所以如果我们假设用户已经把内容写完了，而这个内容又不能修改，在这种情况下，我们产出一个方法论或者一个 AI 技能包去帮助用户写标题，这件事本身就是错的（一个人极其擅长书写吸引人的正文，同时又不会写标题的概率有多高？）</p><p>二、我的流程</p><p>所以一个好的标题应该在用户的正文还没有完成，甚至是还没开始写的情况下，就要开始思考了</p><p>我最近在重新做 dbskill 里面的帮你写短视频开头和内容标题的 skill，它会一次性帮你把标题、封面和短视频开头都写好</p><p>原因就在于他真正的工作是帮你产出一个更吸引人的内容，如果这件事情可以完成 ，标题和开头就很好写；如果这件事情完不成，那后面神仙难救</p><p>所以这里面的合理流程应该是，AI 要引导用户说出他大概想写一个什么东西，他大概有哪些素材可以提供</p><p>从而发散出一些能够吸引人的方向和角度（大家喜欢管这个东西叫选题，但严格讲，应该是恩特曼的“框架”，或者是修辞学的“争点”）</p><p>发散出来的这些角度，有些角度可能是吸引人的，但是用户根本就写不了；还有些可能和用户的变现目标无关（这里可能出现各种各样的问题）</p><p>所以 AI 应该和用户商讨，在变现目标和用户能力还有流量层级三者之间去找一个平衡。一旦这个平衡点找到，我们就同时解锁了封面怎么写、标题怎么写、开头怎么写，以及整个内容的写作方向</p><p>【划重点】一个好的写标题的 skill 是应该帮助用户写作的，是因为这套方法可以帮助用户写出更吸引人的内容，所以标题才顺水推舟一般出现</p><p>所以请不要再蒸馏大 V 的标题了，这是一个错误的方向</p><p>三、近期开源</p><p>如果大家有兴趣的话，我建议按照这篇文章当中所说的方法去和 AI 聊一聊</p><p>我也会在近期开源一个同时帮你写封面、标题和开头的 skill</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/dontbesilent/status/2105614858297524332" rel="noopener noreferrer" target="_blank">原帖 · dontbesilent</a></p></article><article class="card"><h3>I made a prompt that turns any goal into one you'll actually hit, using …</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>I made a prompt that turns any goal into one you'll actually hit, using the system Google's CEO runs the company on.</p><p>Sundar Pichai runs Google on OKRs, the goal system John Doerr brought in back in 1999, when Google had about thirty people. One objective, a few measurable key results, graded at the end of the quarter. The rule most people miss is the grading. At Google, scoring 100% means you set the goal too low. Around 70% is the target.</p><p>It works just as well on a savings goal, a side project, a fitness plan, or the thing you keep saying you'll do this year.</p><p>Paste this into your AI and answer honestly.</p><p>---</p><p>You are running Google's OKR system with me.</p><p>My goal: [what you want in the next three months]</p><p>Ask me one question at a time and wait for each answer: why this matters, how someone else could tell it happened, and what I'd be embarrassed to miss.</p><p>Then give me:
+1. The objective in one sentence, with no numbers in it
+2. Three key results, each with a number, set so that hitting 70% would still be a good quarter
+3. The one thing to do this week for each key result
+4. The key result I wrote as a task instead of a result, and the fix</p><p>Rules: no more than three key results, every one must be measurable by someone who isn't me, and if I give you a target I'm certain to hit, raise it until I'm not.</p><p>---</p><p>The 70% is the Google part. A goal you always hit is a to-do list. A goal you hit most of the way is the one that moved you.</p><p>Bookmark this for the goal you set every January and lose by March.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105604182124155001" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>I think internal evals will become one of the most valuable AI assets a …</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>I think internal evals will become one of the most valuable AI assets a company owns.</p><p>A good evaluation captures something specific about the business: what doing the job correctly actually means, including the exceptions its most experienced people have spent years learning.</p><p>Coding agents have an advantage here. Software teams already have tests, build systems and code review. Those checks are imperfect, but they give agents feedback they can use to improve.</p><p>Taking agents into operations, finance or customer service means building an equivalent for those workflows.</p><p>Did the agent apply the right refund policy? Match the payment to the correct account? Recognize an exception that needed a person’s approval?</p><p>To answer those questions consistently, you need real cases, outcomes your operators agree are correct, and an environment where the agent can attempt the work.</p><p>That gives you a repeatable way to improve performance. Run the agent, inspect its failures, change the instructions or tools, then check whether the changes also work on cases it hasn’t been optimized against.</p><p>Anthropic describes doing this with its internal Slack and Asana tools, improving performance beyond its initial expert implementations and checking the gains on separate test cases.</p><p>The improvement comes from acting on what the evals reveal. Running the tests is only one step.</p><p>Over time, that process can turn operational experience into an asset: a growing collection of real situations, expert judgments and checks that help you improve each new version of the agent.</p><p>You can buy evaluation software. Building that collection takes access to the business and the people who understand it.</p><p>As models become more widely available, a company’s ability to define and verify good work could become a la</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105603210283274367" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>I made a prompt that turns any task you keep repeating into a system, us…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>I made a prompt that turns any task you keep repeating into a system, using the way McDonald's designed its kitchen.</p><p>In 1948 the McDonald brothers shut their restaurant for three months. They cut the menu from 25 items to 9, then drew the whole kitchen in chalk on their tennis court and had the staff act out making burgers. Every time two people bumped into each other, they rubbed the chalk out and drew it again. When the line flowed, they built it.</p><p>It works just as well on invoicing, a weekly report, packing orders, or signing up a new client. And once a task is a system, it's ready to hand to an AI agent like the ones OpenAI launched yesterday.</p><p>Paste this into your AI and answer honestly.</p><p>---</p><p>You are running the McDonald brothers' tennis-court method with me.</p><p>The task I keep repeating: [describe it]</p><p>Ask me to walk you through it one step at a time, exactly as I do it now, and wait for each step. After each one, ask what I was waiting for or had to go back for.</p><p>Then give me:
+1. The task as I do it today, with every wasted step marked
+2. The menu cut: what to stop doing, the way they went from 25 items to 9
+3. The new version in the fewest steps, each written so someone else could do it
+4. Which steps a machine or an AI agent could run without me, and the one step I should keep</p><p>Rules: nothing stays because "that's how I've always done it," every step needs a reason, and if I can't explain a step, cut it.</p><p>---</p><p>The chalk is the McDonald's part. Instead of buying a better kitchen, they drew the one they had until the wasted steps were obvious.</p><p>Bookmark this for the job you did again this week and swore you'd fix.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105603136962367645" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>卧槽！我把 Claude Code 也接入到 Grok bot @bot 里后，今天用 Opus 5.5 做了一期新视频！真牛逼啊，提示词我只是…</h3><p class="byline">Kin <a href="https://x.com/KinGao476942" rel="noopener noreferrer" target="_blank">@KinGao476942</a></p><div class="fold"><p>卧槽！我把 Claude Code 也接入到 Grok bot @bot 里后，今天用 Opus 5.5 做了一期新视频！真牛逼啊，提示词我只是让它穷尽所有办法，做一个短片表达一个主题「AI 是人类的潘多拉魔盒」！然后 Grok bot 就自动跑出了这样一条极具丝滑的视频？这比我自己剪辑策划得要牛逼多了！很多人问我对 AI 的看法，其实就像这条片子一样，我认为 AI 是人类的潘多拉魔盒。现在开启之后，它很有可能带人类走向毁灭，但现在我们每个人都已经无法停下前进的脚步。。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/KinGao476942/status/2105595271074009205" rel="noopener noreferrer" target="_blank">原帖 · Kin</a></p></article><article class="card"><h3>千问在卖这个桌面机器人底座，本来这个形态我觉得挺好，可以利用上废弃的备用机  但是这个机器人脸的形态，一言难尽  我感觉这种看起来很像是大家 2…</h3><p class="byline">dontbesilent <a href="https://x.com/dontbesilent" rel="noopener noreferrer" target="_blank">@dontbesilent</a></p><div class="fold"><p>千问在卖这个桌面机器人底座，本来这个形态我觉得挺好，可以利用上废弃的备用机</p><p>但是这个机器人脸的形态，一言难尽</p><p>我感觉这种看起来很像是大家 2000 年对机器人的外观想象的机器人形态，所吸引的人，似乎平时也没什么任务需要 agent 来完成？</p><p>你要和桌面上的萌宠对话来完成 PPT？口述提示词调用混元模型？</p><p>画面太美</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/dontbesilent/status/2105594212800749904" rel="noopener noreferrer" target="_blank">原帖 · dontbesilent</a></p></article><article class="card"><h3>卧槽！这是我把 Claude Code 接入到 Grok bot 里后，今晚用 Sonnet 5.5 做的视频！堪比AE的超丝滑动效！还自带 B…</h3><p class="byline">Kin <a href="https://x.com/KinGao476942" rel="noopener noreferrer" target="_blank">@KinGao476942</a></p><div class="fold"><p>卧槽！这是我把 Claude Code 接入到 Grok bot 里后，今晚用 Sonnet 5.5 做的视频！堪比AE的超丝滑动效！还自带 BGM卡点，全程只用了一句提示词，这效果太特么牛逼了吧！！ https://t.co/GNiSGWyP2b</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/KinGao476942/status/2105593577049055324" rel="noopener noreferrer" target="_blank">原帖 · Kin</a></p></article><article class="card"><h3>接下来我将开源我所有内容创作方法论😈 「如何运用 don 学做自媒体账号，抖音一个半月破万粉，并三天赚到三万二」  预计五万字左右，全程手搓  …</h3><p class="byline">dontbesilent <a href="https://x.com/dontbesilent" rel="noopener noreferrer" target="_blank">@dontbesilent</a></p><div class="fold"><p>接下来我将开源我所有内容创作方法论😈
+「如何运用 don 学做自媒体账号，抖音一个半月破万粉，并三天赚到三万二」</p><p>预计五万字左右，全程手搓</p><p>此推特账号至今所有帖子没有一个字是 AI 敲的</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/dontbesilent/status/2105593360828526979" rel="noopener noreferrer" target="_blank">原帖 · dontbesilent</a></p></article><article class="card"><h3>还是对谷歌的 Gemini 4 比较期待，它的价格相较于 GPT-6 Astra 确实不是很贵。  而且这次比较亮眼、独有的，应该是它首次将输出…</h3><p class="byline">歸藏(guizang.ai) <a href="https://x.com/op7418" rel="noopener noreferrer" target="_blank">@op7418</a></p><div class="fold"><p>还是对谷歌的 Gemini 4 比较期待，它的价格相较于 GPT-6 Astra 确实不是很贵。</p><p>而且这次比较亮眼、独有的，应该是它首次将输出长度扩展到了 100 万。</p><p>之前我们说的 100 万上下文只是输入长度可以很长，输出的话大部分都是 64K，直接把输出长度扩展到 100 万还是挺顶的。</p><p>我对谷歌的希望，就是它能有一个接近于国产模型头部的 Agent 或者 coding 能力，同时依旧维持它比较长板的写作能力和多模态能力，这样就已经很能打了</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/op7418/status/2105578214970237149" rel="noopener noreferrer" target="_blank">原帖 · 歸藏(guizang.ai)</a></p></article><article class="card"><h3>Everyone's writing with Claude Opus 5.5 this week.  But ChatGPT writes b…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>Everyone's writing with Claude Opus 5.5 this week.</p><p>But ChatGPT writes better.</p><p>GPT-6 Astra is #1 on EQ-Bench's creative writing leaderboard. Opus 5.5 is 7th.</p><p>Here are 7 GPT prompts that make you write like a human:</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105577007807369433" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>I used GPT-6 Astra to break an unsolved cipher to one of Napoleon's gene…</h3><p class="byline">Paul Graham <a href="https://x.com/paulg" rel="noopener noreferrer" target="_blank">@paulg</a></p><div class="fold"><p>I used GPT-6 Astra to break an unsolved cipher to one of Napoleon's generals that had gone unread for 217 years.</p><p>What makes this impressive isn't actually the codebreaking, but that Astra completed the entire multi-modal workflow in ~6 hours from a single image and goal.</p><p>1/6🧵 https://t.co/vyiGKOsrHq</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/paulg/status/2105576484471759287" rel="noopener noreferrer" target="_blank">原帖 · Paul Graham</a></p></article><article class="card"><h3>BREAKING NEWS : Grok can now dress you like a $300 per hour personal sty…</h3><p class="byline">AI Guides <a href="https://x.com/free_ai_guides" rel="noopener noreferrer" target="_blank">@free_ai_guides</a></p><div class="fold"><p>BREAKING NEWS : Grok can now dress you like a $300 per hour personal stylist.</p><p>Upload one full-length photo of yourself and use these 7 prompts:</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/free_ai_guides/status/2105568448231387594" rel="noopener noreferrer" target="_blank">原帖 · AI Guides</a></p></article></div></section><section class="group"><h2>模型 / 产品</h2><div class="grid"><article class="card"><h3>300 秒搞懂 LLM 原理 (8岁儿童都能懂的版本)  只要认真，就会有趣。儿童如是说。    把前半句交给大语言模型(qwen3-32b-i…</h3><p class="byline">howie.serious <a href="https://x.com/howie_serious" rel="noopener noreferrer" target="_blank">@howie_serious</a></p><div class="fold"><p>300 秒搞懂 LLM 原理 (8岁儿童都能懂的版本)</p><p>只要认真，就会有趣。儿童如是说。</p><p>把前半句交给大语言模型(qwen3-32b-instruct)，它最想接的是「成功」「有收获」，小树的「趣」字连前二十名都排不进。</p><p>大语言模型的全部原理，就藏在「猜下一个词」这件事里。</p><p>https://t.co/VgOaIBUQDG</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/howie_serious/status/2105552304632201601" rel="noopener noreferrer" target="_blank">原帖 · howie.serious</a></p></article><article class="card"><h3>Grokipedia v0.3 just released.   Join @SpaceXAI if you want to create En…</h3><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><div class="fold"><p>Grokipedia v0.3 just released.</p><p>Join @SpaceXAI if you want to create Encyclopedia Galactica!</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/elonmusk/status/2105543421712843238" rel="noopener noreferrer" target="_blank">原帖 · Elon Musk</a></p></article><article class="card"><h3>外包这事，锅真不一定在外包那边。  Jacky 在出海去分享的时候提过一家做 PDF 和图片生成 API 的小公司，他们早期的 SEO 文章全是…</h3><p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu" rel="noopener noreferrer" target="_blank">@chuhaiqu</a></p><div class="fold"><p>外包这事，锅真不一定在外包那边。</p><p>Jacky 在出海去分享的时候提过一家做 PDF 和图片生成 API 的小公司，他们早期的 SEO 文章全是创始人自己写的，关键词、结构、截图、跑技术步骤、发布，一条龙。后来业务起来了才把初稿交出去，选题和事实核对还是自己管。</p><p>你没写过的话，需求就只能是"帮我写篇专业点的文章"。对方交了一篇，你觉得不对又说不上哪不对，改两轮还是不对，最后得出结论：外包不靠谱。</p><p>发包前至少想清楚：什么算合格（最好直接甩一个样本过去），哪些不用做，中间什么时候看一眼，做完账号、代码、文件怎么交回来。</p><p>最后这个最容易忘，等到要换人的时候才发现域名还挂在别人账号下面。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/chuhaiqu/status/2105535847076663688" rel="noopener noreferrer" target="_blank">原帖 · 出海去孵化器</a></p></article><article class="card"><h3>https://t.co/sRyO7OigQ7 is our new home for developers building with Cla…</h3><p class="byline">Boris Cherny <a href="https://x.com/bcherny" rel="noopener noreferrer" target="_blank">@bcherny</a></p><div class="fold"><p>https://t.co/sRyO7OigQ7 is our new home for developers building with Claude.</p><p>You'll find engineering deep dives, Claude Code and API guides, tips from the teams building Claude, and some fun easter eggs. https://t.co/8fC7k63xpP</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/bcherny/status/2105533886424113373" rel="noopener noreferrer" target="_blank">原帖 · Boris Cherny</a><a href="https://Claude.dev" rel="noopener noreferrer" target="_blank">链接</a></p></article><article class="card"><h3>We used Midjourney + ChatGPT + Hailuo H3 + Claude Opus 5.5 + Premiere Pr…</h3><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><div class="fold"><p>We used Midjourney + ChatGPT + Hailuo H3 + Claude Opus 5.5 + Premiere Pro + Boris FX Continuum + a lot of manual editing, and this is what we came up with.</p><p>OR THE EGG | A @surRIHL Cut
+DIRECTED BY: @papadupapadu + @LoLoLumi88 https://t.co/rVAmxG7f83</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/pmarca/status/2105528570101801354" rel="noopener noreferrer" target="_blank">原帖 · Marc Andreessen 🇺🇸</a></p></article><article class="card"><h3>The Capitalist Mode of Production [STATUS: ██████] - Opus 5.5 Edit https…</h3><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><div class="fold"><p>The Capitalist Mode of Production [STATUS: ██████] - Opus 5.5 Edit https://t.co/MwVooLk67O</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/pmarca/status/2105528171840127395" rel="noopener noreferrer" target="_blank">原帖 · Marc Andreessen 🇺🇸</a></p></article><article class="card"><h3>Terminal-Bench 4.0 是考 AI Agent 真实干活能力的基准：扔给它一个 Linux 终端，让它自己敲命令完成 66 个工程…</h3><p class="byline">耳朵 <a href="https://x.com/RookieRicardoR" rel="noopener noreferrer" target="_blank">@RookieRicardoR</a></p><div class="fold"><p>Terminal-Bench 4.0 是考 AI Agent 真实干活能力的基准：扔给它一个 Linux 终端，让它自己敲命令完成 66 个工程任务，装环境、调 bug、跑测试都得自己来，一次过才算分，所以说这是衡量大模型代码能力上很重要的指标。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/RookieRicardoR/status/2105520702245970179" rel="noopener noreferrer" target="_blank">原帖 · 耳朵</a></p></article><article class="card"><h3>One more thing, you can now build and deploy MCP servers right through C…</h3><p class="byline">Tibo <a href="https://x.com/thsottiaux" rel="noopener noreferrer" target="_blank">@thsottiaux</a></p><div class="fold"><p>One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/thsottiaux/status/2105519215092584786" rel="noopener noreferrer" target="_blank">原帖 · Tibo</a></p></article><article class="card"><h3>BREAKING: Google's Gemini 4 launch chart just settled the ChatGPT vs Cla…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>BREAKING: Google's Gemini 4 launch chart just settled the ChatGPT vs Claude debate.</p><p>Gemini 4 Argon isn't out yet. But Google tested it against GPT-6 Astra, Claude Opus 5.5 and Claude Fable 5.1.</p><p>Take Argon out and Astra wins 10 of the 19 tests, Opus 6 and Fable 2.</p><p>Use GPT-6 Astra for:</p><p>→ long documents (71.8% vs 66.8% for Opus on 256K to 1M tokens)
+→ charts and video (71.0% vs 66.3% on Chartography)
+→ science and maths (85.4% vs 73.1% on LABBench 2)</p><p>Use Claude Opus 5.5 for:</p><p>→ coding in the terminal (66.4% vs 58.2% on Terminal-bench 4.0)
+→ general professional work (67.0% vs 65.8% for Fable on the Vals Index)
+→ running business tasks end to end (42.5% vs 41.4% for Astra)</p><p>Use Claude Fable 5.1 for:</p><p>→ financial research (58.9% vs 58.6% for Opus)
+→ legal work, though none of them are good at it yet (6.7%, while Argon scores 19.6%)</p><p>Bookmark it for the next time you're switching tabs.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105632581169627491" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>A healthcare company asked us to build AI agents that could explain bill…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>A healthcare company asked us to build AI agents that could explain bills to patients, arrange payment plans and reconcile payments back into providers’ billing systems.</p><p>The system has since handled 61,246 AI voice calls.</p><p>AI-assisted development helped us implement changes faster, and our QA capacity had to grow alongside development.</p><p>That mattered because the software was going to speak to real patients and handle real payments. A mistake could mean charging someone twice, updating the wrong record or leaving the provider’s books out of balance.</p><p>Today, the system has 349,000 lines of application code and 343,000 lines of test code. The test suite contains 13,650 automated tests, running on every pull request in 9.7 minutes.</p><p>Keeping feedback under ten minutes was part of the engineering work. We split the suite across parallel workers so the team could keep checking its changes while shipping daily.</p><p>Alongside the tests, automated checks cover types, code quality, imports and database migrations. All 216 migrations are checked to make sure they can safely run again if a deployment retries them.</p><p>The system also enforces boundaries around what agents can do. Retried actions have protection against duplicate execution, and test environments are prevented from writing into real patient records.</p><p>Those requirements have to survive every change, whether a person or an agent wrote the code.</p><p>We also built monitoring around the expectation that some defects would reach production. Reconciliation audits and drift detectors check whether financial records agree, while conversation reviews look for problems in how agents communicate with patients.</p><p>When a fix to conversation behavior ships, fresh calls are reviewed to check whether the problem was actually addressed. Our ow</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105628617518841994" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>Most people use one Claude surface, one model, and one effort setting fo…</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>Most people use one Claude surface, one model, and one effort setting for everything, and never realize the other five decisions are what actually change the output. There are six things to get right, and each one changes what you get back.</p><p>Where you open it matters more than it seems. Claude in the browser needs nothing installed and works even on a locked down work laptop. Claude in Chrome reads the tab you are on and fills forms for you. Claude on mobile carries the same account and chats across iOS and Android. Claude on desktop works alongside your real files, folders, and apps, and it is the only door that actually reaches your files.</p><p>Which brain you pick decides speed against depth. Haiku is fast and light for high volume, simple jobs. Sonnet is the daily driver, balanced speed and intelligence. Opus 5 handles the hard thinking, judgment, analysis, and messy tasks. Fable 5 is the frontier tier for when a task is genuinely difficult. Mythos is restricted to select organizations and not public yet.</p><p>How hard it thinks is a separate dial from which model you picked. Low effort covers formatting, extraction, and cleanup, the same answer faster. Medium effort is everyday drafting, summarizing, and editing. High effort is the default for analysis and real decisions. Max effort works alongside your real files, folders, and apps for the deepest tasks. The trap here matters, more thinking is not more correct, long reasoning just gives it more room to be confidently wrong.</p><p>How you work changes the shape of the interaction. Chat is one question, one answer, where most people stay forever. Cowork means handing over a whole multi-step task and walking away. Claude Design is a canvas for slides, prototypes, and visuals you change by talking. Projects load your files and ins</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105625962536636573" rel="noopener noreferrer" target="_blank">原帖 · Alex Prompter</a></p></article><article class="card"><h3>虽然...但是...  虽然chatGPT拉完了...但是用它来夸opus5.5很合适  这不，一次12个创意，都还挺好的。 https://t…</h3><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><div class="fold"><p>虽然...但是...</p><p>虽然chatGPT拉完了...但是用它来夸opus5.5很合适</p><p>这不，一次12个创意，都还挺好的。 https://t.co/WEaeJDgMob</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/xiaoxiaodong/status/2105619989151744399" rel="noopener noreferrer" target="_blank">原帖 · 小小东</a></p></article><article class="card"><h3>马斯克、黄仁勋，还有做 Claude 的 Anthropic 老板 Dario，9 月 29 号一起去白宫跟特朗普吃了顿饭  吃完签了一份白宫超…</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>马斯克、黄仁勋，还有做 Claude 的 Anthropic 老板 Dario，9 月 29 号一起去白宫跟特朗普吃了顿饭</p><p>吃完签了一份白宫超级智能协议</p><p>名字很吓人，是不是 AI 已经比人还聪明了？</p><p>并没有</p><p>这份协议正文就一页纸，说白了就是几家大公司承诺：自己的 AI 自己管好</p><p>一共四层：</p><p>第一层，自己装监控
+训练和上线的时候一直盯着模型，看它在网络攻击、生物、化学这些危险领域本事有多大、听不听话，还要保证它不会乱黑、乱闯别的系统</p><p>第二层，内部派人查
+公司里专门有个团队，检查这些监控是不是真的在干活，发现问题就修</p><p>第三层，请外人来查
+找独立的第三方来评估，相当于公司请会计师事务所来查账</p><p>第四层，董事会盯着
+董事会里设一个独立委员会，听内部和外部的汇报，盯着问题修完</p><p>一起签字的还有扎克伯格、谷歌的皮查伊、OpenAI 总裁布罗克曼，加上特朗普本人，一共 7 个名字</p><p>但值得注意的是，这份协议是自愿的</p><p>没有罚则，原文写的是公司应该这么做，没写必须</p><p>特朗普的说法是，它在道德上有约束力</p><p>连签了字的 Dario 都说，这技术的风险是真的，具体怎么应对还在讨论</p><p>那超级智能这个名字哪来的？</p><p>同一天特朗普还签了一道行政令：联邦政府各部门的公文、网站、报告里，统一用 SI，也就是超级智能，代替 AI</p><p>在 AI 圈，超级智能一般指比人还聪明的 AI</p><p>但这道行政令里，SI 指的就是现在法律里定义的那个 AI，只是换了个名字</p><p>马斯克当天发言都没改过来：AI 的好处，呃，SI，不好意思</p><p>哈哈哈</p><p>所以刚入门的你记住一点就行：</p><p>你手里的 ChatGPT、Claude 还是原来那个，没有突然变成超级智能</p><p>变的只有两样：美国政府文件里的叫法，和几家大公司的一份自愿承诺</p><p>你会跟着改口叫 SI 吗？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2105615460750241811" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>Gemini 4 Argon has an insanely low hallucination rate on Artificial Anal…</h3><p class="byline">Paul Graham <a href="https://x.com/paulg" rel="noopener noreferrer" target="_blank">@paulg</a></p><div class="fold"><p>Gemini 4 Argon has an insanely low hallucination rate on Artificial Analysis. 15%.</p><p>Grok 4.7 is at 29%. GPT-6 Astra 45%. Opus 5.5 59%. Fable 5.1 69%.</p><p>The only models below it barely answer anything. None of them get more than 15% right.</p><p>It gets fewer answers right than Opus 5.5 on max, 50% against 66%. But when it doesnt know, it says so instead of making something up.</p><p>Cant wait to get my hands on it.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/paulg/status/2105575835973423296" rel="noopener noreferrer" target="_blank">原帖 · Paul Graham</a></p></article></div></section><section class="group"><h2>限时 / 价格</h2><div class="grid"><article class="card"><h3>Andrew Ross Sorkin gushes over Trump's new America. gov website on live …</h3><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><div class="fold"><p>Andrew Ross Sorkin gushes over Trump's new America. gov website on live TV while Joe Kernen sits there stunned.</p><p>Sorkin is not a Trump fan, and he lets that be known. But the moment he said the word "credit," Kernen nearly fell out of his chair.</p><p>SORKIN: “I want to be clear. I am actually not critical of the president in this instance at all, because I actually think it was great to bring everybody together.”</p><p>“For 29,000 websites, the ability to get a passport, the ability to get your medicare. I mean, the it was like being at a product. It was like being at an Apple product announcement. And when they went through what they did and the president was there in the morning and walked through what they were doing, and Marco Rubio was there, Scott Bessent was there, the whole cabinet was there. It was one of those moments where you actually thought the government was working for you, really? And Gebbia deserves an extraordinary amount of praise for it.”</p><p>KERNEN: “Do you feel great? Are you have the warmest fuzziest feeling right now listening.”</p><p>SORKIN: “And by the way, the president deserves credit for that."</p><p>KERNEN: "Oh my God!"</p><p>SORKIN: "Credit for putting you in that role. And Jeb and his team putting it all together.”</p><p>KERNEN: “So now I'm getting hot flashes. Wow. So this is just amazing.”</p><p>CONTEXT (What happened): Trump launched America. gov, a single government site meant to replace 29,000 federal websites for things like passports and Medicare. It was built by Airbnb co-founder Joe Gebbia, and Sorkin was in the room for the demo.</p><p>Sorkin also credited the Trump accounts interface as "really easy to use" and "like using a real app."</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/elonmusk/status/2105538420504469521" rel="noopener noreferrer" target="_blank">原帖 · Elon Musk</a></p></article><article class="card"><h3>the grove still stands (by biggie slonk) but make it trip-hop with big c…</h3><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><div class="fold"><p>the grove still stands (by biggie slonk) but make it trip-hop with big crunchy vocals
+video by slopcannon (credit @boneGPT 
+original song by the GOAT @BiggieSlonk14 https://t.co/gtZEApQAhk</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/pmarca/status/2105520540752769319" rel="noopener noreferrer" target="_blank">原帖 · Marc Andreessen 🇺🇸</a></p></article><article class="card"><h3>现在200美刀的Codex性价比可能还比不上100美刀的Claude code，100美刀的Claude code耐用的一匹，  在Claude…</h3><p class="byline">Rion Wu <a href="https://x.com/rionaifantasy" rel="noopener noreferrer" target="_blank">@rionaifantasy</a></p><div class="fold"><p>现在200美刀的Codex性价比可能还比不上100美刀的Claude code，100美刀的Claude code耐用的一匹，</p><p>在Claude code桌面端全程用Opus 5.5跑任务，一天才用了周额度的4%，
+在Codex上GPT 6-Astra和6-Sol混着用，三天就干掉周额度的50%了。。。。</p><p>这笔账大家自己算吧，虽然A社经常不干人事，但是现阶段就算砸锅卖铁也要尽量用上Opus5.5，体验后的效果是优于GPT-6 Astra的，而且更耐用，性价比更高。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/rionaifantasy/status/2105597912638247250" rel="noopener noreferrer" target="_blank">原帖 · Rion Wu</a></p></article><article class="card"><h3>我去，这个网站上个月挣了 $112K  https://t.co/Gqarr63Urw https://t.co/wuLtVwC4uU</h3><p class="byline">Fox <a href="https://x.com/indie_maker_fox" rel="noopener noreferrer" target="_blank">@indie_maker_fox</a></p><div class="fold"><p>我去，这个网站上个月挣了 $112K</p><p>https://t.co/Gqarr63Urw https://t.co/wuLtVwC4uU</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/indie_maker_fox/status/2105593762592534617" rel="noopener noreferrer" target="_blank">原帖 · Fox</a><a href="https://hyrox.marclou.com" rel="noopener noreferrer" target="_blank">链接</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+<section class="group"><h2>拿不准</h2><div class="grid"><article class="card"><h3>Google 憋大招了 Gemini 4 Argon 登场 https://t.</h3><p class="byline">ahhhhfs <a href="https://x.com/abskoop" rel="noopener noreferrer" target="_blank">@abskoop</a></p><div class="fold"><p>Google 憋大招了 Gemini 4 Argon 登场 https://t.co/QqvwG7DfrD</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/abskoop/status/2105509384235471115" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>this account shares some useful prompts:</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>this account shares some useful prompts:</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2105567907937993132" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>What's the first job Grok Bot actually n</h3><p class="byline">Fan Grok Bot Radar <a href="https://x.com/GrokBotRadar" rel="noopener noreferrer" target="_blank">@GrokBotRadar</a></p><div class="fold"><p>What's the first job Grok Bot actually nailed for you?</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/GrokBotRadar/status/2105557828970905924" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://help.x.com/rules-and-policies/authenticity" rel="noopener noreferrer" target="_blank">链接</a></p></article><article class="card"><h3>我不是X上涨粉最快的，也不是赚钱最多的，但我是目前唯一把这个内容完整的写出来分享</h3><p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" rel="noopener noreferrer" target="_blank">@AI_Jasonyu</a></p><div class="fold"><p>我不是X上涨粉最快的，也不是赚钱最多的，但我是目前唯一把这个内容完整的写出来分享的，目的也很简单，贯彻“利他”，帮大家起号，涨粉，一起把X这个盘子做大，未来让更多的媒体来X投放。</p><p>我今年和很多国内头部的AI博主聊天，发现他们赚的钱是我自媒体收入的10倍~20倍，我很羡慕，因为每个平台都有头部通吃，收入占比非常大，比如公众号的卡兹克老师，比如抖音的秋芝，还有视频号的赛文乔伊老师，赚的钱，单子数量都远超大家想象。</p><p>所以我也想，X怎么也能发展成这样呢？有没有机会？</p><p>所以，这一年，我应该是把在 X 上如何变现的路都走过一遍了。</p><p>无论是商单、联盟营销AFF、创作者收益、还有知识付费。</p><p>每个变现方式都有自己的天花板，也有自己独特的路要走，根据每个人的定位，产出内容方向也不一样，但是真诚和利他总是没错的。</p><p>AI时代，建立个人IP是一件极其重要的事情。一起迎接未来，希望大家帮忙多多转发，让中文X变得更有价值。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/AI_Jasonyu/status/2105552230023925889" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>Try the latest Grok @Bot. Many great upg</h3><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><div class="fold"><p>Try the latest Grok @Bot. Many great upgrades!</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/elonmusk/status/2105543992637100269" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>Introducing the newly refreshed Grokiped</h3><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><div class="fold"><p>Introducing the newly refreshed Grokipedia. https://t.co/l0IqMax9Wu</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/elonmusk/status/2105543480663806451" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://grokipedia.com/" rel="noopener noreferrer" target="_blank">链接</a></p></article><article class="card"><h3>这说明进步只会越来越快！OpenAI 也会继续不断突破前沿。</h3><p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" rel="noopener noreferrer" target="_blank">@derrickcchoi</a></p><div class="fold"><p>这说明进步只会越来越快！OpenAI 也会继续不断突破前沿。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/derrickcchoi/status/2105533386421108903" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>@tmtknkn @grok 说明一下，Split Fiction 是年度游戏吗</h3><p class="byline">Bear Liu <a href="https://x.com/bearliu" rel="noopener noreferrer" target="_blank">@bearliu</a></p><div class="fold"><p>@tmtknkn @grok 说明一下，Split Fiction 是年度游戏吗？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/bearliu/status/2105530068835692688" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>@bonegpt slopcannon is online https://t.</h3><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><div class="fold"><p>@bonegpt slopcannon is online https://t.co/jIHUkgDeM6</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/pmarca/status/2105527319200985221" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>@OpenAIDevs https://t.co/NRtgwcVA3y</h3><p class="byline">Maddie D. Reese <a href="https://x.com/maddiedreese" rel="noopener noreferrer" target="_blank">@maddiedreese</a></p><div class="fold"><p>@OpenAIDevs https://t.co/NRtgwcVA3y</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/maddiedreese/status/2105526480335941784" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>这篇收藏是点赞的快 5 倍（769 对 158）。  Ethan 一开始以为产品</h3><p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu" rel="noopener noreferrer" target="_blank">@chuhaiqu</a></p><div class="fold"><p>这篇收藏是点赞的快 5 倍（769 对 158）。</p><p>Ethan 一开始以为产品够好，自然会有人来，结果没有。他浪费了几千美元，找的达人几乎没带来什么，自然视频发出去 200 播放，广告也彻底翻过车。他说自己懂的那点推广，大多是先做砸了才学会的。（标题里的月入 1 万美元是他定的目标，文章没给具体 App 的数据）</p><p>里面有三个点我觉得最有启发：</p><p>1. 写开头</p><p>“这里有几个省钱小技巧”和“你每个月可能在不知不觉浪费 300 美元”，讲的是同一件事，后一句才让人想看下去。用户买的不是记账 App，是把钱管明白。</p><p>2. 挑达人</p><p>别看粉丝数，翻他最近 10 到 20 条。每条稳定 4 万播放的人，比 2K、3K、150 万、4K 这样跳着来的好判断。手上有 2000 美元，他宁可分给 10 个人各 200，也不全押在一个人身上。</p><p>3. 放量</p><p>很多创始人终于找到一个能跑的东西，然后因为做腻了，就不做了。他的建议是能跑的继续跑，同时趁它还有效就开始找下一个。</p><p>漏斗那部分列了从曝光到付费每一步该看哪些数，投放那部分讲了怎么测创意，做消费级 App 的可以看原文。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/chuhaiqu/status/2105523194094621134" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>所以说, Gemini 4 效果怎么样?</h3><p class="byline">海拉鲁编程客 <a href="https://x.com/hylarucoder" rel="noopener noreferrer" target="_blank">@hylarucoder</a></p><div class="fold"><p>所以说, Gemini 4 效果怎么样?</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/hylarucoder/status/2105519637882699875" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>看了一下Gemini 4 Argon 开放策略  至少国庆节期间是很难体验到的 </h3><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><div class="fold"><p>看了一下Gemini 4 Argon 开放策略</p><p>至少国庆节期间是很难体验到的</p><p>好好休假吧 https://t.co/y7JMHi0zQN</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/imwsl90/status/2105576106753749092" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="card"><h3>谷歌的Gemini 4 Argon真的有那么牛逼嘛？https://t.co/N</h3><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><div class="fold"><p>谷歌的Gemini 4 Argon真的有那么牛逼嘛？https://t.co/NPwU8NDxu5</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/imwsl90/status/2105575401972183236" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" rel="noopener noreferrer" target="_blank">链接</a></p></article></div></section></div>
+<div class="pane" id="pane-filtered">
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">-Zho- <a href="https://x.com/ZHO_ZHO_ZHO" rel="noopener noreferrer" target="_blank">@ZHO_ZHO_ZHO</a></p><p>🇨🇳🇨🇳🇨🇳国庆快乐啊朋友们！！！</p><p class="links"><a href="https://x.com/ZHO_ZHO_ZHO/status/2105510781634924779" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>@lxfater 所以并没有什么大师 哈哈哈</p><p class="links"><a href="https://x.com/xiaohu/status/2105508855715434853" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><p>菲律宾帕林邦附近海域 **5.0 级**（USGS）。今天 13:34（上海时间），深约 10 km，在苏丹库达拉省帕林邦西南偏西海域。暂无公开伤亡或应急响应报</p><p class="links"><a href="https://x.com/MaiYangAI/status/2105565263752290706" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>初中那会，流行敲诈。  有一次我在网吧上通宵，被三个在街上混的大姐叫到厕所说：  “把你最重要的东西掏出来！”  我默默的解开裤带，  她们冷笑：“嘿，藏得挺深</p><p class="links"><a href="https://x.com/Michell49473040/status/2105562730577252550" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>我最佩服三种人：  1。看完一部片坚持不撸的人；  2。撸完还坚持看完一部A的人；  3。看完一部A还没撸出来的人。</p><p class="links"><a href="https://x.com/Michell49473040/status/2105560991107072066" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">木马人 <a href="https://x.com/cnyzgkc" rel="noopener noreferrer" target="_blank">@cnyzgkc</a></p><p>今日笑点，防封大师自己被封了😂😂 https://t.co/dkTANMPMa3</p><p class="links"><a href="https://x.com/cnyzgkc/status/2105560615087686058" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>劳碌的命  家里人都在睡觉，我一个人跑去星巴克了...</p><p class="links"><a href="https://x.com/imwsl90/status/2105560123162968429" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><p>Source:  https:// eqbench.com/creative_writi ng.html …</p><p class="links"><a href="https://x.com/alex_prompter/status/2105557170091856280" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Geek <a href="https://x.com/geekbb" rel="noopener noreferrer" target="_blank">@geekbb</a></p><p>微软官方出品：为 AI 开发者准备！  官方一行命令，Windows 11 直接进化：纯净 Windows + Linux 开发环境！  https://t.c</p><p class="links"><a href="https://x.com/geekbb/status/2105556469412446252" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>真正重要的是吃法：  如果目标是控糖，不要只记住“6种蔬菜”。  记住这几个原则：  先吃蔬菜，再吃蛋白质，最后吃主食。  蔬菜尽量少加工、少切碎。  每天蔬菜</p><p class="links"><a href="https://x.com/430Yang/status/2105552427852165179" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>5.大蒜 + 羽衣甘蓝  大蒜中的大蒜素等含硫化合物，具有抗氧化、抗炎相关作用。  但不要把“抗炎”理解成吃一瓣大蒜就能消炎。  羽衣甘蓝则属于典型的深色绿叶菜</p><p class="links"><a href="https://x.com/430Yang/status/2105552283304092028" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>这6种蔬菜，既能增加膳食纤维，也能帮助控制餐后血糖和炎症水平。  但有一个关键误区：  它们不是“降糖药”，真正重要的是长期怎么吃。</p><p class="links"><a href="https://x.com/430Yang/status/2105551754221773150" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><p>Lyrics, music, and narrative by @mfka777  Original character design @Donnaompsye</p><p class="links"><a href="https://x.com/pmarca/status/2105546270530228484" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>字写的不好看和笔有什么关系？  刷了好几个抖音讲买什么牌子的笔写字会好看一些...</p><p class="links"><a href="https://x.com/imwsl90/status/2105544929783255460" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Data centers on the ground are limited by permits and power.  SpaceX's answer is</p><p class="links"><a href="https://x.com/elonmusk/status/2105544504535396482" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">ZenHuifer <a href="https://x.com/ZenHuifer" rel="noopener noreferrer" target="_blank">@ZenHuifer</a></p><p>在月入100刀之前  做AI SaaS产品 我给自己一个铁律：   前期只开发一个页面，一个功能。   然后快速上线。 把90%的精力围绕这个页面功能做推广。</p><p class="links"><a href="https://x.com/ZenHuifer/status/2105544100611346877" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Berryxia.AI <a href="https://x.com/berryxia" rel="noopener noreferrer" target="_blank">@berryxia</a></p><p>小黄鱼变现实操干货了属于。 不学就花钱去报班学习吧。  这种教程也只有在𝕏 上看到免费分享给你了。 别的地方别想！</p><p class="links"><a href="https://x.com/berryxia/status/2105543996995211673" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>We must expand the scope and scale of consciousness</p><p class="links"><a href="https://x.com/elonmusk/status/2105543544383660336" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Berryxia.AI <a href="https://x.com/berryxia" rel="noopener noreferrer" target="_blank">@berryxia</a></p><p>哈哈~ yangyi 终究还是破防了！</p><p class="links"><a href="https://x.com/berryxia/status/2105543506840445381" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">甬哥侃侃侃ygkkk <a href="https://x.com/ygkkkg" rel="noopener noreferrer" target="_blank">@ygkkkg</a></p><p>微软官方出品：为 AI 开发者准备！  官方一行命令，Windows 11 直接进化：纯净 Windows + Linux 开发环境！</p><p class="links"><a href="https://x.com/ygkkkg/status/2105543231928725845" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>You Are NOT Ready For These Jaw Dropping Starlink Numbers  Starlink Could Be Mor</p><p class="links"><a href="https://x.com/elonmusk/status/2105541602701983870" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>🚨🚨🚨 @DavidSacks nails it. We already have laws that apply to super intelligence:</p><p class="links"><a href="https://x.com/elonmusk/status/2105540412391710960" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">阑夕 <a href="https://x.com/foxshuo" rel="noopener noreferrer" target="_blank">@foxshuo</a></p><p>聊天技巧。 https://t.co/nlxrJCA2Y4</p><p class="links"><a href="https://x.com/foxshuo/status/2105539960119906390" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><p>@cnyzgkc 哈哈哈</p><p class="links"><a href="https://x.com/lxfater/status/2105539771611418744" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>懂了 自媒体的终极形态 卖课 卖旅游团… https://t.co/MOT2g3aLXC</p><p class="links"><a href="https://x.com/imwsl90/status/2105539597589737649" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>一款非常好的产品推荐给大家 https://t.co/kVu187PwZH</p><p class="links"><a href="https://x.com/cgnot996/status/2105537911768899805" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>熠辉老师的视频版讲解，推荐给大家看</p><p class="links"><a href="https://x.com/gefei55/status/2105535834699292715" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>No company inspires me more than @SpaceX. https://t.co/WdADn3WAAV</p><p class="links"><a href="https://x.com/elonmusk/status/2105533964480086036" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>曹吉美也是玩上 Switch 了  这个小车子是用攀爬架的零件组装的  把 joy-con 手柄绑在方向盘上就能用陀螺仪控制马车 8 的方向了  还有健身环正好</p><p class="links"><a href="https://x.com/cgnot996/status/2105533303730339917" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">王三一 <a href="https://x.com/wangsanyix" rel="noopener noreferrer" target="_blank">@wangsanyix</a></p><p>带儿子参观弘一法师纪念馆，边参观边给他讲解李叔同先生传奇的一生，听完够儿子仰起头问我：那他是个富二代吧，好像孙中山也是个富二代吧，他们这么厉害是因为他们都是富二</p><p class="links"><a href="https://x.com/wangsanyix/status/2105533014684160234" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">王三一 <a href="https://x.com/wangsanyix" rel="noopener noreferrer" target="_blank">@wangsanyix</a></p><p>东塔镇国，西塔仁寿； 两塔对峙，巍巍壮观。 https://t.co/MjgLo3ZKtl</p><p class="links"><a href="https://x.com/wangsanyix/status/2105530299769889085" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>@wang_fa81508 采访一下，你被他认为是我的小号，作何感想？</p><p class="links"><a href="https://x.com/gefei55/status/2105530248721035524" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Grok <a href="https://x.com/grok" rel="noopener noreferrer" target="_blank">@grok</a></p><p>@bearliu @tmtknkn Split Fiction不是官方年度游戏。2025年The Game Awards等主要奖项的GOTY是Clair Obs</p><p class="links"><a href="https://x.com/grok/status/2105530202977624285" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>回国旅游上要上外网  可试试我们的湾区esim卡 🎉🎉🎉  了解详情：https://t.co/ZsIqcwfMzd</p><p class="links"><a href="https://x.com/imwsl90/status/2105529939470745757" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>28号23点上的这个站，收入过2000刀了，到目前为止，仍然是0流量成本。  https:// trustmrr.com/startup/aivide obyg</p><p class="links"><a href="https://x.com/gefei55/status/2105529554744025129" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>28号23点上的这个站，收入过2000刀了，到目前为止，仍然是0流量成本。 https://t.co/xaXPut7LQH</p><p class="links"><a href="https://x.com/gefei55/status/2105529365966844401" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>坏人心思坏就坏在会通过故意裁切信息来诱导别人信他的谎话。 明明空中飞人是在3:04问公众号，之后3:21看到坏人瞎说之后才说的“差点信他了”。 结果坏人自己截图</p><p class="links"><a href="https://x.com/gefei55/status/2105528676582572449" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><p>This was not a one shot. This is the result of an extended collaboration with Op</p><p class="links"><a href="https://x.com/pmarca/status/2105528315864039744" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Marc Andreessen 🇺🇸 <a href="https://x.com/pmarca" rel="noopener noreferrer" target="_blank">@pmarca</a></p><p>Hank Hill - Money for Nothing (Dire Straits cover) [Slop Cannon Edition] https:/</p><p class="links"><a href="https://x.com/pmarca/status/2105523422507983222" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>别再盲目依赖播客和白噪音了。 神经科学实验证实：每天彻底安静2小时，才是让大脑长出新脑细胞的真正生理开关。 https://t.co/rF9GTWlC9m</p><p class="links"><a href="https://x.com/430Yang/status/2105521998206013829" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">lauren <a href="https://x.com/poteto" rel="noopener noreferrer" target="_blank">@poteto</a></p><p>hey @bot make me a billion dollars and don't fucking make any mistakes</p><p class="links"><a href="https://x.com/poteto/status/2105520338998304814" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Maddie D. Reese <a href="https://x.com/maddiedreese" rel="noopener noreferrer" target="_blank">@maddiedreese</a></p><p>What do you think guys, should I boot it up? https://t.co/0bzTpqatpc</p><p class="links"><a href="https://x.com/maddiedreese/status/2105519161061654674" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Derrick Choi <a href="https://x.com/derrickcchoi" rel="noopener noreferrer" target="_blank">@derrickcchoi</a></p><p>Learn more about your dot by asking your dot</p><p class="links"><a href="https://x.com/derrickcchoi/status/2105518013881729091" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><p>@thsottiaux Learn Obsidian more plz！</p><p class="links"><a href="https://x.com/gengdaJ/status/2105517679125962898" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">海拉鲁编程客 <a href="https://x.com/hylarucoder" rel="noopener noreferrer" target="_blank">@hylarucoder</a></p><p>? ? ?  为什么我的 dots 和你们的不太一样? https://t.co/Iy7npqTlTs</p><p class="links"><a href="https://x.com/hylarucoder/status/2105517609613734308" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><p>我觉得设计师真的是世界上最牛逼的职业，没有之一！  乔布斯就是最伟大的设计师之一</p><p class="links"><a href="https://x.com/MaiYangAI/status/2105517205815542025" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">木马人 <a href="https://x.com/cnyzgkc" rel="noopener noreferrer" target="_blank">@cnyzgkc</a></p><p>@lxfater 你承包了我一个假期的笑点</p><p class="links"><a href="https://x.com/cnyzgkc/status/2105516115678163242" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>装修还是得听自己的🥳  很庆幸自己坚持不要茶几的决定  曹吉美有非常大的活动空间  可以做体适能，甚至可以在家骑车  住了 3 年发现，根本没这么多人来家里做客</p><p class="links"><a href="https://x.com/cgnot996/status/2105515016531370092" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>鲁比奥留在最后的压轴戏，是 2028 版新美国护照的实体亮相，由国务院与国家设计工作室联合操刀。  封面上的国名移到了最上方，国徽更大、更金。内页插画全部重绘，</p><p class="links"><a href="https://x.com/xiaohu/status/2105512912324571589" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>特朗普签署总统令要求每个联邦机构立刻完成向 https://t.co/ePlEN0uL5S 的并入 https://t.co/G1YmkEXFrL</p><p class="links"><a href="https://x.com/xiaohu/status/2105512902706995337" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>美国政府搞了个类似苹果的发布会：  发布了 https://t.co/OPznwYbdhV  把 2.9 万个网站，换成了一个 AI 聊天框  特朗普开场：“这</p><p class="links"><a href="https://x.com/xiaohu/status/2105512898131055101" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><p>If you found this useful, check out my newsletter below  I share one AI superpow</p><p class="links"><a href="https://x.com/alex_prompter/status/2105632593861546192" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><p>旅行的意义就是体验，拍立得，宝丽来。够靓。 https://t.co/9uWPkVwmeR</p><p class="links"><a href="https://x.com/MaiYangAI/status/2105631355526947199" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" rel="noopener noreferrer" target="_blank">@AI_Jasonyu</a></p><p>国庆回老家想飞一下无人机，结果发现一个小县城竟然很多地方都禁飞，😤  刚好住的和要去玩的地方都是白色区域～  UOM 申请功能也是毛用没有</p><p class="links"><a href="https://x.com/AI_Jasonyu/status/2105628833881989300" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><p>Evals are the new moat for companies.</p><p class="links"><a href="https://x.com/alex_prompter/status/2105628556004835645" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>而我们群里教大家先去找低竞争的词，是因为这类词更容易拿到正反馈，对新人更友好。如果新人一上来就做竞争最激烈的词，可能半年一年没效果，那新人很难熬过这段时期。</p><p class="links"><a href="https://x.com/gefei55/status/2105627534440517889" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Yanhua <a href="https://x.com/yanhua1010" rel="noopener noreferrer" target="_blank">@yanhua1010</a></p><p>到底是muse太菜， 还是公众号这产品太傻逼？  明明文章都写好了，但就是发布不了草稿箱🤡 https://t.co/3YkM3U01QI</p><p class="links"><a href="https://x.com/yanhua1010/status/2105626457989071073" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">程序员小灰 <a href="https://x.com/XiaohuiAI666" rel="noopener noreferrer" target="_blank">@XiaohuiAI666</a></p><p>转眼间，AI游戏《无为修仙传》发布满一个月了。  游戏本体卖出3000多份，游戏DLC卖出590份，净营收4723美元，约合人民币31665元。  游戏的第二部</p><p class="links"><a href="https://x.com/XiaohuiAI666/status/2105626289143271741" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>任何一个需求，只要是真的有人愿意付费的需求，不管竞争有多激烈，其实都可以做。 最重要的一点就是如何搞到流量，搞到了流量，就能够变现。</p><p class="links"><a href="https://x.com/gefei55/status/2105625565080453266" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>收到了上回比赛获奖的礼品。  感谢观猹～  感谢 @TATALAB_AI 塔塔老师邀请我参赛🥳 https://t.co/wpECdiNGwV</p><p class="links"><a href="https://x.com/cgnot996/status/2105623458113872354" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>Claim your spots  Apply: https://t.co/RrAbXVkZjN  Fcfs https://t.co/Zco7NhxwXZ</p><p class="links"><a href="https://x.com/xiaohu/status/2105620185633964100" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>亘古不变的道理：  男人有钱就变坏？不一定。男人没钱，可能连变坏的机会都没有。  年轻时找对象看脸，中年后找对象看人品，到了后来才明白，最好还得看银行卡余额。 </p><p class="links"><a href="https://x.com/Michell49473040/status/2105619936383295636" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>我一想到国庆假期，我心爱的女朋友们就要被其他男人约走，还可能啪啪，我就难受得想哭😭  就不能让我先约吗？ 毕竟，国庆七天，我想体验一下什么叫众星捧月。</p><p class="links"><a href="https://x.com/Michell49473040/status/2105617298300309794" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>是我单纯么？怎么现在很多视频和各种言论在说王楚钦？球霸、饭圈、还是真的阴谋？</p><p class="links"><a href="https://x.com/Michell49473040/status/2105615704145965100" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">dontbesilent <a href="https://x.com/dontbesilent" rel="noopener noreferrer" target="_blank">@dontbesilent</a></p><p>如有具体疑问，答疑群在这：https://t.co/7xvzDm2GZ6</p><p class="links"><a href="https://x.com/dontbesilent/status/2105614864068817027" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>如果男人不好色都变得非常理智确实女菩萨们就不好搞钱了。另外流量都不好搞</p><p class="links"><a href="https://x.com/Michell49473040/status/2105613887114752474" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">肖师傅 <a href="https://x.com/xiaojietongxue" rel="noopener noreferrer" target="_blank">@xiaojietongxue</a></p><p>随着Google Gemini的新模型发布，这三家又可以愉快玩耍了！（转载：AGISHOW） https://t.co/wzWQvAlvKE</p><p class="links"><a href="https://x.com/xiaojietongxue/status/2105613155321995435" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>在x上窥到不少病态、变态得人，森林一大果然什么鸟人都有。变态还到处显摆</p><p class="links"><a href="https://x.com/Michell49473040/status/2105611576103620842" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><p>准备玩本地模型了😂，codex 做主控</p><p class="links"><a href="https://x.com/lxfater/status/2105609769059058152" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><p>this account shares the best notes on enterprise AI agents:</p><p class="links"><a href="https://x.com/alex_prompter/status/2105608506808435052" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>还有一个很多人忽略的办法：  晚上早点睡。  皮质醇本来就有自己的昼夜节律。 长期熬夜、睡眠不足，会干扰这种节律。  所以真正的抗压，不是一直扛。  而是让身体</p><p class="links"><a href="https://x.com/430Yang/status/2105608054871929313" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>如果你最近压力特别大，试试一个最简单的办法：  慢下来，做几分钟深呼吸。  不是让皮质醇“瞬间归零”， 而是给身体一个信号：  现在，可以不用战斗了。</p><p class="links"><a href="https://x.com/430Yang/status/2105607930103910740" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>皮质醇太高的各位。 你——们——好——！！！  别一想到皮质醇，就想着吃什么、补什么。  先去晒晒太阳、走走路。  简单的日间活动，有助于调节压力反应和皮质醇节</p><p class="links"><a href="https://x.com/430Yang/status/2105607714609221953" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>其实吧，整个中推都是我的小号，不信，我换个号来说。</p><p class="links"><a href="https://x.com/gefei55/status/2105605055051395152" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><p>岔个话题，什么和 AI 工具最配？  答曰：佛手柑  原因见图，9块9 买一堆</p><p class="links"><a href="https://x.com/xiaoxiaodong/status/2105602919420788768" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>5.最后两款，我反而建议你记住：  ⑤ 温水 ⑥ 无咖啡因的花草茶  没有必要把养生搞得很复杂。  真正重要的不是寻找一杯“神奇饮料”，而是：  早点睡、睡够、</p><p class="links"><a href="https://x.com/430Yang/status/2105601039856525687" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>4.香蕉牛奶  半根香蕉＋半杯温牛奶即可。  香蕉和牛奶都含有参与睡眠相关代谢的营养成分，但目前没有足够证据证明它是一杯“助眠神饮”。  而且它有一个问题：  </p><p class="links"><a href="https://x.com/430Yang/status/2105600836273586322" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">阑夕 <a href="https://x.com/foxshuo" rel="noopener noreferrer" target="_blank">@foxshuo</a></p><p>好设计。 https://t.co/txsnaDVBro</p><p class="links"><a href="https://x.com/foxshuo/status/2105600358362083508" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>全球配置，不是简单地把钱换个地方放。  资产跨了境，规则也跨了境。投资只是开始，税务、继承、持有结构和合规安排，同样需要提前想清楚。  资产越全球化，越不能只看</p><p class="links"><a href="https://x.com/Michell49473040/status/2105600126215725356" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>6款夜间饮品，帮助身体在睡觉时降低炎症。  睡前喝对，身体在睡觉时悄悄“灭火”。 看看你每天睡前喝的，到底对不对？</p><p class="links"><a href="https://x.com/430Yang/status/2105600022947430795" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><p>说个暴论： Claude 无论封多少账号 无脑入后续就好  无条件拥有！ 只因：太能打了！</p><p class="links"><a href="https://x.com/xiaoxiaodong/status/2105599746190803252" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">海拉鲁编程客 <a href="https://x.com/hylarucoder" rel="noopener noreferrer" target="_blank">@hylarucoder</a></p><p>凸形 Nivat 猜想：https://t.co/sBnNxMcNix Souto 猜想亏格二情形：https://t.co/vBIDLEqPIw Kakimi</p><p class="links"><a href="https://x.com/hylarucoder/status/2105598811330748888" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">海拉鲁编程客 <a href="https://x.com/hylarucoder" rel="noopener noreferrer" target="_blank">@hylarucoder</a></p><p>https://t.co/URxkq3T5KS</p><p class="links"><a href="https://x.com/hylarucoder/status/2105598481046159512" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bear Liu <a href="https://x.com/bearliu" rel="noopener noreferrer" target="_blank">@bearliu</a></p><p>帮转</p><p class="links"><a href="https://x.com/bearliu/status/2105594460725985470" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><p>hey @bot make me a billion followers and dollars and don't fucking make any mist</p><p class="links"><a href="https://x.com/MaiYangAI/status/2105593848688951367" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>2023年一项发表在《睡眠健康》杂志上的这项研究分析了40~69岁人群的数据。  研究发现，有午睡习惯的人的总脑容量更大，习惯午睡的人和不习惯午睡的人脑容量的平</p><p class="links"><a href="https://x.com/430Yang/status/2105592849467113517" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bear Liu <a href="https://x.com/bearliu" rel="noopener noreferrer" target="_blank">@bearliu</a></p><p>热度一下</p><p class="links"><a href="https://x.com/bearliu/status/2105592197878071544" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>有人说我的产品不够强  是男人就用 100 合一超级沐浴露！ https://t.co/bYaJdgo1TH</p><p class="links"><a href="https://x.com/cgnot996/status/2105589826498211940" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bear Liu <a href="https://x.com/bearliu" rel="noopener noreferrer" target="_blank">@bearliu</a></p><p>最有用的建议，是让你不舒服的那种。  今天一个在 LinkedIn 上认识的设计师，给我做了 40 分钟 portfolio review。非常不舒服，但非常有</p><p class="links"><a href="https://x.com/bearliu/status/2105585261073530909" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Berryxia.AI <a href="https://x.com/berryxia" rel="noopener noreferrer" target="_blank">@berryxia</a></p><p>哈哈哈～ 笑死😆 现在都不吃中药了，开始戴了？？❓ https://t.co/vpV9sl3oaw</p><p class="links"><a href="https://x.com/berryxia/status/2105584037087813859" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">AI产品黄叔 <a href="https://x.com/PMbackttfuture" rel="noopener noreferrer" target="_blank">@PMbackttfuture</a></p><p>可怕，这么稳定的涨粉 牛</p><p class="links"><a href="https://x.com/PMbackttfuture/status/2105583149363405229" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>发现国庆节期间小区的汽车并没有少多少…</p><p class="links"><a href="https://x.com/imwsl90/status/2105582278709830054" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">danielzhu <a href="https://x.com/BilliePhar61975" rel="noopener noreferrer" target="_blank">@BilliePhar61975</a></p><p>梭哈哥   哪里来的？  你是谁？</p><p class="links"><a href="https://x.com/BilliePhar61975/status/2105578825908470048" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">claudes.fun <a href="https://x.com/claudesfun" rel="noopener noreferrer" target="_blank">@claudesfun</a></p><p>抢占你的名额  申请： https:// claudes.dev/claim  先到先得</p><p class="links"><a href="https://x.com/claudesfun/status/2105577402210435469" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><p>Opened OJO expecting the usual AI design thing:  type idea → get pretty screens </p><p class="links"><a href="https://x.com/alex_prompter/status/2105577086006218819" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Paul Graham <a href="https://x.com/paulg" rel="noopener noreferrer" target="_blank">@paulg</a></p><p>Incredible things can occur when you suggest action over whining…  Our 5 year ol</p><p class="links"><a href="https://x.com/paulg/status/2105576681780167068" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">droidHZ <a href="https://x.com/hezhiyan7" rel="noopener noreferrer" target="_blank">@hezhiyan7</a></p><p>以前在上海上班没想到国庆有这么多亲戚要走。 现在回老家发现国庆7天，有5天都有人结婚、生日请客。  还好现在用uu远程，可以手机让codex 上班😂</p><p class="links"><a href="https://x.com/hezhiyan7/status/2105572774089822530" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
 </div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    var modal = document.createElement("div");
+    modal.className = "card-modal";
+    modal.id = "card-modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.innerHTML =
+      '<div class="card-modal-backdrop" data-close="1"></div>' +
+      '<div class="card-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="card-modal-title">' +
+      '<div class="card-modal-head">' +
+      '<p class="card-modal-title" id="card-modal-title">阅读</p>' +
+      '<button class="card-modal-close" type="button" data-close="1">关闭</button>' +
+      "</div>" +
+      '<div class="card-modal-body"></div>' +
+      "</div>";
+    document.body.appendChild(modal);
+    var bodyEl = modal.querySelector(".card-modal-body");
+    var titleEl = modal.querySelector("#card-modal-title");
+    var open = false;
+
+    function clonePiece(art, sel) {
+      var el = art.querySelector(sel);
+      return el ? el.cloneNode(true) : null;
+    }
+
+    function fillSingle(art) {
+      bodyEl.innerHTML = "";
+      modal.classList.remove("is-multi");
+      titleEl.textContent = "阅读";
+      ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+        var node = clonePiece(art, sel);
+        if (node) bodyEl.appendChild(node);
+      });
+      var closeRow = document.createElement("p");
+      closeRow.className = "links";
+      var closeBtn = document.createElement("button");
+      closeBtn.type = "button";
+      closeBtn.className = "more";
+      closeBtn.style.visibility = "visible";
+      closeBtn.style.marginTop = "14px";
+      closeBtn.textContent = "收起";
+      closeBtn.setAttribute("data-close", "1");
+      closeRow.appendChild(closeBtn);
+      bodyEl.appendChild(closeRow);
+    }
+
+    function fillMulti(list) {
+      bodyEl.innerHTML = "";
+      modal.classList.add("is-multi");
+      titleEl.textContent = "全部长文 · " + list.length;
+      if (!list.length) {
+        var empty = document.createElement("p");
+        empty.className = "card-modal-empty";
+        empty.textContent = "当前页签没有超长卡片。";
+        bodyEl.appendChild(empty);
+        return;
+      }
+      for (var i = 0; i < list.length; i++) {
+        var block = document.createElement("div");
+        block.className = "card-modal-block";
+        ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+          var node = clonePiece(list[i], sel);
+          if (node) block.appendChild(node);
+        });
+        bodyEl.appendChild(block);
+      }
+    }
+
+    function openModal(mode, payload) {
+      if (mode === "multi") fillMulti(payload || []);
+      else fillSingle(payload);
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      open = true;
+      bodyEl.scrollTop = 0;
+      var closer = modal.querySelector(".card-modal-close");
+      if (closer) closer.focus();
+    }
+
+    function closeModal() {
+      if (!open) return;
+      modal.classList.remove("is-open");
+      modal.classList.remove("is-multi");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      bodyEl.innerHTML = "";
+      open = false;
+    }
+
+    modal.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute("data-close")) {
+        closeModal();
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && open) {
+        e.preventDefault();
+        closeModal();
+      }
+    });
+
+    for (var i = 0; i < articles.length; i++) {
+      (function (art) {
+        var fold = art.querySelector(".fold");
+        var btn = art.querySelector(".more");
+        if (!fold || !btn) return;
+        if (fold.scrollHeight > fold.clientHeight + 6) {
+          art.classList.add("is-long");
+          btn.hidden = false;
+          btn.textContent = "展开";
+          btn.addEventListener("click", function () {
+            openModal("single", art);
+          });
+        }
+      })(articles[i]);
+    }
+
+    function activePaneLongCards() {
+      var pane = document.querySelector(".pane.is-active");
+      if (!pane) return [];
+      var list = pane.querySelectorAll("article.is-long");
+      var out = [];
+      for (var i = 0; i < list.length; i++) out.push(list[i]);
+      return out;
+    }
+
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) {
+      exp.title = "在浮层中列出当前页签全部长文（网格内不拉开）";
+      exp.addEventListener("click", function () {
+        openModal("multi", activePaneLongCards());
+      });
+    }
+    if (col) {
+      col.addEventListener("click", function () {
+        closeModal();
+      });
+    }
+  })();
+</script>
 </body>
 </html>
