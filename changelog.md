@@ -1,3 +1,37 @@
+## 2026-10-01 00:00 ET · x-1 主窗
+- [x] 2026-10-01 00:00 ET 主窗（c3a32b9b，火 ~00:12 ET late~7min）：union**130**（DOM35∪HTL128）overlay accept**108**/reject_href**22**/fail**0**（初61/130 + retry ok_new+11 + retry2 ok_new+36）depollute**13**；窗类正文**39**/拿不准**17**/已过滤**74** miss0；CUTOFF 04:00Z；pre→昨页 **141/65/442**；thin_seed 今天 **2/1/2** 不交聊天；gap≈**0.82** closed；hit_cursor_effective true；cursor prior @KinGao476942 2105451340927508542 → @ZHO_ZHO_ZHO **2105510781634924779**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **fe49adb** md5 807007e371338cd24a2ee24887436519 live=local；thin seed md5 7816be20354f0f3ce7ac9c2538b28e63；chat_line pending_parent：`9/30 0:00：正文141 / 拿不准65 / 已过滤442。https://t512192641.github.io/x-following/2026-09-30.html`；next 2026-10-01 04:00 ET；escalate no。  2026-10-01 12:52 CST
+
+## 2026-10-01 00:25 ET health check
+- [x] 2026-10-01 00:25 ET 健康检查（~00:34 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；20:00 页 live 104/49/370 tip 4303d7e md5 65da5f59 live=local chat delivered ✅ 08:42 CST；**00:00 in_progress** c3a32b9b union130 gap≈0.82 closed overlay retry mid reject_href；00:10 deferred；lists Sep30 done Oct1 not due (~+527min)；CDP busy not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-01 12:35 CST
+
+## 2026-10-01 00:10 ET · x-2 catchup
+
+- deferred_to_main；00:00 主窗 c3a32b9b in_progress（~00:12 ET；union130 overlay mid ~47/130 accept≈12/reject_href≈35 fail0 + `_overlay00_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 20 complete 104/49/370 tip 4303d7e md5 65da5f59 chat delivered；cursor still @KinGao476942 2105451340927508542；gap≈0.82 closed；交昨页 09-30 交主窗
+- evidence raw/2026-10-01/00-10-catchup.md；escalate no；stay_quiet
+- recorded 2026-10-01 12:20 CST
+
+## 2026-09-30 23:25 ET · x-3 health
+
+- quiet_ok；无 overdue 主缺口；最近完成 **20:00** 页09-30 104/49/370 tip 4303d7e（docs HEAD 5f2ffd7）md5 65da5f59f6d5b01e824f5ae26750832f live=local root==days==Pages；**chat delivered ✅**（10-01 08:42 CST）；cursor @KinGao476942 2105451340927508542；rec9+ideas4 merged
+- 20:10 deferred_to_main；16 亦齐 77/35/315 chat delivered；12 亦齐 55/21/252；08 亦齐 27/16/167；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；00:00 not due（~+32min）；Oct1 lists not due（~+595min）；escalate no；stay_quiet；parent_notify no
+- recorded 2026-10-01 11:27 CST；wake ~23:27 ET late ~+3min；grok-ops tip dac3729
+
+## 2026-09-30 22:25 ET · x-3 health
+
+- quiet_ok；无 overdue 主缺口；最近完成 **20:00** 页09-30 104/49/370 tip 4303d7e（docs HEAD 5f2ffd7）md5 65da5f59f6d5b01e824f5ae26750832f live=local root==days==Pages；**chat delivered ✅**（10-01 08:42 CST）；cursor @KinGao476942 2105451340927508542；rec9+ideas4 merged
+- 20:10 deferred_to_main；16 亦齐 77/35/315 chat delivered；12 亦齐 55/21/252；08 亦齐 27/16/167；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；00:00 not due（~+88min）；Oct1 lists not due（~+651min）；escalate no；stay_quiet；parent_notify no
+- recorded 2026-10-01 10:33 CST；wake ~22:32 ET late ~+7min；grok-ops tip 321bcba
+
+## 2026-09-30 21:25 ET · x-3 health
+
+- quiet_ok；无 overdue 主缺口；最近完成 **20:00** 页09-30 104/49/370 tip 4303d7e（docs HEAD 5f2ffd7）md5 65da5f59f6d5b01e824f5ae26750832f live=local root==days==Pages；**chat delivered ✅**（10-01 08:42 CST）；cursor @KinGao476942 2105451340927508542；rec9+ideas4 merged
+- 20:10 deferred_to_main；16 亦齐 77/35/315 chat delivered；12 亦齐 55/21/252；08 亦齐 27/16/167；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
+- lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；00:00 not due（~+153min）；escalate no；stay_quiet；parent_notify no
+- recorded 2026-10-01 09:28 CST；wake ~21:26 ET late ~+1min；grok-ops tip c35260d
+
 ## 2026-09-30 20:10 ET · x-2 catchup
 ## 2026-09-30 20:00 ET 主窗 complete（c3a32b9b）
 
@@ -8,7 +42,7 @@
 - 页累计 **104/49/370**；并 recommended**9** + ideas**4**（2026-09-30）
 - cursor @danshipper 2105390229045879142 → @KinGao476942 **2105451340927508542**
 - QA pass clippedBtns0；public tip **4303d7e**；Pages HTTP 200 md5 **65da5f59f6d5b01e824f5ae26750832f** live=local；docs tip note
-- chat_line pending_parent：`9/30 20:00：正文104 / 拿不准49 / 已过滤370。https://t512192641.github.io/x-following/2026-09-30.html`
+- chat_line 已交（10-01 08:42 CST）：`9/30 20:00：正文104 / 拿不准49 / 已过滤370。https://t512192641.github.io/x-following/2026-09-30.html`
 
 - deferred_to_main；20:00 主窗 c3a32b9b in_progress（~20:12 ET；union90 overlay mid ~3/90 reject_href explore + `_overlay20_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
 - prior 16 complete 77/35/315 tip 681887d md5 408cddd5 chat delivered；cursor still @danshipper 2105390229045879142；gap≈5.9 closed；rec_ideas 交主窗
