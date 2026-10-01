@@ -4652,3 +4652,4 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页累计 正文**126** / 拿不准**26** / 已过滤**293**。
 - gap≈**1.4**min closed；hit_cursor_effective true；游标 @Michell49473040 2105693112991715556 → @thejustinwelsh 2105752244914139275。
 - rec_ideas skipped（非 20:00）。QA clippedBtns**0**。
+- public tip **a960fab**；Pages md5 **45834b1d7b9dfc78a588f32ba313c7dc** live=local。
