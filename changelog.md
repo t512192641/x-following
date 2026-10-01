@@ -1,4 +1,15 @@
 ## 2026-09-30 20:10 ET · x-2 catchup
+## 2026-09-30 20:00 ET 主窗 complete（c3a32b9b）
+
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API）
+- union **90**（DOM18∪HTL87）；hit_cursor nested-only；hit_cursor_effective true；gap≈**5.9**min closed
+- overlay accept**83** / reject_href**7** / fail**0**（初 12/90 + retry+38 + retry2+33；explore/for-you 拒写保留 HTL/DOM）
+- depollute restored**1**；窗类 正文**21** / 拿不准**14** / 已过滤**55** miss**0**
+- 页累计 **104/49/370**；并 recommended**9** + ideas**4**（2026-09-30）
+- cursor @danshipper 2105390229045879142 → @KinGao476942 **2105451340927508542**
+- QA pass clippedBtns0；public tip **4303d7e**；Pages HTTP 200 md5 **65da5f59f6d5b01e824f5ae26750832f** live=local；docs tip note
+- chat_line pending_parent：`9/30 20:00：正文104 / 拿不准49 / 已过滤370。https://t512192641.github.io/x-following/2026-09-30.html`
+
 - deferred_to_main；20:00 主窗 c3a32b9b in_progress（~20:12 ET；union90 overlay mid ~3/90 reject_href explore + `_overlay20_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
 - prior 16 complete 77/35/315 tip 681887d md5 408cddd5 chat delivered；cursor still @danshipper 2105390229045879142；gap≈5.9 closed；rec_ideas 交主窗
 - evidence raw/2026-09-30/20-10-catchup.md；escalate no；stay_quiet
