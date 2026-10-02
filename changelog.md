@@ -1,6 +1,6 @@
 # changelog
 
-- [x] 2026-10-02 00:00 ET 主窗（c3a32b9b，火 ~00:07 ET late~2min）：union**138**（DOM32∪HTL137）overlay accept**79**/reject_href**59**/fail**0**（初68/138 + retry+2 + retry3b+9；explore sticky 后半保留 HTL）depollute**6**；窗类正文**49**/拿不准**7**/已过滤**82** miss0；CUTOFF 04:00Z；pre→昨页 **177/38/431**；thin_seed 今天 **3/0/4** 不交聊天；gap≈**3.37** closed；hit_cursor_effective true；cursor prior @garrytan 2105814135388979414 → @yangyi **2105873203281482143**；rec_ideas skipped；QA pass clippedBtns0；Pages tip pending；chat_delivery=pending_parent；chat_line：`10/1 0:00：正文177 / 拿不准38 / 已过滤431。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 04:00 ET；escalate no。  2026-10-02 12:48 CST
+- [x] 2026-10-02 00:00 ET 主窗（c3a32b9b，火 ~00:07 ET late~2min）：union**138**（DOM32∪HTL137）overlay accept**79**/reject_href**59**/fail**0**（初68/138 + retry+2 + retry3b+9；explore sticky 后半保留 HTL）depollute**6**；窗类正文**49**/拿不准**7**/已过滤**82** miss0；CUTOFF 04:00Z；pre→昨页 **177/38/431**；thin_seed 今天 **3/0/4** 不交聊天；gap≈**3.37** closed；hit_cursor_effective true；cursor prior @garrytan 2105814135388979414 → @yangyi **2105873203281482143**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **7698d3d** md5 6b41fe72449799843190872107b6bf9e live=local；chat_delivery=pending_parent；chat_line：`10/1 0:00：正文177 / 拿不准38 / 已过滤431。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 04:00 ET；escalate no。  2026-10-02 12:48 CST
 
 ## 2026-10-02 00:25 ET · x-3 health
 
