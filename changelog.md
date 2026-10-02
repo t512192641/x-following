@@ -1,3 +1,27 @@
+# changelog
+
+- [x] 2026-10-01 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**82**（DOM20∪HTL80）overlay accept**58**/reject_href**24**/fail**0**（初13/82 + retry ok_new+40 + retry2+0 + retry3b+5；explore sticky 后半保留 HTL）depollute**3**；窗类正文**17**/拿不准**5**/已过滤**60** miss0；页累计 **144/31/353**（含 ideas×3）；gap≈**13.25** closed；hit_cursor_effective true；cursor prior @thejustinwelsh 2105752244914139275 → @garrytan **2105814135388979414**；rec_ideas recommended=already_merged（#2026-09-30 在 Sep30 页）ideas=merged n=3；QA pass clippedBtns0；Pages tip TBD；chat_delivery=pending_parent；chat_line：`10/1 20:00：正文144 / 拿不准31 / 已过滤353。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 00:00 ET；escalate no。  2026-10-02 08:50 CST
+
+## 2026-10-01 20:25 ET · x-3 health
+
+- quiet_ok true；无 overdue 主缺口；最近完成 16:00 页 126/26/293 tip a960fab md5 45834b1d chat ✅ 04:45 CST
+- 20:00 主窗 c3a32b9b in_progress（union82 overlay accept53/reject_href29 + retry2 mid；CDP :9226 busy）；20:10 deferred；不抢 CDP/不扩大重跑
+- lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Oct2 not due；escalate no；stay_quiet
+- recorded 2026-10-02 08:36 CST
+
+## 2026-10-01 20:10 ET · x-2 catchup
+
+- deferred_to_main；20:00 主窗 c3a32b9b in_progress（~20:14 ET；union82 overlay mid ~23/82 accept≈7/reject_href≈16 fail0 + `_overlay20_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 16 complete 126/26/293 tip a960fab md5 45834b1d chat delivered；cursor still @thejustinwelsh 2105752244914139275；gap≈13.25 closed；交当天页 10-01 交主窗
+- evidence raw/2026-10-01/20-10-catchup.md；escalate no；stay_quiet
+- recorded 2026-10-02 08:20 CST
+
+## 2026-10-01 17:25 ET health check
+- [x] 2026-10-01 17:25 ET 健康检查（~17:30 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 126/26/293 tip a960fab md5 45834b1d live=local chat delivered ✅ 04:45 CST；cursor @thejustinwelsh 2105752244914139275；cursor.json synced←md；16:10 deferred；prior_12 110/19/215 tip 2ca3bc7 chat ✅；lists Oct1 done Sep30 done not rerun；CDP idle not stolen；不扩大重跑；escalate no；stay_quiet。  2026-10-02 05:32 CST
+
+## 2026-10-01 16:00 ET · x-1 主窗
+- [x] 2026-10-01 16:00 ET 主窗（c3a32b9b，火 ~16:12 ET late~7min）：union**107**（DOM28∪HTL102）overlay accept**107**/reject_href**0**/fail**0** depollute**3**；窗类正文**22**/拿不准**7**/已过滤**78** miss0；页累计 **126/26/293**；gap≈**1.4** closed；hit_cursor_effective true；cursor prior @Michell49473040 2105693112991715556 → @thejustinwelsh 2105752244914139275；rec_ideas skipped；QA pass clippedBtns0；Pages tip **a960fab** md5 45834b1d7b9dfc78a588f32ba313c7dc live=local；chat_delivery=已交（10-02 04:45 CST）；chat_line：`10/1 16:00：正文126 / 拿不准26 / 已过滤293。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-01 20:00 ET；escalate no。  2026-10-02 04:43 CST
+
 ## 2026-10-01 16:10 ET · x-2 catchup
 
 - deferred_to_main；16:00 主窗 c3a32b9b in_progress（~16:12 ET；16-claim + `_scrape16_dom.py` mid CDP :9226 tab 448F4377）；未重抓不抢 CDP
@@ -165,7 +189,7 @@
 - recorded 2026-10-01 02:33 CST
 
 ## 2026-09-30 13:25 ET · x-3 health
-- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-30 55/21/252 tip 4b2f410 md5 15d777830f2c673b66da76587483ce26 live=local days==site==Pages；**chat delivered ✅**（10-01 00:38 CST；12:25 时尚 pending_parent 已收口）；cursor @berryxia 2105329071265923158
+- quiet_ok；无 overdue 主缺口；最近完成 **12:00** 页09-30 55/21/252 tip 4b2f410 md5 15d777830f2c673b66da76587483ce26 live=local days==site==Pages；**chat delivered ✅**（10-01 00:38 CST；12:25 时尚 已交（10-02 04:45 CST） 已收口）；cursor @berryxia 2105329071265923158
 - 12:10 deferred_to_main；08 亦齐 27/16/167 chat delivered；04 亦齐 14/12/104；00 亦齐 128/156/620 tip 9191a58
 - lists Sep30 done 155/@HiTw93 + Manu_Sisti/173 not rerun（x-4 ~09:34；未变）非真漏叫；**CDP :9226 idle** home not stolen；16:00 not due（~+146min）；escalate no；stay_quiet；parent_notify no
 - recorded 2026-10-01 01:34 CST
