@@ -1,6 +1,34 @@
 # changelog
 
-- [x] 2026-10-01 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**82**（DOM20∪HTL80）overlay accept**58**/reject_href**24**/fail**0**（初13/82 + retry ok_new+40 + retry2+0 + retry3b+5；explore sticky 后半保留 HTL）depollute**3**；窗类正文**17**/拿不准**5**/已过滤**60** miss0；页累计 **144/31/353**（含 ideas×3）；gap≈**13.25** closed；hit_cursor_effective true；cursor prior @thejustinwelsh 2105752244914139275 → @garrytan **2105814135388979414**；rec_ideas recommended=already_merged（#2026-09-30 在 Sep30 页）ideas=merged n=3；QA pass clippedBtns0；Pages tip **783a64b** md5 503d725373efc1912a2cae05dfafa62e live=local；chat_delivery=pending_parent；chat_line：`10/1 20:00：正文144 / 拿不准31 / 已过滤353。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 00:00 ET；escalate no。  2026-10-02 08:50 CST
+- [x] 2026-10-02 00:00 ET 主窗（c3a32b9b，火 ~00:07 ET late~2min）：union**138**（DOM32∪HTL137）overlay accept**79**/reject_href**59**/fail**0**（初68/138 + retry+2 + retry3b+9；explore sticky 后半保留 HTL）depollute**6**；窗类正文**49**/拿不准**7**/已过滤**82** miss0；CUTOFF 04:00Z；pre→昨页 **177/38/431**；thin_seed 今天 **3/0/4** 不交聊天；gap≈**3.37** closed；hit_cursor_effective true；cursor prior @garrytan 2105814135388979414 → @yangyi **2105873203281482143**；rec_ideas skipped；QA pass clippedBtns0；Pages tip pending；chat_delivery=pending_parent；chat_line：`10/1 0:00：正文177 / 拿不准38 / 已过滤431。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 04:00 ET；escalate no。  2026-10-02 12:48 CST
+
+## 2026-10-02 00:25 ET · x-3 health
+
+- quiet_ok true；无 overdue 主缺口；最近完成 20:00 页 144/31/353 tip 783a64b md5 503d7253 live=local chat ✅ 08:53 CST
+- union82 overlay58/24/0 depollute3 窗类17/5/60 miss0；gap≈13.25 closed；cursor still @garrytan 2105814135388979414
+- **00:00 in_progress** c3a32b9b（union138；overlay retry3 mid ~[20/68]；尚无 meta/depollute/class/QA/昨页/游标/chat；非假 succeeded）
+- 00:10 deferred_to_main；lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Oct2 not due (~+524min)
+- CDP :9226 busy main overlay retry3 not stolen；不扩大重跑主窗；escalate no；stay_quiet
+- recorded 2026-10-02 12:38 CST
+
+## 2026-10-02 00:10 ET · x-2 catchup
+
+- deferred_to_main；00:00 主窗 c3a32b9b in_progress（~00:07 ET；union138 overlay mid ~77/138 accept≈23/reject_href≈54 fail0 + `_overlay00_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 20 complete 144/31/353 tip 783a64b md5 503d7253 chat delivered；cursor still @garrytan 2105814135388979414；gap≈3.37 closed；交昨页 10-01 交主窗
+- evidence raw/2026-10-02/00-10-catchup.md；grok-ops tip **5811288**；escalate no；stay_quiet
+- recorded 2026-10-02 12:19 CST
+
+# changelog
+
+## 2026-10-01 22:25 ET · x-3 health
+
+- quiet_ok true；无 overdue 主缺口；最近完成 20:00 页 144/31/353 tip 783a64b md5 503d7253 live=local chat ✅ 08:53 CST
+- union82 overlay58/24/0 depollute3 窗类17/5/60 miss0；gap≈13.25 closed；cursor @garrytan 2105814135388979414
+- 20:10 deferred；lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Oct2 not due；00:00 not due (~+89min)
+- CDP idle not stolen；escalate no；stay_quiet
+- recorded 2026-10-02 10:32 CST
+
+- [x] 2026-10-01 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**82**（DOM20∪HTL80）overlay accept**58**/reject_href**24**/fail**0**（初13/82 + retry ok_new+40 + retry2+0 + retry3b+5；explore sticky 后半保留 HTL）depollute**3**；窗类正文**17**/拿不准**5**/已过滤**60** miss0；页累计 **144/31/353**（含 ideas×3）；gap≈**13.25** closed；hit_cursor_effective true；cursor prior @thejustinwelsh 2105752244914139275 → @garrytan **2105814135388979414**；rec_ideas recommended=already_merged（#2026-09-30 在 Sep30 页）ideas=merged n=3；QA pass clippedBtns0；Pages tip **783a64b** md5 503d725373efc1912a2cae05dfafa62e live=local；chat_delivery=已交（10-02 08:53 CST）；chat_line：`10/1 20:00：正文144 / 拿不准31 / 已过滤353。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 00:00 ET；escalate no。  2026-10-02 08:50 CST
 
 ## 2026-10-01 20:25 ET · x-3 health
 
