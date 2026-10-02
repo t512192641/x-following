@@ -1,3 +1,7 @@
+## 2026-10-02 12:00 ET · 补抓 full_main_takeover（主窗漏跑）
+
+- [x] 2026-10-02 12:00 ET 补抓 **complete**（cdf0cd43 ~12:14 ET fire；sched 12:10；late ~+4min；**full_main_takeover**）：主窗 c3a32b9b 12:05 **漏跑**（automation last succeeded ~08:05 ET）→ 补抓兜底完整主抓；DOM+HTL union **130**；overlay accept**103**/reject_href**27**/fail**0**；depollute restored**2**；窗类 正文**40**/拿不准**8**/已过滤**82** miss**0**；gap≈**2.87** closed；hit_cursor_effective true；页 **70/13/191**（自 38/5/109）；cursor @Michell49473040 2105993402668163430 → **@dontbesilent 2106056299549245720**；QA pass clippedBtns**0**；public tip **6cd5209**；Pages md5 **b23da361d2ece2444a89e939d2fbfdf2** days==root==site；chat_line `10/2 12:00：正文70 / 拿不准13 / 已过滤191。https://t512192641.github.io/x-following/2026-10-02.html`；chat_delivery=pending_parent；**调度漏叫**（主窗未醒）记本条；不升幕僚长；禁止官方 X API；next 16:00 ET。  2026-10-03 00:58 CST
+
 ## 2026-10-02 12:25 ET · x-3 health
 
 - [x] 2026-10-02 12:25 ET 健康检查（~2026-10-02 12:34 ET (sched 12:25, late ~9min; check→reconcile ~12:36 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **08:00** 今天页 **38/5/109** tip **350cf4d** md5 **b27069ad** live=local chat delivered ✅ 20:36 CST；cursor @Michell49473040 2105993402668163430；**12:00 in_progress**（补抓 cdf0cd43 full_main_takeover；主窗 deferred_to_catchup；union130 overlay retry mid；尚无 meta/分类/QA/页/chat）；lists Oct2 done not rerun；CDP busy not stolen；next 补抓交 12:00 → 16:00 ET；grok-ops 3c18217→9a90a33；escalate no；stay_quiet。  2026-10-03 00:36 CST
