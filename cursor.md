@@ -1,8 +1,7 @@
-# X 关注游标
+# cursor
 
-- status_id: 2106056299549245720
-- url: https://x.com/dontbesilent/status/2106056299549245720
-- author: dontbesilent
-- handle: @dontbesilent
-- time_utc: 2026-10-02T16:18:45.000Z
-- updated: 2026-10-02 12:00 ET window (catchup full_main_takeover)
+- handle: @alex_prompter
+- status_id: 2106115247413322082
+- url: https://x.com/alex_prompter/status/2106115247413322082
+- time_utc: 2026-10-02T20:12:59.000Z
+- updated: 2026-10-02 16:00 ET window (full_main c3a32b9b)

@@ -1,6 +1,20 @@
+## 2026-10-02 16:10 ET 补抓（deferred_to_main）
+
+- [x] 2026-10-02 16:00 ET 主窗（c3a32b9b，火 ~16:10 ET late~5min）：union**98**（DOM13∪HTL95）overlay accept**98**/reject_href**0**/fail**0**（初59/98 + retry+1 + retry2+38）depollute**5**；窗类正文**32**/拿不准**2**/已过滤**64** miss0；页累计 **97/15/255**（12页70/13/191+本窗并题）；gap≈**0.82** closed；hit_cursor_effective true；cursor prior @dontbesilent 2106056299549245720 → @alex_prompter **2106115247413322082**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **TIP16** md5 **51b7ce807575dce97b43a47d49318db5** live=local；chat_delivery=pending_parent；chat_line：`10/2 16:00：正文97 / 拿不准15 / 已过滤255。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-02 20:00 ET；escalate no。  2026-10-03 04:49 CST
+
+- deferred_to_main；16:00 主窗 c3a32b9b in_progress（~16:10 ET；union98 overlay mid ~5/98 accept0/reject_href≈5 fail0 + `_overlay16_cdp.py` + CDP :9226 tab 448F4377 explore/for-you）；未重抓不抢 CDP
+- 16-claim in_progress claimed_by c3a32b9b；note catchup must defer；gap≈0.82 closed；cursor still @dontbesilent 2106056299549245720
+- prior 12:00 complete 70/13/191 tip 6cd5209 md5 b23da361 chat ✅ 01:01 CST
+- evidence: raw/2026-10-02/16-10-catchup.md；next 主窗交今天 10-02 续窗 → 20:00 ET
+- escalate no；stay_quiet
+
+## 2026-10-02 13:25 ET · x-3 health
+
+- [x] 2026-10-02 13:25 ET 健康检查（~2026-10-02 13:30 ET (sched 13:25, late ~5min; check→reconcile ~13:32 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **12:00** 今天页 **70/13/191** tip **6cd5209** md5 **b23da361** live=local chat delivered ✅ 2026-10-03 01:01 CST；union130 overlay103/27/0 depollute2 窗类40/8/82 miss0；gap≈2.87 closed；cursor @dontbesilent 2106056299549245720；主窗 deferred_to_catchup + 补抓 complete；lists Oct2 done not rerun；CDP idle；next 16:00 ET（~+150min）；escalate no；stay_quiet。  2026-10-03 01:32 CST
+
 ## 2026-10-02 12:00 ET · 补抓 full_main_takeover（主窗漏跑）
 
-- [x] 2026-10-02 12:00 ET 补抓 **complete**（cdf0cd43 ~12:14 ET fire；sched 12:10；late ~+4min；**full_main_takeover**）：主窗 c3a32b9b 12:05 **漏跑**（automation last succeeded ~08:05 ET）→ 补抓兜底完整主抓；DOM+HTL union **130**；overlay accept**103**/reject_href**27**/fail**0**；depollute restored**2**；窗类 正文**40**/拿不准**8**/已过滤**82** miss**0**；gap≈**2.87** closed；hit_cursor_effective true；页 **70/13/191**（自 38/5/109）；cursor @Michell49473040 2105993402668163430 → **@dontbesilent 2106056299549245720**；QA pass clippedBtns**0**；public tip **6cd5209**；Pages md5 **b23da361d2ece2444a89e939d2fbfdf2** days==root==site；chat_line `10/2 12:00：正文70 / 拿不准13 / 已过滤191。https://t512192641.github.io/x-following/2026-10-02.html`；chat_delivery=pending_parent；**调度漏叫**（主窗未醒）记本条；不升幕僚长；禁止官方 X API；next 16:00 ET。  2026-10-03 00:58 CST
+- [x] 2026-10-02 12:00 ET 补抓 **complete**（cdf0cd43 ~12:14 ET fire；sched 12:10；late ~+4min；**full_main_takeover**）：主窗 c3a32b9b 12:05 **漏跑**（automation last succeeded ~08:05 ET）→ 补抓兜底完整主抓；DOM+HTL union **130**；overlay accept**103**/reject_href**27**/fail**0**；depollute restored**2**；窗类 正文**40**/拿不准**8**/已过滤**82** miss**0**；gap≈**2.87** closed；hit_cursor_effective true；页 **70/13/191**（自 38/5/109）；cursor @Michell49473040 2105993402668163430 → **@dontbesilent 2106056299549245720**；QA pass clippedBtns**0**；public tip **6cd5209**；Pages md5 **b23da361d2ece2444a89e939d2fbfdf2** days==root==site；chat_line `10/2 12:00：正文70 / 拿不准13 / 已过滤191。https://t512192641.github.io/x-following/2026-10-02.html`；chat_delivery=已交（10-03 01:01 CST）；**调度漏叫**（主窗未醒）记本条；不升幕僚长；禁止官方 X API；next 16:00 ET。  2026-10-03 00:58 CST
 
 ## 2026-10-02 12:25 ET · x-3 health
 
