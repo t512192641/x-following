@@ -1,6 +1,6 @@
 # changelog
 
-- [x] 2026-10-01 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**82**（DOM20∪HTL80）overlay accept**58**/reject_href**24**/fail**0**（初13/82 + retry ok_new+40 + retry2+0 + retry3b+5；explore sticky 后半保留 HTL）depollute**3**；窗类正文**17**/拿不准**5**/已过滤**60** miss0；页累计 **144/31/353**（含 ideas×3）；gap≈**13.25** closed；hit_cursor_effective true；cursor prior @thejustinwelsh 2105752244914139275 → @garrytan **2105814135388979414**；rec_ideas recommended=already_merged（#2026-09-30 在 Sep30 页）ideas=merged n=3；QA pass clippedBtns0；Pages tip TBD；chat_delivery=pending_parent；chat_line：`10/1 20:00：正文144 / 拿不准31 / 已过滤353。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 00:00 ET；escalate no。  2026-10-02 08:50 CST
+- [x] 2026-10-01 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**82**（DOM20∪HTL80）overlay accept**58**/reject_href**24**/fail**0**（初13/82 + retry ok_new+40 + retry2+0 + retry3b+5；explore sticky 后半保留 HTL）depollute**3**；窗类正文**17**/拿不准**5**/已过滤**60** miss0；页累计 **144/31/353**（含 ideas×3）；gap≈**13.25** closed；hit_cursor_effective true；cursor prior @thejustinwelsh 2105752244914139275 → @garrytan **2105814135388979414**；rec_ideas recommended=already_merged（#2026-09-30 在 Sep30 页）ideas=merged n=3；QA pass clippedBtns0；Pages tip **783a64b** md5 503d725373efc1912a2cae05dfafa62e live=local；chat_delivery=pending_parent；chat_line：`10/1 20:00：正文144 / 拿不准31 / 已过滤353。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 00:00 ET；escalate no。  2026-10-02 08:50 CST
 
 ## 2026-10-01 20:25 ET · x-3 health
 
