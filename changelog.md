@@ -1,5 +1,47 @@
+## 2026-10-02 08:00 ET 主窗
+
+- [x] full_main c3a32b9b：union **70**（DOM18∪HTL69）hit_cursor_effective；gap≈**9.57** closed
+- overlay accept**49**/reject_href**21**/fail**0**（pass1 18 + retry+30 + retry2+1 + retry3b+0；explore sticky→HTL）；depollute restored**1**
+- 窗类 正文**25**/拿不准**4**/已过滤**41** miss**0**；页累计 **38/5/109**（自 26/1/68）
+- QA pass clippedBtns0；08-qa.png + main/maybe/filt；浮层皮肤保留
+- cursor → @Michell49473040 2105993402668163430；prior @rionaifantasy 2105933118788206975
+- rec_ideas skipped（非 20:00）；无官方 X API；escalate no
+- chat_line: `10/2 8:00：正文38 / 拿不准5 / 已过滤109。https://t512192641.github.io/x-following/2026-10-02.html`
+- chat_delivery: pending_parent；public/grok-ops tip 见推送后 meta
+- recorded: 2026-10-02 20:32 CST
+
 # changelog
 
+## 2026-10-02 08:10 ET 补抓（deferred_to_main）
+
+- deferred_to_main；08:00 主窗 c3a32b9b in_progress（~08:05 ET；union70 overlay mid ~60/70 accept≈16/reject_href≈44 fail0 + `_overlay08_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
+- prior 04:00 今天页 26/1/68 tip 391b55a md5 21d72550 chat delivered ✅；cursor still @rionaifantasy 2105933118788206975；gap≈9.57 closed；无 AUTH_FAIL / 无官方 X API；不升幕僚长
+- evidence: raw/2026-10-02/08-10-catchup.md；next 主窗交今天 10-02 续窗 → 12:00 ET
+- recorded: 2026-10-02 20:15 CST
+
+## 2026-10-02 07:25 ET · x-3 health
+
+- quiet_ok true；无 overdue 主缺口；最近完成 04:00 今天页 26/1/68 tip 391b55a md5 21d72550 live=local chat ✅ 16:47 CST
+- union90 overlay58/32/0 depollute1 窗类25/1/64 miss0；gap≈1.72 closed；cursor @rionaifantasy 2105933118788206975
+- 00:00 亦齐 177/38/431；00:10/04:10 deferred_to_main；lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Oct2 not due (~+113min)
+- CDP :9226 idle x.com/home not stolen；sched late ~2min；不扩大重跑主窗；escalate no；stay_quiet
+- recorded 2026-10-02 19:30 CST
+
+## 2026-10-02 06:25 ET · x-3 health
+
+- quiet_ok true；无 overdue 主缺口；最近完成 04:00 今天页 26/1/68 tip 391b55a md5 21d72550 live=local chat ✅ 16:47 CST
+- union90 overlay58/32/0 depollute1 窗类25/1/64 miss0；gap≈1.72 closed；cursor @rionaifantasy 2105933118788206975
+- 00:00 亦齐 177/38/431；00:10/04:10 deferred_to_main；lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Oct2 not due (~+165min)
+- CDP :9226 idle x.com/home not stolen；sched late ~10min；不扩大重跑主窗；escalate no；stay_quiet
+- recorded 2026-10-02 18:38 CST
+
+## 2026-10-02 05:25 ET · x-3 health
+
+- quiet_ok true；无 overdue 主缺口；最近完成 04:00 今天页 26/1/68 tip 391b55a md5 21d72550 live=local chat ✅ 16:47 CST
+- union90 overlay58/32/0 depollute1 窗类25/1/64 miss0；gap≈1.72 closed；cursor @rionaifantasy 2105933118788206975
+- 00:00 亦齐 177/38/431；00:10/04:10 deferred_to_main；lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Oct2 not due (~+229min)
+- CDP :9226 idle x.com/home not stolen；板顶 04:00 in_progress reconcile→complete；不扩大重跑主窗；escalate no；stay_quiet
+- recorded 2026-10-02 17:34 CST
 
 ## 2026-10-02 04:25 ET · x-3 health
 
@@ -34,7 +76,7 @@
 - CDP :9226 idle x.com/home not stolen；post-hoc synced stale grok-ops/docs cursor ← @yangyi（幕僚长 only）；escalate no；stay_quiet
 - recorded 2026-10-02 14:34 CST
 
-- [x] 2026-10-02 04:00 ET 主窗（c3a32b9b，火 ~04:13 ET late~8min）：union**90**（DOM11∪HTL90）overlay accept**58**/reject_href**32**/fail**0**（初13/90 + retry ok_new+45 + retry3b+0；explore sticky 后半保留 HTL）depollute**1**；窗类正文**25**/拿不准**1**/已过滤**64** miss0；页累计 **26/1/68**（薄种子3/0/4+本窗）；gap≈**1.72** closed；hit_cursor_effective true；cursor prior @yangyi 2105873203281482143 → @rionaifantasy **2105933118788206975**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **1374c69** md5 21d72550a00ac8d690ad54b12d6b3e46 live=local；chat_delivery=pending_parent；chat_line：`10/2 4:00：正文26 / 拿不准1 / 已过滤68。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-02 08:00 ET；escalate no。  2026-10-02 16:43 CST
+- [x] 2026-10-02 04:00 ET 主窗（c3a32b9b，火 ~04:13 ET late~8min）：union**90**（DOM11∪HTL90）overlay accept**58**/reject_href**32**/fail**0**（初13/90 + retry ok_new+45 + retry3b+0；explore sticky 后半保留 HTL）depollute**1**；窗类正文**25**/拿不准**1**/已过滤**64** miss0；页累计 **26/1/68**（薄种子3/0/4+本窗）；gap≈**1.72** closed；hit_cursor_effective true；cursor prior @yangyi 2105873203281482143 → @rionaifantasy **2105933118788206975**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **1374c69** md5 21d72550a00ac8d690ad54b12d6b3e46 live=local；chat_delivery=已交（10-02 16:47 CST）；chat_line：`10/2 4:00：正文26 / 拿不准1 / 已过滤68。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-02 08:00 ET；escalate no。  2026-10-02 16:43 CST
 
 - [x] 2026-10-02 00:00 ET 主窗（c3a32b9b，火 ~00:07 ET late~2min）：union**138**（DOM32∪HTL137）overlay accept**79**/reject_href**59**/fail**0**（初68/138 + retry+2 + retry3b+9；explore sticky 后半保留 HTL）depollute**6**；窗类正文**49**/拿不准**7**/已过滤**82** miss0；CUTOFF 04:00Z；pre→昨页 **177/38/431**；thin_seed 今天 **3/0/4** 不交聊天；gap≈**3.37** closed；hit_cursor_effective true；cursor prior @garrytan 2105814135388979414 → @yangyi **2105873203281482143**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **7698d3d** md5 6b41fe72449799843190872107b6bf9e live=local；chat_delivery=已交（10-02 12:51 CST）；chat_line：`10/1 0:00：正文177 / 拿不准38 / 已过滤431。https://t512192641.github.io/x-following/2026-10-01.html`；next 2026-10-02 04:00 ET；escalate no。  2026-10-02 12:48 CST
 
