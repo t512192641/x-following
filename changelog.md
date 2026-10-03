@@ -1,10 +1,13 @@
+## 2026-10-03 17:25 ET · x-3 health
+
+- [x] 2026-10-03 17:25 ET 健康检查（~2026-10-03 17:31 ET (sched 17:25, late ~6min; check→reconcile ~2026-10-03 17:32 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00** 今天页 **79/17/227** tip **3e763f8** md5 **a2bb8ee3** live=local chat delivered ✅ 2026-10-04 04:33 CST；union46 overlay43/3/0 depollute0 窗类13/4/29 miss0；gap≈9.4 closed；cursor @ElliotChen 2106474675694162208；16:10 deferred；lists Oct3 done not rerun；CDP idle；20:00 not due（~+148min）；escalate no；stay_quiet。  2026-10-04 05:32 CST
 ## 2026-10-03 16:25 ET · x-3 health
 
 - [x] 2026-10-03 16:25 ET 健康检查（~2026-10-03 16:34 ET (sched 16:25, late ~9min; check→reconcile ~2026-10-03 16:36 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00** 今天页 **79/17/227** tip **3e763f8** md5 **a2bb8ee3** live=local chat delivered ✅ 2026-10-04 04:33 CST；union46 overlay43/3/0 depollute0 窗类13/4/29 miss0；gap≈9.4 closed；cursor @ElliotChen 2106474675694162208；16:10 deferred；lists Oct3 done not rerun；CDP idle；20:00 not due（~+204min）；escalate no；stay_quiet。  2026-10-04 04:36 CST
 
 ## 2026-10-03 16:00 ET · 主窗 full_main
 
-- [x] 2026-10-03 16:00 ET 主窗 **complete**（c3a32b9b ~16:10 ET fire；sched 16:05；late ~5min；**full_main**）：DOM+HTL union **46**（DOM15∪HTL43）；overlay accept**43**/reject_href**3**/fail**0**（pass1 6/46 + retry1+3 + retry2+33 + retry3b+1；explore/for-you sticky → keep HTL）；depollute restored**0**；窗类 正文**13**/拿不准**4**/已过滤**29** miss**0**；gap≈**9.4** closed；hit_cursor_effective true；今天页 **79/17/227**（12页70/13/198 + 本窗）；cursor @dontbesilent 2106417408646992298 → **@ElliotChen 2106474675694162208**；QA pass clippedBtns**0**；rec_ideas skipped；public tip **3e763f8**；Pages md5 **a2bb8ee3202e6b4dfe9c8b57a9e112a6** days==root==live；chat_line `10/3 16:00：正文79 / 拿不准17 / 已过滤227。https://t512192641.github.io/x-following/2026-10-03.html`；chat_delivery=pending_parent；禁止官方 X API；next 20:00 ET。  2026-10-04 04:31 CST
+- [x] 2026-10-03 16:00 ET 主窗 **complete**（c3a32b9b ~16:10 ET fire；sched 16:05；late ~5min；**full_main**）：DOM+HTL union **46**（DOM15∪HTL43）；overlay accept**43**/reject_href**3**/fail**0**（pass1 6/46 + retry1+3 + retry2+33 + retry3b+1；explore/for-you sticky → keep HTL）；depollute restored**0**；窗类 正文**13**/拿不准**4**/已过滤**29** miss**0**；gap≈**9.4** closed；hit_cursor_effective true；今天页 **79/17/227**（12页70/13/198 + 本窗）；cursor @dontbesilent 2106417408646992298 → **@ElliotChen 2106474675694162208**；QA pass clippedBtns**0**；rec_ideas skipped；public tip **3e763f8**；Pages md5 **a2bb8ee3202e6b4dfe9c8b57a9e112a6** days==root==live；chat_line `10/3 16:00：正文79 / 拿不准17 / 已过滤227。https://t512192641.github.io/x-following/2026-10-03.html`；chat_delivery=已交（10-04 04:33 CST）；禁止官方 X API；next 20:00 ET。  2026-10-04 04:31 CST
 
 ## 2026-10-03 16:10 ET 补抓（deferred_to_main）
 
