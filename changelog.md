@@ -1,6 +1,20 @@
+## 2026-10-03 00:25 ET · x-3 health
+
+- [x] 2026-10-03 00:25 ET 健康检查（~2026-10-03 00:26 ET (sched 00:25, late ~1min; check→reconcile ~2026-10-03 00:28 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **20:00** 今天页 **122/17/307** tip **037fe8e** md5 **e6106e63** live=local chat delivered ✅ 2026-10-03 08:46 CST；union77 overlay57/20/0 depollute3 窗类23/2/52 miss0；gap≈0.92 closed；cursor @Michell49473040 2106176628158329145；**00:00 in_progress**（补抓 cdf0cd43 full_main_takeover ~00:13；union109 overlay retry2 mid ~[19/63]；主窗 deferred_to_catchup；尚无 meta/页/chat）；lists Oct2 done not rerun；Oct3 not due ~+535min；CDP busy not stolen；next 补抓交 00:00 → 04:00 ET；escalate no；stay_quiet。  2026-10-03 12:28 CST
+## 2026-10-03 00:00 ET 主窗（deferred_to_catchup）
+
+- [x] 2026-10-03 00:00 ET 主窗 c3a32b9b 迟到火（≈00:13 ET，sched 00:05，约 +8min）：到点时 00-claim 已被 **cdf0cd43**（00:10 补抓）标 in_progress + full_main_takeover；CDP :9226 idle 但不抢；尚无 00.jsonl/DOM/HTL；主窗 **deferred_to_catchup**；未重抓；交付交补抓；证据 `raw/2026-10-03/00-main-deferred.md`；cursor 仍 @Michell49473040 2106176628158329145；20 页 live 122/17/307 tip 037fe8e md5 e6106e63；escalate no；stay_quiet。  2026-10-03 12:15 CST
+
+## 2026-10-02 22:25 ET · x-3 health
+
+- [x] 2026-10-02 22:25 ET 健康检查（~2026-10-02 22:34 ET (sched 22:25, late ~9min; check→reconcile ~2026-10-02 22:35 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **20:00** 今天页 **122/17/307** tip **037fe8e** md5 **e6106e63** live=local chat delivered ✅ 2026-10-03 08:46 CST；union77 overlay57/20/0 depollute3 窗类23/2/52 miss0；gap≈0.92 closed；cursor @Michell49473040 2106176628158329145；lists Oct2 done not rerun；Oct3 not due ~+649min；CDP idle；next 00:00 ET Oct3（~+85min）；escalate no；stay_quiet。  2026-10-03 10:35 CST
+## 2026-10-02 21:25 ET · x-3 health
+
+- [x] 2026-10-02 21:25 ET 健康检查（~2026-10-02 21:31 ET (sched 21:25, late ~6min; check→reconcile ~21:33 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **20:00** 今天页 **122/17/307** tip **037fe8e** md5 **e6106e63** live=local chat delivered ✅ 2026-10-03 08:46 CST；union77 overlay57/20/0 depollute3 窗类23/2/52 miss0；gap≈0.92 closed；cursor @Michell49473040 2106176628158329145；lists Oct2 done not rerun；Oct3 not due ~+710min；CDP idle；next 00:00 ET Oct3（~+147min）；escalate no；stay_quiet。  2026-10-03 09:33 CST
+
 # changelog
 
-- [x] 2026-10-02 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**77**（DOM15∪HTL74）overlay accept**57**/reject_href**20**/fail**0**（初19/77 + retry2+38；retry3b+0）depollute**3**；窗类正文**23**/拿不准**2**/已过滤**52** miss0；页累计 **122/17/307**（16页97/15/255+本窗+rec6+ideas3）；gap≈**0.92** closed；hit_cursor_effective true；cursor prior @alex_prompter 2106115247413322082 → @Michell49473040 **2106176628158329145**；rec_ideas merged（rec 6 new/3 skip；ideas 3）；QA pass clippedBtns0；Pages tip **037fe8e** md5 **e6106e63eec49d286a024dec88c98603**；chat_delivery=pending_parent；chat_line：`10/2 20:00：正文122 / 拿不准17 / 已过滤307。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-03 00:00 ET；escalate no。  2026-10-03 08:42 CST
+- [x] 2026-10-02 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**77**（DOM15∪HTL74）overlay accept**57**/reject_href**20**/fail**0**（初19/77 + retry2+38；retry3b+0）depollute**3**；窗类正文**23**/拿不准**2**/已过滤**52** miss0；页累计 **122/17/307**（16页97/15/255+本窗+rec6+ideas3）；gap≈**0.92** closed；hit_cursor_effective true；cursor prior @alex_prompter 2106115247413322082 → @Michell49473040 **2106176628158329145**；rec_ideas merged（rec 6 new/3 skip；ideas 3）；QA pass clippedBtns0；Pages tip **037fe8e** md5 **e6106e63eec49d286a024dec88c98603**；chat_delivery=已交（10-03 08:46 CST）；chat_line：`10/2 20:00：正文122 / 拿不准17 / 已过滤307。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-03 00:00 ET；escalate no。  2026-10-03 08:42 CST
 
 ## 2026-10-02 20:25 ET · x-3 health
 
@@ -825,7 +839,7 @@
 - [x] `x-2026-09-27-04` 2026-09-27 04:00 ET 主窗 complete：页09-27 **23/3/51**（今天第一版）；union80 (DOM20∪HTL80) overlay accept65/reject_href15 fail0；depollute2；窗类正文28/拿不准2/已过滤50 miss0；gap≈2.65min closed；hit_cursor_effective true；cursor prior @tangjinzhou 2104060477060087949 → new @dotey 2104119687340867680；rec/ideas skipped；QA 04-qa.png pass clippedBtns0；claim complete；**chat 已交 t42s457（2026-09-27 16:29 CST）**；next 08:00 ET；anomaly overlay explore/for-you 拒写+clear-tab retry ok_new+46 — 不升幕僚长。  2026-09-27 16:26 CST
 
 ## 2026-09-27 04:10 ET 补抓
-- [x] `x-2026-09-27-04-10` 2026-09-27 04:10 ET 补抓（~04:15 正点迟到火，约 +5min）：deferred_to_main；主窗 04:00 in_progress（c3a32b9b ~04:06 ET；union80 DOM20∪HTL80 hit_cursor_effective true gap≈2.65min closed；overlay mid ~79/80 accept≈19/reject_href≈60 fail0 CDP；尚无 04-meta/depollute/分类/QA/日页 merge/游标推进）；cursor still @tangjinzhou 2104060477060087949；00:00 页 live 133/55/348 md5 e596cd82 live=local chat t42s456；薄种子09-27 1/1/1；未重抓不抢 CDP；交付（今天第一版）交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-27 16:16 CST
+- [x] `x-2026-09-27-04-10` 2026-09-27 04:10 ET 补抓（~04:15 正点迟到火，约 +5min）：deferred_to_main；主窗 04:00 in_progress（c3a32b9b ~04:06 ET；union80 DOM20∪HTL80 hit_cursor_effective true gap≈2.65min closed；overlay mid ~79/80 accept≈19/reject_href≈65 fail0 CDP；尚无 04-meta/depollute/分类/QA/日页 merge/游标推进）；cursor still @tangjinzhou 2104060477060087949；00:00 页 live 133/55/348 md5 e596cd82 live=local chat t42s456；薄种子09-27 1/1/1；未重抓不抢 CDP；交付（今天第一版）交主窗；skip rec/ideas；escalate no；stay_quiet。  2026-09-27 16:16 CST
 
 - deferred_to_main：主窗 04:00 in_progress（c3a32b9b ~04:06 ET；union80 overlay ~79/80 accept19/reject60；尚无 meta/分类/页；CDP :9226 留给主窗）；gap≈2.65min gap_open false；cursor still @tangjinzhou 2104060477060087949；00 页 live 133/55/348 md5 e596cd82；未重抓不抢 CDP；交付交主窗；escalate no。
 
