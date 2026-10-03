@@ -1,3 +1,7 @@
+## 2026-10-03 16:00 ET · 主窗 full_main
+
+- [x] 2026-10-03 16:00 ET 主窗 **complete**（c3a32b9b ~16:10 ET fire；sched 16:05；late ~5min；**full_main**）：DOM+HTL union **46**（DOM15∪HTL43）；overlay accept**43**/reject_href**3**/fail**0**（pass1 6/46 + retry1+3 + retry2+33 + retry3b+1；explore/for-you sticky → keep HTL）；depollute restored**0**；窗类 正文**13**/拿不准**4**/已过滤**29** miss**0**；gap≈**9.4** closed；hit_cursor_effective true；今天页 **79/17/227**（12页70/13/198 + 本窗）；cursor @dontbesilent 2106417408646992298 → **@ElliotChen 2106474675694162208**；QA pass clippedBtns**0**；rec_ideas skipped；public tip **3e763f8**；Pages md5 **a2bb8ee3202e6b4dfe9c8b57a9e112a6** days==root==live；chat_line `10/3 16:00：正文79 / 拿不准17 / 已过滤227。https://t512192641.github.io/x-following/2026-10-03.html`；chat_delivery=pending_parent；禁止官方 X API；next 20:00 ET。  2026-10-04 04:31 CST
+
 ## 2026-10-03 16:10 ET 补抓（deferred_to_main）
 
 - deferred_to_main；16:00 主窗 c3a32b9b in_progress（~16:10 ET late~5min；union**46** overlay pass1 accept6/reject_href40 + `_overlay16_retry.py` mid；CDP :9226 tab 448F4377A18F x.com/home）；未重抓不抢 CDP
