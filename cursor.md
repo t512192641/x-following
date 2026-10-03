@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @alex_prompter
-- status_id: 2106115247413322082
-- url: https://x.com/alex_prompter/status/2106115247413322082
-- time_utc: 2026-10-02T20:12:59.000Z
-- updated: 2026-10-02 16:00 ET window (full_main c3a32b9b)
+- handle: @Michell49473040
+- status_id: 2106176628158329145
+- url: https://x.com/Michell49473040/status/2106176628158329145
+- time_utc: 2026-10-03T00:16:53.000Z
+- updated: 2026-10-02 20:00 ET window (full_main c3a32b9b)

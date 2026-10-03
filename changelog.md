@@ -1,6 +1,33 @@
+# changelog
+
+- [x] 2026-10-02 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**77**（DOM15∪HTL74）overlay accept**57**/reject_href**20**/fail**0**（初19/77 + retry2+38；retry3b+0）depollute**3**；窗类正文**23**/拿不准**2**/已过滤**52** miss0；页累计 **122/17/307**（16页97/15/255+本窗+rec6+ideas3）；gap≈**0.92** closed；hit_cursor_effective true；cursor prior @alex_prompter 2106115247413322082 → @Michell49473040 **2106176628158329145**；rec_ideas merged（rec 6 new/3 skip；ideas 3）；QA pass clippedBtns0；Pages tip **PENDING** md5 **e6106e63eec49d286a024dec88c98603**；chat_delivery=pending_parent；chat_line：`10/2 20:00：正文122 / 拿不准17 / 已过滤307。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-03 00:00 ET；escalate no。  2026-10-03 08:42 CST
+
+## 2026-10-02 20:25 ET · x-3 health
+
+- [x] 2026-10-02 20:25 ET 健康检查（~2026-10-02 20:34 ET (sched 20:25, late ~9min; check→reconcile ~2026-10-02 20:36 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00** 今天页 **97/15/255** tip **3ae6a12** md5 **51b7ce80** live=local chat delivered ✅ 2026-10-03 04:55 CST；union98 overlay98/0/0 depollute5 窗类32/2/64 miss0；gap≈0.82 closed；cursor @alex_prompter 2106115247413322082；**20:00 in_progress**（主窗 c3a32b9b full_main ~20:14 late~9min；union77 overlay retry3 mid ~10/20 accept≈57/reject_href≈20；尚无 meta/分类/QA/页/chat；须并 rec/ideas）；20:10 deferred_to_main；lists Oct2 done not rerun；Oct3 not due ~+768min；CDP busy not stolen；next 主窗交 20:00 → 00:00 ET Oct3；escalate no；stay_quiet。  2026-10-03 08:36 CST
+
+## 2026-10-02 20:10 ET 补抓（deferred_to_main）
+
+- deferred_to_main；20:00 主窗 c3a32b9b in_progress（~20:14 ET late~9min；`_scrape20_dom.py` mid store≈15 hit=False + CDP :9226 tab 448F4377A18F x.com/home Following）；未重抓不抢 CDP
+- 20-claim in_progress claimed_by c3a32b9b；note catchup must defer；尚无 20.jsonl/meta；cursor still @alex_prompter 2106115247413322082
+- prior 16:00 complete 97/15/255 tip 3ae6a12 md5 51b7ce80 chat ✅ 04:55 CST
+- evidence: raw/2026-10-02/20-10-catchup.md；next 主窗交今天 10-02 续窗（须并 recommended/ideas）→ 00:00 ET Oct3
+- escalate no；stay_quiet
+
+## 2026-10-02 19:25 ET · x-3 health
+
+- [x] 2026-10-02 19:25 ET 健康检查（~2026-10-02 19:27 ET (sched 19:25, late ~2min; check→reconcile ~19:28 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00** 今天页 **97/15/255** tip **3ae6a12** md5 **51b7ce80** live=local chat delivered ✅ 2026-10-03 04:55 CST；union98 overlay98/0/0 depollute5 窗类32/2/64 miss0；gap≈0.82 closed；cursor @alex_prompter 2106115247413322082；lists Oct2 done not rerun；Oct3 not due ~+836min；CDP idle；next 20:00 ET（~+33min）；escalate no；stay_quiet。  2026-10-03 07:27 CST
+## 2026-10-02 18:25 ET · x-3 health
+
+- [x] 2026-10-02 18:25 ET 健康检查（~2026-10-02 18:32 ET (sched 18:25, late ~7min; check→reconcile ~18:34 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00** 今天页 **97/15/255** tip **3ae6a12** md5 **51b7ce80** live=local chat delivered ✅ 2026-10-03 04:55 CST；union98 overlay98/0/0 depollute5 窗类32/2/64 miss0；gap≈0.82 closed；cursor @alex_prompter 2106115247413322082；lists Oct2 done not rerun；Oct3 not due ~+890min；CDP idle；next 20:00 ET（~+87min）；escalate no；stay_quiet。  2026-10-03 06:34 CST
+
+## 2026-10-02 17:25 ET · x-3 health
+
+- [x] 2026-10-02 17:25 ET 健康检查（~2026-10-02 17:35 ET (sched 17:25, late ~10min; check→reconcile ~17:37 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00** 今天页 **97/15/255** tip **3ae6a12** md5 **51b7ce80** live=local chat delivered ✅ 2026-10-03 04:55 CST；union98 overlay98/0/0 depollute5 窗类32/2/64 miss0；gap≈0.82 closed；cursor @alex_prompter 2106115247413322082；lists Oct2 done not rerun；Oct3 not due ~+947min；CDP idle；next 20:00 ET（~+144min）；escalate no；stay_quiet。  2026-10-03 05:37 CST
+
 ## 2026-10-02 16:10 ET 补抓（deferred_to_main）
 
-- [x] 2026-10-02 16:00 ET 主窗（c3a32b9b，火 ~16:10 ET late~5min）：union**98**（DOM13∪HTL95）overlay accept**98**/reject_href**0**/fail**0**（初59/98 + retry+1 + retry2+38）depollute**5**；窗类正文**32**/拿不准**2**/已过滤**64** miss0；页累计 **97/15/255**（12页70/13/191+本窗并题）；gap≈**0.82** closed；hit_cursor_effective true；cursor prior @dontbesilent 2106056299549245720 → @alex_prompter **2106115247413322082**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **3ae6a12** md5 **51b7ce807575dce97b43a47d49318db5** live=local；chat_delivery=pending_parent；chat_line：`10/2 16:00：正文97 / 拿不准15 / 已过滤255。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-02 20:00 ET；escalate no。  2026-10-03 04:49 CST
+- [x] 2026-10-02 16:00 ET 主窗（c3a32b9b，火 ~16:10 ET late~5min）：union**98**（DOM13∪HTL95）overlay accept**98**/reject_href**0**/fail**0**（初59/98 + retry+1 + retry2+38）depollute**5**；窗类正文**32**/拿不准**2**/已过滤**64** miss0；页累计 **97/15/255**（12页70/13/191+本窗并题）；gap≈**0.82** closed；hit_cursor_effective true；cursor prior @dontbesilent 2106056299549245720 → @alex_prompter **2106115247413322082**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **3ae6a12** md5 **51b7ce807575dce97b43a47d49318db5** live=local；chat_delivery=已交（10-03 04:55 CST）；chat_line：`10/2 16:00：正文97 / 拿不准15 / 已过滤255。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-02 20:00 ET；escalate no。  2026-10-03 04:49 CST
 
 - deferred_to_main；16:00 主窗 c3a32b9b in_progress（~16:10 ET；union98 overlay mid ~5/98 accept0/reject_href≈5 fail0 + `_overlay16_cdp.py` + CDP :9226 tab 448F4377 explore/for-you）；未重抓不抢 CDP
 - 16-claim in_progress claimed_by c3a32b9b；note catchup must defer；gap≈0.82 closed；cursor still @dontbesilent 2106056299549245720
