@@ -46,6 +46,15 @@
   4. `HH-meta.md` 写齐。
   **禁止**把「只抓完 + overlay」当成 succeeded/complete。平台 automation 标 succeeded 不等于流水线收口。
 
+- **主窗发布前 md5 硬门禁（2026-10-05 幕僚长批准）**：发布前必须校验 root 页 `/workspace/x-following/<date>.html` 与 `days/<date>.html` md5 **完全一致**，不一致 **不许发布、不许标 complete**（`tools/md5_gate.py <date>`；已写进各窗 `_mergeHH.py` 末尾，并在 `tools/publish_main_window.py` 里 push 前再校一次 site 根/site days）。push 后 **sleep 55**，curl 线上 `…/x-following/<date>.html?t=$(date +%s)` 与 `…/days/<date>.html?t=…`，md5 必须 == 本地 days；线上 days 副本常停旧版，若旧就把本地 days 再拷到 `x-following-site/days/` 对应文件 commit/push 并重核。**live 必须等于本地才可标 complete。**发布统一用 `python3 tools/publish_main_window.py <date> "<commit msg>"`（`git fetch -q && git reset -q --keep origin/main`、`git push -q origin HEAD:main`）。
+
+- **overlay 断点续跑 + 看门狗（2026-10-05；第 3 次 overlay 后半段停死后）**：
+  1. **断点续跑（幂等）**：`python3 tools/overlay_resume.py --date YYYY-MM-DD --hh HH [--merge-only]`。从 `HH-articles.jsonl`（缺行则用 `HH.jsonl` 补占位）找仍 REJECT 的 status_id；若 `raw/<date>/<sid>.json` 已有上次 OK 落盘（含 retry 日志里 OK 但尚未合并的）→ 用 `verify_overlay_landing` **重新验收**后直接采纳，不再导航；其余才开 CDP 逐条补（落地 URL 必须含目标 status id；explore/for-you/home → `overlay_reject_href`，落到别的 status → `overlay_reject_id_mismatch`），先离开 explore/for-you 页，每 4 条 checkpoint 写回 `HH-articles.jsonl` + `HH.jsonl`，退出时把 CDP 还回 `https://x.com/home`。重复运行只处理仍 REJECT 的，不会重复覆盖。**禁重抓 scrape、禁付费 X API。**depollute 之后不要再重跑 overlay_resume（只在 `HH-depollute.md` 出现前使用）。
+  2. **看门狗**：`python3 tools/resume_overlay_watchdog.py --check`（只检测）/ `--run`（认领并续跑到 classify）/ `--run --full`（无人值守跑到 publish）。判**停死**须同时满足：`HH-claim.md`=in_progress；无该窗 overlay/scrape/depollute/classify/merge/qa/resume 进程；claim 与 `HH-*` 最后更新距今 **>15 分钟**；CDP 未被别的活跃主窗占用（其他窗 in_progress 且 15 分钟内有更新，或有 scrape/overlay 进程）；抓取已齐（`HH-dom.json`/`HH-htl.jsonl`/`HH.jsonl`）；`HH-meta.md` 不是 complete。抓取没齐 → 退出码 3，不续跑（交补抓/幕僚长）。动作：旧 claim 备份 `HH-claim.md.bak-stale-<ts>`，重新认领（claimed_by=resume by watchdog，mode=resume_from_overlay_checkpoint）→ `overlay_resume.py` → `_depolluteHH.py` → `_classifyHH_heur.py`，写 `HH-resume-state.json`（next_steps）；之后 x-3 人工纠正分类 → `_mergeHH.py`（含 md5 门禁）→ `_qaHH.py` → `publish_main_window.py` → 写 meta/changelog/cursor、claim 标 complete、`chat_delivery: pending_parent`。**停死不再等幕僚长拍板**：x-3 健康检查按失败处理并自动续跑，事后在 changelog 注明「主窗 failed 后自动/经批准续跑」。
+  3. **x-3 健康检查如何调用**：每次 :25 健康检查先 `python3 /workspace/x-following/tools/resume_overlay_watchdog.py --check`（退出码 10=检测到停死且可续跑；3=抓取没齐；2=停死但 CDP 被占；0=无事）。10 → 执行 `--run`，再按 `HH-resume-state.json` 的 next_steps 完成后半段（或加 `--full` 无人值守）；3/2 → 照旧升幕僚长任务卡/等补抓。健康检查本身仍不得重抓 scrape、不得走付费 X API、不得对外发消息；用户消息 chat 交付写 `pending_parent`。
+  4. 新窗的 `_mergeHH.py` 必须以 `raw/2026-10-04/_merge12.py` 末尾的 md5 门禁片段结尾（root==days，否则 SystemExit）。
+  5. routine saved prompt 在服务器上，脚本不能改它；x-3 prompt 需有人加一句：「健康检查开头先跑 `resume_overlay_watchdog.py --check`，退出码 10 则 `--run` 续跑，不再等幕僚长拍板」。
+
 
 ## 存档（不许丢原文）
 

@@ -12,7 +12,7 @@
 - rec_ideas: skipped
 - QA: pass clippedBtns**0**；12-qa.png
 - 发布前硬门禁（新）：root `2026-10-04.html` md5 == `days/2026-10-04.html` md5（`tools/md5_gate.py`，已写进 `_merge12.py`）；push 后 sleep 55 curl 线上两处，须 == 本地 days
-- public: tip **__TIP__**；md5 **1fb3be17dc327f11728af45ce7f55d00**（root=days=live）
+- public: tip **74863e5**；md5 **1fb3be17dc327f11728af45ce7f55d00**（root=days=live）
 - chat: `10/4 12:00：正文74 / 拿不准17 / 已过滤194。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery **pending_parent**，由幕僚长/父代理交付）
 - 看门狗：`tools/resume_overlay_watchdog.py`（见 playbook「overlay 断点续跑 + 看门狗」）
 - next: 16:00 ET；escalate no

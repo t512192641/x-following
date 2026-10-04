@@ -1,6 +1,6 @@
 ## 2026-10-04 12:00 ET · 主窗 resume_from_overlay_checkpoint
 
-- [x] 2026-10-04 12:00 ET 主窗 **complete**（原 c3a32b9b failed → **巡舟 executor 经幕僚长批准续跑**）：今天页 **74/17/194**；cursor @dontbesilent 2106781769555214356；Pages tip **__TIP__** md5 **1fb3be17** root=days=live；union99 overlay90/9/0 depollute1 窗类24/15/60 miss0；gap≈24.17 closed；QA pass；chat **pending_parent**；next 16:00 ET。  2026-10-05 CST
+- [x] 2026-10-04 12:00 ET 主窗 **complete**（原 c3a32b9b failed → **巡舟 executor 经幕僚长批准续跑**）：今天页 **74/17/194**；cursor @dontbesilent 2106781769555214356；Pages tip **74863e5** md5 **1fb3be17** root=days=live；union99 overlay90/9/0 depollute1 窗类24/15/60 miss0；gap≈24.17 closed；QA pass；chat **pending_parent**；next 16:00 ET。  2026-10-05 CST
 
 ## 2026-10-04 12:10 ET · 补抓 deferred_to_main
 
