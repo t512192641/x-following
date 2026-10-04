@@ -11,7 +11,7 @@
 - page_today: 正文**50** / 拿不准**2** / 已过滤**134**（04 窗 20/0/43 上追加）
 - rec_ideas: skipped
 - QA: pass clippedBtns**0**；08-qa.png
-- public: tip pending push；md5 **c1e8a5fe5d07ff2e29a91ae89ecf1903**
+- public: tip **dbbc761**；md5 **c1e8a5fe5d07ff2e29a91ae89ecf1903**
 - chat: `10/4 8:00：正文50 / 拿不准2 / 已过滤134。https://t512192641.github.io/x-following/2026-10-04.html`（pending_parent）
 - next: 12:00 ET；escalate no；调度略迟到 yes
 
