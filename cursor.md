@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @430Yang
-- status_id: 2106598419275870510
-- url: https://x.com/430Yang/status/2106598419275870510
-- time_utc: 2026-10-04T04:12:56.000Z
-- updated_from: 2026-10-04 00:00 ET
+- handle: @wangsanyix
+- status_id: 2106656784639566193
+- url: https://x.com/wangsanyix/status/2106656784639566193
+- time_utc: 2026-10-04T08:04:51.000Z
+- updated_from: 2026-10-04 04:00 ET
