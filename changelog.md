@@ -1,4 +1,24 @@
-# 2026-10-04 16:10 ET · 补抓 deferred_to_main
+# 2026-10-04 16:00 ET · 主窗 full_main complete
+
+- automation: **c3a32b9b** full_main（~16:12 ET 认领；sched 16:05 late ~7min；完成 2026-10-05 04:36 CST）
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方/付费 X API）
+- prior_cursor: @dontbesilent 2106781769555214356 2026-10-04T16:21:30.000Z
+- new_cursor: @dontbesilent 2106839804877181368 2026-10-04T20:12:07.000Z
+- union: **39**（DOM17 ∪ HTL34）；hit_cursor true（HTL tweet-entry）；gap≈**20.45** min；gap_open false
+- overlay: accept**32** / reject_href**7** / fail**0**（pass1 8 → overlay_resume +24 → resume2 +0；7 条转帖 sticky redirect→KEEP_HTL）
+- depollute: restored**0**（同文对核为真转帖）
+- window_class: 正文**6** / 拿不准**4** / 已过滤**29**；miss**0**；manual fixes 12
+- page_today: 正文**80** / 拿不准**21** / 已过滤**223**（12 窗 74/17/194 上追加）
+- rec_ideas: skipped（非 20:00）
+- QA: pass clippedBtns**0**；16-qa.png
+- public: tip **fd3a85c**；md5 **c6f191785a3acd7340b2f4968f917ab5**（root=days=site=live；sleep 55 cachebust 复核）
+- chat: `10/4 16:00：正文80 / 拿不准21 / 已过滤223。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery **pending_parent**）
+- next: 20:00 ET；escalate no
+
+# 2026-10-04 16:25 ET · x-3 health · quiet_ok
+
+- wake: ~2026-10-04 16:31 ET (sched 16:25, late ~6–7min; check→reconcile ~2026-10-04 16:34 ET)
+- watchdog `--check` exit 0；12:00 resume 已 complete（74/17/194 tip 74863e5 md5 1fb3be17 live=Pages chat ✅）；16:00 主窗 **in_progress**（union39 overlay32/7/0 窗类6/4/29 本地页80/21/223 QA pass；待 meta/Pages/chat；龄≈23min 非 STUCK）；无 overdue；lists Oct4 done not rerun；next 主窗收口 → 20:00 ET；escalate no；stay_quiet# 2026-10-04 16:10 ET · 补抓 deferred_to_main
 
 - [x] 2026-10-04 16:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~16:16 ET (sched 16:10, late ~6min)）：16:00 主窗 c3a32b9b **in_progress**（union39 gap≈20.45 closed；overlay mid ~21/39；尚无 meta/分类/QA/页/chat）；cursor still @dontbesilent 2106781769555214356；prior 12 complete 74/17/194 tip 74863e5 chat ✅ 01:55 CST；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-05 04:17 CST
 

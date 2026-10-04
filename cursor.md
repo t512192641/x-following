@@ -1,8 +1,7 @@
 # cursor
 
 - handle: @dontbesilent
-- status_id: 2106781769555214356
-- url: https://x.com/dontbesilent/status/2106781769555214356
-- time_utc: 2026-10-04T16:21:30.000Z
-- updated_from: 2026-10-04 12:00 ET (resume_from_overlay_checkpoint)
-
+- status_id: 2106839804877181368
+- url: https://x.com/dontbesilent/status/2106839804877181368
+- time_utc: 2026-10-04T20:12:07.000Z
+- updated_from: 2026-10-04 16:00 ET (full_main c3a32b9b)
