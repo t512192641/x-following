@@ -1,6 +1,44 @@
+# 2026-10-04 08:00 ET · 主窗 full_main
+
+- automation: **c3a32b9b** full_main（sched 08:05；fire ~08:14 ET；late ~9–10min）
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226 tab 448F4377；无官方 X API）
+- prior_cursor: @wangsanyix 2106656784639566193 2026-10-04T08:04:51.000Z
+- new_cursor: @cgnot996 2106720333885779982 2026-10-04T12:17:23.000Z
+- union: **123**（DOM43 ∪ HTL122）；hit_cursor true；hit_cursor_effective true；gap≈**13.47** min；gap_open false
+- overlay: accept**120** / reject_href**3** / fail**0**（pass1 68 + retries；3 sticky redirect KEEP_HTL）
+- depollute: restored**7**
+- window_class: 正文**30** / 拿不准**2** / 已过滤**91**；miss**0**
+- page_today: 正文**50** / 拿不准**2** / 已过滤**134**（04 窗 20/0/43 上追加）
+- rec_ideas: skipped
+- QA: pass clippedBtns**0**；08-qa.png
+- public: tip pending push；md5 **c1e8a5fe5d07ff2e29a91ae89ecf1903**
+- chat: `10/4 8:00：正文50 / 拿不准2 / 已过滤134。https://t512192641.github.io/x-following/2026-10-04.html`（pending_parent）
+- next: 12:00 ET；escalate no；调度略迟到 yes
+
+## 2026-10-04 08:25 ET · x-3 health
+
+- [x] 2026-10-04 08:25 ET 健康检查（~2026-10-04 08:30 ET (sched 08:25, late ~5min; check→reconcile ~2026-10-04 08:30 ET)）：quiet_ok true；无 overdue 主缺口；**08:00 in_progress**（union123 gap≈13.47；overlay mid 115/123 ok64/rej51/fail0；尚无 meta/分类/QA/页/chat）；最近完成窗 **04:00** 今天页 **20/0/43** tip **542c98f** md5 **1ba9b99f** live=Pages chat ✅ 16:35 CST；union61 overlay61/0/0 depollute3 窗类21/0/40 miss0；gap≈2.97 closed；cursor @wangsanyix 2106656784639566193；08:10 deferred_to_main；00 亦齐 137/22/365 chat ✅；lists Oct3 done not rerun；Oct4 lists 未到期（~+52min）；hours_since_last≈3.93（由 08 in_progress 覆盖）；CDP busy not stolen；escalate no；stay_quiet。  2026-10-04 20:31 CST
+
+## 2026-10-04 08:10 ET · 补抓 deferred_to_main
+
+- [x] 2026-10-04 08:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~08:14 ET (sched 08:10, late ~4min)）：08:00 主窗 c3a32b9b **in_progress**（DOM mid；08-claim claimed_by c3a32b9b；尚无 union/overlay/meta/分类/QA/页/chat）；cursor still @wangsanyix 2106656784639566193；prior 04 complete 20/0/43 tip 542c98f chat ✅ 16:35 CST；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-04 20:17 CST
+
+
+## 2026-10-04 07:25 ET · x-3 health
+
+- [x] 2026-10-04 07:25 ET 健康检查（~2026-10-04 07:28 ET (sched 07:25, late ~2min; check→reconcile ~2026-10-04 07:28 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **04:00** 今天页 **20/0/43** tip **542c98f** md5 **1ba9b99f** live=Pages chat ✅ 16:35 CST；union61 overlay61/0/0 depollute3 窗类21/0/40 miss0；gap≈2.97 closed；cursor @wangsanyix 2106656784639566193；04:10 deferred_to_main；00 亦齐 137/22/365 chat ✅；lists Oct3 done not rerun；Oct4 lists 未到期（~+115min）；hours_since_last≈2.88；CDP idle not stolen；escalate no；stay_quiet。  2026-10-04 19:28 CST
+
+## 2026-10-04 06:25 ET · x-3 health
+
+- [x] 2026-10-04 06:25 ET 健康检查（~2026-10-04 06:34 ET (sched 06:25, late ~9min; check→reconcile ~2026-10-04 06:35 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **04:00** 今天页 **20/0/43** tip **542c98f** md5 **1ba9b99f** live=Pages chat ✅ 16:35 CST；union61 overlay61/0/0 depollute3 窗类21/0/40 miss0；gap≈2.97 closed；cursor @wangsanyix 2106656784639566193；04:10 deferred_to_main；00 亦齐 137/22/365 chat ✅；lists Oct3 done not rerun；Oct4 lists 未到期（~+169min）；hours_since_last≈1.98；CDP idle not stolen；escalate no；stay_quiet。  2026-10-04 18:36 CST
+
+## 2026-10-04 05:25 ET · x-3 health
+
+- [x] 2026-10-04 05:25 ET 健康检查（~2026-10-04 05:29 ET (sched 05:25, late ~4min; check→reconcile ~2026-10-04 05:30 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **04:00** 今天页 **20/0/43** tip **542c98f** md5 **1ba9b99f** live=Pages chat ✅ 16:35 CST；union61 overlay61/0/0 depollute3 窗类21/0/40 miss0；gap≈2.97 closed；cursor @wangsanyix 2106656784639566193；04:10 deferred_to_main；00 亦齐 137/22/365 chat ✅；lists Oct3 done not rerun；Oct4 lists 未到期（~+234min）；CDP idle not stolen；escalate no；stay_quiet。  2026-10-04 17:30 CST
+
 ## 2026-10-04 04:25 ET · x-3 health
 
-- [x] 2026-10-04 04:25 ET 健康检查（~2026-10-04 04:32 ET (sched 04:25, late ~7min; check→reconcile ~2026-10-04 04:34 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **04:00** 今天页 **20/0/43** tip **542c98f** md5 **1ba9b99f** live=Pages chat pending_parent；union61 overlay61/0/0 depollute3 窗类21/0/40 miss0；gap≈2.97 closed；cursor @wangsanyix 2106656784639566193；04:10 deferred_to_main；00 亦齐 137/22/365 chat ✅；lists Oct3 done not rerun；Oct4 lists 未到期（~+291min）；CDP idle not stolen；escalate no；stay_quiet。  2026-10-04 16:34 CST
+- [x] 2026-10-04 04:25 ET 健康检查（~2026-10-04 04:32 ET (sched 04:25, late ~7min; check→reconcile ~2026-10-04 04:34 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **04:00** 今天页 **20/0/43** tip **542c98f** md5 **1ba9b99f** live=Pages chat 已交（10-04 16:35 CST）；union61 overlay61/0/0 depollute3 窗类21/0/40 miss0；gap≈2.97 closed；cursor @wangsanyix 2106656784639566193；04:10 deferred_to_main；00 亦齐 137/22/365 chat ✅；lists Oct3 done not rerun；Oct4 lists 未到期（~+291min）；CDP idle not stolen；escalate no；stay_quiet。  2026-10-04 16:34 CST
 
 # 2026-10-04 04:00 ET · 主窗 full_main
 
