@@ -10,7 +10,7 @@
 - window_class: 正文**21** / 拿不准**0** / 已过滤**40**；miss**0**
 - page_today: 正文**20** / 拿不准**0** / 已过滤**43**（薄种子 2/0/3 + 本窗；3 簇并题）
 - QA: pass clippedBtns**0**；04-qa.png
-- public: tip TBD；md5 **1ba9b99fb31ca35dc30d0b306e6ac028**
+- public: tip **542c98f**；md5 **1ba9b99fb31ca35dc30d0b306e6ac028**
 - chat: `10/4 4:00：正文20 / 拿不准0 / 已过滤43。https://t512192641.github.io/x-following/2026-10-04.html`
 - next: 08:00 ET；escalate no；调度略迟到 yes
 
