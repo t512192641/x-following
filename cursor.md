@@ -1,7 +1,8 @@
 # cursor
 
-- handle: @cgnot996
-- status_id: 2106720333885779982
-- url: https://x.com/cgnot996/status/2106720333885779982
-- time_utc: 2026-10-04T12:17:23.000Z
-- updated_from: 2026-10-04 08:00 ET
+- handle: @dontbesilent
+- status_id: 2106781769555214356
+- url: https://x.com/dontbesilent/status/2106781769555214356
+- time_utc: 2026-10-04T16:21:30.000Z
+- updated_from: 2026-10-04 12:00 ET (resume_from_overlay_checkpoint)
+

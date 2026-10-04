@@ -1,3 +1,48 @@
+# 2026-10-04 12:00 ET · 主窗 resume_from_overlay_checkpoint（原 c3a32b9b 平台 failed；**主窗 failed 后经幕僚长批准续跑**）
+
+- automation: 原 **c3a32b9b** full_main（fire ~12:10 ET；overlay retry2 [42/51] 中断，12-claim 假 in_progress）→ 由 **巡舟 executor** 经幕僚长批准于 2026-10-05 01:34 CST 认领续跑（mode=resume_from_overlay_checkpoint）
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API；续跑**未重抓** DOM/HTL）
+- prior_cursor: @cgnot996 2106720333885779982 2026-10-04T12:17:23.000Z
+- new_cursor: @dontbesilent 2106781769555214356 2026-10-04T16:21:30.000Z
+- union: **99**（DOM19 ∪ HTL99）；hit_cursor false；hit_cursor_effective true；gap≈**24.17** min；gap_open false
+- overlay: accept**90** / reject_href**9** / fail**0**（disk 48 → retry2 log 已 OK 18 条经 ID 门禁合并 → resume 新增 24；9 条 sticky redirect→KEEP_HTL）；工具 `tools/overlay_resume.py`
+- depollute: restored**1**
+- window_class: 正文**24** / 拿不准**15** / 已过滤**60**；miss**0**；n=99
+- page_today: 正文**74** / 拿不准**17** / 已过滤**194**（08 窗 50/2/134 上追加）
+- rec_ideas: skipped
+- QA: pass clippedBtns**0**；12-qa.png
+- 发布前硬门禁（新）：root `2026-10-04.html` md5 == `days/2026-10-04.html` md5（`tools/md5_gate.py`，已写进 `_merge12.py`）；push 后 sleep 55 curl 线上两处，须 == 本地 days
+- public: tip **__TIP__**；md5 **1fb3be17dc327f11728af45ce7f55d00**（root=days=live）
+- chat: `10/4 12:00：正文74 / 拿不准17 / 已过滤194。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery **pending_parent**，由幕僚长/父代理交付）
+- 看门狗：`tools/resume_overlay_watchdog.py`（见 playbook「overlay 断点续跑 + 看门狗」）
+- next: 16:00 ET；escalate no
+
+## 2026-10-04 13:25 ET · x-3 health · 12:00 主窗 stuck
+
+- 健康检查正点迟到火（sched 13:25；~13:30 ET）。
+- **异常**：主窗 12:00（c3a32b9b）平台 last run **failed**；12-claim 仍 in_progress（假进行中）；overlay retry2 在 [42/51] 中断（无 RETRY done、jsonl 未合并 retry2）；无 overlay/scrape 进程；CDP 停在 dankoe status。
+- 已齐：scrape union99 gap≈24.17 closed hit_cursor_effective；disk overlay accept48/reject_href51（retry1 后）。
+- 未齐：12-meta / depollute / classify / QA / 今天页续窗 / 游标推进 / chat。
+- 健康检查**未**扩大重跑主窗、**未**抢 CDP、**未**走付费 X API；名单 Oct4 已齐不重抓。
+- **升幕僚长任务卡**（后半段可安全续跑或等 16:10 补抓兜底）。
+- 证据：`raw/2026-10-04/13-25-health-episode.md`；板顶已 reconcile。
+
+## 2026-10-04 12:10 ET · 补抓 deferred_to_main
+
+- [x] 2026-10-04 12:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~12:18 ET (sched 12:10, late ~8min)）：12:00 主窗 c3a32b9b **in_progress**（12-claim claimed_by c3a32b9b；尚无 DOM/HTL/union/overlay/meta/分类/QA/页/chat）；cursor still @cgnot996 2106720333885779982；prior 08 complete 50/2/134 tip dbbc761 chat ✅ 20:57 CST；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-05 00:27 CST
+
+## 2026-10-04 11:25 ET · x-3 health
+
+- [x] 2026-10-04 11:25 ET 健康检查（~2026-10-04 11:31 ET (sched 11:25, late ~6min; check→reconcile ~2026-10-04 11:35 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **08:00** 今天页 **50/2/134** tip **dbbc761** md5 **c1e8a5fe** live=Pages chat delivered ✅ 2026-10-04 20:57 CST；union123 overlay120/3/0 depollute7 窗类30/2/91 miss0；gap≈13.47 closed；cursor @cgnot996 2106720333885779982；08:10 deferred_to_main；lists Oct4 done unchanged 155/@HiTw93 + Manu_Sisti/173 not rerun；12:00 not due（~+29min）；CDP idle not stolen；hours_since_last≈2.60；调度略迟到 yes；escalate no；stay_quiet。  2026-10-04 23:35 CST
+
+
+## 2026-10-04 10:25 ET · x-3 health
+
+- [x] 2026-10-04 10:25 ET 健康检查（~2026-10-04 10:33 ET (sched 10:25, late ~8min; check→reconcile ~2026-10-04 10:35 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **08:00** 今天页 **50/2/134** tip **dbbc761** md5 **c1e8a5fe** live=Pages chat delivered ✅ 2026-10-04 20:57 CST；union123 overlay120/3/0 depollute7 窗类30/2/91 miss0；gap≈13.47 closed；cursor @cgnot996 2106720333885779982；08:10 deferred_to_main；lists Oct4 done unchanged 155/@HiTw93 + Manu_Sisti/173 not rerun；12:00 not due（~+87min）；CDP idle not stolen；hours_since_last≈1.63；调度略迟到 yes；escalate no；stay_quiet。  2026-10-04 22:35 CST
+
+## 2026-10-04 09:25 ET · x-3 health
+
+- [x] 2026-10-04 09:25 ET 健康检查（~2026-10-04 09:34 ET (sched 09:25, late ~9min; check→reconcile ~2026-10-04 09:36 ET)）：quiet_ok true；无 overdue 主缺口；最近完成窗 **08:00** 今天页 **50/2/134** tip **dbbc761** md5 **c1e8a5fe** live=Pages chat delivered ✅ 2026-10-04 20:57 CST；union123 overlay120/3/0 depollute7 窗类30/2/91 miss0；gap≈13.47 closed；cursor @cgnot996 2106720333885779982；08:10 deferred_to_main；lists Oct4 done unchanged 155/@HiTw93 + Manu_Sisti/173 not rerun；12:00 not due（~+145min）；CDP idle not stolen；site ff-pull 58f9f88→dd4a5cf；板顶 reconcile 08 tip/chat；escalate no；stay_quiet。  2026-10-04 21:36 CST
 # 2026-10-04 08:00 ET · 主窗 full_main
 
 - automation: **c3a32b9b** full_main（sched 08:05；fire ~08:14 ET；late ~9–10min）
@@ -12,7 +57,7 @@
 - rec_ideas: skipped
 - QA: pass clippedBtns**0**；08-qa.png
 - public: tip **dbbc761**；md5 **c1e8a5fe5d07ff2e29a91ae89ecf1903**
-- chat: `10/4 8:00：正文50 / 拿不准2 / 已过滤134。https://t512192641.github.io/x-following/2026-10-04.html`（pending_parent）
+- chat: `10/4 8:00：正文50 / 拿不准2 / 已过滤134。https://t512192641.github.io/x-following/2026-10-04.html`（已交（10-04 20:57 CST））
 - next: 12:00 ET；escalate no；调度略迟到 yes
 
 ## 2026-10-04 08:25 ET · x-3 health
