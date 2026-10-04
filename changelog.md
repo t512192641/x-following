@@ -1,3 +1,18 @@
+# 2026-10-04 16:10 ET · 补抓 deferred_to_main
+
+- [x] 2026-10-04 16:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~16:16 ET (sched 16:10, late ~6min)）：16:00 主窗 c3a32b9b **in_progress**（union39 gap≈20.45 closed；overlay mid ~21/39；尚无 meta/分类/QA/页/chat）；cursor still @dontbesilent 2106781769555214356；prior 12 complete 74/17/194 tip 74863e5 chat ✅ 01:55 CST；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-05 04:17 CST
+
+# 2026-10-04 15:25 ET · x-3 health · quiet_ok
+
+- wake: ~2026-10-04 15:29 ET (sched 15:25, late ~4–5min; check→reconcile ~2026-10-04 15:31 ET)
+- watchdog `--check` exit 0；12:00 resume 已 complete（74/17/194 tip 74863e5 md5 1fb3be17 live=Pages chat ✅）；无 overdue；lists Oct4 done not rerun；next 16:00/16:10 ET；escalate no；stay_quiet
+
+# 2026-10-04 14:25 ET · x-3 health · quiet_ok
+
+- wake: ~2026-10-04 14:25 ET (sched 14:25, late ~0–1min; check→reconcile ~2026-10-04 14:27 ET)
+- watchdog `--check` exit 0；12:00 resume 已 complete（74/17/194 tip 74863e5 md5 1fb3be17 chat ✅）；板顶收口 13:25 STUCK 标记
+- lists Oct4 done；next 16:00 ET；escalate no；stay_quiet
+
 # 2026-10-04 12:00 ET · 主窗 resume_from_overlay_checkpoint（原 c3a32b9b 平台 failed；**主窗 failed 后经幕僚长批准续跑**）
 
 - automation: 原 **c3a32b9b** full_main（fire ~12:10 ET；overlay retry2 [42/51] 中断，12-claim 假 in_progress）→ 由 **巡舟 executor** 经幕僚长批准于 2026-10-05 01:34 CST 认领续跑（mode=resume_from_overlay_checkpoint）
@@ -13,7 +28,7 @@
 - QA: pass clippedBtns**0**；12-qa.png
 - 发布前硬门禁（新）：root `2026-10-04.html` md5 == `days/2026-10-04.html` md5（`tools/md5_gate.py`，已写进 `_merge12.py`）；push 后 sleep 55 curl 线上两处，须 == 本地 days
 - public: tip **74863e5**；md5 **1fb3be17dc327f11728af45ce7f55d00**（root=days=live）
-- chat: `10/4 12:00：正文74 / 拿不准17 / 已过滤194。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery **pending_parent**，由幕僚长/父代理交付）
+- chat: `10/4 12:00：正文74 / 拿不准17 / 已过滤194。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery **已交（10-05 01:55 CST）**，由幕僚长/父代理交付）
 - 看门狗：`tools/resume_overlay_watchdog.py`（见 playbook「overlay 断点续跑 + 看门狗」）
 - next: 16:00 ET；escalate no
 

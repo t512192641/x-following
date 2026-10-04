@@ -1,3 +1,6 @@
+## 2026-10-04 16:10 ET · 补抓 deferred_to_main
+
+- [x] 2026-10-04 16:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~16:16 ET；sched 16:10 late ~6min）：16:00 主窗 c3a32b9b **in_progress**（16-claim claimed；union39 gap≈20.45 closed；overlay mid ~21/39；尚无 meta/分类/QA/页/chat）；cursor still @dontbesilent 2106781769555214356；prior 12 complete 74/17/194 tip 74863e5 chat ✅；未重抓不抢 CDP；交付交主窗；escalate no；stay_quiet。  2026-10-05 04:17 CST
 ## 2026-10-04 12:00 ET · 主窗 resume_from_overlay_checkpoint
 
 - [x] 2026-10-04 12:00 ET 主窗 **complete**（原 c3a32b9b failed → **巡舟 executor 经幕僚长批准续跑**）：今天页 **74/17/194**；cursor @dontbesilent 2106781769555214356；Pages tip **74863e5** md5 **1fb3be17** root=days=live；union99 overlay90/9/0 depollute1 窗类24/15/60 miss0；gap≈24.17 closed；QA pass；chat **pending_parent**；next 16:00 ET。  2026-10-05 CST
