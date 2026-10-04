@@ -138,6 +138,19 @@
 
 # changelog
 
+## 2026-10-04 00:00 ET（补抓 cdf0cd43 full_main_takeover）
+
+- status: complete；主窗 c3a32b9b 00:05 漏跑 → catchup 接管；调度漏叫记 changelog，不升幕僚长
+- union 142（DOM38 ∪ HTL141）；hit_cursor_effective true；gap≈2.52 closed
+- overlay accept131 / reject_href11 / fail0（pass1 69 + retry+58 + retry2+4 + retry3b+0；explore sticky 保留 HTL）
+- depollute restored4；窗类 正文40 / 拿不准0 / 已过滤102；miss0
+- page_yday 2026-10-03：正文137 / 拿不准22 / 已过滤365（prior 99/22/266 + pre）
+- thin_seed 2026-10-04：正文2 / 拿不准0 / 已过滤3（不聊天交付）
+- cursor @Michell49473040 2106538417005949089 → @430Yang 2106598419275870510
+- QA pass clippedBtns0；不并 rec/ideas
+- recorded: 2026-10-04 12:50 CST
+
+
 - [x] 2026-10-02 20:00 ET 主窗（c3a32b9b，火 ~20:14 ET late~9min）：union**77**（DOM15∪HTL74）overlay accept**57**/reject_href**20**/fail**0**（初19/77 + retry2+38；retry3b+0）depollute**3**；窗类正文**23**/拿不准**2**/已过滤**52** miss0；页累计 **122/17/307**（16页97/15/255+本窗+rec6+ideas3）；gap≈**0.92** closed；hit_cursor_effective true；cursor prior @alex_prompter 2106115247413322082 → @Michell49473040 **2106176628158329145**；rec_ideas merged（rec 6 new/3 skip；ideas 3）；QA pass clippedBtns0；Pages tip **037fe8e** md5 **e6106e63eec49d286a024dec88c98603**；chat_delivery=已交（10-03 08:46 CST）；chat_line：`10/2 20:00：正文122 / 拿不准17 / 已过滤307。https://t512192641.github.io/x-following/2026-10-02.html`；next 2026-10-03 00:00 ET；escalate no。  2026-10-03 08:42 CST
 
 ## 2026-10-02 20:25 ET · x-3 health
