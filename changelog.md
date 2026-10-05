@@ -1,3 +1,21 @@
+# 2026-10-04 20:00 ET · 主窗 full_main complete
+
+- automation: **c3a32b9b** full_main（~20:16 ET 认领；sched 20:05 late ~8min；完成 2026-10-05 08:33 CST）
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方/付费 X API）
+- prior_cursor: @dontbesilent 2106839804877181368 2026-10-04T20:12:07.000Z
+- new_cursor: @lxfater 2106899755557421379 2026-10-05T00:10:20.000Z
+- union: **48**（DOM17 ∪ HTL47）；hit_cursor true；gap≈**2.75** min；gap_open false
+- overlay: accept**45** / reject_href**3** / fail**0**（pass1 13 → overlay_resume +32；3 条 sticky→KEEP_HTL）
+- depollute: restored**4**
+- window_class: 正文**9** / 拿不准**7** / 已过滤**32**；miss**0**；manual fixes 14
+- rec_ideas: recommended 2026-10-04 merged 9；ideas 2026-10-04 merged 3（组「脑洞」）
+- page_today: 正文**99** / 拿不准**28** / 已过滤**255**（16 窗 80/21/223 上追加）
+- QA: pass clippedBtns**0**；20-qa.png
+- public: tip **36a0346**；md5 **de2a72e25a27c3b1b1e0511399f8a2af**（root=days=site=live）
+- chat: `10/4 20:00：正文99 / 拿不准28 / 已过滤255。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery pending_parent→WakeParent）
+- 发现：publish_main_window.py 把 task-board.md 同步进公开库，与 playbook「任务清单只进 grok-ops」冲突；本窗未改，交幕僚长定夺
+- next: 00:00 ET（交 10-04 完整版）；escalate no
+
 # 2026-10-04 16:00 ET · 主窗 full_main complete
 
 - automation: **c3a32b9b** full_main（~16:12 ET 认领；sched 16:05 late ~7min；完成 2026-10-05 04:36 CST）
