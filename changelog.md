@@ -508,7 +508,7 @@
 - quiet_ok true；无 overdue 主缺口；最近完成 00:00 昨页 177/38/431 tip 7698d3d md5 6b41fe72 live=local chat ✅ 12:51 CST
 - union138 overlay79/59/0 depollute6 窗类49/7/82 miss0；gap≈3.37 closed；cursor @yangyi 2105873203281482143
 - 00:10 deferred；lists Oct1 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Oct2 not due (~+471min)；04:00 not due (~+148min)
-- CDP :9226 idle x.com/home not stolen；板顶 00:00 pending_parent→delivered 收口；escalate no；stay_quiet
+- CDP :9226 idle x.com/home not stolen；板顶 00:00 已交（10-05 12:41 CST）→delivered 收口；escalate no；stay_quiet
 - recorded 2026-10-02 13:32 CST
 
 ## 2026-10-02 00:25 ET · x-3 health
@@ -5225,3 +5225,14 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 并卡：Strata 三帖、Cloudflare Web Search 两帖、Grok Bot 一 bot 一事（帖+文章）、Muse 硬件汉化固件（帖+仓库）。Codex 28 天承诺转帖并入已有卡语义，记已过滤无增量。
 - 两篇 X 文章（即梦 AI 短片、How to give each Grok Bot one job）overlay 未取到正文，不发明：前者进拿不准，后者并卡只作原帖链接。
 - rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。
+
+## 2026-10-05 04:00 ET 主窗
+
+- fire ~04:07 ET（sched 04:05，late ~2min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
+- union **86**（DOM27 ∪ HTL85；均 HIT CURSOR）；gap≈**5.77**min closed；游标 @LostXtui 2106958986465657000 → @MaiYangAI 2107020078403465260（08:08:27Z）。
+- overlay accept**78** / reject_href**8**（保留 HTL）/ fail**0**（pass1 40 + overlay_resume +38）。depollute restored**0**。
+- 窗类 正文**19** / 拿不准**10** / 已过滤**57**；miss**0**（手工纠偏 26 条，见 04-class-manual.md）。
+- 今天第一版 10-05：页 **15 / 11 / 60**（薄种子 1/1/3 + 本窗 14 卡）。
+- 并卡：Devon Canup 致富 7 提示词（导语+提示词1、2）、AI Velocity Pod（alex_prompter 转 mardehaym）、Muse Gadgets SDK（op7418 两帖）、Matt Pocock .agents 技能（yibie + MaiYangAI retro SKILL.md）。
+- KinGao 两条 Claude Code 注册/防封文章 overlay 未取到正文，不发明，进拿不准。
+- rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days 通过。
