@@ -1,3 +1,7 @@
+# 2026-10-05 08:10 ET · 补抓 deferred_to_main
+
+- [x] 2026-10-05 08:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~08:21 ET (sched 08:10, late ~11min)）：08:00 主窗 c3a32b9b **in_progress**（union80 gap≈10.4 closed；overlay mid [14/80]；尚无 meta/分类/QA/页/chat）；cursor still @MaiYangAI 2107020078403465260；prior 04 complete 15/11/60 tip 30463c2 chat ✅ 16:34 CST；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-05 20:23 CST
+
 # 2026-10-04 20:00 ET · 主窗 full_main complete
 
 - automation: **c3a32b9b** full_main（~20:16 ET 认领；sched 20:05 late ~8min；完成 2026-10-05 08:33 CST）
@@ -738,7 +742,7 @@
 - recorded 2026-10-01 00:34 CST
 
 ## 2026-09-30 12:00 ET · x-1 主窗
-- [x] 2026-09-30 12:00 ET 主窗（c3a32b9b，火 2026-09-30T16:05Z ~12:05 ET）：union**129**（DOM41∪HTL124）overlay accept**60**/reject_href**69**/fail**0**（初50/79 + retry ok_new+10）depollute**2**；窗类正文**39**/拿不准**5**/已过滤**85** miss0；页累计 **55/21/252**；gap≈**1.25** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105270212555948362 → @berryxia **2105329071265923158**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **10b57f5** md5 15d777830f2c673b66da76587483ce26 live=local；chat_line pending_parent；next 2026-09-30 16:00 ET；escalate no。  2026-10-01 00:32 CST
+- [x] 2026-09-30 12:00 ET 主窗（c3a32b9b，火 2026-09-30T16:05Z ~12:05 ET）：union**129**（DOM41∪HTL124）overlay accept**60**/reject_href**69**/fail**0**（初50/79 + retry ok_new+10）depollute**2**；窗类正文**39**/拿不准**5**/已过滤**85** miss0；页累计 **55/21/252**；gap≈**1.25** closed；hit_cursor_effective true；cursor prior @alex_prompter 2105270212555948362 → @berryxia **2105329071265923158**；rec_ideas skipped；QA pass clippedBtns0；Pages tip **10b57f5** md5 15d777830f2c673b66da76587483ce26 live=local；chat_line 已交（10-05 16:34 CST）；next 2026-09-30 16:00 ET；escalate no。  2026-10-01 00:32 CST
 
 ## 2026-09-30 12:10 ET 补抓
 - deferred_to_main：主窗 12:00 in_progress（c3a32b9b ~12:05 ET；union129 overlay ~79/129 accept≈15/reject_href≈64 fail0；尚无 meta/分类/页；CDP :9226 留给主窗）；gap≈1.25min gap_open false；cursor still @alex_prompter 2105270212555948362；08 页 live 27/16/167 md5 9557e391 tip 0ca8a17 chat delivered；未重抓不抢 CDP；交付交主窗；escalate no。
