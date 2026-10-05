@@ -12,7 +12,7 @@
 - rec_ideas: skipped（非 20:00）
 - QA: pass clippedBtns**0**；16-qa.png
 - public: tip **fd3a85c**；md5 **c6f191785a3acd7340b2f4968f917ab5**（root=days=site=live；sleep 55 cachebust 复核）
-- chat: `10/4 16:00：正文80 / 拿不准21 / 已过滤223。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery **pending_parent**）
+- chat: `10/4 16:00：正文80 / 拿不准21 / 已过滤223。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery **已交（10-05 04:38 CST）**）
 - next: 20:00 ET；escalate no
 
 # 2026-10-04 16:25 ET · x-3 health · quiet_ok
