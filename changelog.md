@@ -5230,6 +5230,18 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 两篇 X 文章（即梦 AI 短片、How to give each Grok Bot one job）overlay 未取到正文，不发明：前者进拿不准，后者并卡只作原帖链接。
 - rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。
 
+## 2026-10-05 08:00 ET 主窗
+
+- fire ~08:16 ET（sched 08:05，late ~11min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
+- union **80**（DOM17 ∪ HTL80）；HTL paginate 遇 403，refresh 重试仍未 HIT 精确游标；gap≈**10.4**min ≤45 → gap_open false，hit_cursor_effective true。
+- overlay accept**72** / reject_href**8** / fail**0**（pass1 29 + overlay_resume +43）。depollute restored**3**。
+- 窗类 正文**12** / 拿不准**10** / 已过滤**58**；miss**0**（手工纠偏 25 条，见 08-class-manual.md）。
+- 页累计 正文**23** / 拿不准**21** / 已过滤**118**（原 15/11/60）。
+- 并卡：Farmersville Grok 纪要、医疗 AI 账单代理验证、Cloudflare cf CLI、dbx+MCP、Qwen abliterated+Strata、Grok Bot vs Hermes、Grok 4.7 Bedrock、CF Web Search；补进 Xpass / Muse 已有卡。
+- 微信打通 Grok Bot 快捷指令文章 overlay 仅标题，进拿不准不发明。
+- rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（08-qa.png）。md5 门禁 root==days==live 通过。
+- public tip **57947d0**；Pages md5 **8300e76169bd90494d49f8263758df79** live=local。
+
 ## 2026-10-05 04:00 ET 主窗
 
 - fire ~04:07 ET（sched 04:05，late ~2min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
