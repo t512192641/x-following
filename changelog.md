@@ -12,7 +12,7 @@
 - page_today: 正文**99** / 拿不准**28** / 已过滤**255**（16 窗 80/21/223 上追加）
 - QA: pass clippedBtns**0**；20-qa.png
 - public: tip **36a0346**；md5 **de2a72e25a27c3b1b1e0511399f8a2af**（root=days=site=live）
-- chat: `10/4 20:00：正文99 / 拿不准28 / 已过滤255。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery pending_parent→WakeParent）
+- chat: `10/4 20:00：正文99 / 拿不准28 / 已过滤255。https://t512192641.github.io/x-following/2026-10-04.html`（chat_delivery 已交（10-05 08:34 CST）→WakeParent）
 - 发现：publish_main_window.py 把 task-board.md 同步进公开库，与 playbook「任务清单只进 grok-ops」冲突；本窗未改，交幕僚长定夺
 - next: 00:00 ET（交 10-04 完整版）；escalate no
 
@@ -5214,3 +5214,14 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - gap≈**1.4**min closed；hit_cursor_effective true；游标 @Michell49473040 2105693112991715556 → @thejustinwelsh 2105752244914139275。
 - rec_ideas skipped（非 20:00）。QA clippedBtns**0**。
 - public tip **a960fab**；Pages md5 **45834b1d7b9dfc78a588f32ba313c7dc** live=local。
+
+## 2026-10-05 00:00 ET 主窗
+
+- fire ~00:08 ET（sched 00:05，late ~3min）。box 重启后 CDP :9226 未起，主窗自行拉起 chrome-profile :9226（login_ok，无 AUTH_FAIL）。
+- union **109**（DOM33 ∪ HTL107；DOM 与 HTL 均 HIT CURSOR）；gap≈**1.88**min closed；游标 @lxfater 2106899755557421379 → @LostXtui 2106958986465657000（04:05:42Z）。
+- overlay accept**96** / reject_href**13**（保留 HTL）/ fail**0**（pass1 61 + overlay_resume +35）。depollute restored**1**。
+- 窗类 正文**27** / 拿不准**11** / 已过滤**71**；miss**0**（手工纠偏 27 条，见 00-class-manual.md）。
+- pre(<04:00Z) 104 → 并入 10-04：页 **120 / 38 / 323**（原 99/28/255）。after 5 → 10-05 薄种子 **1 / 1 / 3**（不聊天交付）。
+- 并卡：Strata 三帖、Cloudflare Web Search 两帖、Grok Bot 一 bot 一事（帖+文章）、Muse 硬件汉化固件（帖+仓库）。Codex 28 天承诺转帖并入已有卡语义，记已过滤无增量。
+- 两篇 X 文章（即梦 AI 短片、How to give each Grok Bot one job）overlay 未取到正文，不发明：前者进拿不准，后者并卡只作原帖链接。
+- rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。
