@@ -1,3 +1,20 @@
+# 2026-10-05 12:00 ET · 主窗 full_main complete（平台 failed 后父代理收口）
+
+- automation: **c3a32b9b** full_main（~12:20 ET 认领；sched 12:05 late ~15min；平台标 failed，但 ~13:13 ET 已发布）
+- close-out: 巡舟父代理 2026-10-06 ~10-06 01:36 CST 补 claim/cursor/changelog/chat（健康检查 13:25 发现）
+- source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方/付费 X API）
+- prior_cursor: @KSimback 2107083032196714822 2026-10-05T12:18:37.000Z
+- new_cursor: @berryxia 2107144290225033301 2026-10-05T16:22:02.000Z
+- union: **123**（DOM38 ∪ HTL122）；hit_cursor_effective true；gap≈**8.78** min；gap_open false
+- overlay: accept**111** / reject_href**12** / fail**0**
+- depollute: restored**7**
+- window_class: 正文**31** / 拿不准**15** / 已过滤**77**；miss**0**
+- page_today: 正文**40** / 拿不准**36** / 已过滤**195**（08 窗 23/21/118 上追加）
+- QA: pass clippedBtns**0**；12-qa.png
+- public: tip **faf45eb**；md5 **ee3cc86b66f67c719418f4b8bef02f7c**（root=days=site=live）
+- chat: `10/5 12:00：正文40 / 拿不准36 / 已过滤195。https://t512192641.github.io/x-following/2026-10-05.html`（chat_delivery 已交（10-06 01:36 CST））
+- next: 16:00 ET；escalate no
+
 # 2026-10-05 08:10 ET · 补抓 deferred_to_main
 
 - [x] 2026-10-05 08:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~08:21 ET (sched 08:10, late ~11min)）：08:00 主窗 c3a32b9b **in_progress**（union80 gap≈10.4 closed；overlay mid [14/80]；尚无 meta/分类/QA/页/chat）；cursor still @MaiYangAI 2107020078403465260；prior 04 complete 15/11/60 tip 30463c2 chat ✅ 16:34 CST；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-05 20:23 CST
