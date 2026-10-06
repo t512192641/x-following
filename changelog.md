@@ -5280,3 +5280,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页累计 正文**50** / 拿不准**40** / 已过滤**236**（原 40/36/195）。10 张新卡 + Lenny×Tibo 卡补 Dots/插件分成。
 - rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site 57bb2fc8 通过。
 - public tip **646f3ba** 已 push；**GitHub Actions major_outage**，pages-build-deployment 一直 queued，live 仍 12:00 版 ee3cc86b → 本窗状态 `published_pending_live`，**未标 complete**；live==local 后再标 complete 并交聊天。
+
+## 2026-10-05 20:00 ET 主窗
+
+- fire ~20:08 ET（sched 20:05，late ~3min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
+- 吸取 16:00 教训：先跑 HTL（强制 reload 拿顶部 HomeLatestTimeline 响应体）再跑 DOM。HTL 79 HIT CURSOR；DOM 20。
+- union **81**；gap≈**11.48**min closed；游标 @yibie 2107201873006768503 → @pvncher 2107261886807036047（00:09:19Z）。
+- overlay accept**69** / reject_href**12**（保留 HTL）/ fail**0**（pass1 36 + overlay_resume +33）。depollute restored**5**。
+- 窗类 正文**23** / 拿不准**4** / 已过滤**54**；miss**0**（手工纠偏 14 条，见 20-class-manual.md）。
+- 页累计 正文**75** / 拿不准**44** / 已过滤**290**（原 50/40/236）。16 张窗内新卡 + Lauren Tan 卡补 2 条。
+- rec_ideas：recommended 2026-10-05 共 8 条（新卡 6；Beam 与窗内 wlzh 帖并卡，textGrain 补进已有卡）+ ideas 3 条（脑洞组）。推荐/脑洞卡 byline 改纯文字，不再生成 x.com/recommended 假链接。
+- QA pass clippedBtns 0（20-qa.png）。md5 门禁 root==days==site==live **73d921fd** 通过；public tip **34d7c2e**。
+- 16:00 窗（published_pending_live）随本窗发布一并上线，claim 改 complete（superseded），不单独交聊天。
+- 已知未改：publish_main_window.py 仍把 task-board.md 同步进公开库（与「任务清单只进 grok-ops」冲突，既有行为，待拍板）。
