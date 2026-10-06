@@ -5343,3 +5343,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-06 16:10 ET 补抓
 - deferred_to_main：16 主窗 c3a32b9b in_progress（fire ~16:15 ET late ~10min，HTL 抓取中，login_ok）；12 窗 gap closed 无 hole；watchdog exit 0；未重抓、不抢 CDP、无官方 X API；cursor 仍 @ChrisJBakke 2107506788237189542；证据 raw/2026-10-06/16-10-catchup.md。写于 2026-10-07 04:17 CST
+
+## 2026-10-06 16:00 ET 主窗
+
+- fire ~16:15 ET（sched 16:05，late ~10min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。16:10 补抓与本窗同时起，未抢 CDP。
+- 先 HTL（hard reload 拿顶部 HomeLatestTimeline）再 DOM。HTL 107 HIT CURSOR；DOM 35。
+- union **112**；gap≈**2.72**min closed；游标 @ChrisJBakke 2107506788237189542 → **@bcherny 2107565497680314831**（20:15:45Z）。
+- overlay accept**91** / reject_href**21**（保留 HTL）/ fail**0**（pass1 61 + overlay_resume +30）。
+- depollute restored**8**（自动 3 + 人工 5：回复/转帖 overlay 正文落到父帖或同作者别帖，全部回退 HTL）。
+- 窗类 正文**27** / 拿不准**14** / 已过滤**71**；miss**0**（_class16_plan.json，见 16-class-manual.md）。
+- 页 10-06：**56 / 39 / 271**（原 41/25/200）。新卡 15：Nano Banana 2.1（6 帖并卡）、Claude Startups、Claude 进 Google Workspace、Claude Code 云端会话、Hark Pro、Coinbase for Agents×Grok、Gumloop Browser、Overmind、Boris Cherny 提示词、@bot 配置清单、Codemode 中译、Lenny×Tibo、AI 模拟用户、早稻田 AI 分身研究、Opus 5.5 两例。
+- X 文章正文没取到的（alex_prompter GrokBot 文章、Dan Koe Obsidian 文章）进拿不准，不发明。
+- t.co 经 curl 302 解析写入 16-tco.json；Codemode 译文代码片段被 X 自动链接的伪域名（a.id、*.map）置空不当按钮。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site==live **19478ce5**；public tip **0be3ba2**；index 按设计仍指 10-05。聊天交付 pending_parent。
