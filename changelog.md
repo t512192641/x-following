@@ -886,7 +886,7 @@
 - gap≈4.98 closed；hit_cursor_effective true；gap_open false
 - cursor @lennysan 2104971174262583773 → **@danshipper 2105026422981153037**
 - QA pass clippedBtns0；public tip **28af95d**；Pages HTTP 200 md5 **5f6a6c7c5cc5ff52bd279285a08aa642** live=local；grok-ops **39a47de**
-- chat_delivery pending_parent；chat_line: 9/29 16:00：正文82 / 拿不准105 / 已过滤394。https://t512192641.github.io/x-following/2026-09-29.html
+- chat_delivery 已交（10-06 12:35 CST）；chat_line: 9/29 16:00：正文82 / 拿不准105 / 已过滤394。https://t512192641.github.io/x-following/2026-09-29.html
 - escalate no；next 20:00 ET
 
 ## 2026-09-29 16:25 ET · x-3 health
@@ -5306,3 +5306,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 新卡 12：Higgsfield AI Influencer 接推广（gkxspace+gengdaJ 并卡）、Grok Bot 内建 Claude Code bot、Codex 做增长数据分析、页脚 GEO + OpenFree（并卡）、图解 Skill 提示词、Grok Bot Changelog bot、篆书印章提示词、GPT2 美学提示词×2、esp32-c3-adblock、Claude Projects 用法、出海定价。
 - 补进已有卡：乔木剪藏（vista8 四帖：演示、TikTok/TED、安装）、Agent Space（价格 + 对照测试，未放邀请码/邀请链接）。LCU、Every、CF Web Search、Codex SEO、MkSaaS、Codex 提速等转帖/吐槽已有卡无增量 → 已过滤。
 - t.co 经 curl 302 解析写入 00-tco.json（不发明链接）。rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。
+
+## 2026-10-06 04:00 ET 主窗
+
+- fire ~04:12 ET（sched 04:05，late ~7min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
+- 先 HTL（hard reload 拿顶部 HomeLatestTimeline）再 DOM。HTL 70 HIT CURSOR；DOM 17。
+- union **70**；gap≈**8.3**min closed；游标 @wlzh 2107322108128968994 → @cellinlab 2107379614406586707（07:57:07Z）。
+- overlay accept**64** / reject_href**6**（保留 HTL）/ fail**0**（pass1 15 + overlay_resume +49；explore/for-you sticky）。
+- depollute restored**6**（自动 0 + 人工 6：回复/线程帖 overlay 通过 ID 门禁但正文落到父帖或同线程别帖，如 thsottiaux 设置路径帖变成 Day 2.1 中文译文、alex_prompter PROMPT 7 变成 PROMPT 1；全部回退 HTL 原文）。
+- 窗类 正文**20** / 拿不准**5** / 已过滤**45**；miss**0**（全量逐条计划 _class04_plan.json，见 04-class-manual.md）。
+- 今天第一版 10-06：页 **16 / 5 / 47**（薄种子 1/0/2 + 本窗 15 卡）。
+- 并卡：Codex Auto-review（thsottiaux 两帖）、Claude Projects 本机文件夹（xiaohu + dotey 对比 Codex Project）、KinGao 21 Bot（两帖）、Dan Koe 7 提示词（导语 + 提示词 7）、Seedance 提示词（两帖）。Xpass、magpie 为新的一天短卡。
+- Claude 封号检测仪（作者自称纯属恶搞）及其回复进已过滤；ChatGPT Pro 扣款失败宽限期属漏洞类，进拿不准不进正文。
+- t.co 经 curl 302 解析写入 04-tco.json（不发明链接）。修复 HTL 原文 `&gt;` 二次转义。rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days 通过；index 按设计仍指 10-05。
