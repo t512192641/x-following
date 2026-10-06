@@ -1052,7 +1052,7 @@
 - [x] 健康检查与 x-4 正点迟到火并发：见上方 09:23 条目；结果同未变；**非真漏叫**（x-4 ~09:46 ET 已醒，meta 落盘前被健康检查误判 overdue）。  2026-09-28 21:49 CST
 
 ## 2026-09-28 08:00 ET — 主窗 complete
-- union100（DOM27∪HTL97）overlay accept57/reject_href43 fail0；depollute3；窗类22/8/70 miss0；页累计 **35/19/144**；gap≈6.65 closed；hit_cursor_effective true；cursor @alex_prompter 2104545440637304833（prior @KinGao476942 2104483857143840801）；rec/ideas skipped；QA pass clippedBtns0；**chat pending_parent**；next 12:00 ET；escalate no。  2026-09-28 20:38 CST
+- union100（DOM27∪HTL97）overlay accept57/reject_href43 fail0；depollute3；窗类22/8/70 miss0；页累计 **35/19/144**；gap≈6.65 closed；hit_cursor_effective true；cursor @alex_prompter 2104545440637304833（prior @KinGao476942 2104483857143840801）；rec/ideas skipped；QA pass clippedBtns0；**chat 已交（10-06 20:32 CST）**；next 12:00 ET；escalate no。  2026-09-28 20:38 CST
 - chat 交付：**chat 已交 t42s466（2026-09-28 20:41 CST）**
 
 ## 2026-09-28 08:25 ET — x-3 health quiet_ok
@@ -5319,3 +5319,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 并卡：Codex Auto-review（thsottiaux 两帖）、Claude Projects 本机文件夹（xiaohu + dotey 对比 Codex Project）、KinGao 21 Bot（两帖）、Dan Koe 7 提示词（导语 + 提示词 7）、Seedance 提示词（两帖）。Xpass、magpie 为新的一天短卡。
 - Claude 封号检测仪（作者自称纯属恶搞）及其回复进已过滤；ChatGPT Pro 扣款失败宽限期属漏洞类，进拿不准不进正文。
 - t.co 经 curl 302 解析写入 04-tco.json（不发明链接）。修复 HTL 原文 `&gt;` 二次转义。rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days 通过；index 按设计仍指 10-05。
+
+## 2026-10-06 08:00 ET 主窗
+
+- fire ~08:05 ET（sched 08:05，准点）。CDP :9226 在线，login_ok，无 AUTH_FAIL。08:10 补抓已 deferred_to_main。
+- 先 HTL（hard reload 拿顶部 HomeLatestTimeline）再 DOM。HTL 62 HIT CURSOR；DOM 21。
+- union **63**；gap≈**8.6**min closed；游标 @cellinlab 2107379614406586707 → @430Yang 2107441878253580336（12:04:32Z）。
+- overlay accept**56** / reject_href**7**（保留 HTL）/ fail**0**（pass1 15 + overlay_resume +41）。
+- depollute restored**7**（自动 1 + 人工 6：回复/线程帖 overlay 通过 ID 门禁但正文落到父帖或线程首帖，如 vista8 插件地址帖变成防封插件首帖、GrokBotRadar 模版链接帖变成 X Scout 首帖、levelsio 回复变成「上市公司筛选」帖；全部回退 HTL 原文）。
+- 窗类 正文**16** / 拿不准**8** / 已过滤**39**；miss**0**（全量逐条计划 _class08_plan.json，见 08-class-manual.md）。
+- 页 10-06：**27 / 13 / 86**（原 16/5/47）。新卡 11：Claude 账单地区 China + 银联、Claude Cowork 改云端跑、Google Docs 原生 Markdown、SemiAnalysis 订阅价值（xiaohu 三帖并卡）、Instinct/Fo/Tab 短信 agent 实测、PE 医疗公司 AI 工程落地（mardehaym + alex_prompter 并卡）、AI 员工 12 条规则、claude-my-privacy 插件（vista8 两帖）、X Scout 模版（两帖）、Apple 官网礼品卡订阅 Claude Code、页脚 GEO（新的一天短卡）。
+- 已有卡无增量 → 已过滤：app_sail 21 Bot 同文、gengdaJ Claude 中文、derrickcchoi Auto-review。KSimback 三个邀请链接帖不上页（不放邀请码/邀请链接）。Grok Bot 定时任务省额度、Ling-3.1-flash 两篇文章正文未取到，不发明，进拿不准。
+- t.co 经 curl 302 解析写入 08-tco.json（不发明链接）。rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（08-qa.png）。md5 门禁 root==days==site==live **b5a34ba7**；public tip **f99f18d**；index 按设计仍指 10-05。
