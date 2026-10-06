@@ -924,7 +924,7 @@
 - gap≈2.37 closed；hit_cursor_effective true
 - cursor @alex_prompter 2104908751493079311 → **@lennysan 2104971174262583773**
 - QA pass clippedBtns0；public tip **0d0aac8**；Pages HTTP 200 md5 **f49db1fa8ecfa8e9dc70db7513080c21** live=local
-- chat_delivery: pending_parent；chat_line: 9/29 12:00：正文63 / 拿不准51 / 已过滤300。https://t512192641.github.io/x-following/2026-09-29.html
+- chat_delivery: 已交（10-06 16:46 CST）；chat_line: 9/29 12:00：正文63 / 拿不准51 / 已过滤300。https://t512192641.github.io/x-following/2026-09-29.html
 - escalate no；next 16:00 ET
 ## 2026-09-29 12:25 ET · x-3 health
 - quiet_ok；无 overdue 主缺口；最近完成 **08:00** 页09-29 40/22/137 tip 2d97882 md5 d6f89889 chat t42s472；cursor @alex_prompter 2104908751493079311
