@@ -5269,3 +5269,14 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 并卡：Devon Canup 致富 7 提示词（导语+提示词1、2）、AI Velocity Pod（alex_prompter 转 mardehaym）、Muse Gadgets SDK（op7418 两帖）、Matt Pocock .agents 技能（yibie + MaiYangAI retro SKILL.md）。
 - KinGao 两条 Claude Code 注册/防封文章 overlay 未取到正文，不发明，进拿不准。
 - rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days 通过。
+
+## 2026-10-05 16:00 ET 主窗
+
+- fire ~16:12 ET（sched 16:05，late ~7min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
+- HTL 首跑：DOM 先滚过页面，顶部 HomeLatestTimeline 响应体已被回收（No resource）+ paginate 403 → 0 条；同窗同会话强制 reload 重跑（`_scrape16_htl_retry.py`）→ 62 条 HIT CURSOR。
+- union **63**（DOM18 ∪ HTL62）；gap≈**3.67**min closed；游标 @berryxia 2107144290225033301 → @yibie 2107201873006768503（20:10:51Z）。
+- overlay accept**56** / reject_href**7**（保留 HTL）/ fail**0**（pass1 15 + overlay_resume +41；explore/for-you sticky）。depollute restored**7**（自动 5 回复帖落到被回复帖；人工 2 落到同作者上一条）。
+- 窗类 正文**18** / 拿不准**4** / 已过滤**41**；miss**0**（手工纠偏 16 条，见 16-class-manual.md）。
+- 页累计 正文**50** / 拿不准**40** / 已过滤**236**（原 40/36/195）。10 张新卡 + Lenny×Tibo 卡补 Dots/插件分成。
+- rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site 57bb2fc8 通过。
+- public tip **646f3ba** 已 push；**GitHub Actions major_outage**，pages-build-deployment 一直 queued，live 仍 12:00 版 ee3cc86b → 本窗状态 `published_pending_live`，**未标 complete**；live==local 后再标 complete 并交聊天。
