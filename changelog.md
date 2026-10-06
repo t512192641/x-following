@@ -807,7 +807,7 @@
 - recorded 2026-09-30 17:27 CST
 
 ## 2026-09-30 04:25 ET · x-3 health
-- quiet_ok；无 overdue 主缺口；最近完成 **04:00** 页09-30 14/12/104 tip a020408 md5 436bddc4 live=local chat pending_parent；cursor @lxfater 2105208529959182687
+- quiet_ok；无 overdue 主缺口；最近完成 **04:00** 页09-30 14/12/104 tip a020408 md5 436bddc4 live=local chat 已交（10-06 08:39 CST）；cursor @lxfater 2105208529959182687
 - 04:10 deferred_to_main；00 亦齐 128/156/620 tip 9191a58 chat delivered WakeParent；20 亦齐 104/120/476 t42s475
 - lists Sep29 done 155/@HiTw93 + Manu_Sisti/173 not rerun；Sep30 not due（~+289min）；**CDP :9226 idle** home not stolen；escalate no；stay_quiet
 - recorded 2026-09-30 16:34 CST
@@ -5293,3 +5293,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - QA pass clippedBtns 0（20-qa.png）。md5 门禁 root==days==site==live **73d921fd** 通过；public tip **34d7c2e**。
 - 16:00 窗（published_pending_live）随本窗发布一并上线，claim 改 complete（superseded），不单独交聊天。
 - 已知未改：publish_main_window.py 仍把 task-board.md 同步进公开库（与「任务清单只进 grok-ops」冲突，既有行为，待拍板）。
+
+## 2026-10-06 00:00 ET 主窗
+
+- fire ~00:07 ET（sched 00:05，late ~2min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
+- 沿用 20:00 做法：先 HTL（强制 reload 拿顶部 HomeLatestTimeline）再 DOM。HTL 106 HIT CURSOR；DOM 26。
+- union **108**；gap≈**8.4**min closed；游标 @pvncher 2107261886807036047 → @wlzh 2107322108128968994（04:08:37Z）。
+- overlay accept**100** / reject_href**8**（保留 HTL）/ fail**0**（pass1 61 + overlay_resume +39）。
+- depollute restored**12**（自动 4 + 主窗人工复核 8：回复/引用帖 overlay 通过 ID 门禁但正文落到父帖或被引帖，如 vista8 安装说明帖变成演示帖、indie_maker_fox OpenFree 变成 GEO 帖、yanhua1010 链接帖变成 BBC 帖；全部回退 HTL 原文）。
+- 窗类 正文**20** / 拿不准**12** / 已过滤**76**；miss**0**（全量逐条计划 _class00_plan.json，见 00-class-manual.md）。
+- pre(<04:00Z) 105 → 并入 10-05：页 **87 / 56 / 364**（原 75/44/290）。after 3 → 10-06 薄种子 **1 / 0 / 2**（不聊天交付）。index → 10-05。
+- 新卡 12：Higgsfield AI Influencer 接推广（gkxspace+gengdaJ 并卡）、Grok Bot 内建 Claude Code bot、Codex 做增长数据分析、页脚 GEO + OpenFree（并卡）、图解 Skill 提示词、Grok Bot Changelog bot、篆书印章提示词、GPT2 美学提示词×2、esp32-c3-adblock、Claude Projects 用法、出海定价。
+- 补进已有卡：乔木剪藏（vista8 四帖：演示、TikTok/TED、安装）、Agent Space（价格 + 对照测试，未放邀请码/邀请链接）。LCU、Every、CF Web Search、Codex SEO、MkSaaS、Codex 提速等转帖/吐槽已有卡无增量 → 已过滤。
+- t.co 经 curl 302 解析写入 00-tco.json（不发明链接）。rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。
