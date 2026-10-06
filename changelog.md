@@ -1071,7 +1071,7 @@
 - quiet_ok；04:00 页16/11/74 chat t42s464；cursor @KinGao476942；Pages tip 0490fa8/30982ec md5 f378d81c live=local（root==days）；04:10 deferred；lists Sep28 未到期；escalate no；stay_quiet。  2026-09-28 17:28:05 CST
 
 ## 2026-09-28 04:25 ET — x-3 health quiet_ok
-- quiet_ok；04:00 页16/11/74 chat pending_parent；cursor @KinGao476942；Pages tip 0490fa8 root md5 f378d81c live=local（days/ 仍薄种子不挡）；04:10 deferred；lists Sep28 未到期；escalate no；stay_quiet。  2026-09-28 16:33 CST
+- quiet_ok；04:00 页16/11/74 chat 已交（10-07 01:56 CST）；cursor @KinGao476942；Pages tip 0490fa8 root md5 f378d81c live=local（days/ 仍薄种子不挡）；04:10 deferred；lists Sep28 未到期；escalate no；stay_quiet。  2026-09-28 16:33 CST
 ## 2026-09-28 04:00 ET — 主窗 complete（今天第一版）
 - union96（DOM32∪HTL96）overlay accept62/reject_href34 fail0；depollute1；窗类15/10/71 miss0；页累计 **16/11/74**；gap≈7.48 closed；hit_cursor_effective true；cursor @KinGao476942 2104483857143840801（prior @stark_nico99 2104423080558997989）；rec/ideas skipped；QA pass clippedBtns0；**chat 已交 t42s464（2026-09-28 16:35 CST）**；days/ 薄种子副本已同步根页 30982ec；next 08:00 ET；escalate no。  2026-09-28 16:32 CST
 
@@ -5331,3 +5331,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 10-06：**27 / 13 / 86**（原 16/5/47）。新卡 11：Claude 账单地区 China + 银联、Claude Cowork 改云端跑、Google Docs 原生 Markdown、SemiAnalysis 订阅价值（xiaohu 三帖并卡）、Instinct/Fo/Tab 短信 agent 实测、PE 医疗公司 AI 工程落地（mardehaym + alex_prompter 并卡）、AI 员工 12 条规则、claude-my-privacy 插件（vista8 两帖）、X Scout 模版（两帖）、Apple 官网礼品卡订阅 Claude Code、页脚 GEO（新的一天短卡）。
 - 已有卡无增量 → 已过滤：app_sail 21 Bot 同文、gengdaJ Claude 中文、derrickcchoi Auto-review。KSimback 三个邀请链接帖不上页（不放邀请码/邀请链接）。Grok Bot 定时任务省额度、Ling-3.1-flash 两篇文章正文未取到，不发明，进拿不准。
 - t.co 经 curl 302 解析写入 08-tco.json（不发明链接）。rec_ideas skipped（非 20:00）。QA pass clippedBtns 0（08-qa.png）。md5 门禁 root==days==site==live **b5a34ba7**；public tip **f99f18d**；index 按设计仍指 10-05。
+
+## 2026-10-06 12:00 ET 主窗（failed 后自动续跑）
+
+- fire ~12:21 ET（sched 12:05，late ~16min）。主窗 c3a32b9b 平台 **failed**：抓取已齐（HTL135 HIT CURSOR ∪ DOM33 → union **146**，gap≈**8.53** closed），overlay_resume 于 01:08 CST 后无进程，后半段（depollute/分类/merge/发布/游标）未做。
+- 13:25 ET 健康检查（x-3 960034de，~13:36 ET 起）`resume_overlay_watchdog.py --check` exit **10**（idle ~32min，CDP 空闲）→ 按 playbook「停死不等拍板」**自动续跑**：`--run` overlay_resume（18 条 reject_href 仍拒写，都是转发/回复落到他帖）→ depollute restored **7** → 启发式分类 → 人工全量逐条 `_class12_plan.json`。未重抓、未用付费 X API。
+- overlay accept**128** / reject_href**18** / fail**0**。窗类 正文**20** / 拿不准**12** / 已过滤**114**；miss**0**。
+- 页 10-06：**41 / 25 / 200**（原 27/13/86），新卡 14（Every Agent 发布与 PM 用法、Brainbase×Stripe、Gamma 5、Grok Bot v0.66.0、Seedance 两则、7 写作 skill、Claude 规划提示词、Waza ASD-STE100、双循环修 bug、Codex Cloud 环境、Codex CLI Mermaid、qiaomu-ui-learn、Strata 0.1.40）。已有卡无增量的同题转帖进已过滤。
+- 游标 @430Yang 2107441878253580336 → **@ChrisJBakke 2107506788237189542**（16:22:28Z）。QA pass clippedBtns 0。md5 门禁 root==days==site==live **12bef360**；public tip **994fac9**；index 按设计仍指 10-05。聊天交付 pending_parent。
+- 小坑：看门狗 `--run` 第一次把输出重定向进窗目录，自己刷新了 mtime 导致判「未停死」直接跳过；第二次输出改写到 /tmp 才生效。之后手工续跑请把日志写在窗目录外。
+
+## 2026-10-06 16:10 ET 补抓
+- deferred_to_main：16 主窗 c3a32b9b in_progress（fire ~16:15 ET late ~10min，HTL 抓取中，login_ok）；12 窗 gap closed 无 hole；watchdog exit 0；未重抓、不抢 CDP、无官方 X API；cursor 仍 @ChrisJBakke 2107506788237189542；证据 raw/2026-10-06/16-10-catchup.md。写于 2026-10-07 04:17 CST
