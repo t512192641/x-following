@@ -5417,3 +5417,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-07 12:10 ET 补抓
 - deferred_to_main：补抓 ~12:19 ET 火（+9min），12 主窗 c3a32b9b 已于 ~12:15 ET 认领 in_progress，抓取已齐（HTL127 HIT + DOM44 → union131，gap≈4.0min closed），overlay_resume 运行中。08 窗 gap closed 无 hole；watchdog exit 0（12 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @servasyy_ai 2107807069881700792；证据 raw/2026-10-07/12-10-catchup.md。
+
+## 2026-10-07 12:00 ET 主窗
+
+- fire ~12:13 ET（sched 12:05，late ~8min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。12:10 补抓 deferred_to_main。
+- 先 HTL（hard reload）再 DOM：HTL **127** HIT CURSOR，DOM 44（多出的 4 条都是转发帖的原帖或中译）。
+- union **131**；gap≈**4.0**min closed；游标 @servasyy_ai 2107807069881700792 → **@VibeMarketer_ 2107866508361945245**（16:11:52Z）。
+- overlay：--max 5 小批试 status 页能渲染但每条 ~20s；全量后每条 ~30–40s（129 条要 1 小时以上），跑到 21 条后 SIGINT 停掉。accept**15** / reject_href**8** / 未补**108**（保留 HTL 原文，HTL 本身是全文）。这是本日第三个主窗 overlay 后段变慢或不渲染；下窗继续先小批试，慢就早停。
+- depollute restored**3**（自动 1 + 人工 2：vista8 主帖与回复、levelsio 续帖落到父帖或父帖的中文自动翻译，全部回退 HTL）。
+- 窗类 正文**21** / 拿不准**8** / 已过滤**102**；miss**0**（_class12_plan.json，见 12-class-manual.md）。
+- 页 10-07：**52 / 29 / 253**（原 37/21/151）。新卡 15（测 agent 30 工作流、CTO 需求瓶颈案例、magpie、乔木剪藏、Higgsfield 变现、Project Maya、特斯拉脑内试跑提示词、Mole 800 App、ChatGPT MCP Events、xAI Grok Bot 指南、GPT2 美学提示词、Raycast、Omia、IM 写扩散/读扩散、Tabler Icons）；补进已有卡 3（Grok Bot 路由 Musk 说明、成本保险丝虚拟卡、播客转文章 skill 解读）。
+- 不放代充/推广（cgnot996 Claude 订阅方案、Acquire 广告进已过滤）。t.co 经 curl 302 解析写入 12-tco.json。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（12-qa.png）。md5 门禁 root==days==site==live **ac195ddc**；public tip **df6a1e9**；index 按设计仍指 10-06。聊天交付 pending_parent。
