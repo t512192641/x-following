@@ -1127,7 +1127,7 @@
 - [x] 2026-09-27 17:25 ET 健康检查（~17:31 ET 正点迟到火）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文87/拿不准13/已过滤241 raw union63 overlay32/31/0 depollute2 窗类19/3/41；gap≈4.82min closed；cursor @danshipper 2104302924251951553；git tip public 90aaf0e；Pages 200 根页+days md5 87062d30 live=local；chat t42s461 delivered；16:10 catchup complete_no_rescrape；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim（约 +147min 未到期）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 05:33 CST
 
 ## 2026-09-27 16:25 ET health check
-- [x] 2026-09-27 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00**（:10 补抓代跑）页 live/days 正文87/拿不准13/已过滤241 raw union63 overlay32/31/0 depollute2 窗类19/3/41；gap≈4.82min closed；cursor @danshipper 2104302924251951553；Pages tip 1bff716 days md5 87062d30 live=local；**chat URL 仍 12:00 md5 6eceaafe（index 未跟）**；chat pending_parent；12/08/04/00 亦齐；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+212min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 04:30 CST
+- [x] 2026-09-27 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +2min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00**（:10 补抓代跑）页 live/days 正文87/拿不准13/已过滤241 raw union63 overlay32/31/0 depollute2 窗类19/3/41；gap≈4.82min closed；cursor @danshipper 2104302924251951553；Pages tip 1bff716 days md5 87062d30 live=local；**chat URL 仍 12:00 md5 6eceaafe（index 未跟）**；chat 已交（10-07 12:35 CST）；12/08/04/00 亦齐；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+212min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 04:30 CST
 
 ## 2026-09-27 15:25 ET health check
 
@@ -5384,3 +5384,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 10-06 完整页：**93 / 51 / 430**（原 79/43/329）。新卡 14（Codex 用量重置、ChatGPT×GitLab、Codex Skill 复盘提示词、Cloudflare 预算预警、Cloudflare Web Search API、Mole WiFi 高性能模式、@bot 标签、Reflection Beam、Superlogical 公测、市长报告提示词、小小东早安提示词、外包 SEO、Pi Durable、Claude Max 老账号额度）；补进已有卡 5（EmbeddingGemma 2 实测、Grok Bot v0.68.1、dots 职责、Opus 5.5 实战、OpenAI 数学）。
 - 10-07 薄种子 1/0/6（不聊天交付）；index → 10-06。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。聊天交付 pending_parent。
 - 发布：10-06 页 + index tip **145c159**，md5 root==days==site==live==index **429b4f37**；10-07 薄种子 tip **bbf309c** live==local **bc3d7e99**。
+
+## 2026-10-07 04:10 ET 补抓
+- deferred_to_main：04 主窗 c3a32b9b 迟到 ~8min（fire ~04:12 ET）已 claim in_progress；补抓 ~04:18 ET 起查到主窗 HTL 首包 0 entries + 分页 403，已转 DOM 兜底且在跑（login 正常）。00 窗 gap closed 无 hole；watchdog exit 0（04 进程存活）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @MaiYangAI 2107686235619926212；证据 raw/2026-10-07/04-10-catchup.md。写于 2026-10-07 16:20 CST
