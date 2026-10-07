@@ -5356,3 +5356,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - X 文章正文没取到的（alex_prompter GrokBot 文章、Dan Koe Obsidian 文章）进拿不准，不发明。
 - t.co 经 curl 302 解析写入 16-tco.json；Codemode 译文代码片段被 X 自动链接的伪域名（a.id、*.map）置空不当按钮。rec_ideas skipped（非 20:00）。
 - QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site==live **19478ce5**；public tip **0be3ba2**；index 按设计仍指 10-05。聊天交付 pending_parent。
+
+## 2026-10-06 20:00 ET 主窗
+
+- fire ~20:07 ET（sched 20:05，late ~3min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。20:10 补抓 deferred_to_main。
+- 先 HTL（hard reload 拿顶部 HomeLatestTimeline）再 DOM。HTL 98 HIT CURSOR；DOM 23。
+- union **101**；gap≈**1.82**min closed；游标 @bcherny 2107565497680314831 → **@thedankoe 2107624198676025588**（00:09:01Z，20:09 ET，仍属 10-06）。
+- overlay：pass1 卡在 explore/for-you（前 5 条全 reject_href、约 1 分钟一条），停掉改跑 overlay_resume → accept**74** / reject**27**（保留 HTL）/ fail**0**。
+- depollute restored**15**（自动 8 + 人工 7：回复/线程帖落到父帖或同作者别帖，全部回退 HTL）。HTL 原文 &amp;/&gt; 二次转义还原。
+- 窗类 正文**39** / 拿不准**4** / 已过滤**58**；miss**0**（_class20_plan.json，见 20-class-manual.md）。
+- 页 10-06：**79 / 43 / 329**（原 56/39/271）。窗内新卡 15（OpenAI 数学成果并卡、殆知阁、Cursor iOS、Landing Page、Decisions API、Codex Day 2、Opus 5.5 讲解视频等）；补进已有卡 4（Nano Banana 2.1、Claude×Google Workspace、Every Agent×Claude Managed Agents、Boris 提示词）。
+- 推荐/脑洞并入：recommended 2026-10-06 n=8（新卡 4 + 并进已有卡 4），ideas 2026-10-06 n=4（组「脑洞」）。
+- t.co 经 curl 302 解析写入 20-tco.json（不发明链接；讲解视频开源地址在评论区未抓到，未上按钮）。
+- QA pass clippedBtns 0（20-qa.png）。md5 门禁 root==days==site==live **de8ccda7**；public tip **8ef8ffc**；index 按设计仍指 10-05。聊天交付 pending_parent。
