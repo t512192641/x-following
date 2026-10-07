@@ -1244,7 +1244,7 @@
 - [x] 2026-09-26 17:25 ET 健康检查（~17:31 ET 正点迟到火，sched :25，约 +6min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38；gap≈2.72min closed；cursor @agazdecki 2103942089293849001；Pages 200 md5 8f14ba6e live=local；chat t42s454；16:10 deferred；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+149min）；escalate no；stay_quiet。  2026-09-27 05:32 CST
 
 ## 2026-09-26 16:25 ET health check
-- [x] 2026-09-26 16:25 ET 健康检查（~16:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38；gap≈2.72min closed；cursor @agazdecki 2103942089293849001；Pages 200 md5 8f14ba6e live=local；chat pending_parent；16:10 deferred；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+205min）；escalate no；stay_quiet。  2026-09-27 04:36 CST
+- [x] 2026-09-26 16:25 ET 健康检查（~16:33 ET 正点迟到火，sched :25，约 +8min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38；gap≈2.72min closed；cursor @agazdecki 2103942089293849001；Pages 200 md5 8f14ba6e live=local；chat 已交（10-08 00:28 CST）；16:10 deferred；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 not due（~+205min）；escalate no；stay_quiet。  2026-09-27 04:36 CST
 
 ## 2026-09-26 16:00 ET
 - [x] 2026-09-26 16:00 ET 主窗完成：union64（DOM14∪HTL60）overlay accept38/reject_href26 fail0（clear-tab retry ok_new+16）；depollute2；窗类20/6/38 miss0；页09-26 **72/33/238**；gap≈2.72min closed；hit_cursor_effective true；cursor @Cydiar404 → @agazdecki 2103942089293849001；skip rec/ideas；QA pass clippedBtns0；**chat 已交 t42s454（2026-09-27 04:37 CST）**；next 20:00 ET；escalate no。  2026-09-27 04:34 CST
@@ -5429,3 +5429,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 10-07：**52 / 29 / 253**（原 37/21/151）。新卡 15（测 agent 30 工作流、CTO 需求瓶颈案例、magpie、乔木剪藏、Higgsfield 变现、Project Maya、特斯拉脑内试跑提示词、Mole 800 App、ChatGPT MCP Events、xAI Grok Bot 指南、GPT2 美学提示词、Raycast、Omia、IM 写扩散/读扩散、Tabler Icons）；补进已有卡 3（Grok Bot 路由 Musk 说明、成本保险丝虚拟卡、播客转文章 skill 解读）。
 - 不放代充/推广（cgnot996 Claude 订阅方案、Acquire 广告进已过滤）。t.co 经 curl 302 解析写入 12-tco.json。rec_ideas skipped（非 20:00）。
 - QA pass clippedBtns 0（12-qa.png）。md5 门禁 root==days==site==live **ac195ddc**；public tip **df6a1e9**；index 按设计仍指 10-06。聊天交付 pending_parent。
+
+## 2026-10-07 16:10 ET 补抓
+- deferred_to_main：补抓 ~16:18 ET 火（+8min），16 主窗 c3a32b9b 已于 ~16:08 ET 认领 in_progress，抓取已齐（HTL112 + DOM35 → union124，gap≈4.82min closed，hit_cursor_effective），overlay_resume 运行中。12 窗 gap closed 无 hole；watchdog exit 0（16 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @VibeMarketer_ 2107866508361945245；证据 raw/2026-10-07/16-10-catchup.md。
