@@ -5387,3 +5387,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-07 04:10 ET 补抓
 - deferred_to_main：04 主窗 c3a32b9b 迟到 ~8min（fire ~04:12 ET）已 claim in_progress；补抓 ~04:18 ET 起查到主窗 HTL 首包 0 entries + 分页 403，已转 DOM 兜底且在跑（login 正常）。00 窗 gap closed 无 hole；watchdog exit 0（04 进程存活）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @MaiYangAI 2107686235619926212；证据 raw/2026-10-07/04-10-catchup.md。写于 2026-10-07 16:20 CST
+
+## 2026-10-07 04:00 ET 主窗（10-07 今天第一版）
+
+- fire ~04:12 ET（sched 04:05，late ~8min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。04:10 补抓 deferred_to_main。
+- HTL 第一次空包：首页停在「时间线」管理浮层（Pinned/Topics/Lists），HomeLatestTimeline 返回 0 条、翻页 403（证据 04-htl-run1-empty.out）。按 playbook 同窗多策略：先跑 DOM（45，hit false，saw_older true，顺带把首页切回 Following），再跑 HTL：**121** HIT CURSOR。不是限流，是浮层挡住了 Following 时间线。
+- union **121**（DOM 45 全在 HTL 内）；gap≈**1.35**min closed；游标 @MaiYangAI 2107686235619926212 → **@430Yang 2107745057574944836**（08:09:16Z）。
+- overlay：先 --max 5 小批试（status 页正常）再全量。accept**85** / reject_href**27**（保留 HTL）/ fail**0**；第 ~96 条起 status 页又只出启动画面（extract_text=0、每条 ~30s），剩 9 条 SIGINT 停掉，保留 HTL 原文。这是连续第二个主窗在 overlay 后段遇到 status 页不渲染，下窗继续先小批试。
+- depollute restored**18**（自动 7 + 人工 11：回复/自引/线程帖落到父帖或同作者别帖，如 alex_prompter newsletter 帖变成提示词 1、Adam 自引帖变成 Ming-Image 长帖；全部回退 HTL）。
+- 窗类 正文**25** / 拿不准**13** / 已过滤**83**；miss**0**（_class04_plan.json，见 04-class-manual.md）。
+- 页 10-07：**21 / 13 / 89**（原薄种子 1/0/6）。新卡 20：Grok Bot 按任务路由最佳后端模型（Musk + 铁柱AGI 并卡）、Grok Bot 自有邮箱、Grok Bot × Teams、Grok Bot × Gmail 清邮件、Grok Build v1.0.50（长发布说明只留能用事实）、Grok 4.7 上 Microsoft Foundry、Claude 进 Google Docs/Sheets/Slides、ChatGPT 桌面 App 发送键 bug、Qwen3.8 Flash Next 量化版、Ling-3.1-flash 3D 网页（3 帖并卡）、engineering-review-board、Answer me with HTML、飞书录音豆 × 豆包 Agent；新的一天短卡 7（Xpass、Waza ASD-STE100、EmbeddingGemma 2、qiaomu-ui-learn、OpenAI 数学、Codex 额度重置、Nano Banana 2.1）。
+- 两篇 PandaTalk8 X 文章（Hugging Face 教程、GPT-6 怎么选）正文没取到 → 拿不准，不发明。t.co 经 curl 302 解析写入 04-tco.json。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days==site==live **33c9b4b0**；public tip **8566aa7**；index 按设计仍指 10-06。聊天交付 pending_parent。
