@@ -1225,7 +1225,7 @@
 
 ## 2026-09-26 20:25 ET health check
 - [x] 2026-09-26 20:25 ET 健康检查（~20:29 ET 正点迟到火，sched :25，约 +4min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **16:00** 页 live 正文72/拿不准33/已过滤238 raw union64 overlay accept38/reject_href26 fail0 窗类20/6/38；gap≈2.72min closed；**20:00 in_progress**（龄≈18min；union56 overlay29/27 fail0 depollute4 窗类15/8/33 merge 本地98/41/271+rec/ideas QA pass；尚无 20-meta/claim complete/chat；非卡住）；cursor @Michell49473040 2104001572661526978；Pages 200 md5 8f14ba6e（CDN 仍16:00）local 093e7d00 live!=local；lists Sep26 done 155/@HiTw93 + Mileson07/172 not rerun；CDP :9226 不抢；escalate no；stay_quiet。  2026-09-27 08:29 CST
-- 【落板瞬间复核】主窗刚标 complete（completed_at 08:29 CST；20-meta 已写；Pages md5 093e7d00 live=local 98/41/271；chat pending_parent；cursor @Michell49473040）；板上 in_progress 描述为检查当时快照，非卡住。
+- 【落板瞬间复核】主窗刚标 complete（completed_at 08:29 CST；20-meta 已写；Pages md5 093e7d00 live=local 98/41/271；chat 已交（10-07 20:40 CST）；cursor @Michell49473040）；板上 in_progress 描述为检查当时快照，非卡住。
 
 ## 2026-09-26 20:00 ET main
 - [x] `x-2026-09-26-20` 2026-09-26 20:00 ET 主窗 complete：页09-26 **98/41/271**；union56 overlay29/27/0 depollute4；窗类15/8/33；gap≈2.57min closed；cursor @Michell49473040 2104001572661526978；并 recommended+ideas 2026-09-26（rec10+ideas3）；**chat 已交 t42s455（2026-09-27 08:31 CST）**；next 2026-09-27 00:00 ET；escalate no。  2026-09-27 08:28 CST
@@ -5414,3 +5414,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 10-07：**37 / 21 / 151**（原 21/13/89）。新卡 16（Harness 成功≠模型成功、agentic 组织七阶段、Grok Bot+Orca+Tailscale+Claude Code、播客转文章 skill、Grok Bot 12 小时要闻、X 评论区 @bot、dsh-im、Seedance 响指提示词、Wails、Toolify 内链 SEO、native-subtitle-quote-image、Paseo、成本保险丝并卡、SpaceXAI 免费直播课、视频章节导航 skill、omarchy-apple-dev）；补进已有卡 4（OpenAI 数学 722 篇 + openai/math、ChatGPT 发送键更新 App、Grok Bot 路由现状、qiaomu 插件上架）。
 - 三篇 X 文章正文没取到，进拿不准或只写标题，不发明。Muse 邀请码站、Saily 邀请注册不上页。omarchy 帖 article_title 被 ship.sh 自动链接卡片污染（航运媒体标题），卡片正文手写、未用该标题。t.co 经 curl 302 解析写入 08-tco.json。rec_ideas skipped（非 20:00）。
 - QA pass clippedBtns 0（08-qa.png）。md5 门禁 root==days==site==live **5b34fbc9**；public tip **801982c**；index 按设计仍指 10-06。聊天交付 pending_parent。
+
+## 2026-10-07 12:10 ET 补抓
+- deferred_to_main：补抓 ~12:19 ET 火（+9min），12 主窗 c3a32b9b 已于 ~12:15 ET 认领 in_progress，抓取已齐（HTL127 HIT + DOM44 → union131，gap≈4.0min closed），overlay_resume 运行中。08 窗 gap closed 无 hole；watchdog exit 0（12 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @servasyy_ai 2107807069881700792；证据 raw/2026-10-07/12-10-catchup.md。
