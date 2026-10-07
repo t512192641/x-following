@@ -5383,3 +5383,4 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 窗类 正文**24** / 拿不准**8** / 已过滤**107**；miss**0**（_class00_plan.json，见 00-class-manual.md）。
 - 10-06 完整页：**93 / 51 / 430**（原 79/43/329）。新卡 14（Codex 用量重置、ChatGPT×GitLab、Codex Skill 复盘提示词、Cloudflare 预算预警、Cloudflare Web Search API、Mole WiFi 高性能模式、@bot 标签、Reflection Beam、Superlogical 公测、市长报告提示词、小小东早安提示词、外包 SEO、Pi Durable、Claude Max 老账号额度）；补进已有卡 5（EmbeddingGemma 2 实测、Grok Bot v0.68.1、dots 职责、Opus 5.5 实战、OpenAI 数学）。
 - 10-07 薄种子 1/0/6（不聊天交付）；index → 10-06。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。聊天交付 pending_parent。
+- 发布：10-06 页 + index tip **145c159**，md5 root==days==site==live==index **429b4f37**；10-07 薄种子 tip **bbf309c** live==local **bc3d7e99**。
