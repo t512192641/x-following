@@ -1111,7 +1111,7 @@
 ## 2026-09-27 20:00 ET
 - chat 交付：**chat 已交 t42s462（2026-09-28 08:27 CST）**；交付前核根页 md5 6cf47e50＝days 页。
 
-- [x] 2026-09-27 20:00 ET 主窗完整主抓：union63（DOM12∪HTL62）overlay accept35/reject_href28 fail0（初11+retry24）；depollute2；窗类正文21/拿不准1/已过滤41 miss0；页09-27 正文121/拿不准14/已过滤282；并 recommended9+ideas4（sourceDate 2026-09-27；Opus5.5 题已存在跳过1）；gap≈6.62min closed；hit_cursor_effective true；prior @danshipper 2104302924251951553 → new @MaiYangAI 2104362281215909952；QA pass clippedBtns0；chat_delivery pending_parent；next 2026-09-28 00:00 ET。
+- [x] 2026-09-27 20:00 ET 主窗完整主抓：union63（DOM12∪HTL62）overlay accept35/reject_href28 fail0（初11+retry24）；depollute2；窗类正文21/拿不准1/已过滤41 miss0；页09-27 正文121/拿不准14/已过滤282；并 recommended9+ideas4（sourceDate 2026-09-27；Opus5.5 题已存在跳过1）；gap≈6.62min closed；hit_cursor_effective true；prior @danshipper 2104302924251951553 → new @MaiYangAI 2104362281215909952；QA pass clippedBtns0；chat_delivery 已交（10-07 08:42 CST）；next 2026-09-28 00:00 ET。
 
 ## 2026-09-27 20:10 ET 补抓
 - [x] `x-2026-09-27-20-10` 2026-09-27 20:10 ET 补抓（~20:10 正点火）：deferred_to_main；主窗 20:00 in_progress（c3a32b9b ~20:05 ET；union63 DOM12∪HTL62 hit_cursor_effective true gap≈6.62min closed；overlay mid ~12/63 accept≈2/reject_href≈10 fail0 CDP；尚无 20-meta/depollute/分类/QA/日页 merge/游标推进）；cursor still @danshipper 2104302924251951553；16:00 页 live 87/13/241 md5 87062d30 live=local chat t42s461；rec/ideas latest 在场交主窗并；未重抓不抢 CDP；交付交主窗；escalate no；stay_quiet。  2026-09-28 08:12:26 CST
@@ -5369,3 +5369,17 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 推荐/脑洞并入：recommended 2026-10-06 n=8（新卡 4 + 并进已有卡 4），ideas 2026-10-06 n=4（组「脑洞」）。
 - t.co 经 curl 302 解析写入 20-tco.json（不发明链接；讲解视频开源地址在评论区未抓到，未上按钮）。
 - QA pass clippedBtns 0（20-qa.png）。md5 门禁 root==days==site==live **de8ccda7**；public tip **8ef8ffc**；index 按设计仍指 10-05。聊天交付 pending_parent。
+
+## 2026-10-07 00:10 ET 补抓
+- deferred_to_main：00 主窗 c3a32b9b 迟到 ~9min（fire ~00:14 ET），补抓 00:13 起先等到 00:14:54 ET 出现 00-claim in_progress 后让路；HTL 抓取刚起。20 窗 gap closed 无 hole；watchdog exit 0；未重抓、不抢 CDP、无官方 X API；cursor 仍 @thedankoe 2107624198676025588；证据 raw/2026-10-07/00-10-catchup.md。写于 2026-10-07 12:16 CST
+
+## 2026-10-07 00:00 ET 主窗（交 10-06 完整版）
+
+- fire ~00:14 ET（sched 00:05，late ~9min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。
+- 先 HTL（hard reload 拿顶部 HomeLatestTimeline）再 DOM。HTL 136 HIT CURSOR；DOM 37。
+- union **139**；gap≈**7.15**min closed；游标 @thedankoe 2107624198676025588 → **@MaiYangAI 2107686235619926212**（04:15:32Z）。CUTOFF 04:00Z：pre 132 → 10-06，after 7 → 10-07 薄种子。
+- overlay：直接跑 overlay_resume。前 69 条 OK61 / reject_href8；之后 X status 页只剩启动画面（不渲染正文，疑似临时限流），每条 30–60s，12:28 CST 用 SIGINT 停掉（checkpoint 已写回，CDP 还回 home）。其余 70 条保留 HTL/DOM 原文。下窗若 status 页仍不渲染，overlay 先小批试几条再决定。
+- depollute restored**8**（自动 2 + 人工 6：回复/引用帖落到父帖或被引帖，如 MaiYangAI「距离 5000」变成被引的 09-20 长帖、HiTw93「尝鲜地址」变成 Mole 父帖；全部回退 HTL/DOM）。
+- 窗类 正文**24** / 拿不准**8** / 已过滤**107**；miss**0**（_class00_plan.json，见 00-class-manual.md）。
+- 10-06 完整页：**93 / 51 / 430**（原 79/43/329）。新卡 14（Codex 用量重置、ChatGPT×GitLab、Codex Skill 复盘提示词、Cloudflare 预算预警、Cloudflare Web Search API、Mole WiFi 高性能模式、@bot 标签、Reflection Beam、Superlogical 公测、市长报告提示词、小小东早安提示词、外包 SEO、Pi Durable、Claude Max 老账号额度）；补进已有卡 5（EmbeddingGemma 2 实测、Grok Bot v0.68.1、dots 职责、Opus 5.5 实战、OpenAI 数学）。
+- 10-07 薄种子 1/0/6（不聊天交付）；index → 10-06。QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。聊天交付 pending_parent。
