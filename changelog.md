@@ -1136,7 +1136,7 @@
 - [x] 2026-09-27 15:25 ET 健康检查（~15:31 ET 正点迟到火，sched :25，约 +6min）：quiet_ok true；无 overdue 主缺口；最近完成窗 **12:00** 页 live 正文73/拿不准10/已过滤200 raw union125 overlay62/63/0 depollute3 窗类36/3/86；gap≈2.02min closed；cursor @elonmusk 2104241882280706176；Pages 200 md5 6eceaafe live=local tip b6d18ec；chat t42s460；12:10 deferred；lists Sep27 done 155/@HiTw93 + Mileson07/172 not rerun；16:00 not due（~+29min）；CDP :9226 idle x.com/home not stolen；escalate no；stay_quiet。  2026-09-28 03:32 CST
 
 ## 2026-09-27 16:00 ET 主窗（16:10 补抓代跑）
-- [x] `x-2026-09-27-16` 2026-09-27 16:00 ET 主窗 complete（**主窗 c3a32b9b 漏跑 → 16:10 补抓完整主抓**；claimed_by cdf0cd43）：union63（DOM12∪HTL60）overlay accept32/reject_href31 fail0（clear-tab retry ok_new+16）；depollute2；窗类正文19/拿不准3/已过滤41 miss0；页09-27 **87/13/241**；gap≈4.82min closed；hit_cursor_effective true；cursor prior @elonmusk 2104241882280706176 → new @danshipper 2104302924251951553；skip rec/ideas；QA pass clippedBtns0；source DOM+HTL CDP :9226；chat_delivery pending_parent；next 20:00 ET；escalate no（主窗漏跑已 :10 兜底，记调度）。  2026-09-28 04:26 CST
+- [x] `x-2026-09-27-16` 2026-09-27 16:00 ET 主窗 complete（**主窗 c3a32b9b 漏跑 → 16:10 补抓完整主抓**；claimed_by cdf0cd43）：union63（DOM12∪HTL60）overlay accept32/reject_href31 fail0（clear-tab retry ok_new+16）；depollute2；窗类正文19/拿不准3/已过滤41 miss0；页09-27 **87/13/241**；gap≈4.82min closed；hit_cursor_effective true；cursor prior @elonmusk 2104241882280706176 → new @danshipper 2104302924251951553；skip rec/ideas；QA pass clippedBtns0；source DOM+HTL CDP :9226；chat_delivery 已交（10-07 16:47 CST）；next 20:00 ET；escalate no（主窗漏跑已 :10 兜底，记调度）。  2026-09-28 04:26 CST
 - chat 交付：**chat 已交 t42s461（2026-09-28 04:34 CST）**；交付前已核根页 `/2026-09-27.html` live md5 87062d30＝days 页（root 修复 29650de/90aaf0e）。
 
 ## 2026-09-27 14:25 ET health check
@@ -5399,3 +5399,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 10-07：**21 / 13 / 89**（原薄种子 1/0/6）。新卡 20：Grok Bot 按任务路由最佳后端模型（Musk + 铁柱AGI 并卡）、Grok Bot 自有邮箱、Grok Bot × Teams、Grok Bot × Gmail 清邮件、Grok Build v1.0.50（长发布说明只留能用事实）、Grok 4.7 上 Microsoft Foundry、Claude 进 Google Docs/Sheets/Slides、ChatGPT 桌面 App 发送键 bug、Qwen3.8 Flash Next 量化版、Ling-3.1-flash 3D 网页（3 帖并卡）、engineering-review-board、Answer me with HTML、飞书录音豆 × 豆包 Agent；新的一天短卡 7（Xpass、Waza ASD-STE100、EmbeddingGemma 2、qiaomu-ui-learn、OpenAI 数学、Codex 额度重置、Nano Banana 2.1）。
 - 两篇 PandaTalk8 X 文章（Hugging Face 教程、GPT-6 怎么选）正文没取到 → 拿不准，不发明。t.co 经 curl 302 解析写入 04-tco.json。rec_ideas skipped（非 20:00）。
 - QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days==site==live **33c9b4b0**；public tip **8566aa7**；index 按设计仍指 10-06。聊天交付 pending_parent。
+
+## 2026-10-07 08:10 ET 补抓
+- deferred_to_main：补抓 ~08:14 ET 起初查无 08-claim，后台等到 ~08:18 ET 08 主窗 c3a32b9b 认领 in_progress（sched 08:05 迟到 ~12min，HTL 已起）。04 窗 gap closed 无 hole；watchdog exit 0；未重抓、不抢 CDP、无官方 X API；cursor 仍 @430Yang 2107745057574944836；证据 raw/2026-10-07/08-10-catchup.md。写于 2026-10-07 20:20 CST
