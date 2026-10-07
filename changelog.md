@@ -5432,3 +5432,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-07 16:10 ET 补抓
 - deferred_to_main：补抓 ~16:18 ET 火（+8min），16 主窗 c3a32b9b 已于 ~16:08 ET 认领 in_progress，抓取已齐（HTL112 + DOM35 → union124，gap≈4.82min closed，hit_cursor_effective），overlay_resume 运行中。12 窗 gap closed 无 hole；watchdog exit 0（16 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @VibeMarketer_ 2107866508361945245；证据 raw/2026-10-07/16-10-catchup.md。
+
+## 2026-10-07 16:00 ET 主窗
+
+- fire ~16:08 ET（sched 16:05，late ~3min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。16:10 补抓 deferred_to_main。
+- 先 HTL（hard reload）再 DOM：HTL **112**（翻页 403，未直接撞到游标 id，但最旧帖距游标只有几分钟），DOM 35（多出 12 条都是转发帖的原帖）。
+- union **124**；gap≈**4.8**min closed；游标 @VibeMarketer_ 2107866508361945245 → **@elonmusk 2107926260668354994**（20:09:18Z）。
+- overlay：--max 5 小批试正常（约 20s/条）→ 全量跑到第 65 条后 SIGINT 停，accept **43**，其余保留 HTL 原文。SIGINT 打断了退出时的 CDP 还原，已手动导回 x.com/home；--merge-only 采纳 1 条落盘 OK。
+- depollute restored**4**（自动 2 + 人工 2：thsottiaux / paulg / Austen 回复或续帖落到父帖，XFreeze 帖落到 X 自动中文翻译；全部回退）。
+- 窗类 正文**31** / 拿不准**8** / 已过滤**85**；miss**0**（_class16_plan.json，见 16-class-manual.md）。
+- 页 10-07：**68 / 37 / 338**（原 52/29/253）。新卡 16（Claude Haiku 5.5 六帖并卡、GPT-6 进 ChatGPT Intelligent UI、Codex 4000 万活跃送重置卡、计费系统替换案例、给业务团队推 AI、Factory × Jira、Cursor 公开用量页、Every Agent 盯会议纪要、HQ Bots、Grok Bot 主动提醒更新、Halo OpenCE、Every 用 Dots 一周、后台文案提示词、prompt-motion.com、Codex Cloud × Tailscale、Raycast Windows）；补进已有卡 2（Grok Bot 路由 Musk 补充、OpenAI 数学）。
+- 三条只有引子、正文在线程或 X 文章里没取到的（Grok Bot 当 CFO 7 条提示词、GPT-6 vs Opus 10 demo、Claude 卡通讲解视频）进拿不准，不发明。t.co 经 curl 302 解析写入 16-tco.json。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site==live **41432831**；public tip **7dae0bc**；index 按设计仍指 10-06。聊天交付 pending_parent。
