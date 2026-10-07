@@ -5402,3 +5402,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-07 08:10 ET 补抓
 - deferred_to_main：补抓 ~08:14 ET 起初查无 08-claim，后台等到 ~08:18 ET 08 主窗 c3a32b9b 认领 in_progress（sched 08:05 迟到 ~12min，HTL 已起）。04 窗 gap closed 无 hole；watchdog exit 0；未重抓、不抢 CDP、无官方 X API；cursor 仍 @430Yang 2107745057574944836；证据 raw/2026-10-07/08-10-catchup.md。写于 2026-10-07 20:20 CST
+
+## 2026-10-07 08:00 ET 主窗
+
+- fire ~08:17 ET（sched 08:05，late ~12min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。08:10 补抓 deferred_to_main。
+- 先 HTL（hard reload）再 DOM：HTL **93** HIT CURSOR，DOM 20（全在 HTL 内）。这次 HTL 一次成功，没再卡「时间线」浮层。
+- union **93**；gap≈**12.02**min closed；游标 @430Yang 2107745057574944836 → **@servasyy_ai 2107807069881700792**（12:15:41Z）。
+- overlay：先 --max 5 小批试，status 页正常 → 全量。accept**83** / reject_href**10**（保留 HTL）/ fail**0**；本窗没再出现 status 页只剩启动画面。
+- depollute restored**12**（自动 8 + 人工 4：berryxia、cgnot996、bearliu、yanhua1010 的回复帖落到父帖 / 同作者别帖 / 被回复的声明中译，全部回退 HTL）。
+- 窗类 正文**23** / 拿不准**8** / 已过滤**62**；miss**0**（_class08_plan.json，见 08-class-manual.md）。
+- 页 10-07：**37 / 21 / 151**（原 21/13/89）。新卡 16（Harness 成功≠模型成功、agentic 组织七阶段、Grok Bot+Orca+Tailscale+Claude Code、播客转文章 skill、Grok Bot 12 小时要闻、X 评论区 @bot、dsh-im、Seedance 响指提示词、Wails、Toolify 内链 SEO、native-subtitle-quote-image、Paseo、成本保险丝并卡、SpaceXAI 免费直播课、视频章节导航 skill、omarchy-apple-dev）；补进已有卡 4（OpenAI 数学 722 篇 + openai/math、ChatGPT 发送键更新 App、Grok Bot 路由现状、qiaomu 插件上架）。
+- 三篇 X 文章正文没取到，进拿不准或只写标题，不发明。Muse 邀请码站、Saily 邀请注册不上页。omarchy 帖 article_title 被 ship.sh 自动链接卡片污染（航运媒体标题），卡片正文手写、未用该标题。t.co 经 curl 302 解析写入 08-tco.json。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（08-qa.png）。md5 门禁 root==days==site==live **5b34fbc9**；public tip **801982c**；index 按设计仍指 10-06。聊天交付 pending_parent。
