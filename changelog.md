@@ -5526,3 +5526,14 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - ② 补全文降级：tools/overlay_resume.py 加 --item-timeout（默认 20s）/ --budget-min（默认 20min）/ --splash-stop（默认 3），环境变量可覆盖；任一触发干净停止、其余保留 HTL 原文、退出码 0；转帖重定向早退；写 <HH>-overlay-stats.json 并更新 meta 的 overlay_fill_rate 行；watchdog 文档同步。test_overlay_id_gate.py + 模板 smoke 全 PASS。playbook 新增「补全文降级规则」段。
 - ③ CDP :9226 健康探测规则写进 playbook（挂了且无窗口在跑 → 原 chrome-profile 拉起；splash 连续可两窗之间重启一次；不清 cookie、不重登）。
 - ④ publish_main_window.py 去掉 task-board.md（并 assert）；公开库 x-following 当前版本 git rm task-board.md（commit **c6f5f3c**，只删当前、不改历史、未 force push）；Pages 首页/10-08 页 200，task-board.md 404，10-08 live==local。
+
+## 2026-10-08 16:00 ET 主窗（c3a32b9b full_main）
+
+- fire ~17:04 ET（sched 16:05，late ~59min）。CDP :9226 在线（原 chrome-profile），login_ok，无 AUTH_FAIL；playwright orphan 未杀；未清 cookie、未重登；未碰 for-you/explore；无官方/付费 X API。
+- 先 HTL（hard reload Latest）再 DOM：HTL **81** HIT CURSOR（tweet-2108256069109584074），DOM **12**；union **88**（DOM-only 7，与 12.jsonl overlap=0）。
+- hit_cursor true，hit_cursor_effective true；gap≈**6.6**min closed；游标 @elonmusk 2108256069109584074 → **@KSimback 2108302066217312516**（21:02:37Z）。
+- overlay（降级规则）：--max 5 试 → 全量默认 20s/20min/splash3，**completed** 85/85；accept **56** / reject_href **32** / 未尝试 0 / fail 0；splash 0；**补全率 56/88 = 63.6%**；CDP 还原 home。
+- depollute restored **1**（@pvncher 被写成 Day4 文回退 HTL）；窗类 正文**18** / 拿不准**6** / 已过滤**64**；miss**0**（_class16_plan.json，见 16-class-manual.md）。Starlink Mobile / 万亿富翁等产业杂闻从正文降为已过滤。
+- 页 10-08：**77 / 29 / 470**（原 64/23/406）。新卡 13（Grok Bot 四人团队、李小龙三步法提示词、agent harness 架构、Claude Code 作者提示词写法、Every agent 省 token、Grok Bot 剪视频、Amazon 禁 agent 窗口、Claude Dashboards/Motion、Codex auto-review policy、LLM 超顶尖专家、GPT-6.1 Sol Ultrafast+Day4 steering、nikitabier GTA 超级提示词、ChatGPT Finances 审计交易）；补进已有卡 2（Grok Bot 手机 App；Shopify connector / 新 business connectors）。
+- 拿不准 6：Instinct 护城河、SaaS 雪茄屁股、Cursor /visualize、语音 vibe coding、蓝 V 额度池愿望、Grok 4.7 法律榜。不发明。
+- QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site==live **92ee07b0**；public tip **9c472f4**；index 按设计仍指 10-07；rec_ideas skipped。聊天交付 pending_parent。
