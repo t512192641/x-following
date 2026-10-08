@@ -1355,7 +1355,7 @@
 - [x] 2026-09-25 17:25 ET 健康检查（~17:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；chat t42s448 delivered；16:10 deferred_to_main complete；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim/20.jsonl（约 +145min 未到期）；escalate no；stay_quiet。  2026-09-26 05:35 CST
 
 ## 2026-09-25 16:25 ET health check
-- [x] 2026-09-25 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +3min）：quiet_ok true；无 overdue 主缺口（16 scrape-meta gap_open false）；最近完成窗 **16:00** 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34 miss0；depollute0；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；QA pass；16-meta/claim complete；chat 已交（10-08 12:44 CST）（主窗交付中）；16:10 deferred；lists Sep25 done not rerun；20:00 未到期（约 +212min）；overlay 拒写同前不升；escalate no；stay_quiet。  2026-09-26 04:29 CST
+- [x] 2026-09-25 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +3min）：quiet_ok true；无 overdue 主缺口（16 scrape-meta gap_open false）；最近完成窗 **16:00** 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34 miss0；depollute0；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；QA pass；16-meta/claim complete；chat pending_parent（主窗交付中）；16:10 deferred；lists Sep25 done not rerun；20:00 未到期（约 +212min）；overlay 拒写同前不升；escalate no；stay_quiet。  2026-09-26 04:29 CST
 
 ## 2026-09-25 16:00 ET
 
@@ -5510,3 +5510,19 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8 已齐不补跑；健康检查**不对主窗扩大重跑**/不抢 CDP/不走付费 X API
 - escalate: **yes** → 幕僚长任务卡（交 16:00/16:10 兜底或父代理接管 full_main）
 - recorded: 2026-10-09 02:00 CST
+
+## 2026-10-08 12:00 ET 主窗（父代理接管 full_main；主窗 failed 后经幕僚长批准接管）
+
+- 背景：12:00 主窗 c3a32b9b 与 12:10 补抓 cdf0cd43 均平台 failed、零磁盘产物（13:25 健康检查 escalate）。幕僚长 grok大总管 拍板 ① 选 (2)：父代理立即 full_main 接管，从游标抓到当前，不攒给 16:00。巡舟 executor 2026-10-09 02:05 CST（~14:05 ET）写有效 12-claim（takeover by parent per 幕僚长）。
+- CDP :9226 在线（原 chrome-profile），login_ok，无 AUTH_FAIL；未清 cookie、未重登；未碰 for-you/explore；无官方/付费 X API。
+- 先 HTL（hard reload）再 DOM：HTL **229** HIT CURSOR（home-conversation-2108169365619433942），DOM 56；union **237**；gap≈**1.6**min closed；游标 @alex_prompter 2108169365619433942 → **@elonmusk 2108256069109584074**（17:59:51Z = 13:59 ET）。本窗覆盖 12:15Z→17:59Z 约 5.7h。
+- overlay（首次按补全文降级规则执行）：--max 5 试 → 全量 --budget-min 19，188/234 时预算用尽干净停止；accept **144** / reject_href **49**（转帖/回复重定向到原帖，ID 门禁拒写）/ 未尝试 44（保留时间线原文）/ fail 0；splash 0；**补全率 144/237 = 60.8%**；CDP 还原 home。
+- depollute restored **11**（自动指纹）；窗类 正文**41** / 拿不准**10** / 已过滤**186**；miss**0**（_class12_plan.json，见 12-class-manual.md）。
+- 页 10-08：**64 / 23 / 406**（原 42/13/220）。新卡 22（Anthropic 使用政策、Voyager、Anthropic 81% vs 0.3%、蓝 V 含 Cursor 共用额度池、REA、SaaS SEO PlayBook、Claude Max/Team 每月 API 额度、Intelligent UI 用法、Grok Bot 接 Shopify、PM 用 Claude 约访谈、Grok Bot 上线清单、Grok Bot 做 Slides、Notion 建站 7 款、Odamex→WASM、Step 5 Preview 免费一周、gstack、Adam 提示词三则、Halo OpenCE、不自托管 Postgres、Monid、FDE 获客、vibe-coded app 10 个法律坑）；补进已有卡 7（数据地基、小小东 VOL.341、Haiku 5.5 价格、GLM-5.3-Flash 本地、OpenAI 数学、Grok Bot 邮箱、Grok Bot 接微信）。
+- QA pass clippedBtns 0（12-qa.png）。md5 门禁 root==days==site==live **51f168ff**；public tip **c0f20bd**；index 按设计仍指 10-07。聊天交付 已交（10-09 02:33 CST）。
+
+## 2026-10-09 幕僚长拍板落地（②③④）
+
+- ② 补全文降级：tools/overlay_resume.py 加 --item-timeout（默认 20s）/ --budget-min（默认 20min）/ --splash-stop（默认 3），环境变量可覆盖；任一触发干净停止、其余保留 HTL 原文、退出码 0；转帖重定向早退；写 <HH>-overlay-stats.json 并更新 meta 的 overlay_fill_rate 行；watchdog 文档同步。test_overlay_id_gate.py + 模板 smoke 全 PASS。playbook 新增「补全文降级规则」段。
+- ③ CDP :9226 健康探测规则写进 playbook（挂了且无窗口在跑 → 原 chrome-profile 拉起；splash 连续可两窗之间重启一次；不清 cookie、不重登）。
+- ④ publish_main_window.py 去掉 task-board.md（并 assert）；公开库 x-following 当前版本 git rm task-board.md（commit **c6f5f3c**，只删当前、不改历史、未 force push）；Pages 首页/10-08 页 200，task-board.md 404，10-08 live==local。
