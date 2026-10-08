@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @elonmusk
-- status_id: 2107926260668354994
-- url: https://x.com/elonmusk/status/2107926260668354994
-- time_utc: 2026-10-07T20:09:18.000Z
-- updated_from: 2026-10-07 16:00 ET (c3a32b9b full_main)
+- handle: @derrickcchoi
+- status_id: 2107987327209689453
+- url: https://x.com/derrickcchoi/status/2107987327209689453
+- time_utc: 2026-10-08T00:11:57.000Z
+- updated_from: 2026-10-07 20:00 ET (c3a32b9b full_main)

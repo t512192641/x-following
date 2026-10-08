@@ -5444,3 +5444,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 10-07：**68 / 37 / 338**（原 52/29/253）。新卡 16（Claude Haiku 5.5 六帖并卡、GPT-6 进 ChatGPT Intelligent UI、Codex 4000 万活跃送重置卡、计费系统替换案例、给业务团队推 AI、Factory × Jira、Cursor 公开用量页、Every Agent 盯会议纪要、HQ Bots、Grok Bot 主动提醒更新、Halo OpenCE、Every 用 Dots 一周、后台文案提示词、prompt-motion.com、Codex Cloud × Tailscale、Raycast Windows）；补进已有卡 2（Grok Bot 路由 Musk 补充、OpenAI 数学）。
 - 三条只有引子、正文在线程或 X 文章里没取到的（Grok Bot 当 CFO 7 条提示词、GPT-6 vs Opus 10 demo、Claude 卡通讲解视频）进拿不准，不发明。t.co 经 curl 302 解析写入 16-tco.json。rec_ideas skipped（非 20:00）。
 - QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site==live **41432831**；public tip **7dae0bc**；index 按设计仍指 10-06。聊天交付 pending_parent。
+
+## 2026-10-07 20:00 ET 主窗
+
+- fire ~20:13 ET（sched 20:05，late ~8min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。20:10 补抓 deferred_to_main。
+- 先 HTL（hard reload）再 DOM：HTL **89** HIT CURSOR，DOM 10（全在 HTL 内）。
+- union **89**；gap≈**1.03**min closed；游标 @elonmusk 2107926260668354994 → **@derrickcchoi 2107987327209689453**（00:11:57Z = 20:11:57 ET）。
+- overlay：--max 5 小批试正常（约 17s/条）→ 全量（timeout -s INT 20 分钟）跑到 84/86。accept**60** / 仍 REJECT**29**（多为转发帖落到原帖，保留 HTL）/ fail**0**；CDP 已还原 home。
+- depollute restored**9**（自动 4 + 人工 5：bcherny、GrokBotRadar、maddiedreese 回复/续帖落到父帖回退 HTL；levelsio 两条 article_text 是 Quake 链接卡片，清空）。yibie 三帖 article_title 是 GitHub/OpenAI 文档链接卡片标题，merge 时不拼进正文。
+- 窗类 正文**23** / 拿不准**7** / 已过滤**59**；miss**0**（_class20_plan.json，见 20-class-manual.md）。
+- 页 10-07：**87 / 44 / 397**（原 68/37/338）。X 新卡 9（Grok Bot 内置 X 搜索、Primary Bot、Decisions API 详解、yibie 两份 awesome 巡检、PM 用 Claude 约访谈、写代码便宜≠决策便宜、PE 医保理赔 agent 案例、Instagram 美国受众、Higgsfield Ad Multiplier）；补进已有卡 3（Haiku 5.5、GPT-6 Intelligent UI、Grok Bot 12 小时要闻）。
+- rec_ideas：recommended 2026-10-07 共 9 条，新卡 6（ChatGPT 插件扩展并 pvncher 帖、Mistral Large 4、Anthropic 网络验证三档、PivotOPD、GitHub 日榜、Chollet），并进已有卡 3（Haiku 5.5、GPT-6、EmbeddingGemma 2）；ideas 2026-10-07 共 4 条进「脑洞」组。
+- 被引帖/线程/图里内容没取到的进拿不准，不发明（levelsio 旅行站、Grok Bot 后台 10 提示词、Factory 加入聊天、elvissun CI 脚本等）。t.co 经 curl 302 解析写入 20-tco.json。
+- QA pass clippedBtns 0（20-qa.png）。md5 门禁 root==days==site==live **aea021af**；public tip **3eb1284**；index 按设计仍指 10-06。聊天交付 pending_parent。
