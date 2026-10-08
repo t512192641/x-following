@@ -1337,7 +1337,7 @@
 - [x] 2026-09-25 21:25 ET 健康检查（~21:26 ET 正点火，sched :25，约 +1min）：quiet_ok true；无 overdue 主缺口；20:00 页 live 正文76/拿不准35/已过滤323 raw union101 overlay46/55/0 窗类18/8/75；gap≈6.38min closed；cursor @derrickcchoi 2103638975026176081；Pages 200 md5 acc54141 live=local；chat t42s449；20:10 deferred；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；00:00 未到期（约 +154min）；escalate no；stay_quiet。  2026-09-26 09:26 CST
 
 ## 2026-09-25 20:00 ET main
-- [x] 2026-09-25 20:00 ET 主窗完成：union101（DOM24∪HTL99）overlay accept46/reject_href55 fail0；depollute5；窗类18/8/75 miss0；页09-25 **76/35/323**；gap≈6.38min closed；hit_cursor_effective true；cursor @thejustinwelsh → @derrickcchoi 2103638975026176081；**并 recommended+ideas 2026-09-24**（rec10+ideas3）；QA pass clippedBtns0；chat pending_parent；next 2026-09-26 00:00 ET；escalate no。  2026-09-26 08:46 CST
+- [x] 2026-09-25 20:00 ET 主窗完成：union101（DOM24∪HTL99）overlay accept46/reject_href55 fail0；depollute5；窗类18/8/75 miss0；页09-25 **76/35/323**；gap≈6.38min closed；hit_cursor_effective true；cursor @thejustinwelsh → @derrickcchoi 2103638975026176081；**并 recommended+ideas 2026-09-24**（rec10+ideas3）；QA pass clippedBtns0；chat 已交（10-08 08:41 CST）；next 2026-09-26 00:00 ET；escalate no。  2026-09-26 08:46 CST
 
 ## 2026-09-25 20:10 ET 补抓
 - deferred_to_main：主窗 20:00 in_progress（c3a32b9b ~20:14 ET；尚无 20-claim/jsonl；CDP 留给主窗）；cursor still @thejustinwelsh 2103577820177793352；16 页 live 46/27/248 md5 5d295e7b；rec/ideas 09-24 交主窗并；未重抓不抢 CDP；escalate no。
@@ -5457,3 +5457,19 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - rec_ideas：recommended 2026-10-07 共 9 条，新卡 6（ChatGPT 插件扩展并 pvncher 帖、Mistral Large 4、Anthropic 网络验证三档、PivotOPD、GitHub 日榜、Chollet），并进已有卡 3（Haiku 5.5、GPT-6、EmbeddingGemma 2）；ideas 2026-10-07 共 4 条进「脑洞」组。
 - 被引帖/线程/图里内容没取到的进拿不准，不发明（levelsio 旅行站、Grok Bot 后台 10 提示词、Factory 加入聊天、elvissun CI 脚本等）。t.co 经 curl 302 解析写入 20-tco.json。
 - QA pass clippedBtns 0（20-qa.png）。md5 门禁 root==days==site==live **aea021af**；public tip **3eb1284**；index 按设计仍指 10-06。聊天交付 pending_parent。
+
+## 2026-10-08 00:10 ET 补抓
+- deferred_to_main：补抓 ~00:10 ET 火（准时），00 主窗 c3a32b9b 已于 ~00:08 ET 认领 in_progress；HTL174 HIT CURSOR（gap≈7.4min closed），DOM 抓取进行中。20 窗 gap closed 无 hole；watchdog exit 0（00 窗 alive）；rec_ideas 无新期；未重抓、不抢 CDP、无官方 X API；cursor 仍 @derrickcchoi 2107987327209689453；证据 raw/2026-10-08/00-10-catchup.md。
+
+## 2026-10-08 00:00 ET 主窗（交 10-07 完整版）
+
+- fire ~00:08 ET（sched 00:05，late ~4min）。CDP :9226 在线，login_ok，无 AUTH_FAIL。00:10 补抓 deferred_to_main。
+- 先 HTL（hard reload）再 DOM：HTL **174** HIT CURSOR（翻一页撞到游标），DOM 41（全在 HTL 内）。
+- union **174**；gap≈**4.4**min closed；游标 @derrickcchoi 2107987327209689453 → **@lxfater 2108047175548858442**（04:09:46Z）。CUTOFF 04:00Z：pre 169 → 10-07，after 5 → 10-08 薄种子。
+- overlay：--max 5 小批试正常（约 9s/条）→ 全量 timeout -s INT 1500s 跑到 125/170 停。accept **110** / 仍 REJECT 64（多为转发帖落到原帖，或未轮到，保留 HTL）/ fail 0；--merge-only 无新增；CDP 在 x.com/home。
+- depollute restored **14**（自动 9 + 人工 5）：lxfater 回复 servasyy_ai 的帖被写成父帖 F1 长文、chuhaiqu / yanhua1010 只带链接的自回复被写成主帖、paulg 三连帖互串；人工回退 cellinlab / cgnot996 回复、app_sail「报名地址」、gkxspace 链接帖、bcherny 续帖。cgnot996 X 文章帖落地 ID 正确、引子与文章标题一致，保留。
+- 窗类 正文**43** / 拿不准**9** / 已过滤**122**；miss**0**（_class00_plan.json，见 00-class-manual.md）。pre：41/9/119；after：2/0/3。
+- 10-07 完整页：**106 / 53 / 516**（原 87/44/397）。新卡 19（F1 浏览器游戏 Astra+Tripo 四步、免费试用期与 Freemium/Trial、AI Passport Muse 固件、把人当 skill 调用、GEO 实操三帖并卡、Cloudflare Web Search API、Cloudflare Clef、Hark Pro、World Labs Atlas/Chisel、Next Token 第五期三帖并卡、dreampaper、lanshu 讲解视频、Cloudflare 账单审计提示词 + 一万刀案例、更新速递 Bot、Muse 上 iPad、Grok Bot 宣传片提示词、OSC 7501、Kaku、Bites vs DoorDash）；补进已有卡 5（Grok Bot 读 X 六帖、Haiku 5.5 的 Max/Team API 额度领取与国产对比、GPT-6 Intelligent UI 复盘与示例提示词、Codex 重置卡到账、xiaoxiaodong 新提示词链接）。
+- 拿不准 9：PandaTalk8「AI 列 100 方案」、PayPal 教程视频、Claude 分流规则（域名被 t.co 改写）、三篇 X 文章正文未取到（Codex+Blender 白模、品牌视觉、小红书冷启动）、Tibo 访谈摘要、TanStarter 迁移、Cindy 推荐。不发明。
+- 10-08 薄种子 2/0/3（不聊天交付）；index → 10-07。t.co 经 curl 302 解析写入 00-tco.json（117 条全部解析）。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。聊天交付 pending_parent。
