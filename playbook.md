@@ -55,6 +55,15 @@
   4. 新窗的 `_mergeHH.py` 必须以 `raw/2026-10-04/_merge12.py` 末尾的 md5 门禁片段结尾（root==days，否则 SystemExit）。
   5. routine saved prompt 在服务器上，脚本不能改它；x-3 prompt 需有人加一句：「健康检查开头先跑 `resume_overlay_watchdog.py --check`，退出码 10 则 `--run` 续跑，不再等幕僚长拍板」。
 
+- **补全文（overlay）降级规则（2026-10-09 幕僚长批准；10/7–10/8 大窗补全文停死/splash 后）**：
+  1. `tools/overlay_resume.py` 默认带三道闸，可配置：单条超时 `--item-timeout`（默认 **20s**，含导航+等待渲染+重试）；每窗总预算 `--budget-min`（默认 **20 分钟**）；连续 splash 不渲染 `--splash-stop`（默认 **3** 条）。环境变量 `OVERLAY_ITEM_TIMEOUT` / `OVERLAY_BUDGET_MIN` / `OVERLAY_SPLASH_STOP` 可覆盖。
+  2. 任一触发 → **干净停止补全**（flush 写回 + CDP 还回 x.com/home），剩下的保留 HTL/DOM 时间线原文，**退出码 0，不算失败**，照常 depollute → 全量分类（miss=0）→ merge → QA → md5 门禁 → 发布 → 交付。
+  3. 转帖/回复落地被重定向到别的 status 时早退（仍按 ID 门禁拒写 `overlay_reject_*`），不空等超时。
+  4. **补全率写进 meta**：脚本写 `raw/<date>/<HH>-overlay-stats.json`（accepted/total、fill_rate_pct、attempted、timeouts、splash_items、stop_reason），并在 `<HH>-meta.md` 已存在时更新 `- overlay_fill_rate:` 一行；收口写 meta 时必须带这一行。
+  5. 大窗（积压多小时）也照此执行：不攒窗、不硬撑。ID 门禁（status_id 验收、拒 explore/for-you）不变，`tools/test_overlay_id_gate.py` 必须 PASS。
+- **CDP :9226 健康探测（2026-10-09 幕僚长批准）**：健康检查顺手探 `curl -s -m5 http://127.0.0.1:9226/json/version`；挂了且当前没有窗口在跑 → 用原 profile 拉起（`google-chrome --remote-debugging-port=9226 --user-data-dir=/home/box/chrome-profile --no-first-run --no-default-browser-check`）。连续出现 splash 时也可在两窗之间重启一次。**不清 cookie、不重新登录**。
+- **task-board.md 不进公开库（2026-10-09 幕僚长拍板）**：`publish_main_window.py` 已去掉 task-board.md；公开库当前版本已 `git rm`（只删当前、不改历史、不 force push）。任务清单只同步 grok-ops。
+
 
 ## 存档（不许丢原文）
 

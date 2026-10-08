@@ -1381,7 +1381,7 @@
 - deferred_to_main：主窗 12:00 in_progress（union96 overlay~31/96 accept≈10/reject_href≈21）；gap≈1.58min gap_open false；未重抓不抢 CDP；交付交主窗。
 
 ## 2026-09-25 12:00 ET
-- 主窗 complete：union96（DOM22∪HTL91）overlay accept23/reject_href73 fail0；depollute restored3；窗类正文15/拿不准7/已过滤74 miss0；页09-25 **36/21/214**；gap≈1.58min closed；hit_cursor_effective true；cursor @KSimback 2103457592882204780 → @geekbb **2103515590174626259**；skip rec/ideas；QA pass clippedBtns0；chat pending_parent；next 16:00 ET；escalate no。
+- 主窗 complete：union96（DOM22∪HTL91）overlay accept23/reject_href73 fail0；depollute restored3；窗类正文15/拿不准7/已过滤74 miss0；页09-25 **36/21/214**；gap≈1.58min closed；hit_cursor_effective true；cursor @KSimback 2103457592882204780 → @geekbb **2103515590174626259**；skip rec/ideas；QA pass clippedBtns0；chat 已交（10-08 20:51 CST）；next 16:00 ET；escalate no。
 
 
 ## 2026-09-25 11:25 ET health check
@@ -5500,3 +5500,13 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 拿不准 9：B 站以 AI 违规退回视频（平台收紧观察）、cellinlab 转品牌视觉提示词（线程未取到）、WorkBuddy X 文章（正文未取到）、alex_prompter 后台运营经理 10 提示词/CFO 7 提示词/马斯克五步算法提示词（提示词均在线程未取到）、foxshuo 各模型预测诺奖（娱乐）、bearliu「用 AI 工作人是瓶颈」经验、yangyi 本地模型 100+ token/s。不发明。
 - t.co 经 curl 302 解析写入 08-tco.json（42 条）。rec_ideas skipped（非 20:00）。
 - QA pass clippedBtns 0（08-qa.png）。md5 门禁 root==days 本地通过（3937c437）。index 按设计仍指 10-07。聊天交付 pending_parent（本自动化 run 结束时交父代理 WakeParent）。
+
+# 2026-10-08 13:25 ET · 健康检查 escalate（12 主窗+补抓双平台 failed）
+
+- automation: **960034de** x-3（fired ~13:56 ET；sched 13:25 late ~31min）
+- quiet_ok: **false**；watchdog exit 0（无停死 overlay）
+- 最近完成窗 **08:00** 页 10-08 **42/13/220** tip **0f98f6c** md5 **3937c437** live==local chat ✅；cursor @alex_prompter 2108169365619433942
+- **调度漏叫 / 平台 failed**：12:00 主窗 c3a32b9b failed 且零磁盘产物；12:10 补抓 cdf0cd43 failed 无 evidence；10:25/11:25/12:25 健康检查本地无新条
+- lists Oct8 已齐不补跑；健康检查**不对主窗扩大重跑**/不抢 CDP/不走付费 X API
+- escalate: **yes** → 幕僚长任务卡（交 16:00/16:10 兜底或父代理接管 full_main）
+- recorded: 2026-10-09 02:00 CST
