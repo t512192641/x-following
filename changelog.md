@@ -1359,7 +1359,7 @@
 
 ## 2026-09-25 16:00 ET
 
-- 主窗完成：union52（DOM10∪HTL51）overlay accept18/reject_href34 fail0（含 clear-tab 续跑 +14）；depollute restored0；窗类正文12/拿不准6/已过滤34 miss0；页09-25 正文46/拿不准27/已过滤248；gap≈0.48min closed；hit_cursor_effective true；cursor @geekbb 2103515590174626259 → @thejustinwelsh 2103577820177793352；skip rec/ideas；QA pass clippedBtns0；chat_line pending_parent；next 20:00 ET。
+- 主窗完成：union52（DOM10∪HTL51）overlay accept18/reject_href34 fail0（含 clear-tab 续跑 +14）；depollute restored0；窗类正文12/拿不准6/已过滤34 miss0；页09-25 正文46/拿不准27/已过滤248；gap≈0.48min closed；hit_cursor_effective true；cursor @geekbb 2103515590174626259 → @thejustinwelsh 2103577820177793352；skip rec/ideas；QA pass clippedBtns0；chat_line 已交（10-08 16:48 CST）；next 20:00 ET。
 - anomaly：overlay explore/for-you 拒写门禁（reject_href34 保留 HTL）；不升幕僚长。
 
 ## 2026-09-25 16:10 ET 补抓
@@ -5486,4 +5486,17 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 10-08：**25 / 4 / 118**（原薄种子 2/0/3）。新卡 23：Stripe 500 美元免手续费额度、姚金刚 17 套知识付费提示词、VSC 开源专区 6 个创作工具、本地跑 Qwen3.8-flash 实测、GLM-5.3-Flash 两张 V100、Cloudflare 万刀账单设预算警报、小小东 Chrome 待办插件、Codex Cloud 悄悄重新上线、Flash Mask、Omia 线条演示、CC Switch 大重构（两帖并卡）、Grok Bot 内置 X 数据用法（6 帖并卡，含 Agent Tincan）、Grok Bot X scan 按图搜梗、Grok Bot 邮箱 + Hermes Agent 邮件互派任务、Grok Bot 手机版、Haiku 5.5 vs DeepSeek Flash 价格对算、宝玉 Fable 当 Tech Lead、先让模型教你再动手、Seedance 2.5 超能力提示词、magpie context 拆解、乔木剪藏音视频下载；新的一天再提 2（engineering-review-board、Landing Page）。
 - 拿不准 4：alex_prompter「Claude Code 作者三件事 + 7 条提示词」（提示词在线程未取到）、berryxia Opus 5.5 工厂 Three.js 展示、Deedy agent 要航司退款、XiaohuiAI666 X 文章（正文未取到）。不发明。Xpass、Next Token、elvissun CI 脚本重复进已过滤。CC Switch 原帖是长帖，只取到第 1 条改动，卡里注明。
 - t.co 经 curl 302 解析写入 04-tco.json（66 条，另合并 HTL 原文里的 t.co）。rec_ideas skipped（非 20:00）。
-- QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days 通过 **9bd2f25a**。index 按设计仍指 10-07。聊天交付 pending_parent。
+- QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days==site==live **9bd2f25a**；public tip **6d3a1da**；index 按设计仍指 10-07。聊天交付 pending_parent。
+
+## 2026-10-08 08:00 ET 主窗（10-08 第二版）
+
+- fire ~08:13 ET（sched 08:05，late ~8min）。CDP :9226 在线（04 窗自拉的 chrome-profile 仍在），login_ok，无 AUTH_FAIL。本窗无 :10 补抓单独记录。
+- 先 HTL（hard reload）再 DOM：HTL **135**（翻页第 0 页撞 403，init+s0 已覆盖该窗范围），DOM **48**；union **141**（DOM-only 6）。
+- hit_cursor false（游标帖本身被过滤），**hit_cursor_effective true**（gap≈**2.02**min ≤45，无 hole）；游标 @430Yang 2108107695727219112 → **@alex_prompter 2108169365619433942**（12:15:19Z）。
+- overlay：--max 5 小批试正常（~3s/条）→ 全量 timeout -s INT 1500s **跑完全部**。accept **122** / 仍 REJECT **19**（reject_href 0，均为转发/回复落到原帖的 id_mismatch，保留 HTL/DOM）/ fail 0；CDP 还原 home。
+- depollute restored **13**（自动指纹）：lxfater 赛车文、op7418 早报文、cnyzgkc 3D 文、foxshuo 诺奖文、wlzh/cellinlab 等被 overlay 串到相邻回复的回退 HTL/DOM。核查发现 alex_prompter 睡觉找工作线程里 2108169365619433942 实为 newsletter CTA、lxfater 2108166863188607427 实为 @cellinlab 回复 → 二者改判已过滤。suspects_after 0。
+- 窗类 正文**30** / 拿不准**9** / 已过滤**102**；miss**0**（_class08_plan.json，见 08-class-manual.md）。
+- 页 10-08：**42 / 13 / 220**（原 25/4/118）。新卡 17：alex_prompter 睡觉找工作（取到开头+step5 追进度提示词，1-4 步未取到）、lxfater 本地千亿模型做四驱兄弟 3D 赛车（Tripo3D 车模→Godot）、vista8 AI 语音输入硬件（小米遥控器2 Pro + 开源无线麦 + Codex 装）、alex_prompter PCI 下 PE 支付公司搭 AI 数据地基案例、op7418 Grok Bot 云端定时出 AI 早报视频（附提示词）、op7418 邪修额度玩法（闲置 Code plan 额度配给 bot）、cgnot996 调本机 Opus 5.5 做《玄帝宫》MV（muse2api）、xiaohongshu-mcp（1.6万star）、小小东 GPT-image 美学提示词（二十四节气全文 + VOL.072/250 repo）、berryxia RSIGym（Evolvent AI 开源递归自我改进研究环境）、yanhua1010 ARTEX 开源渗透 Agent 打穿韩国银行、Grok Bot 接入微信（Kin 保姆级教程 + ClawBot 收不到转发）、Grok Bot X 搜索额度说明（30min/30 次、日 1000、搜读共用、25 条/页）、MoneyPrinterTurbo（12.9万star 短视频印钞机）、Gemini 4 编程未全面领先评测、GrokBotRadar「最好的 Bot 别设 primary，加星当前门」、Codex 经 USB 操控真 iPhone（WebDriverAgent + 17 工具 MCP）。
+- 拿不准 9：B 站以 AI 违规退回视频（平台收紧观察）、cellinlab 转品牌视觉提示词（线程未取到）、WorkBuddy X 文章（正文未取到）、alex_prompter 后台运营经理 10 提示词/CFO 7 提示词/马斯克五步算法提示词（提示词均在线程未取到）、foxshuo 各模型预测诺奖（娱乐）、bearliu「用 AI 工作人是瓶颈」经验、yangyi 本地模型 100+ token/s。不发明。
+- t.co 经 curl 302 解析写入 08-tco.json（42 条）。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（08-qa.png）。md5 门禁 root==days 本地通过（3937c437）。index 按设计仍指 10-07。聊天交付 pending_parent（本自动化 run 结束时交父代理 WakeParent）。
