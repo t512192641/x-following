@@ -1355,7 +1355,7 @@
 - [x] 2026-09-25 17:25 ET 健康检查（~17:34 ET 正点迟到火，sched :25，约 +9min）：quiet_ok true；无 overdue 主缺口；16:00 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；chat t42s448 delivered；16:10 deferred_to_main complete；lists Sep25 done 155/@HiTw93 + Mileson07/172 not rerun；20:00 未见 20-claim/20.jsonl（约 +145min 未到期）；escalate no；stay_quiet。  2026-09-26 05:35 CST
 
 ## 2026-09-25 16:25 ET health check
-- [x] 2026-09-25 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +3min）：quiet_ok true；无 overdue 主缺口（16 scrape-meta gap_open false）；最近完成窗 **16:00** 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34 miss0；depollute0；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；QA pass；16-meta/claim complete；chat pending_parent（主窗交付中）；16:10 deferred；lists Sep25 done not rerun；20:00 未到期（约 +212min）；overlay 拒写同前不升；escalate no；stay_quiet。  2026-09-26 04:29 CST
+- [x] 2026-09-25 16:25 ET 健康检查（~16:28 ET 正点迟到火，sched :25，约 +3min）：quiet_ok true；无 overdue 主缺口（16 scrape-meta gap_open false）；最近完成窗 **16:00** 页 live 正文46/拿不准27/已过滤248 raw union52 overlay accept18/reject_href34 fail0 窗类12/6/34 miss0；depollute0；gap≈0.48min closed；hit_cursor_effective true；cursor @thejustinwelsh 2103577820177793352；git tip public adb9d4a（grok-ops 051e813）；Pages HTTP 200 md5 5d295e7beb2589f64dd4bc03d5a024b6 live=local；QA pass；16-meta/claim complete；chat 已交（10-08 12:44 CST）（主窗交付中）；16:10 deferred；lists Sep25 done not rerun；20:00 未到期（约 +212min）；overlay 拒写同前不升；escalate no；stay_quiet。  2026-09-26 04:29 CST
 
 ## 2026-09-25 16:00 ET
 
@@ -5473,3 +5473,17 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 拿不准 9：PandaTalk8「AI 列 100 方案」、PayPal 教程视频、Claude 分流规则（域名被 t.co 改写）、三篇 X 文章正文未取到（Codex+Blender 白模、品牌视觉、小红书冷启动）、Tibo 访谈摘要、TanStarter 迁移、Cindy 推荐。不发明。
 - 10-08 薄种子 2/0/3（不聊天交付）；index → 10-07。t.co 经 curl 302 解析写入 00-tco.json（117 条全部解析）。rec_ideas skipped（非 20:00）。
 - QA pass clippedBtns 0（00-qa.png）。md5 门禁 root==days 通过。聊天交付 pending_parent。
+- 发布：10-07 页 + index tip **7f33cd2**，md5 root==days==site==live==index **178ccfde**；10-08 薄种子 tip **023e6ce** live==local **9625ccc6**。
+
+## 2026-10-08 04:00 ET 主窗（10-08 今天第一版）
+
+- fire ~04:08 ET（sched 04:05，late ~3min）。box 约 15:57 CST 重启过，CDP :9226 未起；主窗自行拉起 chrome-profile :9226（google-chrome --remote-debugging-port=9226 --user-data-dir=/home/box/chrome-profile），login_ok，无 AUTH_FAIL。04:10 补抓 deferred_to_main。
+- 先 HTL（hard reload）再 DOM：HTL **151** HIT CURSOR（翻一页撞到游标），DOM 37（全在 HTL 内）。
+- union **151**；gap≈**1.87**min closed；游标 @lxfater 2108047175548858442 → **@430Yang 2108107695727219112**（08:10:16Z）。
+- overlay：--max 5 小批试正常（约 3s/条）→ 全量 timeout -s INT 1500s，后段变慢（约 30s/条），跑到 118/146 停；accept **97** / 仍 REJECT 54（reject_href 27 多为转发帖落到原帖，其余未轮到，保留 HTL）/ fail 0；--merge-only 无新增；CDP 在 x.com/home。
+- depollute restored **11**（自动 2 + 人工 9：gefei55 / servasyy_ai 回复落到父帖，op7418 跟帖落到同作者 Haiku 帖，alex_prompter Source 帖与 newsletter 帖互串到线程首帖 / 第 2 条，Morris_LT 落到另一条卖书帖，xiaoerzhan「产品连接」落到父帖，dotey 仅转发帖落到 Lauren token 帖，vista8 播客地址帖落到前一天录制帖；全部回退 HTL）。
+- 窗类 正文**32** / 拿不准**4** / 已过滤**115**；miss**0**（_class04_plan.json，见 04-class-manual.md）。
+- 页 10-08：**25 / 4 / 118**（原薄种子 2/0/3）。新卡 23：Stripe 500 美元免手续费额度、姚金刚 17 套知识付费提示词、VSC 开源专区 6 个创作工具、本地跑 Qwen3.8-flash 实测、GLM-5.3-Flash 两张 V100、Cloudflare 万刀账单设预算警报、小小东 Chrome 待办插件、Codex Cloud 悄悄重新上线、Flash Mask、Omia 线条演示、CC Switch 大重构（两帖并卡）、Grok Bot 内置 X 数据用法（6 帖并卡，含 Agent Tincan）、Grok Bot X scan 按图搜梗、Grok Bot 邮箱 + Hermes Agent 邮件互派任务、Grok Bot 手机版、Haiku 5.5 vs DeepSeek Flash 价格对算、宝玉 Fable 当 Tech Lead、先让模型教你再动手、Seedance 2.5 超能力提示词、magpie context 拆解、乔木剪藏音视频下载；新的一天再提 2（engineering-review-board、Landing Page）。
+- 拿不准 4：alex_prompter「Claude Code 作者三件事 + 7 条提示词」（提示词在线程未取到）、berryxia Opus 5.5 工厂 Three.js 展示、Deedy agent 要航司退款、XiaohuiAI666 X 文章（正文未取到）。不发明。Xpass、Next Token、elvissun CI 脚本重复进已过滤。CC Switch 原帖是长帖，只取到第 1 条改动，卡里注明。
+- t.co 经 curl 302 解析写入 04-tco.json（66 条，另合并 HTL 原文里的 t.co）。rec_ideas skipped（非 20:00）。
+- QA pass clippedBtns 0（04-qa.png）。md5 门禁 root==days 通过 **9bd2f25a**。index 按设计仍指 10-07。聊天交付 pending_parent。
