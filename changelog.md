@@ -5601,7 +5601,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: window 正文 **27** / 拿不准 **7** / 已过滤 **97**；miss **0**（00-class-manual.md / _class00_plan.json 19 改动）；pre 24/7/77 → 10-08；after 3/0/20 → 10-09 薄种子
 - merge: page_yday 10-08 **122/42/643**（prior 98/35/566）；thin_seed 10-09 **3/0/20**；index → **10-08**；rec_ideas skipped；t.co 56/56
 - QA: pass true；clippedBtns 0；00-qa.png（+main/maybe/filt）
-- md5 local days==root **fddf4b5cccab5c0e98296298ce23e0b3**（10-08）；thin **d3c261fa80dbbb9e854b33bde5e08b24**
+- md5 root==days==site==live==index **fddf4b5cccab5c0e98296298ce23e0b3**；public tip **cd73f90**（10-08+index）；thin **d3c261fa80dbbb9e854b33bde5e08b24** tip **4a6695d**
 - cursor → @ElliotChen **2108412437016002565** 2026-10-09T04:21:12Z
 - chat_line: `10/8 完整版：正文122 / 拿不准42 / 已过滤643。https://t512192641.github.io/x-following/2026-10-08.html`
 - chat_delivery: **pending_parent**；escalate: **no**
