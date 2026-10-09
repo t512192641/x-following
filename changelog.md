@@ -5717,3 +5717,26 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~08:23 ET 火（sched 08:10 late ~13min），08 主窗 **c3a32b9b** 已于 ~08:24 ET 认领 in_progress（sched 08:05 late ~19min）；HTL scrape 进行中（`_scrape08_htl.py` HIT 200 HomeLatestTimeline；尚无 union/overlay/meta）；04 窗 gap≈6.07 closed 无 hole；watchdog exit 0（08 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @430Yang 2108472175149691391；证据 `raw/2026-10-09/08-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-09 20:27 CST
+
+## 2026-10-09 08:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~08:46 ET；sched 08:25 late ~21min）
+- quiet_ok: **true**；watchdog exit 0（08 窗 publish 活着→收口 complete）
+- **08:00 主窗 complete**（c3a32b9b full_main；本检查中收口 ~08:48 ET）：union**137** gap≈**5.02** closed；overlay **124/137=90.5%**；depollute**7**；窗类**48/6/83** miss0；页 **66/15/207** tip **cf44952** md5 **d29d9135** live==local==site PASS；chat pending_parent（主窗交父代理）
+- 08:10 补抓 deferred_to_main complete；04 prior **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- CDP :9226 在线 **not stolen**；login_ok true（08-scrape-meta）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +34min）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 20:49 CST
+
+## 2026-10-09 08:00 ET · 主窗 full_main
+
+- automation: **c3a32b9b**（fire ~08:24 ET；sched 08:05 late ~19min）
+- scrape: HTL **136** HIT CURSOR（run1）+ DOM **45** → union **137**；gap≈**5.02** min closed；gap_open false
+- prior_cursor @430Yang **2108472175149691391** 08:18:34Z → oldest @imwsl90 2108473436859519099 08:23:35Z；newest @yanhua1010 **2108533714703839445** 12:23:06Z
+- overlay_resume: **124/137 = 90.5%**（reject_href 13；stop_reason=completed；item_timeout 20s / budget 20min）；depollute restored **7**；t.co 58
+- 窗类 正文**48** / 拿不准**6** / 已过滤**83** miss=0（heur+manual 34）；页 **66/15/207**（含 00 薄种子 + 04 第一版）
+- skip recommended/ideas（非 20:00）
+- QA 08-qa.png pass clippedBtns 0；md5 **d29d9135** live==local tip **cf44952**
+- chat_delivery: **pending_parent**；chat_line: `10/9 08:00：正文66 / 拿不准15 / 已过滤207。https://t512192641.github.io/x-following/2026-10-09.html`
+- escalate: **no**；next 12:00 ET；stay_quiet；recorded: 2026-10-09 20:48 CST
