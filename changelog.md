@@ -5738,5 +5738,68 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 窗类 正文**48** / 拿不准**6** / 已过滤**83** miss=0（heur+manual 34）；页 **66/15/207**（含 00 薄种子 + 04 第一版）
 - skip recommended/ideas（非 20:00）
 - QA 08-qa.png pass clippedBtns 0；md5 **d29d9135** live==local tip **cf44952**
-- chat_delivery: **pending_parent**；chat_line: `10/9 08:00：正文66 / 拿不准15 / 已过滤207。https://t512192641.github.io/x-following/2026-10-09.html`
+- chat_delivery: **已交（2026-10-09 20:50 CST）**；chat_line: `10/9 08:00：正文66 / 拿不准15 / 已过滤207。https://t512192641.github.io/x-following/2026-10-09.html`
 - escalate: **no**；next 12:00 ET；stay_quiet；recorded: 2026-10-09 20:48 CST
+
+## 2026-10-09 09:23 ET · x-lists
+
+- automation: **c3cd83f8** x-4（fired ~09:54 ET；sched 09:23 late ~31min；~09:58 reverify）
+- login_ok；following unchanged **155/@HiTw93**；bookmarks @Manu_Sisti/2104589392631496989 **173** unchanged
+- first pass polluted by 推荐关注 sidebar — reverted false prepend；jsonl still 155；meta/_check corrected；playbook warn sidebar
+- computerUse 浏览器核盘不碰 CDP；回 x.com/home 1 tab
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 22:00 CST（board）；changelog backfill this health
+
+## 2026-10-09 10:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~10:01 ET；sched 10:25 early ~24min；**09:25 平台漏叫**）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **08:00 主窗 complete**（c3a32b9b full_main）：今天页 **66/15/207** tip **cf44952**（site docs **7e96388**）md5_gate --live PASS **d29d9135** root==days==live chat ✅ 20:50 CST；union137 overlay 124/137=90.5% depollute7 窗类48/6/83 miss0；gap≈5.02 closed
+- 08:10 补抓 deferred_to_main complete；04 prior **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @yanhua1010 **2108533714703839445**（== cursor.md==cursor.json==08-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；**12:00 ET 未到期**（约 +2h；无 12-claim/raw）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑；09:25 漏叫仅记证据
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 22:04 CST
+
+## 2026-10-09 10:25 ET · 健康检查（迟到复核）
+
+- automation: **960034de** x-3（fired ~10:55 ET；sched 10:25 late ~30min；先验 ~10:01 early 已记）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **08:00 主窗 complete**（c3a32b9b full_main）：今天页 **66/15/207** tip **cf44952**（site docs **7e96388**）md5_gate --live PASS **d29d9135** root==days==live chat ✅ 20:50 CST；union137 overlay 124/137=90.5% depollute7 窗类48/6/83 miss0；gap≈5.02 closed
+- 08:10 补抓 deferred_to_main complete；04 prior **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @yanhua1010 **2108533714703839445**（== cursor.md==cursor.json==08-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；**12:00 ET 未到期**（约 +1h；无 12-claim/raw）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 22:58 CST
+
+## 2026-10-09 11:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~11:57 ET；sched 11:25 late ~32min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **08:00 主窗 complete**（c3a32b9b full_main）：今天页 **66/15/207** tip **cf44952**（site docs **7e96388**）md5_gate --live PASS **d29d9135** root==days==live chat ✅ 20:50 CST；union137 overlay 124/137=90.5% depollute7 窗类48/6/83 miss0；gap≈5.02 closed
+- 08:10 补抓 deferred_to_main complete；04 prior **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @yanhua1010 **2108533714703839445**（== cursor.md==cursor.json==08-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；**12:00 ET 到期/临近**（核验时无 12-claim/raw，非 in_progress；不抢 CDP）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 00:00 CST
+
+## 2026-10-09 12:10 ET 补抓
+
+- deferred_to_main：补抓 ~12:29 ET 火（sched 12:10 late ~19min），12 主窗 **c3a32b9b** 已于 ~12:26 ET 认领 in_progress（sched 12:05 late ~21min）；HTL DONE 200 hit True gap≈**5.23** min closed；DOM mid（`_scrape12_dom.py` alive）；尚无 union/overlay/meta；08 窗 gap≈5.02 closed 无 hole；watchdog exit 0（12 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @yanhua1010 2108533714703839445；证据 `raw/2026-10-09/12-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-10 00:30 CST
+
+## 2026-10-09 12:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~12:48 ET；sched 12:25 late ~24min）
+- quiet_ok: **true**；watchdog exit 0（checked 1；12 overlay_resume alive idle 0 not stalled）
+- **12:00 主窗 in_progress**（c3a32b9b full_main；fire ~12:26 ET sched 12:05 late ~21min）：union**203** gap≈**5.23** closed；overlay mid **146/203**；尚无 meta/分类/QA/页/chat；平台 RUNNING + 磁盘一致，非假 succeeded；健康检查不扩大重跑
+- 12:10 补抓 deferred_to_main complete（evidence `raw/2026-10-09/12-10-catchup.md`；无 hole）
+- **08:00 主窗 complete**：今天页 **66/15/207** tip **cf44952**（site docs **7e96388**）md5_gate --live PASS **d29d9135** root==days==site==live chat ✅ 20:50 CST；union137 overlay 124/137=90.5% depollute7 窗类48/6/83 miss0；gap≈5.02 closed
+- 04 prior **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor 仍 @yanhua1010 **2108533714703839445**（== cursor.md==cursor.json==08-claim；12 未推进）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）主窗 overlay 占用（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +20.6h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 00:50 CST
