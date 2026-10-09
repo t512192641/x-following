@@ -5542,5 +5542,68 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - late ~1.5h（sched 20:05）；HTL137∪DOM28=union137 gap≈7.1 closed；overlay accept104/reject33 fill 75.9% completed；depollute6；窗类35/6/96 miss0
 - page 10-08 **98/35/566**（prior 77/29/470）md5 `9c72a1d225c95229594050fc8313e65b` tip **80d6398**；live==local
-- cursor @HiTw93 2108369705794977833 2026-10-09T01:31:24Z；rec/ideas skipped（10-07 已吸收）；chat_delivery pending_parent
+- cursor @HiTw93 2108369705794977833 2026-10-09T01:31:24Z；rec/ideas skipped（10-07 已吸收）；chat_delivery 已交（10-09 10:05 CST）
 - next: 2026-10-09 00:00 ET（交付 10-08 完整版）
+
+
+## 2026-10-08 22:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~22:29 ET；sched 22:25 late ~4min；同小时先前一次平台 failed）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无停死 overlay）
+- CDP :9226 在线（Chrome/154，原 chrome-profile，x.com/home）；playwright orphan 未杀；not stolen；无 AUTH_FAIL
+- 最近完成窗 **20:00** 页 10-08 **98/35/566** tip **80d6398** md5 **9c72a1d2** live==local==site chat ✅ 10:05 CST；cursor @HiTw93 2108369705794977833；hours_since≈0.5
+- 16:00 主窗 complete（77/29/470 md5 92ee07b0）已收口；本地 ops 板回填 16/20 主窗行
+- **调度漏叫 / 平台 failed（无内容缺口）**：16:10 / 20:10 补抓 cdf0cd43 无 catchup 证据；主窗均已 gap closed；健康检查不对主窗扩大重跑
+- lists Oct8 已齐不补跑；Oct9 未到期
+- escalate: **no**（幕僚长此前已 FYI x-2/x-3 平台失败；若 00:00 主窗也 failed 再升任务卡）
+- stay_quiet；recorded: 2026-10-09 10:31 CST
+
+
+## 2026-10-08 23:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~23:41 ET；sched 23:25 late ~16min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无停死 overlay）
+- CDP :9226 在线（Chrome/154，原 chrome-profile，x.com/home）；playwright orphan 未杀；not stolen；login_ok inferred（Home/X；cookie WS 被 remote-allow-origins 拒）
+- 最近完成窗 **20:00** 页 10-08 **98/35/566** tip **80d6398**（docs 47bb1fe）md5 **9c72a1d2** live==local==site chat ✅ 10:05 CST；cursor @HiTw93 2108369705794977833；hours_since≈3.7
+- **00:00 ET Oct9 未到期**（约 +18min；无 raw/2026-10-09、无 00-claim）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口（主窗已 gap closed）；健康检查不对主窗扩大重跑
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET）
+- escalate: **no**（若 00:00 主窗也平台 failed 再升任务卡）
+- stay_quiet；recorded: 2026-10-09 11:44 CST
+
+## 2026-10-09 00:00 ET · 主窗 deferred_to_catchup
+
+- automation: **c3a32b9b** x-1（fired ~00:21 ET；sched 00:05 late ~16min）
+- catchup **cdf0cd43** 已先以 **full_main_takeover** 认领（00-10-catchup.md；fire ~00:19 ET）→ 主窗 **deferred_to_catchup**
+- prior 20:00 complete：10-08 **98/35/566** tip **80d6398** md5 **9c72a1d2** chat ✅；cursor @HiTw93 2108369705794977833；无 hole
+- 未重抓、不抢 CDP、不发 chat；交付交补抓（0 点交 10-08 完整版）
+- escalate: no；stay_quiet
+- recorded: 2026-10-09 12:23 CST
+
+## 2026-10-09 00:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~00:31 ET；sched 00:25 late ~6min）
+- quiet_ok: **true**；watchdog exit 0（00 窗 overlay_resume alive idle≈0min not stalled）
+- **00:00 主窗 deferred_to_catchup**（c3a32b9b）；**00:10 补抓 cdf0cd43 full_main_takeover in_progress**：union131（HTL130∪DOM43）hit_cursor gap≈3.25 closed；overlay_resume ~80+/127 进行中；尚无 meta/分类/QA/页/chat；不重开、不抢 CDP
+- CDP :9226 在线（Chrome/154，原 chrome-profile）；被补抓占用 **not stolen**；login_ok true（00-scrape-meta）
+- 最近完成窗 **20:00** 页 10-08 **98/35/566** tip **80d6398**（site HEAD **47bb1fe**）md5 **9c72a1d2** live==local==site chat ✅ 10:05 CST；cursor @HiTw93 2108369705794977833；hours_since≈4.5
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +8.9h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**（00 窗已由补抓兜住在跑；非平台 failed）
+- stay_quiet；recorded: 2026-10-09 12:33 CST
+
+## 2026-10-09 00:00 ET catchup full_main_takeover（cdf0cd43）
+
+- mode: **full_main_takeover**（主窗 c3a32b9b 漏跑 → deferred；补抓 fire ~00:19 ET 接管；先例 2026-10-04）
+- scrape: HTL **130** HIT CURSOR + DOM **43** → union **131**；gap≈**3.25** min closed；prior @HiTw93 2108369705794977833 → oldest @bozhou_ai 2108370525059969292 01:34:39Z
+- overlay: trial 4/5 → full resume；accept **124**/131 fill **94.7%**；reject_href 7（转帖重定向保留 HTL）；stop_reason=completed；CDP 还回 x.com/home
+- depollute: restored **9**（00-depollute.md）
+- classify: window 正文 **27** / 拿不准 **7** / 已过滤 **97**；miss **0**（00-class-manual.md / _class00_plan.json 19 改动）；pre 24/7/77 → 10-08；after 3/0/20 → 10-09 薄种子
+- merge: page_yday 10-08 **122/42/643**（prior 98/35/566）；thin_seed 10-09 **3/0/20**；index → **10-08**；rec_ideas skipped；t.co 56/56
+- QA: pass true；clippedBtns 0；00-qa.png（+main/maybe/filt）
+- md5 local days==root **fddf4b5cccab5c0e98296298ce23e0b3**（10-08）；thin **d3c261fa80dbbb9e854b33bde5e08b24**
+- cursor → @ElliotChen **2108412437016002565** 2026-10-09T04:21:12Z
+- chat_line: `10/8 完整版：正文122 / 拿不准42 / 已过滤643。https://t512192641.github.io/x-following/2026-10-08.html`
+- chat_delivery: **pending_parent**；escalate: **no**
+- anomaly: 调度漏叫（主窗漏跑）由补抓兜底；无 AUTH_FAIL；无付费 X API
+- recorded: 2026-10-09 12:45 CST

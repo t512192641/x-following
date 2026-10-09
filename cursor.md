@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @HiTw93
-- status_id: 2108369705794977833
-- url: https://x.com/HiTw93/status/2108369705794977833
-- time_utc: 2026-10-09T01:31:24.000Z
-- updated_from: 2026-10-08 20:00 ET (c3a32b9b full_main)
+- handle: @ElliotChen
+- status_id: 2108412437016002565
+- url: https://x.com/ElliotChen/status/2108412437016002565
+- time_utc: 2026-10-09T04:21:12.000Z
+- updated_from: 2026-10-09 00:00 ET (cdf0cd43 full_main_takeover)
