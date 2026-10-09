@@ -5660,5 +5660,60 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 窗类 正文**28** / 拿不准**9** / 已过滤**104** miss=0（heur+manual）；页 **24/9/124**（含 00 薄种子 3/0/20）
 - skip recommended/ideas（非 20:00）；index 仍指 10-08（early Oct9 惯例）
 - QA 04-qa.png pass clippedBtns 0；md5 **175650ae** live==local tip **7588566**
-- chat_delivery: **pending_parent**；chat_line: `10/9 第一版：正文24 / 拿不准9 / 已过滤124。https://t512192641.github.io/x-following/2026-10-09.html`
+- chat_delivery: **已交（10-09 16:36 CST）**；chat_line: `10/9 第一版：正文24 / 拿不准9 / 已过滤124。https://t512192641.github.io/x-following/2026-10-09.html`
 - escalate: **no**；next 08:00 ET；stay_quiet；recorded: 2026-10-09 16:35 CST
+
+## 2026-10-09 04:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~04:32 ET；sched 04:25 late ~7min）
+- quiet_ok: **true**；watchdog exit 0（04 窗 publish_main_window 活着→收口 complete）
+- **04:00 主窗 complete**（c3a32b9b full_main）：今天第一版 **24/9/124** tip **7588566**（site HEAD **c8691f8**）md5 **175650ae** live==local==site chat 已交（10-09 16:36 CST）；union141 overlay 116/141=82.3% depollute20 窗类28/9/104 miss0；gap≈6.07 closed
+- 10-08 完整页 **122/42/643** tip **cd73f90** md5 **fddf4b5c** live PASS chat ✅
+- cursor @430Yang **2108472175149691391**（== cursor.md==cursor.json）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home **not stolen**；login_ok true（04-scrape-meta）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +4.8h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 16:36 CST
+
+## 2026-10-09 05:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~05:28 ET；sched 05:25 late ~3min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **04:00 主窗 complete**（c3a32b9b full_main）：今天第一版 **24/9/124** tip **7588566**（site HEAD **c8691f8**）md5 **175650ae** live==local==site chat ✅ 16:36 CST；union141 overlay 116/141=82.3% depollute20 窗类28/9/104 miss0；gap≈6.07 closed
+- 10-08 完整页 **122/42/643** tip **cd73f90** md5 **fddf4b5c** live PASS chat ✅；index 仍指 10-08（按设计）
+- cursor @430Yang **2108472175149691391**（== cursor.md==cursor.json）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +3.9h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 17:29 CST
+
+## 2026-10-09 06:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~06:37 ET；sched 06:25 late ~12min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **04:00 主窗 complete**（c3a32b9b full_main）：今天第一版 **24/9/124** tip **7588566**（site HEAD **c8691f8**）md5 **175650ae** live==local==site chat ✅ 16:36 CST；union141 overlay 116/141=82.3% depollute20 窗类28/9/104 miss0；gap≈6.07 closed
+- 10-08 完整页 **122/42/643** tip **cd73f90** md5 **fddf4b5c** live PASS chat ✅；index 仍指 10-08（按设计）
+- cursor @430Yang **2108472175149691391**（== cursor.md==cursor.json）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- **08:00 ET 未到期**（约 +1.4h；无 08-claim/raw）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +2.8h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 18:40 CST
+
+## 2026-10-09 07:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~07:37 ET；sched 07:25 late ~12min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **04:00 主窗 complete**（c3a32b9b full_main）：今天第一版 **24/9/124** tip **7588566**（site HEAD **c8691f8**）md5 **175650ae** live==local==site chat ✅ 16:36 CST；union141 overlay 116/141=82.3% depollute20 窗类28/9/104 miss0；gap≈6.07 closed
+- 10-08 完整页 **122/42/643** tip **cd73f90** md5 **fddf4b5c** live PASS chat ✅；index 仍指 10-08（按设计）
+- cursor @430Yang **2108472175149691391**（== cursor.md==cursor.json）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- **08:00 ET 未到期**（约 +0.4h；无 08-claim/raw）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +1.8h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 19:39 CST
+
+## 2026-10-09 08:10 ET 补抓
+
+- deferred_to_main：补抓 ~08:23 ET 火（sched 08:10 late ~13min），08 主窗 **c3a32b9b** 已于 ~08:24 ET 认领 in_progress（sched 08:05 late ~19min）；HTL scrape 进行中（`_scrape08_htl.py` HIT 200 HomeLatestTimeline；尚无 union/overlay/meta）；04 窗 gap≈6.07 closed 无 hole；watchdog exit 0（08 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @430Yang 2108472175149691391；证据 `raw/2026-10-09/08-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-09 20:27 CST
