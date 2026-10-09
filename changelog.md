@@ -5536,4 +5536,4 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - depollute restored **1**（@pvncher 被写成 Day4 文回退 HTL）；窗类 正文**18** / 拿不准**6** / 已过滤**64**；miss**0**（_class16_plan.json，见 16-class-manual.md）。Starlink Mobile / 万亿富翁等产业杂闻从正文降为已过滤。
 - 页 10-08：**77 / 29 / 470**（原 64/23/406）。新卡 13（Grok Bot 四人团队、李小龙三步法提示词、agent harness 架构、Claude Code 作者提示词写法、Every agent 省 token、Grok Bot 剪视频、Amazon 禁 agent 窗口、Claude Dashboards/Motion、Codex auto-review policy、LLM 超顶尖专家、GPT-6.1 Sol Ultrafast+Day4 steering、nikitabier GTA 超级提示词、ChatGPT Finances 审计交易）；补进已有卡 2（Grok Bot 手机 App；Shopify connector / 新 business connectors）。
 - 拿不准 6：Instinct 护城河、SaaS 雪茄屁股、Cursor /visualize、语音 vibe coding、蓝 V 额度池愿望、Grok 4.7 法律榜。不发明。
-- QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site==live **92ee07b0**；public tip **9c472f4**；index 按设计仍指 10-07；rec_ideas skipped。聊天交付 pending_parent。
+- QA pass clippedBtns 0（16-qa.png）。md5 门禁 root==days==site==live **92ee07b0**；public tip **9c472f4**；index 按设计仍指 10-07；rec_ideas skipped。聊天交付 ✅（2026-10-09 05:27 CST WakeParent）。
