@@ -5803,3 +5803,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +20.6h）
 - 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 00:50 CST
+
+## 2026-10-09 12:00 ET · 主窗 full_main
+
+- automation: **c3a32b9b**（fire ~12:26 ET；sched 12:05 late ~21min）
+- scrape: HTL **200** HIT CURSOR + DOM **55** → union **203**；gap≈**5.23** min closed；gap_open false
+- prior_cursor @yanhua1010 **2108533714703839445** 12:23:06Z → oldest @liuren 2108535029500703148 12:28:20Z；newest @elonmusk **2108595327091524090** 16:27:56Z
+- overlay_resume: **134/203 = 66.0%**（stop_reason=budget_exhausted(20.0min)；attempted 150；reject_href 16；item_timeout 20s / budget 20min）；depollute restored **5**；t.co 142
+- 窗类 正文**74** / 拿不准**0** / 已过滤**129** miss=0（heur+manual 24）；页 **140/15/336**（含 0/4/8 已并）
+- skip recommended/ideas（非 20:00）
+- QA 12-qa.png pass clippedBtns 0；md5 **58b74274** live==local tip **95b4f62**
+- chat_delivery: **pending_parent**；chat_line: `10/9 12:00：正文140 / 拿不准15 / 已过滤336。https://t512192641.github.io/x-following/2026-10-09.html`
+- escalate: **no**；next 16:00 ET；stay_quiet；recorded: 2026-10-10 00:54 CST

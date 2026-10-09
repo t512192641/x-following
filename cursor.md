@@ -1,5 +1,5 @@
 # cursor
 
-- handle: @yanhua1010
-- status_id: 2108533714703839445
-- url: https://x.com/yanhua1010/status/2108533714703839445
+- handle: @elonmusk
+- status_id: 2108595327091524090
+- url: https://x.com/elonmusk/status/2108595327091524090
