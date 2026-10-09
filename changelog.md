@@ -5604,6 +5604,49 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - md5 root==days==site==live==index **fddf4b5cccab5c0e98296298ce23e0b3**；public tip **cd73f90**（10-08+index）；thin **d3c261fa80dbbb9e854b33bde5e08b24** tip **4a6695d**
 - cursor → @ElliotChen **2108412437016002565** 2026-10-09T04:21:12Z
 - chat_line: `10/8 完整版：正文122 / 拿不准42 / 已过滤643。https://t512192641.github.io/x-following/2026-10-08.html`
-- chat_delivery: **pending_parent**；escalate: **no**
+- chat_delivery: **已交（10-09 12:50 CST）**；escalate: **no**
 - anomaly: 调度漏叫（主窗漏跑）由补抓兜底；无 AUTH_FAIL；无付费 X API
 - recorded: 2026-10-09 12:45 CST
+
+## 2026-10-09 01:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~01:29 ET；sched 01:25 late ~8min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **00 窗已收口**：主窗 deferred_to_catchup；补抓 cdf0cd43 full_main_takeover **complete**（finished ~00:48 ET / 12:48 CST）
+- 页 10-08 **122/42/643** tip **cd73f90**（site HEAD **beb5f3a**）md5 **fddf4b5c** live==local==site==index chat ✅ 12:50 CST；thin 10-09 **3/0/20** md5 **d3c261fa** tip **4a6695d**
+- cursor @ElliotChen **2108412437016002565**（== cursor.md）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home **not stolen**；login_ok inferred（主页 / X）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +7.8h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 13:34 CST
+
+## 2026-10-09 02:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~02:37 ET；sched 02:25 late ~12min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **00 窗已收口**：主窗 deferred_to_catchup；补抓 cdf0cd43 full_main_takeover **complete**（finished ~00:48 ET / 12:48 CST）
+- 页 10-08 **122/42/643** tip **cd73f90**（site HEAD **beb5f3a**）md5 **fddf4b5c** live==local==site==index chat ✅ 12:50 CST；thin 10-09 **3/0/20** md5 **d3c261fa** tip **4a6695d**
+- cursor @ElliotChen **2108412437016002565**（== cursor.md==cursor.json）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home **not stolen**；login_ok inferred（主页 / X）
+- **04:00 ET 未到期**（约 +84min；无 04-claim/raw）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +6.8h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 14:38 CST
+
+## 2026-10-09 03:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~03:31 ET；sched 03:25 late ~6min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **00 窗已收口**：主窗 deferred_to_catchup；补抓 cdf0cd43 full_main_takeover **complete**（finished ~00:48 ET / 12:48 CST）
+- 页 10-08 **122/42/643** tip **cd73f90**（site HEAD **beb5f3a**）md5 **fddf4b5c** live==local==site==index chat ✅ 12:50 CST；thin 10-09 **3/0/20** md5 **d3c261fa** tip **4a6695d**
+- cursor @ElliotChen **2108412437016002565**（== cursor.md==cursor.json）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home **not stolen**；login_ok inferred（主页 / X）
+- **04:00 ET 未到期**（约 +25min；无 04-claim/raw）
+- lists Oct8 已齐不补跑；Oct9 未到期（09:23 ET，约 +5.8h）
+- 16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-09 15:35 CST
+
+## 2026-10-09 04:10 ET 补抓
+
+- deferred_to_main：补抓 ~04:21 ET 火（sched 04:10 late ~11min），04 主窗 **c3a32b9b** 已于 ~04:10 ET 认领 in_progress；抓取已齐（HTL135 HIT + DOM37 → union**141**，gap≈**6.07** min closed，gap_open false）；overlay_resume 运行中（~[24/141]）；00 窗 gap closed 无 hole；watchdog exit 0（04 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @ElliotChen 2108412437016002565；证据 `raw/2026-10-09/04-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-09 16:22 CST
