@@ -5867,7 +5867,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - overlay_fill_rate: **61/84 = 72.6%**（stop_reason=completed；reject_href=23；item_timeout 20s / budget 20min）
 - depollute restored **2**；t.co ok；窗类 正文**29** / 拿不准**1** / 已过滤**54** miss=0（heur+manual 19）
 - 页 **169/16/390**（含 0/4/8/12）；skip recommended/ideas；QA 16-qa.png pass clippedBtns 0
-- md5 **a2574621** root==days（live tip pending publish）
+- md5 **a2574621** live==local tip **cc1d967**（site docs Pages built）
 - cursor → @lennysan **2108652361401204985**
 - chat_delivery: **pending_parent**
 - chat_line: `10/9 16:00：正文169 / 拿不准16 / 已过滤390。https://t512192641.github.io/x-following/2026-10-09.html`
