@@ -5650,3 +5650,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~04:21 ET 火（sched 04:10 late ~11min），04 主窗 **c3a32b9b** 已于 ~04:10 ET 认领 in_progress；抓取已齐（HTL135 HIT + DOM37 → union**141**，gap≈**6.07** min closed，gap_open false）；overlay_resume 运行中（~[24/141]）；00 窗 gap closed 无 hole；watchdog exit 0（04 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @ElliotChen 2108412437016002565；证据 `raw/2026-10-09/04-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-09 16:22 CST
+
+## 2026-10-09 04:00 ET · 主窗 full_main（今天第一版）
+
+- automation: **c3a32b9b**（fire ~04:10 ET；sched 04:05 late ~5min）
+- scrape: HTL **135** HIT CURSOR（run1 时间线管理浮层/paginate 403 未命中；清浮层后 run2 HIT）+ DOM **37** → union **141**；gap≈**6.07** min closed；gap_open false
+- prior_cursor @ElliotChen **2108412437016002565** 04:21:12Z → oldest @imwsl90 2108413963683696773 04:27:16Z；newest @430Yang **2108472175149691391** 08:18:34Z
+- overlay_resume: **116/141 = 82.3%**（reject_href 25；stop_reason=completed；item_timeout 20s / budget 20min）；depollute restored **20**；t.co resolved
+- 窗类 正文**28** / 拿不准**9** / 已过滤**104** miss=0（heur+manual）；页 **24/9/124**（含 00 薄种子 3/0/20）
+- skip recommended/ideas（非 20:00）；index 仍指 10-08（early Oct9 惯例）
+- QA 04-qa.png pass clippedBtns 0；md5 **175650ae** live==local tip **7588566**
+- chat_delivery: **pending_parent**；chat_line: `10/9 第一版：正文24 / 拿不准9 / 已过滤124。https://t512192641.github.io/x-following/2026-10-09.html`
+- escalate: **no**；next 08:00 ET；stay_quiet；recorded: 2026-10-09 16:35 CST
