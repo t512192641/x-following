@@ -5997,3 +5997,19 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~00:10 ET 火（sched 00:10 late ~1min）；00 主窗 **c3a32b9b** 已于 ~00:07 ET 认领 in_progress（sched 00:05 late ~2min）；scrape 齐 union**192**（HTL192 HIT∪DOM54）gap≈**2.62** min closed；overlay_resume mid；尚无 meta/分类/QA/页；20 窗 gap≈15.43 closed 无 hole；watchdog exit 0（00 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @dotey 2108712677971206387；00:00 交 10-09 完整版交主窗；证据 `raw/2026-10-10/00-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-10 12:12 CST
+
+## 2026-10-10 00:00 ET · 主窗
+
+- automation: **c3a32b9b** full_main（fire ~00:07 ET；sched 00:05 late ~2min；finish ~12:40 CST 10-10）
+- scrape: HTL **192** HIT CURSOR + DOM **54** → union **192**；gap≈**2.62** min closed；gap_open false；login_ok true；Following→Latest（CDP :9226；无官方/付费 X API）
+- oldest_new @hezhiyan7 2108713336418492790 00:16:52Z；newest @milo2088 **2108771686510375335** 04:08:43Z
+- CUTOFF 2026-10-10T04:00:00Z：pre **184** → 10-09；after **8** → 10-10 薄种子
+- overlay_fill_rate: **160/192 = 83.3%**（stop_reason=budget_exhausted(20.0min)；attempted=179；reject_href=19；item_timeout 20s / budget 20min / splash_stop 3；其余保留 HTL 原文）
+- depollute restored **8**；t.co 78/78；窗类 正文**41** / 拿不准**7** / 已过滤**144** miss=0（heur 64/17/111 + manual overrides 44；见 00-class-manual.md）
+- page_yday 2026-10-09：**250 / 23 / 615**（prior 209/16/479；bak-00）；thin_seed 2026-10-10：**0 / 0 / 8**（不聊天交付）；index → 10-09；rec_ideas skipped（非 20:00）
+- QA 00-qa.png pass clippedBtns 0
+- md5 10-09 **31113d60** live==local tip **577aa39**；10-10 thin **799cf5a2** tip **29eacbd** live==local
+- cursor → @milo2088 **2108771686510375335**
+- chat_delivery: **pending_parent**
+- chat_line: `10/9 完整版：正文250 / 拿不准23 / 已过滤615。https://t512192641.github.io/x-following/2026-10-09.html`
+- escalate: **no**；next 04:00 ET（今天第一版）；recorded: 2026-10-10 12:40 CST
