@@ -5952,5 +5952,5 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - md5 **9182ea18** live==local tip **392854f**
 - cursor → @dotey **2108712677971206387**
 - chat_delivery: **pending_parent**
-- chat_line: `10/9 20:00：正文29 / 拿不准0 / 已过滤89。https://t512192641.github.io/x-following/2026-10-09.html`
+- chat_line: `10/9 20:00：正文209 / 拿不准16 / 已过滤479。https://t512192641.github.io/x-following/2026-10-09.html`
 - escalate: **no**；next 00:00 ET 10-10；recorded: 2026-10-10 08:35 CST
