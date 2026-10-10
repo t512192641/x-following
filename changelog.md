@@ -5940,3 +5940,17 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +12.9h）
 - next **20 收口 → 00:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（本轮 20:10 已有 deferred 证据；无内容缺口）；健康检查不对主窗扩大重跑
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 08:31 CST
+
+## 2026-10-09 20:00 ET · 主窗
+
+- automation: **c3a32b9b** full_main（fire ~20:10 ET；sched 20:05 late ~5min；finish ~08:35 CST 10-10）
+- scrape: HTL **117** HIT CURSOR + DOM **41** → union **118**；gap≈**15.43** min closed；gap_open false；login_ok true；Following→Latest
+- oldest_new @levelsio 2108656245267649001 20:30:00Z；newest @dotey **2108712677971206387** 00:14:15Z (10-10)
+- overlay_fill_rate: **97/118 = 82.2%**（stop_reason=completed；reject_href=21；item_timeout 20s / budget 20min；resume 中断后续跑）
+- depollute restored **6**；t.co ok；窗类 正文**29** / 拿不准**0** / 已过滤**89** miss=0（heur 41/12/65 + manual overrides 24）
+- 页 **209/16/479**（含 0/4/8/12/16）；**并 recommended+ideas 2026-10-09**（rec=merged/7+2 ideas=merged/4）；QA 20-qa.png pass clippedBtns 0
+- md5 **9182ea18** live==local tip **392854f**
+- cursor → @dotey **2108712677971206387**
+- chat_delivery: **pending_parent**
+- chat_line: `10/9 20:00：正文29 / 拿不准0 / 已过滤89。https://t512192641.github.io/x-following/2026-10-09.html`
+- escalate: **no**；next 00:00 ET 10-10；recorded: 2026-10-10 08:35 CST

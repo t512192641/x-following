@@ -1,5 +1,5 @@
 # cursor
 
-- handle: @lennysan
-- status_id: 2108652361401204985
-- url: https://x.com/lennysan/status/2108652361401204985
+- handle: @dotey
+- status_id: 2108712677971206387
+- url: https://x.com/dotey/status/2108712677971206387
