@@ -1,5 +1,5 @@
 # cursor
 
-- handle: @dotey
-- status_id: 2108712677971206387
-- url: https://x.com/dotey/status/2108712677971206387
+- handle: @milo2088
+- status_id: 2108771686510375335
+- url: https://x.com/milo2088/status/2108771686510375335

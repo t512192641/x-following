@@ -5951,6 +5951,49 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 **209/16/479**（含 0/4/8/12/16）；**并 recommended+ideas 2026-10-09**（rec=merged/7+2 ideas=merged/4）；QA 20-qa.png pass clippedBtns 0
 - md5 **9182ea18** live==local tip **392854f**
 - cursor → @dotey **2108712677971206387**
-- chat_delivery: **pending_parent**
+- chat_delivery: **已交（2026-10-10 08:38 CST）**
 - chat_line: `10/9 20:00：正文209 / 拿不准16 / 已过滤479。https://t512192641.github.io/x-following/2026-10-09.html`
 - escalate: **no**；next 00:00 ET 10-10；recorded: 2026-10-10 08:35 CST
+
+## 2026-10-09 21:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~21:29 ET；sched 21:25 late ~4min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **20:00 主窗 complete**（c3a32b9b full_main）：今天页 **209/16/479** tip **395dac5**（content 392854f）md5_gate --live PASS **9182ea18** root==days==live；union118 overlay 97/118=82.2% completed depollute6 窗类29/0/89 miss0；gap≈15.43 closed；rec/ideas merged；chat ✅ 08:38 CST
+- 20:10 补抓 deferred_to_main complete；16 prior **169/16/390** chat ✅；12 **140/15/336** chat ✅；08 **66/15/207** chat ✅；04 **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @dotey **2108712677971206387**（== cursor.md==cursor.json==20-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +11.9h）
+- next **00:00 ET**（交 10-09 完整版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 09:31 CST
+
+## 2026-10-09 22:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~22:27 ET；sched 22:25 late ~2min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **20:00 主窗 complete**（c3a32b9b full_main）：今天页 **209/16/479** tip **395dac5**（content 392854f）md5_gate --live PASS **9182ea18** root==days==live；union118 overlay 97/118=82.2% completed depollute6 窗类29/0/89 miss0；gap≈15.43 closed；rec/ideas merged；chat ✅ 08:38 CST
+- 20:10 补抓 deferred_to_main complete；16 prior **169/16/390** chat ✅；12 **140/15/336** chat ✅；08 **66/15/207** chat ✅；04 **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @dotey **2108712677971206387**（== cursor.md==cursor.json==20-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +10.9h）
+- **00:00 ET Oct10 未到期**（约 +1.5h，无 raw/2026-10-10 / 00-claim）
+- next **00:00 ET**（交 10-09 完整版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 10:29 CST
+
+## 2026-10-09 23:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~23:26 ET；sched 23:25 late ~1min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **20:00 主窗 complete**（c3a32b9b full_main）：今天页 **209/16/479** tip **395dac5**（content 392854f）md5_gate --live PASS **9182ea18** root==days==live；union118 overlay 97/118=82.2% completed depollute6 窗类29/0/89 miss0；gap≈15.43 closed；rec/ideas merged；chat ✅ 08:38 CST
+- 20:10 补抓 deferred_to_main complete；16 prior **169/16/390** chat ✅；12 **140/15/336** chat ✅；08 **66/15/207** chat ✅；04 **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @dotey **2108712677971206387**（== cursor.md==cursor.json==20-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +9.9h）
+- **00:00 ET Oct10 未到期**（约 +0.5h，无 raw/2026-10-10 / 00-claim）
+- next **00:00 ET**（交 10-09 完整版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 11:29 CST
+
+## 2026-10-10 00:10 ET 补抓
+
+- deferred_to_main：补抓 ~00:10 ET 火（sched 00:10 late ~1min）；00 主窗 **c3a32b9b** 已于 ~00:07 ET 认领 in_progress（sched 00:05 late ~2min）；scrape 齐 union**192**（HTL192 HIT∪DOM54）gap≈**2.62** min closed；overlay_resume mid；尚无 meta/分类/QA/页；20 窗 gap≈15.43 closed 无 hole；watchdog exit 0（00 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @dotey 2108712677971206387；00:00 交 10-09 完整版交主窗；证据 `raw/2026-10-10/00-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-10 12:12 CST
