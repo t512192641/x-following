@@ -5869,6 +5869,74 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 页 **169/16/390**（含 0/4/8/12）；skip recommended/ideas；QA 16-qa.png pass clippedBtns 0
 - md5 **a2574621** live==local tip **cc1d967**（site docs Pages built）
 - cursor → @lennysan **2108652361401204985**
-- chat_delivery: **pending_parent**
+- chat_delivery: **已交（2026-10-10 04:36 CST）**；chat_line delivered via WakeParent
 - chat_line: `10/9 16:00：正文169 / 拿不准16 / 已过滤390。https://t512192641.github.io/x-following/2026-10-09.html`
 - escalate: **no**；next 20:00 ET；recorded: 2026-10-10 04:31 CST
+
+## 2026-10-09 16:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~16:31 ET；sched 16:25 late ~6min）
+- quiet_ok: **true**；watchdog exit 0（checked 0；火时 publish_main_window 在跑，检查中已收口）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天页 **169/16/390** tip **e695b32**（site HEAD **cc1d967**）md5_gate --live PASS **a2574621** root==days==site==live；union84 overlay 61/84=72.6% completed depollute2 窗类29/1/54 miss0；gap≈4.02 closed；chat ✅ 04:36 CST
+- 16:10 补抓 deferred_to_main complete；12 prior **140/15/336** chat ✅；08 **66/15/207** chat ✅；04 **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @lennysan **2108652361401204985**（== cursor.md==cursor.json==16-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +16.8h）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 04:36 CST
+
+## 2026-10-09 17:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~17:35 ET；sched 17:25 late ~10min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天页 **169/16/390** tip **e695b32**（site HEAD **c472c58**）md5_gate --live PASS **a2574621** root==days==site==live；union84 overlay 61/84=72.6% completed depollute2 窗类29/1/54 miss0；gap≈4.02 closed；chat ✅ 04:36 CST
+- 16:10 补抓 deferred_to_main complete；12 prior **140/15/336** chat ✅；08 **66/15/207** chat ✅；04 **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @lennysan **2108652361401204985**（== cursor.md==cursor.json==16-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +15.8h）
+- **20:00 ET 未到期**（约 +2.4h，无 20-claim/20.jsonl）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 05:38 CST
+
+## 2026-10-09 18:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~18:28 ET；sched 18:25 late ~3min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天页 **169/16/390** tip **e695b32**（site HEAD **c472c58**）md5_gate --live PASS **a2574621** root==days==site==live；union84 overlay 61/84=72.6% completed depollute2 窗类29/1/54 miss0；gap≈4.02 closed；chat ✅ 04:36 CST
+- 16:10 补抓 deferred_to_main complete；12 prior **140/15/336** chat ✅；08 **66/15/207** chat ✅；04 **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @lennysan **2108652361401204985**（== cursor.md==cursor.json==16-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +14.9h）
+- **20:00 ET 未到期**（约 +1.5h，无 20-claim/20.jsonl）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 06:31 CST
+
+## 2026-10-09 19:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~19:34 ET；sched 19:25 late ~9min）
+- quiet_ok: **true**；watchdog exit 0（checked 0，无流水线进程）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天页 **169/16/390** tip **e695b32**（site HEAD **c472c58**）md5_gate --live PASS **a2574621** root==days==site==live；union84 overlay 61/84=72.6% completed depollute2 窗类29/1/54 miss0；gap≈4.02 closed；chat ✅ 04:36 CST
+- 16:10 补抓 deferred_to_main complete；12 prior **140/15/336** chat ✅；08 **66/15/207** chat ✅；04 **24/9/124** chat ✅；10-08 **122/42/643** md5 **fddf4b5c** live PASS chat ✅
+- cursor @lennysan **2108652361401204985**（== cursor.md==cursor.json==16-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +13.8h）
+- **20:00 ET 未到期**（约 +0.4h，无 20-claim/20.jsonl）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 无内容缺口；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 07:37 CST
+
+## 2026-10-09 20:10 ET 补抓
+
+- deferred_to_main：补抓 ~20:19 ET 火（sched 20:10 late ~9min）；20 主窗 **c3a32b9b** 已于 ~20:10 ET 认领 in_progress（sched 20:05 late ~5min）；scrape 齐 union**118**（HTL117 HIT∪DOM41）gap≈**15.43** min closed；overlay_resume mid（~67/118）；尚无 meta/分类/QA/页；16 窗 gap≈4.02 closed 无 hole；watchdog exit 0（20 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @lennysan 2108652361401204985；rec/ideas 交主窗并入；证据 `raw/2026-10-09/20-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-10 08:20 CST
+
+## 2026-10-09 20:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~20:29 ET；sched 20:25 late ~4min）
+- quiet_ok: **true**；watchdog exit 0（checked 1；20 窗 overlay_resume 进程活着，not stalled）
+- **20:00 主窗 in_progress**（c3a32b9b full_main；fire ~20:10 ET late ~5min）：union**118** gap≈**15.43** closed；overlay_resume mid（pass1 ~100/118 + pass2 remaining REJECT）；尚无 meta/分类/QA/页/chat；健康检查不扩大重跑
+- 20:10 补抓 deferred_to_main complete；**16:00 主窗 complete** 今天页 **169/16/390** tip **e695b32**（site HEAD **c472c58**）md5_gate PASS **a2574621** root==days==site==live chat ✅ 04:36 CST
+- cursor @lennysan **2108652361401204985**（== cursor.md==cursor.json==16-claim；待 20 收口推进）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）被主窗 overlay 占用（playwright orphan）**not stolen**；login_ok true（20-scrape-meta）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +12.9h）
+- next **20 收口 → 00:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（本轮 20:10 已有 deferred 证据；无内容缺口）；健康检查不对主窗扩大重跑
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 08:31 CST
