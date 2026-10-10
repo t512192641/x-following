@@ -6173,13 +6173,78 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: 窗类 正文**30** / 拿不准**3** / 已过滤**112** miss=0（heur→manual 39；08-class-manual.md）
 - page: **60 / 5 / 227**（含 0:00 薄种子 + 04 第一版；正文并题卡）
 - QA: 08-qa.png pass clippedBtns 0
-- md5: **39bf3155d88d998573bdde55a701ec15** live==local；tip **f1bc7a0**
+- md5: **39bf3155d88d998573bdde55a701ec15** live==local；tip **56334c9**
 - cursor: @kaostyl → **@oran_ge 2108894036996350115** 2026-10-10T12:14:54.000Z
 - Pages: https://t512192641.github.io/x-following/2026-10-10.html
 - skip: recommended/ideas（非 20:00）
 - chat_line: `10/10 08:00：正文60 / 拿不准5 / 已过滤227。https://t512192641.github.io/x-following/2026-10-10.html`
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ (delivered_at 2026-10-10 20:44 CST; root==days md5 39bf3155 verified; WakeParent)
 - escalate: no
 - next: 12:00 ET
-- grok-ops tip: **ef3eb12**
-- finished_at: 2026-10-10 20:36 CST
+- grok-ops tip: **f5025f6**
+- finished_at: 2026-10-10 20:42 CST
+
+## 2026-10-10 09:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~09:33 ET；sched 09:25 late ~8min）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **08:00 主窗 complete**（c3a32b9b full_main）：今天续窗 **60/5/227** tip **56334c9** md5_gate --live PASS **39bf3155** root==days==site==live；union145 overlay 138/145=95.2% depollute13 窗类30/3/112 miss0；gap≈1.57 closed；chat ✅ ~20:45 CST
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **36/2/115** tip 38b88ce md5 e039b72c chat ✅ 16:40 CST；prior **00** 10-09 完整页 **250/23/615** tip 577aa39 md5 31113d60 chat ✅ 12:42 CST
+- cursor @oran_ge **2108894036996350115**（== cursor.md==cursor.json==08-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright lists c3cd83f8）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；**Oct10 lists running_now**（c3cd83f8 ~09:32 ET / ~21:32 CST）→ **不补跑**；meta last check 仍 2026-10-09
+- next **12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **c688e88**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 21:34 CST
+
+
+## 2026-10-10 10:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~10:28 ET；sched 10:25 late ~3min）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **08:00 主窗 complete**（c3a32b9b full_main）：今天续窗 **60/5/227** tip **56334c9** md5_gate --live PASS **39bf3155** root==days==site==live；union145 overlay 138/145=95.2% depollute13 窗类30/3/112 miss0；gap≈1.57 closed；chat ✅ ~20:45 CST
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **36/2/115** tip 38b88ce md5 e039b72c chat ✅ 16:40 CST；prior **00** 10-09 完整页 **250/23/615** tip 577aa39 md5 31113d60 chat ✅ 12:42 CST
+- cursor @oran_ge **2108894036996350115**（== cursor.md==cursor.json==08-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
+- next **12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **f3cf3ab**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 22:30:32 CST
+
+## 2026-10-10 11:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~11:33 ET；sched 11:25 late ~8min）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **08:00 主窗 complete**（c3a32b9b full_main）：今天续窗 **60/5/227** tip **56334c9** md5_gate --live PASS **39bf3155** root==days==site==live；union145 overlay 138/145=95.2% depollute13 窗类30/3/112 miss0；gap≈1.57 closed；chat ✅ ~20:45 CST
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **36/2/115** tip 38b88ce md5 e039b72c chat ✅ 16:40 CST；prior **00** 10-09 完整页 **250/23/615** tip 577aa39 md5 31113d60 chat ✅ 12:42 CST
+- cursor @oran_ge **2108894036996350115**（== cursor.md==cursor.json==08-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
+- next **12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **a3ac75e**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 23:36:22 CST
+
+## 2026-10-10 12:10 ET 补抓
+
+- deferred_to_main：补抓 ~12:17 ET 火（sched 12:10 late ~7min）；12 主窗 **c3a32b9b** 已于 ~12:06 ET 认领 in_progress（sched 12:05 late ~1–2min）；scrape 齐 union**124**（HTL121 HIT∪DOM50）gap≈**0.13** min closed；overlay_resume mid（~76/124）；尚无 meta/分类/QA/页；08 窗 gap≈1.57 closed 无 hole；watchdog exit 0（12 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @oran_ge 2108894036996350115；证据 `raw/2026-10-10/12-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-11 00:18 CST
+
+## 2026-10-10 12:00 ET · 主窗
+
+- status: **complete**（c3a32b9b full_main；fire ~12:06 ET sched 12:05 late ~1–2min）
+- scrape: DOM 50 + HTL 121 → union **124**；gap≈**0.13** closed；hit_cursor true；prior @oran_ge 2108894036996350115 → oldest_new @alex_prompter 2108894071418966235
+- overlay_resume: **106/124 = 85.5%** stop_reason=completed（reject_href 18；item_timeout 20s / budget 20min / splash_stop 3；killed mid-run 后 resume 完成）
+- depollute: restored **7**；suspects_after 0
+- classify: 窗类 正文**19** / 拿不准**3** / 已过滤**102** miss=0（heur 35/9/80 → manual 25；12-class-manual.md）
+- page: **78 / 8 / 329**（含 0:00 薄种子 + 4:00 第一版 + 8:00；正文并题卡）
+- QA: 12-qa.png pass clippedBtns 0
+- md5: **b6aaa07ae49a9bebcbf7994e4b50d510** live==local；tip **TIP_PENDING**
+- cursor: @oran_ge → **@KSimback 2108952927112929482** 2026-10-10T16:08:54.000Z
+- Pages: https://t512192641.github.io/x-following/2026-10-10.html
+- skip: recommended/ideas（非 20:00）
+- chat_line: `10/10 12:00：正文78 / 拿不准8 / 已过滤329。https://t512192641.github.io/x-following/2026-10-10.html`
+- chat_delivery: **pending_parent**
+- escalate: no
+- next: 16:00 ET
+- grok-ops tip: **GOPS_PENDING**
+- finished_at: 2026-10-11 00:31 CST
