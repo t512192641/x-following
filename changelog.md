@@ -6238,7 +6238,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: 窗类 正文**19** / 拿不准**3** / 已过滤**102** miss=0（heur 35/9/80 → manual 25；12-class-manual.md）
 - page: **78 / 8 / 329**（含 0:00 薄种子 + 4:00 第一版 + 8:00；正文并题卡）
 - QA: 12-qa.png pass clippedBtns 0
-- md5: **b6aaa07ae49a9bebcbf7994e4b50d510** live==local；tip **TIP_PENDING**
+- md5: **b6aaa07ae49a9bebcbf7994e4b50d510** live==local；tip **8794266**
 - cursor: @oran_ge → **@KSimback 2108952927112929482** 2026-10-10T16:08:54.000Z
 - Pages: https://t512192641.github.io/x-following/2026-10-10.html
 - skip: recommended/ideas（非 20:00）
