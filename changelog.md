@@ -6300,3 +6300,27 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - next **16:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
 - grok-ops tip: **d32b11b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 03:28 CST
+
+## 2026-10-10 16:10 ET 补抓
+
+- deferred_to_main：补抓 ~16:15 ET 火（sched 16:10 late ~5min）；16 主窗 **c3a32b9b** 已于 ~16:07 ET 认领 in_progress（sched 16:05 late ~2min）；scrape 齐 union**50**（HTL47 HIT∪DOM15）gap≈**7.22** min closed；overlay **37/50=74.0%** completed；depollute4；窗类12/1/37 miss0；merge PAGE **90/9/366** QA pass；publish ok tip **67f65c3** md5 21181028 live PASS；尚无 16-meta/游标推进/chat；12 窗 gap≈0.13 closed 无 hole；watchdog exit 0（16 窗 publish alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @KSimback 2108952927112929482；证据 `raw/2026-10-10/16-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-11 04:16:56 CST
+
+## 2026-10-10 16:00 ET · 主窗
+
+- status: **complete**（c3a32b9b full_main；fire ~16:07 ET sched 16:05 late ~2min）
+- scrape: DOM 15 + HTL 47 → union **50**；gap≈**7.22** closed；hit_cursor true；prior @KSimback 2108952927112929482 → oldest_new @garrytan 2108954740013043789
+- overlay_resume: **37/50 = 74.0%** stop_reason=completed（reject_href 13；item_timeout 20s / budget 20min / splash_stop 3）
+- depollute: restored **4**；suspects_after 0
+- classify: 窗类 正文**12** / 拿不准**1** / 已过滤**37** miss=0（heur 14/5/31 → manual 11；16-class-manual.md）
+- page: **90 / 9 / 366**（含 0/4/8/12；正文并题卡）
+- QA: 16-qa.png pass clippedBtns 0
+- md5: **211810287ed4657010333c6446982321** live==local；tip **67f65c3**
+- cursor: @KSimback → **@thejustinwelsh 2109013680729809303** 2026-10-10T20:10:19.000Z
+- Pages: https://t512192641.github.io/x-following/2026-10-10.html
+- skip: recommended/ideas（非 20:00）
+- chat_line: `10/10 16:00：正文90 / 拿不准9 / 已过滤366。https://t512192641.github.io/x-following/2026-10-10.html`
+- chat_delivery: **pending_parent**
+- escalate: no
+- next: 20:00 ET
+- finished_at: 2026-10-11 04:18 CST
