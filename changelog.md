@@ -6150,3 +6150,35 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~08:15 ET 火（sched 08:10 late ~5min）；08 主窗 **c3a32b9b** 已于 ~08:10 ET 认领 in_progress（sched 08:05 late ~5min）；scrape 齐 union**145**（HTL139 HIT∪DOM45）gap≈**1.57** min closed；overlay_resume mid（~16/145）；尚无 meta/分类/QA/页；04 窗 gap≈4.05 closed 无 hole；watchdog exit 0（08 窗 alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @kaostyl 2108832955841802572；证据 `raw/2026-10-10/08-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-10 20:17 CST
+
+## 2026-10-10 08:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~08:33 ET；sched 08:25 late ~8min）
+- quiet_ok: **true**；watchdog exit 0（checked 1；08 publish_main_window alive not stalled）
+- **08:00 主窗 in_progress**（c3a32b9b full_main 今天续窗；fire ~08:10 ET late ~5min）：union**145** gap≈**1.57** closed；overlay **138/145=95.2%** completed；depollute13；窗类30/3/112 miss0；local PAGE **60/5/227** md5 **39bf3155** root==days（site/live 仍 04 版 **e039b72c** publish 未完）；QA pass；尚无 meta/Pages tip/cursor 推进/chat；主窗 routine 仍 running，健康检查不扩大重跑
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **36/2/115** tip **38b88ce**（site HEAD **600ef6e**）md5_gate --live PASS **e039b72c** chat ✅ 16:40 CST
+- cursor 仍 @kaostyl **2108832955841802572**（待 08 收口推进）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +0.8h）
+- next **08 收口 → 12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **610a2f1**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 20:35 CST
+
+## 2026-10-10 08:00 ET · 主窗
+
+- status: **complete**（c3a32b9b full_main；fire ~08:10 ET sched 08:05 late ~5min）
+- scrape: DOM 45 + HTL 139 → union **145**；gap≈**1.57** closed；hit_cursor true；prior @kaostyl 2108832955841802572 → oldest_new @berryxia 2108833348332429324
+- overlay_resume: **138/145 = 95.2%** stop_reason=completed（reject_href 7；item_timeout 20s / budget 20min / splash_stop 3；killed mid-run 后 resume 完成）
+- depollute: restored **13**；suspects_after 0
+- classify: 窗类 正文**30** / 拿不准**3** / 已过滤**112** miss=0（heur→manual 39；08-class-manual.md）
+- page: **60 / 5 / 227**（含 0:00 薄种子 + 04 第一版；正文并题卡）
+- QA: 08-qa.png pass clippedBtns 0
+- md5: **39bf3155d88d998573bdde55a701ec15** live==local；tip **f59e37f**
+- cursor: @kaostyl → **@oran_ge 2108894036996350115** 2026-10-10T12:14:54.000Z
+- Pages: https://t512192641.github.io/x-following/2026-10-10.html
+- skip: recommended/ideas（非 20:00）
+- chat_line: `10/10 08:00：正文60 / 拿不准5 / 已过滤227。https://t512192641.github.io/x-following/2026-10-10.html`
+- chat_delivery: pending_parent
+- escalate: no
+- next: 12:00 ET
+- finished_at: 2026-10-10 20:36 CST

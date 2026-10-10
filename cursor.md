@@ -1,5 +1,5 @@
 # cursor
 
-- handle: @kaostyl
-- status_id: 2108832955841802572
-- url: https://x.com/kaostyl/status/2108832955841802572
+- handle: @oran_ge
+- status_id: 2108894036996350115
+- url: https://x.com/oran_ge/status/2108894036996350115
