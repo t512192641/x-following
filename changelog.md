@@ -6315,7 +6315,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: 窗类 正文**12** / 拿不准**1** / 已过滤**37** miss=0（heur 14/5/31 → manual 11；16-class-manual.md）
 - page: **90 / 9 / 366**（含 0/4/8/12；正文并题卡）
 - QA: 16-qa.png pass clippedBtns 0
-- md5: **211810287ed4657010333c6446982321** live==local；tip **8cecd34**
+- md5: **211810287ed4657010333c6446982321** live==local；tip **6d9f3c4**
 - cursor: @KSimback → **@thejustinwelsh 2109013680729809303** 2026-10-10T20:10:19.000Z
 - Pages: https://t512192641.github.io/x-following/2026-10-10.html
 - skip: recommended/ideas（非 20:00）
@@ -6324,4 +6324,5 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - escalate: no
 - next: 20:00 ET
 - grok-ops tip: **6ed6e66**
+- grok-ops tip: **a1949ce**
 - finished_at: 2026-10-11 04:18 CST
