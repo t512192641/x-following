@@ -6010,6 +6010,66 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - QA 00-qa.png pass clippedBtns 0
 - md5 10-09 **31113d60** live==local tip **577aa39**；10-10 thin **799cf5a2** tip **29eacbd** live==local
 - cursor → @milo2088 **2108771686510375335**
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅ 2026-10-10 12:42 CST**
 - chat_line: `10/9 完整版：正文250 / 拿不准23 / 已过滤615。https://t512192641.github.io/x-following/2026-10-09.html`
 - escalate: **no**；next 04:00 ET（今天第一版）；recorded: 2026-10-10 12:40 CST
+
+## 2026-10-10 00:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~00:34 ET；sched 00:25 late ~9–11min）
+- quiet_ok: **true**；watchdog exit 0（checked 1→0；00 窗收口→complete not stalled）
+- **00:00 主窗 complete**（c3a32b9b full_main）：10-09 完整页 **250/23/615** tip **577aa39** md5_gate --live PASS **31113d60** root==days==site==live==index；thin 10-10 **0/0/8** tip **29eacbd** md5 **799cf5a2** live==local；union192 overlay 160/192=83.3% budget_exhausted depollute8 窗类41/7/144 miss0；gap≈2.62 closed；chat ✅ 12:42 CST（交主窗/父代理交付）
+- 00:10 补抓 deferred_to_main complete；prior 20 **209/16/479** tip 395dac5 md5 9182ea18 chat ✅ 08:38 CST
+- cursor @milo2088 **2108771686510375335**（== cursor.md==cursor.json==00-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（00-scrape-meta）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +8.8h）
+- next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **15973b3**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 12:38 CST
+
+## 2026-10-10 01:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~01:33 ET；sched 01:25 late ~8min）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **00:00 主窗 complete**（c3a32b9b full_main）：10-09 完整页 **250/23/615** tip **577aa39**（site HEAD **3e64e32**）md5_gate --live PASS **31113d60** root==days==site==live==index；thin 10-10 **0/0/8** tip **29eacbd** md5 **799cf5a2** live==local；union192 overlay 160/192=83.3% budget_exhausted depollute8 窗类41/7/144 miss0；gap≈2.62 closed；chat ✅ 12:42 CST
+- 00:10 补抓 deferred_to_main complete；prior 20 **209/16/479** tip 395dac5 md5 9182ea18 chat ✅ 08:38 CST
+- cursor @milo2088 **2108771686510375335**（== cursor.md==cursor.json==00-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +7.8h）
+- **04:00 ET 未到期**（约 +2.4h，无 04-claim/04.jsonl）
+- next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **f5710ec**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 13:36 CST
+
+## 2026-10-10 02:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~02:33 ET；sched 02:25 late ~8min）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **00:00 主窗 complete**（c3a32b9b full_main）：10-09 完整页 **250/23/615** tip **577aa39**（site HEAD **3e64e32**）md5_gate --live PASS **31113d60** root==days==site==live==index；thin 10-10 **0/0/8** tip **29eacbd** md5 **799cf5a2** live==local；union192 overlay 160/192=83.3% budget_exhausted depollute8 窗类41/7/144 miss0；gap≈2.62 closed；chat ✅ 12:42 CST
+- 00:10 补抓 deferred_to_main complete；prior 20 **209/16/479** tip 395dac5 md5 9182ea18 chat ✅ 08:38 CST
+- cursor @milo2088 **2108771686510375335**（== cursor.md==cursor.json==00-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +6.8h）
+- **04:00 ET 未到期**（约 +1.4h，无 04-claim/04.jsonl）
+- next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **60bae83**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 14:35 CST
+
+## 2026-10-10 03:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~03:31 ET；sched 03:25 late ~6min）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **00:00 主窗 complete**（c3a32b9b full_main）：10-09 完整页 **250/23/615** tip **577aa39**（site HEAD **3e64e32**）md5_gate --live PASS **31113d60** root==days==site==live==index；thin 10-10 **0/0/8** tip **29eacbd** md5 **799cf5a2** live==local；union192 overlay 160/192=83.3% budget_exhausted depollute8 窗类41/7/144 miss0；gap≈2.62 closed；chat ✅ 12:42 CST
+- 00:10 补抓 deferred_to_main complete；prior 20 **209/16/479** tip 395dac5 md5 9182ea18 chat ✅ 08:38 CST
+- cursor @milo2088 **2108771686510375335**（== cursor.md==cursor.json==00-claim）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +5.8h）
+- **04:00 ET 未到期**（约 +0.45h，无 04-claim/04.jsonl）
+- next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **dfa01da**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 15:34 CST
+
+## 2026-10-10 04:10 ET 补抓
+
+- deferred_to_main：补抓 ~04:10 ET 火（sched 04:10 late ~1min）；04 主窗 **c3a32b9b** 已于 ~04:08 ET 认领 in_progress（sched 04:05 late ~3min）；HTL **146** HIT CURSOR DONE；DOM mid；尚无 union/meta/分类/QA/页；00 窗 gap≈2.62 closed 无 hole；watchdog exit 0（04 窗 not stalled）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @milo2088 2108771686510375335；04:00 交今天第一完整版交主窗；证据 `raw/2026-10-10/04-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-10 16:12 CST
