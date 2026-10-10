@@ -6073,3 +6073,36 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~04:10 ET 火（sched 04:10 late ~1min）；04 主窗 **c3a32b9b** 已于 ~04:08 ET 认领 in_progress（sched 04:05 late ~3min）；HTL **146** HIT CURSOR DONE；DOM mid；尚无 union/meta/分类/QA/页；00 窗 gap≈2.62 closed 无 hole；watchdog exit 0（04 窗 not stalled）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @milo2088 2108771686510375335；04:00 交今天第一完整版交主窗；证据 `raw/2026-10-10/04-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-10 16:12 CST
+
+## 2026-10-10 04:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~04:32 ET；sched 04:25 late ~7min）
+- quiet_ok: **true**；watchdog exit 0（checked 1；04 claim in_progress；idle 0.0–0.1min not stalled）
+- **04:00 主窗 in_progress**（c3a32b9b full_main 今天第一版；fire ~04:08 ET late ~3min）：union**148** gap≈**4.05** closed；overlay **127/148=85.8%** completed；depollute9；窗类39/2/107 miss0；local PAGE **36/2/115** md5 **e039b72c** root==days（site/live 仍 thin **799cf5a2** publish 未完）；QA pass；尚无 meta/Pages tip/cursor 推进/chat；主窗 routine 仍 running，健康检查不扩大重跑
+- 04:10 补抓 deferred_to_main complete；prior **00** 10-09 完整页 **250/23/615** tip **577aa39**（site HEAD **3e64e32**）md5_gate --live PASS **31113d60** chat ✅ 12:42 CST
+- cursor 仍 @milo2088 **2108771686510375335**（== cursor.md==cursor.json==04-claim prior）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（04-scrape-meta）
+- lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +4.8h）
+- next **04 收口 → 08:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **d2fefe5**
+- escalate: **no**；stay_quiet；recorded: 2026-10-10 16:35 CST
+
+## 2026-10-10 04:00 ET · 主窗
+
+- status: **complete**（c3a32b9b full_main；今天第一版；fire ~04:08 ET sched 04:05 late ~3min）
+- scrape: DOM 37 + HTL 146 → union **148**；gap≈**4.05** closed；hit_cursor true；prior @milo2088 2108771686510375335 → oldest_new @milo2088 2108772704585396528
+- overlay_resume: **127/148 = 85.8%** stop_reason=completed（reject_href 21；item_timeout 20s / budget 20min / splash_stop 3）
+- depollute: restored **9**；suspects_after 0
+- classify: 窗类 正文**39** / 拿不准**2** / 已过滤**107** miss=0（heur→manual 31；04-class-manual.md）
+- page: **36 / 2 / 115**（含 0:00 薄种子 0/0/8；正文并题卡 < 窗类）
+- QA: 04-qa.png pass clippedBtns 0
+- md5: **e039b72ccb88931ba008c22f7f462c3a** live==local；tip **38b88ce**
+- cursor: @milo2088 → **@kaostyl 2108832955841802572** 2026-10-10T08:12:11.000Z
+- Pages: https://t512192641.github.io/x-following/2026-10-10.html
+- skip: recommended/ideas（非 20:00）
+- chat_line: `10/10 第一版：正文36 / 拿不准2 / 已过滤115。https://t512192641.github.io/x-following/2026-10-10.html`
+- chat_delivery: pending_parent
+- escalate: no
+- next: 08:00 ET
+- finished_at: 2026-10-10 16:36 CST
+
