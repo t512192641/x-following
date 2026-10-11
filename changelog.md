@@ -6620,3 +6620,116 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~08:12 ET 火（sched 08:10 late ~2min）；08 主窗 **c3a32b9b** 已于 ~08:09 ET 认领 in_progress（sched 08:05 late ~4min）；scrape 齐 union**94**（HTL93 HIT∪DOM23）gap≈**2.72** min closed；overlay_resume mid ~14/94；尚无 meta/分类/QA/页；04 窗 gap≈2.23 closed 无 hole；watchdog exit 0（08 窗 overlay alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @alex_prompter 2109195042925814206；08:00 交今天续窗交主窗；证据 `raw/2026-10-11/08-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-11 20:14 CST
+
+## 2026-10-11 08:00 ET · 主窗
+
+- automation: **c3a32b9b** full_main（今天续窗；fired ~08:09 ET；sched 08:05 late ~4min；finished ~20:26 CST）
+- login_ok: true；source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API）
+- prior_cursor: @alex_prompter **2109195042925814206** 2026-10-11T08:10:59.000Z
+- union **94**（DOM23 ∪ HTL93 HIT）；gap≈**2.72** min closed；gap_open false
+- overlay_fill_rate: **75/94 = 79.8%**（stop_reason=completed；item_timeout=20s budget=20min splash_stop=3；still_fail=19 href-reject）
+- depollute_restored: **2**（08-depollute.md）
+- window class: 正文**27** / 拿不准**6** / 已过滤**61** miss=0（heur→manual 19 overrides）
+- page 2026-10-11: 正文**46** / 拿不准**12** / 已过滤**158**（00+04+本窗）；bak-08
+- rec_ideas: skipped（非 20:00）
+- qa: clippedBtns=0 pass（08-qa.png）
+- md5: **2230e61753ed671ae06f3b4a1b2866ae** live==local PASS
+- tip: **743e19f**
+- cursor: @elonmusk **2109255680339394843**（advanced；gap closed）
+- chat_line: `10/11 08:00：正文46 / 拿不准12 / 已过滤158。https://t512192641.github.io/x-following/2026-10-11.html`
+- chat_delivery: **已交（10-11 20:27 CST）**
+- grok-ops tip: **da17e2b**
+- escalate: **no**；next 12:00 ET 2026-10-11；recorded: 2026-10-11 20:26 CST
+
+## 2026-10-11 08:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~08:28 ET；sched 08:25 late ~3min；check→reconcile ~2026-10-11 08:30 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **08:00 主窗 complete**（c3a32b9b full_main 今天续窗）：**46/12/158** tip **743e19f** md5 **2230e617** live PASS（curl root day==days==live；site index `/` 仍 04 版 7dc948f3 按中午惯例）；union94 overlay 75/94=79.8% depollute2 窗类27/6/61 miss0；gap≈2.72 closed；QA pass；chat **delivered ✅** ~20:27 CST
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **24/6/97** tip 003b933 md5 7dc948f3 chat ✅ ~16:35 CST
+- cursor @elonmusk **2109255680339394843**（== cursor.md==cursor.json==08-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
+- lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +0.91h）
+- board：08:00 主窗 `pending_parent` → **delivered ✅** ~20:27 CST（与 claim/meta 对齐）；`/workspace/ops/task-board.md` 从 grok-ops 回填 08:00/08:10
+- next **12:00 ET**（约 +3.5h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **accd8e3**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 20:30 CST
+
+## 2026-10-11 09:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~09:31 ET；sched 09:25 late ~6min；check→reconcile ~2026-10-11 09:33 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **08:00 主窗 complete**（c3a32b9b full_main 今天续窗）：**46/12/158** tip **743e19f** md5 **2230e617** live PASS（curl root day==days==live；site index `/` 仍 04 版 7dc948f3 按中午惯例）；union94 overlay 75/94=79.8% depollute2 窗类27/6/61 miss0；gap≈2.72 closed；QA pass；chat **delivered ✅** ~20:27 CST
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **24/6/97** tip 003b933 md5 7dc948f3 chat ✅ ~16:35 CST
+- cursor @elonmusk **2109255680339394843**（== cursor.md==cursor.json==08-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
+- next **12:00 ET**（约 +2.48h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **ea72841**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 21:32 CST
+
+## 2026-10-11 10:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~10:28 ET；sched 10:25 late ~3min；check→reconcile ~2026-10-11 10:29 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **08:00 主窗 complete**（c3a32b9b full_main 今天续窗）：**46/12/158** tip **743e19f** md5 **2230e617** live PASS（curl root day==days==live；site index `/` 仍 04 版 7dc948f3 按中午惯例）；union94 overlay 75/94=79.8% depollute2 窗类27/6/61 miss0；gap≈2.72 closed；QA pass；chat **delivered ✅** ~20:27 CST
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **24/6/97** tip 003b933 md5 7dc948f3 chat ✅ ~16:35 CST
+- cursor @elonmusk **2109255680339394843**（== cursor.md==cursor.json==08-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
+- next **12:00 ET**（约 +1.52h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **b3535a7**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 22:29 CST
+
+
+## 2026-10-11 11:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~11:34 ET；sched 11:25 late ~9min；check→reconcile ~2026-10-11 11:35 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **08:00 主窗 complete**（c3a32b9b full_main 今天续窗）：**46/12/158** tip **743e19f** md5 **2230e617** live PASS（curl root day==days==live；site index `/` 仍 04 版 7dc948f3 按中午惯例）；union94 overlay 75/94=79.8% depollute2 窗类27/6/61 miss0；gap≈2.72 closed；QA pass；chat **delivered ✅** ~20:27 CST
+- 08:10 补抓 deferred_to_main complete；prior **04** 今天第一版 **24/6/97** tip 003b933 md5 7dc948f3 chat ✅ ~16:35 CST
+- cursor @elonmusk **2109255680339394843**（== cursor.md==cursor.json==08-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
+- next **12:00 ET**（约 +0.42h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **e79c5b8**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 23:36 CST
+
+
+## 2026-10-11 12:10 ET · 补抓 deferred_to_main
+
+- [x] 2026-10-11 12:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~12:19 ET (sched 12:10, late ~9min)）：12:00 主窗 c3a32b9b **in_progress**（union150 HTL146∪DOM45 gap≈1.82 closed；overlay mid ~72/150 pid alive；尚无 meta/分类/QA/页/chat）；cursor still @elonmusk 2109255680339394843；prior 08 complete 46/12/158 tip 743e19f chat ✅ 20:27 CST；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-12 00:20 CST
+
+## 2026-10-11 12:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~12:31 ET；sched 12:25 late ~6min；check→reconcile ~2026-10-11 12:33 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 1；12 claim in_progress；overlay_resume alive→RESUME_DONE 132/150=88.0%）
+- **12:00 主窗 in_progress**（c3a32b9b full_main；fire ~12:09 ET late ~4min）：union**150** gap≈**1.82** closed；overlay **132/150=88.0%** completed；depollute7；classify mid；尚无 meta/class-manual/QA/页/游标/chat；健康检查不扩大重跑/不抢 CDP
+- 12:10 补抓 deferred_to_main complete；prior **08** 今天续窗 **46/12/158** tip **743e19f** md5 **2230e617** live PASS（root day==days==live==index）chat ✅ ~20:27 CST
+- cursor still @elonmusk **2109255680339394843**（主窗未推进）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）busy main→home（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
+- next 主窗交 12:00（今天 10-11 续窗）→ **16:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **ea34a93**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 00:33 CST
+
+
+## 2026-10-11 12:00 ET · 主窗
+
+- automation: **c3a32b9b** full_main（今天续窗；fired ~12:09 ET；sched 12:05 late ~4min；finished ~00:34 CST 10-12）
+- login_ok: true；source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API）
+- prior_cursor: @elonmusk **2109255680339394843** 2026-10-11T12:11:56.000Z
+- union **150**（DOM45 ∪ HTL146 HIT）；gap≈**1.82** min closed；gap_open false
+- overlay_fill_rate: **132/150 = 88.0%**（stop_reason=completed；item_timeout=20s budget=20min splash_stop=3；still_fail=18 href-reject；中断后 resume 续跑）
+- depollute_restored: **7**（12-depollute.md）
+- window class: 正文**38** / 拿不准**7** / 已过滤**105** miss=0（heur→manual 29 overrides）
+- page 2026-10-11: 正文**84** / 拿不准**19** / 已过滤**263**（00+04+08+本窗）；bak-12
+- rec_ideas: skipped（非 20:00）
+- qa: clippedBtns=0 pass（12-qa.png）
+- md5: **6934ab3e98faadea7303b7ca25c8d892** live==local PENDING_PUBLISH
+- tip: **PENDING_PUBLISH**
+- cursor: @SahilBloom **2109315698103054428**（advanced；gap closed）
+- chat_line: `10/11 12:00：正文84 / 拿不准19 / 已过滤263。https://t512192641.github.io/x-following/2026-10-11.html`
+- chat_delivery: **pending_parent**
+- grok-ops tip: **PENDING**
+- escalate: **no**；next 16:00 ET 2026-10-11；recorded: 2026-10-12 00:34 CST

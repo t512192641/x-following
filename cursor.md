@@ -1,5 +1,7 @@
 # cursor
 
-- handle: @alex_prompter
-- status_id: 2109195042925814206
-- url: https://x.com/alex_prompter/status/2109195042925814206
+- handle: @SahilBloom
+- status_id: 2109315698103054428
+- url: https://x.com/SahilBloom/status/2109315698103054428
+- time_utc: 2026-10-11T16:10:26.000Z
+- updated_window: 2026-10-11 12:00 ET
