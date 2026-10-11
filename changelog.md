@@ -6474,3 +6474,26 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - next 主窗交 00:00（**10-10 完整版**）→ **04:00 ET**（01:25 健康检查复核）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
 - grok-ops tip: **8189713**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 12:34 CST
+
+## 2026-10-11 00:00 ET · 主窗
+
+- automation: **c3a32b9b** full_main（fired ~00:07 ET；sched 00:05 late ~2min；finished ~12:55 CST）
+- login_ok: true；source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API）
+- prior_cursor: @Morris_LT **2109076053742567614** 2026-10-11T00:18:10.000Z
+- union **158**（DOM49 ∪ HTL157 HIT）；gap≈**0.68** min closed；gap_open false
+- overlay_fill_rate: **135/158 = 85.4%**（stop_reason=completed；item_timeout=20s budget=20min splash_stop=3）
+- depollute_restored: **6**（00-depollute.md）
+- window class: 正文**28** / 拿不准**2** / 已过滤**128** miss=0（heur→manual 25 overrides）
+- CUTOFF 2026-10-11T04:00:00Z：pre 149 → 10-10；after 9 → 10-11 薄种子
+- page_yday 2026-10-10: 正文**140** / 拿不准**12** / 已过滤**532**（prior 114/10/411）；bak-00
+- thin_seed 2026-10-11: **2 / 0 / 7**（不聊天交付）
+- index.html → 10-10 完整页
+- rec_ideas: skipped（非 20:00）
+- qa: clippedBtns=0 pass（00-qa.png）；modal float expand OK
+- md5: **2c764b85d88145cab3f31f0ada65abe4** live==local PASS（curl root==days==live index）
+- thin md5: **947e0b1ac25ea989a44279162f9e1fd6** live==local
+- tip: **76a59bc**（10-10）→ **5f8d78b**（10-11 thin）→ **a070277**（index→10-10）
+- cursor: @Jason **2109134129950572763**（advanced；gap closed）
+- chat_line: `10/10 完整版：正文140 / 拿不准12 / 已过滤532。https://t512192641.github.io/x-following/2026-10-10.html`
+- chat_delivery: **pending_parent**
+- escalate: **no**；next 04:00 ET 2026-10-11；recorded: 2026-10-11 12:55 CST

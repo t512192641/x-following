@@ -1,5 +1,5 @@
 # cursor
 
-- handle: @Morris_LT
-- status_id: 2109076053742567614
-- url: https://x.com/Morris_LT/status/2109076053742567614
+- handle: @Jason
+- status_id: 2109134129950572763
+- url: https://x.com/Jason/status/2109134129950572763
