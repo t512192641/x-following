@@ -6726,10 +6726,61 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 2026-10-11: 正文**84** / 拿不准**19** / 已过滤**263**（00+04+08+本窗）；bak-12
 - rec_ideas: skipped（非 20:00）
 - qa: clippedBtns=0 pass（12-qa.png）
-- md5: **6934ab3e98faadea7303b7ca25c8d892** live==local PENDING_PUBLISH
-- tip: **PENDING_PUBLISH**
+- md5: **6934ab3e98faadea7303b7ca25c8d892** live==local PASS
+- tip: **3ca9e11**
 - cursor: @SahilBloom **2109315698103054428**（advanced；gap closed）
 - chat_line: `10/11 12:00：正文84 / 拿不准19 / 已过滤263。https://t512192641.github.io/x-following/2026-10-11.html`
-- chat_delivery: **pending_parent**
-- grok-ops tip: **PENDING**
+- chat_delivery: **已交（10-12 00:38 CST）**
+- grok-ops tip: **36991dc**
 - escalate: **no**；next 16:00 ET 2026-10-11；recorded: 2026-10-12 00:34 CST
+
+## 2026-10-11 13:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~13:28 ET；sched 13:25 late ~3min；check→reconcile ~2026-10-11 13:30 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **12:00 主窗 complete**（c3a32b9b full_main 今天续窗）：**84/19/263** tip **3ca9e11** md5 **6934ab3e** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3 按中午惯例）；union150 overlay 132/150=88.0% depollute7 窗类38/7/105 miss0；gap≈1.82 closed；QA pass；chat **delivered ✅** ~00:38 CST
+- 12:10 补抓 deferred_to_main complete；prior **08** 今天续窗 **46/12/158** tip **743e19f** md5 **2230e617** chat ✅ ~20:27 CST
+- cursor @SahilBloom **2109315698103054428**（== cursor.md==cursor.json==12-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +19.9h）
+- board：12:00 主窗 `pending_parent` → **delivered ✅** ~00:38 CST（与 claim/meta 对齐）
+- next **16:00 ET**（约 +2.5h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **095cbdc** (+stamp 1a515d2)
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 01:30 CST
+
+## 2026-10-11 14:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~14:26 ET (sched 14:25 late ~1min; check→reconcile ~2026-10-11 14:28 ET)）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **12:00 主窗 complete**（c3a32b9b full_main 今天续窗）：**84/19/263** tip **3ca9e11** md5 **6934ab3e** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3 按中午惯例）；union150 overlay 132/150=88.0% depollute7 窗类38/7/105 miss0；gap≈1.82 closed；QA pass；chat **delivered ✅** ~00:38 CST
+- 12:10 补抓 deferred_to_main complete；prior **08** 今天续窗 **46/12/158** tip **743e19f** md5 **2230e617** chat ✅ ~20:27 CST
+- cursor @SahilBloom **2109315698103054428**（== cursor.md==cursor.json==12-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +18.9h）
+- next **16:00 ET**（约 +1.5h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **08291a6** (+stamp 44edee8)
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 02:28 CST
+
+
+## 2026-10-11 15:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~15:32 ET；sched 15:25 late ~7min；check→reconcile ~2026-10-11 15:34 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **12:00 主窗 complete**（c3a32b9b full_main 今天续窗）：**84/19/263** tip **3ca9e11** md5 **6934ab3e** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3 按中午惯例）；union150 overlay 132/150=88.0% depollute7 窗类38/7/105 miss0；gap≈1.82 closed；QA pass；chat **delivered ✅** ~00:38 CST
+- 12:10 补抓 deferred_to_main complete；prior **08** 今天续窗 **46/12/158** tip **743e19f** md5 **2230e617** chat ✅ ~20:27 CST
+- cursor @SahilBloom **2109315698103054428**（== cursor.md==cursor.json==12-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +17.8h）
+- next **16:00 ET**（约 +0.43h；无 16-claim）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **f88adc5** (+stamp 2bc9e9d)
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 03:34 CST
+
+## 2026-10-11 16:00 ET · 主窗 deferred_to_catchup
+
+- automation: **c3a32b9b** x-1（fired ~16:13 ET；sched 16:05 late ~8min）
+- catchup **cdf0cd43** 已先以 **full_main_takeover** 认领（16-claim.md；fire ~16:10 ET；HTL scrape alive）→ 主窗 **deferred_to_catchup**
+- prior 12:00 complete：今天页 **84/19/263** tip **3ca9e11** md5 **6934ab3e** chat ✅ ~00:38 CST；cursor @SahilBloom 2109315698103054428；无 hole
+- 未重抓、不抢 CDP、不发 chat；交付交补抓（今天续窗）
+- 证据：`raw/2026-10-11/16-main-deferred.md`
+- escalate: no；stay_quiet
+- recorded: 2026-10-12 04:14 CST
