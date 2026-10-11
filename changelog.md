@@ -6543,3 +6543,22 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~04:16 ET 火（sched 04:10 late ~6min）；04 主窗 **c3a32b9b** 已于 ~04:08 ET 认领 in_progress（sched 04:05 late ~3min）；scrape 齐 union**118**（HTL118 HIT∪DOM43）gap≈**2.23** min closed；overlay_resume mid；尚无 meta/分类/QA/页；00 窗 gap≈0.68 closed 无 hole；watchdog exit 0（04 窗 overlay alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @Jason 2109134129950572763；04:00 交 **今天第一版** 交主窗；证据 `raw/2026-10-11/04-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-11 16:18 CST
+
+## 2026-10-11 04:00 ET · 主窗
+
+- automation: **c3a32b9b** full_main（今天第一版；fired ~04:08 ET；sched 04:05 late ~3min；finished ~16:32 CST）
+- login_ok: true；source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API）
+- prior_cursor: @Jason **2109134129950572763** 2026-10-11T04:08:57.000Z
+- union **118**（DOM43 ∪ HTL118 HIT）；gap≈**2.23** min closed；gap_open false
+- overlay_fill_rate: **104/118 = 88.1%**（stop_reason=completed；item_timeout=20s budget=20min splash_stop=3；resume after mid-run timeout）
+- depollute_restored: **5**（04-depollute.md）
+- window class: 正文**22** / 拿不准**6** / 已过滤**90** miss=0（heur→manual 28 overrides）
+- page 2026-10-11: 正文**24** / 拿不准**6** / 已过滤**97**（thin 2/0/7 + 本窗）；bak-04；index→10-11
+- rec_ideas: skipped（非 20:00）
+- qa: clippedBtns=0 pass（04-qa.png）
+- md5: **7dc948f35e0a5989f60ebf200ae46f04** live==local PASS
+- tip: **418d4d4**
+- cursor: @alex_prompter **2109195042925814206**（advanced；gap closed）
+- chat_line: `10/11 第一版：正文24 / 拿不准6 / 已过滤97。https://t512192641.github.io/x-following/2026-10-11.html`
+- chat_delivery: **pending_parent**
+- escalate: **no**；next 08:00 ET 2026-10-11；recorded: 2026-10-11 16:32 CST
