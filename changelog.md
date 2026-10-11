@@ -6315,14 +6315,71 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: 窗类 正文**12** / 拿不准**1** / 已过滤**37** miss=0（heur 14/5/31 → manual 11；16-class-manual.md）
 - page: **90 / 9 / 366**（含 0/4/8/12；正文并题卡）
 - QA: 16-qa.png pass clippedBtns 0
-- md5: **211810287ed4657010333c6446982321** live==local；tip **6d9f3c4**
+- md5: **211810287ed4657010333c6446982321** live==local；tip **a4fad2e**
 - cursor: @KSimback → **@thejustinwelsh 2109013680729809303** 2026-10-10T20:10:19.000Z
 - Pages: https://t512192641.github.io/x-following/2026-10-10.html
 - skip: recommended/ideas（非 20:00）
 - chat_line: `10/10 16:00：正文90 / 拿不准9 / 已过滤366。https://t512192641.github.io/x-following/2026-10-10.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅ (delivered_at 2026-10-11 04:22 CST; WakeParent)**
 - escalate: no
 - next: 20:00 ET
-- grok-ops tip: **6ed6e66**
+- grok-ops tip: **4a06a79**
 - grok-ops tip: **a1949ce**
 - finished_at: 2026-10-11 04:18 CST
+
+## 2026-10-10 16:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~16:28 ET；sched 16:25 late ~3min；check→reconcile ~2026-10-10 16:32 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天续窗 **90/9/366** tip **a4fad2e** md5 **21181028** live PASS（curl root==days==live==local；md5_gate --live CLI quirk local_days None 不挡）；union50 overlay 37/50=74.0% depollute4 窗类12/1/37 miss0；gap≈7.22 closed；QA pass；chat **delivered ✅** ~04:22 CST
+- 16:10 补抓 deferred_to_main complete；prior **12** 今天页 **78/8/329** tip 37c122f md5 b6aaa07a chat ✅ ~00:38 CST；prior **08** **60/5/227** tip 56334c9 md5 39bf3155 chat ✅ ~20:45 CST；prior **04** **36/2/115** tip 38b88ce md5 e039b72c chat ✅ 16:40 CST；prior **00** 10-09 **250/23/615** tip 577aa39 md5 31113d60 chat ✅ 12:42 CST
+- cursor @thejustinwelsh **2109013680729809303**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
+- lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +16.8h）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **1ebbe74**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 04:32 CST
+
+## 2026-10-10 17:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~17:32 ET；sched 17:25 late ~7min；check→reconcile ~2026-10-10 17:34 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天续窗 **90/9/366** tip **a4fad2e** md5 **21181028** live PASS（curl root==days==live==local）；union50 overlay 37/50=74.0% depollute4 窗类12/1/37 miss0；gap≈7.22 closed；QA pass；chat **delivered ✅** ~04:22 CST
+- 16:10 补抓 deferred_to_main complete；prior **12** 今天页 **78/8/329** tip 37c122f md5 b6aaa07a chat ✅ ~00:38 CST；prior **08** **60/5/227** tip 56334c9 md5 39bf3155 chat ✅ ~20:45 CST；prior **04** **36/2/115** tip 38b88ce md5 e039b72c chat ✅ 16:40 CST；prior **00** 10-09 **250/23/615** tip 577aa39 md5 31113d60 chat ✅ 12:42 CST
+- cursor @thejustinwelsh **2109013680729809303**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
+- lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +15.8h）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **49648d6**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 05:34 CST
+
+## 2026-10-10 18:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~18:32 ET；sched 18:25 late ~7min；check→reconcile ~2026-10-10 18:34 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天续窗 **90/9/366** tip **a4fad2e** md5 **21181028** live PASS（curl root==days==live==local）；union50 overlay 37/50=74.0% depollute4 窗类12/1/37 miss0；gap≈7.22 closed；QA pass；chat **delivered ✅** ~04:22 CST
+- 16:10 补抓 deferred_to_main complete；prior **12** 今天页 **78/8/329** tip 37c122f md5 b6aaa07a chat ✅ ~00:38 CST；prior **08** **60/5/227** tip 56334c9 md5 39bf3155 chat ✅ ~20:45 CST；prior **04** **36/2/115** tip 38b88ce md5 e039b72c chat ✅ 16:40 CST；prior **00** 10-09 **250/23/615** tip 577aa39 md5 31113d60 chat ✅ 12:42 CST
+- cursor @thejustinwelsh **2109013680729809303**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
+- lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +14.8h）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **238a228**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 06:33 CST
+
+## 2026-10-10 19:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~19:31 ET；sched 19:25 late ~6min；check→reconcile ~2026-10-10 19:33 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 主窗 complete**（c3a32b9b full_main）：今天续窗 **90/9/366** tip **a4fad2e** md5 **21181028** live PASS（curl root==days==live==local）；union50 overlay 37/50=74.0% depollute4 窗类12/1/37 miss0；gap≈7.22 closed；QA pass；chat **delivered ✅** ~04:22 CST
+- 16:10 补抓 deferred_to_main complete；prior **12** 今天页 **78/8/329** tip 37c122f md5 b6aaa07a chat ✅ ~00:38 CST；prior **08** **60/5/227** tip 56334c9 md5 39bf3155 chat ✅ ~20:45 CST；prior **04** **36/2/115** tip 38b88ce md5 e039b72c chat ✅ 16:40 CST；prior **00** 10-09 **250/23/615** tip 577aa39 md5 31113d60 chat ✅ 12:42 CST
+- cursor @thejustinwelsh **2109013680729809303**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
+- lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +13.8h）
+- next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
+- grok-ops tip: **595decf**
+- escalate: **no**；stay_quiet；recorded: 2026-10-11 07:33 CST
+
+## 2026-10-10 20:10 ET 补抓
+
+- deferred_to_main：补抓 ~20:19 ET 火（sched 20:10 late ~9min）；20 主窗 **c3a32b9b** 已于 ~20:13 ET 认领 in_progress（sched 20:05 late ~8min）；scrape 齐 union**57**（HTL57 HIT∪DOM20）gap≈**5.48** min closed；overlay_resume mid（~10/57）；尚无 meta/分类/QA/页；16 窗 gap≈7.22 closed 无 hole；watchdog exit 0（20 窗 overlay alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @thejustinwelsh 2109013680729809303；rec/ideas 已在交主窗并入；证据 `raw/2026-10-10/20-10-catchup.md`。
+- escalate: no；stay_quiet；recorded: 2026-10-11 08:19 CST
