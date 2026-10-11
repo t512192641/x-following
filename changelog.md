@@ -6496,4 +6496,5 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @Jason **2109134129950572763**（advanced；gap closed）
 - chat_line: `10/10 完整版：正文140 / 拿不准12 / 已过滤532。https://t512192641.github.io/x-following/2026-10-10.html`
 - chat_delivery: **pending_parent**
+- grok-ops tip: **7c7965d**
 - escalate: **no**；next 04:00 ET 2026-10-11；recorded: 2026-10-11 12:55 CST
