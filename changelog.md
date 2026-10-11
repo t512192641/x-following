@@ -6383,3 +6383,23 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 - deferred_to_main：补抓 ~20:19 ET 火（sched 20:10 late ~9min）；20 主窗 **c3a32b9b** 已于 ~20:13 ET 认领 in_progress（sched 20:05 late ~8min）；scrape 齐 union**57**（HTL57 HIT∪DOM20）gap≈**5.48** min closed；overlay_resume mid（~10/57）；尚无 meta/分类/QA/页；16 窗 gap≈7.22 closed 无 hole；watchdog exit 0（20 窗 overlay alive）；未重抓、不抢 CDP、无官方 X API；cursor 仍 @thejustinwelsh 2109013680729809303；rec/ideas 已在交主窗并入；证据 `raw/2026-10-10/20-10-catchup.md`。
 - escalate: no；stay_quiet；recorded: 2026-10-11 08:19 CST
+
+## 2026-10-10 20:00 ET · 主窗
+
+- automation: **c3a32b9b** full_main（fired ~20:13 ET；sched 20:05 late ~8min；finished ~08:26 CST）
+- login_ok: true；source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API）
+- prior_cursor: @thejustinwelsh **2109013680729809303** 2026-10-10T20:10:19.000Z
+- union **57**（DOM20 ∪ HTL57 HIT）；gap≈**5.48** min closed；gap_open false
+- overlay_fill_rate: **53/57 = 93.0%**（stop_reason=completed；item_timeout=20s budget=20min splash_stop=3）
+- depollute_restored: **2**（20-depollute.md）
+- window class: 正文**11** / 拿不准**1** / 已过滤**45** miss=0（heur→manual）
+- page: 正文**114** / 拿不准**10** / 已过滤**411**（含 0/4/8/12/16 + 本窗 + recommended/ideas）
+- rec_ideas: rec=merged/**9** ideas=merged/**4**（sourceDate 2026-10-10；脑洞组）
+- qa: clippedBtns=0 pass（20-qa.png）；modal float expand OK
+- md5: **37ef761a354ed1b70f76020e21669205** live==local PASS（curl root==days==live）
+- tip: **9c7b2af**
+- cursor: @Morris_LT **2109076053742567614**（advanced；gap closed）
+- chat_line: `10/10 20:00：正文114 / 拿不准10 / 已过滤411。https://t512192641.github.io/x-following/2026-10-10.html`
+- chat_delivery: **pending_parent**
+- grok-ops tip: **2a485c9**
+- escalate: **no**；next 00:00 ET 2026-10-11；recorded: 2026-10-11 08:26 CST
