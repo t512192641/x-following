@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @SahilBloom
-- status_id: 2109315698103054428
-- url: https://x.com/SahilBloom/status/2109315698103054428
-- time_utc: 2026-10-11T16:10:26.000Z
-- updated_window: 2026-10-11 12:00 ET
+- handle: @thejustinwelsh
+- status_id: 2109373718040375532
+- url: https://x.com/thejustinwelsh/status/2109373718040375532
+- time_utc: 2026-10-11T20:00:59.000Z
+- updated_window: 2026-10-11 16:00 ET

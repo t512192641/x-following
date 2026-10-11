@@ -6784,3 +6784,26 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 证据：`raw/2026-10-11/16-main-deferred.md`
 - escalate: no；stay_quiet
 - recorded: 2026-10-12 04:14 CST
+
+## 2026-10-11 16:00 ET · 补抓 full_main_takeover（cdf0cd43）
+
+- automation: **cdf0cd43** catchup → **full_main_takeover**（主窗 c3a32b9b 16:05 漏跑 → deferred_to_catchup；补抓 fire ~16:10 ET 接管）
+- **调度漏叫**：主窗 c3a32b9b 未按时开火；由 :10 补抓兜底完整主窗流水线
+- login_ok: true；source: DOM Following→Latest + same-session HomeLatestTimeline（CDP :9226；无官方 X API）
+- prior_cursor: @SahilBloom **2109315698103054428** 2026-10-11T16:10:26.000Z
+- union **58**（DOM18 ∪ HTL51）；gap≈**4.98** min closed；gap_open false；hit_cursor_effective true（DOM hit；HTL nested CUR + paginate 一度 403）
+- overlay_fill_rate: **42/58 = 72.4%**（stop_reason=completed；reject_href 16；item_timeout=20s budget=20min splash_stop=3）
+- depollute_restored: **0**
+- window class: 正文**12** / 拿不准**4** / 已过滤**42** miss=0（heur→manual 14 overrides）
+- page 2026-10-11: 正文**96** / 拿不准**23** / 已过滤**305**（00+04+08+12+本窗）；bak-16
+- rec_ideas: skipped（非 20:00）
+- qa: clippedBtns=0 pass（16-qa.png）
+- md5: **a24e26681486bb899de7bd2db1303a7f** live==local PASS
+- tip: **a9d13fe**
+- cursor: @thejustinwelsh **2109373718040375532**（advanced；gap closed）
+- chat_line: `10/11 16:00：正文96 / 拿不准23 / 已过滤305。https://t512192641.github.io/x-following/2026-10-11.html`
+- chat_delivery: **pending_parent**
+- evidence: `raw/2026-10-11/16-10-catchup.md` / `16-meta.md` / `16-claim.md`；主窗 deferred 见 `16-main-deferred.md`
+- grok-ops tip: TBD
+- escalate: **no**；next 20:00 ET 2026-10-11；recorded: 2026-10-12 04:23 CST
+
