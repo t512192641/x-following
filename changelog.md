@@ -7245,3 +7245,18 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 12:25；12:10 deferred；12:00 in_progress；09:23 x-lists 已 complete
 - grok-ops tip: **bcb575a**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 00:54 CST
+
+## 2026-10-12 12:00 ET · 主窗 complete
+
+- automation: **c3a32b9b** full_main 今天续窗（fire ~12:30 ET；sched 12:05 late ~25min；finished 2026-10-13 01:03 CST）
+- scrape: HTL166 HIT + DOM42 → union **172**；gap≈**2.32** min closed；prior @liuren 2109620940334387375
+- overlay: **147/172=85.5%**（stop_reason=completed；reject_href 25；CDP 还回 x.com/home）
+- depollute: restored **5**
+- classify: 窗类 **34/11/127** miss0（41 overrides）；page **84/38/302**
+- QA: pass；clippedBtns 0；12-qa.png
+- publish: tip **15bbb42** md5 **8a50dad2** live PASS（root==days==live）
+- cursor: @alex_prompter 2109682716983869487
+- chat_line: `10/12 12:00：正文84 / 拿不准38 / 已过滤302。https://t512192641.github.io/x-following/2026-10-12.html`
+- chat_delivery: **pending_parent**
+- escalate: **no**；next **16:00 ET**
+- recorded: 2026-10-13 01:03 CST
