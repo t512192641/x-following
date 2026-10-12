@@ -7254,9 +7254,69 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - depollute: restored **5**
 - classify: 窗类 **34/11/127** miss0（41 overrides）；page **84/38/302**
 - QA: pass；clippedBtns 0；12-qa.png
-- publish: tip **15bbb42** md5 **8a50dad2** live PASS（root==days==live）
+- publish: tip **15bbb42→5a437ac** md5 **8a50dad2** live PASS（root==days==live）
 - cursor: @alex_prompter 2109682716983869487
 - chat_line: `10/12 12:00：正文84 / 拿不准38 / 已过滤302。https://t512192641.github.io/x-following/2026-10-12.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: **已交（2026-10-13 01:05 CST）**
+- grok-ops tip: **cf81384**
 - escalate: **no**；next **16:00 ET**
 - recorded: 2026-10-13 01:03 CST
+
+## 2026-10-12 13:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~13:40 ET；sched 13:25 late ~16min；check→record ~2026-10-13 01:42 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154（chrome-profile；idle x.com/home）**not stolen**；login_ok true（12-scrape-meta）+Home/X
+- **12:00 complete** c3a32b9b full_main：今天续窗 **84/38/302** tip **5a437ac** md5 **8a50dad2** live PASS（curl root==days==live）；**chat ✅ 01:05 CST**
+- 12:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/12-10-catchup.md；无 hole）
+- cursor: @alex_prompter 2109682716983869487（== cursor.md==cursor.json==12-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈0.63；**16:00 ET 未到期**（约 +2.32h，无 16-claim）
+- board：本条 13:25；12:00 chat pending_parent→delivered；09:23 x-lists 已 complete
+- grok-ops tip: **bbdf79d**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 01:42 CST
+
+## 2026-10-12 14:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~14:42 ET；sched 14:25 late ~17min；check→record ~2026-10-13 02:45 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154（chrome-profile；idle x.com/home）**not stolen**；login_ok true（12-scrape-meta）+Home/X+cookies
+- **12:00 complete** c3a32b9b full_main：今天续窗 **84/38/302** tip **5a437ac** md5 **8a50dad2** live PASS（curl root==days==live）；**chat ✅ 01:05 CST**
+- 12:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/12-10-catchup.md；无 hole）
+- cursor: @alex_prompter 2109682716983869487（== cursor.md==cursor.json==12-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈1.65；**16:00 ET 未到期**（约 +1.3h，无 16-claim）
+- board：本条 14:25；workspace ops 顶回填 13:25+12:00 delivered；09:23 x-lists 已 complete
+- grok-ops tip: **512e358**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 02:45 CST
+
+## 2026-10-12 15:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~15:36 ET；sched 15:25 late ~11min；check→record ~2026-10-13 03:39 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154（chrome-profile；idle x.com/home）**not stolen**；login_ok true（12-scrape-meta）+Home/X+cookies
+- **12:00 complete** c3a32b9b full_main：今天续窗 **84/38/302** tip **5a437ac** md5 **8a50dad2** live PASS（curl day root==days==live；site index `/` 仍 04-era f37ce6b1 中午惯例）；**chat ✅ 01:05 CST**
+- 12:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/12-10-catchup.md；无 hole）
+- cursor: @alex_prompter 2109682716983869487（== cursor.md==cursor.json==12-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈2.6；**16:00 ET 未到期**（约 +0.35h，无 16-claim）
+- board：本条 15:25；09:23 x-lists 已 complete
+- grok-ops tip: **dfb61c4**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 03:39 CST
+
+## 2026-10-12 16:00 ET · 主窗 complete
+
+- automation: **c3a32b9b** full_main（今天续窗；fire ~16:13 ET late ~8min；收口 ~2026-10-13 04:20 CST）
+- scrape: HTL **87** HIT CURSOR；DOM **23**；union **93**；gap_prior_to_oldest_new_min **9.03**；gap_open false；hit_cursor true
+- oldest_new: @lennysan 2109684988639887410 2026-10-12T16:37:52.000Z
+- newest / cursor: @elonmusk **2109738767351230511** 2026-10-12T20:11:33.000Z
+- overlay: accept **93**/93 = **100.0%**（attempted=0；HTL 正文已齐；stop_reason=completed）；CDP 还回 x.com/home
+- overlay_fill_rate: 93/93 = 100.0% (stop_reason=completed; attempted=0; item_timeout=20.0s budget=20.0min splash_stop=3)
+- depollute: restored **0**
+- classify: 窗类 正文 **21** / 拿不准 **7** / 已过滤 **65**；miss **0**；n=93（16-class-manual.md，27 overrides）
+- page: 今天续窗 **98/45/367**（thin+04+08+12+16）；QA pass clippedBtns 0（16-qa.png）
+- md5 / publish: 见本窗收口后 PUBLISH_RESULT（pending fill）
+- chat_line: `10/12 16:00：正文98 / 拿不准45 / 已过滤367。https://t512192641.github.io/x-following/2026-10-12.html`
+- chat_delivery: **pending_parent**
+- next: 2026-10-12 20:00 ET
+- escalate: no
