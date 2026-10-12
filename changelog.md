@@ -6964,7 +6964,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - tip: **0f1e8a1**（10-11）→ **1f09f4e**（10-12 thin）→ **580628e**（index→10-11）
 - cursor: @oran_ge 2109437247812784318 → **@indie_maker_fox 2109496895370654090**（advanced；gap closed）
 - chat_line: `10/11 完整版：正文175 / 拿不准40 / 已过滤530。https://t512192641.github.io/x-following/2026-10-11.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅** ~12:20 CST（WakeParent）
 - grok-ops tip: **19700a2**
 - escalate: **no**；next 04:00 ET 2026-10-12；recorded: 2026-10-12 12:15 CST
 
@@ -6979,3 +6979,104 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - evidence: `raw/2026-10-12/00-10-catchup.md`；grok-ops tip **9342c44** (+stamp 46bb86a)；主窗 publish tip **0f1e8a1**（live PASS；claim/meta/chat 仍交主窗）
 - next: 主窗交 **10-11 完整版** → 04:00 ET；00:25 x-3 复核
 - recorded: 2026-10-12 12:16 CST
+
+## 2026-10-12 00:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~00:26 ET；sched 00:25 late ~1min；check→reconcile ~2026-10-12 00:27 ET）
+- quiet_ok: **true**
+- watchdog: exit 0（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile；tab https://x.com/home；playwright orphan **not stolen**
+- login_ok: true（00-scrape-meta）+Home/X
+- **00:00 complete** c3a32b9b full_main：交 **10-11 完整版** **175/40/530** tip **580628e**（0f1e8a1→1f09f4e→580628e）md5 **20bfcf84** live PASS；thin 10-12 **4/0/8** md5 **3a039b8c**；union205 gap≈8.22 closed；overlay 205/205=100%；depollute0；窗类47/7/151 miss0；cursor **@indie_maker_fox 2109496895370654090**；**chat ✅ 12:20 CST**
+- 00:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/00-10-catchup.md；无 hole）
+- prior **20:00 complete** 今天续窗 **132/33/387** tip **50c18ef** md5 **fa908a12** chat ✅ 08:38 CST
+- cursor: @indie_maker_fox **2109496895370654090**（== cursor.md==cursor.json==00-claim/meta）
+- lists: Oct8+Oct9+Oct10+**Oct11** done（156/@yiren_ai；meta 09:26 ET）— **no backfill**；Oct12 lists 未到期（09:23 ET，约 +8.9h）
+- hours_since_last_complete: ≈0.1（00 finish~00:20 ET / 12:20 CST）
+- board：00:00 主窗 `pending_parent` → **delivered ✅** ~12:20 CST（与 claim/meta 对齐）；本条 00:25
+- next **04:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
+- grok-ops tip: **1f4b0e9**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 12:27 CST
+
+## 2026-10-12 01:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~01:32 ET；sched 01:25 late ~7min；check→reconcile ~2026-10-12 01:33 ET）
+- quiet_ok: **true**
+- watchdog: exit 0（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile；tab https://x.com/home；playwright orphan **not stolen**
+- login_ok: true（00-scrape-meta）+Home/X
+- **00:00 complete** c3a32b9b full_main：交 **10-11 完整版** **175/40/530** tip **580628e**（0f1e8a1→1f09f4e→580628e）md5 **20bfcf84** live PASS；thin 10-12 **4/0/8** md5 **3a039b8c**；union205 gap≈8.22 closed；overlay 205/205=100%；depollute0；窗类47/7/151 miss0；cursor **@indie_maker_fox 2109496895370654090**；**chat ✅ 12:20 CST**
+- 00:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/00-10-catchup.md；无 hole）
+- prior **20:00 complete** 今天续窗 **132/33/387** tip **50c18ef** md5 **fa908a12** chat ✅ 08:38 CST
+- cursor: @indie_maker_fox **2109496895370654090**（== cursor.md==cursor.json==00-claim/meta）
+- lists: Oct8+Oct9+Oct10+**Oct11** done（156/@yiren_ai；meta 09:26 ET）— **no backfill**；Oct12 lists 未到期（09:23 ET，约 +7.8h）
+- hours_since_last_complete: ≈1.2（00 finish~00:20 ET / 12:20 CST）
+- board：00:00 already delivered；本条 01:25
+- next **04:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
+- grok-ops tip: **988d4b0**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 13:33 CST
+
+## 2026-10-12 02:25 ET 健康检查
+
+- automation: **960034de** x-3（fired ~02:30 ET；sched 02:25 late ~5min）
+- quiet_ok: **true**；watchdog exit 0（checked 0）；CDP :9226 up not stolen
+- 00:00 complete 175/40/530 tip 580628e md5 20bfcf84 live PASS（复验）；thin 10-12 3a039b8c live PASS；chat ✅ 12:20 CST
+- cursor @indie_maker_fox 2109496895370654090；lists Oct11 done（156/@yiren_ai），Oct12 未到期
+- next **04:00 ET**；escalate **no**；stay_quiet；recorded: 2026-10-12 14:31 CST
+
+## 2026-10-12 03:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~03:36 ET；sched 03:25 late ~11min）
+- quiet_ok: **true**
+- watchdog: exit 0（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile；tab https://x.com/home；playwright orphan **not stolen**
+- login_ok: true（00-scrape-meta）+Home/X
+- **00:00 complete** c3a32b9b full_main：交 **10-11 完整版** **175/40/530** tip **580628e** md5 **20bfcf84** live PASS（复验）；thin 10-12 **4/0/8** md5 **3a039b8c** live PASS；**chat ✅ 12:20 CST**
+- 00:10 catchup: deferred_to_main complete（无 hole）
+- cursor: @indie_maker_fox **2109496895370654090**（== cursor.md==cursor.json==00-claim/meta）
+- lists: Oct8–**Oct11** done（156/@yiren_ai；meta 09:26 ET）— **no backfill**；Oct12 lists 未到期（约 +5.8h）
+- hours_since_last_complete: ≈3.3；**04:00 ET 未到期**（约 +0.4h）
+- next **04:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
+- grok-ops tip: **004932f**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 15:37 CST
+
+
+## 2026-10-12 04:10 ET · 补抓 deferred_to_main
+
+- automation: **cdf0cd43** x-2（fired ~04:17 ET；sched 04:10 late ~7min；check ~2026-10-12 16:20 CST）
+- status: **deferred_to_main**
+- **04:00 主窗 in_progress**（c3a32b9b full_main 今天第一版）：union139 HTL138∪DOM34 gap≈2.87 closed；overlay mid [45/139]（OK≈40；pid alive）；尚无 depollute/classify/merge完整版/meta/QA/chat；thin 10-12 **4/0/8** 已在页；cursor 仍 @indie_maker_fox 2109496895370654090
+- prior **00:00** complete 昨页 **175/40/530** tip **580628e** md5 **20bfcf84** live PASS chat ✅ ~12:20 CST
+- action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
+- watchdog exit 0（overlay alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-12/04-10-catchup.md`；grok-ops tip: **e5be09e**
+- next: 主窗交 **今天第一完整版 10-12** → 08:00 ET；04:25 x-3 复核
+- recorded: 2026-10-12 16:20 CST
+
+## 2026-10-12 04:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~04:30 ET；sched 04:25 late ~5min；check→reconcile ~2026-10-12 16:32 CST）
+- quiet_ok: **true**
+- watchdog: exit 0（checked 1；04 overlay→alive not stalled ~116/139）
+- CDP :9226: up Chrome/154 chrome-profile；overlay mid-run；playwright orphan **not stolen**；有窗不抢
+- login_ok: true（04-scrape-meta）+Home/X
+- **04:00 in_progress** c3a32b9b full_main（今天第一版）：union139 HTL138∪DOM34 gap≈2.87 closed；overlay mid ~116/139（OK≈103；pid alive）；尚无 depollute/meta/QA/chat；thin 10-12 **4/0/8** 已在页
+- 04:10 catchup: deferred_to_main complete（无 hole）；回填 workspace ops/task-board 缺的 04:10/04:00 行
+- prior **00:00 complete** 昨页 **175/40/530** tip **580628e** md5 **20bfcf84** live PASS（复验）；thin md5 **3a039b8c** live PASS；chat ✅ 12:20 CST
+- cursor: @indie_maker_fox **2109496895370654090**（主窗未推进）
+- lists: Oct8–**Oct11** done（156/@yiren_ai）— **no backfill**；Oct12 lists 未到期（约 +4.9h）
+- hours_since_last_complete: ≈4.2（04 in_progress 覆盖）
+- next: 主窗交 **今天第一完整版 10-12** → **08:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
+- grok-ops tip: **ab62b21** (+stamp a355851)
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 16:32 CST
+
+
+## 2026-10-12 04:00 ET · 主窗（今天第一版）
+
+- automation: **c3a32b9b** full_main（fired ~04:14 ET；sched 04:05 late ~9min）
+- scrape: same-session HomeLatestTimeline **138** HIT CURSOR + DOM Following→Latest **34** → union **139**；gap≈2.87min closed；无官方/付费 X API
+- overlay 123/139=88.5%（reject_href 16，保留时间线原文）；depollute restored 8
+- 窗类 正文26 / 拿不准15 / 已过滤98 miss0（34 manual overrides，写回 04.jsonl/04-articles.jsonl）
+- page 2026-10-12：**30/15/106**（thin seed 4/0/8 + 本窗）；QA pass clippedBtns0（04-qa.png）
+- cursor → @indie_maker_fox 2109557493131268158 2026-10-12T08:11:14Z
+- chat_delivery: pending_parent
