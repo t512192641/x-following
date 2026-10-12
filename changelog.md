@@ -7133,3 +7133,115 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - evidence: `raw/2026-10-12/08-10-catchup.md`；grok-ops tip: **1bce9c0**
 - next: 主窗交 **今天续窗 10-12** → 12:00 ET；08:25 x-3 复核
 - recorded: 2026-10-12 20:27 CST
+
+
+## 2026-10-12 08:00 ET · 主窗（今天续窗）
+
+- automation: **c3a32b9b** full_main（fired ~08:22 ET；sched 08:05 late ~17min）
+- scrape: same-session HomeLatestTimeline **101** HIT CURSOR + DOM Following→Latest **31** → union **101**；gap≈7.47min closed；无官方/付费 X API
+- overlay 89/101=88.1%（reject_href 12，保留时间线原文）；depollute restored 5
+- 窗类 正文20 / 拿不准12 / 已过滤69 miss0（28 manual overrides，写回 08.jsonl/08-articles.jsonl）
+- page 2026-10-12：**50/27/175**（thin seed 4/0/8 + 04 + 本窗）；QA pass clippedBtns0（08-qa.png）
+- publish: tip **98020d2** md5 e83bf8b9 live PASS（root==days==live index）
+- cursor → @liuren 2109620940334387375 2026-10-12T12:23:21Z
+- chat_delivery: **已交（2026-10-12 20:44 CST）**
+- grok-ops tip: **0fe39ed**
+- note: `_union08.py` 曾误写 04.jsonl/错 prior_t，已修并恢复 04.jsonl；非 escalate
+
+## 2026-10-12 08:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~08:43 ET；sched 08:25 late ~18min；check→record ~2026-10-12 20:45 CST）
+- quiet_ok: **true**
+- watchdog: exit 0（checked 1；08 claim finishing idle≈0.5min not stalled）
+- CDP :9226: up Chrome/154 chrome-profile；tab x.com/home；playwright orphan **not stolen**
+- login_ok: true（08-scrape-meta）+Home/X
+- **08:00 complete** c3a32b9b full_main：今天续窗 **50/27/175** tip **98020d2** md5 **e83bf8b9** live PASS（curl 复验）；**chat ✅ 20:44 CST**
+- 08:10 catchup: deferred_to_main complete（无 hole）
+- prior **04:00** complete 今天第一版 **30/15/106** tip **8347108** md5 **f37ce6b1** chat ✅ 16:40 CST
+- cursor: @liuren 2109620940334387375
+- lists: Oct8–**Oct11** done（156/@yiren_ai）— **no backfill**；Oct12 lists 未到期（约 +0.65h）
+- hours_since_last_complete: ≈0；next **12:00 ET**
+- board：本条 08:25；08:00 已由主窗标 complete
+- grok-ops tip: **99cf0b4**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 20:45 CST
+
+## 2026-10-12 09:23 ET · x-lists
+
+- automation: **c3cd83f8** x-4（fired ~09:51 ET；sched 09:23 late ~28min；done ~09:53 ET）
+- login_ok；following unchanged **156/@yiren_ai**；bookmarks @Manu_Sisti/2104589392631496989 **173** unchanged
+- computerUse 浏览器核盘不碰 CDP；main-list 正在关注 only；/i/bookmarks→/i/history；回 x.com/home 1 tab
+- jsonl 未改；meta/_check 已写并 sync 私有 grok-ops/x-lists/
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 21:53 CST
+
+## 2026-10-12 09:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~09:53 ET；sched 09:25 late ~28min；check→record ~2026-10-12 21:55 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154 x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
+- **08:00 complete** c3a32b9b full_main：今天续窗 **50/27/175** tip **98020d2** md5 **e83bf8b9** live PASS（curl day root==days==local；live site index 仍 04 版 f37ce6b1）；**chat ✅ 20:44 CST**
+- 08:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/08-10-catchup.md；无 hole）
+- prior **04:00** complete 今天第一版 **30/15/106** tip **8347108** md5 **f37ce6b1** chat ✅ 16:40 CST
+- cursor: @liuren 2109620940334387375
+- lists: Oct8–**Oct12** done（x-4 c3cd83f8 ~09:51–09:53；156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈1.17；next **12:00 ET**
+- board：本条 09:25；09:23 x-lists 已由 x-4 标 complete
+- grok-ops tip: **8076d21**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 21:55 CST
+
+
+## 2026-10-12 10:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~10:58 ET；sched 10:25 late ~33min；check→record ~2026-10-12 23:00 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154 x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
+- **08:00 complete** c3a32b9b full_main：今天续窗 **50/27/175** tip **98020d2** md5 **e83bf8b9** live PASS（curl day root==days==local；live site index 仍 04 版 f37ce6b1）；**chat ✅ 20:44 CST**
+- 08:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/08-10-catchup.md；无 hole）
+- prior **04:00** complete 今天第一版 **30/15/106** tip **8347108** md5 **f37ce6b1** chat ✅ 16:40 CST
+- cursor: @liuren 2109620940334387375
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈2.28；next **12:00 ET**
+- board：本条 10:25；09:23 x-lists 已 complete
+- grok-ops tip: **81ebff8**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 23:00 CST
+
+## 2026-10-12 11:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~11:48 ET；sched 11:25 late ~23min；check→record ~2026-10-12 23:50 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154 x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
+- **08:00 complete** c3a32b9b full_main：今天续窗 **50/27/175** tip **98020d2** md5 **e83bf8b9** live PASS（curl day root==days==local；live site index 仍 04 版 f37ce6b1）；**chat ✅ 20:44 CST**
+- 08:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/08-10-catchup.md；无 hole）
+- prior **04:00** complete 今天第一版 **30/15/106** tip **8347108** md5 **f37ce6b1** chat ✅ 16:40 CST
+- cursor: @liuren 2109620940334387375
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈3.1；next **12:00 ET**
+- board：本条 11:25；09:23 x-lists 已 complete
+- grok-ops tip: **472a6a7**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 23:50 CST
+
+## 2026-10-12 12:10 ET · 补抓 deferred_to_main
+
+- automation: **cdf0cd43** x-2（fired ~12:40 ET；sched 12:10 late ~30min；check ~2026-10-13 00:42 CST）
+- status: **deferred_to_main**
+- **12:00 主窗 in_progress**（c3a32b9b full_main 今天续窗）：union172 HTL166∪DOM42 gap≈2.32 closed；overlay mid [78/172 OK≈59 REJECT≈19]（pid alive）；尚无 depollute/classify/merge续窗/meta/QA/chat；cursor 仍 @liuren 2109620940334387375
+- prior **08:00** complete 今天续窗 **50/27/175** tip **98020d2** md5 **e83bf8b9** live PASS chat ✅ ~20:44 CST
+- action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
+- watchdog exit 0（overlay alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-12/12-10-catchup.md`；grok-ops tip: **0599b1d**
+- next: 主窗交 **今天续窗 10-12** → 16:00 ET；12:25 x-3 复核
+- recorded: 2026-10-13 00:42 CST
+
+## 2026-10-12 12:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~12:53 ET；sched 12:25 late ~28min；check→record ~2026-10-13 00:54 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 1；12 overlay alive second-pass ~70/88 not stalled）
+- CDP :9226 up Chrome/154（chrome-profile；主窗 overlay 占用）**not stolen**；login_ok true（12-scrape-meta）+Home/X
+- **12:00 in_progress** c3a32b9b full_main：union**172** HTL166∪DOM42 gap≈**2.32** closed；overlay mid remaining **~70/88**；尚无 depollute/classify/merge续窗/meta/QA/chat；cursor 仍 @liuren
+- 12:10 catchup: deferred_to_main complete（evidence raw/2026-10-12/12-10-catchup.md；无 hole）
+- prior **08:00 complete** 今天续窗 **50/27/175** tip **98020d2** md5 **e83bf8b9** live PASS（curl day root==days==local；live site index 仍 04 版 f37ce6b1）；**chat ✅ 20:44 CST**
+- cursor: @liuren 2109620940334387375
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈4.18（12 in_progress 覆盖）；next 主窗交 12:00→**16:00 ET**
+- board：本条 12:25；12:10 deferred；12:00 in_progress；09:23 x-lists 已 complete
+- grok-ops tip: **bcb575a**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 00:54 CST
