@@ -6967,3 +6967,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_delivery: **pending_parent**
 - grok-ops tip: **GROKOPS**
 - escalate: **no**；next 04:00 ET 2026-10-12；recorded: 2026-10-12 12:15 CST
+
+## 2026-10-12 00:10 ET · 补抓 deferred_to_main
+
+- automation: **cdf0cd43** x-2（fired ~00:15 ET；sched 00:10 late ~5min；check ~2026-10-12 12:16 CST）
+- status: **deferred_to_main**
+- **00:00 主窗 in_progress**（c3a32b9b full_main）：union205 HTL204∪DOM54 gap≈8.22 closed；overlay 205/205=100%；depollute0；窗类47/7/151 miss0；merge 10-11→**175/40/530** thin 10-12→4/0/8；QA pass；md5 local **20bfcf84**；**publish 活跃**；尚无 00-meta complete / Pages tip / chat；cursor.md 已 @indie_maker_fox 2109496895370654090；claim prior 仍 @oran_ge 2109437247812784318
+- prior **20:00** complete 今天续窗 **132/33/387** tip **50c18ef** md5 **fa908a12** live PASS chat ✅ ~08:38 CST
+- action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
+- watchdog exit 0（publish alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-12/00-10-catchup.md`；grok-ops tip **9342c44** (+stamp 46bb86a)；主窗 publish tip **0f1e8a1**（live PASS；claim/meta/chat 仍交主窗）
+- next: 主窗交 **10-11 完整版** → 04:00 ET；00:25 x-3 复核
+- recorded: 2026-10-12 12:16 CST
