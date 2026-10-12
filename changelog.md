@@ -7315,7 +7315,9 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - depollute: restored **0**
 - classify: 窗类 正文 **21** / 拿不准 **7** / 已过滤 **65**；miss **0**；n=93（16-class-manual.md，27 overrides）
 - page: 今天续窗 **98/45/367**（thin+04+08+12+16）；QA pass clippedBtns 0（16-qa.png）
-- md5 / publish: 见本窗收口后 PUBLISH_RESULT（pending fill）
+- md5: root = days = site = live root = live days = `c0ca634b6dc98b351b2414306119cac5`
+- public tip: **4eba8d1**
+- live PASS: true
 - chat_line: `10/12 16:00：正文98 / 拿不准45 / 已过滤367。https://t512192641.github.io/x-following/2026-10-12.html`
 - chat_delivery: **pending_parent**
 - next: 2026-10-12 20:00 ET
