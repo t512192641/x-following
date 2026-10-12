@@ -6799,11 +6799,83 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - rec_ideas: skipped（非 20:00）
 - qa: clippedBtns=0 pass（16-qa.png）
 - md5: **a24e26681486bb899de7bd2db1303a7f** live==local PASS
-- tip: **a9d13fe**
+- tip: **7fa6451**
 - cursor: @thejustinwelsh **2109373718040375532**（advanced；gap closed）
 - chat_line: `10/11 16:00：正文96 / 拿不准23 / 已过滤305。https://t512192641.github.io/x-following/2026-10-11.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅** ~04:26 CST（与 claim/meta 对齐）
 - evidence: `raw/2026-10-11/16-10-catchup.md` / `16-meta.md` / `16-claim.md`；主窗 deferred 见 `16-main-deferred.md`
-- grok-ops tip: TBD
+- grok-ops tip: **8de3eab**
 - escalate: **no**；next 20:00 ET 2026-10-11；recorded: 2026-10-12 04:23 CST
 
+
+## 2026-10-11 16:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~16:27 ET；sched 16:25 late ~2min；check→reconcile ~2026-10-11 16:29 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 补抓 full_main_takeover complete**（cdf0cd43；主窗 deferred_to_catchup / 调度漏叫）：今天续窗 **96/23/305** tip **7fa6451** md5 **a24e2668** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3）；union58 overlay 42/58=72.4% depollute0 窗类12/4/42 miss0；gap≈4.98 closed；QA pass；chat **delivered ✅** ~04:26 CST
+- 16:00 主窗 deferred_to_catchup complete；prior **12** 今天续窗 **84/19/263** tip **3ca9e11** md5 **6934ab3e** chat ✅ ~00:38 CST
+- cursor @thejustinwelsh **2109373718040375532**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（16-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +16.9h）
+- board：16:00 catchup `pending_parent` → **delivered ✅** ~04:26 CST（与 claim/meta 对齐）；回填 16:00/16:25 至 task-board 头顶
+- next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **177894d** (+stamp 412b1a6)
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 04:29 CST
+
+
+## 2026-10-11 17:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~17:28 ET；sched 17:25 late ~3min；check→reconcile ~2026-10-11 17:28 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 补抓 full_main_takeover complete**（cdf0cd43；主窗 deferred_to_catchup / 调度漏叫）：今天续窗 **96/23/305** tip **7fa6451** md5 **a24e2668** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3）；union58 overlay 42/58=72.4% depollute0 窗类12/4/42 miss0；gap≈4.98 closed；QA pass；chat **delivered ✅** ~04:26 CST
+- 16:00 主窗 deferred_to_catchup complete；prior **12** 今天续窗 **84/19/263** tip **3ca9e11** md5 **6934ab3e** chat ✅ ~00:38 CST
+- cursor @thejustinwelsh **2109373718040375532**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（16-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +15.9h）
+- next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **07fd3c6**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 05:28 CST
+
+
+## 2026-10-11 18:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~18:31 ET；sched 18:25 late ~6min；check→reconcile ~2026-10-11 18:33 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 补抓 full_main_takeover complete**（cdf0cd43；主窗 deferred_to_catchup / 调度漏叫）：今天续窗 **96/23/305** tip **7fa6451** md5 **a24e2668** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3）；union58 overlay 42/58=72.4% depollute0 窗类12/4/42 miss0；gap≈4.98 closed；QA pass；chat **delivered ✅** ~04:26 CST
+- 16:00 主窗 deferred_to_catchup complete；prior **12** 今天续窗 **84/19/263** tip **3ca9e11** md5 **6934ab3e** chat ✅ ~00:38 CST
+- cursor @thejustinwelsh **2109373718040375532**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（16-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +14.8h）
+- next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **73dc24f** (+stamp 7b74e92)
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 06:33 CST
+
+## 2026-10-11 19:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~19:28 ET；sched 19:25 late ~3min；check→reconcile ~2026-10-11 19:30 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- **16:00 补抓 full_main_takeover complete**（cdf0cd43；主窗 deferred_to_catchup / 调度漏叫）：今天续窗 **96/23/305** tip **7fa6451** md5 **a24e2668** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3）；union58 overlay 42/58=72.4% depollute0 窗类12/4/42 miss0；gap≈4.98 closed；QA pass；chat **delivered ✅** ~04:26 CST
+- 16:00 主窗 deferred_to_catchup complete；prior **12** 今天续窗 **84/19/263** tip **3ca9e11** md5 **6934ab3e** chat ✅ ~00:38 CST
+- cursor @thejustinwelsh **2109373718040375532**（== cursor.md==cursor.json==16-claim/meta）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（16-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +13.9h）
+- next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
+- grok-ops tip: **b1bfd3c** (+stamp f8be0d0)
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 07:29 CST
+
+## 2026-10-11 20:10 ET · 补抓 deferred_to_main
+
+- [x] 2026-10-11 20:10 ET 补抓 **deferred_to_main**（cdf0cd43 ~20:20 ET (sched 20:10, late ~10min)）：20:00 主窗 c3a32b9b **in_progress**（union119 HTL115∪DOM37 gap≈16.9 closed；overlay mid ~22/119 pid alive；尚无 meta/分类/QA/页/chat）；cursor still @thejustinwelsh 2109373718040375532；prior 16 complete 96/23/305 tip 7fa6451 chat ✅ 04:26 CST；rec_ideas 交主窗并；未重抓不抢 CDP；escalate no；stay_quiet。  2026-10-12 08:22 CST
+
+## 2026-10-11 20:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~20:32 ET；sched 20:25 late ~7min；check→reconcile ~2026-10-11 20:33 ET）
+- quiet_ok: **true**；watchdog exit 0（checked 1；20 overlay_resume alive not stalled ~99/119）
+- **20:00 主窗 in_progress**（c3a32b9b full_main）：union**119** HTL115∪DOM37 gap≈**16.9** closed；overlay mid ~**99/119**；尚无 meta/分类/QA/页/chat；merge recommended+ideas 本窗；不重开不抢 CDP
+- 20:10 补抓 deferred_to_main complete；prior **16:00** 补抓 full_main_takeover complete 今天续窗 **96/23/305** tip **7fa6451** md5 **a24e2668** live PASS（curl root day==days==live==local；site index `/` 仍 04 版 7dc948f3）chat ✅ ~04:26 CST
+- cursor still @thejustinwelsh **2109373718040375532**（主窗未推进）
+- CDP :9226 在线（Chrome/154，原 chrome-profile）overlay 状态页（playwright orphan）**not stolen**；login_ok true（20-scrape-meta）+Home/X
+- lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +12.85h）
+- next 主窗交 **20:00**→**00:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
+- grok-ops tip: **cd40b9f**
+- escalate: **no**；stay_quiet；recorded: 2026-10-12 08:33 CST
