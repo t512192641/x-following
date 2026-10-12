@@ -6961,11 +6961,11 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - qa: clippedBtns=0 pass（00-qa.png）；modal float expand OK
 - md5: **20bfcf84fad4080f5dc1d93a73422468** live==local PASS（curl root==days==live index）
 - thin md5: **3a039b8c4b6cd2afcac74a15c53e7c7c** live==local
-- tip: **TIP_YDAY**（10-11）→ **TIP_SEED**（10-12 thin）→ **TIP_INDEX**（index→10-11）
+- tip: **0f1e8a1**（10-11）→ **1f09f4e**（10-12 thin）→ **580628e**（index→10-11）
 - cursor: @oran_ge 2109437247812784318 → **@indie_maker_fox 2109496895370654090**（advanced；gap closed）
 - chat_line: `10/11 完整版：正文175 / 拿不准40 / 已过滤530。https://t512192641.github.io/x-following/2026-10-11.html`
 - chat_delivery: **pending_parent**
-- grok-ops tip: **GROKOPS**
+- grok-ops tip: **19700a2**
 - escalate: **no**；next 04:00 ET 2026-10-12；recorded: 2026-10-12 12:15 CST
 
 ## 2026-10-12 00:10 ET · 补抓 deferred_to_main
