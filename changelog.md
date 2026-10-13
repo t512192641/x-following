@@ -7732,3 +7732,30 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 07:25；04:00 complete；04:10/04:25/05:25/06:25/00:00 已记；09:23 x-lists 已 complete
 - grok-ops tip: **28146d0**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 19:37 CST
+
+## 2026-10-13 08:00 ET · 主窗
+
+- status: **complete**
+- claimed_by: **c3a32b9b**
+- mode: full_main（今天续窗）
+- fire: 2026-10-13T12:08:03.486Z ≈ 08:08 ET（sched 08:05 late ~3min）；finished ~20:28 CST
+- prior_cursor: @bozhou_ai **2109920614949732836** 2026-10-13T08:14:09.000Z
+- login_ok: true；source: same-session HomeLatestTimeline + DOM Following→Latest（CDP :9226；无官方/付费 X API）
+- scrape: HTL **109** HIT CURSOR；DOM **36**；union **110**；gap_prior_to_oldest_new_min **6.15**；gap_open false
+- oldest_new: @BilliePhar61975 2109921171328434438 2026-10-13T08:16:22.000Z
+- newest / new_cursor: @430Yang **2109980105606922681** 2026-10-13T12:10:33.000Z
+- t.co: 08-tco.json 72/72
+- overlay_resume: accept **97** / reject_href **13** / fill_rate **88.2%**；stop_reason=completed；attempted=110；CDP 还回 x.com/home
+- overlay_fill_rate: 97/110 = 88.2% (stop_reason=completed; attempted=110; item_timeout=20.0s budget=20.0min splash_stop=3)
+- depollute: restored **1**（见 08-depollute.md）
+- classify: 窗类 正文 **25** / 拿不准 **8** / 已过滤 **77**；miss **0**；n=110（08-class-manual.md，31 overrides）
+- merge / page: 2026-10-13 正文 **56** / 拿不准 **16** / 已过滤 **167**（prior 31/8/90 + 本窗）；bak-08；无 CUTOFF；跳过 rec/ideas
+- rec_ideas: skipped（非 20:00）
+- QA: pass true；clippedBtns 0；08-qa.png（+ main/maybe/filt）
+- md5: root = days = site = live root = live days = `335aa1df1582202877017a8b7ade342a`
+- public tip: **293285c**（10-13 08:00 窗）
+- live PASS: true
+- chat_line: `10/13 8:00：正文56 / 拿不准16 / 已过滤167。https://t512192641.github.io/x-following/2026-10-13.html`
+- chat_delivery: **pending_parent**
+- next: 2026-10-13 12:00 ET
+- escalate: no
