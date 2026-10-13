@@ -7540,3 +7540,27 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - grok-ops tip: **d81da80**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 12:30 CST
 
+
+## 2026-10-13 00:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b** (full_main；0点窗；交付昨天完整日页 + 今天薄种子)
+- fire: ~2026-10-13T04:09Z ≈ 00:09 ET Oct 13（sched 00:05 late ~4min）
+- login_ok: true（CDP :9226 chrome-profile；tab 46BC3C98 Home/X；无官方/付费 X API）
+- scrape: HTL **214** HIT CURSOR + DOM **66** → union **215**；gap≈**1.55** closed；hit_cursor true
+- prior_cursor: @Adam38363368936 2109801127667806259 2026-10-13T00:19:21.000Z
+- oldest_new: @dotey 2109801518186799424 2026-10-13T00:20:54.000Z
+- newest / new_cursor: @indie_maker_fox **2109859226613080344** 2026-10-13T04:10:13.000Z
+- CUTOFF 2026-10-13T04:00:00Z：pre 207 → 10-12；after 8 → 10-13 薄种子
+- overlay: accept **156**/215 = **72.6%**（reject_href34 reject_total59；budget_exhausted 20min；attempted190）；CDP 还回 home
+- depollute: restored **9**
+- classify: window 正文**67** / 拿不准**4** / 已过滤**144** miss**0**（pre 64/4/139；after 3/0/5；45 overrides）
+- page_yday **2026-10-12**: 正文**185** / 拿不准**55** / 已过滤**576**（prior 121/51/437）；bak-00
+- thin_seed **2026-10-13**: 3 / 0 / 5（不聊天交付）
+- QA: pass；clippedBtns 0；`raw/2026-10-13/00-qa.png`
+- md5: 10-12 `f0f784b8b4aaa346345d35048e155c20` root=days=site=live root=live days=live index；10-13 thin `ee663a315bd7ae397795c20133cd6e09` live==local
+- public tip: **67e5f59**（10-12）→ **15efd7f**（10-13 thin）→ **9df3c4b**（index→10-12）
+- chat_line: `10/12 完整版：正文185 / 拿不准55 / 已过滤576。https://t512192641.github.io/x-following/2026-10-12.html`
+- chat_delivery: **pending_parent**
+- next: 2026-10-13 04:00 ET（今天第一版）
+- escalate: **no**
