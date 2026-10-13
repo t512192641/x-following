@@ -7561,6 +7561,93 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - md5: 10-12 `f0f784b8b4aaa346345d35048e155c20` root=days=site=live root=live days=live index；10-13 thin `ee663a315bd7ae397795c20133cd6e09` live==local
 - public tip: **67e5f59**（10-12）→ **15efd7f**（10-13 thin）→ **9df3c4b**（index→10-12）
 - chat_line: `10/12 完整版：正文185 / 拿不准55 / 已过滤576。https://t512192641.github.io/x-following/2026-10-12.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅** ~12:42 CST（WakeParent；md5 f0f784b8 verified；与 claim/meta 对齐）
 - next: 2026-10-13 04:00 ET（今天第一版）
 - escalate: **no**
+
+## 2026-10-13 01:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** (x-3)
+- fire: ~01:28 ET（sched 01:25 late ~3min；check→record ~2026-10-13 13:30 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up chrome-profile；idle Home/X **not stolen**；不清 cookie / 不重启
+- login_ok: true（00-scrape-meta）+Home/X+cookies auth_token/ct0/twid
+- **00:00 main c3a32b9b complete** full_main：union **215** gap≈**1.55** closed；overlay **156/215=72.6%** reject_href34 budget_exhausted；depollute9；窗类67/4/144 miss0；page_yday **185/55/576** tip **2c27d7b** md5 **f0f784b8** live PASS；thin 3/0/5；**chat ✅ ~12:42 CST**
+- prior **20:00** complete 今天续窗 **121/51/437** tip **e2039f1** md5 **62a8a898** live PASS；**chat ✅ 08:38 CST**
+- 00:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/00-10-catchup.md`；无 hole）
+- cursor: @indie_maker_fox **2109859226613080344**（== cursor.md==cursor.json==00-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai）— **no backfill / no duplicate**；Oct13 lists 未到期（09:23 ET，约 +7.9h）
+- hours_since_last_complete: ≈0.79（00 finish~12:42 CST）；next **04:00 ET**（约 +2.5h，无 04-claim）
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open / in_progress；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 01:25；00:00 pending_parent→delivered；00:10/00:25 已 complete；09:23 x-lists 已 complete
+- grok-ops tip: **c88b007**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 13:30 CST
+
+
+## 2026-10-13 02:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** (x-3)
+- fire: ~02:31 ET（sched 02:25 late ~6min；check→record ~2026-10-13 14:33 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up chrome-profile；idle Home/X **not stolen**；不清 cookie / 不重启
+- login_ok: true（00-scrape-meta）+Home/X+cookies auth_token/ct0/twid
+- **00:00 main c3a32b9b complete** full_main：union **215** gap≈**1.55** closed；overlay **156/215=72.6%** reject_href34 budget_exhausted；depollute9；窗类67/4/144 miss0；page_yday **185/55/576** tip **2c27d7b** md5 **f0f784b8** live PASS；thin 3/0/5；**chat ✅ ~12:42 CST**
+- prior **20:00** complete 今天续窗 **121/51/437** tip **e2039f1** md5 **62a8a898** live PASS；**chat ✅ 08:38 CST**
+- 00:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/00-10-catchup.md`；无 hole）
+- cursor: @indie_maker_fox **2109859226613080344**（== cursor.md==cursor.json==00-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai）— **no backfill / no duplicate**；Oct13 lists 未到期（09:23 ET，约 +6.85h）
+- hours_since_last_complete: ≈1.83（00 finish~12:42 CST）；next **04:00 ET**（约 +1.47h，无 04-claim）
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open / in_progress；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 02:25；00:00 complete；00:10/00:25/01:25 已记；09:23 x-lists 已 complete
+- grok-ops tip: **4f2bb01**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 14:33 CST
+
+## 2026-10-13 03:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** (x-3)
+- fire: ~03:31 ET（sched 03:25 late ~6min；check→record ~2026-10-13 15:34 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up chrome-profile；idle Home/X **not stolen**；不清 cookie / 不重启
+- login_ok: true（00-scrape-meta）+Home/X+cookies auth_token/ct0/twid
+- **00:00 main c3a32b9b complete** full_main：union **215** gap≈**1.55** closed；overlay **156/215=72.6%** reject_href34 budget_exhausted；depollute9；窗类67/4/144 miss0；page_yday **185/55/576** tip **2c27d7b** md5 **f0f784b8** live PASS；thin 3/0/5；**chat ✅ ~12:42 CST**
+- prior **20:00** complete 今天续窗 **121/51/437** tip **e2039f1** md5 **62a8a898** live PASS；**chat ✅ 08:38 CST**
+- 00:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/00-10-catchup.md`；无 hole）
+- cursor: @indie_maker_fox **2109859226613080344**（== cursor.md==cursor.json==00-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai）— **no backfill / no duplicate**；Oct13 lists 未到期（09:23 ET，约 +5.87h）
+- hours_since_last_complete: ≈2.85（00 finish~12:42 CST）；next **04:00 ET**（约 +0.48h，无 04-claim）
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open / in_progress；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 03:25；00:00 complete；00:10/00:25/01:25/02:25 已记；09:23 x-lists 已 complete
+- grok-ops tip: **91a6cab**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 15:34 CST
+
+## 2026-10-13 04:10 ET · 补抓 deferred_to_main
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** (x-2 汇总补抓)
+- fire: ~04:16 ET（sched 04:10 late ~6min；check→record ~2026-10-13 16:18 CST）
+- target: 04:00 主窗 in_progress（c3a32b9b；union **125** gap≈**4.6** closed；overlay mid 125/125=100% RESUME_DONE 进程仍收尾；尚无 depollute/classify/merge/meta/QA/chat）
+- watchdog exit 0（overlay_resume alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-13/04-10-catchup.md`；grok-ops tip: **7572217**
+
+## 2026-10-13 04:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** (x-3)
+- fire: ~04:27 ET（sched 04:25 late ~2min；check→record ~2026-10-13 16:28 CST）
+- watchdog: exit **0**（checked 1；04 overlay alive ~84/125 not stalled）
+- CDP :9226: up chrome-profile；busy main overlay **not stolen**；有窗口在跑不抢/不重启；不清 cookie
+- login_ok: true（04-scrape-meta）+Home/X+cookies auth_token/ct0/twid
+- **04:00 main c3a32b9b in_progress** full_main：union **125** gap≈**4.6** closed；overlay mid ~**84/125**；尚无 depollute/meta/chat
+- 04:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/04-10-catchup.md`；无 hole）
+- prior **00:00 complete** 昨页 **185/55/576** tip **2c27d7b** md5 **f0f784b8** live PASS；thin 3/0/5；**chat ✅ ~12:42 CST**
+- cursor: @indie_maker_fox **2109859226613080344**（== cursor.md==cursor.json==00-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai）— **no backfill / no duplicate**；Oct13 lists 未到期（09:23 ET，约 +4.92h）
+- hours_since_last_complete: ≈3.75（00 finish~12:42 CST）；next **08:00 ET**（04 in_progress）
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 04:25；04:00 in_progress；04:10/00:00/03:25 已记；09:23 x-lists 已 complete
+- grok-ops tip: **557e0c9**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 16:28 CST
+
