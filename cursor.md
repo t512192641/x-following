@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @430Yang
-- status_id: 2109980105606922681
-- url: https://x.com/430Yang/status/2109980105606922681
-- time_utc: 2026-10-13T12:10:33.000Z
-- updated_window: 2026-10-13 08:00 ET
+- handle: @rionaifantasy
+- status_id: 2110045326270689343
+- url: https://x.com/rionaifantasy/status/2110045326270689343
+- time_utc: 2026-10-13T16:29:43.000Z
+- updated_window: 2026-10-13 12:00 ET

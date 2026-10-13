@@ -7882,3 +7882,30 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - grok-ops tip: **c707b46**
 - escalate: **no**；stay_quiet；recorded: 2026-10-14 00:48 CST
 
+
+## 2026-10-13 12:00 ET · 主窗
+
+- status: **complete**
+- claimed_by: **c3a32b9b**
+- mode: full_main（今天续窗）
+- fire: 2026-10-13T16:27Z ≈ 12:27 ET（sched 12:05 late ~22min）；finished ~2026-10-14 01:00 CST
+- prior_cursor: @430Yang **2109980105606922681** 2026-10-13T12:10:33.000Z
+- login_ok: true；source: same-session HomeLatestTimeline + DOM Following→Latest（CDP :9226；无官方/付费 X API）
+- scrape: HTL **191** HIT CURSOR；DOM **54**；union **197**；gap_prior_to_oldest_new_min **3.05**；gap_open false
+- oldest_new: @yibie 2109980874540494894 2026-10-13T12:13:36.000Z
+- newest / new_cursor: @rionaifantasy **2110045326270689343** 2026-10-13T16:29:43.000Z
+- t.co: 12-tco.json 92 resolved
+- overlay_resume: accept **158** / reject_href **26** / not_attempted **13** / fill_rate **80.2%**；stop_reason=budget_exhausted(20.0min)；attempted=184；CDP 还回 x.com/home
+- overlay_fill_rate: 158/197 = 80.2% (stop_reason=budget_exhausted(20.0min); attempted=184; item_timeout=20.0s budget=20.0min splash_stop=3)
+- depollute: restored **11**（见 12-depollute.md）
+- classify: 窗类 正文 **42** / 拿不准 **16** / 已过滤 **139**；miss **0**；n=197（12-class-manual.md，45 overrides）
+- merge / page: 2026-10-13 正文 **93** / 拿不准 **32** / 已过滤 **306**（prior 56/16/167 + 本窗）；bak-12；无 CUTOFF；跳过 rec/ideas
+- rec_ideas: skipped（非 20:00）
+- QA: pass true；clippedBtns 0；12-qa.png（+ main/maybe/filt）
+- md5: root = days = site = live root = live days = `fb010d373d263f1c193f713ea10f40b5`
+- public tip: **b1108a5**（10-13 12:00 窗）
+- live PASS: true
+- chat_line: `10/13 12:00：正文93 / 拿不准32 / 已过滤306。https://t512192641.github.io/x-following/2026-10-13.html`
+- chat_delivery: **pending_parent**
+- next: 2026-10-13 16:00 ET
+- escalate: no
