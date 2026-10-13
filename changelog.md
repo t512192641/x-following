@@ -7391,3 +7391,25 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - grok-ops tip: **22b28e2**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 07:30 CST
 
+
+## 2026-10-12 20:00 ET · 主窗 complete
+
+- status: **complete**
+- automation: **c3a32b9b** full_main（今天续窗；20:00 并 rec+ideas）
+- fire: ~2026-10-13T00:17Z ≈ 20:17 ET Oct 12（sched 20:05 late ~12min）
+- prior_cursor: @elonmusk 2109738767351230511 2026-10-12T20:11:33.000Z
+- scrape: HTL **97** HIT CURSOR + DOM **30** → union **99**；gap≈**5.2** closed；hit_cursor true；gap_open false
+- oldest_new: @FactoryAI 2109740076079215004 2026-10-12T20:16:45.000Z
+- newest / cursor: @Adam38363368936 **2109801127667806259** 2026-10-13T00:19:21.000Z
+- overlay_fill_rate: 86/99 = **86.9%** (stop_reason=completed; attempted=99; reject_href=13)
+- depollute: restored **7**（X Pass 交叉污染指纹回退）
+- classify: 窗类 正文 **23** / 拿不准 **6** / 已过滤 **70**；miss **0**；n=99（20-class-manual.md，21 overrides）
+- page: 今天续窗 **121/51/437**（thin+04+08+12+16+20 + rec/ideas）；QA pass clippedBtns 0（20-qa.png）
+- rec_ideas: **merged**（rec_new=6 rec_merged_into=2 ideas_n=3；sourceDate 2026-10-12）
+- md5: root = days = site = live root = live days = `62a8a89887f2571552d6783441e6979f`
+- public tip: **c75fd8e**
+- live PASS: true
+- chat_line: `10/12 20:00：正文121 / 拿不准51 / 已过滤437。https://t512192641.github.io/x-following/2026-10-12.html`
+- chat_delivery: **pending_parent**
+- next: 2026-10-13 00:00 ET（交付昨天完整日页）
+- escalate: no
