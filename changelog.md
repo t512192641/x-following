@@ -7903,9 +7903,65 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - rec_ideas: skipped（非 20:00）
 - QA: pass true；clippedBtns 0；12-qa.png（+ main/maybe/filt）
 - md5: root = days = site = live root = live days = `fb010d373d263f1c193f713ea10f40b5`
-- public tip: **b1108a5**（10-13 12:00 窗）
+- public tip: **b1108a5→deaf4fc**（page→changelog+cursor）
 - live PASS: true
 - chat_line: `10/13 12:00：正文93 / 拿不准32 / 已过滤306。https://t512192641.github.io/x-following/2026-10-13.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: delivered ✅ ~00:57 CST（WakeParent）
 - next: 2026-10-13 16:00 ET
 - escalate: no
+
+## 2026-10-13 13:25 ET · 健康检查
+
+- routine: x-3 960034de（接管）
+- fire: ~13:43 ET（sched 13:25 late ~18min；check→reconcile ~2026-10-14 01:45 CST）
+- quiet_ok: **true**
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile；idle Home/X；sand-playwright orphan **not stolen**
+- login_ok: true（12-scrape-meta）+Home/X+cookies
+- **12:00 main c3a32b9b complete** full_main：page **93/32/306** tip **b1108a5→deaf4fc** md5 **fb010d37** live PASS（curl day==days==site-day==live；site index `/` 仍 04-era **8cbba89e** 中午惯例）；union197 overlay 158/197=80.2% depollute11 窗类42/16/139 miss0；**chat ✅ ~00:57 CST**
+- 12:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/12-10-catchup.md`；无 hole）
+- cursor: @rionaifantasy **2110045326270689343**（== cursor.md==cursor.json==12-claim/meta）
+- lists: Oct8–Oct13（Oct13 via x-4；155/@yiren_ai）；x-3 未补跑；Oct14 lists 未到期（~+19.7h）
+- hours_since_last_complete: ≈0.72（12 finish~01:00 CST）；next **16:00 ET**
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 13:25；回填 12:00 complete + chat ✅ + 12:10 deferred；lists Oct13 观测已记（x-4）
+- grok-ops tip: **c8683e3**
+- escalate: **no**；stay_quiet；recorded: 2026-10-14 01:45 CST
+
+## 2026-10-13 14:25 ET · 健康检查
+
+- routine: x-3 960034de（接管）
+- fire: ~14:41 ET（sched 14:25 late ~16min；check→reconcile ~2026-10-14 02:41 CST）
+- quiet_ok: **true**
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile；idle Home/X；sand-playwright orphan **not stolen**
+- login_ok: true（12-scrape-meta）+Home/X+cookies
+- **12:00 main c3a32b9b complete** full_main：page **93/32/306** tip **b1108a5→deaf4fc** md5 **fb010d37** live PASS（curl day==days==site-day==live；site index `/` 仍 04-era **8cbba89e** 中午惯例）；union197 overlay 158/197=80.2% depollute11 窗类42/16/139 miss0；**chat ✅ ~00:57 CST**
+- 12:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/12-10-catchup.md`；无 hole）
+- cursor: @rionaifantasy **2110045326270689343**（== cursor.md==cursor.json==12-claim/meta）
+- lists: Oct8–Oct13（Oct13 via x-4；155/@yiren_ai）；x-3 未补跑；Oct14 lists 未到期（~+18.7h）
+- hours_since_last_complete: ≈1.65（12 finish~01:00 CST）；next **16:00 ET**
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 14:25；12:00 complete + chat ✅ + 12:10 deferred + 13:25 health 已记；lists Oct13 观测已记（x-4）
+- grok-ops tip: **72b3e71**
+- escalate: **no**；stay_quiet；recorded: 2026-10-14 02:41 CST
+
+
+## 2026-10-13 15:25 ET · 健康检查
+
+- routine: x-3 960034de（接管）
+- fire: ~15:38 ET（sched 15:25 late ~13min；check→reconcile ~2026-10-14 03:40 CST）
+- quiet_ok: **true**
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile；idle Home/X；sand-playwright orphan **not stolen**
+- login_ok: true（12-scrape-meta）+Home/X+cookies
+- **12:00 main c3a32b9b complete** full_main：page **93/32/306** tip **b1108a5→deaf4fc** md5 **fb010d37** live PASS（curl day==days==site-day==live；site index `/` 仍 04-era **8cbba89e** 中午惯例）；union197 overlay 158/197=80.2% depollute11 窗类42/16/139 miss0；**chat ✅ ~00:57 CST**
+- 12:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/12-10-catchup.md`；无 hole）
+- cursor: @rionaifantasy **2110045326270689343**（== cursor.md==cursor.json==12-claim/meta）
+- lists: Oct8–Oct13（Oct13 via x-4；155/@yiren_ai）；x-3 未补跑；Oct14 lists 未到期（~+17.7h）
+- hours_since_last_complete: ≈2.65（12 finish~01:00 CST）；next **16:00 ET**
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 15:25；12:00 complete + chat ✅ + 12:10 deferred + 13:25/14:25 health 已记；lists Oct13 观测已记（x-4）
+- grok-ops tip: **d11416a**
+- escalate: **no**；stay_quiet；recorded: 2026-10-14 03:40 CST
+
