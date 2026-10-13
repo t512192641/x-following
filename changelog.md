@@ -7675,6 +7675,60 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - public tip: **e6cb1ae**（10-13 第一版）→ **d826d73**（index→10-13）
 - live PASS: true
 - chat_line: `10/13 第一版：正文31 / 拿不准8 / 已过滤90。https://t512192641.github.io/x-following/2026-10-13.html`
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ ~16:37 CST（WakeParent）
 - next: 2026-10-13 08:00 ET
 - escalate: no
+
+## 2026-10-13 05:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** (x-3)
+- fire: ~05:25 ET（sched 05:25 late ~0min；check→reconcile ~2026-10-13 17:27 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up chrome-profile；idle Home/X **not stolen**；无窗口在跑；不清 cookie、不重启
+- login_ok: true（04-scrape-meta）+Home/X+cookies
+- **04:00 main c3a32b9b complete** full_main：page **31/8/90** tip **d826d73** md5 **8cbba89e** live PASS（curl root==days==live==local index）；union125 overlay 109/125=87.2% depollute4 窗类32/8/85 miss0；**chat ✅ ~16:37 CST**
+- 04:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/04-10-catchup.md`；无 hole）
+- cursor: @bozhou_ai **2109920614949732836**（== cursor.md==cursor.json==04-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai）— **no backfill / no duplicate**；Oct13 lists 未到期（09:23 ET，约 +3.97h）
+- hours_since_last_complete: ≈0.83（04 finish~16:35 CST）；next **08:00 ET**
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 05:25；04:00 in_progress→complete；04:10/04:25/00:00 已记；09:23 x-lists 已 complete
+- grok-ops tip: **55b80e7**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 17:27 CST
+
+## 2026-10-13 06:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** (x-3)
+- fire: ~06:30 ET（sched 06:25 late ~5min；check→reconcile ~2026-10-13 18:31 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up chrome-profile；idle Home/X **not stolen**；无窗口在跑；不清 cookie、不重启
+- login_ok: true（04-scrape-meta）+Home/X+cookies auth_token/ct0/twid
+- **04:00 main c3a32b9b complete** full_main：page **31/8/90** tip **d826d73** md5 **8cbba89e** live PASS（curl root==days==live==local index；md5_gate+LIVE_GATE --nowait PASS）；union125 overlay 109/125=87.2% depollute4 窗类32/8/85 miss0；**chat ✅ ~16:37 CST**
+- 04:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/04-10-catchup.md`；无 hole）
+- cursor: @bozhou_ai **2109920614949732836**（== cursor.md==cursor.json==04-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai）— **no backfill / no duplicate**；Oct13 lists 未到期（09:23 ET，约 +2.87h）
+- hours_since_last_complete: ≈1.92（04 finish~16:35 CST）；next **08:00 ET**
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 06:25；04:00 complete；04:10/04:25/05:25/00:00 已记；09:23 x-lists 已 complete
+- grok-ops tip: **9eb0169**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 18:31 CST
+
+## 2026-10-13 07:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** (x-3)
+- fire: ~07:36 ET（sched 07:25 late ~11min；check→reconcile ~2026-10-13 19:37 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up chrome-profile；idle Home/X **not stolen**；无窗口在跑；不清 cookie、不重启
+- login_ok: true（04-scrape-meta）+Home/X+cookies auth_token/ct0/twid
+- **04:00 main c3a32b9b complete** full_main：page **31/8/90** tip **d826d73** md5 **8cbba89e** live PASS（curl root==days==live==local index）；union125 overlay 109/125=87.2% depollute4 窗类32/8/85 miss0；**chat ✅ ~16:37 CST**
+- 04:10 catchup: **deferred_to_main**（evidence `raw/2026-10-13/04-10-catchup.md`；无 hole）
+- cursor: @bozhou_ai **2109920614949732836**（== cursor.md==cursor.json==04-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai）— **no backfill / no duplicate**；Oct13 lists 未到期（09:23 ET，约 +1.78h）
+- hours_since_last_complete: ≈3.02（04 finish~16:35 CST）；next **08:00 ET**
+- no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
+- board：本条 07:25；04:00 complete；04:10/04:25/05:25/06:25/00:00 已记；09:23 x-lists 已 complete
+- grok-ops tip: **28146d0**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 19:37 CST

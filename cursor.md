@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @bozhou_ai
-- status_id: 2109920614949732836
-- url: https://x.com/bozhou_ai/status/2109920614949732836
-- time_utc: 2026-10-13T08:14:09.000Z
-- updated_window: 2026-10-13 04:00 ET
+- handle: @430Yang
+- status_id: 2109980105606922681
+- url: https://x.com/430Yang/status/2109980105606922681
+- time_utc: 2026-10-13T12:10:33.000Z
+- updated_window: 2026-10-13 08:00 ET
