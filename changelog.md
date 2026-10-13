@@ -7319,6 +7319,75 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - public tip: **4eba8d1**
 - live PASS: true
 - chat_line: `10/12 16:00：正文98 / 拿不准45 / 已过滤367。https://t512192641.github.io/x-following/2026-10-12.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅** (WakeParent 2026-10-13 04:21 CST; root==days==live md5 c0ca634b verified)
 - next: 2026-10-12 20:00 ET
 - escalate: no
+
+## 2026-10-12 16:10 ET · 补抓 complete_no_rescrape
+
+- status: **complete_no_rescrape**
+- automation: **cdf0cd43**（sched 16:10；平台 fire ≈16:25 ET late ~15min）
+- target: 16:00 主窗已 **complete**（c3a32b9b；page 98/45/367 tip 4eba8d1 md5 c0ca634b live PASS；chat ✅ 04:21 CST）
+- action: 未重抓、不抢 CDP、不重复交付；gap_open false；watchdog 0；CDP :9226 idle Home/X not stolen
+- evidence: `raw/2026-10-12/16-10-catchup.md`
+- grok-ops tip: **02e605b**
+- next: 2026-10-12 20:00 ET
+- escalate: no
+
+## 2026-10-12 16:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~16:40 ET；sched 16:25 late ~15min；check→record ~2026-10-13 04:42 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154（chrome-profile；idle x.com/home）**not stolen**；login_ok true（16-scrape-meta）+Home/X+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **98/45/367** tip **4eba8d1** md5 **c0ca634b** live PASS（curl day==days==live；site index `/` 仍 04-era f37ce6b1 中午惯例）；**chat ✅ 04:21 CST**
+- 16:10 catchup: complete_no_rescrape（evidence raw/2026-10-12/16-10-catchup.md；无 hole）
+- cursor: @elonmusk 2109738767351230511（== cursor.md==cursor.json==16-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈0.36；**20:00 ET 未到期**（约 +3.3h，无 20-claim）
+- board：本条 16:25；workspace 顶回填 16:10 + 16:00 pending_parent→delivered；09:23 x-lists 已 complete
+- grok-ops tip: **1bd7004**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 04:42 CST
+
+## 2026-10-12 17:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~17:37 ET；sched 17:25 late ~12min；check→record ~2026-10-13 05:38 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154（chrome-profile；idle x.com/home）**not stolen**；login_ok true（16-scrape-meta）+Home/X+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **98/45/367** tip **4eba8d1** md5 **c0ca634b** live PASS（md5_gate+LIVE_GATE PASS；site index `/` 仍 04-era f37ce6b1 中午惯例）；**chat ✅ 04:21 CST**
+- 16:10 catchup: complete_no_rescrape（evidence raw/2026-10-12/16-10-catchup.md；无 hole）
+- cursor: @elonmusk 2109738767351230511（== cursor.md==cursor.json==16-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈1.3；**20:00 ET 未到期**（约 +2.37h，无 20-claim）
+- board：本条 17:25；09:23 x-lists 已 complete
+- grok-ops tip: **3a8f9c6**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 05:38 CST
+
+
+## 2026-10-12 18:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~18:32 ET；sched 18:25 late ~7min；check→record ~2026-10-13 06:34 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154（chrome-profile；idle x.com/home）**not stolen**；login_ok true（16-scrape-meta）+Home/X+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **98/45/367** tip **4eba8d1** md5 **c0ca634b** live PASS（md5_gate+LIVE_GATE PASS；site index `/` 仍 04-era f37ce6b1 中午惯例）；**chat ✅ 04:21 CST**
+- 16:10 catchup: complete_no_rescrape（evidence raw/2026-10-12/16-10-catchup.md；无 hole）
+- cursor: @elonmusk 2109738767351230511（== cursor.md==cursor.json==16-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈2.22；**20:00 ET 未到期**（约 +1.45h，无 20-claim）
+- board：本条 18:25；09:23 x-lists 已 complete
+- grok-ops tip: **fc5e6cd**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 06:34 CST
+
+## 2026-10-12 19:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~19:28 ET；sched 19:25 late ~3min；check→record ~2026-10-13 07:30 CST）
+- quiet_ok: **true**；watchdog exit 0（checked 0）
+- CDP :9226 up Chrome/154（chrome-profile；idle x.com/home）**not stolen**；login_ok true（16-scrape-meta）+Home/X+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **98/45/367** tip **4eba8d1** md5 **c0ca634b** live PASS（md5_gate+LIVE_GATE PASS；site index `/` 仍 04-era f37ce6b1 中午惯例）；**chat ✅ 04:21 CST**
+- 16:10 catchup: complete_no_rescrape（evidence raw/2026-10-12/16-10-catchup.md；无 hole）
+- cursor: @elonmusk 2109738767351230511（== cursor.md==cursor.json==16-claim/meta）
+- lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
+- hours_since_last_complete: ≈3.17；**20:00 ET 未到期**（约 +0.5h，无 20-claim）
+- board：本条 19:25；09:23 x-lists 已 complete
+- grok-ops tip: **22b28e2**
+- escalate: **no**；stay_quiet；recorded: 2026-10-13 07:30 CST
+
