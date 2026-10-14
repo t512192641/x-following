@@ -8426,3 +8426,29 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - escalate: **no**；stay_quiet；parent_notify no
 - grok-ops tip: **f28d747**
 - recorded: 2026-10-14 20:30 CST
+
+## 2026-10-14 08:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b**（claimed_by c3a32b9b-207d-5bf2-a873-596764705a47）
+- mode: full_main（今天续窗；不并 recommended/ideas）
+- fire: 2026-10-14T12:11:00Z ≈ 08:11 ET Oct 14（sched 08:05 late ~6min）
+- started_at: 2026-10-14 20:15 CST；finished_at: 2026-10-14 20:42 CST
+- prior_cursor: @MaiYangAI **2110282194438795285** 2026-10-14T08:10:56.000Z
+- login_ok: true（auth_token+ct0+Home/X；CDP :9226 chrome-profile；sand-playwright :9224 unused）
+- scrape: HTL **125** HIT CURSOR；DOM **41**；union **126**；gap_prior_to_oldest_new_min **4.27**；gap_open false
+- oldest_new: @abskoop 2110283267920576984 2026-10-14T08:15:12.000Z
+- newest / new_cursor: @alex_prompter **2110343650333069673** 2026-10-14T12:15:09.000Z
+- t.co: 08-tco.json 63
+- overlay: accept **110** / reject_href **10** / fill_rate **87.3%**；stop_reason=budget_exhausted(20.0min)；attempted=120；CDP 还回 x.com/home
+- depollute: restored **2**（08-depollute.md）
+- classify: heur 55/18/53 → manual 40 overrides → 窗类 **48/2/76** miss **0**（08-class-manual.md）
+- page: **98/3/192**（prior 50/1/116 + 本窗）
+- QA: pass true；clippedBtns 0；08-qa.png
+- md5: days==root==site==live = **624aa51ea6a46d37e33060f29e0b5ee9**
+- public tip: **dd721a7**（page）→ follow-up index+changelog+cursor
+- chat_line: `10/14 8:00：正文98 / 拿不准3 / 已过滤192。https://t512192641.github.io/x-following/2026-10-14.html`
+- chat_delivery: pending_parent
+- next: 12:00 ET
+- escalate: no
+- recorded: 2026-10-14 20:42 CST
