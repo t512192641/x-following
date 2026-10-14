@@ -8618,3 +8618,28 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - evidence: `raw/2026-10-14/16-10-catchup.md`
 - grok-ops tip: **895d599**
 - recorded: 2026-10-15 04:16 CST
+
+## 2026-10-14 16:00 ET · 主窗
+
+- status: **complete**（发布后核验）
+- automation: **c3a32b9b**（claimed_by c3a32b9b-207d-5bf2-a873-596764705a47）
+- mode: full_main（今天续窗；不并 recommended/ideas）
+- fire: 2026-10-14T20:06:32Z ≈ 16:06 ET Oct 14
+- started_at: 2026-10-15 04:09 CST
+- prior_cursor: @CuiMao **2110402046008639816** 2026-10-14T16:07:11.000Z
+- login_ok: true（CDP :9226 chrome-profile 直连；Home/X）
+- scrape: HTL **73** HIT CURSOR；DOM **15**；union **76**；gap_prior_to_oldest_new_min **0.32**；gap_open false
+- oldest_new: @elonmusk 2110402125809549472 2026-10-14T16:07:30.000Z
+- newest / new_cursor: @paulg **2110461000084525385** 2026-10-14T20:01:27.000Z
+- overlay: accept **51** / reject_href **25** / fill_rate **67.1%**；stop_reason=completed；attempted=76；CDP 还回 x.com/home
+- depollute: restored **0**（16-depollute.md）
+- classify: heur 40/4/32 → manual 28 overrides → 窗类 **21/9/46** miss **0**（16-class-manual.md）
+- page: **135/21/336**（prior 123/12/290 + 本窗 12 张新卡；OpenCompute 6 帖合题；Codex composer 预测更新补进当天已有 Codex 卡）
+- QA: pass true；clippedBtns 0；16-qa.png
+- md5: days==root==site==live root==live days = **49656217c5d5a1efeedab5b6da1e63a9**
+- public tip: **0f7f749**（page）→ index+changelog+cursor resync
+- chat_line: `10/14 16:00：正文135 / 拿不准21 / 已过滤336。https://t512192641.github.io/x-following/2026-10-14.html`
+- chat_delivery: pending_parent
+- next: 20:00 ET（并 recommended/ideas）
+- escalate: no
+- finished_at: 2026-10-15 04:24 CST
