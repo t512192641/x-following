@@ -8117,9 +8117,93 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - QA: 20-qa.png pass；clippedBtns 0
 - publish: tip **37b5c79**；md5 **a1fb01b365b39fd14bf1ef967f1fe186**；live PASS（root==days==Pages）
 - chat_line: `10/13 20:00：正文151 / 拿不准60 / 已过滤451。https://t512192641.github.io/x-following/2026-10-13.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: delivered ✅ 2026-10-14 ~08:34 CST（WakeParent）
 - source: same-session DOM+HTL CDP :9226 chrome-profile；无官方/付费 X API；无 cookie steal
 - next: 2026-10-14 **00:00 ET**（交昨天完整版）
 - grok-ops tip: **70282af**
 - escalate: **no**
 - recorded: 2026-10-14 08:32 CST
+
+## 2026-10-13 21:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~21:27 ET；sched 21:25 late ~2min；check→record ~2026-10-14 09:29 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（20-scrape-meta）+cookies
+- **20:00 complete** c3a32b9b full_main：今天续窗 **151/60/451** tip **37b5c79** md5 **a1fb01b3** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~08:34 CST**
+- 20:10 deferred_to_main；cursor @yibie **2110161722954883382**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈11.93h）；x-3 未补跑
+- hours_since_last_complete: ≈0.92；next **00:00 ET Oct14**
+- board：本条 21:25；20:00 in_progress→complete + chat ✅；20:10 deferred 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **759f8e3**
+- recorded: 2026-10-14 09:29 CST
+
+## 2026-10-13 22:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~22:33 ET；sched 22:25 late ~8min；check→record ~2026-10-14 10:34 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（20-scrape-meta）+cookies
+- **20:00 complete** c3a32b9b full_main：今天续窗 **151/60/451** tip **37b5c79** md5 **a1fb01b3** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~08:34 CST**
+- 20:10 deferred_to_main；cursor @yibie **2110161722954883382**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈10.83h）；x-3 未补跑
+- hours_since_last_complete: ≈2.02；next **00:00 ET Oct14**（约 ≈1.45h；无 00-claim）
+- board：本条 22:25；20:00 complete + chat ✅ + 20:10 deferred + 21:25 health 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **499d28d**
+- recorded: 2026-10-14 10:34 CST
+
+## 2026-10-13 23:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~23:28 ET；sched 23:25 late ~3min；check→record ~2026-10-14 11:29 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（20-scrape-meta）+cookies
+- **20:00 complete** c3a32b9b full_main：今天续窗 **151/60/451** tip **37b5c79** md5 **a1fb01b3** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~08:34 CST**
+- 20:10 deferred_to_main；cursor @yibie **2110161722954883382**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈9.93h）；x-3 未补跑
+- hours_since_last_complete: ≈2.92；next **00:00 ET Oct14**（约 ≈0.53h；无 00-claim）
+- board：本条 23:25；20:00 complete + chat ✅ + 20:10 deferred + 21:25/22:25 health 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **33d6fcf**
+- recorded: 2026-10-14 11:29 CST
+
+## 2026-10-14 00:10 ET · 补抓 deferred_to_main
+
+- automation: **cdf0cd43** X 汇总补抓（接管）
+- fire: 2026-10-14T04:10:02.629Z ≈00:10 ET（sched 00:10 late ~0min）
+- status: **deferred_to_main**
+- waited_main: yes（初查无 raw/2026-10-14；~00:11:37 ET 出现 00-claim）
+- main: 00-claim **in_progress** c3a32b9b full_main（交 10-13 完整版；薄种子今天；CUTOFF 2026-10-14T04:00:00Z）；fire ≈00:10 ET（sched 00:05 late ~5min）
+- scrape_seen: HTL **160** HIT CURSOR gap≈**4.58** min closed；DOM mid `_scrape00_dom.py` alive；尚无 union/overlay/meta/chat
+- prior **20:00 complete**：今天续窗 **151/60/451** tip **37b5c79** md5 **a1fb01b3** live PASS；**chat ✅ ~08:34 CST**；gap≈11.05 closed；无 hole
+- cursor: still @yibie **2110161722954883382**（主窗未推进）
+- watchdog: exit **0**（00 scrape alive not stalled）
+- CDP: :9226 up Chrome/154 主窗占用 **not stolen**；login_ok true
+- action: 未重抓、不抢 CDP、不写页、不发 chat；10-13 完整版交付交主窗
+- anomaly: 无 AUTH_FAIL / 官方 X API / gap_open；主窗已起非漏叫；不升幕僚长
+- next: 主窗交 00:00 → **04:00 ET**；00:25 x-3 复核
+- evidence: `raw/2026-10-14/00-10-catchup.md`
+- grok-ops tip: **582ef61**
+- recorded: 2026-10-14 12:14 CST
+
+## 2026-10-14 00:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~00:27 ET；sched 00:25 late ~2min；check→record ~2026-10-14 12:29 CST）
+- watchdog: exit **0**（checked 1；00 overlay alive→110/164=67.1% not stalled；无需 --run）
+- CDP :9226: up Chrome/154 chrome-profile **busy** overlay；sand-playwright orphan **not stolen**；login_ok true（00-scrape-meta）+cookies；不抢 CDP
+- **00:00 in_progress** c3a32b9b full_main：交 10-13 完整版；union **164** gap≈**4.58** closed；overlay mid **110/164=67.1%**；尚无 meta/chat
+- prior **20:00 complete**：今天续窗 **151/60/451** tip **37b5c79** md5 **a1fb01b3** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~08:34 CST**
+- 00:10 deferred_to_main；cursor @yibie **2110161722954883382**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈8.9h）；x-3 未补跑
+- hours_since_last_complete: ≈3.95；next 主窗交 00:00 → **04:00 ET**
+- board：本条 00:25；00:00 in_progress + 00:10 deferred + 20 complete/chat ✅ + 23:25 health 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **370510e**
+- recorded: 2026-10-14 12:29 CST
