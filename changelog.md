@@ -7965,3 +7965,140 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - grok-ops tip: **d11416a**
 - escalate: **no**；stay_quiet；recorded: 2026-10-14 03:40 CST
 
+
+## 2026-10-13 16:10 ET · 补抓 deferred_to_main
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** (x-2 catchup)
+- fire: ~16:20 ET（sched 16:10 late ~10min；check→record ~2026-10-14 04:21 CST）
+- target: 16:00 主窗 **in_progress**（c3a32b9b full_main 今天续窗）
+- evidence: `raw/2026-10-13/16-10-catchup.md`
+- scrape: union **87**（HTL85∪DOM21）gap≈**2.27** closed hit_cursor_effective true；overlay 64/87=73.6% completed；depollute5；窗类28/13/46 miss0；merge PAGE **121/45/352**；QA pass；publish mid（`publish_main_window.py` alive）；尚无 meta/cursor/chat
+- cursor: still @rionaifantasy **2110045326270689343**（主窗未推进）
+- action: 未重抓、不抢 CDP、不写页、不发 chat；交主窗收口
+- gap_open: false；no hole；no AUTH_FAIL；不走付费 X API
+- escalate: **no**
+- next: 主窗交 16:00 → 2026-10-13 **20:00 ET**；16:25 x-3 复核
+- grok-ops tip: **807213d**
+
+
+## 2026-10-13 16:00 ET · 主窗 full_main complete
+
+- status: **complete**
+- automation: **c3a32b9b** (X 动态汇总接管)
+- fire: 2026-10-13T20:07Z ≈ 16:07 ET（sched 16:05 late ~2min；finish ~2026-10-14 04:25 CST）
+- mode: full_main（今天续窗）
+- scrape: DOM21 + HTL85 → union **87**；gap≈**2.27** min；gap_open **false**；hit_cursor_effective true
+- prior_cursor: @rionaifantasy **2110045326270689343** → new @lennysan **2110099891146105012** 2026-10-13T20:06:32.000Z
+- overlay: accept **64**/87 = **73.6%**（reject_href23；stop_reason=completed；item_timeout20s budget20min）
+- depollute: restored **5**
+- classify: 窗类 正文**28** / 拿不准**13** / 已过滤**46** miss**=0**（manual overrides 26）
+- day page 2026-10-13: 正文**121** / 拿不准**45** / 已过滤**352**（prior 93/32/306 + window）；rec/ideas **skipped**
+- QA: 16-qa.png pass；clippedBtns 0
+- publish: tip **5b54aed**；md5 **b1b67eee69ad7f189434395a26db7c6e**；live PASS（root==days==Pages）
+- chat_line: `10/13 16:00：正文121 / 拿不准45 / 已过滤352。https://t512192641.github.io/x-following/2026-10-13.html`
+- chat_delivery: delivered ✅ ~04:26 CST（WakeParent）
+- source: same-session DOM+HTL CDP :9226 chrome-profile；无官方/付费 X API；无 cookie steal
+- 16:10 catchup: deferred_to_main（已记；主窗收口）
+- next: 2026-10-13 **20:00 ET**
+- grok-ops tip: **72ba66e**
+- escalate: **no**
+- recorded: 2026-10-14 04:25 CST
+
+## 2026-10-13 16:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~16:26 ET；sched 16:25 late ~1min；check→record ~2026-10-14 04:28 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（16-scrape-meta）+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **121/45/352** tip **5b54aed** md5 **b1b67eee** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~04:26 CST**
+- 16:10 deferred_to_main；cursor @lennysan **2110099891146105012**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 +16.9h）；x-3 未补跑
+- hours_since_last_complete: ≈0.05；next **20:00 ET**
+- board：本条 16:25；16:00 chat pending_parent→delivered；16:10 deferred 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **ad3e66e**
+- recorded: 2026-10-14 04:28 CST
+
+## 2026-10-13 17:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~17:32 ET；sched 17:25 late ~7min；check→record ~2026-10-14 05:34 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（16-scrape-meta）+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **121/45/352** tip **5b54aed** md5 **b1b67eee** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~04:26 CST**
+- 16:10 deferred_to_main；cursor @lennysan **2110099891146105012**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 +15.85h）；x-3 未补跑
+- hours_since_last_complete: ≈1.13；next **20:00 ET**
+- board：本条 17:25；16:00/16:10/16:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **f769b6b**
+- recorded: 2026-10-14 05:34 CST
+
+
+## 2026-10-13 18:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~18:33 ET；sched 18:25 late ~8min；check→record ~2026-10-14 06:34 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（16-scrape-meta）+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **121/45/352** tip **5b54aed** md5 **b1b67eee** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~04:26 CST**
+- 16:10 deferred_to_main；cursor @lennysan **2110099891146105012**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈14.83h）；x-3 未补跑
+- hours_since_last_complete: ≈2.13；next **20:00 ET**
+- board：本条 18:25；16:00/16:10/16:25/17:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **fb7f7fa**
+- recorded: 2026-10-14 06:34 CST
+
+## 2026-10-13 19:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~19:32 ET；sched 19:25 late ~7min；check→record ~2026-10-14 07:34 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（16-scrape-meta）+cookies
+- **16:00 complete** c3a32b9b full_main：今天续窗 **121/45/352** tip **5b54aed** md5 **b1b67eee** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~04:26 CST**
+- 16:10 deferred_to_main；cursor @lennysan **2110099891146105012**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈13.85h）；x-3 未补跑
+- hours_since_last_complete: ≈3.14；next **20:00 ET**
+- board：本条 19:25；16:00/16:10/16:25/17:25/18:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **3094768**
+- recorded: 2026-10-14 07:34 CST
+
+## 2026-10-13 20:10 ET · 补抓 deferred_to_main
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** x-2（fired ~20:16 ET；sched 20:10 late ~6min；check→record ~2026-10-14 08:17 CST）
+- target: 20:00 主窗（今天续窗 10-13；硬门禁；**并 recommended+ideas**）
+- main: 20-claim **in_progress** c3a32b9b full_main；scrape union **135**（HTL131∪DOM33）gap≈**11.05** closed；overlay mid [70/135]（`overlay_resume` pid 1541848 alive）；尚无 depollute/classify/merge/QA/meta/cursor/chat
+- evidence: `raw/2026-10-13/20-10-catchup.md`
+- cursor: still @lennysan **2110099891146105012**（主窗未推进）
+- prior 16:00: complete **121/45/352** tip **5b54aed** md5 **b1b67eee** live PASS；chat ✅ ~04:26 CST
+- action: 未重抓、不抢 CDP、不写页、不发 chat；收口交主窗
+- anomaly: 无；不升幕僚长
+- next: 主窗交 20:00 → 00:00 ET Oct14；20:25 x-3
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **9bd173f**
+- recorded: 2026-10-14 08:17 CST
+
+## 2026-10-13 20:25 ET · 健康检查 quiet_ok
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~20:28 ET；sched 20:25 late ~3min；check→record ~2026-10-14 08:30 CST）
+- watchdog: exit **0**（checked 1；20 overlay alive→RESUME_DONE 96/135=71.1% not stalled；无需 --run）
+- CDP :9226: up Chrome/154 chrome-profile Home/X；sand-playwright orphan **not stolen**；login_ok true（20-scrape-meta）+cookies
+- **20:00 in_progress** c3a32b9b full_main：union **135** gap≈**11.05** closed；overlay **96/135=71.1%**；depollute5；heur 窗类65/12/58；meta/chat pending
+- prior **16:00 complete**：今天续窗 **121/45/352** tip **5b54aed** md5 **b1b67eee** live PASS（curl day==days==live；site index `/` 仍 04-era 8cbba89e 中午惯例）；**chat ✅ ~04:26 CST**
+- 20:10 deferred_to_main；cursor @lennysan **2110099891146105012**（20 未推进）
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈12.9h）；x-3 未补跑
+- hours_since_last_complete: ≈4.07；next 主窗交 20:00 → **00:00 ET Oct14**
+- board：本条 20:25；回填 20:00 in_progress + 20:10 deferred；16 系已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **c38e565**
+- recorded: 2026-10-14 08:30 CST
