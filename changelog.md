@@ -8102,3 +8102,24 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - escalate: **no**；stay_quiet；parent_notify no
 - grok-ops tip: **c38e565**
 - recorded: 2026-10-14 08:30 CST
+
+## 2026-10-13 20:00 ET · 主窗 complete
+
+- automation: **c3a32b9b** X 动态汇总（claimed_by c3a32b9b-207d-5bf2-a873-596764705a47）
+- fire: 2026-10-14T00:09:41.697Z ≈ 20:09 ET（sched 20:05 late ~4min）
+- mode: full_main（今天续窗；recommended+ideas 已并）
+- prior_cursor: @lennysan **2110099891146105012** → new @yibie **2110161722954883382** 2026-10-14T00:12:14.000Z
+- scrape: DOM33 ∪ HTL131 = union **135**；gap **11.05** min closed；HIT CURSOR
+- overlay: accept **96**/135 = **71.1%**（reject_href39；stop_reason=completed；item_timeout20s budget20min）
+- depollute: restored **5**
+- classify: 窗类 正文**21** / 拿不准**15** / 已过滤**99** miss**=0**（manual overrides 59）
+- day page 2026-10-13: 正文**151** / 拿不准**60** / 已过滤**451**（prior 121/45/352 + window + rec5 + ideas4）；rec/ideas **merged**
+- QA: 20-qa.png pass；clippedBtns 0
+- publish: tip **37b5c79**；md5 **a1fb01b365b39fd14bf1ef967f1fe186**；live PASS（root==days==Pages）
+- chat_line: `10/13 20:00：正文151 / 拿不准60 / 已过滤451。https://t512192641.github.io/x-following/2026-10-13.html`
+- chat_delivery: **pending_parent**
+- source: same-session DOM+HTL CDP :9226 chrome-profile；无官方/付费 X API；无 cookie steal
+- next: 2026-10-14 **00:00 ET**（交昨天完整版）
+- grok-ops tip: **70282af**
+- escalate: **no**
+- recorded: 2026-10-14 08:32 CST
