@@ -8446,9 +8446,114 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page: **98/3/192**（prior 50/1/116 + 本窗）
 - QA: pass true；clippedBtns 0；08-qa.png
 - md5: days==root==site==live = **624aa51ea6a46d37e33060f29e0b5ee9**
-- public tip: **dd721a7**（page）→ follow-up index+changelog+cursor
+- public tip: **dd721a7**（page）→ **12f3825**（index+changelog+cursor）
 - chat_line: `10/14 8:00：正文98 / 拿不准3 / 已过滤192。https://t512192641.github.io/x-following/2026-10-14.html`
-- chat_delivery: pending_parent
+- chat_delivery: **delivered ✅** ~2026-10-14 20:47 CST（WakeParent）
 - next: 12:00 ET
 - escalate: no
 - recorded: 2026-10-14 20:42 CST
+
+## 2026-10-14 09:23 ET · x-lists
+
+- automation: **c3cd83f8** x-4（fired ~09:26 ET；sched 09:23 late ~3min；done ~09:30 ET）
+- login_ok；following unchanged **155/@yiren_ai**；bookmarks **+2** new head @cgnot996/2110246524185870802 + @lai_jia_wei/2109965461878382697（旧头 Manu_Sisti 现第 3）；count **173→175**
+- computerUse 浏览器核盘不碰 CDP；main-list 正在关注 only；/i/bookmarks→/i/history；回 x.com/home 1 tab
+- bookmarks.jsonl prepended 2；following.jsonl 未改；meta/_check 已写并 sync 私有 grok-ops/x-lists/
+- escalate: **no**；stay_quiet；recorded: 2026-10-14 21:30 CST
+
+
+## 2026-10-14 09:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~09:32 ET；sched 09:25 late ~7min；check→record ~2026-10-14 21:34 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（08-scrape-meta）+Home/X+cookies
+- **08:00 complete** c3a32b9b full_main：今天续窗 **98/3/192** tip **dd721a7→12f3825** md5 **624aa51e** live PASS（curl day==days==index==live）；union126 overlay110/126=87.3% depollute2 窗类48/2/76 miss0；**chat ✅ ~20:47 CST**
+- 08:10 deferred_to_main；cursor @alex_prompter **2110343650333069673**
+- lists Oct8–**Oct14** done not rerun（155/@yiren_ai；bookmarks 175/@cgnot996）；x-3 未补跑
+- hours_since_last_complete: ≈0.86；next **12:00 ET**
+- board：本条 09:25；回填 08:00 complete + chat ✅；09:23 lists / 08:25 / 08:10 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **d151303**
+- recorded: 2026-10-14 21:34 CST
+
+- 2026-10-14 22:13 CST：CDP :9226 Chrome（旧 pid 11766，10/12 02:02 无代理拉起，全站 ERR_CONNECTION_CLOSED）优雅重启为新 pid，加 `--proxy-server=http://127.0.0.1:8791 --proxy-bypass-list=localhost;127.0.0.1;[::1]`，同 profile。新增 `scripts/cdp9226-launch.sh`，playbook 拉起命令同步加代理参数。
+- 2026-10-14 22:17 CST：CDP :9226 回退直连（幕僚长定 B 方案）。8791 隧道破坏 TLS（CONNECT 返回 200 Connection established 后 TLS decode error / unexpected eof），x.com 时间线 0 条。旧 pid 1697449 SIGTERM 优雅退出，用原参数（无代理）DISPLAY=:4 拉起新 pid 1701263；登录在（auth_token/ct0），x.com/home 7 条推文。`scripts/cdp9226-launch.sh` 改为默认直连、`CDP_PROXY` 可选加代理；playbook 同步。
+
+## 2026-10-14 10:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~10:30 ET；sched 10:25 late ~5min；check→record ~2026-10-14 22:32 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X（直连 B 方案重启后）；sand-playwright :9224 orphan **not stolen**；login_ok true（08-scrape-meta）+Home/X+cookies
+- **08:00 complete** c3a32b9b full_main：今天续窗 **98/3/192** tip **dd721a7→12f3825** md5 **624aa51e** live PASS（curl day==days==index==live）；union126 overlay110/126=87.3% depollute2 窗类48/2/76 miss0；**chat ✅ ~20:47 CST**
+- 08:10 deferred_to_main；cursor @alex_prompter **2110343650333069673**
+- lists Oct8–**Oct14** done not rerun（155/@yiren_ai；bookmarks 175/@cgnot996）；x-3 未补跑
+- hours_since_last_complete: ≈1.80；next **12:00 ET**
+- board：本条 10:25；08:00/09:23 lists / 09:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **f62f5cf**
+- recorded: 2026-10-14 22:32 CST
+
+## 2026-10-14 11:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~11:31 ET；sched 11:25 late ~6min；record ~2026-10-14 23:35 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up chrome-profile idle Home/X **not stolen**；login_ok true（08-scrape-meta）+cookies
+- 08:00 complete 98/3/192 tip 12f3825 md5 624aa51e：MD5_GATE + LIVE_GATE 复核 PASS；chat ✅ ~20:47 CST
+- cursor @alex_prompter 2110343650333069673；lists Oct14 done（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈2.8；next **12:00 ET**
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet
+- recorded: 2026-10-14 23:35 CST
+
+## 2026-10-14 12:10 ET · 补抓
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** x-2（fired ~12:16 ET；sched 12:10 late ~6min；record ~2026-10-15 00:18 CST）
+- waited_main: no（12-claim already in_progress）
+- main: 12:00 c3a32b9b **in_progress** full_main；union **138** gap≈**2.87** closed；overlay mid **82/138≈59.4%**（OK≈60 REJECT≈22）；尚无 depollute/classify/merge/meta/QA/page/chat
+- prior 08: complete 98/3/192 tip **12f3825** md5 **624aa51e** live PASS；chat ✅ ~20:47 CST
+- cursor: still @alex_prompter **2110343650333069673**（主窗未推进）
+- watchdog: exit **0**（overlay_resume alive；not stalled）
+- CDP: :9226 up chrome-profile busy overlay **not stolen**；login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
+- evidence: `raw/2026-10-14/12-10-catchup.md`
+- grok-ops tip: **ae60696**
+- recorded: 2026-10-15 00:18 CST
+
+## 2026-10-14 12:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~12:25 ET；sched 12:25 late ~0–1min；record ~2026-10-15 00:27 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 1；12 overlay RESUME_DONE idle≈0.8 not stalled）
+- CDP :9226 up chrome-profile Home/X **not stolen**；login_ok true（12-scrape-meta）+cookies
+- **12:00 in_progress** c3a32b9b full_main：union **138** gap≈**2.87** closed；overlay **111/138=80.4%** RESUME_DONE；尚无 depollute/meta/chat；cursor 未推进
+- 12:10 deferred_to_main；prior **08:00 complete** 98/3/192 tip **12f3825** md5 **624aa51e** live PASS；chat ✅ ~20:47 CST
+- cursor @alex_prompter **2110343650333069673**；lists Oct14 done（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈3.7；next 主窗交 12:00→**16:00 ET**
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet
+- grok-ops tip: **74a9fde**（stamp **06b3d20**）
+- recorded: 2026-10-15 00:27 CST
+
+## 2026-10-14 12:00 ET · 主窗
+
+- status: **complete**（发布后核验）
+- automation: **c3a32b9b**（claimed_by c3a32b9b-207d-5bf2-a873-596764705a47）
+- mode: full_main（今天续窗；不并 recommended/ideas）
+- fire: 2026-10-14T16:06:01Z ≈ 12:06 ET Oct 14（sched 12:05 late ~1min）
+- started_at: 2026-10-15 00:08 CST
+- prior_cursor: @alex_prompter **2110343650333069673** 2026-10-14T12:15:09.000Z
+- login_ok: true（CDP :9226 chrome-profile；Home/X）
+- scrape: HTL **132** HIT CURSOR；DOM **43**；union **138**；gap_prior_to_oldest_new_min **2.87**；gap_open false
+- oldest_new: @xiaoxiaodong 2110344371031990415 2026-10-14T12:18:01.000Z
+- newest / new_cursor: @CuiMao **2110402046008639816** 2026-10-14T16:07:11.000Z
+- overlay: accept **111** / reject_href **27** / fill_rate **80.4%**；stop_reason=completed；attempted=138；CDP 还回 x.com/home
+- depollute: restored **7**（12-depollute.md）
+- classify: heur 50/14/74 → manual 38 overrides → 窗类 **31/9/98** miss **0**（12-class-manual.md）
+- page: **123/12/290**（prior 98/3/192 + 本窗；25 张新卡，Renoise/Decisions API/Grok Imagine 配乐等同题合并）
+- QA: pass true；clippedBtns 0；12-qa.png
+- next: 16:00 ET
+- escalate: no

@@ -61,7 +61,7 @@
   3. 转帖/回复落地被重定向到别的 status 时早退（仍按 ID 门禁拒写 `overlay_reject_*`），不空等超时。
   4. **补全率写进 meta**：脚本写 `raw/<date>/<HH>-overlay-stats.json`（accepted/total、fill_rate_pct、attempted、timeouts、splash_items、stop_reason），并在 `<HH>-meta.md` 已存在时更新 `- overlay_fill_rate:` 一行；收口写 meta 时必须带这一行。
   5. 大窗（积压多小时）也照此执行：不攒窗、不硬撑。ID 门禁（status_id 验收、拒 explore/for-you）不变，`tools/test_overlay_id_gate.py` 必须 PASS。
-- **CDP :9226 健康探测（2026-10-09 幕僚长批准）**：健康检查顺手探 `curl -s -m5 http://127.0.0.1:9226/json/version`；挂了且当前没有窗口在跑 → 用原 profile 拉起（`google-chrome --remote-debugging-port=9226 --user-data-dir=/home/box/chrome-profile --no-first-run --no-default-browser-check`）。连续出现 splash 时也可在两窗之间重启一次。**不清 cookie、不重新登录**。
+- **CDP :9226 健康探测（2026-10-09 幕僚长批准）**：健康检查顺手探 `curl -s -m5 http://127.0.0.1:9226/json/version`；挂了且当前没有窗口在跑 → 用原 profile 拉起（`google-chrome --remote-debugging-port=9226 --user-data-dir=/home/box/chrome-profile --no-first-run --no-default-browser-check`，或直接跑 `scripts/cdp9226-launch.sh`；**默认直连不带代理**，需要时设 `CDP_PROXY=http://127.0.0.1:8791` 才加 `--proxy-server` + bypass list；2026-10-14 8791 隧道 TLS 坏掉，已回退直连）。连续出现 splash 时也可在两窗之间重启一次。**不清 cookie、不重新登录**。
 - **task-board.md 不进公开库（2026-10-09 幕僚长拍板）**：`publish_main_window.py` 已去掉 task-board.md；公开库当前版本已 `git rm`（只删当前、不改历史、不 force push）。任务清单只同步 grok-ops。
 
 
