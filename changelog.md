@@ -8338,7 +8338,91 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - md5: days==root==site==live = **c76811fb5d1d2922571b439a58cc6396**
 - public tip: **36f1294**（first edition）→ index+changelog follow-up
 - chat_line: `10/14 第一版：正文50 / 拿不准1 / 已过滤116。https://t512192641.github.io/x-following/2026-10-14.html`
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ ~16:37 CST（WakeParent）
 - next: 08:00 ET
 - escalate: no
 - recorded: 2026-10-14 16:35 CST
+
+## 2026-10-14 05:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~05:31 ET；sched 05:25 late ~6min；check→record ~2026-10-14 17:33 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（04-scrape-meta）+cookies
+- **04:00 complete** c3a32b9b full_main：今天第一版 **50/1/116** tip **36f1294→47bdf3f** md5 **c76811fb** live PASS（curl day==days==site==live==local==index）；union151 overlay126/151=83.4% depollute10 窗类44/1/106 miss0；**chat ✅ ~16:37 CST**
+- 04:10 deferred_to_main；cursor @MaiYangAI **2110282194438795285**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈3.84h）；x-3 未补跑
+- hours_since_last_complete: ≈0.94；next **08:00 ET**
+- board：本条 05:25；04:00 in_progress→complete + chat ✅；回填 04:00 主窗条；04:10/04:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **52836fd**
+- recorded: 2026-10-14 17:33 CST
+
+## 2026-10-14 06:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~06:31 ET；sched 06:25 late ~6min；check→record ~2026-10-14 18:33 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（04-scrape-meta）+cookies
+- **04:00 complete** c3a32b9b full_main：今天第一版 **50/1/116** tip **36f1294→47bdf3f** md5 **c76811fb** live PASS（curl day==days==site==live==local==index）；union151 overlay126/151=83.4% depollute10 窗类44/1/106 miss0；**chat ✅ ~16:37 CST**
+- 04:10 deferred_to_main；cursor @MaiYangAI **2110282194438795285**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈2.85h）；x-3 未补跑
+- hours_since_last_complete: ≈1.93；next **08:00 ET**（约 ≈1.47h；无 08-claim）
+- board：本条 06:25；04/05:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **e21b97d**
+- recorded: 2026-10-14 18:33 CST
+
+## 2026-10-14 07:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~07:32 ET；sched 07:25 late ~7min；check→record ~2026-10-14 19:33 CST）
+- watchdog: exit **0**（checked 0）
+- CDP :9226: up Chrome/154 chrome-profile idle Home/X；sand-playwright orphan **not stolen**；login_ok true（04-scrape-meta）+Home/X+cookies
+- **04:00 complete** c3a32b9b full_main：今天第一版 **50/1/116** tip **36f1294→47bdf3f** md5 **c76811fb** live PASS（curl day==days==site==live==local==index）；union151 overlay126/151=83.4% depollute10 窗类44/1/106 miss0；**chat ✅ ~16:37 CST**
+- 04:10 deferred_to_main；cursor @MaiYangAI **2110282194438795285**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈1.83h）；x-3 未补跑
+- hours_since_last_complete: ≈2.95；next **08:00 ET**（约 ≈0.45h；无 08-claim）
+- board：本条 07:25；04/05/06:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **de3b32f**
+- recorded: 2026-10-14 19:33 CST
+
+## 2026-10-14 08:10 ET · 补抓 deferred_to_main
+
+- automation: **cdf0cd43** X 汇总补抓（接管）
+- fire: 2026-10-14T12:17:18.939Z ≈08:17 ET（sched 08:10 late ~7min）
+- status: **deferred_to_main**
+- waited_main: no（到点即见 08-claim in_progress + overlay_resume）
+- main: 08-claim **in_progress** c3a32b9b full_main；claimed_at 2026-10-14T20:15:20+08:00；platform running ~20:11 CST
+- scrape_seen: union **126** HIT CURSOR effective gap≈**4.27** min closed；overlay mid **9/126≈7.1% OK≈8 REJECT≈3; last `[9/126] OK 2110341762116169791 @danshipper text=16 extract_text=7`**；尚无 depollute/meta/chat
+- prior **04:00 complete**：今天第一版 **50/1/116** tip **47bdf3f** md5 **c76811fb** live PASS；**chat ✅ ~16:37 CST**；gap≈0.9 closed；无 hole
+- cursor: still @MaiYangAI **2110282194438795285**（主窗未推进）
+- watchdog: exit **0**（08 overlay alive not stalled）
+- CDP: :9226 up Chrome/154 主窗 overlay 占用 **not stolen**；login_ok true
+- action: 未重抓、不抢 CDP、不写页、不发 chat；今天续窗交付交主窗
+- anomaly: 无 AUTH_FAIL / 官方 X API / gap_open；主窗已起非漏叫；不升幕僚长
+- next: 主窗交 08:00 → **12:00 ET**；08:25 x-3 复核
+- evidence: `raw/2026-10-14/08-10-catchup.md`
+- grok-ops tip: **de6b1a4**
+- recorded: 2026-10-14 20:19 CST
+
+## 2026-10-14 08:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~08:30 ET；sched 08:25 late ~5min；check→record ~2026-10-14 20:30 CST）
+- watchdog: exit **0**（checked 1；08 overlay alive→60/126=47.6% not stalled）
+- CDP :9226: up Chrome/154 chrome-profile busy overlay；sand-playwright orphan **not stolen**；login_ok true（08-scrape-meta）+cookies
+- **08:00 in_progress** c3a32b9b full_main 今天续窗：union **126** gap≈**4.27** closed；overlay mid **60/126=47.6%**；尚无 depollute/meta/chat；cursor 未推进
+- prior **04:00 complete**：今天第一版 **50/1/116** tip **47bdf3f** md5 **c76811fb** live PASS；**chat ✅ ~16:37 CST**
+- 08:10 deferred_to_main；cursor @MaiYangAI **2110282194438795285**
+- lists Oct8–**Oct13** done not rerun（155/@yiren_ai）；Oct14 lists 未到期（约 ≈0.88h）；x-3 未补跑
+- hours_since_last_complete: ≈3.90；next 主窗交 08:00→**12:00 ET**
+- board：本条 08:25；回填 08:00 in_progress + 08:10 deferred；04/07:25 已记
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no
+- grok-ops tip: **f28d747**
+- recorded: 2026-10-14 20:30 CST
