@@ -8207,3 +8207,27 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - escalate: **no**；stay_quiet；parent_notify no
 - grok-ops tip: **370510e**
 - recorded: 2026-10-14 12:29 CST
+
+## 2026-10-14 00:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b** (full_main；0点窗；交付昨天完整日页 + 今天薄种子)
+- fire: 2026-10-14T04:10:42.165Z ≈ 00:10 ET Oct 14（sched 00:05 late ~5min）
+- login_ok: true（CDP :9226 chrome-profile；tab 46BC3C98 Home/X；无官方/付费 X API）
+- scrape: HTL **160** HIT CURSOR + DOM **29** → union **164**；gap≈**4.58** closed；hit_cursor true
+- prior_cursor: @yibie 2110161722954883382 2026-10-14T00:12:14.000Z
+- oldest_new: @app_sail 2110162876245897504 2026-10-14T00:16:49.000Z
+- newest / new_cursor: @kevinma_dev_zh **2110222141392392499** 2026-10-14T04:12:19.000Z
+- CUTOFF 2026-10-14T04:00:00Z：pre 148 → 10-13；after 16 → 10-14 薄种子
+- overlay: accept **138**/164 = **84.1%**（reject_href26 reject_total26；completed；attempted164）；CDP 还回 home
+- depollute: restored **11**
+- classify: window 正文**60** / 拿不准**3** / 已过滤**101** miss**0**（pre 54/3/91；after 6/0/10；35 overrides）
+- page_yday **2026-10-13**: 正文**205** / 拿不准**63** / 已过滤**542**（prior 151/60/451）；bak-00
+- thin_seed **2026-10-14**: 6 / 0 / 10（不聊天交付）
+- QA: pass；clippedBtns 0；`raw/2026-10-14/00-qa.png`
+- md5: 10-13 `34af1bff7e69a6d6bb864ba8947b234c` root=days=site=live root=live days=live index；10-14 thin `39242fc2d92e5996f4da0e1bbd18ba67` live==local
+- public tip: **21c5fb6**（10-13）→ **80ce963**（10-14 thin）→ **bc031b6**（index→10-13）
+- chat_line: `10/13 完整版：正文205 / 拿不准63 / 已过滤542。https://t512192641.github.io/x-following/2026-10-13.html`
+- chat_delivery: **pending_parent**
+- next: 2026-10-14 04:00 ET（今天第一版）
+- escalate: **no**
