@@ -8557,3 +8557,64 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - QA: pass true；clippedBtns 0；12-qa.png
 - next: 16:00 ET
 - escalate: no
+- md5: days==root==site==live root==live days==live index = **1ea3d6e7f6c91775a92ed625d516034d**
+- public tip: **d285646**（page）→ resync 6072f45/c4b6b7a → **6824618**（index+changelog+cursor）；Pages run success；publish 脚本首轮 exit 1 仅因构建被连续 push 取消，构建完成后 curl 复核 PASS
+- chat_line: `10/14 12:00：正文123 / 拿不准12 / 已过滤290。https://t512192641.github.io/x-following/2026-10-14.html`
+- chat_delivery: **delivered ✅** ~00:44 CST 10-15（parent；x-3 13:25 核对补记）
+- finished_at: 2026-10-15 00:47 CST
+
+## 2026-10-14 13:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~13:34 ET；sched 13:25 late ~9min；record ~2026-10-15 01:40 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up chrome-profile idle x.com/home **not stolen**；login_ok true（12-scrape-meta）+cookies auth_token/ct0
+- **12:00 complete** c3a32b9b：page **123/12/290** tip **6824618** md5 **1ea3d6e7** — 本次复核 local days==root==site==site-days==live(root+day) **PASS**；cursor @CuiMao **2110402046008639816**（cursor.md==cursor.json==12-claim）；chat **✅ ~00:44 CST**（12:00 条目 pending_parent→delivered 已改该行）
+- 12:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈0.8（12 finish ~12:47 ET）；next **16:00 ET**（约 +2.4h，未到期）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/13-25-health.md`
+- recorded: 2026-10-15 01:40 CST
+
+## 2026-10-14 14:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~14:29 ET；sched 14:25 late ~3–4min；record ~2026-10-15 02:31 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up chrome-profile pid11508 idle x.com/home **not stolen**；login_ok true（12-scrape-meta）+cookies auth_token/ct0
+- **12:00 complete** c3a32b9b：page **123/12/290** tip **6824618** md5 **1ea3d6e7** — 本次复核 local root==days==live(root+days+index) **PASS**；cursor @CuiMao **2110402046008639816**（cursor.md==cursor.json==12-claim）；chat **✅ ~00:44 CST**
+- 12:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈1.72（12 finish ~12:47 ET）；next **16:00 ET**（约 +1.5h，未到期）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/14-25-health.md`
+- grok-ops tip: **15c04ff**
+- recorded: 2026-10-15 02:31 CST
+
+## 2026-10-14 15:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~15:27 ET；sched 15:25 late ~1–2min；record ~2026-10-15 03:28 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up chrome-profile pid11508 idle x.com/home **not stolen**；login_ok true（12-scrape-meta）+cookies auth_token/ct0
+- **12:00 complete** c3a32b9b：page **123/12/290** tip **6824618** md5 **1ea3d6e7** — 本次复核 local root==days==index==live(root+days+index) **PASS**；cursor @CuiMao **2110402046008639816**（cursor.md==cursor.json==12-claim）；chat **✅ ~00:44 CST**
+- 12:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈2.68（12 finish ~12:47 ET）；next **16:00 ET**（约 +0.5h，未到期）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/15-25-health.md`
+- grok-ops tip: **15c04ff**
+- recorded: 2026-10-15 03:28 CST
+
+## 2026-10-14 16:10 ET · 补抓
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** x-2（fired ~16:15 ET；sched 16:10 late ~5min；record ~2026-10-15 04:16 CST）
+- waited_main: no（16-claim already in_progress）
+- main: 16:00 c3a32b9b **in_progress** full_main；DOM15/HTL73 union **76** gap≈**0.32** closed hit_cursor True；overlay ~74/76 near done；尚无 depollute/classify/merge/meta/QA/page/chat
+- prior 12: complete 123/12/290 tip **6824618** md5 **1ea3d6e7** live PASS；chat ✅ ~00:44 CST
+- cursor: still @CuiMao **2110402046008639816**（主窗未推进）
+- watchdog: exit **0**（overlay_resume alive；not stalled）
+- CDP: :9226 up **not stolen**；login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
+- evidence: `raw/2026-10-14/16-10-catchup.md`
+- grok-ops tip: **895d599**
+- recorded: 2026-10-15 04:16 CST
