@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @kevinma_dev_zh
-- status_id: 2110222141392392499
-- url: https://x.com/kevinma_dev_zh/status/2110222141392392499
-- time_utc: 2026-10-14T04:12:19.000Z
-- updated_window: 2026-10-14 00:00 ET
+- handle: @MaiYangAI
+- status_id: 2110282194438795285
+- url: https://x.com/MaiYangAI/status/2110282194438795285
+- time_utc: 2026-10-14T08:10:56.000Z
+- updated_window: 2026-10-14 04:00 ET
