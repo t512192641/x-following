@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @dotey
-- status_id: 2110523455288562038
-- url: https://x.com/dotey/status/2110523455288562038
-- time_utc: 2026-10-15T00:09:38.000Z
-- updated_window: 2026-10-14 20:00 ET
+- handle: @IndieDevMing
+- status_id: 2110584109408112779
+- url: https://x.com/IndieDevMing/status/2110584109408112779
+- time_utc: 2026-10-15T04:10:39.000Z
+- updated_window: 2026-10-15 00:00 ET

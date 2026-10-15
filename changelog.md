@@ -8803,3 +8803,22 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-15/00-25-health.md`
 - recorded: 2026-10-15 12:33 CST
+
+## 2026-10-15 00:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b**（fired 2026-10-15T04:07:27Z ≈ 00:07 ET；sched 00:05 late ~2min）；mode full_main（交 10-14 完整版；10-15 薄种子；不并 rec/ideas）
+- scrape: HTL **203** HIT CURSOR（top-level home-conversation-2110523455288562038）+ DOM **58** → union **211**；gap **1.17** min；gap_open false；无官方/付费 X API
+- overlay **141/211 = 66.8%**（budget_exhausted 20min，attempted 181，timeouts 1，splash 0；干净停止 exit 0；CDP 还回 x.com/home）
+- depollute restored **16**（≥2 同文 10 + 回复页误抓父帖/译文单次 6，见 00-depollute.md）
+- classify: 窗类 正文 **30** / 拿不准 **18** / 已过滤 **163**；miss 0（63 overrides；00-class-manual.md）；pre 30/16/154 → 10-14；after 0/2/9 → 10-15
+- page 10-14 完整版: **176/46/557**（prior 159/30/403 + 17 新卡 + 补进原卡 5：Grok Voice 3.0 / plus 别名 / 国行 Apple Intelligence / Renoise / 乔木剪藏）；bak-00；QA pass clippedBtns 0；md5 **b9e74845e9c97cb25821ce484650a1d8** root=days=site=live
+- thin seed 10-15: **0/2/9** md5 **c6fd2caf4dfafba4ba1cb860619bdba3** live==local（不聊天交付）
+- index.html → 10-14 完整页
+- public tip: **a629004**（10-14）→ **8849463**（10-15 薄种子）→ index+cursor+changelog resync
+- cursor: @dotey 2110523455288562038 → @IndieDevMing **2110584109408112779**（2026-10-15T04:10:39Z）
+- chat_line: `10/14 完整版：正文176 / 拿不准46 / 已过滤557。https://t512192641.github.io/x-following/2026-10-14.html`
+- chat_delivery: pending_parent（WakeParent）
+- next: 2026-10-15 04:00 ET（今天第一版）
+- escalate: no
+- finished_at: 2026-10-15 12:37 CST
