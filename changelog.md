@@ -8818,7 +8818,72 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - public tip: **a629004**（10-14）→ **8849463**（10-15 薄种子）→ index+cursor+changelog resync
 - cursor: @dotey 2110523455288562038 → @IndieDevMing **2110584109408112779**（2026-10-15T04:10:39Z）
 - chat_line: `10/14 完整版：正文176 / 拿不准46 / 已过滤557。https://t512192641.github.io/x-following/2026-10-14.html`
-- chat_delivery: pending_parent（WakeParent）
+- chat_delivery: delivered ✅ 2026-10-15 ~12:40 CST（WakeParent）（WakeParent）
 - next: 2026-10-15 04:00 ET（今天第一版）
 - escalate: no
 - finished_at: 2026-10-15 12:37 CST
+
+## 2026-10-15 01:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~01:32 ET；sched 01:25 late ~7min；record ~2026-10-15 13:33 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 idle x.com/home **not stolen**；login_ok true（00-scrape-meta）
+- 00:00 main c3a32b9b **complete**：10-14 完整版 176/46/557 md5 **b9e74845** root=days=live PASS（live 复核）；chat ✅ ~12:40 CST；cursor @IndieDevMing **2110584109408112779**
+- lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）；Oct15 未到期（09:23 ET）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet；next main 04:00 ET
+- evidence: `raw/2026-10-15/01-25-health.md`
+- recorded: 2026-10-15 13:33 CST
+
+## 2026-10-15 02:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~02:26 ET；sched 02:25 late ~1min）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 idle x.com/home **not stolen**；login_ok true（00-scrape-meta）
+- 00:00 main c3a32b9b **complete**：10-14 176/46/557 md5 **b9e74845** root=days=live LIVE_GATE PASS（本次复核）；chat ✅ ~12:40 CST；cursor @IndieDevMing **2110584109408112779**
+- lists Oct14 done；Oct15 未到期（09:23 ET）；04:00 ET 主窗未到期
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/02-25-health.md`
+- recorded: 2026-10-15 14:27 CST
+
+## 2026-10-15 03:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~03:34 ET；sched 03:25 late ~9min）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 idle x.com/home **not stolen**
+- 00:00 main c3a32b9b **complete**：10-14 176/46/557 md5 **b9e74845** live PASS；chat ✅ ~12:40 CST；cursor @IndieDevMing **2110584109408112779**
+- lists Oct14 done；Oct15 未到期（09:23 ET）；04:00 ET 主窗未到期
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/03-25-health.md`
+- recorded: 2026-10-15 15:35 CST
+
+## 2026-10-15 04:10 ET · 补抓
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** x-2（fired ~04:15 ET；sched 04:10 late ~5min；record ~2026-10-15 16:16 CST）
+- waited_main: no（04-claim already in_progress）
+- main: 04:00 c3a32b9b **in_progress** full_main；DOM35/HTL107 union **108** gap≈**1.0** closed hit_cursor True；overlay [~15/108]；尚无 depollute/classify/merge/meta/QA/page/chat
+- prior 00: complete 176/46/557 md5 **b9e74845** live PASS；chat ✅ ~12:40 CST
+- cursor: still @IndieDevMing **2110584109408112779**（主窗未推进）
+- watchdog: exit **0**（overlay_resume alive；not stalled）
+- CDP: login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
+- evidence: `raw/2026-10-15/04-10-catchup.md`
+- recorded: 2026-10-15 16:16 CST
+
+## 2026-10-15 04:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b**（fired 2026-10-15T08:11:50Z ≈ 04:11 ET；sched 04:05 late ~7min）；mode full_main（今天第一版；含 0:00 薄种子；不并 rec/ideas）
+- scrape: HTL **107** HIT CURSOR（tweet-2110584109408112779）+ DOM **35** → union **108**；gap **1.0** min；gap_open false；无官方/付费 X API
+- overlay **84/108 = 77.8%**（completed；timeouts 0；splash 0；CDP 还回 x.com/home）；depollute restored **2**
+- classify: 窗类 正文 **25** / 拿不准 **13** / 已过滤 **70**；miss 0（34 overrides；04-class-manual.md）
+- page 10-15 第一版: **20/15/79**（薄种子 0/2/9 + 本窗 20 卡）；QA pass clippedBtns 0；md5 **9597da745d0ba3ea36518ac5fcf528d0**
+- index.html → 10-15 今天第一版
+- cursor: @IndieDevMing 2110584109408112779 → @indie_maker_fox **2110644677460553749**（2026-10-15T08:11:19Z）
+- chat_line: `10/15 第一版：正文20 / 拿不准15 / 已过滤79。https://t512192641.github.io/x-following/2026-10-15.html`
+- chat_delivery: pending_parent（WakeParent）
+- next: 2026-10-15 08:00 ET
+- escalate: no
