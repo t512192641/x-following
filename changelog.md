@@ -8637,9 +8637,90 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page: **135/21/336**（prior 123/12/290 + 本窗 12 张新卡；OpenCompute 6 帖合题；Codex composer 预测更新补进当天已有 Codex 卡）
 - QA: pass true；clippedBtns 0；16-qa.png
 - md5: days==root==site==live root==live days = **49656217c5d5a1efeedab5b6da1e63a9**
-- public tip: **0f7f749**（page）→ index+changelog+cursor resync
+- public tip: **0f7f749**（page）→ **80fd038**（index+changelog+cursor resync；live root/days/index PASS）
 - chat_line: `10/14 16:00：正文135 / 拿不准21 / 已过滤336。https://t512192641.github.io/x-following/2026-10-14.html`
-- chat_delivery: pending_parent
+- chat_delivery: **delivered ✅** 2026-10-15 ~04:24 CST（WakeParent）
 - next: 20:00 ET（并 recommended/ideas）
 - escalate: no
 - finished_at: 2026-10-15 04:24 CST
+
+## 2026-10-14 16:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~16:28 ET；sched 16:25 late ~3min；record ~2026-10-15 04:30 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up chrome-profile pid11508 idle x.com/home **not stolen**；login_ok true（16-meta）+cookies auth_token/ct0
+- **16:00 complete** c3a32b9b：page **135/21/336** tip **80fd038** md5 **49656217** — 本次复核 local root==days==index==live(root+day+days) **PASS**；cursor @paulg **2110461000084525385**（cursor.md==cursor.json==16-claim/meta）；chat **✅ ~04:24 CST**
+- 16:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈0.1（16 finish ~16:24 ET）；next **20:00 ET**（约 +3.5h，未到期）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/16-25-health.md`
+- grok-ops tip: **18c24c4**
+- recorded: 2026-10-15 04:30 CST
+
+## 2026-10-14 17:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~17:32 ET；sched 17:25 late ~6–7min；record ~2026-10-15 05:33 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up chrome-profile pid11508 idle x.com/home **not stolen**；login_ok true（16-meta）+cookies auth_token/ct0
+- **16:00 complete** c3a32b9b：page **135/21/336** tip **80fd038** md5 **49656217** — 本次复核 local root==days==site==live(root+days+index) **PASS**；cursor @paulg **2110461000084525385**（cursor.md==cursor.json==16-claim/meta）；chat **✅ ~04:24 CST**
+- 16:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈1.15（16 finish ~16:24 ET）；next **20:00 ET**（约 +2.45h，未到期）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/17-25-health.md`
+- grok-ops tip: **b1e740d**
+- recorded: 2026-10-15 05:33 CST
+
+## 2026-10-14 18:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~18:30 ET；sched 18:25 late ~5min；record ~2026-10-15 06:33 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up idle x.com/home **not stolen**；login_ok inferred true（16-meta + Home/X）
+- **16:00 complete** c3a32b9b：page **135/21/336** tip **80fd038** md5 **49656217** — md5_gate --site PASS + --live PASS；cursor @paulg **2110461000084525385**；chat **✅ ~04:24 CST**
+- 16:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈2.1；next **20:00 ET**（约 +1.5h，未到期）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/18-25-health.md`
+- recorded: 2026-10-15 06:33 CST
+
+## 2026-10-14 19:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~19:26 ET；sched 19:25 late ~1min；record ~2026-10-15 07:28 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up idle x.com/home **not stolen**；login_ok inferred true（16-meta + Home/X）
+- **16:00 complete** c3a32b9b：page **135/21/336** tip **80fd038** md5 **49656217** — md5_gate --site PASS + --live PASS；cursor @paulg **2110461000084525385**；chat **✅ ~04:24 CST**
+- 16:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- hours_since_last_complete ≈3.0；next **20:00 ET**（约 +0.5h，未到期）
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/19-25-health.md`
+- recorded: 2026-10-15 07:28 CST
+
+## 2026-10-14 20:10 ET · 补抓
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** x-2（fired ~20:17 ET；sched 20:10 late ~7min；record ~2026-10-15 08:17 CST）
+- waited_main: no（20-claim already in_progress）
+- main: 20:00 c3a32b9b **in_progress** full_main（并 rec/ideas）；DOM13/HTL97 union **100** gap≈**9.15** closed hit_cursor True；overlay [76/100]；尚无 depollute/classify/merge/meta/QA/page/chat
+- prior 16: complete 135/21/336 tip **80fd038** md5 **49656217** live PASS；chat ✅ ~04:24 CST
+- cursor: still @paulg **2110461000084525385**（主窗未推进）
+- watchdog: exit **0**（overlay_resume alive；not stalled）
+- CDP: :9226 **not stolen**；login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
+- evidence: `raw/2026-10-14/20-10-catchup.md`
+- recorded: 2026-10-15 08:17 CST
+
+## 2026-10-14 20:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~20:26 ET；sched 20:25 late ~1min；record ~2026-10-15 08:28 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 1；20 overlay not stalled）
+- CDP :9226 up x.com/home **not stolen**；login_ok true（20-scrape-meta）
+- **20:00 in_progress** c3a32b9b full_main：raw/union/overlay/depollute/classify 已出；merge/page/chat 交主窗
+- prior 16 complete 135/21/336 tip **80fd038** md5 **49656217** live PASS；chat ✅ ~04:24 CST；cursor still @paulg **2110461000084525385**
+- 20:10 deferred_to_main；lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-14/20-25-health.md`
+- recorded: 2026-10-15 08:28 CST
