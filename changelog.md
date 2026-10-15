@@ -9054,6 +9054,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 10-15: 正文 **61** / 拿不准 **42** / 已过滤 **294**（+20 卡；小王子 3D 卡补 dotey 长文/RookieRicardoR 流程等 4 原帖；PE 预授权卡补 1）
 - 合题：Kling 4.0 / Filee / Anthropic 蒸馏 5–7% / Grok Bot Lead Scout / OpenRouter 周调用 Flash 霸榜 / Codex 容量修复 / OpenUI 1.0 / Orca
 - QA pass clippedBtns 0（12-qa.png）
+- publish: md5 **541bbe39** root==days==site==live（root/days/index）PASS；public tip **e28d1fb** → **4e8c42b**（index）
 - cursor → @danshipper 2110766756176273600
 - chat_delivery: pending_parent
 
