@@ -8960,4 +8960,100 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 10-15: 正文 **41** / 拿不准 **23** / 已过滤 **165**（Grok Voice 卡补 @elonmusk 原帖）
 - QA pass clippedBtns 0（08-qa.png）
 - cursor → @cellinlab 2110705172183953921
+- chat_delivery: delivered ✅ ~20:35 CST（WakeParent）
+
+## 2026-10-15 08:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired 12:34:56Z ≈ 08:35 ET；sched 08:25 late ~10min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home Chrome/154 **not stolen**
+- watchdog: exit 0（checked 0）
+- 08 main c3a32b9b: **complete**；page 10-15 续窗 **41/23/165** tip **d12bc28** md5 **611a2007** root==days==site==live PASS（re-verified）；chat ✅ ~20:35 CST
+- cursor: @cellinlab **2110705172183953921**（== cursor.md==cursor.json==08-meta）
+- 08:10 catchup: deferred_to_main complete；无 hole
+- lists: Oct14 done；Oct15 未到期（09:23 ET，≈46min）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/08-25-health.md`
+- recorded: 2026-10-15 20:37 CST
+
+## 2026-10-15 09:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired 13:37Z ≈ 09:37 ET；sched 09:25 late ~12min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home Chrome/154 **not stolen**
+- watchdog: exit 0（checked 0）
+- 08 main c3a32b9b: **complete**；page 10-15 **41/23/165** md5 **611a2007** local==live root/days PASS（re-verified）；chat ✅ ~20:35 CST
+- cursor: @cellinlab **2110705172183953921**（== cursor.md==08-meta）
+- lists: Oct15 **done by x-4** 09:23 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑
+- x-following/task-board 08:00 主窗行 chat pending_parent→✅（只改该窗行）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/09-25-health.md`
+- recorded: 2026-10-15 21:41 CST
+
+## 2026-10-15 10:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired 14:31Z ≈ 10:31 ET；sched 10:25 late ~6min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home Chrome/154 **not stolen**
+- watchdog: exit 0（checked 0）
+- 08 main c3a32b9b: **complete**；page 10-15 **41/23/165** md5 **611a2007** local==live root/days PASS（re-verified）；chat ✅ ~20:35 CST
+- cursor: @cellinlab **2110705172183953921**（== cursor.md==08-meta）
+- lists: Oct15 **done by x-4** 09:23 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/10-25-health.md`
+- recorded: 2026-10-15 22:33 CST
+
+## 2026-10-15 11:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired 15:30Z ≈ 11:30 ET；sched 11:25 late ~5min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home Chrome/154 **not stolen**
+- watchdog: exit 0（checked 0）
+- login_ok: true（chrome-profile auth_token+ct0+twid）
+- 08 main c3a32b9b: **complete**；page 10-15 **41/23/165** md5 **611a2007** local==live root/days/index PASS（re-verified）
+- chat ✅ ~20:35 CST；cursor @cellinlab **2110705172183953921**（== cursor.md==cursor.json==08-meta）
+- lists: Oct15 **done by x-4** 09:23 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑
+- next main **12:00 ET**（~0.5h；无 12-claim）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/11-25-health.md`
+- recorded: 2026-10-15 23:31 CST
+
+## 2026-10-15 12:10 ET · 补抓
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** x-2（fired ~12:18 ET；sched 12:10 late ~8min；record ~2026-10-16 00:19 CST）
+- waited_main: no（12-claim already in_progress）
+- main: 12:00 c3a32b9b **in_progress** full_main（今天续窗；不并 rec/ideas）；DOM48/HTL174 union **178** gap≈**1.85** closed hit_cursor True；overlay [36/178]；尚无 depollute/classify/merge/meta/QA/page/chat
+- prior 08: complete 41/23/165 tip **d12bc28** md5 **611a2007** live PASS；chat ✅ ~20:35 CST
+- cursor: still @cellinlab **2110705172183953921**（主窗未推进）
+- watchdog: exit **0**（overlay_resume alive；not stalled）
+- CDP: :9226 **not stolen**；login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
+- evidence: `raw/2026-10-15/12-10-catchup.md`
+- recorded: 2026-10-16 00:19 CST
+
+## 2026-10-15 12:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~12:27 ET；sched 12:25 late ~2min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 busy main overlay Chrome/154 **not stolen**
+- watchdog: exit 0（checked 1；12 overlay_resume alive；not stalled）
+- login_ok: true（chrome-profile auth_token+ct0+twid）
+- 08 main c3a32b9b: **complete**；page 10-15 **41/23/165** md5 **611a2007** local==live root/days/index PASS（re-verified）
+- chat ✅ ~20:35 CST；cursor @cellinlab **2110705172183953921**（== cursor.md==cursor.json；12 未推进）
+- 12 main c3a32b9b: **in_progress** full_main；union **178** gap≈**1.85** closed；overlay mid ~**[84/178]**；尚无 depollute/classify/merge/meta/QA/page/chat
+- 12:10 catchup: deferred_to_main complete；无 hole
+- lists: Oct15 **done by x-4** 09:23 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑；Oct16 未到期
+- next 主窗交 12→**16:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- grok-ops tip: **8d7306b**（stamp **e1b8832**）
+- evidence: `raw/2026-10-15/12-25-health.md`
+- recorded: 2026-10-16 00:28 CST
+
+## 2026-10-15 12:00 ET · 主窗（c3a32b9b）
+
+- fire 16:15:01Z ≈ 12:15 ET（sched 12:05 late ~10min）；mode full_main 今天续窗；不并 rec/ideas
+- scrape: HTL 174 HIT CURSOR + DOM 48 → union **178**；gap 1.85min closed；oldest_new @Michell49473040 2110705635277127993 12:13:33Z；newest @danshipper 2110766756176273600 16:16:25Z
+- overlay_fill_rate: 143/178 = 80.3%（budget_exhausted 20min；attempted 176；reject_href 33 保留 HTL/DOM 原文；timeouts 0 splash 0）；depollute restored 8（FactoryAI 串文等）
+- classify: 正文30 / 拿不准19 / 已过滤129 miss0（62 overrides；12-class-manual.md）
+- page 10-15: 正文 **61** / 拿不准 **42** / 已过滤 **294**（+20 卡；小王子 3D 卡补 dotey 长文/RookieRicardoR 流程等 4 原帖；PE 预授权卡补 1）
+- 合题：Kling 4.0 / Filee / Anthropic 蒸馏 5–7% / Grok Bot Lead Scout / OpenRouter 周调用 Flash 霸榜 / Codex 容量修复 / OpenUI 1.0 / Orca
+- QA pass clippedBtns 0（12-qa.png）
+- cursor → @danshipper 2110766756176273600
 - chat_delivery: pending_parent
+
