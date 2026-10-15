@@ -8724,3 +8724,20 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-14/20-25-health.md`
 - recorded: 2026-10-15 08:28 CST
+
+## 2026-10-14 20:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b**（fired 2026-10-15T00:09:27Z ≈ 20:09 ET；sched 20:05 late ~4min）
+- scrape: HTL **97** HIT CURSOR + DOM **13** → union **100**；gap **9.15** min；gap_open false；无官方/付费 X API
+- overlay **69/100 = 69.0%**（completed；timeouts 0；splash 0）；depollute restored **2**
+- classify: 窗类 正文 **24** / 拿不准 **9** / 已过滤 **67**；miss 0（31 overrides；20-class-manual.md）
+- rec/ideas: **merged**（recommended # 2026-10-14：新卡 7 + 补进原卡 2；ideas sourceDate 2026-10-15：脑洞 3）
+- page 10-14: **159/30/403**；QA pass clippedBtns 0；md5 **3369226117998f1d2a228fe50d713d22** root=days=site=live
+- public tip: **5ba6edb**（page）
+- cursor: @paulg 2110461000084525385 → @dotey **2110523455288562038**（2026-10-15T00:09:38Z）
+- chat_line: `10/14 20:00：正文159 / 拿不准30 / 已过滤403。https://t512192641.github.io/x-following/2026-10-14.html`
+- chat_delivery: pending_parent
+- next: 2026-10-15 00:00 ET（交 10-14 完整版）
+- escalate: no
+- finished_at: 2026-10-15 08:30 CST
