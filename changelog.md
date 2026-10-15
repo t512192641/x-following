@@ -8734,10 +8734,72 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: 窗类 正文 **24** / 拿不准 **9** / 已过滤 **67**；miss 0（31 overrides；20-class-manual.md）
 - rec/ideas: **merged**（recommended # 2026-10-14：新卡 7 + 补进原卡 2；ideas sourceDate 2026-10-15：脑洞 3）
 - page 10-14: **159/30/403**；QA pass clippedBtns 0；md5 **3369226117998f1d2a228fe50d713d22** root=days=site=live
-- public tip: **5ba6edb**（page）
+- public tip: **5ba6edb**（page）→ **90f7b5b**（index+changelog+cursor resync；live PASS）
 - cursor: @paulg 2110461000084525385 → @dotey **2110523455288562038**（2026-10-15T00:09:38Z）
 - chat_line: `10/14 20:00：正文159 / 拿不准30 / 已过滤403。https://t512192641.github.io/x-following/2026-10-14.html`
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ ~08:32 CST（WakeParent）
 - next: 2026-10-15 00:00 ET（交 10-14 完整版）
 - escalate: no
 - finished_at: 2026-10-15 08:30 CST
+
+## 2026-10-14 21:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~21:26 ET；sched 21:25 late ~1min；record ~2026-10-15 09:28 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up x.com/home idle **not stolen**；login_ok true（20-scrape-meta）
+- 20:00 complete 159/30/403 tip **90f7b5b** md5 **33692261** root=days=site=live PASS；chat ✅ ~08:32 CST；cursor @dotey **2110523455288562038**
+- lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑；Oct15 未到期
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet；next 主窗 00:00 ET
+- evidence: `raw/2026-10-14/21-25-health.md`
+- recorded: 2026-10-15 09:28 CST
+
+## 2026-10-14 22:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~22:31 ET；sched 22:25 late ~6min；record ~2026-10-15 10:33 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up x.com/home idle **not stolen**；login_ok true（20-scrape-meta）
+- 20:00 complete 159/30/403 tip **90f7b5b** md5 **33692261** root=days=site=live PASS；chat ✅ ~08:32 CST；cursor @dotey **2110523455288562038**
+- lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑；Oct15 未到期
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet；next 主窗 00:00 ET
+- evidence: `raw/2026-10-14/22-25-health.md`
+
+## 2026-10-14 23:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~23:28 ET；sched 23:25 late ~3min；record ~2026-10-15 11:31 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 0）
+- CDP :9226 up x.com/home idle **not stolen**；login_ok true（20-scrape-meta）+cookies
+- 20:00 complete 159/30/403 tip **90f7b5b** md5 **33692261** root=days=site=live PASS；chat ✅ ~08:32 CST；cursor @dotey **2110523455288562038**
+- lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑；Oct15 未到期
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet；next 主窗 00:00 ET
+- evidence: `raw/2026-10-14/23-25-health.md`
+- recorded: 2026-10-15 11:31 CST
+
+
+## 2026-10-15 00:10 ET · 补抓
+
+- status: **deferred_to_main**
+- automation: **cdf0cd43** x-2（fired ~00:16 ET；sched 00:10 late ~6min；record ~2026-10-15 12:18 CST）
+- waited_main: no（00-claim already in_progress）
+- main: 00:00 c3a32b9b **in_progress** full_main（交 10-14 完整版；薄种子今天；不并 rec/ideas）；DOM58/HTL203 union **211** gap≈**1.17** closed hit_cursor True；overlay [76/211]；尚无 depollute/classify/merge/meta/QA/page/chat
+- prior 20: complete 159/30/403 tip **90f7b5b** md5 **33692261** live PASS；chat ✅ ~08:32 CST
+- cursor: still @dotey **2110523455288562038**（主窗未推进）
+- watchdog: exit **0**（overlay_resume alive；not stalled）
+- CDP: :9226 **not stolen**；login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
+- escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
+- evidence: `raw/2026-10-15/00-10-catchup.md`
+- recorded: 2026-10-15 12:18 CST
+
+## 2026-10-15 00:25 ET · 健康检查
+
+- status: **quiet_ok**
+- automation: **960034de** x-3（fired ~00:30 ET；sched 00:25 late ~5min；record ~2026-10-15 12:33 CST）
+- cdp9226-launch.sh: ok (already up)；watchdog exit **0**（checked 1；00 overlay alive ~174/211 not stalled）
+- CDP :9226 busy main overlay **not stolen**；login_ok true（00-scrape-meta）
+- 00:00 main c3a32b9b **in_progress**（union211 gap≈1.17 closed）；prior 20 complete 159/30/403 tip **90f7b5b** md5 **33692261** live PASS；chat ✅ ~08:32 CST；cursor still @dotey **2110523455288562038**
+- lists Oct14 done via x-4（155/@yiren_ai；bookmarks 175）未补跑；Oct15 未到期
+- no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/00-25-health.md`
+- recorded: 2026-10-15 12:33 CST
