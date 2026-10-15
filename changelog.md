@@ -9056,5 +9056,65 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - QA pass clippedBtns 0（12-qa.png）
 - publish: md5 **541bbe39** root==days==site==live（root/days/index）PASS；public tip **e28d1fb** → **4e8c42b**（index）
 - cursor → @danshipper 2110766756176273600
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ ~00:43 CST（WakeParent）
 
+
+## 2026-10-15 13:25 ET · 健康检查
+
+- fired ~13:27 ET（sched 13:25 late ~2min）；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- CDP :9226 idle x.com/home **not stolen**；**记录型异常**：home tab 空白未渲染（title 空、react-root 无文本、0 articles，疑 12 主窗还回后未渲染）→ 空闲时 Page.navigate x.com/home 一次，渲染 Home / X、账户按钮在、时间线 6 条；未重启未重登
+- login_ok: true（UI 已登录 + auth_token/ct0/twid）
+- 12 main c3a32b9b: **complete**；page 10-15 **61/42/294** md5 **541bbe39** local==site==live root/days/index PASS（re-verified）；cursor @danshipper **2110766756176273600**；chat ✅ ~00:43 CST
+- 板：12:00 主窗 in_progress→complete 补记（13:25 节）
+- lists: Oct15 done by x-4（未补跑）；Oct16 未到期
+- next 主窗 **16:00 ET**；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/13-25-health.md`
+- recorded: 2026-10-16 01:30 CST
+
+## 2026-10-15 14:25 ET · 健康检查
+
+- fired ~14:27 ET（sched 14:25 late ~2min）；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- CDP :9226 idle x.com/home **not stolen**；login_ok: true（auth_token/ct0/twid + Home/X timeline 6 articles）
+- 12 main c3a32b9b: **complete**；page 10-15 **61/42/294** md5 **541bbe39** local==live root/days/index PASS（re-verified）；cursor @danshipper **2110766756176273600**；chat ✅ ~00:43 CST
+- lists: Oct15 done by x-4（未补跑）；Oct16 未到期
+- next 主窗 **16:00 ET**；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/14-25-health.md`
+- recorded: 2026-10-16 02:28 CST
+
+## 2026-10-15 15:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~15:26 ET；sched 15:25 late ~1min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home Chrome/154 **not stolen**
+- watchdog: exit 0（checked 0）
+- login_ok: true（chrome-profile auth_token+ct0+twid + Home/X timeline 6 articles）
+- 12 main c3a32b9b: **complete**；page 10-15 **61/42/294** md5 **541bbe39** local==site==live root/days/index PASS（re-verified）
+- chat ✅ ~00:43 CST；cursor @danshipper **2110766756176273600**（== cursor.md==cursor.json==12-meta）
+- lists: Oct15 **done by x-4** 09:23 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑；Oct16 未到期
+- next main **16:00 ET**（~0.5h；无 16-claim）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/15-25-health.md`
+- recorded: 2026-10-16 03:28 CST
+
+## 2026-10-15 16:10 ET · 补抓
+
+- status: **deferred_to_main**
+- fire: sched 16:10；平台 fire 2026-10-15T20:10:08.329Z ≈16:10 ET
+- waited_main: yes（到点无 claim；等到 ~16:13 ET 16-claim in_progress + HTL scrape）
+- main: c3a32b9b full_main 今天续窗；fire ≈16:12 ET late ~12min；phase HTL scrape mid；CDP 因箱体重启曾 down，主窗已拉起
+- cursor: still @danshipper **2110766756176273600**（主窗未推进）
+- prior 12: complete **61/42/294** tip **1bde491** md5 **541bbe39** live PASS；chat ✅
+- 未重抓、不抢 CDP、不写页、不发 chat；无 gap_open；不升幕僚长
+- evidence: `raw/2026-10-15/16-10-catchup.md`
+- recorded: 2026-10-16 04:14 CST
+
+## 2026-10-15 16:00 ET · 主窗（c3a32b9b）
+
+- fire 20:12:14Z ≈ 16:12 ET（sched 16:00 late ~12min）；mode full_main 今天续窗；不并 rec/ideas
+- **记录型异常**：box ~04:00 CST 重启，CDP :9226 开窗时未起 → `scripts/cdp9226-launch.sh` 原 profile 直连拉起（未清 cookie、未重登），登录态正常
+- scrape: HTL 98 HIT CURSOR + DOM 21 → union **106**；gap 6.42min closed；oldest_new @verysmallwoods 2110768372304761108 16:22:50Z；newest @MatthewBerman 2110825952804806999 20:11:39Z
+- overlay_fill_rate: 71/106 = 67.0%（completed；attempted 106；reject_href 35 保留 HTL/DOM 原文；timeouts 0 splash 0）；depollute restored 2（ajambrosino / danshipper 串文）
+- classify: 正文26 / 拿不准11 / 已过滤69 miss0（37 overrides；16-class-manual.md）
+- page 10-15: 正文 **74** / 拿不准 **53** / 已过滤 **363**（+13 卡；PE 预授权卡补 alex_prompter 完整版；Hormozi 卡补 1）
+- 合题：ChatGPT in Chrome / Every《How Codex Happened》/ Muse Spark Open / Handwired / Grok Bot Watch Later 学习站 / Agent Vault / Blandie / 多模型界面方案 / levelsio newsletter / Cua Spaces / DeepSeek V4.1 Opencode 免费
+- QA pass clippedBtns 0（16-qa.png）
+- cursor → @MatthewBerman 2110825952804806999
