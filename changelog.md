@@ -9118,3 +9118,5 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - 合题：ChatGPT in Chrome / Every《How Codex Happened》/ Muse Spark Open / Handwired / Grok Bot Watch Later 学习站 / Agent Vault / Blandie / 多模型界面方案 / levelsio newsletter / Cua Spaces / DeepSeek V4.1 Opencode 免费
 - QA pass clippedBtns 0（16-qa.png）
 - cursor → @MatthewBerman 2110825952804806999
+- publish: md5 **ee1e3ddf** root==days==site==live（root/days/index）PASS；public tip **6aa3002** → **4225ff8**（index）
+- chat_delivery: pending_parent（WakeParent）
