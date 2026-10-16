@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @elonmusk
-- status_id: 2110947253175328921
-- url: https://x.com/elonmusk/status/2110947253175328921
-- time_utc: 2026-10-16T04:13:39.000Z
-- updated_window: 2026-10-16 00:00 ET
+- handle: @oran_ge
+- status_id: 2111007063812002270
+- url: https://x.com/oran_ge/status/2111007063812002270
+- time_utc: 2026-10-16T08:11:19.000Z
+- updated_window: 2026-10-16 04:00 ET

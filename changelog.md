@@ -9293,6 +9293,72 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - index → 10-15 完整页
 - new_cursor: @elonmusk **2110947253175328921** 2026-10-16T04:13:39.000Z
 - chat_line: `10/15 完整版：正文114 / 拿不准64 / 已过滤624。https://t512192641.github.io/x-following/2026-10-15.html`
-- chat_delivery: **pending_parent**
+- chat_delivery: delivered ✅ ~12:45 CST 10-16（WakeParent）
 - next: 2026-10-16 04:00 ET
+- escalate: no
+
+## 2026-10-16 01:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~01:34 ET；sched 01:25 late ~9min；record ~2026-10-16 13:36 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 00 main c3a32b9b **complete**：page 10-15 **114/64/624** md5 **e90ba7a8** live PASS；thin 10-16 3/0/17；chat ✅ ~12:45 CST；cursor @elonmusk **2110947253175328921**
+- CDP :9226 idle Home/X **not stolen**；login_ok true+cookies
+- lists: Oct15 done by x-4；Oct16 未到期；next **04:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/01-25-health.md`
+
+## 2026-10-16 02:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~02:33 ET；sched 02:25 late ~8min；record ~2026-10-16 14:35 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 00 main c3a32b9b **complete**：page 10-15 **114/64/624** md5 **e90ba7a8** root==days==index==live PASS；chat ✅ ~12:45 CST；cursor @elonmusk **2110947253175328921**
+- CDP :9226 idle Home/X **not stolen**；login_ok true+cookies
+- lists: Oct15 done by x-4；Oct16 未到期；next **04:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/02-25-health.md`
+
+## 2026-10-16 03:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~03:33 ET；sched 03:25 late ~8min；record ~2026-10-16 15:34 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 00 main c3a32b9b **complete**：page 10-15 **114/64/624** md5 **e90ba7a8** root==days==index==live PASS；chat ✅ ~12:45 CST；cursor @elonmusk **2110947253175328921**
+- CDP :9226 idle Home/X **not stolen**；login_ok true+cookies
+- lists: Oct15 done by x-4；Oct16 未到期；next **04:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/03-25-health.md`
+
+## 2026-10-16 04:10 ET · 补抓
+
+- automation: **cdf0cd43**（fired ~04:18 ET；sched 04:10 late ~8min；record ~2026-10-16 16:21 CST）
+- status: **deferred_to_main** — 04 main c3a32b9b in_progress full_main（交 10-16 第一版）
+- scrape 齐：DOM **41** / HTL **150** / union **152**；gap≈**1.3** min closed；login_ok true
+- overlay ~[60/152] pid 105152 alive；watchdog exit 0 not stalled
+- cursor still @elonmusk **2110947253175328921**；未重抓/不抢 CDP/不写页/不发 chat
+- escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/04-10-catchup.md`
+
+## 2026-10-16 04:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~04:31 ET；sched 04:25 late ~6min；record ~2026-10-16 16:33 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 1：04 in_progress，overlay→depollute/classify 存活，not stalled）
+- 04 main c3a32b9b **in_progress** full_main（交 10-16 第一版）：union152 DOM41/HTL150 gap≈1.3 closed；overlay **112/152=73.7%** completed；depollute1；classify mid；login_ok true；CDP :9226 主窗占用后回 Home **not stolen**
+- prior 00 complete 10-15 **114/64/624** md5 **e90ba7a8** root==days==index==live PASS；chat ✅ ~12:45 CST；cursor still @elonmusk **2110947253175328921**
+- lists: Oct15 done by x-4；Oct16 未到期；04:10 deferred_to_main；next **08:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/04-25-health.md`
+
+## 2026-10-16 04:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b**（fired 2026-10-16T08:09:35Z ≈ 04:09 ET；sched 04:00 late ~9min）；mode full_main（今天第一版；在 0:00 薄种子 3/0/17 上；不并 rec/ideas）
+- scrape: HTL **150** HIT CURSOR（tweet-2110947253175328921）+ DOM **41** → union **152**；gap **1.3** min；gap_open false；无官方/付费 X API
+- overlay **112/152 = 73.7%**（completed；reject_href 40；timeouts 0；splash 0；CDP 还回 x.com/home）；depollute restored **1**（reply-parent：MaiYangAI 823045 落到父帖文案，回退 HTL）
+- classify: 窗类 正文 **25** / 拿不准 **18** / 已过滤 **109**；miss 0（46 overrides；04-class-manual.md）
+- page 10-16 第一版: **20/18/126**（薄种子 3/0/17 + 本窗 17 卡 / 18 / 109）；QA pass clippedBtns 0；md5 **61cdb055317d639163e3c12f1d4036c1**
+- index.html → 10-16 今天第一版
+- cursor: @elonmusk 2110947253175328921 → @oran_ge **2111007063812002270**（2026-10-16T08:11:19Z）
+- chat_line: `10/16 第一版：正文20 / 拿不准18 / 已过滤126。https://t512192641.github.io/x-following/2026-10-16.html`
+- chat_delivery: pending_parent
+- public tip: PENDING_TIP
+- next: 2026-10-16 08:00 ET
 - escalate: no
