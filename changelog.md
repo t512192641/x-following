@@ -9415,7 +9415,76 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 10-16 8:00 版: **38/24/206**（04 版 20/18/126 + 本窗 18 新卡 + 2 帖并入既有卡〔Touch Bar、Claude KYC〕/ 6 / 80）；QA pass clippedBtns 0；md5 **053dcfb86088f37d9c0a050261f0d6fb**
 - cursor: @oran_ge 2111007063812002270 → @derrickcchoi **2111066949946151387**（2026-10-16T12:09:17Z）
 - chat_line: `10/16 08:00 版：正文38 / 拿不准24 / 已过滤206。https://t512192641.github.io/x-following/2026-10-16.html`
-- chat_delivery: pending_parent
-- public tip: **6d271a7**（page+cursor+changelog；首轮 live 旧 → 脚本 resync 后 PASS）→ index→today + changelog（见 08-meta）
+- chat_delivery: delivered ✅ ~20:38 CST 10-16（WakeParent）
+- public tip: **111d338**（page+cursor+changelog；首轮 live 旧）→ **6d271a7**（resync）→ **077b52f**（index→today + changelog）；live root==days==index==local md5 053dcfb8 PASS；live cursor.json PASS
 - next: 2026-10-16 12:00 ET
 - escalate: no
+
+## 2026-10-16 08:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~08:33 ET；sched 08:25 late ~8min；record ~2026-10-16 20:35 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 1：08 in_progress，publish 已退出 idle <15min，not stalled）
+- 08 main c3a32b9b **in_progress** 收尾：page 10-16 **38/24/206** md5 **053dcfb8** root==days==live PASS；tip **6d271a7**；cursor @derrickcchoi **2111066949946151387**；chat pending_parent；claim 未 complete / 无 08-meta；live index 仍 61cdb055（主窗负责 index→today）
+- CDP :9226 idle Home/X **not stolen**；login_ok true+cookies
+- lists: Oct15 done by x-4；Oct16 未到期；08:10 deferred_to_main；next **12:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/08-25-health.md`
+
+## 2026-10-16 08:45 ET · reply_parent_dup 追加第 4 判据 url_only_orig_thread_long（幕僚长批准）
+
+- 改动：`tools/overlay_resume.py`：时间线原文仅链接 + 线程页（art_count≥2）+ 补回正文规范化后 ≥40 字且 ≥3 倍原文 → 不采纳、保留时间线原文，记 `reply_parent_dup`（reason=url_only_orig_thread_long，同 jsonl/stats/meta）。depollute 不变。备份 `tools/overlay_resume.py.bak-pre-urlthread`。
+- 回放（pre-depollute 临时副本，--merge-only）：10/15 20 → 16（parent_text_match 11 / prefix_mismatch_thread 4 / url_only_orig_no_link 1）；10/16 04 → 8（parent_text_match 5 / prefix_mismatch_thread 3）；10/16 08 → 1（url_only_orig_thread_long 1 = @gkxspace 2111045725861916824，已回退原文）。新判据无疑似误杀。py_compile OK；test_overlay_id_gate PASS。
+
+## 2026-10-16 09:25 ET · x-3 健康检查（~09:26 ET 准点）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 08 main **complete** 38/24/206 md5 **053dcfb8** root==days==index==live PASS；cursor @derrickcchoi **2111066949946151387**；chat ✅ ~20:38 CST
+- CDP :9226 idle Home/X **not stolen**；login_ok true+cookies
+- lists: Oct15 done；Oct16 x-4（09:23 ET）宽限内未判 overdue，10:25 复核；next **12:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/09-25-health.md`
+
+## 2026-10-16 10:25 ET · x-3 健康检查（~10:26 ET 准点）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 08 main **complete** 38/24/206 md5 **053dcfb8** root==days==index==live PASS；cursor @derrickcchoi **2111066949946151387**；chat ✅ ~20:38 CST
+- CDP :9226 idle Home/X **not stolen**；login_ok true+cookies
+- lists: Oct15 done；Oct16 **done by x-4**（09:34 ET；155/@yiren_ai；书签 175 未变）不补跑；next **12:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/10-25-health.md`
+
+## 2026-10-16 11:25 ET · x-3 健康检查（~11:28 ET late ~3min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 08 main **complete** 38/24/206 md5 **053dcfb8** root==days==index==live PASS；cursor @derrickcchoi **2111066949946151387**；chat ✅ ~20:38 CST
+- CDP :9226 idle Home/X **not stolen**（sand-playwright orphan :9226 挂着；不抢不重启）；login_ok true+cookies
+- lists: Oct15+Oct16 done by x-4（不补跑）；next **12:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/11-25-health.md`
+
+## 2026-10-16 12:10 ET · 补抓
+
+- automation: **cdf0cd43**（fired ~12:16 ET；sched 12:10 late ~6min；record ~2026-10-17 00:17 CST）
+- status: **deferred_to_main** — 12 main c3a32b9b in_progress full_main（当天页 10-16 更新）
+- scrape 齐：DOM **42** / HTL **143** / union **146**；gap≈**0.55** min closed；login_ok true
+- overlay ~[75/146] pid 219974 alive；watchdog exit 0 not stalled
+- cursor still @derrickcchoi **2111066949946151387**；未重抓/不抢 CDP/不写页/不发 chat
+- escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/12-10-catchup.md`
+
+## 2026-10-16 12:25 ET · x-3 健康检查（~12:27 ET late ~2min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 1；12 in_progress not stalled）
+- **12:00 in_progress**（c3a32b9b full_main；union146 gap0.55 closed；overlay 146/146；depollute 0；classify 中）交主窗；CDP :9226 主窗使用中不抢
+- prior 08 complete 38/24/206 md5 053dcfb8 live PASS；cursor @derrickcchoi 2111066949946151387
+- lists: Oct16 done by x-4（不补跑）；无 AUTH_FAIL/重复/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/12-25-health.md`
+
+## 2026-10-16 12:00 ET · 主窗（c3a32b9b，~12:08 ET late ~8min）
+
+- scrape：同会话 HomeLatestTimeline **143** HIT CURSOR + DOM Following→Latest **42**（CDP :9226 直连；无官方/付费 X API）→ union **146**；gap 0.55min；gap_open false
+- overlay：idgate PASS；accept 106/146 = 72.6%（completed）；reject_href 24；reply_parent_dup **16**（parent_text_match 9 / prefix_mismatch_thread 7）；depollute restored 0
+- classify：heur 66/3/77 → manual 37 overrides → 窗类 正文 **36** / 拿不准 **14** / 已过滤 **96**；miss 0（同文转帖 PE 医疗计费/Photon 2.0/AIPOCH 无增量 → 已过滤）
+- page 2026-10-16 12:00 版：正文 **64** / 拿不准 **38** / 已过滤 **302**（08 版 38/24/206 + 26 新卡 / 14 / 96）；QA pass clippedBtns 0（raw/2026-10-16/12-qa.png）
+- cursor：@derrickcchoi 2111066949946151387 → @yucheng **2111127135138062830**
+- chat_delivery: pending_parent

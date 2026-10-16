@@ -66,6 +66,7 @@
      a. 与父帖候选（`extract.parent_text`，及同窗其他帖的 HTL/DOM 原文）相同、互相包含（≥12 字）或 difflib ratio≥0.9 → `parent_text_match`；
      b. 线程页（art_count≥2），时间线原文（去链接、去开头 @提及）非空，而补回正文不以原文前 25 字开头也不包含它 → `prefix_mismatch_thread`（原文与补回文字体系不同＝X 自动翻译，跳过）；
      c. 线程页，时间线原文只有链接，补回正文无任何链接、页面也无可见链接/卡片 → `url_only_orig_no_link`。
+     d. 线程页，时间线原文只有链接，补回正文规范化后 ≥40 字且 ≥3 倍原文 → `url_only_orig_thread_long`（2026-10-16 幕僚长批准追加；10/16 08 窗 @gkxspace 2111045725861916824 漏网后）。
      补回正文≈自己的时间线原文时一律采纳。
   2. 命中 → **不采纳**，保留 HTL/DOM 时间线原文（HH.jsonl 同步回退），行标 `overlay_reject=reply_parent_dup`（不再进 CDP 重抓候选）；命中清单写 `raw/<date>/<HH>-reply-parent-dup.jsonl`（跨重跑去重）、`<HH>-overlay-stats.json`（`reply_parent_dup` / `_items`），并在 `<HH>-meta.md` 存在时写 `- reply_parent_dup: N [status_id @handle (reason); …]`；收口写 meta 时必须带这一行（0 也写）。
   3. depollute（`_depolluteHH.py` 及 reply-parent 补丁）**保留不变**，作兜底。
