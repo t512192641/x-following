@@ -9215,5 +9215,5 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 10-15: 正文 **98** / 拿不准 **59** / 已过滤 **444**（74/53/363 + 本窗 16 卡 + rec 4 + ideas 4 / 6 / 81）；Every 卡补 Argon 改稿 + Codex 写回 Google Docs
 - QA pass clippedBtns 0 missing_target_blank 0（20-qa.png）
 - cursor → @MaiYangAI 2110886019063271481
-- publish: md5 **3831d095** — tip pending
+- publish: md5 **3831d095** root==days==site==live（root/days/index）PASS；public tip **daa6e1c**（page+changelog+cursor）→ **3fd7a83**（index）
 - chat_delivery: pending_parent
