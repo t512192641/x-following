@@ -9359,6 +9359,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @elonmusk 2110947253175328921 → @oran_ge **2111007063812002270**（2026-10-16T08:11:19Z）
 - chat_line: `10/16 第一版：正文20 / 拿不准18 / 已过滤126。https://t512192641.github.io/x-following/2026-10-16.html`
 - chat_delivery: pending_parent
-- public tip: PENDING_TIP
+- public tip: **9af2466**（page+cursor+changelog）→ index→today（见下一提交）
 - next: 2026-10-16 08:00 ET
 - escalate: no
