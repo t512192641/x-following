@@ -9486,5 +9486,52 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - overlay：idgate PASS；accept 106/146 = 72.6%（completed）；reject_href 24；reply_parent_dup **16**（parent_text_match 9 / prefix_mismatch_thread 7）；depollute restored 0
 - classify：heur 66/3/77 → manual 37 overrides → 窗类 正文 **36** / 拿不准 **14** / 已过滤 **96**；miss 0（同文转帖 PE 医疗计费/Photon 2.0/AIPOCH 无增量 → 已过滤）
 - page 2026-10-16 12:00 版：正文 **64** / 拿不准 **38** / 已过滤 **302**（08 版 38/24/206 + 26 新卡 / 14 / 96）；QA pass clippedBtns 0（raw/2026-10-16/12-qa.png）
+- publish：md5 eb4aff84 root==days==site==live；tip 69be45e→be58a0b（resync）→c694f57（index→today）
 - cursor：@derrickcchoi 2111066949946151387 → @yucheng **2111127135138062830**
+- chat_delivery: delivered ✅
+
+## 2026-10-16 13:25 ET · x-3 健康检查（~13:26 ET late ~1min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 12 main **complete** 64/38/302 md5 **eb4aff84** root==days==live PASS（curl 复核）；cursor @yucheng **2111127135138062830**；chat ✅ ~00:35 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑）；next **16:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/13-25-health.md`
+
+## 2026-10-16 14:25 ET · x-3 健康检查（~14:28 ET late ~3min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 12 main **complete** 64/38/302 md5 **eb4aff84** root==days==live PASS（curl 复核）；cursor @yucheng **2111127135138062830**；chat ✅ ~00:35 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑）；next **16:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/14-25-health.md`
+
+## 2026-10-16 15:25 ET · x-3 健康检查（~15:29 ET late ~4min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 12 main **complete** 64/38/302 md5 **eb4aff84** root==days==live PASS（curl 复核）；cursor @yucheng **2111127135138062830**；chat ✅ ~00:35 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑）；next **16:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/15-25-health.md`
+
+## 2026-10-16 16:10 ET · 补抓
+
+- automation: **cdf0cd43**（fired ~16:14 ET；sched 16:10 late ~5min；record ~2026-10-17 04:17 CST）
+- status: **deferred_to_main** — 16 main c3a32b9b in_progress full_main（当天页 10-16 更新）
+- HTL 已完成：HIT CURSOR 2111127135138062830；raw_store 98 / FINAL 84；login_ok；DOM 抓取进行中
+- watchdog exit 0 not stalled；cursor still @yucheng **2111127135138062830**；未重抓/不抢 CDP/不写页/不发 chat
+- escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/16-10-catchup.md`
+
+## 2026-10-16 16:00 ET · 主窗（c3a32b9b，~16:13 ET late ~13min）
+
+- scrape：同会话 HomeLatestTimeline **84** HIT CURSOR + DOM Following→Latest **13**（CDP :9226 直连；无官方/付费 X API）→ union **89**；gap 4.3min；gap_open false
+- overlay：idgate PASS；accept 45/89 = 50.6%（completed）；reject_href 36；reply_parent_dup **8**（prefix_mismatch_thread 6 / parent_text_match 2）；timeouts 0
+- depollute：≥2 同文 0；人工补丁 restored **1**（levelsio 引用帖 2111183619490463815 被补成被引长帖 2111142856094265595 的中文自动译文 → 回退 HTL 原文，`_depollute16_quoteparent.py`）
+- classify：heur 30/2/57 → manual 18 overrides → 窗类 正文 **26** / 拿不准 **7** / 已过滤 **56**；miss 0（alex_prompter 20 年老软件公司同文转帖已在当天卡 → 已过滤）
+- page 2026-10-16 16:00 版：正文 **79** / 拿不准 **45** / 已过滤 **358**（12 版 64/38/302 + 15 新卡 + 2 帖并入既有卡〔宝玉 handwired、𝕏 Subscription〕/ 7 / 56）；QA pass clippedBtns 0（raw/2026-10-16/16-qa.png）
+- cursor：@yucheng 2111127135138062830 → @paulg **2111188434668646827**（2026-10-16T20:12:01Z）
 - chat_delivery: pending_parent
