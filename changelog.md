@@ -9277,3 +9277,22 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct15 done by x-4；Oct16 未到期
 - 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-16/00-25-health.md`
+
+## 2026-10-16 00:00 ET · 主窗 full_main
+
+- status: **complete**
+- claimed_by: c3a32b9b-207d-5bf2-a873-596764705a47
+- fire: 2026-10-16T04:11:20Z ≈ 00:11 ET（sched 00:00 late ~11min）
+- mode: full_main（交昨天完整版；薄种子今天；不并 rec/ideas）
+- scrape: HTL **224** HIT CURSOR / DOM **57** / union **236**；gap **3.0** min；gap_open false
+- overlay_fill_rate: 118/236 = 50.0%（stop_reason=budget_exhausted(20.0min)；attempted=161；干净停止）
+- depollute restored **19**（≥2 同文 14 + reply-parent 5）
+- classify window: 正文 **34** / 拿不准 **5** / 已过滤 **197**；miss **0**；pre 31/5/180；after 3/0/17
+- page_yday 2026-10-15: **114/64/624** md5 **e90ba7a8** live PASS
+- thin_seed 2026-10-16: **3/0/17** md5 **4a799773** live PASS
+- index → 10-15 完整页
+- new_cursor: @elonmusk **2110947253175328921** 2026-10-16T04:13:39.000Z
+- chat_line: `10/15 完整版：正文114 / 拿不准64 / 已过滤624。https://t512192641.github.io/x-following/2026-10-15.html`
+- chat_delivery: **pending_parent**
+- next: 2026-10-16 04:00 ET
+- escalate: no
