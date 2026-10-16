@@ -9416,6 +9416,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @oran_ge 2111007063812002270 → @derrickcchoi **2111066949946151387**（2026-10-16T12:09:17Z）
 - chat_line: `10/16 08:00 版：正文38 / 拿不准24 / 已过滤206。https://t512192641.github.io/x-following/2026-10-16.html`
 - chat_delivery: pending_parent
-- public tip: (pending)
+- public tip: **6d271a7**（page+cursor+changelog；首轮 live 旧 → 脚本 resync 后 PASS）→ index→today + changelog（见 08-meta）
 - next: 2026-10-16 12:00 ET
 - escalate: no
