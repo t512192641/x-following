@@ -9358,7 +9358,64 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - index.html → 10-16 今天第一版
 - cursor: @elonmusk 2110947253175328921 → @oran_ge **2111007063812002270**（2026-10-16T08:11:19Z）
 - chat_line: `10/16 第一版：正文20 / 拿不准18 / 已过滤126。https://t512192641.github.io/x-following/2026-10-16.html`
-- chat_delivery: pending_parent
-- public tip: **9af2466**（page+cursor+changelog）→ index→today（见下一提交）
+- chat_delivery: delivered ✅ ~16:38 CST 10-16（WakeParent）
+- public tip: **9af2466**（page+cursor+changelog）→ **b5a122b**（index→today）；live root==days==index==local md5 61cdb055 PASS；live cursor.json PASS
 - next: 2026-10-16 08:00 ET
+- escalate: no
+
+## 2026-10-16 05:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~05:29 ET；sched 05:25 late ~4min；record ~2026-10-16 17:30 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 最近完成 **04:00** 10-16 第一版 **20/18/126** md5 **61cdb055** root==days==index==live PASS；live cursor.json PASS；chat ✅ ~16:38 CST
+- cursor @oran_ge **2111007063812002270**
+- CDP :9226 idle x.com/home **not stolen**；login_ok true+cookies
+- lists: Oct15 done by x-4；Oct16 未到期；next **08:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/05-25-health.md`
+
+## 2026-10-16 06:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~06:31 ET；sched 06:25 late ~6min；record ~2026-10-16 18:32 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 最近完成 **04:00** 10-16 第一版 **20/18/126** md5 **61cdb055** root==days==index==live PASS；live cursor.json PASS；chat ✅ ~16:38 CST
+- cursor @oran_ge **2111007063812002270**
+- CDP :9226 idle x.com/home **not stolen**；login_ok true+cookies
+- lists: Oct15 done by x-4；Oct16 未到期；next **08:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/06-25-health.md`
+
+## 2026-10-16 07:25 ET · 健康检查 quiet_ok
+
+- automation: **960034de** x-3（fired ~07:25 ET；sched 07:25 准点；record ~2026-10-16 19:26 CST）
+- quiet_ok: **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 最近完成 **04:00** 10-16 第一版 **20/18/126** md5 **61cdb055** root==days==live PASS；live cursor.json PASS；chat ✅ ~16:38 CST
+- cursor @oran_ge **2111007063812002270**
+- CDP :9226 idle x.com/home **not stolen**；login_ok true+cookies
+- lists: Oct15 done by x-4；Oct16 未到期；next **08:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/07-25-health.md`
+
+## 2026-10-16 07:36 ET · overlay 验收加 reply_parent_dup（幕僚长拍板）
+
+- 改动：`tools/overlay_resume.py` 采纳补全文前检查回复帖补回正文是否为线程父帖/邻居帖正文（规范化后相同/包含/ratio≥0.9；线程页前缀不符；原文仅链接而补回无链接）→ 不采纳、保留时间线原文，记 `reply_parent_dup`（meta 行 + `<HH>-reply-parent-dup.jsonl` + overlay-stats）。开头回扫已采纳行（含 pass1 合并的）。depollute 保留兜底。
+- 测试：10/15 20 窗 pre-depollute 副本离线 `--merge-only` → 5 条串文（2110877476197224838 @berryxia、2110876708765331699 / 2110876571938775478 / 2110868102582018452 @gkxspace、2110865824278016116 @FactoryAI）全部回退原文；另拦 10 条已知串文 + 1 条可疑（2110864861119045840 @thsottiaux「Bonjour」）；正常 64/75 采纳。10/16 04 窗离线另拦 8 条（depollute 只抓到其中 1 条）。py_compile OK；test_overlay_id_gate PASS。
+- 备份：`tools/overlay_resume.py.bak-pre-replydup`；playbook overlay 节已写规则。下一窗（08:00 ET）回报命中数。
+- [x] 2026-10-16 08:10 ET 补抓（~08:17 ET，late ~7min）：deferred_to_main；08:00 主窗 c3a32b9b in_progress full_main（当天页 10-16 更新）；DOM40/HTL112 union114 gap1.7min closed hit_cursor login_ok true；overlay ~59/114 alive；watchdog 0 not stalled；cursor 仍 @oran_ge 2111007063812002270（主窗收尾更新）；未重抓不抢 CDP 不走付费 X API；escalate **no**；stay_quiet。  2026-10-16 20:16 CST
+
+## 2026-10-16 08:00 ET · 主窗
+
+- status: **complete**
+- automation: **c3a32b9b**（fired 2026-10-16T12:06:44Z ≈ 08:06 ET；sched 08:00 late ~7min）；mode full_main（当天页更新；不并 rec/ideas）
+- scrape: HTL **112** HIT CURSOR（tweet-2111007063812002270）+ DOM **40**（hit true）→ union **114**；gap **1.7** min；gap_open false；无官方/付费 X API
+- overlay **75/114 = 65.8%**（completed；reject_href 26；timeouts 0；splash 0；CDP 还回 x.com/home）
+- reply_parent_dup（新规则首个主窗）: **13** 拦截（parent_text_match 8 / prefix_mismatch_thread 4 / url_only_orig_no_link 1）
+- depollute restored **1**（≥2 同文 0；reply-parent 漏网 1：gkxspace 2111045725861916824 仅链接回复被补成 04 窗父帖「大家一定要想尽办法用上 Claude…」，手工回退 HTL 原文 `_depollute08_replyparent.py`）
+- classify: 窗类 正文 **28** / 拿不准 **6** / 已过滤 **80**；miss 0（32 overrides；08-class-manual.md）
+- page 10-16 8:00 版: **38/24/206**（04 版 20/18/126 + 本窗 18 新卡 + 2 帖并入既有卡〔Touch Bar、Claude KYC〕/ 6 / 80）；QA pass clippedBtns 0；md5 **053dcfb86088f37d9c0a050261f0d6fb**
+- cursor: @oran_ge 2111007063812002270 → @derrickcchoi **2111066949946151387**（2026-10-16T12:09:17Z）
+- chat_line: `10/16 08:00 版：正文38 / 拿不准24 / 已过滤206。https://t512192641.github.io/x-following/2026-10-16.html`
+- chat_delivery: pending_parent
+- public tip: (pending)
+- next: 2026-10-16 12:00 ET
 - escalate: no
