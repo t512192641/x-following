@@ -9119,4 +9119,101 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - QA pass clippedBtns 0（16-qa.png）
 - cursor → @MatthewBerman 2110825952804806999
 - publish: md5 **ee1e3ddf** root==days==site==live（root/days/index）PASS；public tip **6aa3002** → **4225ff8**（index）
-- chat_delivery: pending_parent（WakeParent）
+- chat_delivery: delivered ✅ ~04:34 CST 10-16（WakeParent）（WakeParent）
+
+## 2026-10-15 16:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~16:34 ET；sched 16:25 late ~9min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home **not stolen**
+- watchdog: exit 0（checked 0）
+- login_ok: true（chrome-profile auth_token+ct0+twid + Home tab）
+- 16 main c3a32b9b: **complete**；page 10-15 **74/53/363** md5 **ee1e3ddf** local==site==live root/days PASS（re-verified）
+- chat ✅ ~04:34 CST；cursor @MatthewBerman **2110825952804806999**（== cursor.md==cursor.json==16-meta）
+- lists: Oct15 **done by x-4** 09:23 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑；Oct16 未到期
+- next main **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/16-25-health.md`
+- recorded: 2026-10-16 04:35 CST
+
+## 2026-10-15 17:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~17:31 ET；sched 17:25 late ~6min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home **not stolen**
+- watchdog: exit 0（checked 0）
+- login_ok: true（chrome-profile auth_token+ct0+twid + Home tab）
+- 16 main c3a32b9b: **complete**；page 10-15 **74/53/363** md5 **ee1e3ddf** local==live root/days PASS（re-verified）
+- chat ✅ ~04:34 CST；cursor @MatthewBerman **2110825952804806999**
+- lists: Oct15 **done by x-4**（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑；Oct16 未到期
+- next main **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/17-25-health.md`
+- recorded: 2026-10-16 05:33 CST
+
+## 2026-10-15 18:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~18:26 ET；sched 18:25 late ~1min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home **not stolen**
+- watchdog: exit 0（checked 0）
+- login_ok: true（chrome-profile auth_token+ct0+twid + Home tab）
+- 16 main c3a32b9b: **complete**；page 10-15 **74/53/363** md5 **ee1e3ddf** local==site==live root/days/index PASS（re-verified）
+- chat ✅ ~04:34 CST；cursor @MatthewBerman **2110825952804806999**（== cursor.md==cursor.json==16-meta）
+- lists: Oct15 **done by x-4** 09:29 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑；Oct16 未到期
+- next main **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/18-25-health.md`
+- recorded: 2026-10-16 06:29 CST
+
+## 2026-10-15 19:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~19:30 ET；sched 19:25 late ~5min）
+- quiet_ok: **true**；cdp9226 ok (already up)；CDP :9226 idle x.com/home **not stolen**
+- watchdog: exit 0（checked 0）
+- login_ok: true（CDP auth_token+ct0+twid + Home tab articles 4）
+- 16 main c3a32b9b: **complete**；page 10-15 **74/53/363** md5 **ee1e3ddf** local==site==live root/days/index PASS（re-verified）
+- chat ✅ ~04:34 CST；cursor @MatthewBerman **2110825952804806999**（== cursor.md==cursor.json==16-meta）
+- lists: Oct15 **done by x-4** 09:29 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑；Oct16 未到期
+- next main **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/19-25-health.md`
+- recorded: 2026-10-16 07:32 CST
+
+## 2026-10-15 20:10 ET · 补抓
+
+- status: **deferred_to_main**
+- fire: sched 20:10；平台 fire 2026-10-16T00:15:18Z ≈20:15 ET（late ~5min）
+- waited_main: no（20-claim 已 in_progress）
+- main: c3a32b9b full_main 今天续窗 + 并 rec/ideas；fire ≈20:08 ET late ~8min；union110（DOM29/HTL104）gap 5.47min closed；phase overlay mid ~45/110
+- cursor: still @MatthewBerman **2110825952804806999**（主窗未推进）
+- prior 16: complete **74/53/363** md5 **ee1e3ddf** live PASS；chat ✅
+- rec/ideas 已到（grok-ops 07:32 CST），交主窗并入
+- 未重抓、不抢 CDP、不写页、不发 chat；无 gap_open；不升幕僚长
+- evidence: `raw/2026-10-15/20-10-catchup.md`
+- recorded: 2026-10-16 08:16 CST
+
+## 2026-10-15 20:25 ET · 健康检查
+
+- automation: **960034de** x-3（fired ~20:34 ET；sched 20:25 late ~9min）
+- quiet_ok: **true**；cdp9226 ok (already up)；主窗占用中，CDP 不抢不探
+- watchdog: exit 0（checked 1；20 in_progress idle 0.1min not stalled）
+- 20 main c3a32b9b: **in_progress**（本地页 08:34 CST 重建中，未发布）；live 仍 16 页 74/53/363 md5 ee1e3ddf PASS
+- cursor @MatthewBerman **2110825952804806999**（主窗未推进）
+- lists: Oct15 done by x-4；未补跑；Oct16 未到期
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 缺口；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-15/20-25-health.md`
+- recorded: 2026-10-16 08:36 CST
+
+## 2026-10-15 20:00 ET · 主窗（c3a32b9b）
+
+- fire 2026-10-16T00:08:01Z ≈ 20:08 ET（sched 20:00 late ~8min）；mode full_main 今天续窗 + 并 recommended/ideas
+- scrape: HTL 104 HIT CURSOR + DOM 29（hit false，saw_older true）→ union **110**；gap 5.47min closed；oldest_new @Austen 2110827328536547519 20:17:07Z；newest @MaiYangAI 2110886019063271481 2026-10-16T00:10:19Z（=20:10 ET，未跨 0 点）
+- overlay_fill_rate: 80/110 = 72.7%（completed；attempted 110；reject_href 30 保留 HTL/DOM 原文；timeouts 0 splash 0）；test_overlay_id_gate PASS
+- depollute restored **16**：11（同文≥2 指纹 + 《大分发时代》书链回帖串文）+ **5 reply-parent**（**记录型异常**：ID 验收通过但 overlay 抽到线程父帖正文写进回复：gkxspace×3 / FactoryAI / berryxia → 回退 HTL/DOM；`_depollute20_reply.py`）
+- classify: 正文23 / 拿不准6 / 已过滤81 miss0（34 overrides；20-class-manual.md）
+- rec_ideas: **merged** rec_new=4 rec_merged_into=5 ideas_n=4（recommended `# 2026-10-15` / ideas sourceDate 2026-10-16；均首次并入；data-rec-source / data-ideas-source 标记）
+  - 补进原卡：Muse Spark Open（Meta 博文）/ Nemotron 3.5 Super VL（Factory 新卡 + NVIDIA 博文）/ METR 驻厂（yanhua 新卡 + Anthropic）/ Grok Voice 3.0（接待员卡 + xAI）/ rea（awesome-rea 卡 + GitHub）
+  - 新卡：Rosalind Academic Plan / GPT-Live-1.1（原帖 · OpenAI）/ Anthropic Fellowship（原帖 · AnthropicAI）/ SynthID；脑洞 4（新组「脑洞」）
+- page 10-15: 正文 **98** / 拿不准 **59** / 已过滤 **444**（74/53/363 + 本窗 16 卡 + rec 4 + ideas 4 / 6 / 81）；Every 卡补 Argon 改稿 + Codex 写回 Google Docs
+- QA pass clippedBtns 0 missing_target_blank 0（20-qa.png）
+- cursor → @MaiYangAI 2110886019063271481
+- publish: md5 **3831d095** — tip pending
+- chat_delivery: pending_parent
