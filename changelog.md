@@ -9640,4 +9640,39 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-17 00:00 ET 主窗
 
-- [x] 2026-10-17 00:00 ET 主窗 **complete**（c3a32b9b full_main 交 10-16 完整版 + 10-17 薄种子；fire 04:08:31Z ≈ 00:08 ET late ~8min）：HTL131 HIT CURSOR（raw_store 176）/ DOM47 → union **133** gap **3.97min** closed；CUTOFF 04:00Z pre 128 / after 5；overlay 86/133=64.7% completed，reply_parent_dup 10；depollute restored 0（前缀扫描 suspects 0）；窗类 正文 **23** / 拿不准 **12** / 已过滤 **98** miss 0（37 overrides；indie_maker_fox 转帖已上页内容→已过滤）；page 10-16 **117/64/496**（15 新卡 + 5 帖补进原卡）；thin 10-17 0/0/5；QA pass clippedBtns 0（raw/2026-10-17/00-qa.png）；tip bd76a15（10-16 md5 **612a9c83** live PASS）→ 17a3845（10-17 薄种子 md5 77ba1c54 live PASS）→ index→10-16；cursor @bearliu 2111248332852990464 → **@430Yang 2111308184040120629**（2026-10-17T04:07:51Z）；chat pending_parent（WakeParent）；next 2026-10-17 04:00 ET（今天第一版）。
+- [x] 2026-10-17 00:00 ET 主窗 **complete**（c3a32b9b full_main 交 10-16 完整版 + 10-17 薄种子；fire 04:08:31Z ≈ 00:08 ET late ~8min）：HTL131 HIT CURSOR（raw_store 176）/ DOM47 → union **133** gap **3.97min** closed；CUTOFF 04:00Z pre 128 / after 5；overlay 86/133=64.7% completed，reply_parent_dup 10；depollute restored 0（前缀扫描 suspects 0）；窗类 正文 **23** / 拿不准 **12** / 已过滤 **98** miss 0（37 overrides；indie_maker_fox 转帖已上页内容→已过滤）；page 10-16 **117/64/496**（15 新卡 + 5 帖补进原卡）；thin 10-17 0/0/5；QA pass clippedBtns 0（raw/2026-10-17/00-qa.png）；tip bd76a15（10-16 md5 **612a9c83** live PASS）→ 17a3845（10-17 薄种子 md5 77ba1c54 live PASS）→ index→10-16；cursor @bearliu 2111248332852990464 → **@430Yang 2111308184040120629**（2026-10-17T04:07:51Z）；chat ✅ ~12:37 CST（WakeParent）；next 2026-10-17 04:00 ET（今天第一版）。
+
+## 2026-10-17 01:25 ET · x-3 健康检查（~01:30 ET late ~5min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 00 main **complete** 10-16 **117/64/496** md5 **612a9c83** root==index==days==live PASS（curl 复核）；thin 10-17 77ba1c54 live PASS；cursor @430Yang **2111308184040120629**；chat ✅ ~12:37 CST（已改标 00 主窗行）
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑），Oct17 未到期；next **04:00 ET**（今天第一版）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-17/01-25-health.md`
+
+## 2026-10-17 02:25 ET · x-3 健康检查（~02:31 ET late ~6min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 00 main **complete** 10-16 **117/64/496** md5 **612a9c83** root==index==days==live PASS（curl 复核）；thin 10-17 77ba1c54 live PASS；cursor @430Yang **2111308184040120629**；chat ✅ ~12:37 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑），Oct17 未到期；next **04:00 ET**（今天第一版）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-17/02-25-health.md`
+
+## 2026-10-17 03:25 ET · x-3 健康检查（~03:27 ET late ~2min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 00 main **complete** 10-16 **117/64/496** md5 **612a9c83** root==index==days==live PASS（curl 复核）；thin 10-17 77ba1c54 live PASS；cursor @430Yang **2111308184040120629**；chat ✅ ~12:37 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑），Oct17 未到期；next **04:00 ET**（今天第一版）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-17/03-25-health.md`
+
+## 2026-10-17 04:10 ET 补抓
+
+- [x] 2026-10-17 04:10 ET 补抓（~04:18 ET late ~9min）：deferred_to_main；04 主窗 c3a32b9b in_progress（今天 10-17 第一版；union113 HTL112/DOM43 gap6.95 closed hit_cursor login_ok；overlay ~62/113 alive）；watchdog 0 not stalled；cursor 仍 @430Yang 2111308184040120629；不重抓不抢 CDP；escalate no；stay_quiet；evidence raw/2026-10-17/04-10-catchup.md  2026-10-17 16:19 CST
+
+## 2026-10-17 04:00 ET 主窗
+
+- [x] 2026-10-17 04:00 ET 主窗 **complete**（c3a32b9b main 今天第一版；fire 08:09:52Z ≈ 04:09 ET late ~10min）：HTL112 HIT CURSOR（raw_store 179）/ DOM43 → union **113** gap **6.95min** closed；overlay 77/113=68.1% completed，reply_parent_dup 12；depollute restored 1（@gengdaJ 255577 回复帖串父帖文回退）；窗类 正文 **19** / 拿不准 **9** / 已过滤 **85** miss 0（21 overrides）；page 10-17 第一版 **15/9/90**（薄种子 0/0/5 + 15 卡 / 9 / 85）；QA pass clippedBtns 0（raw/2026-10-17/04-qa.png）；修正 1 处 `&amp;amp;` 双重转义；cursor @430Yang 2111308184040120629 → **@indie_maker_fox 2111369372828827738**（2026-10-17T08:11:00Z）；chat pending_parent；next 2026-10-17 08:00 ET。
