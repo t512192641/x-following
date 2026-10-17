@@ -9637,3 +9637,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 x.com/home 未抢；lists: Oct16 done by x-4（不补跑），Oct17 未到期
 - 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-17/00-25-health.md`
+
+## 2026-10-17 00:00 ET 主窗
+
+- [x] 2026-10-17 00:00 ET 主窗 **complete**（c3a32b9b full_main 交 10-16 完整版 + 10-17 薄种子；fire 04:08:31Z ≈ 00:08 ET late ~8min）：HTL131 HIT CURSOR（raw_store 176）/ DOM47 → union **133** gap **3.97min** closed；CUTOFF 04:00Z pre 128 / after 5；overlay 86/133=64.7% completed，reply_parent_dup 10；depollute restored 0（前缀扫描 suspects 0）；窗类 正文 **23** / 拿不准 **12** / 已过滤 **98** miss 0（37 overrides；indie_maker_fox 转帖已上页内容→已过滤）；page 10-16 **117/64/496**（15 新卡 + 5 帖补进原卡）；thin 10-17 0/0/5；QA pass clippedBtns 0（raw/2026-10-17/00-qa.png）；tip bd76a15（10-16 md5 **612a9c83** live PASS）→ 17a3845（10-17 薄种子 md5 77ba1c54 live PASS）→ index→10-16；cursor @bearliu 2111248332852990464 → **@430Yang 2111308184040120629**（2026-10-17T04:07:51Z）；chat pending_parent（WakeParent）；next 2026-10-17 04:00 ET（今天第一版）。
