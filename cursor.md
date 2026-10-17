@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @vista8
-- status_id: 2111488518577180866
-- url: https://x.com/vista8/status/2111488518577180866
-- time_utc: 2026-10-17T16:04:27.000Z
-- updated_window: 2026-10-17 12:00 ET
+- handle: @elonmusk
+- status_id: 2111551063870570853
+- url: https://x.com/elonmusk/status/2111551063870570853
+- time_utc: 2026-10-17T20:12:59.000Z
+- updated_window: 2026-10-17 16:00 ET

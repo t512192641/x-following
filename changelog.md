@@ -9727,4 +9727,28 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-17 12:00 ET 主窗
 
-- [x] 2026-10-17 12:00 ET 主窗 **complete**（c3a32b9b main 当天第三版；fire 16:05:01Z ≈ 12:05 ET late ~5min）：HTL119 HIT CURSOR（raw_store 212）/ DOM36 → union **121** gap **0.17min** closed；overlay 93/121=76.9% completed，reply_parent_dup 9，reject_href 19；depollute restored 0；窗类 正文 **22** / 拿不准 **7** / 已过滤 **92** miss 0（30 overrides）；page 10-17 第三版 **47/24/264**（11 新卡 + 6 帖并入原卡：DeepSeek 发布←宝玉详解、实测←Search API 接入/查资料挑错、ADLC←LimestoneHQ 软件工厂 2 帖、Marble Skill Taxonomy←5038★）；《大分发时代》摘录沿用 10-16 口径一律已过滤；QA pass clippedBtns 0（raw/2026-10-17/12-qa.png）；cursor @stark_nico99 2111430041657860563 → **@vista8 2111488518577180866**（2026-10-17T16:04:27Z）；chat pending_parent（WakeParent）；next 2026-10-17 16:00 ET。
+- [x] 2026-10-17 12:00 ET 主窗 **complete**（c3a32b9b main 当天第三版；fire 16:05:01Z ≈ 12:05 ET late ~5min）：HTL119 HIT CURSOR（raw_store 212）/ DOM36 → union **121** gap **0.17min** closed；overlay 93/121=76.9% completed，reply_parent_dup 9，reject_href 19；depollute restored 0；窗类 正文 **22** / 拿不准 **7** / 已过滤 **92** miss 0（30 overrides）；page 10-17 第三版 **47/24/264**（11 新卡 + 6 帖并入原卡：DeepSeek 发布←宝玉详解、实测←Search API 接入/查资料挑错、ADLC←LimestoneHQ 软件工厂 2 帖、Marble Skill Taxonomy←5038★）；《大分发时代》摘录沿用 10-16 口径一律已过滤；QA pass clippedBtns 0（raw/2026-10-17/12-qa.png）；cursor @stark_nico99 2111430041657860563 → **@vista8 2111488518577180866**（2026-10-17T16:04:27Z）；chat ✅ ~00:28 CST（WakeParent）（WakeParent）；next 2026-10-17 16:00 ET。
+
+## 2026-10-17 12:25 ET 健康检查
+
+- [x] 2026-10-17 12:25 ET 健康检查（~12:27 ET late ~2min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 1，12 in_progress idle 1.3min not stalled）；12 main **complete** 10-17 第三版 **47/24/264** md5 **b13c5272** root==days==live PASS；chat pending_parent（主窗交付中）；cursor @vista8 2111488518577180866；lists Oct17 **done**（无需补跑）；CDP :9226 idle x.com/home not stolen；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-17/12-25-health.md  2026-10-18 00:28 CST
+
+## 2026-10-17 13:25 ET 健康检查
+
+- [x] 2026-10-17 13:25 ET 健康检查（~13:28 ET late ~3min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；12 main **complete** 10-17 第三版 **47/24/264** md5 **b13c5272** root==days==live PASS；chat ✅ ~00:28 CST；cursor @vista8 2111488518577180866；lists Oct17 **done**（无需补跑）；CDP :9226 idle x.com/home not stolen；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-17/13-25-health.md  2026-10-18 01:30 CST
+
+## 2026-10-17 14:25 ET 健康检查
+
+- [x] 2026-10-17 14:25 ET 健康检查（~14:28 ET late ~3min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；12 main **complete** 10-17 第三版 **47/24/264** md5 **b13c5272** root==days==live PASS；chat ✅ ~00:28 CST；cursor @vista8 2111488518577180866；lists Oct17 **done**（无需补跑）；CDP :9226 idle x.com/home not stolen；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-17/14-25-health.md  2026-10-18 02:30 CST
+
+## 2026-10-17 15:25 ET 健康检查
+
+- [x] 2026-10-17 15:25 ET 健康检查（~15:27 ET late ~2min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；12 main **complete** 10-17 第三版 **47/24/264** md5 **b13c5272** root==days==live PASS；chat ✅ ~00:28 CST；cursor @vista8 2111488518577180866；lists Oct17 **done**（无需补跑）；CDP :9226 idle x.com/home not stolen；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-17/15-25-health.md  2026-10-18 03:27 CST
+
+## 2026-10-17 16:10 ET 补抓
+
+- [x] 2026-10-17 16:10 ET 补抓（~16:17 ET late ~8min）：deferred_to_main；16 主窗 c3a32b9b in_progress（今天 10-17 第四版；union68 HTL63/DOM18 gap5.3 closed hit_cursor login_ok；overlay ~63/68 alive）；watchdog 0 not stalled；cursor 仍 @vista8 2111488518577180866；不重抓不抢 CDP；escalate no；stay_quiet；evidence raw/2026-10-17/16-10-catchup.md  2026-10-18 04:19 CST
+
+## 2026-10-17 16:00 ET 主窗
+
+- [x] 2026-10-17 16:00 ET 主窗 **complete**（c3a32b9b main 当天第四版；fire 20:11:21Z ≈ 16:11 ET late ~11min）：HTL63 HIT CURSOR（raw_store 106）/ DOM18 → union **68** gap **5.3min** closed；overlay 40/68=58.8% completed，reply_parent_dup 13，reject_href 15；depollute restored 0；窗类 正文 **9** / 拿不准 **4** / 已过滤 **55** miss 0（17 overrides）；page 10-17 第四版 **52/28/319**（5 新卡：Every Agent Kate pass skill（2 帖）、Grok Bot 省额度 8 步、Qoder Qwen 3.8 Flash 限时免费、Vivix W1 视频定价、Grok Bot 浏览器插件；3 帖并入原卡：DeepSeek 发布←宝玉转 Harness 0.2.1-rc.1、实测←PPDeWuli 内部 swe bench / 刘小排 10 条）；QA pass clippedBtns 0（raw/2026-10-17/16-qa.png）；cursor @vista8 2111488518577180866 → **@elonmusk 2111551063870570853**（2026-10-17T20:12:59Z）；chat pending_parent（WakeParent）；next 2026-10-17 20:00 ET（含 rec/ideas 合并）。
