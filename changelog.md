@@ -9582,4 +9582,58 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-16 20:00 ET 主窗
 
-- [x] 2026-10-16 20:00 ET 主窗 **complete**（c3a32b9b full_main 当天页 20:00 版 + 并推荐/脑洞；fire 00:10:56Z ≈ 20:11 ET late ~11min）：HTL71 HIT CURSOR（raw_store 101）/ DOM21 → union **73** gap **5.55min** closed；overlay 49/73=67.1% completed，reply_parent_dup 1；depollute 人工 1（thsottiaux 回复帖 2111245052513259606 被补成父帖 Day 12 中文自动译文 → 回退 HTL）；窗类 正文 **21** / 拿不准 **7** / 已过滤 **45** miss 0；rec 2026-10-16 9 条（新卡 8 + 并入 Nemotron 卡 1）；ideas sourceDate 2026-10-16 重生成版 4 条中 2 条已上 10-15 页 → 只并新 2 条；page 10-16 **102/52/403**；QA pass clippedBtns 0（raw/2026-10-16/20-qa.png）；cursor @paulg 2111188434668646827 → **@bearliu 2111248332852990464**（2026-10-17T00:10:02Z）；chat pending_parent；next 2026-10-17 00:00 ET（交 10-16 完整版）。
+- [x] 2026-10-16 20:00 ET 主窗 **complete**（c3a32b9b full_main 当天页 20:00 版 + 并推荐/脑洞；fire 00:10:56Z ≈ 20:11 ET late ~11min）：HTL71 HIT CURSOR（raw_store 101）/ DOM21 → union **73** gap **5.55min** closed；overlay 49/73=67.1% completed，reply_parent_dup 1；depollute 人工 1（thsottiaux 回复帖 2111245052513259606 被补成父帖 Day 12 中文自动译文 → 回退 HTL）；窗类 正文 **21** / 拿不准 **7** / 已过滤 **45** miss 0；rec 2026-10-16 9 条（新卡 8 + 并入 Nemotron 卡 1）；ideas sourceDate 2026-10-16 重生成版 4 条中 2 条已上 10-15 页 → 只并新 2 条；page 10-16 **102/52/403**；QA pass clippedBtns 0（raw/2026-10-16/20-qa.png）；tip **3cb2322→8484c1c** md5 **ed423c02** live PASS（root==days==index==live）；cursor @paulg 2111188434668646827 → **@bearliu 2111248332852990464**（2026-10-17T00:10:02Z）；chat delivered ✅（WakeParent）；next 2026-10-17 00:00 ET（交 10-16 完整版）。
+
+
+## 2026-10-16 20:25 ET · x-3 健康检查（~20:33 ET late ~8min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 20 main **complete** 102/52/403 md5 **ed423c02** root==days==index==live PASS（curl 复核）；cursor @bearliu **2111248332852990464**；chat ✅ ~08:32 CST
+- CDP :9226 idle x.com/home **not stolen**；login_ok true（20-scrape-meta）
+- lists: Oct16 done by x-4（不补跑），Oct17 未到期；next **00:00 ET**（交 10-16 完整版）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/20-25-health.md`
+
+## 2026-10-16 21:25 ET · x-3 健康检查（~21:33 ET late ~8min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 20 main **complete** 102/52/403 md5 **ed423c02** root==days==index==live PASS（curl 复核）；cursor @bearliu **2111248332852990464**；chat ✅ ~08:32 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑），Oct17 未到期；next **00:00 ET**（交 10-16 完整版）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/21-25-health.md`
+
+## 2026-10-16 22:25 ET · x-3 健康检查（~22:33 ET late ~8min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 20 main **complete** 102/52/403 md5 **ed423c02** root==days==live PASS（curl 复核）；cursor @bearliu **2111248332852990464**；chat ✅ ~08:32 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑），Oct17 未到期；next **00:00 ET**（交 10-16 完整版）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/22-25-health.md`
+
+## 2026-10-16 23:25 ET · x-3 健康检查（~23:25 ET on time）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 20 main **complete** 102/52/403 md5 **ed423c02** root==days==live PASS（curl 复核）；cursor @bearliu **2111248332852990464**；chat ✅ ~08:32 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑），Oct17 未到期；next **00:00 ET**（交 10-16 完整版）
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/23-25-health.md`
+
+## 2026-10-17 00:10 ET · 补抓（~00:19 ET late ~9min）
+
+- **deferred_to_main**：00 主窗 c3a32b9b in_progress full_main（交 10-16 完整版 + 薄种子今天）
+- union **133**（HTL131/DOM47）hit_cursor gap **3.97min** closed；login_ok true；overlay 进行中
+- watchdog --check exit 0（checked 1，not stalled）；cursor 仍 @bearliu **2111248332852990464**
+- 未重抓、不抢 CDP、不走付费 X API；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-17/00-10-catchup.md`
+
+
+## 2026-10-17 00:25 ET · x-3 健康检查（~00:30 ET late ~5min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 1，00 in_progress idle 0.4min not stalled）
+- 00 main **in_progress**（c3a32b9b，classify 阶段）；20 main 10-16 102/52/403 live md5 **ed423c02** PASS；cursor @bearliu **2111248332852990464**
+- CDP :9226 x.com/home 未抢；lists: Oct16 done by x-4（不补跑），Oct17 未到期
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-17/00-25-health.md`
