@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @paulg
-- status_id: 2111188434668646827
-- url: https://x.com/paulg/status/2111188434668646827
-- time_utc: 2026-10-16T20:12:01.000Z
-- updated_window: 2026-10-16 16:00 ET
+- handle: @bearliu
+- status_id: 2111248332852990464
+- url: https://x.com/bearliu/status/2111248332852990464
+- time_utc: 2026-10-17T00:10:02.000Z
+- updated_window: 2026-10-16 20:00 ET

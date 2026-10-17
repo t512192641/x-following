@@ -9534,4 +9534,52 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify：heur 30/2/57 → manual 18 overrides → 窗类 正文 **26** / 拿不准 **7** / 已过滤 **56**；miss 0（alex_prompter 20 年老软件公司同文转帖已在当天卡 → 已过滤）
 - page 2026-10-16 16:00 版：正文 **79** / 拿不准 **45** / 已过滤 **358**（12 版 64/38/302 + 15 新卡 + 2 帖并入既有卡〔宝玉 handwired、𝕏 Subscription〕/ 7 / 56）；QA pass clippedBtns 0（raw/2026-10-16/16-qa.png）
 - cursor：@yucheng 2111127135138062830 → @paulg **2111188434668646827**（2026-10-16T20:12:01Z）
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅（WakeParent）
+
+## 2026-10-16 16:25 ET · x-3 健康检查（~16:34 ET late ~9min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 16 main **complete** 79/45/358 md5 **47b2a344** root==days==index==live PASS（curl 复核）；cursor @paulg **2111188434668646827**；chat ✅ ~04:30 CST
+- CDP :9226 idle x.com/home **not stolen**；login_ok true+cookies
+- lists: Oct16 done by x-4（不补跑）；next **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/16-25-health.md`
+
+## 2026-10-16 17:25 ET · x-3 健康检查（~17:26 ET late ~1min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 16 main **complete** 79/45/358 md5 **47b2a344** root==days==index==live PASS（curl 复核）；cursor @paulg **2111188434668646827**；chat ✅ ~04:30 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑）；next **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/17-25-health.md`
+
+## 2026-10-16 18:25 ET · x-3 健康检查（~18:29 ET late ~4min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 16 main **complete** 79/45/358 md5 **47b2a344** root==days==live PASS（curl 复核）；cursor @paulg **2111188434668646827**；chat ✅ ~04:30 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑）；next **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/18-25-health.md`
+
+## 2026-10-16 19:25 ET · x-3 健康检查（~19:30 ET late ~5min）
+
+- quiet_ok **true**；cdp9226 ok (already up)；watchdog exit 0（checked 0）
+- 16 main **complete** 79/45/358 md5 **47b2a344** root==days==live PASS（curl 复核）；cursor @paulg **2111188434668646827**；chat ✅ ~04:30 CST
+- CDP :9226 idle x.com/home **not stolen**
+- lists: Oct16 done by x-4（不补跑）；next **20:00 ET**
+- 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/19-25-health.md`
+
+## 2026-10-16 20:10 ET · 补抓（~20:18 ET late ~8min）
+
+- **deferred_to_main**：20 主窗 c3a32b9b in_progress full_main（10-16 页更新 + rec/ideas）
+- union **73**（HTL71/DOM21）hit_cursor gap **5.55min** closed；login_ok true；overlay 进行中 ~26/73
+- watchdog --check exit 0（checked 1，not stalled）；cursor 仍 @paulg **2111188434668646827**
+- 未重抓、不抢 CDP、不走付费 X API；escalate **no**；stay_quiet
+- evidence: `raw/2026-10-16/20-10-catchup.md`
+
+## 2026-10-16 20:00 ET 主窗
+
+- [x] 2026-10-16 20:00 ET 主窗 **complete**（c3a32b9b full_main 当天页 20:00 版 + 并推荐/脑洞；fire 00:10:56Z ≈ 20:11 ET late ~11min）：HTL71 HIT CURSOR（raw_store 101）/ DOM21 → union **73** gap **5.55min** closed；overlay 49/73=67.1% completed，reply_parent_dup 1；depollute 人工 1（thsottiaux 回复帖 2111245052513259606 被补成父帖 Day 12 中文自动译文 → 回退 HTL）；窗类 正文 **21** / 拿不准 **7** / 已过滤 **45** miss 0；rec 2026-10-16 9 条（新卡 8 + 并入 Nemotron 卡 1）；ideas sourceDate 2026-10-16 重生成版 4 条中 2 条已上 10-15 页 → 只并新 2 条；page 10-16 **102/52/403**；QA pass clippedBtns 0（raw/2026-10-16/20-qa.png）；cursor @paulg 2111188434668646827 → **@bearliu 2111248332852990464**（2026-10-17T00:10:02Z）；chat pending_parent；next 2026-10-17 00:00 ET（交 10-16 完整版）。
