@@ -9703,4 +9703,28 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-17 08:00 ET 主窗
 
-- [x] 2026-10-17 08:00 ET 主窗 **complete**（c3a32b9b main 当天第二版；fire 12:10:38Z ≈ 08:10 ET late ~10min）：HTL126 HIT CURSOR（raw_store 191）/ DOM37 → union **128** gap **0.27min** closed；overlay 96/128=75.0% completed，reply_parent_dup 13，reject_href 19；depollute restored 0；窗类 正文 **38** / 拿不准 **8** / 已过滤 **82** miss 0（31 overrides）；page 10-17 **36/17/172**（21 新卡 + 2 帖并入 Claude Code 审代码原卡；DeepSeek V4.1-Flash-1017 发布 8 帖合一卡、实测 5 帖合一卡）；修正 2 处 `&amp;gt;` 双重转义；QA pass clippedBtns 0（raw/2026-10-17/08-qa.png）；cursor @indie_maker_fox 2111369372828827738 → **@stark_nico99 2111430041657860563**（2026-10-17T12:12:05Z）；chat pending_parent；next 2026-10-17 12:00 ET。
+- [x] 2026-10-17 08:00 ET 主窗 **complete**（c3a32b9b main 当天第二版；fire 12:10:38Z ≈ 08:10 ET late ~10min）：HTL126 HIT CURSOR（raw_store 191）/ DOM37 → union **128** gap **0.27min** closed；overlay 96/128=75.0% completed，reply_parent_dup 13，reject_href 19；depollute restored 0；窗类 正文 **38** / 拿不准 **8** / 已过滤 **82** miss 0（31 overrides）；page 10-17 **36/17/172**（21 新卡 + 2 帖并入 Claude Code 审代码原卡；DeepSeek V4.1-Flash-1017 发布 8 帖合一卡、实测 5 帖合一卡）；修正 2 处 `&amp;gt;` 双重转义；QA pass clippedBtns 0（raw/2026-10-17/08-qa.png）；cursor @indie_maker_fox 2111369372828827738 → **@stark_nico99 2111430041657860563**（2026-10-17T12:12:05Z）；chat ✅（WakeParent）；next 2026-10-17 12:00 ET。
+
+## 2026-10-17 09:25 ET 健康检查
+
+- [x] 2026-10-17 09:25 ET 健康检查（~09:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；08 main **complete** 10-17 第二版 **36/17/172** md5 **27a33e1d** root==days==live PASS；chat ✅ ~20:34 CST；cursor @stark_nico99 2111430041657860563；lists Oct16 done，Oct17 x-4 09:23 ET 尚未火（迟 ~8min 在窗内，不抢跑；10:25 复查）；CDP :9226 idle x.com/home not stolen；next main 12:00 ET；escalate no；stay_quiet；evidence raw/2026-10-17/09-25-health.md  2026-10-17 21:32 CST
+
+## 2026-10-17 09:23 ET · x-lists
+
+- [x] `x-2026-10-17-lists` 2026-10-17 09:23 ET 名单更新（~09:33 ET 正点迟到火，约 +10min）：login_ok；关注未变 **155/@yiren_ai**；书签未变 @cgnot996/2110246524185870802 计数 **175**；未改 jsonl；meta/_check 已写；computerUse 不碰 CDP；/i/bookmarks→/i/history；回 x.com/home；escalate no；stay_quiet。  2026-10-17 21:33 CST
+
+## 2026-10-17 10:25 ET 健康检查
+
+- [x] 2026-10-17 10:25 ET 健康检查（~10:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；08 main **complete** 10-17 第二版 **36/17/172** md5 **27a33e1d** root==days==live PASS；chat ✅ ~20:34 CST；cursor @stark_nico99 2111430041657860563；lists Oct17 **done**（x-4 ~09:33 ET 正点迟到火，155/@yiren_ai、书签 175/@cgnot996 未变；无需补跑）；CDP :9226 idle x.com/home not stolen；无覆盖/重抓进程；next main 12:00 ET；escalate no；stay_quiet。
+
+## 2026-10-17 11:25 ET 健康检查
+
+- [x] 2026-10-17 11:25 ET 健康检查（~11:26 ET 准点）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；08 main **complete** 10-17 第二版 **36/17/172** md5 **27a33e1d** root==days==live PASS；chat ✅ ~20:34 CST；cursor @stark_nico99 2111430041657860563；lists Oct17 **done**（x-4 ~09:33 ET；无需补跑）；CDP :9226 idle x.com/home not stolen；next main 12:00 ET；escalate no；stay_quiet；evidence raw/2026-10-17/11-25-health.md  2026-10-17 23:27 CST
+
+## 2026-10-17 12:10 ET 补抓
+
+- [x] 2026-10-17 12:10 ET 补抓（~12:14 ET late ~4min）：deferred_to_main；12 主窗 c3a32b9b in_progress（今天 10-17 第三版；union121 HTL119/DOM36 gap0.17 closed hit_cursor login_ok；overlay 77/121 alive）；watchdog 0 not stalled；cursor 仍 @stark_nico99 2111430041657860563；不重抓不抢 CDP；escalate no；stay_quiet；evidence raw/2026-10-17/12-10-catchup.md  2026-10-18 00:15 CST
+
+## 2026-10-17 12:00 ET 主窗
+
+- [x] 2026-10-17 12:00 ET 主窗 **complete**（c3a32b9b main 当天第三版；fire 16:05:01Z ≈ 12:05 ET late ~5min）：HTL119 HIT CURSOR（raw_store 212）/ DOM36 → union **121** gap **0.17min** closed；overlay 93/121=76.9% completed，reply_parent_dup 9，reject_href 19；depollute restored 0；窗类 正文 **22** / 拿不准 **7** / 已过滤 **92** miss 0（30 overrides）；page 10-17 第三版 **47/24/264**（11 新卡 + 6 帖并入原卡：DeepSeek 发布←宝玉详解、实测←Search API 接入/查资料挑错、ADLC←LimestoneHQ 软件工厂 2 帖、Marble Skill Taxonomy←5038★）；《大分发时代》摘录沿用 10-16 口径一律已过滤；QA pass clippedBtns 0（raw/2026-10-17/12-qa.png）；cursor @stark_nico99 2111430041657860563 → **@vista8 2111488518577180866**（2026-10-17T16:04:27Z）；chat pending_parent（WakeParent）；next 2026-10-17 16:00 ET。
