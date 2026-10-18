@@ -9889,3 +9889,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-18 15:25 ET 健康检查
 
 - [x] 2026-10-18 15:25 ET 健康检查（~15:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；12 main **complete** 10-18 第三版 **37/22/229** md5 **08595c1d** root==days==index==live PASS；chat ✅ ~00:36 CST；cursor @alex_prompter 2111851420555280766；lists Oct18 **done**（x-4 09:26 ET，155/175 未变，不补跑）；CDP :9226 idle not stolen；无 overlay/抓取进程在跑；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-18/15-25-health.md  2026-10-19 03:31 CST
+
+## 2026-10-18 16:00 ET 主窗
+
+- [x] 2026-10-18 16:00 ET 主窗（c3a32b9b，~16:08 ET late ~8min）：HTL **45** HIT CURSOR + DOM **16** → union **50**，gap 12.9min closed；overlay 26/50=52.0% reply_parent_dup 6（reject_href 18，多为转帖落地别的 status）；depollute 0；窗类 正文12/拿不准3/已过滤35 miss0（16 overrides）；日页 10-18 第四版 **41/25/264**（4 新卡 + 6 条并入 Limestone AI 软件工厂、Lenny × Ameisen、Grok Bot 要闻原卡；转帖按钮标「转帖」）；md5 **fd9a98ae** root==days==site==live==index PASS；tip 2590af1→896fce2→7bb0d83；cursor @alex_prompter 2111851420555280766 → @danshipper 2111909040024396171；chat_delivery: pending_parent；evidence raw/2026-10-18/16-meta.md  2026-10-19 04:25 CST
