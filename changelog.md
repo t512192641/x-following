@@ -9805,3 +9805,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-18 00:25 ET 健康检查
 
 - [x] 2026-10-18 00:25 ET 健康检查（~00:28 ET late ~3min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 1，00 窗 in_progress overlay alive not stalled）；00 main c3a32b9b **in_progress**（10-17 完整版）不碰；live 仍 10-17 20:00 版 **71/31/381** md5 **a3378fa4** PASS；cursor @indie_maker_fox 2111611468571611346；lists Oct17 **done**，Oct18 未到期；CDP :9226 主窗占用不抢；escalate no；stay_quiet；evidence raw/2026-10-18/00-25-health.md  2026-10-18 12:29 CST
+
+## 2026-10-18 00:00 ET 主窗
+
+- [x] 2026-10-18 00:00 ET 主窗 **complete**（c3a32b9b full_main 交 10-17 完整版 + 10-18 薄种子；fire 04:09:53Z ≈ 00:09 ET late ~10min）：HTL129 HIT CURSOR（raw_store 192）/ DOM39 → union **132** gap **2.0min** closed；CUTOFF 04:00Z pre 127 / after 5；overlay 86/132=65.2% completed，reply_parent_dup 7，reject_href 39；depollute restored 0；窗类 正文 **18** / 拿不准 **9** / 已过滤 **105** miss 0（47 overrides；indie_maker_fox 转帖已上页内容、《大分发时代》摘句→已过滤）；page 10-17 完整版 **83/39/482**（12 新卡 + 3 帖补进原卡：DeepSeek 实测←berryxia/RookieRicardoR、Qiaomu Publish←插件下载数据；去掉一处非来源 cars.com 按钮）；thin 10-18 0/1/4；QA pass clippedBtns 0（raw/2026-10-18/00-qa.png）；tip 1ac2af1（10-17 md5 **555a171f** live PASS）→ 57b4e0a（10-18 薄种子 md5 5ec9306c live PASS）→ index→10-17；cursor @indie_maker_fox 2111611468571611346 → **@grok 2111671535123534092**（2026-10-18T04:11:41Z）；chat pending_parent（WakeParent）；next 2026-10-18 04:00 ET（今天第一版）。  2026-10-18 12:37 CST
