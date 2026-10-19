@@ -10007,3 +10007,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-19 12:25 ET 健康检查
 
 - [x] 2026-10-19 12:25 ET 健康检查（~12:55 ET late ~30min）：quiet_ok **true**；cdp9226 ok（12 补抓在用，不抢）；watchdog exit 0（checked 1，12 in_progress overlay alive not stalled）；12 窗 **in_progress**（cdf0cd43 full_main_takeover，主窗已 deferred）；prior 08 main **complete** 10-19 更新 **30/24/173** md5 **e8531a53** live PASS；chat ✅ ~20:41 CST；cursor @grok 2112156222266786270；lists Oct19 **done** 无需补跑；无重复抓取/旧调度冲突；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-19/12-25-health.md  2026-10-20 00:56 CST
+
+## 2026-10-19 12:00 ET 主窗（补抓 full_main_takeover）
+
+- [x] 2026-10-19 12:10 ET 补抓 → **full_main_takeover complete**（cdf0cd43，fire ≈12:37 ET late ~27min；12:00 主窗 c3a32b9b 未按时开火，≈12:39 ET 迟火 deferred_to_catchup／调度漏叫）：HTL152 HIT CURSOR / DOM0（未渲染）→ union **152** gap **2.25min** closed；overlay 102/152=67.1% completed，reply_parent_dup 19，reject_href 31；depollute restored 0 + 手工回退 1（GrokBotRadar 父帖翻译）；窗类 正文 **35** / 拿不准 **16** / 已过滤 **101** miss 0（57 overrides）；page 10-19 更新 **50/40/274**（20 新卡 + 3 帖补进原卡：学习站←Bot 直聘、LCU←审批设计）；QA pass clippedBtns 0（raw/2026-10-19/12-qa.png）；md5 **1f3349b9** root==days==live PASS，tip de09481；cursor @grok 2112156222266786270 → **@paulg 2112221722313461980**（16:37:56Z）；chat_delivery: pending_parent（WakeParent）；escalate no；evidence raw/2026-10-19/12-10-catchup.md / 12-meta.md  2026-10-20 01:07 CST
