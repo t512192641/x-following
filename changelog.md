@@ -9935,3 +9935,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-19 00:25 ET 健康检查
 
 - [x] 2026-10-19 00:25 ET 健康检查（~00:30 ET late ~5min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 1，00 overlay alive ~90/170 not stalled）；00 main **in_progress**（c3a32b9b full_main 10-18 完整版，未抢 CDP）；prior 20 complete 10-18 第五版 56/27/317 md5 017f9f33；cursor @bearliu 2111973110828163377；lists Oct18 **done**，Oct19 未到期；escalate no；stay_quiet；evidence raw/2026-10-19/00-25-health.md  2026-10-19 12:31 CST
+
+## 2026-10-19 00:00 ET 主窗
+
+- [x] 2026-10-19 00:00 ET 主窗 **complete**（c3a32b9b full_main 交 10-18 完整版 + 10-19 薄种子；fire 04:13:35Z ≈ 00:13 ET late ~13min）：HTL169 HIT CURSOR（raw_store 198）/ DOM37 → union **170** gap **1.93min** closed；CUTOFF 04:00Z pre 156 / after 14；overlay 81/170=47.6% budget_exhausted(20min)，reply_parent_dup 23，reject_href 37；depollute restored 0；窗类 正文 **23** / 拿不准 **8** / 已过滤 **139** miss 0（54 overrides）；page 10-18 完整版 **66/34/445**（10 新卡 + 3 帖补进原卡：Lenny × Ameisen←坏标签例子、Grok Bot Clipper←学习站、DeepSeek vs Opus←宣传片对比）；thin 10-19 2/1/11；QA pass clippedBtns 0（raw/2026-10-19/00-qa.png）；tip 711e9f8（10-18 md5 **fb24ee9c** live PASS）→ cde1999（10-19 薄种子 md5 19300dfa live PASS）→ index→10-18；cursor @bearliu 2111973110828163377 → **@cellinlab 2112034669449650302**（2026-10-19T04:14:39Z）；chat_delivery: pending_parent（WakeParent）；evidence raw/2026-10-19/00-meta.md  2026-10-19 12:44 CST
