@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @cellinlab
-- status_id: 2112034669449650302
-- url: https://x.com/cellinlab/status/2112034669449650302
-- time_utc: 2026-10-19T04:14:39.000Z
-- updated_window: 2026-10-19 00:00 ET
+- handle: @imwsl90
+- status_id: 2112092943213588564
+- url: https://x.com/imwsl90/status/2112092943213588564
+- time_utc: 2026-10-19T08:06:13.000Z
+- updated_window: 2026-10-19 04:00 ET
