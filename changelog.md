@@ -9910,4 +9910,28 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-18 20:00 ET 主窗
 
-- [x] 2026-10-18 20:00 ET 主窗 **complete**（c3a32b9b，~20:08 ET late ~8min）：HTL **61** HIT CURSOR + DOM **21** → union **64**，gap 5.45min closed；overlay 40/64=62.5% reply_parent_dup 8；depollute 0；窗类 正文9/拿不准2/已过滤53 miss0（19 overrides）；并 recommended/ideas 2026-10-18（rec 新 7 + 并入 DeepSeek 原卡 2；脑洞 4）；日页 10-18 20:00 版 **56/27/317**（4 新卡 + 4 帖并入 Grok Bot 要闻、Lenny × Ameisen、找创作者合作原卡）；md5 **017f9f33** root==days==site==live==index PASS；tip 0222364→77ad1df；cursor @danshipper 2111909040024396171 → @bearliu 2111973110828163377；chat_delivery: pending_parent（WakeParent）；evidence raw/2026-10-18/20-meta.md  2026-10-19 08:21 CST
+- [x] 2026-10-18 20:00 ET 主窗 **complete**（c3a32b9b，~20:08 ET late ~8min）：HTL **61** HIT CURSOR + DOM **21** → union **64**，gap 5.45min closed；overlay 40/64=62.5% reply_parent_dup 8；depollute 0；窗类 正文9/拿不准2/已过滤53 miss0（19 overrides）；并 recommended/ideas 2026-10-18（rec 新 7 + 并入 DeepSeek 原卡 2；脑洞 4）；日页 10-18 20:00 版 **56/27/317**（4 新卡 + 4 帖并入 Grok Bot 要闻、Lenny × Ameisen、找创作者合作原卡）；md5 **017f9f33** root==days==site==live==index PASS；tip 0222364→77ad1df；cursor @danshipper 2111909040024396171 → @bearliu 2111973110828163377；chat_delivery: delivered ✅ ~08:22 CST（WakeParent）（WakeParent）；evidence raw/2026-10-18/20-meta.md  2026-10-19 08:21 CST
+
+## 2026-10-18 20:25 ET 健康检查
+
+- [x] 2026-10-18 20:25 ET 健康检查（~20:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；20 main **complete** 10-18 第五版 **56/27/317** md5 **017f9f33** root==days==index==live PASS；chat ✅ ~08:22 CST；cursor @bearliu 2111973110828163377；lists Oct18 **done**（x-4 09:26 ET，155/175 未变，不补跑）；CDP :9226 idle not stolen；无 overlay/抓取进程在跑；next main 00:00 ET（10-18 完整页）；escalate no；stay_quiet；evidence raw/2026-10-18/20-25-health.md  2026-10-19 08:32 CST
+
+## 2026-10-18 21:25 ET 健康检查
+
+- [x] 2026-10-18 21:25 ET 健康检查（~21:27 ET late ~2min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；20 main **complete** 10-18 第五版 **56/27/317** md5 **017f9f33** root==days==index==live PASS；chat ✅ ~08:22 CST；cursor @bearliu 2111973110828163377；lists Oct18 **done**（x-4 09:26 ET，155/175 未变，不补跑）；CDP :9226 idle not stolen；无 overlay/抓取进程在跑；next main 00:00 ET（10-18 完整页）；escalate no；stay_quiet；evidence raw/2026-10-18/21-25-health.md  2026-10-19 09:28 CST
+
+## 2026-10-18 22:25 ET 健康检查
+
+- [x] 2026-10-18 22:25 ET 健康检查（~22:34 ET late ~9min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；20 main **complete** 10-18 第五版 **56/27/317** md5 **017f9f33** root==days==site==live PASS；chat ✅ ~08:22 CST；cursor @bearliu 2111973110828163377；lists Oct18 **done**（x-4 09:26 ET，155/175 未变，不补跑）；CDP :9226 idle not stolen；无 overlay/抓取进程在跑；next main 00:00 ET（10-18 完整页）；escalate no；stay_quiet；evidence raw/2026-10-18/22-25-health.md  2026-10-19 10:36 CST
+
+## 2026-10-18 23:25 ET 健康检查
+
+- [x] 2026-10-18 23:25 ET 健康检查（~23:27 ET late ~2min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；20 main **complete** 10-18 第五版 **56/27/317** md5 **017f9f33** root==days==site==live PASS；chat ✅ ~08:22 CST；cursor @bearliu 2111973110828163377；lists Oct18 **done**（x-4 09:26 ET，155/175 未变，不补跑）；CDP :9226 idle not stolen；无 overlay/抓取进程在跑；next main 00:00 ET（10-18 完整页）；escalate no；stay_quiet；evidence raw/2026-10-18/23-25-health.md  2026-10-19 11:27 CST
+
+## 2026-10-19 00:10 ET 补抓
+
+- [x] 2026-10-19 00:10 ET 补抓（cdf0cd43，~00:12 ET late ~2min）：**deferred_to_main**；检查时 00 主窗未认领（弹性窗内），00:14 ET 见 00-claim in_progress（c3a32b9b full_main，fire ≈00:13 ET late ~13min）；prior 20 complete 10-18 第五版 56/27/317 md5 017f9f33 无 hole；watchdog exit 0（checked 0）；cursor still @bearliu 2111973110828163377；未重抓/不抢 CDP/不写页/不发 chat；escalate no；evidence raw/2026-10-19/00-10-catchup.md  2026-10-19 12:16 CST
+
+## 2026-10-19 00:25 ET 健康检查
+
+- [x] 2026-10-19 00:25 ET 健康检查（~00:30 ET late ~5min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 1，00 overlay alive ~90/170 not stalled）；00 main **in_progress**（c3a32b9b full_main 10-18 完整版，未抢 CDP）；prior 20 complete 10-18 第五版 56/27/317 md5 017f9f33；cursor @bearliu 2111973110828163377；lists Oct18 **done**，Oct19 未到期；escalate no；stay_quiet；evidence raw/2026-10-19/00-25-health.md  2026-10-19 12:31 CST
