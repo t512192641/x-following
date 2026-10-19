@@ -10010,4 +10010,24 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-19 12:00 ET 主窗（补抓 full_main_takeover）
 
-- [x] 2026-10-19 12:10 ET 补抓 → **full_main_takeover complete**（cdf0cd43，fire ≈12:37 ET late ~27min；12:00 主窗 c3a32b9b 未按时开火，≈12:39 ET 迟火 deferred_to_catchup／调度漏叫）：HTL152 HIT CURSOR / DOM0（未渲染）→ union **152** gap **2.25min** closed；overlay 102/152=67.1% completed，reply_parent_dup 19，reject_href 31；depollute restored 0 + 手工回退 1（GrokBotRadar 父帖翻译）；窗类 正文 **35** / 拿不准 **16** / 已过滤 **101** miss 0（57 overrides）；page 10-19 更新 **50/40/274**（20 新卡 + 3 帖补进原卡：学习站←Bot 直聘、LCU←审批设计）；QA pass clippedBtns 0（raw/2026-10-19/12-qa.png）；md5 **1f3349b9** root==days==live PASS，tip de09481；cursor @grok 2112156222266786270 → **@paulg 2112221722313461980**（16:37:56Z）；chat_delivery: pending_parent（WakeParent）；escalate no；evidence raw/2026-10-19/12-10-catchup.md / 12-meta.md  2026-10-20 01:07 CST
+- [x] 2026-10-19 12:10 ET 补抓 → **full_main_takeover complete**（cdf0cd43，fire ≈12:37 ET late ~27min；12:00 主窗 c3a32b9b 未按时开火，≈12:39 ET 迟火 deferred_to_catchup／调度漏叫）：HTL152 HIT CURSOR / DOM0（未渲染）→ union **152** gap **2.25min** closed；overlay 102/152=67.1% completed，reply_parent_dup 19，reject_href 31；depollute restored 0 + 手工回退 1（GrokBotRadar 父帖翻译）；窗类 正文 **35** / 拿不准 **16** / 已过滤 **101** miss 0（57 overrides）；page 10-19 更新 **50/40/274**（20 新卡 + 3 帖补进原卡：学习站←Bot 直聘、LCU←审批设计）；QA pass clippedBtns 0（raw/2026-10-19/12-qa.png）；md5 **1f3349b9** root==days==live PASS，tip de09481；cursor @grok 2112156222266786270 → **@paulg 2112221722313461980**（16:37:56Z）；chat_delivery: delivered ✅ ~01:08 CST（WakeParent）；escalate no；evidence raw/2026-10-19/12-10-catchup.md / 12-meta.md  2026-10-20 01:07 CST
+
+## 2026-10-19 13:25 ET 健康检查
+
+- [x] 2026-10-19 13:25 ET 健康检查（~13:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；12 窗 **complete**（cdf0cd43 full_main_takeover）10-19 更新 **50/40/274** md5 **1f3349b9** root==days==site==live PASS；chat ✅ ~01:08 CST；cursor @paulg 2112221722313461980；lists Oct19 **done** 无需补跑；CDP idle；无重复抓取/旧调度冲突；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-19/13-25-health.md  2026-10-20 01:33 CST
+
+## 2026-10-19 14:25 ET 健康检查
+
+- [x] 2026-10-19 14:25 ET 健康检查（~14:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；12 窗 **complete**（cdf0cd43 full_main_takeover）10-19 更新 **50/40/274** md5 **1f3349b9** root==days==site==live PASS；chat ✅ ~01:08 CST；cursor @paulg 2112221722313461980；lists Oct19 **done** 无需补跑；CDP idle；无重复抓取/旧调度冲突；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-19/14-25-health.md  2026-10-20 02:32 CST
+
+## 2026-10-19 15:25 ET 健康检查
+
+- [x] 2026-10-19 15:25 ET 健康检查（~15:32 ET late ~7min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；12 窗 **complete**（cdf0cd43 full_main_takeover）10-19 更新 **50/40/274** md5 **1f3349b9** root==days==live PASS；chat ✅ ~01:08 CST；cursor @paulg 2112221722313461980；lists Oct19 **done** 无需补跑；CDP idle；无重复抓取/旧调度冲突；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-19/15-25-health.md  2026-10-20 03:33 CST
+
+## 2026-10-19 16:10 ET 补抓
+
+- [x] 2026-10-19 16:10 ET 补抓（cdf0cd43，~16:12 ET late ~3min）：**deferred_to_main**；16 主窗 c3a32b9b 已 in_progress（fire ≈16:10 ET late ~10min；HTL62 hit False oldest 16:40:14Z 距游标 ~2.3min，分页一次 403；DOM 在跑）；prior 12 complete 10-19 更新 50/40/274 md5 1f3349b9 无 hole；watchdog exit 0（checked 1 not stalled）；cursor still @paulg 2112221722313461980；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence raw/2026-10-19/16-10-catchup.md  2026-10-20 04:13 CST
+
+## 2026-10-19 16:00 ET 主窗
+
+- [x] 2026-10-19 16:00 ET 主窗 c3a32b9b（fire ≈16:10 ET late ~10min）：HTL **62**（raw_store 107，未命中精确游标但已越过游标时间；分页 bottom 一次 403）+ DOM **14** → union **65**；gap **2.3min** closed（hit_cursor_effective true）；overlay **35/65=53.8%** completed，reply_parent_dup 4，reject_href 26；depollute restored 0；窗类 正文 **15** / 拿不准 **5** / 已过滤 **45** miss 0（26 overrides）；page 10-19 更新 **60/45/319**（10 新卡：Greptile B 轮、SKY-001、Anthropic 新模型传闻、ChatGPT Slides、iPhone 操作按钮直连 Grok Bot、Grok Bot Mail 预告、x-reply-guard、Dan Shipper agent 重排草稿、FDE 检查清单、dontbesilent 长教程设计）；QA pass clippedBtns 0（raw/2026-10-19/16-qa.png）；cursor @paulg 2112221722313461980 → **@thejustinwelsh 2112275207876444499**（20:10:28Z）；小插曲：_classify16_manual 首跑误写 12-class-manual.md，已从 grok-ops 备份恢复原 12 文件；chat_delivery: pending_parent；escalate no；evidence raw/2026-10-19/16-meta.md  2026-10-20 04:35 CST
