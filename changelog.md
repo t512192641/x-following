@@ -9907,3 +9907,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-18 19:25 ET 健康检查
 
 - [x] 2026-10-18 19:25 ET 健康检查（~19:26 ET late ~1min）：quiet_ok **true**；cdp9226 ok；watchdog exit 0（checked 0）；16 main **complete** 10-18 第四版 **41/25/264** md5 **fd9a98ae** root==days==live PASS；chat ✅ ~04:24 CST；cursor @danshipper 2111909040024396171；lists Oct18 **done**（x-4 09:26 ET，155/175 未变，不补跑）；CDP :9226 idle not stolen；无 overlay/抓取进程在跑；next main 20:00 ET（+rec/ideas）；escalate no；stay_quiet；evidence raw/2026-10-18/19-25-health.md  2026-10-19 07:27 CST
+
+## 2026-10-18 20:00 ET 主窗
+
+- [x] 2026-10-18 20:00 ET 主窗 **complete**（c3a32b9b，~20:08 ET late ~8min）：HTL **61** HIT CURSOR + DOM **21** → union **64**，gap 5.45min closed；overlay 40/64=62.5% reply_parent_dup 8；depollute 0；窗类 正文9/拿不准2/已过滤53 miss0（19 overrides）；并 recommended/ideas 2026-10-18（rec 新 7 + 并入 DeepSeek 原卡 2；脑洞 4）；日页 10-18 20:00 版 **56/27/317**（4 新卡 + 4 帖并入 Grok Bot 要闻、Lenny × Ameisen、找创作者合作原卡）；md5 **017f9f33** root==days==site==live==index PASS；tip 0222364→77ad1df；cursor @danshipper 2111909040024396171 → @bearliu 2111973110828163377；chat_delivery: pending_parent（WakeParent）；evidence raw/2026-10-18/20-meta.md  2026-10-19 08:21 CST
