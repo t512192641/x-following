@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @Jason
-- status_id: 2112578573580058667
-- url: https://x.com/Jason/status/2112578573580058667
-- time_utc: 2026-10-20T16:15:56.000Z
-- updated_window: 2026-10-20 12:00 ET
+- handle: @levelsio
+- status_id: 2112637374316581343
+- url: https://x.com/levelsio/status/2112637374316581343
+- time_utc: 2026-10-20T20:09:35.000Z
+- updated_window: 2026-10-20 16:00 ET
