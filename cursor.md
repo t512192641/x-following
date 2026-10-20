@@ -1,7 +1,7 @@
 # cursor
 
 - handle: @liuren
-- status_id: 2112397417618583578
-- url: https://x.com/liuren/status/2112397417618583578
-- time_utc: 2026-10-20T04:16:05.000Z
-- updated_window: 2026-10-20 00:00 ET
+- status_id: 2112455588785668144
+- url: https://x.com/liuren/status/2112455588785668144
+- time_utc: 2026-10-20T08:07:14.000Z
+- updated_window: 2026-10-20 04:00 ET
