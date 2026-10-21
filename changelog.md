@@ -10247,3 +10247,19 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-21 04:00 ET 主窗
 
 - [x] 2026-10-21 04:00 ET 主窗 **complete**（c3a32b9b main 今天第一版；fire 08:11:31Z ≈ 04:11 ET late ~11min）：HTL **147**（raw_store 188；精确游标未作顶层 entry 出现，已见更旧帖 → hit_cursor_effective；底部分页 page-fetch 403 无影响）/ DOM **35** → union **148** gap **2.33min** closed；overlay **64/148=43.2%** budget_exhausted(20min)，reply_parent_dup 21，reject_href 42，timeouts 2（@xiaohu 2112795887496040864 单条卡 384s 超 item_timeout，记异常待查）；depollute restored **2**（dotey/xiaohu 串文回退）；窗类 正文 **20** / 拿不准 **15** / 已过滤 **113** miss 0（69 overrides；前日已写无增量的重复转帖 Genjutsu Lite/WAN 3.0/LCU/代发帖/OpenFree/Sitemap/MailCheap/EverOS/乐天卡/1024 → 已过滤；GamsGo 代订推广 → 拿不准合卡）；page 10-21 第一版 **15/13/121**（薄种子 1/1/8 + 14 新卡）；QA pass clippedBtns 0（raw/2026-10-21/04-qa.png）；md5 **c3fb5d51** root==days==site==live PASS tip ee4b5a4 → index commit f989071（index→10-21）；cursor @RookieRicardoR 2112759717840015442 → **@cellinlab 2112819426970231119**（2026-10-21T08:13:00Z）；chat_delivery: delivered ✅ via WakeParent；next 2026-10-21 08:00 ET；escalate no；evidence raw/2026-10-21/04-meta.md  2026-10-21 16:42 CST
+
+## 2026-10-21 05:25 ET 健康检查
+
+- [x] 2026-10-21 05:25 ET 健康检查（x-3 960034de，~05:35 ET late ~10min）：**cdp9226 launched pid 6460**（up after 3s 2026-10-21 17:35:01 CST；:9226 此前未起，原 profile 直连拉起，未清 cookie、未重登）；登录确认：CDP auth_token/ct0/twid present，x.com/home「主页 / X」正在关注时间线 articles=5 非空；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；04 主窗 c3a32b9b **complete** 10-21 第一版 **15/13/121** md5 **c3fb5d51** root==days==index==live PASS（三个 live URL 均复验）；00 主窗 complete 10-20 完整版 **94/67/610** md5 **51601252** live PASS；chat ✅ ~16:44 CST（04）/~12:44 CST（00）；cursor @cellinlab 2112819426970231119（cursor.md）；lists Oct21 未到点（09:23 ET；meta last 2026-10-20 09:29）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 08:00 ET；escalate no；向幕僚长一句（launched，priority false）；evidence raw/2026-10-21/05-25-health.md  2026-10-21 17:39 CST
+
+## 2026-10-21 06:25 ET 健康检查
+
+- [x] 2026-10-21 06:25 ET 健康检查（x-3 960034de，~06:30 ET late ~5min）：quiet_ok **true**；cdp9226 ok（already up，05:25 拉起的 pid 6460 仍在）；login_ok：cookie DB auth_token/ct0/twid present，:9226 /json/list x.com/home「主页 / X」（WS 被 remote-allow-origins 拒，未抢未重启；sand-playwright orphan 挂着不抢）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；04 主窗 c3a32b9b **complete** 10-21 第一版 **15/13/121** md5 **c3fb5d51** root==days==index==live PASS（三个 live URL 均复验）；00 主窗 complete 10-20 完整版 **94/67/610** md5 **51601252** live PASS；chat ✅ ~16:44 CST（04）/~12:44 CST（00）；cursor @cellinlab 2112819426970231119（cursor.md==cursor.json）；lists Oct21 未到点（09:23 ET；meta last 2026-10-20 09:29）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 08:00 ET；escalate no；stay_quiet；evidence raw/2026-10-21/06-25-health.md  2026-10-21 18:30 CST
+
+## 2026-10-21 07:25 ET 健康检查
+
+- [x] 2026-10-21 07:25 ET 健康检查（x-3 960034de，~07:35 ET late ~10min）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；04 主窗 c3a32b9b **complete** 10-21 第一版 **15/13/121** md5 **c3fb5d51** root==days==live PASS；cursor @cellinlab 2112819426970231119；lists Oct21 未到点（09:23 ET）无需补跑；next main 08:00 ET；escalate no；stay_quiet。  2026-10-21 19:34 CST
+
+## 2026-10-21 08:25 ET 健康检查
+
+- [x] 2026-10-21 08:25 ET 健康检查（x-3 960034de，~08:27 ET）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 1：10-21/08 in_progress，overlay_resume --hh 08 pid 28729 存活，95/118，stalled false）；08 主窗 c3a32b9b **in_progress**（scrape/dom/htl/union/tco 已生成，未抢 9226、未干预）；04 主窗 complete 10-21 第一版 15/13/121 md5 c3fb5d51 live PASS；cursor @cellinlab 2112819426970231119（待 08 推进）；08:10 补抓 deferred_to_main；lists Oct21 未到点（09:23 ET）no catchup；无重复抓取/旧调度冲突/overdue gap；escalate no；stay_quiet。  2026-10-21 20:26 CST
