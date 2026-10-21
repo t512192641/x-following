@@ -10275,3 +10275,25 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-21 12:25 ET 健康检查
 - [x] 2026-10-21 12:25 ET 健康检查（x-3 960034de，~12:34 ET late ~9min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460；12 主窗 overlay 占用 **not stolen**）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 1：10-21/12 in_progress，overlay_resume --hh 12 存活 ~176/178，stalled false）；12 主窗 c3a32b9b **in_progress**（union178 gap4.0 closed hit_cursor；未抢 9226、未干预）；08 主窗 complete 10-21 更新 **23/19/209** md5 **e5b481f9** root==days==index==live PASS（00:35 CST 复核）；cursor @cnyzgkc 2112879375893033236（待 12 推进）；12:10 补抓 deferred_to_main；lists Oct21 已正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET（12 收尾后）；escalate no；stay_quiet；evidence raw/2026-10-21/12-25-health.md  2026-10-22 00:35 CST
+
+## 2026-10-21 12:00 ET 主窗
+
+- [x] 2026-10-21 12:00 ET 主窗 **complete**（c3a32b9b，claim 00:13 CST ≈ 12:13 ET late ~13min）：HTL **174**（raw_store 186；初始页+1 次滚动 **HIT CURSOR** 顶层 entry）/ DOM **48** → union **178** gap **4.0min** closed；overlay **127/178=71.3%** completed（~20min），reply_parent_dup 24，reject_href 27，timeouts 1；depollute 0（人工复核 12 行差异均为补全，无串文）；窗类 正文 **33** / 拿不准 **17** / 已过滤 **128** miss 0（52 overrides；并原卡 1 张：风控八大天坑 + berryxia 申诉避坑；新组「安全 / 漏洞」PHP2Shell 九帖合卡 + 印度 CA 弱私钥；PHP 无增量跟帖、《大分发时代》摘句、马斯克政治转帖 → 已过滤）；page 10-21 更新 **40/33/337**（08 版 23/19/209 + 17 新正文卡 + 14 拿不准卡 + 128）；QA pass clippedBtns 0（raw/2026-10-21/12-qa.png）；md5 **7eda89a1** root==days==site==index==live PASS tip a28262f → index commit 12b3e5f；cursor @cnyzgkc 2112879375893033236 → **@xiangqishi 2112938930404548792**（2026-10-21T16:07:52Z）；chat_delivery: delivered ✅ ~00:47 CST；next 2026-10-21 16:00 ET；escalate no；evidence raw/2026-10-21/12-meta.md  2026-10-22 00:47 CST
+
+## 2026-10-21 13:25 ET 健康检查
+
+- [x] 2026-10-21 13:25 ET 健康检查（x-3 960034de，~13:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；12 主窗 c3a32b9b **complete** 10-21 更新 **40/33/337** md5 **7eda89a1** root==days==index==live PASS（三个 live URL 均复验）；chat ✅ ~00:47 CST；cursor @xiangqishi 2112938930404548792；lists Oct21 已正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-21/13-25-health.md  2026-10-22 01:32 CST
+
+## 2026-10-21 14:25 ET 健康检查
+- [x] 2026-10-21 14:25 ET 健康检查（x-3 960034de，~14:27 ET late ~2min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；12 主窗 c3a32b9b **complete** 10-21 更新 **40/33/337** md5 **7eda89a1** root==days==index==live PASS（三个 live URL 均复验）；chat ✅ ~00:47 CST；cursor @xiangqishi 2112938930404548792；lists Oct21 已正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-21/14-25-health.md  2026-10-22 02:28 CST
+
+## 2026-10-21 15:25 ET 健康检查
+- [x] 2026-10-21 15:25 ET 健康检查（x-3 960034de，~15:34 ET late ~9min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；12 主窗 c3a32b9b **complete** 10-21 更新 **40/33/337** md5 **7eda89a1** root==days==index==live PASS（三个 live URL 均复验）；chat ✅ ~00:47 CST；cursor @xiangqishi 2112938930404548792；lists Oct21 已正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET；escalate no；stay_quiet；evidence raw/2026-10-21/15-25-health.md  2026-10-22 03:35 CST
+
+## 2026-10-21 16:10 ET 补抓
+
+- [x] 2026-10-21 16:10 ET 补抓（cdf0cd43，~16:12 ET late ~2min）：**deferred_to_main**；16 主窗 c3a32b9b 已 in_progress（fire ≈16:09 ET late ~9min；HTL **116** HIT CURSOR DONE，DOM _scrape16_dom.py 进行中）；prior 12 complete 10-21 更新 **40/33/337** md5 **7eda89a1** live PASS 无 hole；00/04/08/12 gap_open false；watchdog exit 0（checked 1 not stalled）；cursor still @xiangqishi 2112938930404548792；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-21/16-10-catchup.md`。  2026-10-22 04:12 CST
+
+## 2026-10-21 16:25 ET 健康检查
+
+- [x] 2026-10-21 16:25 ET 健康检查（x-3 960034de，~16:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460；16 主窗占用 **not stolen**）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 1：10-21/16 in_progress，overlay_resume 存活后 RESUME_DONE 77/126=61.1%，idle 0.3min not stalled）；16 主窗 c3a32b9b **in_progress**（union126 gap0.35 hit_cursor；overlay/depollute/classify 已过；未抢 9226、未干预、不重跑主窗）；12 主窗 complete 10-21 更新 **40/33/337** md5 **7eda89a1** root==days==index==live PASS（三个 live URL 均复验）；cursor @xiangqishi 2112938930404548792（待 16 推进）；16:10 补抓 deferred_to_main；lists Oct21 已正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 20:00 ET（16 收尾后）；escalate no；stay_quiet；evidence raw/2026-10-21/16-25-health.md  2026-10-22 04:29 CST
