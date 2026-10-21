@@ -10223,3 +10223,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-21 00:25 ET 健康检查
 
 - [x] 2026-10-21 00:25 ET 健康检查（x-3 960034de，~00:26 ET late ~1min）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 1：10-21/00 in_progress，overlay_resume --hh 00 pid 477062 存活，idle 0.1min，stalled false）；00 主窗 c3a32b9b **in_progress**（未抢 9226、未干预）；20 主窗 complete 10-20 81/50/499 md5 736b04f7；cursor @alex_prompter 2112697289043034358（待 00 主窗推进）；lists Oct21 未到点（09:23 ET）no catchup；无重复抓取/旧调度冲突/overdue gap；escalate no；stay_quiet。  2026-10-21 12:26 CST
+
+## 2026-10-21 00:00 ET 主窗（交 10-20 完整版）
+
+- [x] 2026-10-21 00:00 ET 主窗 c3a32b9b（fire ~00:13 ET late ~13min）：full_main；HTL 152 HIT CURSOR + DOM 44 → union **158**；gap 2.43min gap_open false；overlay 92/158 = 58.2%（budget_exhausted 20min，reply_parent_dup 15）；depollute restored 0；窗类 正文 **21** / 拿不准 **18** / 已过滤 **119** miss 0（heur 57/16/85，manual 61 overrides）；CUTOFF 04:00Z pre 148 → 10-20、after 10 → 10-21 薄种子；page **10-20 完整版 94/67/610**（20 版 81/50/499 + 13 新卡 + Genjutsu Lite / Codex Day16 补进原卡）md5 51601252 root==days==site==live PASS tip 3c429e3；薄种子 10-21 1/1/8 md5 7d0e234c live PASS tip 94aba94；index → 10-20；QA pass clippedBtns 0（raw/2026-10-21/00-qa.png）；cursor @alex_prompter 2112697289043034358 → **@RookieRicardoR 2112759717840015442**（04:15:44Z）；chat_delivery: delivered ✅（WakeParent）；escalate no；evidence raw/2026-10-21/00-meta.md  2026-10-21 12:43 CST
