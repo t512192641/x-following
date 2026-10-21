@@ -10198,4 +10198,28 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-20 20:00 ET 主窗
 
-- [x] 2026-10-20 20:00 ET 主窗（c3a32b9b，fire ~20:08 ET late ~8min）：login_ok；HTL **76** HIT CURSOR + DOM **16** → union **77**；gap 0.5min，gap_open false；overlay 50/77=64.9%（reject_href 17，reply_parent_dup 10，stop completed）；depollute restored 0；窗类 正文 **17** / 拿不准 **8** / 已过滤 **52** miss 0（heur 31/5/41，manual 23 overrides）；page 10-20 第六版（20:00 合并）**81/50/499**（16 版 58/42/447 + 15 新 X 卡 + Kin 复盘卡补 1 帖 + rec 新 5 / 并 3 + ideas 3）；QA pass clippedBtns 0（raw/2026-10-20/20-qa.png，浮层 20-qa-modal.png）；cursor @levelsio 2112637374316581343 → **@alex_prompter 2112697289043034358**（00:07:40Z）；chat_delivery: pending_parent；evidence raw/2026-10-20/20-meta.md
+- [x] 2026-10-20 20:00 ET 主窗（c3a32b9b，fire ~20:08 ET late ~8min）：login_ok；HTL **76** HIT CURSOR + DOM **16** → union **77**；gap 0.5min，gap_open false；overlay 50/77=64.9%（reject_href 17，reply_parent_dup 10，stop completed）；depollute restored 0；窗类 正文 **17** / 拿不准 **8** / 已过滤 **52** miss 0（heur 31/5/41，manual 23 overrides）；page 10-20 第六版（20:00 合并）**81/50/499**（16 版 58/42/447 + 15 新 X 卡 + Kin 复盘卡补 1 帖 + rec 新 5 / 并 3 + ideas 3）；QA pass clippedBtns 0（raw/2026-10-20/20-qa.png，浮层 20-qa-modal.png）；cursor @levelsio 2112637374316581343 → **@alex_prompter 2112697289043034358**（00:07:40Z）；chat_delivery: delivered ✅（WakeParent）；md5 736b04f7 live PASS tip 584d597→9ac1878；escalate no；evidence raw/2026-10-20/20-meta.md  2026-10-21 08:24 CST
+
+## 2026-10-20 20:25 ET 健康检查
+
+- [x] 2026-10-20 20:25 ET 健康检查（~20:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 c3a32b9b **complete** 10-20 第六版 **81/50/499** md5 **736b04f7** root==days==site==live PASS；chat ✅ ~08:25 CST；cursor @alex_prompter 2112697289043034358；lists Oct20 done no catchup；next main 00:00 ET（10-20 完整页）；escalate no；stay_quiet。
+
+## 2026-10-20 21:25 ET 健康检查
+
+- [x] 2026-10-20 21:25 ET 健康检查（~21:33 ET late ~8min）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 c3a32b9b **complete** 10-20 第六版 **81/50/499** md5 **736b04f7** root==days==live PASS；chat ✅ ~08:25 CST；cursor @alex_prompter 2112697289043034358；lists Oct20 done no catchup；next main 00:00 ET（10-20 完整页）；escalate no；stay_quiet。  2026-10-21 09:33 CST
+
+## 2026-10-20 22:25 ET 健康检查
+
+- [x] 2026-10-20 22:25 ET 健康检查（~22:32 ET late ~7min）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 c3a32b9b **complete** 10-20 第六版 **81/50/499** md5 **736b04f7** root==days==live PASS（两个 live URL 均复验）；chat ✅ ~08:25 CST；cursor @alex_prompter 2112697289043034358；lists Oct20 done（156/@yetone，书签 176/@0xlangeai）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 00:00 ET（10-20 完整页）；escalate no；stay_quiet；evidence raw/2026-10-20/22-25-health.md  2026-10-21 10:32 CST
+
+## 2026-10-20 23:25 ET 健康检查
+
+- [x] 2026-10-20 23:25 ET 健康检查（~23:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 c3a32b9b **complete** 10-20 第六版 **81/50/499** md5 **736b04f7** root==days==live PASS（两个 live URL 均复验）；chat ✅ ~08:25 CST；cursor @alex_prompter 2112697289043034358；lists Oct20 done（156/@yetone，书签 176/@0xlangeai）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 00:00 ET（10-20 完整页）；escalate no；stay_quiet；evidence raw/2026-10-20/23-25-health.md  2026-10-21 11:29 CST
+
+## 2026-10-21 00:10 ET 补抓
+
+- [x] 2026-10-21 00:10 ET 补抓（cdf0cd43，~00:17 ET late ~7min）：**deferred_to_main** — 00 主窗 c3a32b9b in_progress（started ~00:13 ET；raw/2026-10-21/00 scrape/dom/union/tco 已生成，overlay_resume --hh 00 pid 477062 存活）；20 主窗 complete 10-20 81/50/499 md5 736b04f7 无缺口；cursor 仍 @alex_prompter 2112697289043034358（待 00 主窗推进）；未重抓/未动 CDP/页面/chat；escalate no；grok-ops 同步留给下次健康检查。  2026-10-21 12:17 CST
+
+## 2026-10-21 00:25 ET 健康检查
+
+- [x] 2026-10-21 00:25 ET 健康检查（x-3 960034de，~00:26 ET late ~1min）：quiet_ok **true**；cdp9226 ok（already up）；watchdog exit 0（checked 1：10-21/00 in_progress，overlay_resume --hh 00 pid 477062 存活，idle 0.1min，stalled false）；00 主窗 c3a32b9b **in_progress**（未抢 9226、未干预）；20 主窗 complete 10-20 81/50/499 md5 736b04f7；cursor @alex_prompter 2112697289043034358（待 00 主窗推进）；lists Oct21 未到点（09:23 ET）no catchup；无重复抓取/旧调度冲突/overdue gap；escalate no；stay_quiet。  2026-10-21 12:26 CST
