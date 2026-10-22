@@ -10383,3 +10383,15 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-22 08:25 ET 健康检查
 - [x] 2026-10-22 08:25 ET 健康检查（x-3 960034de，~08:27 ET late ~2min）：quiet_ok **true**；cdp9226 ok（already up，pid 17643；08 主窗 overlay 占用 **not stolen**）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 1：10-22/08 in_progress，overlay_resume --hh 08 pid 20815 存活 ~[80/177]，idle 0.3min not stalled）；08 主窗 c3a32b9b **in_progress**（union177 gap7.05 hit_cursor；overlay mid ~80/177；未抢 9226、未干预）；04 主窗 complete 10-22 第一版 **15/12/141** md5 **7131acf2** root==days==site==index==live PASS（四个 live URL 均复验）；chat ✅ ~16:48 CST；cursor @cellinlab 2113181729724956826；08:10 补抓 deferred_to_main；lists Oct21 已正点完成（156/176 未变）no catchup；Oct22 未到点（09:23 ET）；无重复抓取/旧调度冲突/overdue gap；next main 12:00 ET（08 收尾后）；escalate no；stay_quiet；evidence raw/2026-10-22/08-25-health.md  2026-10-22 20:27 CST
+
+## 2026-10-22 08:00 ET main（c3a32b9b executor）
+- status: complete；fire ~08:14 ET late ~14min；prior @cellinlab 2113181729724956826
+- scrape: HTL173 HIT CURSOR + DOM39 → union177；gap_prior_to_oldest_new_min 7.05；gap_open false；oldest @gavinzhou 2113183504326684716 08:19:43Z；newest @dontbesilent 2113243106355396750 12:16:33Z
+- overlay: id_gate PASS；accept 124/177=70.1% stop_reason=completed attempted=177；reply_parent_dup 27；CDP 还回 home
+- depollute restored 0；language_gate 回退 3（alex_prompter/grok/yanhua1010 串译）
+- classify: heur 54/14/109 → manual → window 正文25 / 拿不准22 / 已过滤130 miss=0
+- page: 33/31/271 md5 56c110d9c48e899badf78aefc8a6f397 live PASS（root=days）；不并 rec/ideas
+- cursor: @cellinlab 2113181729724956826 → @dontbesilent 2113243106355396750
+- chat_delivery: pending_parent
+- next: 2026-10-22 12:00 ET
+
