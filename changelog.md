@@ -10419,7 +10419,20 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: heur → manual → window 正文31 / 拿不准18 / 已过滤123 miss=0（45 overrides）
 - page: 59/48/394 md5 cab03cbe9226469465e0836c3c23beb9 live PASS（root=days；tip d6e0bce；Pages 排队约 6min 后 built）；不并 rec/ideas
 - cursor: @dontbesilent 2113243106355396750 → @levelsio 2113301783699206607
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ ~00:48 CST（WakeParent）
 - chat_line: 10/22 更新：正文59 / 拿不准48 / 已过滤394。https://t512192641.github.io/x-following/2026-10-22.html
 - next: 2026-10-22 16:00 ET
 - escalate: no；evidence raw/2026-10-22/12-meta.md  2026-10-23 00:45 CST
+
+## 2026-10-22 13:25 ET 健康检查
+- [x] 2026-10-22 13:25 ET 健康检查（x-3 960034de，~13:30 ET late ~5min）：quiet_ok **true**；**cdp9226 launched pid 112173**（up after 2s 2026-10-23 01:30:11 CST；:9226 此前未起 / 原 pid 65627 已退出；原 profile 直连拉起，未设 CDP_PROXY，未清 cookie、未重登）；login_ok auth_token/ct0/twid（cookie DB + /json/list「Home / X」；WS evaluate article=7 时间线非空）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；12 主窗 c3a32b9b **complete** 10-22 更新 **59/48/394** md5 **cab03cbe** root==days==live PASS（三个日页 URL 均复验）；**index 漂移** local/未推 **cab03cbe** vs github main + live index/`/` 仍 **56c110d9**（08 窗；12 窗未推 index）— 本检查只记录不代推；chat ✅ ~00:48 CST（本条收口 board/12-meta pending→delivered）；cursor @levelsio 2113301783699206607；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET；escalate no；向幕僚长一句（launched+index FYI，priority false）；stay_quiet；evidence raw/2026-10-22/13-25-health.md  2026-10-23 01:31 CST
+
+## 2026-10-22 14:25 ET 健康检查
+- [x] 2026-10-22 14:25 ET 健康检查（x-3 960034de，~14:35 ET late ~10min）：quiet_ok **true**；**cdp9226 launched pid 139225**（up after 1s 2026-10-23 02:35:06 CST；:9226 此前未起 / 原 pid 112173 已退出；原 profile 直连拉起，未设 CDP_PROXY，未清 cookie、未重登）；login_ok auth_token/ct0/twid（cookie DB + /json/list「主页 / X」；WS evaluate article=6 时间线非空）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；12 主窗 c3a32b9b **complete** 10-22 更新 **59/48/394** md5 **cab03cbe** root==days==live PASS（三个日页 URL 均复验）；**index 漂移** local/未推 **cab03cbe** vs github main + live index/`/` 仍 **56c110d9**（08 窗；12 窗未推 index）— 本检查只记录不代推；chat ✅ ~00:48 CST；cursor @levelsio 2113301783699206607；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET；escalate no；向幕僚长一句（launched+index FYI，priority false）；stay_quiet；evidence raw/2026-10-22/14-25-health.md  2026-10-23 02:36 CST
+
+
+## 2026-10-22 15:25 ET 健康检查
+- [x] 2026-10-22 15:25 ET 健康检查（x-3，~15:28 ET late ~3–4min）：quiet_ok **true**；**cdp9226 launched pid 170077**（up after 1s 2026-10-23 03:29:10 CST；:9226 此前未起 / 原 pid 139225 已退出；原 profile 直连拉起，未设 CDP_PROXY，未清 cookie、未重登）；login_ok auth_token/ct0/twid（cookie DB + /json/list「主页 / X」；WS remote-allow-origins 403）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；12 主窗 c3a32b9b **complete** 10-22 更新 **59/48/394** md5 **cab03cbe** root==days==live PASS（三个日页 URL 均复验）；**index 漂移** local/未推 **cab03cbe** vs github main + live index/`/` 仍 **56c110d9**（08 窗；12 窗未推 index）— 本检查只记录不代推；chat ✅ ~00:48 CST；cursor @levelsio 2113301783699206607；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；Oct23 未到点；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET；escalate no；向幕僚长一句（launched+index FYI，priority false）；stay_quiet；evidence raw/2026-10-22/15-25-health.md  2026-10-23 03:29:59 CST
+
+## 2026-10-22 16:10 ET 补抓
+- [x] 2026-10-22 16:10 ET 补抓（cdf0cd43，~16:14 ET late ~4min）：**deferred_to_main**；16 主窗 c3a32b9b 已 in_progress（fire ≈16:11 ET late ~11min；union **84** HTL79/DOM12 gap **1.0min** closed HIT CURSOR login_ok；overlay_resume --hh 16 pid 198893 存活 early [~26/84]）；prior 12 complete 10-22 更新 **59/48/394** md5 **cab03cbe** live PASS 无 hole；00/04/08/12 gap_open false；watchdog exit 0（checked 1 not stalled）；CDP :9226 pid 170077 **not stolen**；cursor still @levelsio 2113301783699206607；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-22/16-10-catchup.md`。  2026-10-23 04:15 CST
