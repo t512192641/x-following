@@ -10392,6 +10392,21 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - classify: heur 54/14/109 → manual → window 正文25 / 拿不准22 / 已过滤130 miss=0
 - page: 33/31/271 md5 56c110d9c48e899badf78aefc8a6f397 live PASS（root=days）；不并 rec/ideas
 - cursor: @cellinlab 2113181729724956826 → @dontbesilent 2113243106355396750
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ ~20:49 CST（WakeParent）
 - next: 2026-10-22 12:00 ET
+- escalate: no；evidence raw/2026-10-22/08-meta.md  2026-10-22 20:49 CST
 
+## 2026-10-22 09:25 ET 健康检查
+- [x] 2026-10-22 09:25 ET 健康检查（x-3 960034de，~09:27 ET late ~2min）：quiet_ok **true**；**cdp9226 launched pid 50308**（up after 2s 2026-10-22 21:27:35 CST；:9226 此前未起 / 原 pid 17643 已退出；原 profile 直连拉起，未设 CDP_PROXY，未清 cookie、未重登）；login_ok auth_token/ct0/twid（cookie DB + /json/list「Home / X」；WS remote-allow-origins 403）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；08 主窗 c3a32b9b **complete** 10-22 更新 **33/31/271** md5 **56c110d9** root==days==site==index==live PASS（四个 live URL 均复验）；chat ✅ ~20:49 CST；cursor @dontbesilent 2113243106355396750；lists Oct21 已正点完成（156/176 未变）no catchup；Oct22 09:23 宽限内（10:25 复核）；无重复抓取/旧调度冲突/overdue gap；next main 12:00 ET；escalate no；向幕僚长一句（launched，priority false）；stay_quiet；evidence raw/2026-10-22/09-25-health.md  2026-10-22 21:28 CST
+
+## 2026-10-22 10:25 ET 健康检查
+- [x] 2026-10-22 10:25 ET 健康检查（x-3 960034de，~10:27 ET late ~2min）：quiet_ok **true**；**cdp9226 launched pid 65627**（up after 1s 2026-10-22 22:27:56 CST；:9226 此前未起 / 原 pid 50308 已退出；原 profile 直连拉起，未设 CDP_PROXY，未清 cookie、未重登）；login_ok auth_token/ct0/twid（cookie DB + /json/list「主页 / X」；WS remote-allow-origins 403）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；08 主窗 c3a32b9b **complete** 10-22 更新 **33/31/271** md5 **56c110d9** root==days==index==live PASS（三个 live URL 均复验）；chat ✅ ~20:49 CST；cursor @dontbesilent 2113243106355396750；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 12:00 ET；escalate no；向幕僚长一句（launched，priority false）；stay_quiet；evidence raw/2026-10-22/10-25-health.md  2026-10-22 22:29 CST
+
+## 2026-10-22 11:25 ET 健康检查
+- [x] 2026-10-22 11:25 ET 健康检查（x-3 960034de，~11:30 ET late ~5min）：quiet_ok **true**；cdp9226 ok（already up，pid 65627；idle 主页 **not stolen**）；login_ok auth_token/ct0/twid（cookie DB + /json/list「主页 / X」）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；08 主窗 c3a32b9b **complete** 10-22 更新 **33/31/271** md5 **56c110d9** root==days==index==live PASS（三个 live URL 均复验）；chat ✅ ~20:49 CST；cursor @dontbesilent 2113243106355396750；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 12:00 ET；escalate no；stay_quiet；evidence raw/2026-10-22/11-25-health.md  2026-10-22 23:32 CST
+
+## 2026-10-22 12:10 ET 补抓
+- [x] 2026-10-22 12:10 ET 补抓（cdf0cd43，~12:18 ET late ~8min）：**deferred_to_main**；12 主窗 c3a32b9b 已 in_progress（fire ≈12:07 ET late ~7min；union **172** HTL165/DOM43 gap **1.0min** closed HIT CURSOR login_ok；overlay_resume --hh 12 pid 74783 存活 mid [~86/172]）；prior 08 complete 10-22 更新 **33/31/271** md5 **56c110d9** live PASS 无 hole；00/04/08 gap_open false；watchdog exit 0（checked 1 not stalled）；CDP :9226 pid 65627 **not stolen**；cursor still @dontbesilent 2113243106355396750；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-22/12-10-catchup.md`。  2026-10-23 00:18 CST
+
+## 2026-10-22 12:25 ET 健康检查
+- [x] 2026-10-22 12:25 ET 健康检查（x-3 960034de，~12:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok（already up，pid 65627；12 主窗后半段 **not stolen**）；login_ok auth_token/ct0/twid（cookie DB + /json/list「Home / X」）；watchdog exit 0（checked 1：10-22/12 in_progress，overlay 刚完成 122/172=70.9%，idle 0.6min not stalled）；12 主窗 c3a32b9b **in_progress**（union172 gap1.0 hit_cursor；未抢 9226、未干预）；08 主窗 complete 10-22 更新 **33/31/271** md5 **56c110d9** root==days==index==live PASS（四个 live URL 均复验）；chat ✅ ~20:49 CST；cursor @dontbesilent 2113243106355396750；12:10 补抓 deferred_to_main；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET（12 收尾后）；escalate no；stay_quiet；evidence raw/2026-10-22/12-25-health.md  2026-10-23 00:30 CST
