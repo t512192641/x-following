@@ -10300,4 +10300,20 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-21 16:00 ET 主窗
 
-- [x] 2026-10-21 16:00 ET 主窗 **complete**（c3a32b9b，fire ≈16:09 ET late ~9min）：HTL **116**（raw_store 290；**HIT CURSOR**）/ DOM **37** → union **126** gap **0.35min** closed；overlay **77/126=61.1%** completed，reply_parent_dup 13，reject_href 36；depollute restored 0；窗类 正文 **18** / 拿不准 **30** / 已过滤 **78** miss 0（46 overrides；并原卡 PHP2Shell/Topview T1/樱井；新卡 Claude Duet、Moose、LBO prompts、WAN 3.0 价差、Bark 3.0、Factory×Jira、Mirendil；Jason 政治/招聘/alex 营销引流 → 已过滤或拿不准）；page 10-21 更新 **47/61/415**（12 版 40/33/337 + 7 新正文卡 + 28 拿不准卡 + 78）；QA pass clippedBtns 0（raw/2026-10-21/16-qa.png）；md5 **afb96baa** root==days==site==index==live PASS tip 9bdd364 → index commit 862e8bd；cursor @xiangqishi 2112938930404548792 → **@danshipper 2113000172577755602**（2026-10-21T20:11:13Z）；chat_delivery: pending_parent；next 2026-10-21 20:00 ET；escalate no；evidence raw/2026-10-21/16-meta.md  2026-10-22 04:35 CST
+- [x] 2026-10-21 16:00 ET 主窗 **complete**（c3a32b9b，fire ≈16:09 ET late ~9min）：HTL **116**（raw_store 290；**HIT CURSOR**）/ DOM **37** → union **126** gap **0.35min** closed；overlay **77/126=61.1%** completed，reply_parent_dup 13，reject_href 36；depollute restored 0；窗类 正文 **18** / 拿不准 **30** / 已过滤 **78** miss 0（46 overrides；并原卡 PHP2Shell/Topview T1/樱井；新卡 Claude Duet、Moose、LBO prompts、WAN 3.0 价差、Bark 3.0、Factory×Jira、Mirendil；Jason 政治/招聘/alex 营销引流 → 已过滤或拿不准）；page 10-21 更新 **47/61/415**（12 版 40/33/337 + 7 新正文卡 + 28 拿不准卡 + 78）；QA pass clippedBtns 0（raw/2026-10-21/16-qa.png）；md5 **afb96baa** root==days==site==index==live PASS tip 9bdd364 → index commit 862e8bd；cursor @xiangqishi 2112938930404548792 → **@danshipper 2113000172577755602**（2026-10-21T20:11:13Z）；chat_delivery: delivered ✅ ~04:37 CST（WakeParent）；next 2026-10-21 20:00 ET；escalate no；evidence raw/2026-10-21/16-meta.md  2026-10-22 04:35 CST
+
+## 2026-10-21 17:25 ET 健康检查
+
+- [x] 2026-10-21 17:25 ET 健康检查（x-3 960034de，~17:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-21 更新 **47/61/415** md5 **afb96baa** root==days==site==index==live PASS（三个 live URL 均复验）；chat ✅ ~04:37 CST（本条把 16:00 changelog/board pending_parent→delivered）；cursor @danshipper 2113000172577755602；lists Oct21 已正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 20:00 ET；escalate no；stay_quiet；evidence raw/2026-10-21/17-25-health.md  2026-10-22 05:33 CST
+
+## 2026-10-21 18:25 ET 健康检查
+
+- [x] 2026-10-21 18:25 ET 健康检查（x-3 960034de，~18:30 ET late ~6min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-21 更新 **47/61/415** md5 **afb96baa** root==days==site==index==live PASS（三个 live URL 均复验）；chat ✅ ~04:37 CST；cursor @danshipper 2113000172577755602；lists Oct21 已正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 20:00 ET；escalate no；stay_quiet；evidence raw/2026-10-21/18-25-health.md  2026-10-22 06:31 CST
+
+## 2026-10-21 19:25 ET 健康检查
+
+- [x] 2026-10-21 19:25 ET 健康检查（x-3 960034de，~19:26 ET late ~1min）：quiet_ok **true**；cdp9226 ok（already up，pid 6460）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-21 更新 **47/61/415** md5 **afb96baa** root==days==site==index==live PASS（三个 live URL 均复验）；chat ✅ ~04:37 CST；cursor @danshipper 2113000172577755602；lists Oct21 已正点完成（156/176 未变）no catchup；Oct22 未到点；无重复抓取/旧调度冲突/overdue gap；next main 20:00 ET；escalate no；stay_quiet；evidence raw/2026-10-21/19-25-health.md  2026-10-22 07:26 CST
+
+## 2026-10-21 20:10 ET 补抓
+
+- [x] 2026-10-21 20:10 ET 补抓（cdf0cd43，~20:19 ET late ~9min）：**deferred_to_main**；20 主窗 c3a32b9b 已 in_progress（fire ≈20:07 ET late ~7min；union **114** HTL112/DOM38 gap **19.7min** closed HIT CURSOR login_ok；overlay_resume --hh 20 pid 136377 存活 mid [68/114]）；prior 16 complete 10-21 更新 **47/61/415** md5 **afb96baa** live PASS 无 hole；00/04/08/12/16 gap_open false；watchdog exit 0（checked 1 not stalled）；cursor still @danshipper 2113000172577755602；rec/ideas 交主窗并；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-21/20-10-catchup.md`。  2026-10-22 08:19 CST
