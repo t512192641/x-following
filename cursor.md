@@ -1,7 +1,8 @@
 # cursor
 
-- handle: @dontbesilent
-- status_id: 2113243106355396750
-- url: https://x.com/dontbesilent/status/2113243106355396750
-- time_utc: 2026-10-22T12:16:33.000Z
-- updated_window: 2026-10-22 08:00 ET
+- handle: @levelsio
+- status_id: 2113301783699206607
+- url: https://x.com/levelsio/status/2113301783699206607
+- time_utc: 2026-10-22T16:09:43.000Z
+- updated_window: 2026-10-22 12:00 ET
+

@@ -10410,3 +10410,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-22 12:25 ET 健康检查
 - [x] 2026-10-22 12:25 ET 健康检查（x-3 960034de，~12:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok（already up，pid 65627；12 主窗后半段 **not stolen**）；login_ok auth_token/ct0/twid（cookie DB + /json/list「Home / X」）；watchdog exit 0（checked 1：10-22/12 in_progress，overlay 刚完成 122/172=70.9%，idle 0.6min not stalled）；12 主窗 c3a32b9b **in_progress**（union172 gap1.0 hit_cursor；未抢 9226、未干预）；08 主窗 complete 10-22 更新 **33/31/271** md5 **56c110d9** root==days==index==live PASS（四个 live URL 均复验）；chat ✅ ~20:49 CST；cursor @dontbesilent 2113243106355396750；12:10 补抓 deferred_to_main；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；无重复抓取/旧调度冲突/overdue gap；next main 16:00 ET（12 收尾后）；escalate no；stay_quiet；evidence raw/2026-10-22/12-25-health.md  2026-10-23 00:30 CST
+
+## 2026-10-22 12:00 ET main（c3a32b9b executor）
+- status: complete；fire ~12:07 ET late ~7min；prior @dontbesilent 2113243106355396750
+- scrape: HTL165 HIT CURSOR + DOM43 → union172；gap_prior_to_oldest_new_min 1.0；gap_open false；oldest @agazdecki 2113243358609191222 12:17:33Z；newest @levelsio 2113301783699206607 16:09:43Z
+- overlay: id_gate PASS；accept 122/172=70.9% stop_reason=completed attempted=172；reply_parent_dup 17；reject_href 33；CDP 还回 home
+- depollute restored 2（grok/GrokBotRadar 保存量串帖）；language_gate 回退 4（levelsio/FactoryAI/SahilBloom/yucheng 同内容异语言）
+- classify: heur → manual → window 正文31 / 拿不准18 / 已过滤123 miss=0（45 overrides）
+- page: 59/48/394 md5 cab03cbe9226469465e0836c3c23beb9 live PASS（root=days；tip d6e0bce；Pages 排队约 6min 后 built）；不并 rec/ideas
+- cursor: @dontbesilent 2113243106355396750 → @levelsio 2113301783699206607
+- chat_delivery: pending_parent
+- chat_line: 10/22 更新：正文59 / 拿不准48 / 已过滤394。https://t512192641.github.io/x-following/2026-10-22.html
+- next: 2026-10-22 16:00 ET
+- escalate: no；evidence raw/2026-10-22/12-meta.md  2026-10-23 00:45 CST
