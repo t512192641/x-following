@@ -10436,3 +10436,42 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-22 16:10 ET 补抓
 - [x] 2026-10-22 16:10 ET 补抓（cdf0cd43，~16:14 ET late ~4min）：**deferred_to_main**；16 主窗 c3a32b9b 已 in_progress（fire ≈16:11 ET late ~11min；union **84** HTL79/DOM12 gap **1.0min** closed HIT CURSOR login_ok；overlay_resume --hh 16 pid 198893 存活 early [~26/84]）；prior 12 complete 10-22 更新 **59/48/394** md5 **cab03cbe** live PASS 无 hole；00/04/08/12 gap_open false；watchdog exit 0（checked 1 not stalled）；CDP :9226 pid 170077 **not stolen**；cursor still @levelsio 2113301783699206607；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-22/16-10-catchup.md`。  2026-10-23 04:15 CST
+
+## 2026-10-22 16:00 ET main（c3a32b9b executor）
+- status: complete；fire ~16:11 ET late ~11min；prior @levelsio 2113301783699206607
+- scrape: HTL79 HIT CURSOR + DOM12 → union84；gap_prior_to_oldest_new_min 1.02；gap_open false；oldest @ChrisJBakke 2113302042580320326 16:10:44Z；newest @thejustinwelsh 2113362346189959232 20:10:22Z
+- overlay: id_gate PASS；accept 51/84=60.7% stop_reason=completed attempted=84；reply_parent_dup 9；reject_href 24；CDP 还回 home
+- depollute restored 2；language_gate 回退 0
+- classify: heur → manual → window 正文17 / 拿不准8 / 已过滤59 miss=0（30 overrides）
+- page: 76/56/453 md5 f3150ccd37a7b0bf60422ec397a93ee3 live PASS（root=days；tip 0240a51）；不并 rec/ideas
+- INDEX FYI: github/live index 仍 56c110d9（本窗 publish 日页已推；未单独乱推 index）
+- cursor: @levelsio 2113301783699206607 → @thejustinwelsh 2113362346189959232
+- chat_delivery: pending_parent
+- chat_line: 10/22 更新：正文76 / 拿不准56 / 已过滤453。https://t512192641.github.io/x-following/2026-10-22.html
+- next: 2026-10-22 20:00 ET
+- escalate: no；evidence raw/2026-10-22/16-meta.md  2026-10-23 04:23 CST
+
+## 2026-10-22 16:25 ET 健康检查
+- [x] 2026-10-22 16:25 ET 健康检查（x-3 960034de，~16:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok pid **170077**（already up；原 profile 直连；未设 CDP_PROXY；未抢未重启）；login_ok auth_token/ct0/twid（cookie DB + /json/list x.com/home）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-22 更新 **76/56/453** md5 **f3150ccd** root==days==live PASS（日页 local+live 复验）；**index** local/site/github/live 均 **56c110d9**（08；日页已 16 版 f3150ccd）— 已知，本检查只记录不代推；chat ✅ ~04:24 CST；cursor @thejustinwelsh 2113362346189959232；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；Oct23 未到点；无重复抓取/旧调度冲突/overdue gap；next main 20:00 ET；escalate no；stay_quiet；evidence raw/2026-10-22/16-25-health.md  2026-10-23 04:30 CST
+
+## 2026-10-22 17:25 ET 健康检查
+- [x] 2026-10-22 17:25 ET 健康检查（x-3 960034de，~17:28 ET late ~3min）：quiet_ok **true**；cdp9226 ok pid **170077**（already up；原 profile 直连；未设 CDP_PROXY；未抢未重启）；login_ok auth_token/ct0/twid（cookie DB + /json/list x.com/home）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-22 更新 **76/56/453** md5 **f3150ccd** root==days==live PASS（日页 local+live 复验）；**index** local/github/live 均 **56c110d9**（08；日页已 16 版 f3150ccd）— 已知，本检查只记录不代推；chat ✅ ~04:24 CST；cursor @thejustinwelsh 2113362346189959232；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；Oct23 未到点；无重复抓取/旧调度冲突/overdue gap；next main 20:00 ET；escalate no；stay_quiet；evidence raw/2026-10-22/17-25-health.md  2026-10-23 05:28 CST
+
+## 2026-10-22 18:25 ET 健康检查
+
+- [x] 2026-10-22 18:25 ET 健康检查（x-3 960034de，~18:26 ET late ~1min）：quiet_ok **true**；cdp9226 ok pid **170077**（already up；直连；未抢）；login_ok auth_token/ct0/twid（cookie DB + /json/list x.com/home）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-22 更新 **76/56/453** md5 **f3150ccd** root==days==live PASS；**index** local/github/live 均 **56c110d9**（08；日页已 16 版）记已知不代推；chat ✅ ~04:24 CST；cursor @thejustinwelsh 2113362346189959232；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；Oct23 未到点；无重复抓取/旧调度冲突/overdue gap；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-22/18-25-health.md  2026-10-23 06:27 CST
+
+
+## 2026-10-22 19:25 ET 健康检查
+
+- [x] 2026-10-22 19:25 ET 健康检查（x-3 960034de，~19:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok pid **170077**（already up；直连；未抢）；login_ok auth_token/ct0/twid（cookie DB + /json/list x.com/home）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-22 更新 **76/56/453** md5 **f3150ccd** root==days==live PASS；**index** local/github/live 均 **56c110d9**（08；日页已 16 版）记已知不代推；chat ✅ ~04:24 CST；cursor @thejustinwelsh 2113362346189959232；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；Oct23 未到点；无重复抓取/旧调度冲突/overdue gap；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-22/19-25-health.md  2026-10-23 07:32 CST
+
+## 2026-10-22 20:10 ET 补抓
+- [x] 2026-10-22 20:10 ET 补抓（cdf0cd43，~20:16 ET late ~6min）：**deferred_to_main**；20 主窗 c3a32b9b 已 in_progress（fire ≈20:13 ET late ~13min；union **106** HTL101/DOM31 gap **1.6min** closed HIT CURSOR login_ok；overlay_resume --hh 20 pid 221701 存活 early [12/106]）；prior 16 complete 10-22 更新 **76/56/453** md5 **f3150ccd** live PASS 无 hole；00/04/08/12/16 gap_open false；watchdog exit 0（checked 1 not stalled）；CDP :9226 pid 170077 **not stolen**；cursor still @thejustinwelsh 2113362346189959232；rec/ideas 已到（主窗并，补抓不重复）；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-22/20-10-catchup.md`。  2026-10-23 08:17 CST
+
+## 2026-10-22 20:25 ET 健康检查
+- [x] 2026-10-22 20:25 ET 健康检查（x-3 960034de，~20:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok pid **170077**（already up；20 主窗占用 **not stolen**）；login_ok auth_token/ct0/twid（cookie DB + /json/list x.com/home）；watchdog exit 0（checked 1：10-22/20 in_progress，overlay 完成 idle ≤1.3min not stalled）；20 主窗 c3a32b9b **in_progress**（union106 gap1.6 HIT；overlay 67/106=63.2%；窗类31/10/65 miss0；merge 已开写）；prior 16 complete 10-22 更新 **76/56/453** md5 **f3150ccd** root==days==live PASS；**index** local/github/live 均 **56c110d9**（08；日页已 16 版）记已知不代推；cursor 仍 @thejustinwelsh 2113362346189959232；20:10 补抓 deferred_to_main；lists Oct21+Oct22 已由 x-4 正点完成（156/176 未变）no catchup；Oct23 未到点；无重复抓取/旧调度冲突/overdue gap；next main 00:00 ET（20 收尾后）；escalate no；stay_quiet；evidence raw/2026-10-22/20-25-health.md  2026-10-23 08:33 CST
+
+## 2026-10-22 20:00 ET 主窗
+
+- [ ] 2026-10-22 20:00 ET 主窗（c3a32b9b）：union **106** (HTL101/DOM31) gap **1.6min** HIT CURSOR gap_open=false；overlay **67/106=63.2%** reply_parent_dup10；depollute restored0；窗类 **正文31 / 拿不准10 / 已过滤65** miss0；日页 **108/65/518** md5 **c0d74327**（在16版76/56/453上合并；rec 7new+2merge / ideas3）；QA clippedBtns=0；publish pending；cursor @thejustinwelsh→@alex_prompter 2113423711273701439；chat_delivery pending_parent；escalate no。

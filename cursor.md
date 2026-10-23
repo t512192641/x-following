@@ -1,8 +1,7 @@
 # cursor
 
-- handle: @levelsio
-- status_id: 2113301783699206607
-- url: https://x.com/levelsio/status/2113301783699206607
-- time_utc: 2026-10-22T16:09:43.000Z
-- updated_window: 2026-10-22 12:00 ET
-
+- handle: @alex_prompter
+- status_id: 2113423711273701439
+- url: https://x.com/alex_prompter/status/2113423711273701439
+- time_utc: 2026-10-23T00:14:12.000Z
+- updated_window: 2026-10-22 20:00 ET
