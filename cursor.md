@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @alex_prompter
-- status_id: 2113423711273701439
-- url: https://x.com/alex_prompter/status/2113423711273701439
-- time_utc: 2026-10-23T00:14:12.000Z
-- updated_window: 2026-10-22 20:00 ET
+- handle: @indie_maker_fox
+- status_id: 2113483133958201733
+- url: https://x.com/indie_maker_fox/status/2113483133958201733
+- time_utc: 2026-10-23T04:10:20.000Z
+- updated_window: 2026-10-23 00:00 ET
