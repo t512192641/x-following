@@ -1,7 +1,9 @@
 # cursor
 
-- handle: @430Yang
-- status_id: 2113604573524787399
-- url: https://x.com/430Yang/status/2113604573524787399
-- time_utc: 2026-10-23T12:12:53.000Z
-- updated_window: 2026-10-23 08:00 ET
+- handle: @PandaTalk8
+- status_id: `2113666377357877651`
+- url: https://x.com/PandaTalk8/status/2113666377357877651
+- time_utc: 2026-10-23T16:18:29.000Z
+- updated_window: 2026-10-23 12:00 ET
+- gap_open: false
+- prior: @430Yang 2113604573524787399
