@@ -10474,4 +10474,4 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-22 20:00 ET 主窗
 
-- [ ] 2026-10-22 20:00 ET 主窗（c3a32b9b）：union **106** (HTL101/DOM31) gap **1.6min** HIT CURSOR gap_open=false；overlay **67/106=63.2%** reply_parent_dup10；depollute restored0；窗类 **正文31 / 拿不准10 / 已过滤65** miss0；日页 **108/65/518** md5 **c0d74327**（在16版76/56/453上合并；rec 7new+2merge / ideas3）；QA clippedBtns=0；publish pending；cursor @thejustinwelsh→@alex_prompter 2113423711273701439；chat_delivery pending_parent；escalate no。
+- [x] 2026-10-22 20:00 ET 主窗（c3a32b9b）：union **106** (HTL101/DOM31) gap **1.6min** HIT CURSOR gap_open=false；overlay **67/106=63.2%** reply_parent_dup10；depollute restored0；窗类 **正文31 / 拿不准10 / 已过滤65** miss0；日页 **108/65/518** md5 **c0d7432702bffe6f93bd12c7ade312cb** tip **440e408** / index **02f70d4** live PASS（root==days==live==index）；rec 7new+2merge / ideas3；QA clippedBtns=0；cursor @thejustinwelsh→@alex_prompter 2113423711273701439；chat_delivery **pending_parent**；escalate no；evidence raw/2026-10-22/20-meta.md。  2026-10-23 08:50 CST
