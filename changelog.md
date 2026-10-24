@@ -10585,3 +10585,12 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-23 20:10 ET 补抓
 - [x] 2026-10-23 20:10 ET 补抓（cdf0cd43，~20:14 ET late ~4–5min）：**deferred_to_main**；20 主窗 c3a32b9b 已 in_progress（fire ≈20:07 ET late ~7min；claim 08:08 CST；union **66** HTL65/DOM17 gap **18.55** closed HIT CURSOR；overlay_resume pid 251846 mid ~60/66）；prior 16 complete 10-23 更新 **102/46/322** md5 **13e64a0f** live PASS 无 hole；00/04/08/12/16/20 gap_open false；CDP :9226 Chrome/156 pid 159985 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @Jason 2113720013123424260；rec/ideas latest 仍 10-22 交主窗收口后再判；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-23/20-10-catchup.md`。  2026-10-24 08:16 CST
+
+## 2026-10-23 20:00 ET main（c3a32b9b）complete
+- fire ≈20:07 ET late ~7min；union **66**（DOM17+HTL65）HIT CURSOR；gap **18.55** closed；overlay **42/66=63.6%** reject_href22 reply_parent_dup2
+- depollute restored0；窗类 正文**18** / 拿不准**4** / 已过滤**44** miss0；页累计 **116/50/366**
+- rec/ideas: **skipped_missing**（latest 仍 10-22；留给 20:10；勿再并 10-22）
+- cursor @Jason 2113720013123424260 → @bearliu **2113785078413209936**
+- publish tip **ec617fb** md5 **54e06c3e13bf0eadcd5c8354fd76a84a** live PASS；QA clippedBtns=0
+- chat_line: `10/23 更新：正文116 / 拿不准50 / 已过滤366。https://t512192641.github.io/x-following/2026-10-23.html`（pending_parent）
+- next: 2026-10-24 00:00 ET；escalate no
