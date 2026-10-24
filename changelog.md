@@ -10691,3 +10691,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-24 16:10 ET 补抓
 - [x] 2026-10-24 16:10 ET 补抓（cdf0cd43，~16:13 ET late ~3min）：**deferred_to_main**；16 主窗 c3a32b9b 已 in_progress（fire ≈16:08 ET late ~8min；claim 04:09 CST；union **41** HTL38/DOM17 gap **4.5** closed HIT CURSOR；overlay_resume pid 414968 ~[32/41]）；prior 12 complete 10-24 更新 **75/26/215** md5 **1280b0c6** live PASS 无 hole；00/04/08/12/16 gap_open false；CDP :9226 Chrome/156 pid 349540 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @dotey 2114027511512457349；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-24/16-10-catchup.md`。  2026-10-25 04:14 CST
+
+## 2026-10-24 16:00 ET main — complete
+- fire 2026-10-24T20:08:08.897Z (late ~8min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 38 HIT CURSOR; DOM 17; union 41 gap 4.5min closed
+- overlay 27/41=65.9% reply_parent_dup 1 reject_href 13; depollute restored 0
+- window 正文9 / 拿不准8 / 已过滤24 miss 0
+- page 84/34/239 md5 d930029de0d805ba1f2879ed6ff906df tip acad333 live PASS
+- cursor @dotey 2114027511512457349 → @agazdecki 2114082077381624254
+- chat_delivery: **pending_parent**
+- chat_line: 10/24 更新：正文84 / 拿不准34 / 已过滤239。https://t512192641.github.io/x-following/2026-10-24.html
+- rec_ideas: skipped（非 20:00）
+- escalate: no
+- evidence: raw/2026-10-24/16-meta.md  2026-10-25 04:20 CST
