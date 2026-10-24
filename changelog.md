@@ -10446,7 +10446,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page: 76/56/453 md5 f3150ccd37a7b0bf60422ec397a93ee3 live PASS（root=days；tip 0240a51）；不并 rec/ideas
 - INDEX FYI: github/live index 仍 56c110d9（本窗 publish 日页已推；未单独乱推 index）
 - cursor: @levelsio 2113301783699206607 → @thejustinwelsh 2113362346189959232
-- chat_delivery: pending_parent
+- chat_delivery: delivered ✅ ~2026-10-25 00:39 CST / 12:39 ET（WakeParent）
 - chat_line: 10/22 更新：正文76 / 拿不准56 / 已过滤453。https://t512192641.github.io/x-following/2026-10-22.html
 - next: 2026-10-22 20:00 ET
 - escalate: no；evidence raw/2026-10-22/16-meta.md  2026-10-23 04:23 CST
@@ -10676,6 +10676,18 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - window 正文44 / 拿不准8 / 已过滤83 miss 0
 - page 75/26/215 md5 1280b0c68e6da76ff68e10848a9bf2d6 tip 5ce0d41 live PASS
 - cursor @thejustinwelsh 2113964245595349443 → @dotey 2114027511512457349
-- chat_delivery: pending_parent
+- chat_delivery: **delivered ✅ ~2026-10-25 00:39 CST（WakeParent）**
 - chat_line: 10/24 更新：正文75 / 拿不准26 / 已过滤215。https://t512192641.github.io/x-following/2026-10-24.html
 - escalate: no
+
+## 2026-10-24 13:25 ET 健康检查
+- [x] 2026-10-24 13:25 ET 健康检查（x-3 960034de，~13:29–13:31 ET late ~4–5min）：quiet_ok **true**；cdp9226 ok pid **349540**（already up；06:25 拉起；未抢）；login_ok auth_token/ct0（CDP cookies + /json/list x.com/home + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-24 --hh 12/08/04/00` claim complete stalled false）；12 主窗 complete 10-24 更新 **75/26/215** md5 **1280b0c6** root==days==live PASS tip **5ce0d41**/c4afe05；**index** live 仍 **dbcfcb52**（04；本地 index 已 1280b0c6）记已知不代推；cursor @dotey **2114027511512457349**；chat ✅ ~00:39 CST；lists Oct21+22+23+**24** done **no catchup**；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-24/13-25-health.md  2026-10-25 01:31 CST
+
+## 2026-10-24 14:25 ET 健康检查
+- [x] 2026-10-24 14:25 ET 健康检查（x-3 960034de，~14:25–14:27 ET late ~0–1min）：quiet_ok **true**；cdp9226 ok pid **349540**（already up；06:25 拉起；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list x.com/home + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-24 --hh 12/08` claim complete stalled false）；12 主窗 complete 10-24 更新 **75/26/215** md5 **1280b0c6** root==days==site==live PASS tip **5ce0d41**/c4afe05；**index** live 仍 **dbcfcb52**（04；本地 index 已 1280b0c6）记已知不代推；cursor @dotey **2114027511512457349**；chat ✅ ~00:39 CST；lists Oct21+22+23+**24** done **no catchup**；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-24/14-25-health.md  2026-10-25 02:27 CST
+
+## 2026-10-24 15:25 ET 健康检查
+- [x] 2026-10-24 15:25 ET 健康检查（x-3 960034de，~15:29–15:31 ET late ~4–6min）：quiet_ok **true**；cdp9226 ok pid **349540**（already up；06:25 拉起；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list x.com/home + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-24 --hh 12/08` claim complete stalled false）；12 主窗 complete 10-24 更新 **75/26/215** md5 **1280b0c6** root==days==site==live PASS tip **5ce0d41**/c4afe05；**index** live 仍 **dbcfcb52**（04；本地 index 已 1280b0c6）记已知不代推；cursor @dotey **2114027511512457349**；chat ✅ ~00:39 CST；lists Oct21+22+23+**24** done **no catchup**；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-24/15-25-health.md  2026-10-25 03:31 CST
+
+## 2026-10-24 16:10 ET 补抓
+- [x] 2026-10-24 16:10 ET 补抓（cdf0cd43，~16:13 ET late ~3min）：**deferred_to_main**；16 主窗 c3a32b9b 已 in_progress（fire ≈16:08 ET late ~8min；claim 04:09 CST；union **41** HTL38/DOM17 gap **4.5** closed HIT CURSOR；overlay_resume pid 414968 ~[32/41]）；prior 12 complete 10-24 更新 **75/26/215** md5 **1280b0c6** live PASS 无 hole；00/04/08/12/16 gap_open false；CDP :9226 Chrome/156 pid 349540 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @dotey 2114027511512457349；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-24/16-10-catchup.md`。  2026-10-25 04:14 CST
