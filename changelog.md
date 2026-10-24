@@ -10668,3 +10668,14 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-24 12:25 ET 健康检查
 - [x] 2026-10-24 12:25 ET 健康检查（x-3 960034de，~12:27–12:28 ET late ~2–3min）：quiet_ok **true**；cdp9226 ok pid **349540**（already up；06:25 拉起；12 主窗占用 **not stolen**）；login_ok auth_token/ct0/twid（cookie DB + /json/list x.com tabs）；watchdog exit 0（checked 1：12 in_progress stalled false pid 386779；`--hh 12/08/04/00` complete/not stalled）；12 主窗 in_progress union **135** HIT gap12.93 overlay mid；08 complete 10-24 更新 **44/19/132** md5 **8e4f1779** root==days==index==live(day) PASS tip **0569d60**/72cb400；**index** live 仍 **dbcfcb52**（04；日页已 08）记已知不代推；cursor @thejustinwelsh **2113964245595349443**；lists Oct21+22+23+**24** done **no catchup**；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main 交 12 → **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-24/12-25-health.md  2026-10-25 00:28 CST
+
+## 2026-10-24 12:00 ET main — complete
+- fire 2026-10-24T16:14:42.830Z (late ~14min); executor full_main_window
+- HTL 131 HIT CURSOR; DOM 34; union 135 gap 12.93min closed
+- overlay 99/135=73.3% reply_parent_dup 11; depollute 0
+- window 正文44 / 拿不准8 / 已过滤83 miss 0
+- page 75/26/215 md5 1280b0c68e6da76ff68e10848a9bf2d6 tip 5ce0d41 live PASS
+- cursor @thejustinwelsh 2113964245595349443 → @dotey 2114027511512457349
+- chat_delivery: pending_parent
+- chat_line: 10/24 更新：正文75 / 拿不准26 / 已过滤215。https://t512192641.github.io/x-following/2026-10-24.html
+- escalate: no
