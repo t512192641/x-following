@@ -10583,14 +10583,31 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - [x] 2026-10-23 18:25 ET 健康检查（x-3 960034de，~18:26 ET late ~1min）：quiet_ok **true**；cdp9226 ok pid **159985**（already up；未抢）；login_ok auth_token/ct0/twid（cookie DB + /json/list「主页 / X」+ articles=5）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；16 主窗 c3a32b9b **complete** 10-23 更新 **102/46/322** md5 **13e64a0f** root==days==live PASS tip **5ac7dbd**；**index** site/github/live 仍 **7a13a6fa**（12；日页已 16 版）记已知不代推；cursor @Jason 2113720013123424260；chat ✅ ~04:36 CST；lists Oct21+Oct22+**Oct23** 已由 x-4 正点完成（156/176 未变）no catchup；Oct24 未到点；无重复抓取/旧调度冲突/overdue gap；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-23/18-25-health.md  2026-10-24 06:28:16 CST
 
 
+## 2026-10-23 19:25 ET 健康检查
+- [ ] 2026-10-23 19:25 ET 健康检查（x-3 960034de）：**调度漏叫 / 平台失败**（automation last_run failed ≈19:33 ET / 07:33 GMT+8；Activity task failed；无 raw/19-25-health.md）；18:25 已 quiet_ok、20:00 主窗完整完成、20:25 已覆盖核对；不补跑主窗、不打扰用户、不升任务卡；evidence raw/2026-10-23/19-25-health-miss.md  2026-10-24 08:31:30 CST
+
 ## 2026-10-23 20:10 ET 补抓
 - [x] 2026-10-23 20:10 ET 补抓（cdf0cd43，~20:14 ET late ~4–5min）：**deferred_to_main**；20 主窗 c3a32b9b 已 in_progress（fire ≈20:07 ET late ~7min；claim 08:08 CST；union **66** HTL65/DOM17 gap **18.55** closed HIT CURSOR；overlay_resume pid 251846 mid ~60/66）；prior 16 complete 10-23 更新 **102/46/322** md5 **13e64a0f** live PASS 无 hole；00/04/08/12/16/20 gap_open false；CDP :9226 Chrome/156 pid 159985 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @Jason 2113720013123424260；rec/ideas latest 仍 10-22 交主窗收口后再判；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-23/20-10-catchup.md`。  2026-10-24 08:16 CST
 
-## 2026-10-23 20:00 ET main（c3a32b9b）complete
-- fire ≈20:07 ET late ~7min；union **66**（DOM17+HTL65）HIT CURSOR；gap **18.55** closed；overlay **42/66=63.6%** reject_href22 reply_parent_dup2
-- depollute restored0；窗类 正文**18** / 拿不准**4** / 已过滤**44** miss0；页累计 **116/50/366**
-- rec/ideas: **skipped_missing**（latest 仍 10-22；留给 20:10；勿再并 10-22）
-- cursor @Jason 2113720013123424260 → @bearliu **2113785078413209936**
-- publish tip **ec617fb** md5 **54e06c3e13bf0eadcd5c8354fd76a84a** live PASS；QA clippedBtns=0
-- chat_line: `10/23 更新：正文116 / 拿不准50 / 已过滤366。https://t512192641.github.io/x-following/2026-10-23.html`（pending_parent）
-- next: 2026-10-24 00:00 ET；escalate no
+## 2026-10-23 20:00 ET 主窗
+
+- [x] 2026-10-23 20:00 ET 主窗 **complete**（c3a32b9b，fire ≈20:07 ET late ~7min）：CDP :9226 pid 159985 login_ok；HTL **65**（**HIT CURSOR**）/ DOM **17** → union **66** gap **18.55min** closed；overlay **42/66=63.6%** completed，reply_parent_dup **2**，reject_href 22；depollute restored 0；窗类 正文 **18** / 拿不准 **4** / 已过滤 **44** miss 0；page 10-23 20:00 更新 **116/50/366**（16 102/46/322 + 窗）；QA pass clippedBtns 0（20-qa.png）；md5 **54e06c3e13bf0eadcd5c8354fd76a84a** root==days==live PASS tip **ec617fb** → changelog/cursor **420f94d**；cursor @Jason 2113720013123424260 → **@bearliu 2113785078413209936**（2026-10-24T00:10:09Z）；rec/ideas **skipped_missing**（latest 仍 10-22，留给 20:10）；chat_delivery: **delivered ✅ ~2026-10-24 08:23 CST（WakeParent）**；chat_line: `10/23 更新：正文116 / 拿不准50 / 已过滤366。https://t512192641.github.io/x-following/2026-10-23.html`；next 2026-10-24 00:00 ET；escalate no；evidence raw/2026-10-23/20-meta.md  2026-10-24 08:23 CST
+
+## 2026-10-23 20:25 ET 健康检查
+- [x] 2026-10-23 20:25 ET 健康检查（x-3 960034de，~20:30 ET late ~5min）：quiet_ok **true**；cdp9226 ok pid **159985**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list「Home / X」+ articles=5）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 complete 10-23 更新 **116/50/366** md5 **54e06c3e** root==days==live PASS tip **ec617fb**；**index** live 仍 **7a13a6fa**（12；日页已 20 版）记已知不代推；cursor @bearliu 2113785078413209936；chat ✅ ~08:23 CST；lists Oct21+Oct22+**Oct23** 已由 x-4 正点完成（156/176 未变）no catchup；Oct24 未到点；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-23/20-25-health.md  2026-10-24 08:31:30 CST
+
+## 2026-10-23 21:25 ET 健康检查
+- [x] 2026-10-23 21:25 ET 健康检查（x-3 960034de，~21:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok pid **159985**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list「Home / X」+ articles=5）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 complete 10-23 更新 **116/50/366** md5 **54e06c3e** root==days==live PASS tip **ec617fb**；**index** live 仍 **7a13a6fa**（12；日页已 20 版）记已知不代推；cursor @bearliu 2113785078413209936；chat ✅ ~08:23 CST；lists Oct21+Oct22+**Oct23** 已由 x-4 正点完成（156/176 未变）no catchup；Oct24 未到点；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-23/21-25-health.md  2026-10-24 09:32:37 CST
+
+## 2026-10-23 22:25 ET 健康检查
+- [x] 2026-10-23 22:25 ET 健康检查（x-3 960034de，~22:33 ET late ~8min）：quiet_ok **true**；cdp9226 ok pid **159985**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list「Home / X」+ articles=5）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 complete 10-23 更新 **116/50/366** md5 **54e06c3e** root==days==live PASS tip **ec617fb**；**index** live 仍 **7a13a6fa**（12；日页已 20 版）记已知不代推；cursor @bearliu 2113785078413209936；chat ✅ ~08:23 CST；lists Oct21+Oct22+**Oct23** 已由 x-4 正点完成（156/176 未变）no catchup；Oct24 未到点；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-23/22-25-health.md  2026-10-24 10:34:17 CST
+
+## 2026-10-23 23:25 ET 健康检查
+- [x] 2026-10-23 23:25 ET 健康检查（x-3 960034de，~23:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok pid **159985**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list「Home / X」+ articles=5）；watchdog exit 0（checked 0），无 scrape/overlay/publish 进程；20 主窗 complete 10-23 更新 **116/50/366** md5 **54e06c3e** root==days==live PASS tip **ec617fb**；**index** live 仍 **7a13a6fa**（12；日页已 20 版）记已知不代推；cursor @bearliu 2113785078413209936；chat ✅ ~08:23 CST；lists Oct21+Oct22+**Oct23** 已由 x-4 正点完成（156/176 未变）no catchup；Oct24 未到点；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-23/23-25-health.md  2026-10-24 11:31:05 CST
+
+## 2026-10-24 00:10 ET 补抓
+- [x] 2026-10-24 00:10 ET 补抓（cdf0cd43，~00:17 ET late ~7min）：**deferred_to_main**；00 主窗 c3a32b9b 已 in_progress（fire ≈00:13 ET late ~14min；claim 12:15 CST；union **141** HTL140/DOM40 gap **2.7** closed HIT CURSOR；overlay_resume pid 284533 early ~5/141）；prior 20 complete 10-23 更新 **116/50/366** md5 **54e06c3e** live PASS 无 hole；00/04/08/12/16/20 gap_open false；CDP :9226 Chrome/156 pid 159985 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @bearliu 2113785078413209936；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-24/00-10-catchup.md`。  2026-10-24 12:19 CST
+
+## 2026-10-24 00:25 ET 健康检查
+- [x] 2026-10-24 00:25 ET 健康检查（x-3 960034de，~00:31 ET late ~6min）：quiet_ok **true**；cdp9226 ok pid **159985**（already up；00 主窗占用 **not stolen**）；login_ok auth_token/ct0/twid；watchdog exit 0（checked 1：10-24/00 in_progress，overlay_resume pid 284533 ~94/141 not stalled）；00 主窗 c3a32b9b **in_progress**（union141 gap2.7 HIT；overlay mid）；prior 20 complete 10-23 更新 **116/50/366** md5 **54e06c3e** root==days==live PASS tip **ec617fb**；**index** live 仍 **7a13a6fa** 记已知不代推；cursor @bearliu 2113785078413209936；00:10 deferred_to_main；lists Oct21+22+**23** done no catchup；Oct24 未到点；**19:25** 平台失败漏叫已记；无 overdue/重复/旧调度冲突；next **04:00 ET**（00 收尾后）；escalate no；stay_quiet；evidence raw/2026-10-24/00-25-health.md  2026-10-24 12:32:26 CST
+
