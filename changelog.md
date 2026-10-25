@@ -10834,3 +10834,17 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-25 12:10 ET 补抓
 - [x] 2026-10-25 12:10 ET 补抓（cdf0cd43，~12:19 ET late ~9–10min）：**deferred_to_main**；12 主窗 c3a32b9b 已 in_progress（fire ≈12:05 ET late ~5min；union **122** HTL119/DOM38 gap **9.45** closed HIT；overlay_resume pid **572683** mid ~87/122）；prior 08 complete 10-25 更新 **32/22/168** md5 **54af4773** tip b4fafbc/5d65ce1 live PASS 无 hole；CDP pid 436399 login_ok not stolen；watchdog exit 0；cursor still @kaostyl 2114328281155535344；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-25/12-10-catchup.md`。  2026-10-26 00:22 CST
+
+## 2026-10-25 12:00 ET main — complete
+- fire 2026-10-25T16:05:32.550Z (late ~5min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 119 HIT CUR; DOM 38; union 122 gap 9.45min closed gap_open false
+- overlay 89/122=73.0% reply_parent_dup 14; depollute restored 0
+- window 正文30 / 拿不准8 / 已过滤84 miss 0（08 更新 32/22/168 → 页 54/30/252）
+- page 10-25 12:00 更新 54/30/252 md5 c37cff667df25e4ebf97f520faedf4e6 tip 267d892/87b80ea live PASS
+- cursor @kaostyl 2114328281155535344 → @paulg 2114386903629758601 (2026-10-25T16:01:35.000Z)
+- rec_ideas: **skipped**（非 20:00）
+- chat_delivery: **pending_parent**
+- chat_line: 10/25 更新：正文54 / 拿不准30 / 已过滤252。https://t512192641.github.io/x-following/2026-10-25.html
+- index.html → 10-25 12:00 更新
+- escalate: no
+- evidence: raw/2026-10-25/12-meta.md  2026-10-26 00:30 CST
