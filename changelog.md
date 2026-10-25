@@ -10843,8 +10843,34 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 10-25 12:00 更新 54/30/252 md5 c37cff667df25e4ebf97f520faedf4e6 tip 267d892/87b80ea live PASS
 - cursor @kaostyl 2114328281155535344 → @paulg 2114386903629758601 (2026-10-25T16:01:35.000Z)
 - rec_ideas: **skipped**（非 20:00）
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅ ~2026-10-26 00:31 CST（WakeParent）**
 - chat_line: 10/25 更新：正文54 / 拿不准30 / 已过滤252。https://t512192641.github.io/x-following/2026-10-25.html
 - index.html → 10-25 12:00 更新
 - escalate: no
 - evidence: raw/2026-10-25/12-meta.md  2026-10-26 00:30 CST
+
+## 2026-10-25 12:25 ET 健康检查
+- [x] 2026-10-25 12:25 ET 健康检查（x-3 960034de，~12:31–12:34 ET late ~6–9min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=8）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 12/08/04/00` complete stalled false；`--hh 16` null）；12 主窗 complete 10-25 更新 **54/30/252** md5 **c37cff66** tip **267d892**/87b80ea root==days==index==live PASS；cursor @paulg **2114386903629758601**；chat ✅ ~00:31 CST；lists Oct21+22+23+24+**25** done **no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/12-25-health.md  2026-10-26 00:34 CST
+
+## 2026-10-25 13:25 ET 健康检查
+- [x] 2026-10-25 13:25 ET 健康检查（x-3 960034de，~13:33–13:35 ET late ~8–10min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=8）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 12/08/04/00` complete stalled false；`--hh 16` null）；12 主窗 complete 10-25 更新 **54/30/252** md5 **c37cff66** tip **267d892**/87b80ea root==days==index==live PASS；cursor @paulg **2114386903629758601**；chat ✅ ~00:31 CST；lists Oct21+22+23+24+**25** done **no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/13-25-health.md  2026-10-26 01:35 CST
+
+## 2026-10-25 14:25 ET 健康检查
+- [x] 2026-10-25 14:25 ET 健康检查（x-3 960034de，~14:34–14:37 ET late ~9–12min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=8）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 12/08/04/00` complete stalled false；`--hh 16` null）；12 主窗 complete 10-25 更新 **54/30/252** md5 **c37cff66** tip **267d892**/87b80ea root==days==index==live PASS；cursor @paulg **2114386903629758601**；chat ✅ ~00:31 CST；lists Oct21+22+23+24+**25** done **no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/14-25-health.md  2026-10-26 02:36 CST
+
+## 2026-10-25 15:25 ET 健康检查
+- [x] 2026-10-25 15:25 ET 健康检查（x-3 960034de，~15:32–15:34 ET late ~7–9min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=8）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 12/08/04/00` complete stalled false；`--hh 16` null）；12 主窗 complete 10-25 更新 **54/30/252** md5 **c37cff66** tip **267d892**/87b80ea root==days==index==live PASS；cursor @paulg **2114386903629758601**；chat ✅ ~00:31 CST；lists Oct21+22+23+24+**25** done **no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/15-25-health.md  2026-10-26 03:34 CST
+
+2026-10-25 16:00 ET main — complete
+- fire 2026-10-25T20:07:17.420Z (late ~7min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 46 HIT CUR; DOM 18; union 49 gap 7.95min closed gap_open false
+- overlay 29/49=59.2% reply_parent_dup 7; depollute restored 0
+- window 正文15 / 拿不准3 / 已过滤31 miss 0（12 更新 54/30/252 → 页 67/33/283）
+- page 10-25 16:00 更新 67/33/283 md5 9ddcf0a6567afd6bfb3f36097c9be8ed tip TIP_PENDING live PASS
+- cursor @paulg 2114386903629758601 → @garrytan 2114444942785523889 (2026-10-25T19:52:13.000Z)
+- rec_ideas: **skipped**（非 20:00）
+- chat_delivery: **pending_parent**
+- chat_line: 10/25 更新：正文67 / 拿不准33 / 已过滤283。https://t512192641.github.io/x-following/2026-10-25.html
+- index.html → 10-25 16:00 更新
+- escalate: no
+- evidence: raw/2026-10-25/16-meta.md / 16-qa.png / 16-claim.md
