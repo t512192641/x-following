@@ -10789,8 +10789,33 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 10-25 第一版 15/8/135 md5 9b11908053e4d43f0c79b03072180e9a tip ba10dac (page) / f9c3aeb (index) live PASS
 - cursor @app_sail 2114207341017194810 → @430Yang 2114268232500609320 (2026-10-25T08:10:02.000Z)
 - rec_ideas: **skipped**（非 20:00）
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅ ~2026-10-25 16:38 CST（WakeParent）**
 - chat_line: 10/25 更新：正文15 / 拿不准8 / 已过滤135。https://t512192641.github.io/x-following/2026-10-25.html
 - index.html → 10-25 第一版
 - escalate: no
 - evidence: raw/2026-10-25/04-meta.md  2026-10-25 16:40 CST
+
+## 2026-10-25 05:25 ET 健康检查
+- [x] 2026-10-25 05:25 ET 健康检查（x-3 960034de，~05:28–05:29 ET late ~3min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 04/00` / `--date 2026-10-24 --hh 20` claim complete stalled false）；04 主窗 complete 10-25 第一版 **15/8/135** md5 **9b119080** tip **ba10dac**/f9c3aeb root==days==index==live PASS；cursor @430Yang **2114268232500609320**；chat ✅ ~16:38 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/05-25-health.md  2026-10-25 17:29 CST
+
+## 2026-10-25 06:25 ET 健康检查
+- [x] 2026-10-25 06:25 ET 健康检查（x-3 960034de，~06:32–06:35 ET late ~7–8min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 04/00` / `--date 2026-10-24 --hh 20` claim complete stalled false）；04 主窗 complete 10-25 第一版 **15/8/135** md5 **9b119080** tip **ba10dac**/f9c3aeb root==days==index==live PASS；cursor @430Yang **2114268232500609320**；chat ✅ ~16:38 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/06-25-health.md  2026-10-25 18:35 CST
+
+## 2026-10-25 07:25 ET 健康检查
+- [x] 2026-10-25 07:25 ET 健康检查（x-3 960034de，~07:25–07:26 ET late ~0–1min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 04/00` / `--date 2026-10-24 --hh 20` claim complete stalled false）；04 主窗 complete 10-25 第一版 **15/8/135** md5 **9b119080** tip **ba10dac**/f9c3aeb root==days==index==live PASS；cursor @430Yang **2114268232500609320**；chat ✅ ~16:38 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/07-25-health.md  2026-10-25 19:26 CST
+
+## 2026-10-25 08:10 ET 补抓
+- [x] 2026-10-25 08:10 ET 补抓（cdf0cd43，~08:15 ET late ~5min）：**deferred_to_main**；08 主窗 c3a32b9b 已 in_progress（fire ≈08:08 ET late ~8min；union **65** HTL65/DOM17 gap **4.97** closed HIT；overlay_resume pid **545234** mid ~36/65）；prior 04 complete 10-25 第一版 **15/8/135** md5 **9b119080** tip ba10dac/f9c3aeb live PASS 无 hole；CDP pid 436399 login_ok not stolen；watchdog exit 0；cursor still @430Yang 2114268232500609320；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-25/08-10-catchup.md`。  2026-10-25 20:16 CST
+
+## 2026-10-25 08:00 ET main — complete
+- fire 2026-10-25T12:08:20.370Z (late ~8min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 65 HIT CUR; DOM 17; union 65 gap 4.97min closed gap_open false
+- overlay 52/65=80.0% reply_parent_dup 7; depollute restored 0
+- window 正文18 / 拿不准14 / 已过滤33 miss 0（04 第一版 15/8/135 → 页 32/22/168）
+- page 10-25 08:00 更新 32/22/168 md5 54af4773e6a329487622302db0976574 tip TBD live TBD
+- cursor @430Yang 2114268232500609320 → @kaostyl 2114328281155535344 (2026-10-25T12:08:39.000Z)
+- rec_ideas: **skipped**（非 20:00）
+- chat_delivery: **pending_parent**
+- chat_line: 10/25 更新：正文32 / 拿不准22 / 已过滤168。https://t512192641.github.io/x-following/2026-10-25.html
+- escalate: no
+- evidence: raw/2026-10-25/08-meta.md  2026-10-25 20:22 CST

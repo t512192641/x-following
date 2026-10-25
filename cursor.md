@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @430Yang
-- status_id: `2114268232500609320`
-- url: https://x.com/430Yang/status/2114268232500609320
-- time_utc: 2026-10-25T08:10:02.000Z
-- updated_window: 2026-10-25 04:00 ET
+- handle: @kaostyl
+- status_id: `2114328281155535344`
+- url: https://x.com/kaostyl/status/2114328281155535344
+- time_utc: 2026-10-25T12:08:39.000Z
+- updated_window: 2026-10-25 08:00 ET
