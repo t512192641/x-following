@@ -10725,10 +10725,13 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - HTL 73 HIT CURSOR; DOM 6; union 73 gap 23.13min closed
 - overlay 39/73=53.4% reply_parent_dup 3 reject_href 31; depollute restored 0
 - window 正文14 / 拿不准3 / 已过滤56 miss 0
-- page 108/37/295 md5 78e5a515289b0d68fa36484dd904f443 tip db14563 live PASS
+- page 108/37/295 md5 78e5a515289b0d68fa36484dd904f443 tip 274ea0f live PASS
 - cursor @agazdecki 2114082077381624254 → @cellinlab 2114147764510888267
 - rec_ideas: rec **merged** 9 (latest # 2026-10-24) / ideas **merged** 3 (sourceDate 2026-10-24)
 - chat_delivery: **pending_parent**
 - chat_line: 10/24 更新：正文108 / 拿不准37 / 已过滤295。https://t512192641.github.io/x-following/2026-10-24.html
 - escalate: no
 - evidence: raw/2026-10-24/20-meta.md  2026-10-25 08:25 CST
+
+## 2026-10-24 20:25 ET 健康检查
+- [x] 2026-10-24 20:25 ET 健康检查（x-3 960034de，~20:25–20:26 ET late ~0–1min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；20 主窗收口 **not stolen**）；login_ok auth_token/ct0/twid（cookie DB + /json/list x.com/home）；watchdog exit 0（初检 checked 1：20 in_progress idle≈1.1 not stalled；复检 checked 0）；20 主窗 complete 10-24 更新 **108/37/295** md5 **78e5a515** tip **db14563** root==days==live PASS；rec/ideas merged；cursor @cellinlab **2114147764510888267**；chat pending_parent（交主窗）；**index** live 仍 **dbcfcb52**（04；日页已 78e5a515）记已知不代推；20:10 补抓 deferred_to_main；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **00:00 ET**（交 10-24 完整版）；escalate no；stay_quiet；evidence raw/2026-10-24/20-25-health.md  2026-10-25 08:26 CST
