@@ -10756,7 +10756,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - HTL 129 hit False (CUR past ID; older≥25 stop; paginate 403) → HIT_eff; DOM 41; union 131 gap 8.38min closed gap_open false
 - overlay 75/131=57.3% reply_parent_dup 16; depollute restored 0
 - window 正文25 / 拿不准11 / 已过滤95 miss 0（pre 23/10/89 → 10-24；after 2/1/6 → 10-25 薄种子）
-- page 10-24 131/47/384 md5 d4d1f0d361735fb55ef8a9cb9ab718fa tip d197fff/4f1f6cc live PASS
+- page 10-24 131/47/384 md5 d4d1f0d361735fb55ef8a9cb9ab718fa tip d197fff (page) / 4f1f6cc (thin) / 65b2007 (index) live PASS
 - thin_seed 10-25 2/1/6 md5 1401a660ae743dea0ed9cf255912aaee（不聊天交付）
 - cursor @cellinlab 2114147764510888267 → @app_sail 2114207341017194810 (2026-10-25T04:08:04.000Z)
 - rec_ideas: **skipped**（非 20:00）
