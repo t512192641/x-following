@@ -10815,7 +10815,22 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - page 10-25 08:00 更新 32/22/168 md5 54af4773e6a329487622302db0976574 tip b4fafbc/5d65ce1 live PASS
 - cursor @430Yang 2114268232500609320 → @kaostyl 2114328281155535344 (2026-10-25T12:08:39.000Z)
 - rec_ideas: **skipped**（非 20:00）
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅ ~2026-10-25 20:25 CST（WakeParent）**
 - chat_line: 10/25 更新：正文32 / 拿不准22 / 已过滤168。https://t512192641.github.io/x-following/2026-10-25.html
 - escalate: no
 - evidence: raw/2026-10-25/08-meta.md  2026-10-25 20:22 CST
+
+## 2026-10-25 08:25 ET 健康检查
+- [x] 2026-10-25 08:25 ET 健康检查（x-3 960034de，~08:28 ET late ~3min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + soft reload articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 08/04/00` claim complete stalled false）；08 主窗 complete 10-25 更新 **32/22/168** md5 **54af4773** tip **b4fafbc**/5d65ce1 root==days==index==live PASS；cursor @kaostyl **2114328281155535344**；chat ✅ ~20:25 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/08-25-health.md  2026-10-25 20:30 CST
+
+## 2026-10-25 09:25 ET 健康检查
+- [x] 2026-10-25 09:25 ET 健康检查（x-3 960034de，~09:30 ET late ~5min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 08/04/00` claim complete stalled false）；08 主窗 complete 10-25 更新 **32/22/168** md5 **54af4773** tip **b4fafbc**/5d65ce1 root==days==index==live PASS；cursor @kaostyl **2114328281155535344**；chat ✅ ~20:25 CST；lists Oct21+22+23+24+**25** done **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/09-25-health.md  2026-10-25 21:32 CST
+
+## 2026-10-25 10:25 ET 健康检查
+- [x] 2026-10-25 10:25 ET 健康检查（x-3 960034de，~10:34–10:35 ET late ~9–10min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 08/04/00` complete stalled false；`--hh 12` null）；08 主窗 complete 10-25 更新 **32/22/168** md5 **54af4773** tip **b4fafbc**/5d65ce1 root==days==index==live PASS；cursor @kaostyl **2114328281155535344**；chat ✅ ~20:25 CST；lists Oct21+22+23+24+**25** done **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/10-25-health.md  2026-10-25 22:36 CST
+
+## 2026-10-25 11:25 ET 健康检查
+- [x] 2026-10-25 11:25 ET 健康检查（x-3 960034de，~11:29–11:31 ET late ~4–6min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 08/04/00` complete stalled false；`--hh 12` null）；08 主窗 complete 10-25 更新 **32/22/168** md5 **54af4773** tip **b4fafbc**/5d65ce1 root==days==index==live PASS；cursor @kaostyl **2114328281155535344**；chat ✅ ~20:25 CST；lists Oct21+22+23+24+**25** done **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/11-25-health.md  2026-10-25 23:30 CST
+
+## 2026-10-25 12:10 ET 补抓
+- [x] 2026-10-25 12:10 ET 补抓（cdf0cd43，~12:19 ET late ~9–10min）：**deferred_to_main**；12 主窗 c3a32b9b 已 in_progress（fire ≈12:05 ET late ~5min；union **122** HTL119/DOM38 gap **9.45** closed HIT；overlay_resume pid **572683** mid ~87/122）；prior 08 complete 10-25 更新 **32/22/168** md5 **54af4773** tip b4fafbc/5d65ce1 live PASS 无 hole；CDP pid 436399 login_ok not stolen；watchdog exit 0；cursor still @kaostyl 2114328281155535344；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-25/12-10-catchup.md`。  2026-10-26 00:22 CST
