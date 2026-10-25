@@ -10699,8 +10699,23 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - window 正文9 / 拿不准8 / 已过滤24 miss 0
 - page 84/34/239 md5 d930029de0d805ba1f2879ed6ff906df tip acad333 live PASS
 - cursor @dotey 2114027511512457349 → @agazdecki 2114082077381624254
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅ ~2026-10-25 04:22 CST（WakeParent）**
 - chat_line: 10/24 更新：正文84 / 拿不准34 / 已过滤239。https://t512192641.github.io/x-following/2026-10-24.html
 - rec_ideas: skipped（非 20:00）
 - escalate: no
 - evidence: raw/2026-10-24/16-meta.md  2026-10-25 04:20 CST
+
+## 2026-10-24 16:25 ET 健康检查
+- [x] 2026-10-24 16:25 ET 健康检查（x-3 960034de，~16:34 ET late ~9min）：quiet_ok **true**；cdp9226 ok pid **349540**（already up；06:25 拉起；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list x.com/home + articles=4）；watchdog exit 0（checked 0 全局；`--date 2026-10-24 --hh 16/12/08` claim complete stalled false）；16 主窗 complete 10-24 更新 **84/34/239** md5 **d930029d** root==days==site==live PASS tip **acad333**/6101999；**index** live 仍 **dbcfcb52**（04；本地 index 已 d930029d）记已知不代推；cursor @agazdecki **2114082077381624254**；chat ✅ ~04:22 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-24/16-25-health.md  2026-10-25 04:35 CST
+
+## 2026-10-24 17:25 ET 健康检查
+- [x] 2026-10-24 17:25 ET 健康检查（x-3 960034de，~17:25–17:26 ET late ~0–1min）：quiet_ok **true**；cdp9226 ok pid **349540**（already up；06:25 拉起；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list x.com/home + articles=4）；watchdog exit 0（checked 0 全局；`--date 2026-10-24 --hh 16/12/08` claim complete stalled false）；16 主窗 complete 10-24 更新 **84/34/239** md5 **d930029d** root==days==site==live PASS tip **acad333**/6101999；**index** live 仍 **dbcfcb52**（04；本地 index 已 d930029d）记已知不代推；cursor @agazdecki **2114082077381624254**；chat ✅ ~04:22 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-24/17-25-health.md  2026-10-25 05:27 CST
+
+## 2026-10-24 18:25 ET 健康检查
+- [x] 2026-10-24 18:25 ET 健康检查（x-3 960034de，~18:30–18:31 ET late ~5–6min）：quiet_ok **true**；cdp9226 ok pid **349540**（already up；06:25 拉起；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list x.com/home + articles=4）；watchdog exit 0（checked 0 全局；`--date 2026-10-24 --hh 16/12/08` claim complete stalled false）；16 主窗 complete 10-24 更新 **84/34/239** md5 **d930029d** root==days==live PASS tip **acad333**/6101999；**index** live 仍 **dbcfcb52**（04；本地 index 已 d930029d）记已知不代推；cursor @agazdecki **2114082077381624254**；chat ✅ ~04:22 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；**19:25** 平台失败漏叫已记；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-24/18-25-health.md  2026-10-25 06:31 CST
+
+## 2026-10-24 19:25 ET 健康检查
+- [x] 2026-10-24 19:25 ET 健康检查（x-3 960034de，~19:26–19:27 ET late ~1–2min）：quiet_ok **true**；**cdp9226 launched pid 436399**（up after 1s 2026-10-25 07:26:34 CST；:9226 此前未起 / 原 pid 349540 已退出；原 profile 直连拉起，未设 CDP_PROXY，未清 cookie、未重登；main/catchup idle → **not stolen**）；login_ok auth_token/ct0/twid（CDP cookies + /json/list x.com/home + articles=7）；watchdog exit 0（checked 0 全局；`--date 2026-10-24 --hh 16/12/08` claim complete stalled false）；16 主窗 complete 10-24 更新 **84/34/239** md5 **d930029d** root==days==live PASS tip **acad333**/6101999；**index** live 仍 **dbcfcb52**（04；本地 index 已 d930029d）记已知不代推；cursor @agazdecki **2114082077381624254**；chat ✅ ~04:22 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；本窗 19:25 平台到点已执行（此前 Oct23 同刻漏叫已记）；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **20:00 ET**；escalate no；向幕僚长一句（launched，priority false）；stay_quiet；evidence raw/2026-10-24/19-25-health.md  2026-10-25 07:28 CST
+
+## 2026-10-24 20:10 ET 补抓
+- [x] 2026-10-24 20:10 ET 补抓（cdf0cd43，~20:19 ET late ~9min）：**deferred_to_main**；20 主窗 c3a32b9b 已 in_progress（fire ≈20:07 ET late ~7min；claim 08:09 CST；union **73** HTL73/DOM6 gap **23.13** closed HIT CURSOR；overlay **39/73=53.4%** completed → depollute/classify mid）；prior 16 complete 10-24 更新 **84/34/239** md5 **d930029d** live PASS 无 hole；00/04/08/12/16/20 gap_open false；CDP :9226 Chrome/156 pid 436399 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @agazdecki 2114082077381624254；rec/ideas 交主窗并（rec 仍 10-23；ideas 10-24 已到）；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-24/20-10-catchup.md`。  2026-10-25 08:21 CST
