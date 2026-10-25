@@ -10760,8 +10760,37 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - thin_seed 10-25 2/1/6 md5 1401a660ae743dea0ed9cf255912aaee（不聊天交付）
 - cursor @cellinlab 2114147764510888267 → @app_sail 2114207341017194810 (2026-10-25T04:08:04.000Z)
 - rec_ideas: **skipped**（非 20:00）
-- chat_delivery: **pending_parent**（交 10-24 完整版；薄种子不交）
+- chat_delivery: **delivered ✅ ~2026-10-25 12:40 CST（WakeParent）**（交 10-24 完整版；薄种子不交）
 - chat_line: 10/24 完整版：正文131 / 拿不准47 / 已过滤384。https://t512192641.github.io/x-following/2026-10-24.html
 - index.html → 10-24 完整页
 - escalate: no
 - evidence: raw/2026-10-25/00-meta.md  2026-10-25 12:40 CST
+
+## 2026-10-25 01:25 ET 健康检查
+- [x] 2026-10-25 01:25 ET 健康检查（x-3 960034de，~01:31–01:33 ET late ~6–7min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 00` / `--date 2026-10-24 --hh 20/16` claim complete stalled false）；00 主窗 complete 10-24 完整版 **131/47/384** md5 **d4d1f0d3** tip **d197fff**/65b2007 root==days==index==live PASS；thin 10-25 2/1/6；cursor @app_sail **2114207341017194810**；chat ✅ ~12:40 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/01-25-health.md  2026-10-25 13:33 CST
+
+## 2026-10-25 02:25 ET 健康检查
+- [x] 2026-10-25 02:25 ET 健康检查（x-3 960034de，~02:27–02:28 ET late ~2–3min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 00` / `--date 2026-10-24 --hh 20/16` claim complete stalled false）；00 主窗 complete 10-24 完整版 **131/47/384** md5 **d4d1f0d3** tip **d197fff**/65b2007 root==days==index==live PASS；thin 10-25 2/1/6；cursor @app_sail **2114207341017194810**；chat ✅ ~12:40 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/02-25-health.md  2026-10-25 14:28 CST
+
+## 2026-10-25 03:25 ET 健康检查
+- [x] 2026-10-25 03:25 ET 健康检查（x-3 960034de，~03:32–03:35 ET late ~7–8min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 00` / `--date 2026-10-24 --hh 20/16` claim complete stalled false）；00 主窗 complete 10-24 完整版 **131/47/384** md5 **d4d1f0d3** tip **d197fff**/65b2007 root==days==index==live PASS；thin 10-25 2/1/6；cursor @app_sail **2114207341017194810**；chat ✅ ~12:40 CST；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/03-25-health.md  2026-10-25 15:35 CST
+
+## 2026-10-25 04:10 ET 补抓
+- [x] 2026-10-25 04:10 ET 补抓（cdf0cd43，~04:13 ET late ~3min）：**deferred_to_main**；04 主窗 c3a32b9b 已 in_progress（fire ≈04:09 ET late ~9min；claim 16:11 CST；HTL **151** hit False HIT_eff；DOM **40**；union **151** gap **4.73**；overlay_resume pid **513445** mid → scrape 齐、后半段进行中）；prior 00 complete 10-24 完整版 **131/47/384** md5 **d4d1f0d3** tip **d197fff**/65b2007 live PASS；thin 10-25 2/1/6；10-25 gap_open false；CDP :9226 Chrome/156 pid 436399 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @app_sail 2114207341017194810；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-25/04-10-catchup.md`。  2026-10-25 16:14 CST
+
+## 2026-10-25 04:25 ET 健康检查
+- [x] 2026-10-25 04:25 ET 健康检查（x-3 960034de，~04:32–04:34 ET late ~7–8min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；04 主窗占用 **not stolen**）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 1：04 in_progress idle0.8 stalled false；`--date 2026-10-25 --hh 00` / `--date 2026-10-24 --hh 20` claim complete）；04 主窗 in_progress union **151** gap4.73 HIT_eff；overlay **111/151=73.5%** → classify mid **15/7/129**；prior 00 complete 10-24 完整版 **131/47/384** md5 **d4d1f0d3** tip **d197fff**/65b2007 site+live PASS；thin live **1401a660**；cursor @app_sail **2114207341017194810**；chat 交主窗；lists Oct21+22+23+**24** done **no catchup**；Oct25 未到点；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/04-25-health.md  2026-10-25 16:34 CST
+
+## 2026-10-25 04:00 ET main — complete
+- fire 2026-10-25T08:09:23.494Z (late ~9min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 151 hit False (CUR past ID) → HIT_eff; DOM 40; union 151 gap 4.73min closed gap_open false
+- overlay 111/151=73.5% reply_parent_dup 15; depollute restored 0
+- window 正文15 / 拿不准7 / 已过滤129 miss 0（薄种子 2/1/6 → 页 15/8/135）
+- page 10-25 第一版 15/8/135 md5 9b11908053e4d43f0c79b03072180e9a tip TBD live TBD
+- cursor @app_sail 2114207341017194810 → @430Yang 2114268232500609320 (2026-10-25T08:10:02.000Z)
+- rec_ideas: **skipped**（非 20:00）
+- chat_delivery: **pending_parent**
+- chat_line: 10/25 更新：正文15 / 拿不准8 / 已过滤135。https://t512192641.github.io/x-following/2026-10-25.html
+- index.html → 10-25 第一版
+- escalate: no
+- evidence: raw/2026-10-25/04-meta.md  2026-10-25 16:40 CST
