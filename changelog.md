@@ -10866,7 +10866,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - HTL 46 HIT CUR; DOM 18; union 49 gap 7.95min closed gap_open false
 - overlay 29/49=59.2% reply_parent_dup 7; depollute restored 0
 - window 正文15 / 拿不准3 / 已过滤31 miss 0（12 更新 54/30/252 → 页 67/33/283）
-- page 10-25 16:00 更新 67/33/283 md5 9ddcf0a6567afd6bfb3f36097c9be8ed tip 9ab1c8d live PASS
+- page 10-25 16:00 更新 67/33/283 md5 9ddcf0a6567afd6bfb3f36097c9be8ed tip 9ab1c8d/4aeecc6 live PASS
 - cursor @paulg 2114386903629758601 → @garrytan 2114444942785523889 (2026-10-25T19:52:13.000Z)
 - rec_ideas: **skipped**（非 20:00）
 - chat_delivery: **pending_parent**
