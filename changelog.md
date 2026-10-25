@@ -10812,7 +10812,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - HTL 65 HIT CUR; DOM 17; union 65 gap 4.97min closed gap_open false
 - overlay 52/65=80.0% reply_parent_dup 7; depollute restored 0
 - window 正文18 / 拿不准14 / 已过滤33 miss 0（04 第一版 15/8/135 → 页 32/22/168）
-- page 10-25 08:00 更新 32/22/168 md5 54af4773e6a329487622302db0976574 tip TBD live TBD
+- page 10-25 08:00 更新 32/22/168 md5 54af4773e6a329487622302db0976574 tip b4fafbc/5d65ce1 live PASS
 - cursor @430Yang 2114268232500609320 → @kaostyl 2114328281155535344 (2026-10-25T12:08:39.000Z)
 - rec_ideas: **skipped**（非 20:00）
 - chat_delivery: **pending_parent**
