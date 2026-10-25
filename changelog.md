@@ -10719,3 +10719,16 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-24 20:10 ET 补抓
 - [x] 2026-10-24 20:10 ET 补抓（cdf0cd43，~20:19 ET late ~9min）：**deferred_to_main**；20 主窗 c3a32b9b 已 in_progress（fire ≈20:07 ET late ~7min；claim 08:09 CST；union **73** HTL73/DOM6 gap **23.13** closed HIT CURSOR；overlay **39/73=53.4%** completed → depollute/classify mid）；prior 16 complete 10-24 更新 **84/34/239** md5 **d930029d** live PASS 无 hole；00/04/08/12/16/20 gap_open false；CDP :9226 Chrome/156 pid 436399 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @agazdecki 2114082077381624254；rec/ideas 交主窗并（rec 仍 10-23；ideas 10-24 已到）；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-24/20-10-catchup.md`。  2026-10-25 08:21 CST
+
+## 2026-10-24 20:00 ET main — complete
+- fire 2026-10-25T00:06:53Z (late ~7min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 73 HIT CURSOR; DOM 6; union 73 gap 23.13min closed
+- overlay 39/73=53.4% reply_parent_dup 3 reject_href 31; depollute restored 0
+- window 正文14 / 拿不准3 / 已过滤56 miss 0
+- page 108/37/295 md5 78e5a515289b0d68fa36484dd904f443 tip db14563 live PASS
+- cursor @agazdecki 2114082077381624254 → @cellinlab 2114147764510888267
+- rec_ideas: rec **merged** 9 (latest # 2026-10-24) / ideas **merged** 3 (sourceDate 2026-10-24)
+- chat_delivery: **pending_parent**
+- chat_line: 10/24 更新：正文108 / 拿不准37 / 已过滤295。https://t512192641.github.io/x-following/2026-10-24.html
+- escalate: no
+- evidence: raw/2026-10-24/20-meta.md  2026-10-25 08:25 CST
