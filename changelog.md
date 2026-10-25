@@ -10786,7 +10786,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - HTL 151 hit False (CUR past ID) → HIT_eff; DOM 40; union 151 gap 4.73min closed gap_open false
 - overlay 111/151=73.5% reply_parent_dup 15; depollute restored 0
 - window 正文15 / 拿不准7 / 已过滤129 miss 0（薄种子 2/1/6 → 页 15/8/135）
-- page 10-25 第一版 15/8/135 md5 9b11908053e4d43f0c79b03072180e9a tip TBD live TBD
+- page 10-25 第一版 15/8/135 md5 9b11908053e4d43f0c79b03072180e9a tip ba10dac (page) / f9c3aeb (index) live PASS
 - cursor @app_sail 2114207341017194810 → @430Yang 2114268232500609320 (2026-10-25T08:10:02.000Z)
 - rec_ideas: **skipped**（非 20:00）
 - chat_delivery: **pending_parent**
