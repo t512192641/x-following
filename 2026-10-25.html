@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>X 关注汇总 2026-10-25（正文 2 / 拿不准 1 / 已过滤 6）</title>
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; height: 320px; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+article.is-long .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+/* Floating modal expand — grid cards never grow */
+body.modal-open { overflow: hidden; }
+.card-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+.card-modal.is-open { display: flex; }
+.card-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(29, 42, 40, 0.55);
+  image-rendering: pixelated;
+}
+.card-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(720px, 96vw);
+  max-height: min(92vh, 920px);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 4px solid var(--line);
+  box-shadow: 8px 8px 0 var(--shadow);
+  color: var(--ink);
+}
+.card-modal.is-multi .card-modal-dialog {
+  width: min(880px, 96vw);
+}
+.card-modal-head {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-bottom: 3px solid var(--line);
+  background: var(--chip);
+}
+.card-modal-title {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--accent);
+}
+.card-modal-close {
+  appearance: none;
+  flex: 0 0 auto;
+  border: 3px solid var(--line);
+  background: var(--tab-on);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  padding: 6px 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.card-modal-close:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.card-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 14px 16px 18px;
+  -webkit-overflow-scrolling: touch;
+}
+.card-modal-body h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: block;
+  max-height: none;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+.card-modal-body .byline {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  margin: 0 0 12px;
+}
+.card-modal-body .fold {
+  position: static;
+  overflow: visible;
+  flex: none;
+  min-height: 0;
+}
+.card-modal-body .fold::after { display: none !important; }
+.card-modal-body .links { margin-top: 14px; }
+.card-modal-block {
+  padding: 0 0 18px;
+  margin: 0 0 18px;
+  border-bottom: 3px dashed var(--line);
+}
+.card-modal-block:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.card-modal-empty {
+  color: var(--muted);
+  margin: 0;
+}
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 2026-10-25（薄种子）</h1>
+<p class="meta">0:00 ET 薄种子（不聊天交付）。正文 2 / 拿不准 1 / 已过滤 6。完整版等 4:00 ET。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="2" data-pane="pane-main" type="button">正文 2</button>
+<button class="tab" data-count="1" data-pane="pane-maybe" type="button">拿不准 1</button>
+<button class="tab" data-count="6" data-pane="pane-filtered" type="button">已过滤 6</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+<section class="group"><h2>仓库 / 工具</h2><div class="grid"><article class="card"><h3>GitHub - JustAResearcher/gpu-unlock-ada: GPU tensor unlock source for RT…</h3><p class="byline">M. <a href="https://x.com/wlzh" rel="noopener noreferrer" target="_blank">@wlzh</a></p><div class="fold"><p>GitHub - JustAResearcher/gpu-unlock-ada: GPU tensor unlock source for RTX 4090 and experimental RTX...</p><p>有个开源项目 gpu-unlock-ada，干的是给 RTX 4090 解锁张量算力，办法是做个 Linux 内核模块，在官方 NVIDIA 驱动启动之前先把速度选择覆盖打开。</p><p>作者给的数据挺夸张，RTX 4090 上 FP16 和 BF16 张量吞吐在 FP32 累加下都接近翻倍，从 165.6 TF/s 左右涨到 331.6 TF/s 左右。</p><p>不过要分清，上面是张量指令吞吐，实际 cuBLAS GEMM 的中位数提升没那么大，FP16 涨了 12% 到 34%，BF16 在两个形状上是 16% 到 20%，4096 立方那个形状基本没变。</p><p>另外一个独立机主在 Arch 上复跑了一遍，结果也差不多，FP16 从 160.4 涨到 320.4 TF/s，BF16 从 159.7 涨到 320.2 TF/s，数值检查都通过了。</p><p>这个项目不光是 4090，还把 Ada 的口子做了实验性移植，RTX 4070 Ti SUPER 上冷启动测出来 FP16 和 BF16 也接近翻倍，从 95 TF/s 涨到 189.9 TF/s 左右，TF32 则是 47.49 涨到 94.51 TF/s。</p><p>但 FP8 就没这么好看，同一个 E4M3 的 CUTLASS GEMM 只从 59.326 涨到 59.495 TF/s，0.3% 的差别，基本等于没涨。</p><p>4070 Ti SUPER 和 4060 Ti 16GB 都只是实验目标，各自只在一张卡上验证过，其他板子没验证过，项目自己也说共享固件不等于支持没测过的卡。</p><p>Windows 那边还有个实验性的 MSI 4070 Ti 参考移植，单次手动启动测出 FP16 涨 80.1%，但只绑一张卡的配置，不算进 Linux 模块的支持范围。</p><p>仓库是 GPL-2.0 开源，固件是在本地生成的，不直接发预编译的固件包，刚建两天就已经破千 star 了。</p><p>这种改动毕竟动的是固件和驱动启动顺序，作者也提醒要留一个没改过的启动项，出了问题能回去。https://github.com/JustAResearcher/gpu-unlock-ada</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/wlzh/status/2114207319806390422" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://github.com/JustAResearcher/gpu-unlock-ada" rel="noopener noreferrer" target="_blank">GitHub</a></p></article></div></section><section class="group"><h2>提示词 / 方法</h2><div class="grid"><article class="card"><h3>辅导孩子学习诗词 Prompt： ---------------------  你要把一首诗变成一幅只由诗中文字组成的图。字的位置和走向就是画面…</h3><p class="byline">李继刚 <a href="https://x.com/lijigang" rel="noopener noreferrer" target="_blank">@lijigang</a></p><div class="fold"><p>辅导孩子学习诗词 Prompt：
+---------------------</p><p>你要把一首诗变成一幅只由诗中文字组成的图。字的位置和走向就是画面本身：读者既能看出画面，也能顺着一条路径把整首诗读下来。</p><p>第一步，找事实。读诗，写出画面里有哪些东西，以及它们之间的关系：谁在上，谁垂下，谁在动，往哪个方向动。只写诗里有的，不添加。</p><p>第二步，定投影。</p><p>- 每个东西由诗里指称它、或者描写它的那些字构成。
+- 关系换成空间关系：垂下就让字沿弧线往下排，高就让字竖着往上叠，风就让字斜着横穿画面。
+- 表示疑问、否定、比喻的字（如"不知""谁""似"）不对应任何东西，放在空白处或两个意象的交界处，用位置显示它们的作用。</p><p>第三步，排出来。输出一张图片，元素是文字，呈现这个意向</p><p>第四步，对照检查。逐条核对，有一条不满足就改，直到全部满足：</p><p>1. 图中所有字都出自原诗。为了让画面饱满，可以重复使用诗里的字。
+2. 不看原诗的人能认出这是什么画面。
+3. 按阅读路径能把原诗一字不差读下来。
+4. 每个意象都由指称它的字构成，不拿别的字凑。</p><p>诗：{在这里放诗}</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lijigang/status/2114206178939146352" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+<section class="group"><h2>拿不准</h2><div class="grid"><article class="card"><h3>为了不让你们发现我额度很少， tibo 选择 每天给大家重置， 告诉我北京时间什…</h3><p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" rel="noopener noreferrer" target="_blank">@cellinlab</a></p><div class="fold"><p>为了不让你们发现我额度很少，
+tibo 选择 每天给大家重置，
+告诉我北京时间什么时候重置？
+@grok</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/cellinlab/status/2114206889705886075" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-filtered">
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">Asa <a href="https://x.com/app_sail" rel="noopener noreferrer" target="_blank">@app_sail</a></p><p>@servasyy_ai 现在买 4090 多少钱呢</p><p class="links"><a href="https://x.com/app_sail/status/2114207341017194810" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Grok <a href="https://x.com/grok" rel="noopener noreferrer" target="_blank">@grok</a></p><p>@cellinlab Tibo说的是by midnight PST。现在太平洋还是夏令时PDT（UTC-7），午夜对应北京时间今天下午3点左右。按惯例可能稍有延</p><p class="links"><a href="https://x.com/grok/status/2114207023562694998" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">海拉鲁编程客 <a href="https://x.com/hylarucoder" rel="noopener noreferrer" target="_blank">@hylarucoder</a></p><p>@yucheng 两个 Claude 互相聊天</p><p class="links"><a href="https://x.com/hylarucoder/status/2114206309721710825" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Back to the Moon</p><p class="links"><a href="https://x.com/elonmusk/status/2114205997350690837" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Good data showing that NVIDIA AI infrastructure is a durable, investable asset t</p><p class="links"><a href="https://x.com/elonmusk/status/2114205779070763050" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">宝玉 <a href="https://x.com/dotey" rel="noopener noreferrer" target="_blank">@dotey</a></p><p>Codex 马上要重置了</p><p class="links"><a href="https://x.com/dotey/status/2114205536396984381" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+</div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    var modal = document.createElement("div");
+    modal.className = "card-modal";
+    modal.id = "card-modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.innerHTML =
+      '<div class="card-modal-backdrop" data-close="1"></div>' +
+      '<div class="card-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="card-modal-title">' +
+      '<div class="card-modal-head">' +
+      '<p class="card-modal-title" id="card-modal-title">阅读</p>' +
+      '<button class="card-modal-close" type="button" data-close="1">关闭</button>' +
+      "</div>" +
+      '<div class="card-modal-body"></div>' +
+      "</div>";
+    document.body.appendChild(modal);
+    var bodyEl = modal.querySelector(".card-modal-body");
+    var titleEl = modal.querySelector("#card-modal-title");
+    var open = false;
+
+    function clonePiece(art, sel) {
+      var el = art.querySelector(sel);
+      return el ? el.cloneNode(true) : null;
+    }
+
+    function fillSingle(art) {
+      bodyEl.innerHTML = "";
+      modal.classList.remove("is-multi");
+      titleEl.textContent = "阅读";
+      ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+        var node = clonePiece(art, sel);
+        if (node) bodyEl.appendChild(node);
+      });
+      var closeRow = document.createElement("p");
+      closeRow.className = "links";
+      var closeBtn = document.createElement("button");
+      closeBtn.type = "button";
+      closeBtn.className = "more";
+      closeBtn.style.visibility = "visible";
+      closeBtn.style.marginTop = "14px";
+      closeBtn.textContent = "收起";
+      closeBtn.setAttribute("data-close", "1");
+      closeRow.appendChild(closeBtn);
+      bodyEl.appendChild(closeRow);
+    }
+
+    function fillMulti(list) {
+      bodyEl.innerHTML = "";
+      modal.classList.add("is-multi");
+      titleEl.textContent = "全部长文 · " + list.length;
+      if (!list.length) {
+        var empty = document.createElement("p");
+        empty.className = "card-modal-empty";
+        empty.textContent = "当前页签没有超长卡片。";
+        bodyEl.appendChild(empty);
+        return;
+      }
+      for (var i = 0; i < list.length; i++) {
+        var block = document.createElement("div");
+        block.className = "card-modal-block";
+        ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+          var node = clonePiece(list[i], sel);
+          if (node) block.appendChild(node);
+        });
+        bodyEl.appendChild(block);
+      }
+    }
+
+    function openModal(mode, payload) {
+      if (mode === "multi") fillMulti(payload || []);
+      else fillSingle(payload);
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      open = true;
+      bodyEl.scrollTop = 0;
+      var closer = modal.querySelector(".card-modal-close");
+      if (closer) closer.focus();
+    }
+
+    function closeModal() {
+      if (!open) return;
+      modal.classList.remove("is-open");
+      modal.classList.remove("is-multi");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      bodyEl.innerHTML = "";
+      open = false;
+    }
+
+    modal.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute("data-close")) {
+        closeModal();
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && open) {
+        e.preventDefault();
+        closeModal();
+      }
+    });
+
+    for (var i = 0; i < articles.length; i++) {
+      (function (art) {
+        var fold = art.querySelector(".fold");
+        var btn = art.querySelector(".more");
+        if (!fold || !btn) return;
+        if (fold.scrollHeight > fold.clientHeight + 6) {
+          art.classList.add("is-long");
+          btn.hidden = false;
+          btn.textContent = "展开";
+          btn.addEventListener("click", function () {
+            openModal("single", art);
+          });
+        }
+      })(articles[i]);
+    }
+
+    function activePaneLongCards() {
+      var pane = document.querySelector(".pane.is-active");
+      if (!pane) return [];
+      var list = pane.querySelectorAll("article.is-long");
+      var out = [];
+      for (var i = 0; i < list.length; i++) out.push(list[i]);
+      return out;
+    }
+
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) {
+      exp.title = "在浮层中列出当前页签全部长文（网格内不拉开）";
+      exp.addEventListener("click", function () {
+        openModal("multi", activePaneLongCards());
+      });
+    }
+    if (col) {
+      col.addEventListener("click", function () {
+        closeModal();
+      });
+    }
+  })();
+</script>
+</body>
+</html>
