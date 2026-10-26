@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @danshipper
-- status_id: 2114509827057561603
-- url: https://x.com/danshipper/status/2114509827057561603
-- time_utc: 2026-10-26T00:10:03.000Z
-- updated_window: 2026-10-25 20:00 ET
+- handle: @imwsl90
+- status_id: 2114570168588521706
+- url: https://x.com/imwsl90/status/2114570168588521706
+- time_utc: 2026-10-26T04:09:49.000Z
+- updated_window: 2026-10-26 00:00 ET

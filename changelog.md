@@ -10892,3 +10892,47 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-25 20:10 ET 补抓
 - [x] 2026-10-25 20:10 ET 补抓（cdf0cd43，~20:12 ET late ~2min）：**deferred_to_main**；20 主窗 c3a32b9b 已 in_progress（fire ≈20:07 ET late ~7min；claim 08:08 CST；union **53** HTL53/DOM19 gap **18.1** closed HIT CURSOR；overlay_resume pid **629944** mid ~**22/53**）；prior 16 complete 10-25 更新 **67/33/283** md5 **9ddcf0a6** tip **9ab1c8d**/4aeecc6 live PASS 无 hole；00/04/08/12/16/20 gap_open false；CDP :9226 Chrome/156 pid 436399 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @garrytan 2114444942785523889；rec/ideas **2026-10-25** 已到交主窗并；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-25/20-10-catchup.md`。  2026-10-26 08:13 CST
+
+## 2026-10-25 20:00 ET main — complete
+- fire 2026-10-26T00:07:18.803Z (late ~7min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 53 HIT CUR; DOM 19; union 53 gap 18.1min closed gap_open false
+- overlay 30/53=56.6% reply_parent_dup 7; depollute restored 0
+- window 正文12 / 拿不准1 / 已过滤40 miss 0（16 更新 67/33/283 + 窗卡 +10 → 页 88/34/323；Grok Bot 打电话三帖并一卡）
+- page 10-25 20:00 更新 88/34/323 md5 904856fd8e3eef3d2c2165ba047af345 tip 3ee9a42/c3f8131 live PASS
+- cursor @garrytan 2114444942785523889 → @danshipper 2114509827057561603 (2026-10-26T00:10:03.000Z)
+- rec_ideas: **merged** rec8 / ideas3（data-rec-source/data-ideas-source=2026-10-25；20-rec-ideas.json）
+- chat_delivery: **delivered ✅ via WakeParent ~2026-10-26 08:21 CST**
+- chat_line: 10/25 更新：正文88 / 拿不准34 / 已过滤323。https://t512192641.github.io/x-following/2026-10-25.html
+- index.html → 10-25 20:00 更新
+- escalate: no
+- evidence: raw/2026-10-25/20-meta.md / 20-qa.png / 20-claim.md / 20-rec-ideas.json
+
+## 2026-10-25 20:25 ET 健康检查
+- [x] 2026-10-25 20:25 ET 健康检查（x-3 960034de，~20:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 20/16/12/08/04/00` complete stalled false）；20 主窗 complete 10-25 更新 **88/34/323** md5 **904856fd** tip **3ee9a42**/c3f8131 root==days==index==live PASS；cursor @danshipper **2114509827057561603**；chat ✅ ~08:21 CST；lists Oct21+22+23+24+**25** done **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/20-25-health.md  2026-10-26 08:30 CST
+
+## 2026-10-25 21:25 ET 健康检查
+- [x] 2026-10-25 21:25 ET 健康检查（x-3 960034de，~21:32 ET late ~7min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 20/16/12/08/04/00` complete stalled false）；20 主窗 complete 10-25 更新 **88/34/323** md5 **904856fd** tip **3ee9a42**/c3f8131 root==days==index==live PASS；cursor @danshipper **2114509827057561603**；chat ✅ ~08:21 CST；lists Oct21+22+23+24+**25** done **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/21-25-health.md  2026-10-26 09:35 CST
+
+## 2026-10-25 22:25 ET 健康检查
+- [x] 2026-10-25 22:25 ET 健康检查（x-3 960034de，~22:32 ET late ~7min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 20/16/12/08/04/00` complete stalled false）；20 主窗 complete 10-25 更新 **88/34/323** md5 **904856fd** tip **3ee9a42**/c3f8131 root==days==index==live PASS；cursor @danshipper **2114509827057561603**；chat ✅ ~08:21 CST；lists Oct21+22+23+24+**25** done **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/22-25-health.md  2026-10-26 10:35 CST
+
+## 2026-10-25 23:25 ET 健康检查
+- [x] 2026-10-25 23:25 ET 健康检查（x-3 960034de，~23:28 ET late ~3min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=6）；watchdog exit 0（checked 0 全局；`--date 2026-10-25 --hh 20/16/12/08/04/00` complete stalled false）；20 主窗 complete 10-25 更新 **88/34/323** md5 **904856fd** tip **3ee9a42**/c3f8131 root==days==index==live PASS；cursor @danshipper **2114509827057561603**；chat ✅ ~08:21 CST；lists Oct21+22+23+24+**25** done **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-25/23-25-health.md  2026-10-26 11:30 CST
+
+## 2026-10-26 00:10 ET 补抓
+- [x] 2026-10-26 00:10 ET 补抓（cdf0cd43，~00:11 ET late ~1min）：**deferred_to_main**；00 主窗 c3a32b9b 已 in_progress（fire ≈00:08 ET late ~8min；claim 12:10 CST；HTL **146** hit True；DOM mid `_scrape00_dom.py` 活跃 → scrape 未齐）；prior 20 complete 10-25 更新 **88/34/323** md5 **904856fd** tip **3ee9a42**/c3f8131 live PASS 无 hole；10-25 gap_open false；CDP :9226 Chrome/156 pid 436399 login_ok **not stolen**；watchdog exit 0（checked 1 not stalled）；cursor still @danshipper 2114509827057561603；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-26/00-10-catchup.md`。  2026-10-26 12:13 CST
+
+## 2026-10-26 00:00 ET main — complete
+- fire 2026-10-26T04:08:23.418Z (late ~8min); executor full_main_window c3a32b9b-207d-5bf2-a873-596764705a47
+- HTL 146 HIT CUR; DOM 43; union 147 gap 1.7min closed gap_open false
+- overlay 108/147=73.5% reply_parent_dup 21; depollute restored 0
+- window 正文32 / 拿不准15 / 已过滤100 miss 0（pre 31/15/98 → 10-25；after 1/0/2 → 10-26 薄种子）
+- page 10-25 完整版 119/49/421 md5 5fb96804c0ec88fc009fd18cc4bf488f tip TBD live PASS
+- thin_seed 10-26 1/0/2 md5 1e0a1668671b2f4f94268c272e384200 tip TBD（不聊天交付）
+- cursor @danshipper 2114509827057561603 → @imwsl90 2114570168588521706 (2026-10-26T04:09:49.000Z)
+- rec_ideas: **skipped**（非 20:00）
+- chat_delivery: **pending_parent**
+- chat_line: 10/25 完整版：正文119 / 拿不准49 / 已过滤421。https://t512192641.github.io/x-following/2026-10-25.html
+- index.html → 10-25 完整版
+- escalate: no
+- evidence: raw/2026-10-26/00-meta.md / 00-qa.png / 00-claim.md
