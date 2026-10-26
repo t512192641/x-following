@@ -10931,7 +10931,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - thin_seed 10-26 1/0/2 md5 1e0a1668671b2f4f94268c272e384200 tip 137df22（不聊天交付）
 - cursor @danshipper 2114509827057561603 → @imwsl90 2114570168588521706 (2026-10-26T04:09:49.000Z)
 - rec_ideas: **skipped**（非 20:00）
-- chat_delivery: **pending_parent**
+- chat_delivery: **delivered ✅ via WakeParent ~2026-10-26 12:40 CST**
 - chat_line: 10/25 完整版：正文119 / 拿不准49 / 已过滤421。https://t512192641.github.io/x-following/2026-10-25.html
 - index.html → 10-25 完整版
 - escalate: no
@@ -10939,3 +10939,19 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-26 00:25 ET 健康检查
 - [x] 2026-10-26 00:25 ET 健康检查（x-3 960034de，~00:30 ET late ~5–6min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；00 主窗占用 **not stolen**）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 1：10-26/00 in_progress idle≈0.8min after QA not stalled；`--date 2026-10-25 --hh 20/16/12/08/04/00` complete）；00 主窗 c3a32b9b **in_progress**（union **147** gap **1.7** HIT；overlay **108/147=73.5%**；窗 32/15/100；local 页 **119/49/421** md5 **5fb96804** QA pass；publish/meta 待收口；未抢 9226、未干预）；prior 20 complete 10-25 更新 **88/34/323** md5 **904856fd** tip **3ee9a42**/c3f8131 root==days==index==live PASS；cursor @danshipper **2114509827057561603**；chat 交主窗；lists Oct21+22+23+24+**25** done **no catchup**；Oct26 not_due；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**（00 收口后）；escalate no；stay_quiet；evidence raw/2026-10-26/00-25-health.md  2026-10-26 12:32 CST
+
+## 2026-10-26 01:25 ET 健康检查
+- [x] 2026-10-26 01:25 ET 健康检查（x-3 960034de，~01:27–01:28 ET late ~2–3min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 0 全局；`--date 2026-10-26 --hh 00` / `--date 2026-10-25 --hh 20/16/12/08/04/00` complete stalled false）；00 主窗 complete 10-25 完整版 **119/49/421** md5 **5fb96804** tip **b1ca5e8**/cc7d95f root==days==index==live PASS；thin 10-26 1/0/2 不交；cursor @imwsl90 **2114570168588521706**；chat ✅ ~12:40 CST；lists Oct21+22+23+24+**25** done **no catchup**；Oct26 not_due；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-26/01-25-health.md  2026-10-26 13:30 CST
+
+## 2026-10-26 02:25 ET 健康检查
+- [x] 2026-10-26 02:25 ET 健康检查（x-3 960034de，~02:28–02:29 ET late ~3–4min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 0 全局；`--date 2026-10-26 --hh 00` / `--date 2026-10-25 --hh 20/16/12/08/04/00` complete stalled false）；00 主窗 complete 10-25 完整版 **119/49/421** md5 **5fb96804** tip **b1ca5e8**/cc7d95f root==days==index==live PASS；thin 10-26 1/0/2 不交；cursor @imwsl90 **2114570168588521706**；chat ✅ ~12:40 CST；lists Oct21+22+23+24+**25** done **no catchup**；Oct26 not_due；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-26/02-25-health.md  2026-10-26 14:30 CST
+
+## 2026-10-26 03:25 ET 健康检查
+- [x] 2026-10-26 03:25 ET 健康检查（x-3 960034de，~03:30 ET late ~5min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；未抢）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 0 全局；`--date 2026-10-26 --hh 00` / `--date 2026-10-25 --hh 20/16/12/08/04/00` complete stalled false）；00 主窗 complete 10-25 完整版 **119/49/421** md5 **5fb96804** tip **b1ca5e8**/cc7d95f root==days==index==live PASS；thin 10-26 1/0/2 不交；cursor @imwsl90 **2114570168588521706**；chat ✅ ~12:40 CST；lists Oct21+22+23+24+**25** done **no catchup**；Oct26 not_due；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-26/03-25-health.md  2026-10-26 15:32 CST
+
+## 2026-10-26 04:10 ET 补抓
+- [x] 2026-10-26 04:10 ET 补抓（cdf0cd43，~04:16 ET late ~6min）：**deferred_to_main**；04 主窗 c3a32b9b 已 in_progress（fire ≈04:13 ET late ~13min；HTL **132** HIT；DOM mid `_scrape04_dom.py` pid **696805** gap≈6.2）；prior 00 **119/49/421** md5 **5fb96804** tip b1ca5e8 live PASS；cursor @imwsl90 **2114570168588521706**；CDP 436399 not stolen；watchdog 0；未重抓/不抢/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-26/04-10-catchup.md`。  2026-10-26 16:16 CST
+
+
+## 2026-10-26 04:25 ET 健康检查
+- [x] 2026-10-26 04:25 ET 健康检查（x-3 960034de，~04:29 ET late ~4min）：quiet_ok **true**；cdp9226 ok/in_use pid **436399**（already up；04 overlay 占用 **not stolen**）；login_ok auth_token/ct0/twid（cookie DB + /json/list；home articles=0 overlay mid）；watchdog exit 0（checked 1：10-26/04 in_progress overlay_resume pid **698108** ~85/133 idle≈0.1 not stalled；`--date 2026-10-26 --hh 00` / `--date 2026-10-25 --hh 20` complete stalled false）；04 主窗 c3a32b9b **in_progress**（union **133** gap **6.2** HIT；overlay mid；未抢 9226、未干预）；prior 00 complete 10-25 完整版 **119/49/421** md5 **5fb96804** tip **b1ca5e8**/cc7d95f root==days==index==live PASS；thin 10-26 1/0/2 不交；cursor @imwsl90 **2114570168588521706**；chat ✅ ~12:40 CST；lists Oct21+22+23+24+**25** done **no catchup**；Oct26 not_due；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**（04 收口后）；escalate no；stay_quiet；evidence raw/2026-10-26/04-25-health.md  2026-10-26 16:32 CST
