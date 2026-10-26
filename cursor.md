@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @yangyi
-- status_id: 2114690287738273846
-- url: https://x.com/yangyi/status/2114690287738273846
-- time_utc: 2026-10-26T12:07:08.000Z
-- updated_window: 2026-10-26 08:00 ET
+- handle: @Austen
+- status_id: 2114753463624118334
+- url: https://x.com/Austen/status/2114753463624118334
+- time_utc: 2026-10-26T16:18:10.000Z
+- updated_window: 2026-10-26 12:00 ET
