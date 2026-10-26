@@ -10927,8 +10927,8 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - HTL 146 HIT CUR; DOM 43; union 147 gap 1.7min closed gap_open false
 - overlay 108/147=73.5% reply_parent_dup 21; depollute restored 0
 - window 正文32 / 拿不准15 / 已过滤100 miss 0（pre 31/15/98 → 10-25；after 1/0/2 → 10-26 薄种子）
-- page 10-25 完整版 119/49/421 md5 5fb96804c0ec88fc009fd18cc4bf488f tip TBD live PASS
-- thin_seed 10-26 1/0/2 md5 1e0a1668671b2f4f94268c272e384200 tip TBD（不聊天交付）
+- page 10-25 完整版 119/49/421 md5 5fb96804c0ec88fc009fd18cc4bf488f tip b1ca5e8/cc7d95f live PASS
+- thin_seed 10-26 1/0/2 md5 1e0a1668671b2f4f94268c272e384200 tip 137df22（不聊天交付）
 - cursor @danshipper 2114509827057561603 → @imwsl90 2114570168588521706 (2026-10-26T04:09:49.000Z)
 - rec_ideas: **skipped**（非 20:00）
 - chat_delivery: **pending_parent**
