@@ -10936,3 +10936,6 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - index.html → 10-25 完整版
 - escalate: no
 - evidence: raw/2026-10-26/00-meta.md / 00-qa.png / 00-claim.md
+
+## 2026-10-26 00:25 ET 健康检查
+- [x] 2026-10-26 00:25 ET 健康检查（x-3 960034de，~00:30 ET late ~5–6min）：quiet_ok **true**；cdp9226 ok pid **436399**（already up；00 主窗占用 **not stolen**）；login_ok auth_token/ct0/twid（CDP cookies + /json/list + articles=7）；watchdog exit 0（checked 1：10-26/00 in_progress idle≈0.8min after QA not stalled；`--date 2026-10-25 --hh 20/16/12/08/04/00` complete）；00 主窗 c3a32b9b **in_progress**（union **147** gap **1.7** HIT；overlay **108/147=73.5%**；窗 32/15/100；local 页 **119/49/421** md5 **5fb96804** QA pass；publish/meta 待收口；未抢 9226、未干预）；prior 20 complete 10-25 更新 **88/34/323** md5 **904856fd** tip **3ee9a42**/c3f8131 root==days==index==live PASS；cursor @danshipper **2114509827057561603**；chat 交主窗；lists Oct21+22+23+24+**25** done **no catchup**；Oct26 not_due；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**（00 收口后）；escalate no；stay_quiet；evidence raw/2026-10-26/00-25-health.md  2026-10-26 12:32 CST
