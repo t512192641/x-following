@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @foxshuo
-- status_id: 2114933848827994438
-- url: https://x.com/foxshuo/status/2114933848827994438
-- time_utc: 2026-10-27T04:14:57.000Z
-- updated_window: 2026-10-27 00:00 ET
+- handle: @CoderJeffLee
+- status_id: 2114993002620035406
+- url: https://x.com/CoderJeffLee/status/2114993002620035406
+- time_utc: 2026-10-27T08:10:01.000Z
+- updated_window: 2026-10-27 04:00 ET
