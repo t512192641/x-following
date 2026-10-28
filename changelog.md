@@ -11261,3 +11261,14 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-28 16:25 ET 健康检查
 - [x] 2026-10-28 16:25 ET 健康检查（x-3 960034de，~16:26–16:28 ET late ~1–3min）：quiet_ok **true**；cdp9226 ok pid **1234636**（already up；16 overlay **not stolen**）；login_ok auth_token/ct0/twid（CDP Network.getCookies；overlay status tab articles=0）；watchdog exit 0（checked 1：16 overlay_resume pid **1240221** ~**95/111** idle≈0.0 not stalled；`--hh 00/04/08/12` complete stalled false；`--hh 20` null）；16 main **in_progress** union **111** HIT gap≈5.7 overlay ~**95/111**；prior 12 complete 10-28 更新 **76/54/233** md5 **3466b51e92dd403930b75271237a2e8c** tip **2b87bc4**/index **1ce0b4f** root==days==site==index==live PASS；cursor @garrytan **2115476658212004118**；chat 交主窗；lists Oct28 done（x-4；156/@yetone；bookmarks 177/@irongiantXBT）**no catchup**；16:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**（16 收口后）；escalate no；stay_quiet；evidence raw/2026-10-28/16-25-health.md  2026-10-29 04:28 CST
+## 2026-10-28 16:00 ET main — complete
+- [x] 2026-10-28 16:00 ET main（c3a32b9b，fire ≈16:13 ET late ~13min）：**complete**；mode full_main 更新当天页 merge onto 12 更新 76/54/233；不并 rec/ideas；login_ok CDP :9226 chrome-profile 直连；HTL **108** HIT CUR / DOM **22** / union **111**；gap **5.7** gap_open **false**；overlay **71/111=64.0%** reply_parent_dup **8** stop=completed；depollute restored **0**；window 正文**18** / 拿不准**20** / 已过滤**73** miss **0**；page 10-28 更新 **94/74/306** md5 **a858edba1604bf97d38a41351efc6499** tip **c20de24**/index **3e896ca** root==days==live PASS；cursor @garrytan 2115476658212004118 → @yucheng **2115537842340540873**（2026-10-28T20:15:01.000Z）；rec_ideas skipped（非 20:00）；chat_delivery **pending_parent**；chat_line: `10/28 更新：正文94 / 拿不准74 / 已过滤306。https://t512192641.github.io/x-following/2026-10-28.html`；next 20:00 ET；escalate no；evidence raw/2026-10-28/16-meta.md / 16-qa.png / 16-claim.md  2026-10-29 04:39 CST
+
+## 2026-10-28 16:00 ET full_main（更新）
+- union 111（dom22+htl108）hit_cursor true gap 5.7min gap_open false
+- overlay 71/111=64.0% completed；reply_parent_dup 8；depollute restored 0
+- window 正文18 / 拿不准20 / 已过滤73 miss0 → page **94/74/306**（12 76/54/233 + 窗）
+- md5 a858edba1604bf97d38a41351efc6499 tip **c20de24**/index **3e896ca** live PASS；cursor → @yucheng 2115537842340540873
+- chat: `10/28 更新：正文94 / 拿不准74 / 已过滤306。https://t512192641.github.io/x-following/2026-10-28.html` **pending_parent**
+- next 20:00 ET；escalate no
+
