@@ -11200,11 +11200,20 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 ## 2026-10-28 06:25 ET 健康检查
 - [x] 2026-10-28 06:25 ET 健康检查（x-3 960034de，~06:26–06:28 ET late ~1–3min）：quiet_ok **true**；cdp9226 ok pid **776106**（already up；未抢）；login_ok auth_token/ct0/twid（CDP Network.getCookies；home articles=11）；watchdog exit 0（checked 0；`--hh 00/04/20` complete stalled false）；04 main **complete** 10-28 第一版 **28/20/88** md5 **e7739910df47ccb1f3264ca7f1fca9bd** tip **5e3eb6a**/index **1a4a700** root==days==site==index==live PASS；prior 00 **178/85/467** md5 **9070177d** tip **4332694**/index **934f125**；thin 已并入第一版；cursor @elonmusk **2115354989652758879**；chat ✅ ~16:38 CST；lists Oct27 done **no catchup**；Oct28 lists not_due；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-28/06-25-health.md  2026-10-28 18:27 CST
 
-## 2026-10-28 08:00 ET main — in_progress
-- fire 2026-10-28T12:12:48.681Z (late ~12min); claimed by c3a32b9b-207d-5bf2-a873-596764705a47; prior_cursor @elonmusk 2115354989652758879; mode full_main merge onto 04 first 28/20/88; no rec/ideas
+## 2026-10-28 08:00 ET main — complete
+- [x] 2026-10-28 08:00 ET main（c3a32b9b，fire 2026-10-28T12:12:48.681Z ≈08:12 ET late ~12min）：**complete**；mode full_main 更新当天页 merge onto 04 第一版 28/20/88；不并 rec/ideas；login_ok CDP :9226 chrome-profile 直连；HTL **123** HIT CUR / DOM **43** / union **124**；gap **3.27** gap_open **false**；overlay **98/124=79.0%** reply_parent_dup **18** stop=completed；depollute restored **0**；window 正文**31** / 拿不准**18** / 已过滤**75** miss **0**；page 10-28 更新 **55/34/163** md5 **f6334067351f13e054d492b0c2438972** tip **60bb51e** root==days==site==live PASS；**index** →10-28 live PASS tip **5b20235**；cursor @elonmusk 2115354989652758879 → @bozhou_ai **2115417242758439203**（2026-10-28T12:15:47.000Z）；rec_ideas skipped（非 20:00）；chat_delivery **pending_parent**；chat_line: `10/28 更新：正文55 / 拿不准34 / 已过滤163。https://t512192641.github.io/x-following/2026-10-28.html`；next 12:00 ET；escalate no；evidence raw/2026-10-28/08-meta.md / 08-qa.png / 08-claim.md  2026-10-28 20:43 CST
 
 ## 2026-10-28 08:10 ET 补抓
 - [x] 2026-10-28 08:10 ET 补抓（cdf0cd43，~08:19 ET late ~9min）：**deferred_to_main**；08 主窗 c3a32b9b 已 in_progress（fire ≈08:12 ET late ~12min；claim 20:14 CST；HTL **123**/DOM **43** HIT CURSOR union **124** gap≈3.27；overlay_resume pid **1142303** [43/124] mid）；prior 04 complete 10-28 第一版 **28/20/88** md5 **e7739910** tip **5e3eb6a**/index **1a4a700** day+index live PASS；CDP pid **776106** login_ok not stolen；watchdog exit 0；cursor still @elonmusk 2115354989652758879；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-28/08-10-catchup.md`。  2026-10-28 20:21 CST
 
 ## 2026-10-28 08:25 ET 健康检查
 - [x] 2026-10-28 08:25 ET 健康检查（x-3 960034de，~08:26–08:28 ET late ~1–3min）：quiet_ok **true**；cdp9226 ok pid **776106**（already up；08 overlay **not stolen**）；login_ok auth_token/ct0/twid（CDP Network.getCookies；overlay status tab articles=0）；watchdog exit 0（checked 1：08 overlay_resume pid **1142303** ~**81/124** idle≈0.2 not stalled；`--hh 00/04/20` complete stalled false）；08 main **in_progress** union **124** HIT gap≈3.27 overlay ~**81/124**；prior 04 complete 10-28 第一版 **28/20/88** md5 **e7739910df47ccb1f3264ca7f1fca9bd** tip **5e3eb6a**/index **1a4a700** root==days==site==index==live PASS；cursor @elonmusk **2115354989652758879**；chat 交主窗；lists Oct27 done **no catchup**；Oct28 lists not_due；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**（08 收口后）；escalate no；stay_quiet；evidence raw/2026-10-28/08-25-health.md  2026-10-28 20:28 CST
+
+## 2026-10-28 08:00 ET full_main（更新）
+- union 124（dom43+htl123）hit_cursor true gap 3.27min gap_open false
+- overlay 98/124=79.0% completed；reply_parent_dup 18；depollute restored 0
+- window 正文31 / 拿不准18 / 已过滤75 miss0 → page **55/34/163**（04 28/20/88 + 窗）
+- md5 f6334067351f13e054d492b0c2438972 live root=days=index PASS；tip 60bb51e → index 5b20235
+- cursor @elonmusk 2115354989652758879 → @bozhou_ai 2115417242758439203
+- chat: `10/28 更新：正文55 / 拿不准34 / 已过滤163。https://t512192641.github.io/x-following/2026-10-28.html` **pending_parent**
+- next 12:00 ET；escalate no
