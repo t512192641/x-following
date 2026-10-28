@@ -1,9 +1,5 @@
 # cursor
 
-- handle: @AI_Jasonyu
-- status_id: 2115295813719216498
-- url: https://x.com/AI_Jasonyu/status/2115295813719216498
-- created_at: 2026-10-28T04:13:16.000Z
-- updated_by: 2026-10-28 00:00 ET full_main
-- prior: @yanhua1010 2115235213387456707
-- gap_open: false
+- handle: @elonmusk
+- status_id: 2115354989652758879
+- url: https://x.com/elonmusk/status/2115354989652758879

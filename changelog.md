@@ -11184,3 +11184,12 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-28 04:25 ET 健康检查
 - [x] 2026-10-28 04:25 ET 健康检查（x-3 960034de，~04:25–04:27 ET late ~0–2min）：quiet_ok **true**；cdp9226 ok pid **776106**（already up；04 overlay **not stolen**）；login_ok auth_token/ct0/twid（CDP Network.getCookies；overlay status tab articles=0）；watchdog exit 0（checked 1：04 overlay_resume pid **1108155** ~**106/131** idle≈0.0 not stalled；`--date 2026-10-28 --hh 00` / `--date 2026-10-27 --hh 20` complete stalled false）；04 main **in_progress** union **131** HIT gap≈4.7 overlay ~**106/131**；prior 00 complete page_yday **178/85/467** md5 **9070177de139720d6f77e2cdf151da94** tip **4332694**/index **934f125** root==days==site==index==live PASS；thin **2/1/2** md5 **1abbfe39** tip **de4b845** live PASS；cursor @AI_Jasonyu **2115295813719216498**；chat ✅ ~12:42 CST；lists Oct27 done **no catchup**；Oct28 lists not_due；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**（04 收口后）；escalate no；stay_quiet；evidence raw/2026-10-28/04-25-health.md  2026-10-28 16:27 CST
+
+## 2026-10-28 04:00 ET full_main（今天第一版）
+- union 131（dom37+htl129）hit_cursor true gap 4.7min gap_open false
+- overlay 78/131=59.5% completed；reply_parent_dup 20；depollute restored 0
+- window 正文26 / 拿不准19 / 已过滤86 miss0 → page **28/20/88**（薄种子2/1/2+窗）
+- md5 e7739910df47ccb1f3264ca7f1fca9bd live root=days=index PASS；tip 5e3eb6a → index 1a4a700
+- cursor @AI_Jasonyu 2115295813719216498 → @elonmusk 2115354989652758879
+- chat: `10/28 第一版：正文28 / 拿不准20 / 已过滤88。https://t512192641.github.io/x-following/2026-10-28.html` pending_parent
+- next 08:00 ET；escalate no
