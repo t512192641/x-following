@@ -11191,5 +11191,20 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - window 正文26 / 拿不准19 / 已过滤86 miss0 → page **28/20/88**（薄种子2/1/2+窗）
 - md5 e7739910df47ccb1f3264ca7f1fca9bd live root=days=index PASS；tip 5e3eb6a → index 1a4a700
 - cursor @AI_Jasonyu 2115295813719216498 → @elonmusk 2115354989652758879
-- chat: `10/28 第一版：正文28 / 拿不准20 / 已过滤88。https://t512192641.github.io/x-following/2026-10-28.html` pending_parent
+- chat: `10/28 第一版：正文28 / 拿不准20 / 已过滤88。https://t512192641.github.io/x-following/2026-10-28.html` **delivered ✅ via WakeParent ~2026-10-28 16:38 CST**
 - next 08:00 ET；escalate no
+
+## 2026-10-28 05:25 ET 健康检查
+- [x] 2026-10-28 05:25 ET 健康检查（x-3 960034de，~05:29–05:32 ET late ~4–7min）：quiet_ok **true**；cdp9226 ok pid **776106**（already up；未抢）；login_ok auth_token/ct0/twid（CDP Network.getCookies；home articles=11）；watchdog exit 0（checked 0；`--hh 00/04/20` complete stalled false）；04 main **complete** 10-28 第一版 **28/20/88** md5 **e7739910df47ccb1f3264ca7f1fca9bd** tip **5e3eb6a**/index **1a4a700** root==days==site==index==live PASS；prior 00 **178/85/467** md5 **9070177d** tip **4332694**/index **934f125**；thin 已并入第一版；cursor @elonmusk **2115354989652758879**；chat ✅ ~16:38 CST（本条把 changelog 04:00 pending_parent→delivered 对齐 claim/meta）；lists Oct27 done **no catchup**；Oct28 lists not_due；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-28/05-25-health.md  2026-10-28 17:32 CST
+
+## 2026-10-28 06:25 ET 健康检查
+- [x] 2026-10-28 06:25 ET 健康检查（x-3 960034de，~06:26–06:28 ET late ~1–3min）：quiet_ok **true**；cdp9226 ok pid **776106**（already up；未抢）；login_ok auth_token/ct0/twid（CDP Network.getCookies；home articles=11）；watchdog exit 0（checked 0；`--hh 00/04/20` complete stalled false）；04 main **complete** 10-28 第一版 **28/20/88** md5 **e7739910df47ccb1f3264ca7f1fca9bd** tip **5e3eb6a**/index **1a4a700** root==days==site==index==live PASS；prior 00 **178/85/467** md5 **9070177d** tip **4332694**/index **934f125**；thin 已并入第一版；cursor @elonmusk **2115354989652758879**；chat ✅ ~16:38 CST；lists Oct27 done **no catchup**；Oct28 lists not_due；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-28/06-25-health.md  2026-10-28 18:27 CST
+
+## 2026-10-28 08:00 ET main — in_progress
+- fire 2026-10-28T12:12:48.681Z (late ~12min); claimed by c3a32b9b-207d-5bf2-a873-596764705a47; prior_cursor @elonmusk 2115354989652758879; mode full_main merge onto 04 first 28/20/88; no rec/ideas
+
+## 2026-10-28 08:10 ET 补抓
+- [x] 2026-10-28 08:10 ET 补抓（cdf0cd43，~08:19 ET late ~9min）：**deferred_to_main**；08 主窗 c3a32b9b 已 in_progress（fire ≈08:12 ET late ~12min；claim 20:14 CST；HTL **123**/DOM **43** HIT CURSOR union **124** gap≈3.27；overlay_resume pid **1142303** [43/124] mid）；prior 04 complete 10-28 第一版 **28/20/88** md5 **e7739910** tip **5e3eb6a**/index **1a4a700** day+index live PASS；CDP pid **776106** login_ok not stolen；watchdog exit 0；cursor still @elonmusk 2115354989652758879；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-28/08-10-catchup.md`。  2026-10-28 20:21 CST
+
+## 2026-10-28 08:25 ET 健康检查
+- [x] 2026-10-28 08:25 ET 健康检查（x-3 960034de，~08:26–08:28 ET late ~1–3min）：quiet_ok **true**；cdp9226 ok pid **776106**（already up；08 overlay **not stolen**）；login_ok auth_token/ct0/twid（CDP Network.getCookies；overlay status tab articles=0）；watchdog exit 0（checked 1：08 overlay_resume pid **1142303** ~**81/124** idle≈0.2 not stalled；`--hh 00/04/20` complete stalled false）；08 main **in_progress** union **124** HIT gap≈3.27 overlay ~**81/124**；prior 04 complete 10-28 第一版 **28/20/88** md5 **e7739910df47ccb1f3264ca7f1fca9bd** tip **5e3eb6a**/index **1a4a700** root==days==site==index==live PASS；cursor @elonmusk **2115354989652758879**；chat 交主窗；lists Oct27 done **no catchup**；Oct28 lists not_due；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**（08 收口后）；escalate no；stay_quiet；evidence raw/2026-10-28/08-25-health.md  2026-10-28 20:28 CST
