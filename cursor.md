@@ -1,9 +1,9 @@
 # cursor
 
-- handle: @yanhua1010
-- status_id: 2115235213387456707
-- url: https://x.com/yanhua1010/status/2115235213387456707
-- created_at: 2026-10-28T00:12:28.000Z
-- updated_by: 2026-10-27 20:00 ET full_main
-- prior: @liuren 2115176390320693650
+- handle: @AI_Jasonyu
+- status_id: 2115295813719216498
+- url: https://x.com/AI_Jasonyu/status/2115295813719216498
+- created_at: 2026-10-28T04:13:16.000Z
+- updated_by: 2026-10-28 00:00 ET full_main
+- prior: @yanhua1010 2115235213387456707
 - gap_open: false
