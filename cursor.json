@@ -1,12 +1,12 @@
 {
-  "handle": "@easyopss",
-  "status_id": "2115718056693645633",
-  "url": "https://x.com/easyopss/status/2115718056693645633",
-  "created_at": "2026-10-29T08:11:07.000Z",
-  "updated_by": "2026-10-29 04:00 ET full_main",
+  "handle": "@app_sail",
+  "status_id": "2115778173820711391",
+  "url": "https://x.com/app_sail/status/2115778173820711391",
+  "created_at": "2026-10-29T12:10:00.000Z",
+  "updated_by": "2026-10-29 08:00 ET full_main",
   "prior": {
-    "handle": "@PandaTalk8",
-    "status_id": "2115658187634507924"
+    "handle": "@easyopss",
+    "status_id": "2115718056693645633"
   },
   "gap_open": false
 }
