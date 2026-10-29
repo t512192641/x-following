@@ -11345,3 +11345,11 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-29 08:10 ET 补抓
 - [x] 2026-10-29 08:10 ET 补抓（cdf0cd43，~08:19 ET late ~9min）：**deferred_to_main**；08 主窗 c3a32b9b 已 in_progress（fire ≈08:11 ET late ~11–12min；claim 20:13 CST；HTL **85**/DOM **23** HIT CURSOR union **86** gap≈1.8；overlay_resume pid **1356283** ~**67/86** mid）；prior 04 complete 10-29 第一版 **27/13/87** md5 **126f4777** tip **84a91ec**/index **595beb0** day+index live PASS；CDP pid **1316433** login_ok not stolen；watchdog exit 0；cursor still @easyopss 2115718056693645633；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-29/08-10-catchup.md`。  2026-10-29 20:20 CST
+
+## 2026-10-29 08:00 ET full_main（c3a32b9b）
+- status: complete；late ~11–12min；chat_delivery: pending_parent
+- union 86（DOM23+HTL85）gap 1.8 HIT；overlay 64/86=74.4% reject_href11 reply_parent_dup11；depollute restored0
+- 窗类 正文15 / 拿不准13 / 已过滤58 miss0；页累计 **40/25/145**（prior 27/13/87）
+- rec_ideas skipped；cursor @easyopss → @app_sail 2115778173820711391；gap_open false
+- Pages tip 665ca3d md5 6df99709ae66c0a9e2597c32af7c817c live PASS；QA clippedBtns0
+- chat: `10/29 更新：正文40 / 拿不准25 / 已过滤145。https://t512192641.github.io/x-following/2026-10-29.html`
