@@ -11373,9 +11373,26 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - [x] 2026-10-29 12:25 ET 健康检查（x-3 960034de，~12:27–12:29 ET late ~2–4min）：quiet_ok **true**；cdp9226 ok pid **1316433**（already up；12 overlay **not stolen**）；login_ok auth_token/ct0/twid（CDP Network.getCookies；overlay status tab articles=0）；watchdog exit 0（checked 1：12 overlay_resume pid **1396215** ~**109/141** idle≈0.1 not stalled；`--hh 08/04` complete stalled false）；12 main **in_progress** union **141** gap≈6.0 gap_open false overlay ~**109/141**；prior 08 complete 10-29 更新 **40/25/145** md5 **6df99709ae66c0a9e2597c32af7c817c** tip **665ca3d**/index **f6d149a**/changelog **d1fd133** root==days==live PASS；cursor @app_sail **2115778173820711391**；chat 交主窗；lists Oct29 done（x-4；156/@yetone；bookmarks 177/@irongiantXBT）**no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**（12 收口后）；escalate no；stay_quiet；evidence raw/2026-10-29/12-25-health.md  2026-10-30 00:29 CST
 
 ## 2026-10-29 12:00 ET full_main（c3a32b9b）
-- status: complete；late ~10min；chat_delivery: **pending_parent**
+- status: complete；late ~10min；chat_delivery: **delivered ✅ via WakeParent ~2026-10-30 00:39 CST**
 - union 141（DOM35+HTL135）gap 6.0 hit_cursor false（HTL 403；close <45min）；overlay 97/141=68.8% reject_href31 reply_parent_dup13；depollute restored1
 - 窗类 正文27 / 拿不准13 / 已过滤101 miss0；页累计 **67/38/246**（prior 40/25/145）
 - rec_ideas skipped；cursor @app_sail → @lennysan 2115839249581003104；gap_open false
 - Pages tip c411fa6 md5 f862a1e401b1ca49ffc7f847ca64dc43 live PASS；QA clippedBtns0
 - chat: `10/29 更新：正文67 / 拿不准38 / 已过滤246。https://t512192641.github.io/x-following/2026-10-29.html`
+
+## 2026-10-29 13:25 ET 健康检查
+- [x] 2026-10-29 13:25 ET 健康检查（x-3 960034de，~13:33–13:36 ET late ~8–11min）：quiet_ok **true**；cdp9226 ok pid **1316433**（already up；未抢）；login_ok auth_token/ct0/twid（CDP Network.getCookies；home articles=5）；watchdog exit 0（checked 0；`--hh 12/08` complete stalled false；`--hh 16` null）；12 main **complete** 10-29 更新 **67/38/246** md5 **f862a1e401b1ca49ffc7f847ca64dc43** tip **c411fa6**/8123680 root==days==site==live PASS；cursor @lennysan **2115839249581003104**；chat ✅ ~00:39 CST（本条把 changelog 12:00 pending_parent→delivered 对齐 claim/meta）；lists Oct29 done（x-4；156/@yetone；bookmarks 177/@irongiantXBT）**no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-29/13-25-health.md  2026-10-30 01:36 CST
+
+## 2026-10-29 14:25 ET 健康检查
+- [x] 2026-10-29 14:25 ET 健康检查（x-3 960034de，~14:30–14:33 ET late ~5–8min）：quiet_ok **true**；**cdp9226 launched pid 1426175**（up after 1s 2026-10-30 02:30:59 CST；原 pid **1316433** 已退出；原 profile 直连，未设 CDP_PROXY，未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0（home articles=**7**）；watchdog exit 0（checked 0；`--hh 12/08` complete stalled false；`--hh 16` null）；12 main **complete** 10-29 更新 **67/38/246** md5 **f862a1e401b1ca49ffc7f847ca64dc43** tip **c411fa6**/8123680 root==days==site==live PASS；cursor @lennysan **2115839249581003104**；chat ✅ ~00:39 CST；lists Oct29 done（x-4；156/@yetone；bookmarks 177/@irongiantXBT）**no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next **16:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-10-29/14-25-health.md  2026-10-30 02:33 CST
+
+## 2026-10-29 16:10 ET 补抓
+- [x] 2026-10-29 16:10 ET 补抓（cdf0cd43，~16:12 ET late ~2min；初检无 claim 等到 ~16:18）：**deferred_to_main**；16 主窗 c3a32b9b 已 in_progress（fire ≈16:12 ET late ~12min；claim 04:13 CST；HTL **77**/DOM **12** HIT CURSOR union **82** gap≈1.17；overlay_resume pid **1440985** mid）；prior 12 complete 10-29 更新 **67/38/246** md5 **f862a1e4** tip **c411fa6**/8123680 day+index live PASS；CDP pid **1426175** login_ok not stolen；watchdog exit 0；cursor still @lennysan 2115839249581003104；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-29/16-10-catchup.md`。  2026-10-30 04:19 CST
+
+## 2026-10-29 16:00 ET full_main（c3a32b9b）
+- status: complete；late ~12min；chat_delivery: **pending_parent**
+- union 82（DOM12+HTL77 HIT CUR）gap 1.17 gap_open false；overlay 47/82=57.3% reject_href22 reply_parent_dup13；depollute restored0
+- 窗类 正文19 / 拿不准9 / 已过滤54 miss0；页累计 **84/47/300**（prior 67/38/246；Pro cluster 3→1）
+- rec_ideas skipped；cursor @lennysan → @alex_prompter 2115900469839102205；gap_open false
+- Pages tip PLACEHOLDER_TIP md5 f6827c5ecb238d09b585b6446ef5ad44 live PASS；QA clippedBtns0
+- chat: `10/29 更新：正文84 / 拿不准47 / 已过滤300。https://t512192641.github.io/x-following/2026-10-29.html`
