@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>X 关注汇总 2026-10-29（正文 5 / 拿不准 1 / 已过滤 4）</title>
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; height: 320px; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+article.is-long .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+/* Floating modal expand — grid cards never grow */
+body.modal-open { overflow: hidden; }
+.card-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+.card-modal.is-open { display: flex; }
+.card-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(29, 42, 40, 0.55);
+  image-rendering: pixelated;
+}
+.card-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(720px, 96vw);
+  max-height: min(92vh, 920px);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 4px solid var(--line);
+  box-shadow: 8px 8px 0 var(--shadow);
+  color: var(--ink);
+}
+.card-modal.is-multi .card-modal-dialog {
+  width: min(880px, 96vw);
+}
+.card-modal-head {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-bottom: 3px solid var(--line);
+  background: var(--chip);
+}
+.card-modal-title {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--accent);
+}
+.card-modal-close {
+  appearance: none;
+  flex: 0 0 auto;
+  border: 3px solid var(--line);
+  background: var(--tab-on);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  padding: 6px 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.card-modal-close:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.card-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 14px 16px 18px;
+  -webkit-overflow-scrolling: touch;
+}
+.card-modal-body h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: block;
+  max-height: none;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+.card-modal-body .byline {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  margin: 0 0 12px;
+}
+.card-modal-body .fold {
+  position: static;
+  overflow: visible;
+  flex: none;
+  min-height: 0;
+}
+.card-modal-body .fold::after { display: none !important; }
+.card-modal-body .links { margin-top: 14px; }
+.card-modal-block {
+  padding: 0 0 18px;
+  margin: 0 0 18px;
+  border-bottom: 3px dashed var(--line);
+}
+.card-modal-block:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.card-modal-empty {
+  color: var(--muted);
+  margin: 0;
+}
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 2026-10-29（薄种子）</h1>
+<p class="meta">0:00 ET 薄种子（不聊天交付）。正文 5 / 拿不准 1 / 已过滤 4。完整版等 4:00 ET。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="5" data-pane="pane-main" type="button">正文 5</button>
+<button class="tab" data-count="1" data-pane="pane-maybe" type="button">拿不准 1</button>
+<button class="tab" data-count="4" data-pane="pane-filtered" type="button">已过滤 4</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+<section class="group"><h2>模型 / 产品</h2><div class="grid"><article class="card"><h3>Sumi Studio | Turn Ideas into Videos, Short Dramas, and Ads with AI</h3><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><div class="fold"><p>Sumi Studio | Turn Ideas into Videos, Short Dramas, and Ads with AI</p><p>我去找 Sumi 帮大家要了个福利
+通过我的专属链接注册，首单返 10% 额外积分：
+https://sumistudio.ai/k/GUYI
+想用 Claude + MCP 一条龙做视频的朋友，可以拿这个先试试，是真的丝滑，有问题评论区问我～</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MANISH1027512/status/2115656861387309310" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://sumistudio.ai/k/GUYI" rel="noopener noreferrer" target="_blank">sumistudio.ai</a></p></article><article class="card"><h3>Sumi Studio | Turn Ideas into Videos, Short Dramas, and Ads with AI</h3><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><div class="fold"><p>Sumi Studio | Turn Ideas into Videos, Short Dramas, and Ads with AI</p><p>我去找 Sumi 帮大家要了个福利
+通过这个链接注册，首单返 10% 额外积分：</p><p>https://sumistudio.ai/k/GUYI
+想用 Claude + MCP 一条龙做视频的朋友，可以拿这个先试试，是真的爽，有问题评论区问我～</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MANISH1027512/status/2115656074128994631" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://sumistudio.ai/k/GUYI" rel="noopener noreferrer" target="_blank">sumistudio.ai</a></p></article></div></section><section class="group"><h2>提示词 / 方法</h2><div class="grid"><article class="card"><h3>Claude + Sumi MCP = 直接起飞！  我一直说 Claude 是我的剪辑外挂。但有个误区要先讲清楚：Claude 能“做”视频，…</h3><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><div class="fold"><p>Claude + Sumi MCP = 直接起飞！</p><p>我一直说 Claude 是我的剪辑外挂。但有个误区要先讲清楚：Claude 能“做”视频，不等于能“生成”视频。</p><p>Claude 做视频走的是 Video as Code 路线。它用 Remotion、HyperFrames 这类框架，把画面写成时间轴上的代码，排版、动效、转场、调色、字幕，都能精确到帧。它最强的是编排：给它一段 BGM，它能分析出 BPM 和鼓点，精准卡点。
+但它画不出一个真实的人，也做不出一束流动的光、一次转身扬起的发丝。这种像素级的真实画面，还是得交给视频生成模型。</p><p>所以我以前的流程一直是割裂的：图在一个平台生成，视频去另一个平台跑，配音再换一家，提示词另开窗口写，最后把一堆文件拖回来交给 Claude 剪。Claude 的品味和编排能力再强，也只能在你喂给它的素材里发挥。</p><p>这次接入 @sumistudio_ai 的 MCP，这个断点终于接上了。
+Claude 可以直接在 Sumi 里调用模型、查看报价、生成素材、取回文件，然后接着剪。创意、生成、剪辑，在同一个对话里形成闭环。</p><p>这条韩蛛俐《白房间》就是这么做出来的：
+· Claude 先排好分镜和卡点，再按镜头决定用哪个模型生成
+· 日语台词直接调 MiniMax 语音，玻璃碎裂、墨滴入眼这些音效也是现
+· 去水印、超分、卡点特效、片尾卡，全部用代码完成</p><p>成本也比我预想的低：
+· 全片积分不到 1200 （参考，sd2.5 30秒720p消耗积分1500）
+· 我让 Claude 每次生成前先报价，我确认后才跑。简单镜头用 Wan3、H要质感的镜头才上 Seedance 2.5
+· Claude 这边的 token 只用了周额度的 5%，而且是 20 刀的 Pro 账号
+· 语音和音乐也能直接调 MiniMax 和 Suno v6，以前这些 API 都得我自</p><p>一句话：以前 Claude 是我的剪辑外挂，现在它是一整个制作组。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MANISH1027512/status/2115656858652303610" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section><section class="group"><h2>仓库 / 工具</h2><div class="grid"><article class="card"><h3>From the ClaudeAI community on Reddit: I think in pictures, so I taught …</h3><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><div class="fold"><p>From the ClaudeAI community on Reddit: I think in pictures, so I taught Claude Code to draw mermaid...</p><p>原文：</p><p>https://reddit.com/r/ClaudeAI/comments/1xht43m/i_think_in_pictures_so_i_taught_claude_code_to</p><p>https://github.com/iamrohithrnair/merman</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yibie/status/2115655226481143912" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://reddit.com/r/ClaudeAI/comments/1xht43m/i_think_in_pictures_so_i_taught_claude_code_to" rel="noopener noreferrer" target="_blank">reddit.com</a><a href="https://github.com/iamrohithrnair/merman" rel="noopener noreferrer" target="_blank">GitHub</a></p></article><article class="card"><h3>在终端里用 Claude Code 画架构图，它只把 mermaid 源码原样贴给你，图要复制到别的 app 里才看得见。merman 是个 C…</h3><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><div class="fold"><p>在终端里用 Claude Code 画架构图，它只把 mermaid 源码原样贴给你，图要复制到别的 app 里才看得见。merman 是个 Claude Code 插件，把回复里的 mermaid 代码块直接画成彩色字符图，图跟着回答一起出现在屏幕上。</p><p>它不注册工具，也不走 MCP，Claude 从不会调用它。做法是一组 TypeScript 钩子，接在回复和屏幕之间，重画 Claude Code 本来要显示的那段 markdown。流程图、时序图、状态机都能画，ER 图和饼图也在。插件只碰回复，Claude Code 自己的界面不动，停用它，自带渲染立刻回来。</p><p>装：</p><p>claude plugin marketplace add iamrohithrnair/merman &amp;&amp; claude plugin install merman@merman</p><p>要 2.1.311 以上。装完 /reload-plugins，/merman setup 选主题。17 套配色，/merman theme nord 当场换，/merman demo 看它能画什么。</p><p>图是字符画的，有边界。宽度超出窗口、或超过 80 行的图它不画，仍旧显示源码，大的时序图还是会退回别处看。C4 图目前不支持。</p><p>模型的账只有一笔：一条约 355 token 的说明，告诉它这个会话里可以放心画图，只加在第一条提示里，压缩掉之后补一次。把 diagramHints 关掉就一个 token 也不发。渲染这边，一条带六张图的完整回复首画中位 1.8 ms，重画 0.29 ms。插件 616 KB，没有网络请求，MIT。</p><p>我的判断：它的价值在迭代成本。改一支箭得把源码复制出去，切到别的 app 看一眼再回来重说一遍，一轮几分钟；它把这个循环压进同一条回复。图最终要拿给别人，还是得点 ▣ png 导出成图片。</p><p>原文链接在评论区</p><p>#ClaudeCode #Mermaid #终端</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yibie/status/2115655179072942374" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+<section class="group"><h2>拿不准</h2><div class="grid"><article class="card"><h3>Ben的这个动画版的数字人真不错啊！其实，有些人说这个没啥技术含量什么的，我也认…</h3><p class="byline">Berryxia.AI <a href="https://x.com/berryxia" rel="noopener noreferrer" target="_blank">@berryxia</a></p><div class="fold"><p>Ben的这个动画版的数字人真不错啊！其实，有些人说这个没啥技术含量什么的，我也认同。</p><p>为什么呢？
+本身现在很多工具都依赖于模型，但是你能把模型的能力发挥到最大，把别人不能一步到位就用的能力窜起来，这也就是有价值的事儿。</p><p>你说苹果的iPhone 、iPod 的发布，绝不是技术含量在当时领先的产品，一个道理。</p><p>简单易用，效果不错，才是最令人爽的~</p><p>PS：我觉得也不一定使用真人什么的，这种有自己IP形象的动画人物也是可以的啊！</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/berryxia/status/2115656083822002643" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-filtered">
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><p>上海说英语的真的算是全国人数最多的城市了 。</p><p class="links"><a href="https://x.com/PandaTalk8/status/2115658187634507924" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><p>@imwsl90 赚钱富人的钱被具象化了</p><p class="links"><a href="https://x.com/PandaTalk8/status/2115657672603443568" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">dontbesilent <a href="https://x.com/dontbesilent" rel="noopener noreferrer" target="_blank">@dontbesilent</a></p><p>这就是我感谢母校的原因  在大多数时候，我可以不怎么上课，自由 —— 这才是真正的教育</p><p class="links"><a href="https://x.com/dontbesilent/status/2115656735172293107" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Geek <a href="https://x.com/geekbb" rel="noopener noreferrer" target="_blank">@geekbb</a></p><p>哈哈哈，通过 Command Code 去蒸馏 Anthropic 和 OpenAI 吗？就不怕 Command Code 掺点屎给你。</p><p class="links"><a href="https://x.com/geekbb/status/2115655499618385972" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+</div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    var modal = document.createElement("div");
+    modal.className = "card-modal";
+    modal.id = "card-modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.innerHTML =
+      '<div class="card-modal-backdrop" data-close="1"></div>' +
+      '<div class="card-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="card-modal-title">' +
+      '<div class="card-modal-head">' +
+      '<p class="card-modal-title" id="card-modal-title">阅读</p>' +
+      '<button class="card-modal-close" type="button" data-close="1">关闭</button>' +
+      "</div>" +
+      '<div class="card-modal-body"></div>' +
+      "</div>";
+    document.body.appendChild(modal);
+    var bodyEl = modal.querySelector(".card-modal-body");
+    var titleEl = modal.querySelector("#card-modal-title");
+    var open = false;
+
+    function clonePiece(art, sel) {
+      var el = art.querySelector(sel);
+      return el ? el.cloneNode(true) : null;
+    }
+
+    function fillSingle(art) {
+      bodyEl.innerHTML = "";
+      modal.classList.remove("is-multi");
+      titleEl.textContent = "阅读";
+      ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+        var node = clonePiece(art, sel);
+        if (node) bodyEl.appendChild(node);
+      });
+      var closeRow = document.createElement("p");
+      closeRow.className = "links";
+      var closeBtn = document.createElement("button");
+      closeBtn.type = "button";
+      closeBtn.className = "more";
+      closeBtn.style.visibility = "visible";
+      closeBtn.style.marginTop = "14px";
+      closeBtn.textContent = "收起";
+      closeBtn.setAttribute("data-close", "1");
+      closeRow.appendChild(closeBtn);
+      bodyEl.appendChild(closeRow);
+    }
+
+    function fillMulti(list) {
+      bodyEl.innerHTML = "";
+      modal.classList.add("is-multi");
+      titleEl.textContent = "全部长文 · " + list.length;
+      if (!list.length) {
+        var empty = document.createElement("p");
+        empty.className = "card-modal-empty";
+        empty.textContent = "当前页签没有超长卡片。";
+        bodyEl.appendChild(empty);
+        return;
+      }
+      for (var i = 0; i < list.length; i++) {
+        var block = document.createElement("div");
+        block.className = "card-modal-block";
+        ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+          var node = clonePiece(list[i], sel);
+          if (node) block.appendChild(node);
+        });
+        bodyEl.appendChild(block);
+      }
+    }
+
+    function openModal(mode, payload) {
+      if (mode === "multi") fillMulti(payload || []);
+      else fillSingle(payload);
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      open = true;
+      bodyEl.scrollTop = 0;
+      var closer = modal.querySelector(".card-modal-close");
+      if (closer) closer.focus();
+    }
+
+    function closeModal() {
+      if (!open) return;
+      modal.classList.remove("is-open");
+      modal.classList.remove("is-multi");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      bodyEl.innerHTML = "";
+      open = false;
+    }
+
+    modal.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute("data-close")) {
+        closeModal();
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && open) {
+        e.preventDefault();
+        closeModal();
+      }
+    });
+
+    for (var i = 0; i < articles.length; i++) {
+      (function (art) {
+        var fold = art.querySelector(".fold");
+        var btn = art.querySelector(".more");
+        if (!fold || !btn) return;
+        if (fold.scrollHeight > fold.clientHeight + 6) {
+          art.classList.add("is-long");
+          btn.hidden = false;
+          btn.textContent = "展开";
+          btn.addEventListener("click", function () {
+            openModal("single", art);
+          });
+        }
+      })(articles[i]);
+    }
+
+    function activePaneLongCards() {
+      var pane = document.querySelector(".pane.is-active");
+      if (!pane) return [];
+      var list = pane.querySelectorAll("article.is-long");
+      var out = [];
+      for (var i = 0; i < list.length; i++) out.push(list[i]);
+      return out;
+    }
+
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) {
+      exp.title = "在浮层中列出当前页签全部长文（网格内不拉开）";
+      exp.addEventListener("click", function () {
+        openModal("multi", activePaneLongCards());
+      });
+    }
+    if (col) {
+      col.addEventListener("click", function () {
+        closeModal();
+      });
+    }
+  })();
+</script>
+</body>
+</html>
