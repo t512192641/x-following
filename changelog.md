@@ -11371,3 +11371,11 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-29 12:25 ET 健康检查
 - [x] 2026-10-29 12:25 ET 健康检查（x-3 960034de，~12:27–12:29 ET late ~2–4min）：quiet_ok **true**；cdp9226 ok pid **1316433**（already up；12 overlay **not stolen**）；login_ok auth_token/ct0/twid（CDP Network.getCookies；overlay status tab articles=0）；watchdog exit 0（checked 1：12 overlay_resume pid **1396215** ~**109/141** idle≈0.1 not stalled；`--hh 08/04` complete stalled false）；12 main **in_progress** union **141** gap≈6.0 gap_open false overlay ~**109/141**；prior 08 complete 10-29 更新 **40/25/145** md5 **6df99709ae66c0a9e2597c32af7c817c** tip **665ca3d**/index **f6d149a**/changelog **d1fd133** root==days==live PASS；cursor @app_sail **2115778173820711391**；chat 交主窗；lists Oct29 done（x-4；156/@yetone；bookmarks 177/@irongiantXBT）**no catchup**；12:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**（12 收口后）；escalate no；stay_quiet；evidence raw/2026-10-29/12-25-health.md  2026-10-30 00:29 CST
+
+## 2026-10-29 12:00 ET full_main（c3a32b9b）
+- status: complete；late ~10min；chat_delivery: **pending_parent**
+- union 141（DOM35+HTL135）gap 6.0 hit_cursor false（HTL 403；close <45min）；overlay 97/141=68.8% reject_href31 reply_parent_dup13；depollute restored1
+- 窗类 正文27 / 拿不准13 / 已过滤101 miss0；页累计 **67/38/246**（prior 40/25/145）
+- rec_ideas skipped；cursor @app_sail → @lennysan 2115839249581003104；gap_open false
+- Pages tip c411fa6 md5 f862a1e401b1ca49ffc7f847ca64dc43 live PASS；QA clippedBtns0
+- chat: `10/29 更新：正文67 / 拿不准38 / 已过滤246。https://t512192641.github.io/x-following/2026-10-29.html`
