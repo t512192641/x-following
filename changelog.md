@@ -11394,5 +11394,5 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - union 82（DOM12+HTL77 HIT CUR）gap 1.17 gap_open false；overlay 47/82=57.3% reject_href22 reply_parent_dup13；depollute restored0
 - 窗类 正文19 / 拿不准9 / 已过滤54 miss0；页累计 **84/47/300**（prior 67/38/246；Pro cluster 3→1）
 - rec_ideas skipped；cursor @lennysan → @alex_prompter 2115900469839102205；gap_open false
-- Pages tip PLACEHOLDER_TIP md5 f6827c5ecb238d09b585b6446ef5ad44 live PASS；QA clippedBtns0
+- Pages tip f84031f md5 f6827c5ecb238d09b585b6446ef5ad44 live PASS；QA clippedBtns0
 - chat: `10/29 更新：正文84 / 拿不准47 / 已过滤300。https://t512192641.github.io/x-following/2026-10-29.html`
