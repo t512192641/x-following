@@ -11468,3 +11468,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 
 ## 2026-10-30 08:10 ET 补抓
 - [x] 2026-10-30 08:10 ET 补抓（cdf0cd43，~08:16 ET late ~6min）：**deferred_to_main**；08 主窗 c3a32b9b 已 in_progress（fire ≈08:12 ET late ~12min；claim 20:13 CST；HTL **72**/DOM **19** HIT CURSOR union **73** gap≈7.08；overlay_resume pid **1567930** ~**[18/73]** early/mid）；prior 04 complete 10-30 第一版 **32/4/106** md5 **87fe9318** tip **3a6865c**/index **6e4c6d2** day+index live PASS；CDP pid **1560792** login_ok not stolen；watchdog exit 0；cursor still @berryxia 2116079637575131398；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-10-30/08-10-catchup.md`。  2026-10-30 20:17 CST
+
+## 2026-10-30 08:00 ET full_main
+- [x] 2026-10-30 08:00 ET main（c3a32b9b，fire ≈08:12 ET late ~12min）：**complete**；union **73** HIT gap **7.08** gap_open false；overlay **48/73=65.8%** rpd13 stop=completed；window **22/0/51** miss0；page 10-30 更新 **54/4/157**（04 第一版 32/4/106 + 窗） md5 **a1ff8d78e84b0501e65254ece89f9b0a** tip **d38ceac**/index **060bf13** root==days==site==live==index PASS；cursor @berryxia → @Michell49473040 **2116141184112599424**；rec/ideas skipped（非 20:00）；QA pass（CDP screenshot；headless hung fallback）；chat_delivery **pending_parent**；chat_line: `10/30 更新：正文54 / 拿不准4 / 已过滤157。https://t512192641.github.io/x-following/2026-10-30.html`；next 12:00 ET；escalate no；evidence raw/2026-10-30/08-meta.md / 08-qa.png / 08-claim.md  2026-10-30 20:28 CST
+
