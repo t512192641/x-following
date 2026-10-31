@@ -1,7 +1,6 @@
 # cursor
-
-- handle: @kepano
-- status_id: 2116563242239905874
-- url: https://x.com/kepano/status/2116563242239905874
-- created_at: 2026-10-31T16:09:35.000Z
-- updated_by: 2026-10-31 12:00 ET full_main
+handle: @dotey
+status_id: 2116623097839149231
+created_at: 2026-10-31T20:07:26.000Z
+updated_by: 2026-10-31 16:00 ET full_main
+prior: @kepano / 2116563242239905874
