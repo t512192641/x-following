@@ -1,9 +1,9 @@
 # cursor
 
-- handle: @430Yang
-- status_id: 2116382130552844318
-- url: https://x.com/430Yang/status/2116382130552844318
-- created_at: 2026-10-31T04:09:55.000Z
-- updated_by: 2026-10-31 00:00 ET full_main
-- prior: @imwsl90 / 2116321983092932825
+- handle: @Adam38363368936
+- status_id: 2116442722248929577
+- url: https://x.com/Adam38363368936/status/2116442722248929577
+- created_at: 2026-10-31T08:10:41.000Z
+- updated_by: 2026-10-31 04:00 ET full_main
+- prior: @430Yang / 2116382130552844318
 - gap_open: false
