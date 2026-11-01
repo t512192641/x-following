@@ -1,8 +1,8 @@
 # cursor
 
-- handle: @oran_ge
-- status_id: 2116880410621960207
-- url: https://x.com/oran_ge/status/2116880410621960207
-- created_at: 2026-11-01T13:09:54.000Z
-- updated_by: 2026-11-01 08:00 ET full_main
-- note: gap_open false → 从 @RookieRicardoR 2116820856169177512 推进
+- handle: @CuiMao
+- status_id: 2116940644128280987
+- url: https://x.com/CuiMao/status/2116940644128280987
+- created_at: 2026-11-01T17:09:15.000Z
+- updated_by: 2026-11-01 12:00 ET full_main
+- note: gap_open false → 从 @oran_ge 2116880410621960207 推进
