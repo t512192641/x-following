@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>X 关注汇总 2026-11-03（正文 2 / 拿不准 0 / 已过滤 7）</title>
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; height: 320px; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+article.is-long .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+/* Floating modal expand — grid cards never grow */
+body.modal-open { overflow: hidden; }
+.card-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+.card-modal.is-open { display: flex; }
+.card-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(29, 42, 40, 0.55);
+  image-rendering: pixelated;
+}
+.card-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(720px, 96vw);
+  max-height: min(92vh, 920px);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 4px solid var(--line);
+  box-shadow: 8px 8px 0 var(--shadow);
+  color: var(--ink);
+}
+.card-modal.is-multi .card-modal-dialog {
+  width: min(880px, 96vw);
+}
+.card-modal-head {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-bottom: 3px solid var(--line);
+  background: var(--chip);
+}
+.card-modal-title {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--accent);
+}
+.card-modal-close {
+  appearance: none;
+  flex: 0 0 auto;
+  border: 3px solid var(--line);
+  background: var(--tab-on);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  padding: 6px 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.card-modal-close:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.card-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 14px 16px 18px;
+  -webkit-overflow-scrolling: touch;
+}
+.card-modal-body h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: block;
+  max-height: none;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+.card-modal-body .byline {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  margin: 0 0 12px;
+}
+.card-modal-body .fold {
+  position: static;
+  overflow: visible;
+  flex: none;
+  min-height: 0;
+}
+.card-modal-body .fold::after { display: none !important; }
+.card-modal-body .links { margin-top: 14px; }
+.card-modal-block {
+  padding: 0 0 18px;
+  margin: 0 0 18px;
+  border-bottom: 3px dashed var(--line);
+}
+.card-modal-block:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.card-modal-empty {
+  color: var(--muted);
+  margin: 0;
+}
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 2026-11-03（薄种子）</h1>
+<p class="meta">0:00 ET 薄种子（不聊天交付）。正文 2 / 拿不准 0 / 已过滤 7。完整版等 4:00 ET。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="2" data-pane="pane-main" type="button">正文 2</button>
+<button class="tab" data-count="0" data-pane="pane-maybe" type="button">拿不准 0</button>
+<button class="tab" data-count="7" data-pane="pane-filtered" type="button">已过滤 7</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+<section class="group"><h2>其他</h2><div class="grid"><article class="card"><h3>WorkBuddy 最值得推荐的 15 个技能（11月最新版 上篇）</h3><p class="byline">程序员小灰 <a href="https://x.com/XiaohuiAI666" rel="noopener noreferrer" target="_blank">@XiaohuiAI666</a></p><div class="fold"><p>WorkBuddy 最值得推荐的 15 个技能（11月最新版 上篇）</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/XiaohuiAI666/status/2117484508157280707" rel="noopener noreferrer" target="_blank">原帖</a><a href="https://github.com/Panniantong/Agent-Reach" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://github.com/steipete/summarize" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://github.com/Imbad0202/academic-research-skills" rel="noopener noreferrer" target="_blank">GitHub</a></p></article></div></section><section class="group"><h2>仓库 / 工具</h2><div class="grid"><article class="card"><h3>AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统  OpenAI 11 月 …</h3><p class="byline">宝玉 <a href="https://x.com/dotey" rel="noopener noreferrer" target="_blank">@dotey</a></p><div class="fold"><p>AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统</p><p>OpenAI 11 月 2 日发文介绍 Pando，一套自研的 Git 服务器后端。上个月 13 日，Anthropic 也发文介绍了自研的源代码管理系统 Scion。</p><p>两家碰到的是同一个问题：AI agent 写代码太快，管代码的系统成了整个公司开发速度的瓶颈。两家的解法方向相反。</p><p>先交代一下 Git：它是程序员管理代码版本的工具。每次改动存成一个“提交”，推送（push）到公司服务器，同事再从服务器拉取（fetch）。“分支”是同一份代码的平行草稿，各改各的，改好再合并进主线。两家都把全公司的代码放在同一个大仓库里，业内叫 monorepo。</p><p>OpenAI 的路线是改造 Git。</p><p>工程师和 agent 还是敲 git push、git pull，只把服务器换成 Pando。推送代码的中位等待时间缩短近 80%，每天往外分发近 1PB（约 100 万 GB）代码数据。</p><p>Anthropic 的路线是替换 Git。</p><p>Scion 有自己的客户端和服务器，提交、合并都在服务器上完成，配套的代码审查、代码搜索工具也是自己写的。CI（每次改动后自动构建和测试的流程）拉代码从几分钟变成几秒，服务器占用的 CPU 和内存只有原来那套的 1/200。</p><p>两套系统都不对外提供。</p><p>OpenAI 说正在研究怎么把 Pando 的技术提供给用户，过程中给 Git 修的问题已经提交给 Git 官方，有几项进了正式版。</p><p>Anthropic 说 Scion 只适合巨型代码仓库，用它得把代码审查、搜索、CI 全部换掉，别的公司很难直接用，所以只分享设计思路，希望 GitHub、GitLab 和开源社区吸收其中有用的部分。</p><p>如果你的团队用 GitHub 或 GitLab，OpenAI 这条路离你更近：改进直接进 Git，工具链不用换。两家都认为别的公司迟早会碰到同样的问题，Anthropic 预计未来 6 到 12 个月这类问题会更常见。</p><p>【Git 为什么扛不住】</p><p>提交量涨得太快。以 2024 年第一季度为基准，OpenAI 合入主线的提交数到 2026 年第三季度涨到近 15 倍，第四季度预计约 25 倍。Anthropic 每天合入的改动，5 月约 2500 个，9 月超过 3 万个，4 个月变成原来的 12 倍多。</p><p>压力会叠加：一个工程师同时有好几个改动等着测试，每推送一次，又有好几个测试任务去拉同一份代码。</p><p>OpenAI 从去年年底开始拉代码、推代码都变慢，合并经常失败，可靠性一度低于 90%，相当于每 10 次操作有超过 1 次出问题。</p><p>Anthropic 的主线历史接近 100GB，压缩后的工作副本超过 25GB，光 CI 每天就要拉约 2500 万次代码，全量下载的话每天超过 600PB。它最多时开了几百台 Git 镜像服务器分担压力，越来越难维护。</p><p>Anthropic 总结了根本原因：Git 的设计假设每个人都离线工作，所以每人手里都要有一份完整仓库。现在拉代码的大多是 agent 和自动任务，它们一直联网，背着整个仓库跑反而成了负担。</p><p>【写代码：别让所有人排一条队】</p><p>多人同时推送时，服务器要保证每个分支“现在指向哪个提交”的指针（Git 里叫 ref，可以理解成书签）不被改乱。</p><p>OpenAI 评估过两种常见做法，都要让整个仓库的改动排成一条队。</p><p>一种是三阶段提交（3PC）：几台服务器各存一份完整仓库，每次推送要过半数服务器同意，分三轮来回确认，推送量一大，各台服务器的硬盘先忙不过来。</p><p>另一种是预写日志（WAL）：所有改动先记进一本共享的流水账，再照着执行，不管改哪个分支都要抢着往同一本账上写，账记得太快，服务器又来不及照着更新，别人拉到新代码要等更久。</p><p>Pando 的办法是每个分支各管各的。</p><p>推 A 分支和推 B 分支互不等待，只有两个人同时推同一个分支才会冲突。代价是同时看好几个分支，看到的可能是各自不同时刻的状态。OpenAI 说，人和 agent 实际只关心单个分支的前后顺序。</p><p>Anthropic 走得更远：提交直接在服务器上生成，没有推送这一步，每次提交只记哪些文件变了。</p><p>Sc</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/dotey/status/2117484277277286623" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+</div>
+<div class="pane" id="pane-filtered">
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">刘韧 <a href="https://x.com/liuren" rel="noopener noreferrer" target="_blank">@liuren</a></p><p>《肖申克的救赎》上映时票房约 1600 万美元，拿了 7 项奥斯卡提名，一项没中。后来靠录像带出租和电视重播，成了 IMDb 长期的第一名。  20 国电影，一</p><p class="links"><a href="https://x.com/liuren/status/2117485506925896033" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">dontbesilent <a href="https://x.com/dontbesilent" rel="noopener noreferrer" target="_blank">@dontbesilent</a></p><p>@foxshuo 好</p><p class="links"><a href="https://x.com/dontbesilent/status/2117484639925440661" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>开始用传说中的 cindy... https://t.co/6wVoC17LKO</p><p class="links"><a href="https://x.com/imwsl90/status/2117482895225090310" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Fox <a href="https://x.com/indie_maker_fox" rel="noopener noreferrer" target="_blank">@indie_maker_fox</a></p><p>🎉 OpenFree 网站上线 1 个月啦  UV：6 K，PV：13.1 K，数据还行 https://t.co/JEqcys8uRV</p><p class="links"><a href="https://x.com/indie_maker_fox/status/2117482632665866282" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">jason <a href="https://x.com/Jason" rel="noopener noreferrer" target="_blank">@Jason</a></p><p>Anyone know who this guy is?  😂</p><p class="links"><a href="https://x.com/Jason/status/2117482624424038803" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Space datacenters actually make sense</p><p class="links"><a href="https://x.com/elonmusk/status/2117482570757656836" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><p>15 年，我也在看，怀念</p><p class="links"><a href="https://x.com/lxfater/status/2117482442739363845" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+</div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    var modal = document.createElement("div");
+    modal.className = "card-modal";
+    modal.id = "card-modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.innerHTML =
+      '<div class="card-modal-backdrop" data-close="1"></div>' +
+      '<div class="card-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="card-modal-title">' +
+      '<div class="card-modal-head">' +
+      '<p class="card-modal-title" id="card-modal-title">阅读</p>' +
+      '<button class="card-modal-close" type="button" data-close="1">关闭</button>' +
+      "</div>" +
+      '<div class="card-modal-body"></div>' +
+      "</div>";
+    document.body.appendChild(modal);
+    var bodyEl = modal.querySelector(".card-modal-body");
+    var titleEl = modal.querySelector("#card-modal-title");
+    var open = false;
+
+    function clonePiece(art, sel) {
+      var el = art.querySelector(sel);
+      return el ? el.cloneNode(true) : null;
+    }
+
+    function fillSingle(art) {
+      bodyEl.innerHTML = "";
+      modal.classList.remove("is-multi");
+      titleEl.textContent = "阅读";
+      ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+        var node = clonePiece(art, sel);
+        if (node) bodyEl.appendChild(node);
+      });
+      var closeRow = document.createElement("p");
+      closeRow.className = "links";
+      var closeBtn = document.createElement("button");
+      closeBtn.type = "button";
+      closeBtn.className = "more";
+      closeBtn.style.visibility = "visible";
+      closeBtn.style.marginTop = "14px";
+      closeBtn.textContent = "收起";
+      closeBtn.setAttribute("data-close", "1");
+      closeRow.appendChild(closeBtn);
+      bodyEl.appendChild(closeRow);
+    }
+
+    function fillMulti(list) {
+      bodyEl.innerHTML = "";
+      modal.classList.add("is-multi");
+      titleEl.textContent = "全部长文 · " + list.length;
+      if (!list.length) {
+        var empty = document.createElement("p");
+        empty.className = "card-modal-empty";
+        empty.textContent = "当前页签没有超长卡片。";
+        bodyEl.appendChild(empty);
+        return;
+      }
+      for (var i = 0; i < list.length; i++) {
+        var block = document.createElement("div");
+        block.className = "card-modal-block";
+        ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+          var node = clonePiece(list[i], sel);
+          if (node) block.appendChild(node);
+        });
+        bodyEl.appendChild(block);
+      }
+    }
+
+    function openModal(mode, payload) {
+      if (mode === "multi") fillMulti(payload || []);
+      else fillSingle(payload);
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      open = true;
+      bodyEl.scrollTop = 0;
+      var closer = modal.querySelector(".card-modal-close");
+      if (closer) closer.focus();
+    }
+
+    function closeModal() {
+      if (!open) return;
+      modal.classList.remove("is-open");
+      modal.classList.remove("is-multi");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      bodyEl.innerHTML = "";
+      open = false;
+    }
+
+    modal.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute("data-close")) {
+        closeModal();
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && open) {
+        e.preventDefault();
+        closeModal();
+      }
+    });
+
+    for (var i = 0; i < articles.length; i++) {
+      (function (art) {
+        var fold = art.querySelector(".fold");
+        var btn = art.querySelector(".more");
+        if (!fold || !btn) return;
+        if (fold.scrollHeight > fold.clientHeight + 6) {
+          art.classList.add("is-long");
+          btn.hidden = false;
+          btn.textContent = "展开";
+          btn.addEventListener("click", function () {
+            openModal("single", art);
+          });
+        }
+      })(articles[i]);
+    }
+
+    function activePaneLongCards() {
+      var pane = document.querySelector(".pane.is-active");
+      if (!pane) return [];
+      var list = pane.querySelectorAll("article.is-long");
+      var out = [];
+      for (var i = 0; i < list.length; i++) out.push(list[i]);
+      return out;
+    }
+
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) {
+      exp.title = "在浮层中列出当前页签全部长文（网格内不拉开）";
+      exp.addEventListener("click", function () {
+        openModal("multi", activePaneLongCards());
+      });
+    }
+    if (col) {
+      col.addEventListener("click", function () {
+        closeModal();
+      });
+    }
+  })();
+</script>
+</body>
+</html>
