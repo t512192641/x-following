@@ -1,5 +1,5 @@
 # cursor
 
-- handle: @app_sail
-- status_id: 2117605685727056152
-- url: https://x.com/app_sail/status/2117605685727056152
+- handle: @elonmusk
+- status_id: 2117667530923745731
+- url: https://x.com/elonmusk/status/2117667530923745731
