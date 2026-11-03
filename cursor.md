@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @liuren
-- status_id: 2117485506925896033
-- url: https://x.com/liuren/status/2117485506925896033
-- created_at: 2026-11-03T05:14:20.000Z
-- updated_by: 2026-11-03 00:00 ET full_main
+- handle: @cellinlab
+- status_id: 2117545492360163750
+- url: https://x.com/cellinlab/status/2117545492360163750
+- created_at: 2026-11-03T09:12:42.000Z
+- updated_by: 2026-11-03 04:00 ET full_main
