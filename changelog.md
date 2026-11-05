@@ -432,11 +432,11 @@
 
 ## 2026-10-02 09:25 ET · x-3 health
 
-- [x] 2026-10-02 09:25 ET 健康检查（~2026-10-02 09:32 ET (sched 09:25, late ~7min; check→lists→reconcile ~09:35 ET)）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap≈9.57 closed；04≈1.72 /00≈3.37 均 closed）；最近完成窗 **08:00**（主窗 c3a32b9b）：今天页10-02 **38/5/109**；raw union70 overlay accept49/reject_href21 fail0 depollute1 窗类25/4/41 miss0；gap≈9.57 closed；hit_cursor_effective true；cursor **@Michell49473040 2105993402668163430**；rec_ideas skipped；QA pass；public tip **350cf4d**；Pages HTTP 200 md5 **b27069ad9d157d376098c380a57a5e8e** live=local（root==days==Pages；root.md 曾停在 04:00 摘要→本轮 sync←days）；08-meta/claim complete；**chat delivered ✅**（2026-10-02 20:36 CST；板顶/08-25 曾 已交（10-03 12:46 CST） 已按 08-meta 收口）；08:10/04:10/00:10 deferred_to_main complete；04 亦齐 26/1/68 chat ✅ 16:47 CST tip 391b55a；00 亦齐 177/38/431 chat ✅ 12:51 CST tip 7698d3d；**CDP :9226 idle**（tab 448F4377A18F）→ lists 补跑后回 home；**lists Oct2 overdue**（x-4 09:23 漏叫；automation lastRun 仍 10/1）→ **当场便宜补跑** ~09:35：关注未变 155/@HiTw93；书签未变 Manu_Sisti/173；未改 jsonl；meta/_check 已写；sync 私有 grok-ops tip **c2e5635**；**调度漏叫**已记；12:00 未见 12-claim（约 +145min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不走付费 X API；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 2026-10-02 12:00 ET；escalate no（名单无变只交幕僚长一句）；stay_quiet_user。  2026-10-02 21:36 CST
+- [x] 2026-10-02 09:25 ET 健康检查（~2026-10-02 09:32 ET (sched 09:25, late ~7min; check→lists→reconcile ~09:35 ET)）：quiet_ok true；无 overdue 主缺口（08 scrape-meta gap≈9.57 closed；04≈1.72 /00≈3.37 均 closed）；最近完成窗 **08:00**（主窗 c3a32b9b）：今天页10-02 **38/5/109**；raw union70 overlay accept49/reject_href21 fail0 depollute1 窗类25/4/41 miss0；gap≈9.57 closed；hit_cursor_effective true；cursor **@Michell49473040 2105993402668163430**；rec_ideas skipped；QA pass；public tip **350cf4d**；Pages HTTP 200 md5 **b27069ad9d157d376098c380a57a5e8e** live=local（root==days==Pages；root.md 曾停在 04:00 摘要→本轮 sync←days）；08-meta/claim complete；**chat delivered ✅**（2026-10-02 20:36 CST；板顶/08-25 曾 已交（10-03 12:46 CST） 已按 08-meta 收口）；08:10/04:10/00:10 deferred_to_main complete；04 亦齐 26/1/68 chat ✅ 16:47 CST tip 391b55a；00 亦齐 177/38/431 chat ✅ 12:51 CST tip 7698d3d；**CDP :9226 idle**（tab 448F4377A18F）→ lists 补跑后回 home；**lists Oct2 overdue**（x-4 09:23 漏叫；automation lastRun 仍 10/1）→ **当场便宜补跑** ~09:35：关注未变 155/@HiTw93；书签未变 Manu_Sisti/173；未改 jsonl；meta/_check 已写；sync 私有 grok-ops tip **372dec9f→c4f46a9b**；**调度漏叫**已记；12:00 未见 12-claim（约 +145min 未到期）；无 AUTH_FAIL/重复抓取；不扩大重跑主窗/不走付费 X API；接管 x-1/x-2/x-3/x-4 enabled；旧四条 disabled；next 2026-10-02 12:00 ET；escalate no（名单无变只交幕僚长一句）；stay_quiet_user。  2026-10-02 21:36 CST
 
 ## 2026-10-02 09:35 ET x-lists (health catchup)
 
-- [x] 2026-10-02 ~09:35 ET 名单补跑（健康检查兜底·x-4 9:23 漏叫）：logged in；关注未变 155/@HiTw93；书签未变 @Manu_Sisti/2104589392631496989 计数 173；未改 jsonl；meta/_check 已写；sync 私有 grok-ops tip **c2e5635**；抓完 x.com/home；**调度漏叫**（x-4 今日 9:23 ET 未醒，lastRun 仍 10/1）。  2026-10-02 21:36 CST
+- [x] 2026-10-02 ~09:35 ET 名单补跑（健康检查兜底·x-4 9:23 漏叫）：logged in；关注未变 155/@HiTw93；书签未变 @Manu_Sisti/2104589392631496989 计数 173；未改 jsonl；meta/_check 已写；sync 私有 grok-ops tip **372dec9f→c4f46a9b**；抓完 x.com/home；**调度漏叫**（x-4 今日 9:23 ET 未醒，lastRun 仍 10/1）。  2026-10-02 21:36 CST
 
 ## 2026-10-02 08:25 ET 健康检查
 
@@ -451,7 +451,7 @@
 - cursor → @Michell49473040 2105993402668163430；prior @rionaifantasy 2105933118788206975
 - rec_ideas skipped（非 20:00）；无官方 X API；escalate no
 - chat_line: `10/2 8:00：正文38 / 拿不准5 / 已过滤109。https://t512192641.github.io/x-following/2026-10-02.html`
-- chat_delivery: 已交（10-04 12:52 CST）；public tip **350cf4d** md5 b27069ad days==root==site==live；grok-ops tip **57006e8**
+- chat_delivery: 已交（10-04 12:52 CST）；public tip **350cf4d** md5 b27069ad days==root==site==live；grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-02 20:32 CST
 
 # changelog
@@ -545,7 +545,7 @@
 
 - deferred_to_main；00:00 主窗 c3a32b9b in_progress（~00:07 ET；union138 overlay mid ~77/138 accept≈23/reject_href≈54 fail0 + `_overlay00_cdp.py` + CDP :9226 tab 448F4377）；未重抓不抢 CDP
 - prior 20 complete 144/31/353 tip 783a64b md5 503d7253 chat delivered；cursor still @garrytan 2105814135388979414；gap≈3.37 closed；交昨页 10-01 交主窗
-- evidence raw/2026-10-02/00-10-catchup.md；grok-ops tip **5811288**；escalate no；stay_quiet
+- evidence raw/2026-10-02/00-10-catchup.md；grok-ops tip **372dec9f→c4f46a9b**；escalate no；stay_quiet
 - recorded 2026-10-02 12:19 CST
 
 # changelog
@@ -6024,7 +6024,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（00-scrape-meta）
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +8.8h）
 - next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **15973b3**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 12:38 CST
 
 ## 2026-10-10 01:25 ET · 健康检查
@@ -6038,7 +6038,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +7.8h）
 - **04:00 ET 未到期**（约 +2.4h，无 04-claim/04.jsonl）
 - next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **f5710ec**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 13:36 CST
 
 ## 2026-10-10 02:25 ET · 健康检查
@@ -6052,7 +6052,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +6.8h）
 - **04:00 ET 未到期**（约 +1.4h，无 04-claim/04.jsonl）
 - next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **60bae83**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 14:35 CST
 
 ## 2026-10-10 03:25 ET · 健康检查
@@ -6066,7 +6066,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +5.8h）
 - **04:00 ET 未到期**（约 +0.45h，无 04-claim/04.jsonl）
 - next **04:00 ET**（今天第一版）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **dfa01da**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 15:34 CST
 
 ## 2026-10-10 04:10 ET 补抓
@@ -6084,7 +6084,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（04-scrape-meta）
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +4.8h）
 - next **04 收口 → 08:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **d2fefe5**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 16:35 CST
 
 ## 2026-10-10 04:00 ET · 主窗
@@ -6116,7 +6116,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +3.85h）
 - next **08:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **e015119**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 17:35 CST
 
 ## 2026-10-10 06:25 ET · 健康检查
@@ -6129,7 +6129,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +2.77h）
 - next **08:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **2674006**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 18:36 CST
 
 ## 2026-10-10 07:25 ET · 健康检查
@@ -6142,7 +6142,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +1.84h）
 - next **08:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **37c554c**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 19:34 CST
 
 
@@ -6161,7 +6161,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）
 - lists Oct8+Oct9 已齐不补跑；Oct10 lists 未到期（09:23 ET Oct10，约 +0.8h）
 - next **08 收口 → 12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **610a2f1**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 20:35 CST
 
 ## 2026-10-10 08:00 ET · 主窗
@@ -6181,7 +6181,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_delivery: delivered ✅ (delivered_at 2026-10-10 20:44 CST; root==days md5 39bf3155 verified; WakeParent)
 - escalate: no
 - next: 12:00 ET
-- grok-ops tip: **f5025f6**
+- grok-ops tip **372dec9f→c4f46a9b**
 - finished_at: 2026-10-10 20:42 CST
 
 ## 2026-10-10 09:25 ET · 健康检查
@@ -6194,7 +6194,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright lists c3cd83f8）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9 已齐不补跑；**Oct10 lists running_now**（c3cd83f8 ~09:32 ET / ~21:32 CST）→ **不补跑**；meta last check 仍 2026-10-09
 - next **12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **c688e88**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 21:34 CST
 
 
@@ -6208,7 +6208,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
 - next **12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **f3cf3ab**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 22:30:32 CST
 
 ## 2026-10-10 11:25 ET · 健康检查
@@ -6221,7 +6221,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
 - next **12:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **a3ac75e**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-10 23:36:22 CST
 
 ## 2026-10-10 12:10 ET 补抓
@@ -6246,7 +6246,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_delivery: **delivered ✅ (delivered_at 2026-10-11 00:38 CST; root==days md5 b6aaa07a verified; WakeParent)**
 - escalate: no
 - next: 16:00 ET
-- grok-ops tip: **a130761**
+- grok-ops tip **372dec9f→c4f46a9b**
 - finished_at: 2026-10-11 00:31 CST
 
 ## 2026-10-10 12:25 ET · 健康检查
@@ -6259,7 +6259,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+12-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
 - next **16:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑、不代发 chat
-- grok-ops tip: **f285a2b**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 00:34:34 CST
 
 ## 2026-10-10 13:25 ET · 健康检查
@@ -6272,7 +6272,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
 - next **16:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **bdaaac3**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 01:32:59 CST
 
 ## 2026-10-10 14:25 ET · 健康检查
@@ -6285,7 +6285,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
 - next **16:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **980f362**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 02:33:30 CST
 
 ## 2026-10-10 15:25 ET · 健康检查
@@ -6298,7 +6298,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）
 - next **16:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **d32b11b**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 03:28 CST
 
 ## 2026-10-10 16:10 ET 补抓
@@ -6323,8 +6323,8 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_delivery: **delivered ✅ (delivered_at 2026-10-11 04:22 CST; WakeParent)**
 - escalate: no
 - next: 20:00 ET
-- grok-ops tip: **4a06a79**
-- grok-ops tip: **a1949ce**
+- grok-ops tip **372dec9f→c4f46a9b**
+- grok-ops tip **372dec9f→c4f46a9b**
 - finished_at: 2026-10-11 04:18 CST
 
 ## 2026-10-10 16:25 ET · 健康检查
@@ -6337,7 +6337,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +16.8h）
 - next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **1ebbe74**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 04:32 CST
 
 ## 2026-10-10 17:25 ET · 健康检查
@@ -6350,7 +6350,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +15.8h）
 - next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **49648d6**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 05:34 CST
 
 ## 2026-10-10 18:25 ET · 健康检查
@@ -6363,7 +6363,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +14.8h）
 - next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **238a228**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 06:33 CST
 
 ## 2026-10-10 19:25 ET · 健康检查
@@ -6376,7 +6376,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+16-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +13.8h）
 - next **20:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日 16:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **595decf**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 07:33 CST
 
 ## 2026-10-10 20:10 ET 补抓
@@ -6401,7 +6401,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @Morris_LT **2109076053742567614**（advanced；gap closed）
 - chat_line: `10/10 20:00：正文114 / 拿不准10 / 已过滤411。https://t512192641.github.io/x-following/2026-10-10.html`
 - chat_delivery: **delivered ✅ (delivered_at 2026-10-11 08:27 CST; WakeParent)**
-- grok-ops tip: **2a485c9**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next 00:00 ET 2026-10-11；recorded: 2026-10-11 08:26 CST
 
 ## 2026-10-10 20:25 ET · 健康检查
@@ -6415,7 +6415,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +12.9h）
 - board: 回填 ops/task-board 缺失的 20:00 主窗节（主窗已 complete+chat delivered）
 - next **00:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日均已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **8941ee7**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 08:31 CST
 
 ## 2026-10-10 21:25 ET · 健康检查
@@ -6428,7 +6428,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+20-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +11.8h）
 - next **00:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日均已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **fb6115c**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 09:37 CST
 
 ## 2026-10-10 22:25 ET · 健康检查
@@ -6441,7 +6441,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+20-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +10.9h）
 - next **00:00 ET**（约 +1.5h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日均已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **74c5b17**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 10:32 CST
 
 ## 2026-10-10 23:25 ET · 健康检查
@@ -6454,7 +6454,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok inferred（Home/X）+20-scrape-meta true
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 ≈9.8h）
 - next **00:00 ET**（≈0.45h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；本日均已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **18156ca**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 11:32 CST
 
 ## 2026-10-11 00:10 ET 补抓
@@ -6472,7 +6472,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）busy main overlay status tab（playwright orphan）**not stolen**；login_ok true（00-scrape-meta）+Home/X
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +8.85h）
 - next 主窗交 00:00（**10-10 完整版**）→ **04:00 ET**（01:25 健康检查复核）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **8189713**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 12:34 CST
 
 ## 2026-10-11 00:00 ET · 主窗
@@ -6496,7 +6496,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @Jason **2109134129950572763**（advanced；gap closed）
 - chat_line: `10/10 完整版：正文140 / 拿不准12 / 已过滤532。https://t512192641.github.io/x-following/2026-10-10.html`
 - chat_delivery: **delivered ✅ (delivered_at 2026-10-11 12:47 CST; WakeParent)**
-- grok-ops tip: **7c7965d**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next 04:00 ET 2026-10-11；recorded: 2026-10-11 12:47 CST
 
 ## 2026-10-11 01:25 ET · 健康检查
@@ -6510,7 +6510,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +7.8h）
 - board：00:00 主窗 `pending_parent` → **delivered ✅** ~12:47 CST（与 claim/meta 对齐）
 - next **04:00 ET**（约 +2.45h；无 04-claim）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **0fcc43e**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 13:33 CST
 
 ## 2026-10-11 02:25 ET · 健康检查
@@ -6523,7 +6523,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（00-scrape-meta）+Home/X
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +6.82h）
 - next **04:00 ET**（约 +1.43h；无 04-claim）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **400da5e**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 14:34 CST
 
 ## 2026-10-11 03:25 ET · 健康检查
@@ -6536,7 +6536,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（00-scrape-meta）+Home/X
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +5.82h）
 - next **04:00 ET**（约 +0.43h；无 04-claim）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **cfdb0f6**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 15:34 CST
 
 ## 2026-10-11 04:10 ET 补抓
@@ -6561,7 +6561,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @alex_prompter **2109195042925814206**（advanced；gap closed）
 - chat_line: `10/11 第一版：正文24 / 拿不准6 / 已过滤97。https://t512192641.github.io/x-following/2026-10-11.html`
 - chat_delivery: **已交（10-11 16:35 CST）**
-- grok-ops tip: **e42b75a**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next 08:00 ET 2026-10-11；recorded: 2026-10-11 16:32 CST
 
 ## 2026-10-11 04:25 ET · 健康检查
@@ -6574,7 +6574,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（04-scrape-meta）+Home/X
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +4.82h）
 - next **08:00 ET**（约 +3.43h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **6fe44e1**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 16:36 CST
 
 ## 2026-10-11 05:25 ET · 健康检查
@@ -6587,7 +6587,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（04-scrape-meta）+Home/X
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +3.82h）
 - next **08:00 ET**（约 +2.44h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **8bb079f**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 17:33 CST
 
 ## 2026-10-11 06:25 ET · 健康检查
@@ -6600,7 +6600,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（04-scrape-meta）+Home/X
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +2.82h）
 - next **08:00 ET**（约 +1.43h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **b59f297**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 18:36 CST
 
 ## 2026-10-11 07:25 ET · 健康检查
@@ -6613,7 +6613,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（04-scrape-meta）+Home/X
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +1.93h）
 - next **08:00 ET**（约 +0.54h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **f9b49db**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 19:27 CST
 
 ## 2026-10-11 08:10 ET 补抓
@@ -6638,7 +6638,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @elonmusk **2109255680339394843**（advanced；gap closed）
 - chat_line: `10/11 08:00：正文46 / 拿不准12 / 已过滤158。https://t512192641.github.io/x-following/2026-10-11.html`
 - chat_delivery: **已交（10-11 20:27 CST）**
-- grok-ops tip: **da17e2b**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next 12:00 ET 2026-10-11；recorded: 2026-10-11 20:26 CST
 
 ## 2026-10-11 08:25 ET · 健康检查
@@ -6652,7 +6652,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+**Oct10** 已齐不补跑（156/@yiren_ai；meta 09:34 ET）；Oct11 lists 未到期（约 +0.91h）
 - board：08:00 主窗 `pending_parent` → **delivered ✅** ~20:27 CST（与 claim/meta 对齐）；`/workspace/ops/task-board.md` 从 grok-ops 回填 08:00/08:10
 - next **12:00 ET**（约 +3.5h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **accd8e3**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 20:30 CST
 
 ## 2026-10-11 09:25 ET · 健康检查
@@ -6665,7 +6665,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
 - next **12:00 ET**（约 +2.48h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **ea72841**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 21:32 CST
 
 ## 2026-10-11 10:25 ET · 健康检查
@@ -6678,7 +6678,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
 - next **12:00 ET**（约 +1.52h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **b3535a7**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 22:29 CST
 
 
@@ -6692,7 +6692,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（08-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
 - next **12:00 ET**（约 +0.42h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **e79c5b8**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-11 23:36 CST
 
 
@@ -6710,7 +6710,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）busy main→home（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）
 - next 主窗交 12:00（今天 10-11 续窗）→ **16:00 ET**；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **ea34a93**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 00:33 CST
 
 
@@ -6731,7 +6731,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @SahilBloom **2109315698103054428**（advanced；gap closed）
 - chat_line: `10/11 12:00：正文84 / 拿不准19 / 已过滤263。https://t512192641.github.io/x-following/2026-10-11.html`
 - chat_delivery: **已交（10-12 00:38 CST）**
-- grok-ops tip: **36991dc**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next 16:00 ET 2026-10-11；recorded: 2026-10-12 00:34 CST
 
 ## 2026-10-11 13:25 ET · 健康检查
@@ -6745,7 +6745,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +19.9h）
 - board：12:00 主窗 `pending_parent` → **delivered ✅** ~00:38 CST（与 claim/meta 对齐）
 - next **16:00 ET**（约 +2.5h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **095cbdc** (+stamp 1a515d2)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 1a515d2)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 01:30 CST
 
 ## 2026-10-11 14:25 ET · 健康检查
@@ -6758,7 +6758,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +18.9h）
 - next **16:00 ET**（约 +1.5h）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **08291a6** (+stamp 44edee8)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 44edee8)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 02:28 CST
 
 
@@ -6772,7 +6772,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（12-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +17.8h）
 - next **16:00 ET**（约 +0.43h；无 16-claim）；16:10 / 20:10 补抓平台 failed 历史仅记（无内容缺口；00:10/04:10/08:10/12:10 已 deferred_to_main）；健康检查不对主窗扩大重跑
-- grok-ops tip: **f88adc5** (+stamp 2bc9e9d)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 2bc9e9d)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 03:34 CST
 
 ## 2026-10-11 16:00 ET · 主窗 deferred_to_catchup
@@ -6804,7 +6804,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_line: `10/11 16:00：正文96 / 拿不准23 / 已过滤305。https://t512192641.github.io/x-following/2026-10-11.html`
 - chat_delivery: **delivered ✅** ~04:26 CST（与 claim/meta 对齐）
 - evidence: `raw/2026-10-11/16-10-catchup.md` / `16-meta.md` / `16-claim.md`；主窗 deferred 见 `16-main-deferred.md`
-- grok-ops tip: **8de3eab**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next 20:00 ET 2026-10-11；recorded: 2026-10-12 04:23 CST
 
 
@@ -6819,7 +6819,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +16.9h）
 - board：16:00 catchup `pending_parent` → **delivered ✅** ~04:26 CST（与 claim/meta 对齐）；回填 16:00/16:25 至 task-board 头顶
 - next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **177894d** (+stamp 412b1a6)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 412b1a6)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 04:29 CST
 
 
@@ -6833,7 +6833,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（16-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +15.9h）
 - next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **07fd3c6**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 05:28 CST
 
 
@@ -6847,7 +6847,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（16-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +14.8h）
 - next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **73dc24f** (+stamp 7b74e92)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 7b74e92)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 06:33 CST
 
 ## 2026-10-11 19:25 ET · 健康检查
@@ -6860,7 +6860,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）x.com/home（playwright orphan）**not stolen**；login_ok true（16-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +13.9h）
 - next **20:00 ET**；20:10 补抓平台 failed 历史仅记（无内容缺口；00/04/08/12 :10 deferred_to_main；16:10 本日已 full_main_takeover 收口）；健康检查不对主窗扩大重跑
-- grok-ops tip: **b1bfd3c** (+stamp f8be0d0)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp f8be0d0)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 07:29 CST
 
 ## 2026-10-11 20:10 ET · 补抓 deferred_to_main
@@ -6877,7 +6877,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP :9226 在线（Chrome/154，原 chrome-profile）overlay 状态页（playwright orphan）**not stolen**；login_ok true（20-scrape-meta）+Home/X
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +12.85h）
 - next 主窗交 **20:00**→**00:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **cd40b9f**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 08:33 CST
 
 ## 2026-10-11 20:00 ET · 主窗
@@ -6897,7 +6897,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_line: `10/11 20:00：正文132 / 拿不准33 / 已过滤387。https://t512192641.github.io/x-following/2026-10-11.html`
 - chat_delivery: **delivered ✅** ~08:38 CST（与 claim/meta 对齐）
 - evidence: `raw/2026-10-11/20-meta.md` / `20-claim.md` / `20-scrape-meta.md`
-- grok-ops tip: **10521db**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next **00:00 ET** 2026-10-12；recorded: 2026-10-12 08:38 CST
 
 
@@ -6912,7 +6912,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +11.8h）
 - board：20:00 主窗 `in_progress` → **complete** + chat delivered；changelog `pending_parent`→delivered
 - next **00:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **5539f18** (+stamp 89eade9)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 89eade9)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 09:34 CST
 
 ## 2026-10-11 22:25 ET · 健康检查
@@ -6926,7 +6926,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +10.9h）
 - board：20:00 complete + chat delivered 仍齐；本条 22:25
 - next **00:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **2915bd1** (+stamp 6e3567f)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 6e3567f)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 10:28 CST
 
 
@@ -6941,7 +6941,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists Oct8+Oct9+Oct10+**Oct11** 已齐不补跑（156/@yiren_ai；meta 09:26 ET；x-4 ~09:24–09:26）；Oct12 lists 未到期（约 +9.9h）
 - board：20:00 complete + chat delivered 仍齐；本条 23:25
 - next **00:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **98903e3** (+stamp 0ef4b5f)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp 0ef4b5f)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 11:31 CST
 
 ## 2026-10-12 00:00 ET · 主窗
@@ -6965,7 +6965,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @oran_ge 2109437247812784318 → **@indie_maker_fox 2109496895370654090**（advanced；gap closed）
 - chat_line: `10/11 完整版：正文175 / 拿不准40 / 已过滤530。https://t512192641.github.io/x-following/2026-10-11.html`
 - chat_delivery: **delivered ✅** ~12:20 CST（WakeParent）
-- grok-ops tip: **19700a2**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next 04:00 ET 2026-10-12；recorded: 2026-10-12 12:15 CST
 
 ## 2026-10-12 00:10 ET · 补抓 deferred_to_main
@@ -6976,7 +6976,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - prior **20:00** complete 今天续窗 **132/33/387** tip **50c18ef** md5 **fa908a12** live PASS chat ✅ ~08:38 CST
 - action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
 - watchdog exit 0（publish alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
-- evidence: `raw/2026-10-12/00-10-catchup.md`；grok-ops tip **9342c44** (+stamp 46bb86a)；主窗 publish tip **0f1e8a1**（live PASS；claim/meta/chat 仍交主窗）
+- evidence: `raw/2026-10-12/00-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b** (+stamp 46bb86a)；主窗 publish tip **0f1e8a1**（live PASS；claim/meta/chat 仍交主窗）
 - next: 主窗交 **10-11 完整版** → 04:00 ET；00:25 x-3 复核
 - recorded: 2026-10-12 12:16 CST
 
@@ -6995,7 +6995,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈0.1（00 finish~00:20 ET / 12:20 CST）
 - board：00:00 主窗 `pending_parent` → **delivered ✅** ~12:20 CST（与 claim/meta 对齐）；本条 00:25
 - next **04:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **1f4b0e9**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 12:27 CST
 
 ## 2026-10-12 01:25 ET · 健康检查
@@ -7013,7 +7013,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈1.2（00 finish~00:20 ET / 12:20 CST）
 - board：00:00 already delivered；本条 01:25
 - next **04:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **988d4b0**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 13:33 CST
 
 ## 2026-10-12 02:25 ET 健康检查
@@ -7037,7 +7037,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct11** done（156/@yiren_ai；meta 09:26 ET）— **no backfill**；Oct12 lists 未到期（约 +5.8h）
 - hours_since_last_complete: ≈3.3；**04:00 ET 未到期**（约 +0.4h）
 - next **04:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **004932f**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 15:37 CST
 
 
@@ -7049,7 +7049,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - prior **00:00** complete 昨页 **175/40/530** tip **580628e** md5 **20bfcf84** live PASS chat ✅ ~12:20 CST
 - action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
 - watchdog exit 0（overlay alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
-- evidence: `raw/2026-10-12/04-10-catchup.md`；grok-ops tip: **e5be09e**
+- evidence: `raw/2026-10-12/04-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**
 - next: 主窗交 **今天第一完整版 10-12** → 08:00 ET；04:25 x-3 复核
 - recorded: 2026-10-12 16:20 CST
 
@@ -7067,7 +7067,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct11** done（156/@yiren_ai）— **no backfill**；Oct12 lists 未到期（约 +4.9h）
 - hours_since_last_complete: ≈4.2（04 in_progress 覆盖）
 - next: 主窗交 **今天第一完整版 10-12** → **08:00 ET**；健康检查不对主窗扩大重跑（watchdog exit 0 无需 --run）
-- grok-ops tip: **ab62b21** (+stamp a355851)
+- grok-ops tip **372dec9f→c4f46a9b** (+stamp a355851)
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 16:32 CST
 
 
@@ -7103,7 +7103,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct11** done（156/@yiren_ai）— **no backfill**；Oct12 lists 未到期（约 +2.9h）
 - hours_since_last_complete: ≈1.85；next **08:00 ET**
 - board：04:00 in_progress→complete；回填缺的 05:25 行；本条 06:25
-- grok-ops tip: **7887156**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 18:30 CST
 
 ## 2026-10-12 07:25 ET · 健康检查
@@ -7118,7 +7118,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @indie_maker_fox 2109557493131268158
 - lists: Oct8–**Oct11** done（156/@yiren_ai）— **no backfill**；Oct12 lists 未到期（约 +1.9h）
 - hours_since_last_complete: ≈2.88；next **08:00 ET**
-- grok-ops tip: **0845d27**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 19:31 CST
 
 
@@ -7130,7 +7130,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - prior **04:00** complete 今天第一版 **30/15/106** tip **8347108** md5 **f37ce6b1** live PASS chat ✅ ~16:40 CST
 - action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
 - watchdog exit 0（overlay alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
-- evidence: `raw/2026-10-12/08-10-catchup.md`；grok-ops tip: **1bce9c0**
+- evidence: `raw/2026-10-12/08-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**
 - next: 主窗交 **今天续窗 10-12** → 12:00 ET；08:25 x-3 复核
 - recorded: 2026-10-12 20:27 CST
 
@@ -7145,7 +7145,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - publish: tip **98020d2** md5 e83bf8b9 live PASS（root==days==live index）
 - cursor → @liuren 2109620940334387375 2026-10-12T12:23:21Z
 - chat_delivery: **已交（2026-10-12 20:44 CST）**
-- grok-ops tip: **0fe39ed**
+- grok-ops tip **372dec9f→c4f46a9b**
 - note: `_union08.py` 曾误写 04.jsonl/错 prior_t，已修并恢复 04.jsonl；非 escalate
 
 ## 2026-10-12 08:25 ET · 健康检查
@@ -7162,7 +7162,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct11** done（156/@yiren_ai）— **no backfill**；Oct12 lists 未到期（约 +0.65h）
 - hours_since_last_complete: ≈0；next **12:00 ET**
 - board：本条 08:25；08:00 已由主窗标 complete
-- grok-ops tip: **99cf0b4**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 20:45 CST
 
 ## 2026-10-12 09:23 ET · x-lists
@@ -7185,7 +7185,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（x-4 c3cd83f8 ~09:51–09:53；156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈1.17；next **12:00 ET**
 - board：本条 09:25；09:23 x-lists 已由 x-4 标 complete
-- grok-ops tip: **8076d21**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 21:55 CST
 
 
@@ -7201,7 +7201,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈2.28；next **12:00 ET**
 - board：本条 10:25；09:23 x-lists 已 complete
-- grok-ops tip: **81ebff8**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 23:00 CST
 
 ## 2026-10-12 11:25 ET · 健康检查
@@ -7216,7 +7216,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈3.1；next **12:00 ET**
 - board：本条 11:25；09:23 x-lists 已 complete
-- grok-ops tip: **472a6a7**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-12 23:50 CST
 
 ## 2026-10-12 12:10 ET · 补抓 deferred_to_main
@@ -7227,7 +7227,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - prior **08:00** complete 今天续窗 **50/27/175** tip **98020d2** md5 **e83bf8b9** live PASS chat ✅ ~20:44 CST
 - action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
 - watchdog exit 0（overlay alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
-- evidence: `raw/2026-10-12/12-10-catchup.md`；grok-ops tip: **0599b1d**
+- evidence: `raw/2026-10-12/12-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**
 - next: 主窗交 **今天续窗 10-12** → 16:00 ET；12:25 x-3 复核
 - recorded: 2026-10-13 00:42 CST
 
@@ -7243,7 +7243,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈4.18（12 in_progress 覆盖）；next 主窗交 12:00→**16:00 ET**
 - board：本条 12:25；12:10 deferred；12:00 in_progress；09:23 x-lists 已 complete
-- grok-ops tip: **bcb575a**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 00:54 CST
 
 ## 2026-10-12 12:00 ET · 主窗 complete
@@ -7258,7 +7258,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor: @alex_prompter 2109682716983869487
 - chat_line: `10/12 12:00：正文84 / 拿不准38 / 已过滤302。https://t512192641.github.io/x-following/2026-10-12.html`
 - chat_delivery: **已交（2026-10-13 01:05 CST）**
-- grok-ops tip: **cf81384**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；next **16:00 ET**
 - recorded: 2026-10-13 01:03 CST
 
@@ -7273,7 +7273,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈0.63；**16:00 ET 未到期**（约 +2.32h，无 16-claim）
 - board：本条 13:25；12:00 chat pending_parent→delivered；09:23 x-lists 已 complete
-- grok-ops tip: **bbdf79d**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 01:42 CST
 
 ## 2026-10-12 14:25 ET · 健康检查
@@ -7287,7 +7287,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈1.65；**16:00 ET 未到期**（约 +1.3h，无 16-claim）
 - board：本条 14:25；workspace ops 顶回填 13:25+12:00 delivered；09:23 x-lists 已 complete
-- grok-ops tip: **512e358**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 02:45 CST
 
 ## 2026-10-12 15:25 ET · 健康检查
@@ -7301,7 +7301,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈2.6；**16:00 ET 未到期**（约 +0.35h，无 16-claim）
 - board：本条 15:25；09:23 x-lists 已 complete
-- grok-ops tip: **dfb61c4**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 03:39 CST
 
 ## 2026-10-12 16:00 ET · 主窗 complete
@@ -7330,7 +7330,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - target: 16:00 主窗已 **complete**（c3a32b9b；page 98/45/367 tip 4eba8d1 md5 c0ca634b live PASS；chat ✅ 04:21 CST）
 - action: 未重抓、不抢 CDP、不重复交付；gap_open false；watchdog 0；CDP :9226 idle Home/X not stolen
 - evidence: `raw/2026-10-12/16-10-catchup.md`
-- grok-ops tip: **02e605b**
+- grok-ops tip **372dec9f→c4f46a9b**
 - next: 2026-10-12 20:00 ET
 - escalate: no
 
@@ -7345,7 +7345,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈0.36；**20:00 ET 未到期**（约 +3.3h，无 20-claim）
 - board：本条 16:25；workspace 顶回填 16:10 + 16:00 pending_parent→delivered；09:23 x-lists 已 complete
-- grok-ops tip: **1bd7004**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 04:42 CST
 
 ## 2026-10-12 17:25 ET · 健康检查
@@ -7359,7 +7359,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈1.3；**20:00 ET 未到期**（约 +2.37h，无 20-claim）
 - board：本条 17:25；09:23 x-lists 已 complete
-- grok-ops tip: **3a8f9c6**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 05:38 CST
 
 
@@ -7374,7 +7374,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈2.22；**20:00 ET 未到期**（约 +1.45h，无 20-claim）
 - board：本条 18:25；09:23 x-lists 已 complete
-- grok-ops tip: **fc5e6cd**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 06:34 CST
 
 ## 2026-10-12 19:25 ET · 健康检查
@@ -7388,7 +7388,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct8–**Oct12** done（156/@yiren_ai 未变）— **no backfill**（不重复抓）
 - hours_since_last_complete: ≈3.17；**20:00 ET 未到期**（约 +0.5h，无 20-claim）
 - board：本条 19:25；09:23 x-lists 已 complete
-- grok-ops tip: **22b28e2**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 07:30 CST
 
 
@@ -7430,7 +7430,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - live index: still 04-era f37ce6b1（中午惯例，day page html 已是 20 续窗 62a8a898）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；watchdog exit 0 无需 --run
 - board：本条 20:25；20:00 pending_parent→delivered；09:23 x-lists 已 complete
-- grok-ops tip: **a62d8c7**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 08:55 CST
 
 
@@ -7442,7 +7442,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - target: 20:00 主窗已 **complete**（c3a32b9b；page 121/51/437 tip e2039f1 md5 62a8a898 live PASS；chat ✅ 08:38 CST；rec_ideas merged；gap≈5.2 closed；overlay 86/99=86.9%；depollute7；窗类23/6/70 miss0）
 - action: 未重抓、不抢 CDP、不重复交付；gap_open false；watchdog 0；CDP :9226 idle Home/X not stolen
 - evidence: `raw/2026-10-12/20-10-catchup.md`
-- grok-ops tip: **eb4861b**
+- grok-ops tip **372dec9f→c4f46a9b**
 - next: 2026-10-13 00:00 ET
 - escalate: no
 - recorded: 2026-10-13 08:54 CST
@@ -7465,7 +7465,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - live index: still 04-era f37ce6b1（中午惯例，day page html 已是 20 续窗 62a8a898）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；watchdog exit 0 无需 --run
 - board：本条 21:25；20:00/20:10/20:25 已 complete；09:23 x-lists 已 complete
-- grok-ops tip: **71ff6ad**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 09:40 CST
 
 
@@ -7485,7 +7485,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - live index: still 04-era f37ce6b1（中午惯例，day page html 已是 20 续窗 62a8a898）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；watchdog exit 0 无需 --run
 - board：本条 22:25；20:00/20:10/20:25/21:25 已 complete；09:23 x-lists 已 complete
-- grok-ops tip: **3389473**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 10:34 CST
 
 
@@ -7505,7 +7505,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - live index: still 04-era f37ce6b1（中午惯例，day page html 已是 20 续窗 62a8a898）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；watchdog exit 0 无需 --run
 - board：本条 23:25；20:00/20:10/20:25/21:25/22:25 已 complete；09:23 x-lists 已 complete
-- grok-ops tip: **949816a**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 11:30 CST
 
 ## 2026-10-13 00:10 ET · 补抓 deferred_to_main
@@ -7516,7 +7516,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - prior **20:00** complete 今天续窗 **121/51/437** tip **e2039f1** md5 **62a8a898** live PASS chat ✅ ~08:38 CST
 - action: 未重抓、不抢 CDP、不写页、不发 chat；交付交主窗
 - watchdog exit 0（DOM scrape alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
-- evidence: `raw/2026-10-13/00-10-catchup.md`；grok-ops tip: **8c703c2**
+- evidence: `raw/2026-10-13/00-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**
 - next: 主窗交 **10-12 完整版** → 04:00 ET；00:25 x-3 复核
 - recorded: 2026-10-13 12:15 CST
 
@@ -7537,7 +7537,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - live index: still 04-era f37ce6b1（中午惯例，day page html 已是 20 续窗 62a8a898）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 00:25；回填 00:10；20:00 已 complete；09:23 x-lists 已 complete
-- grok-ops tip: **d81da80**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 12:30 CST
 
 
@@ -7581,7 +7581,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈0.79（00 finish~12:42 CST）；next **04:00 ET**（约 +2.5h，无 04-claim）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open / in_progress；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 01:25；00:00 pending_parent→delivered；00:10/00:25 已 complete；09:23 x-lists 已 complete
-- grok-ops tip: **c88b007**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 13:30 CST
 
 
@@ -7601,7 +7601,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈1.83（00 finish~12:42 CST）；next **04:00 ET**（约 +1.47h，无 04-claim）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open / in_progress；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 02:25；00:00 complete；00:10/00:25/01:25 已记；09:23 x-lists 已 complete
-- grok-ops tip: **4f2bb01**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 14:33 CST
 
 ## 2026-10-13 03:25 ET · 健康检查
@@ -7620,7 +7620,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈2.85（00 finish~12:42 CST）；next **04:00 ET**（约 +0.48h，无 04-claim）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open / in_progress；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 03:25；00:00 complete；00:10/00:25/01:25/02:25 已记；09:23 x-lists 已 complete
-- grok-ops tip: **91a6cab**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 15:34 CST
 
 ## 2026-10-13 04:10 ET · 补抓 deferred_to_main
@@ -7630,7 +7630,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - fire: ~04:16 ET（sched 04:10 late ~6min；check→record ~2026-10-13 16:18 CST）
 - target: 04:00 主窗 in_progress（c3a32b9b；union **125** gap≈**4.6** closed；overlay mid 125/125=100% RESUME_DONE 进程仍收尾；尚无 depollute/classify/merge/meta/QA/chat）
 - watchdog exit 0（overlay_resume alive）；CDP :9226 up not stolen；login_ok true；无 AUTH_FAIL；无 gap_open；escalate **no**；stay_quiet
-- evidence: `raw/2026-10-13/04-10-catchup.md`；grok-ops tip: **7572217**
+- evidence: `raw/2026-10-13/04-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**
 
 ## 2026-10-13 04:25 ET · 健康检查
 
@@ -7648,7 +7648,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈3.75（00 finish~12:42 CST）；next **08:00 ET**（04 in_progress）
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 04:25；04:00 in_progress；04:10/00:00/03:25 已记；09:23 x-lists 已 complete
-- grok-ops tip: **557e0c9**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 16:28 CST
 
 
@@ -7694,7 +7694,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈0.83（04 finish~16:35 CST）；next **08:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 05:25；04:00 in_progress→complete；04:10/04:25/00:00 已记；09:23 x-lists 已 complete
-- grok-ops tip: **55b80e7**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 17:27 CST
 
 ## 2026-10-13 06:25 ET · 健康检查
@@ -7712,7 +7712,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈1.92（04 finish~16:35 CST）；next **08:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 06:25；04:00 complete；04:10/04:25/05:25/00:00 已记；09:23 x-lists 已 complete
-- grok-ops tip: **9eb0169**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 18:31 CST
 
 ## 2026-10-13 07:25 ET · 健康检查
@@ -7730,7 +7730,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈3.02（04 finish~16:35 CST）；next **08:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 07:25；04:00 complete；04:10/04:25/05:25/06:25/00:00 已记；09:23 x-lists 已 complete
-- grok-ops tip: **28146d0**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 19:37 CST
 
 ## 2026-10-13 08:00 ET · 主窗
@@ -7772,7 +7772,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - gap_open: false；no hole；no AUTH_FAIL；不走付费 X API
 - escalate: **no**
 - next: 2026-10-13 **12:00 ET**
-- grok-ops tip: **d5346b8**
+- grok-ops tip **372dec9f→c4f46a9b**
 
 
 ## 2026-10-13 08:25 ET · 健康检查
@@ -7790,7 +7790,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈0.2（08 finish~20:28 CST）；next **12:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 08:25；08:00 pending_parent→delivered；回填 08:10；09:23 x-lists 已 complete
-- grok-ops tip: **788f817**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 20:40 CST
 
 
@@ -7809,7 +7809,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈1.28（08 finish~20:28 CST）；next **12:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 09:25；lists Oct13 观测记入（收口交 x-4）
-- grok-ops tip: **8ed8b91**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 21:47 CST
 
 ## 2026-10-13 10:25 ET · 健康检查
@@ -7827,7 +7827,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈2.3（08 finish~20:28 CST）；next **12:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 10:25；lists Oct13 观测已记（x-4）
-- grok-ops tip: **9f8026f**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 22:47 CST
 
 ## 2026-10-13 11:25 ET · 健康检查
@@ -7845,7 +7845,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈3.15（08 finish~20:28 CST）；next **12:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 11:25；lists Oct13 观测已记（x-4）
-- grok-ops tip: **8c41eb3**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-13 23:37 CST
 
 ## 2026-10-13 12:10 ET · 补抓 deferred_to_main
@@ -7861,7 +7861,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - gap_open: false；no hole；no AUTH_FAIL；不走付费 X API
 - escalate: **no**
 - next: 主窗交 12:00 → 2026-10-13 **16:00 ET**；12:25 x-3 复核
-- grok-ops tip: **8595c72**
+- grok-ops tip **372dec9f→c4f46a9b**
 
 ## 2026-10-13 12:25 ET · 健康检查
 
@@ -7879,7 +7879,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈4.33（08 finish~20:28 CST；12 in_progress 覆盖）；next 主窗交 12:00 → **16:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 12:25；回填 12:00 in_progress + 12:10 deferred；lists Oct13 观测已记（x-4）
-- grok-ops tip: **c707b46**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-14 00:48 CST
 
 
@@ -7925,7 +7925,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈0.72（12 finish~01:00 CST）；next **16:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 13:25；回填 12:00 complete + chat ✅ + 12:10 deferred；lists Oct13 观测已记（x-4）
-- grok-ops tip: **c8683e3**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-14 01:45 CST
 
 ## 2026-10-13 14:25 ET · 健康检查
@@ -7943,7 +7943,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈1.65（12 finish~01:00 CST）；next **16:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 14:25；12:00 complete + chat ✅ + 12:10 deferred + 13:25 health 已记；lists Oct13 观测已记（x-4）
-- grok-ops tip: **72b3e71**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-14 02:41 CST
 
 
@@ -7962,7 +7962,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete: ≈2.65（12 finish~01:00 CST）；next **16:00 ET**
 - no AUTH_FAIL / duplicate scrape / overdue gap / gap_open；无旧调度冲突；不走付费 X API；旧四条仍 disabled；不扩大重跑主窗；不抢 CDP；watchdog exit 0 无需 --run
 - board：本条 15:25；12:00 complete + chat ✅ + 12:10 deferred + 13:25/14:25 health 已记；lists Oct13 观测已记（x-4）
-- grok-ops tip: **d11416a**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**；stay_quiet；recorded: 2026-10-14 03:40 CST
 
 
@@ -7979,7 +7979,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - gap_open: false；no hole；no AUTH_FAIL；不走付费 X API
 - escalate: **no**
 - next: 主窗交 16:00 → 2026-10-13 **20:00 ET**；16:25 x-3 复核
-- grok-ops tip: **807213d**
+- grok-ops tip **372dec9f→c4f46a9b**
 
 
 ## 2026-10-13 16:00 ET · 主窗 full_main complete
@@ -8001,7 +8001,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - source: same-session DOM+HTL CDP :9226 chrome-profile；无官方/付费 X API；无 cookie steal
 - 16:10 catchup: deferred_to_main（已记；主窗收口）
 - next: 2026-10-13 **20:00 ET**
-- grok-ops tip: **72ba66e**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**
 - recorded: 2026-10-14 04:25 CST
 
@@ -8018,7 +8018,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 16:25；16:00 chat pending_parent→delivered；16:10 deferred 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **ad3e66e**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 04:28 CST
 
 ## 2026-10-13 17:25 ET · 健康检查
@@ -8034,7 +8034,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 17:25；16:00/16:10/16:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **f769b6b**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 05:34 CST
 
 
@@ -8051,7 +8051,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 18:25；16:00/16:10/16:25/17:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **fb7f7fa**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 06:34 CST
 
 ## 2026-10-13 19:25 ET · 健康检查
@@ -8067,7 +8067,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 19:25；16:00/16:10/16:25/17:25/18:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **3094768**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 07:34 CST
 
 ## 2026-10-13 20:10 ET · 补抓 deferred_to_main
@@ -8083,7 +8083,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - anomaly: 无；不升幕僚长
 - next: 主窗交 20:00 → 00:00 ET Oct14；20:25 x-3
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **9bd173f**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 08:17 CST
 
 ## 2026-10-13 20:25 ET · 健康检查 quiet_ok
@@ -8100,7 +8100,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 20:25；回填 20:00 in_progress + 20:10 deferred；16 系已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **c38e565**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 08:30 CST
 
 ## 2026-10-13 20:00 ET · 主窗 complete
@@ -8120,7 +8120,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_delivery: delivered ✅ 2026-10-14 ~08:34 CST（WakeParent）
 - source: same-session DOM+HTL CDP :9226 chrome-profile；无官方/付费 X API；无 cookie steal
 - next: 2026-10-14 **00:00 ET**（交昨天完整版）
-- grok-ops tip: **70282af**
+- grok-ops tip **372dec9f→c4f46a9b**
 - escalate: **no**
 - recorded: 2026-10-14 08:32 CST
 
@@ -8137,7 +8137,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 21:25；20:00 in_progress→complete + chat ✅；20:10 deferred 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **759f8e3**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 09:29 CST
 
 ## 2026-10-13 22:25 ET · 健康检查
@@ -8153,7 +8153,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 22:25；20:00 complete + chat ✅ + 20:10 deferred + 21:25 health 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **499d28d**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 10:34 CST
 
 ## 2026-10-13 23:25 ET · 健康检查
@@ -8169,7 +8169,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 23:25；20:00 complete + chat ✅ + 20:10 deferred + 21:25/22:25 health 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **33d6fcf**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 11:29 CST
 
 ## 2026-10-14 00:10 ET · 补抓 deferred_to_main
@@ -8188,7 +8188,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - anomaly: 无 AUTH_FAIL / 官方 X API / gap_open；主窗已起非漏叫；不升幕僚长
 - next: 主窗交 00:00 → **04:00 ET**；00:25 x-3 复核
 - evidence: `raw/2026-10-14/00-10-catchup.md`
-- grok-ops tip: **582ef61**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 12:14 CST
 
 ## 2026-10-14 00:25 ET · 健康检查
@@ -8205,7 +8205,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 00:25；00:00 in_progress + 00:10 deferred + 20 complete/chat ✅ + 23:25 health 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **370510e**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 12:29 CST
 
 ## 2026-10-14 00:00 ET · 主窗
@@ -8231,7 +8231,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - chat_delivery: **delivered ✅** 2026-10-14 ~12:39 CST（WakeParent）
 - next: 2026-10-14 04:00 ET（今天第一版）
 - escalate: **no**
-- grok-ops tip: **ca7edd2**
+- grok-ops tip **372dec9f→c4f46a9b**
 
 ## 2026-10-14 01:25 ET · 健康检查
 
@@ -8246,7 +8246,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 01:25；00:00 complete + chat ✅ + 00:10 deferred + 00:25 health 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **41cdb69**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 13:37 CST
 
 ## 2026-10-14 02:25 ET · 健康检查
@@ -8262,7 +8262,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 02:25；00:00 complete + chat ✅ + 00:10 deferred + 01:25 health 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **bf066d7**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 14:31 CST
 
 ## 2026-10-14 03:25 ET · 健康检查
@@ -8278,7 +8278,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 03:25；00:00 complete + chat ✅ + 00:10 deferred + 01:25/02:25 health 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **265fe15**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 15:33 CST
 
 ## 2026-10-14 04:10 ET · 补抓 deferred_to_main
@@ -8297,7 +8297,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - anomaly: 无 AUTH_FAIL / 官方 X API / gap_open；主窗已起非漏叫；不升幕僚长
 - next: 主窗交 04:00 → **08:00 ET**；04:25 x-3 复核
 - evidence: `raw/2026-10-14/04-10-catchup.md`
-- grok-ops tip: **57fc8b2**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 16:18 CST
 
 ## 2026-10-14 04:25 ET · 健康检查
@@ -8314,7 +8314,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 04:25；回填 04:00 in_progress + 04:10 deferred；00 complete/chat ✅ + 03:25 health 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **18336b6**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 16:30 CST
 
 ## 2026-10-14 04:00 ET · 主窗
@@ -8356,7 +8356,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 05:25；04:00 in_progress→complete + chat ✅；回填 04:00 主窗条；04:10/04:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **52836fd**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 17:33 CST
 
 ## 2026-10-14 06:25 ET · 健康检查
@@ -8372,7 +8372,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 06:25；04/05:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **e21b97d**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 18:33 CST
 
 ## 2026-10-14 07:25 ET · 健康检查
@@ -8388,7 +8388,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 07:25；04/05/06:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **de3b32f**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 19:33 CST
 
 ## 2026-10-14 08:10 ET · 补抓 deferred_to_main
@@ -8407,7 +8407,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - anomaly: 无 AUTH_FAIL / 官方 X API / gap_open；主窗已起非漏叫；不升幕僚长
 - next: 主窗交 08:00 → **12:00 ET**；08:25 x-3 复核
 - evidence: `raw/2026-10-14/08-10-catchup.md`
-- grok-ops tip: **de6b1a4**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 20:19 CST
 
 ## 2026-10-14 08:25 ET · 健康检查
@@ -8424,7 +8424,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 08:25；回填 08:00 in_progress + 08:10 deferred；04/07:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **f28d747**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 20:30 CST
 
 ## 2026-10-14 08:00 ET · 主窗
@@ -8475,7 +8475,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 09:25；回填 08:00 complete + chat ✅；09:23 lists / 08:25 / 08:10 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **d151303**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 21:34 CST
 
 - 2026-10-14 22:13 CST：CDP :9226 Chrome（旧 pid 11766，10/12 02:02 无代理拉起，全站 ERR_CONNECTION_CLOSED）优雅重启为新 pid，加 `--proxy-server=http://127.0.0.1:8791 --proxy-bypass-list=localhost;127.0.0.1;[::1]`，同 profile。新增 `scripts/cdp9226-launch.sh`，playbook 拉起命令同步加代理参数。
@@ -8494,7 +8494,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 10:25；08:00/09:23 lists / 09:25 已记
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；不扩大重跑；不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no
-- grok-ops tip: **f62f5cf**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-14 22:32 CST
 
 ## 2026-10-14 11:25 ET · 健康检查
@@ -8521,7 +8521,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP: :9226 up chrome-profile busy overlay **not stolen**；login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
 - evidence: `raw/2026-10-14/12-10-catchup.md`
-- grok-ops tip: **ae60696**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-15 00:18 CST
 
 ## 2026-10-14 12:25 ET · 健康检查
@@ -8535,7 +8535,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - cursor @alex_prompter **2110343650333069673**；lists Oct14 done（155/@yiren_ai；bookmarks 175）未补跑
 - hours_since_last_complete ≈3.7；next 主窗交 12:00→**16:00 ET**
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；escalate **no**；stay_quiet
-- grok-ops tip: **74a9fde**（stamp **06b3d20**）
+- grok-ops tip **372dec9f→c4f46a9b**（stamp **06b3d20**）
 - recorded: 2026-10-15 00:27 CST
 
 ## 2026-10-14 12:00 ET · 主窗
@@ -8587,7 +8587,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete ≈1.72（12 finish ~12:47 ET）；next **16:00 ET**（约 +1.5h，未到期）
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-14/14-25-health.md`
-- grok-ops tip: **15c04ff**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-15 02:31 CST
 
 ## 2026-10-14 15:25 ET · 健康检查
@@ -8601,7 +8601,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete ≈2.68（12 finish ~12:47 ET）；next **16:00 ET**（约 +0.5h，未到期）
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-14/15-25-health.md`
-- grok-ops tip: **15c04ff**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-15 03:28 CST
 
 ## 2026-10-14 16:10 ET · 补抓
@@ -8616,7 +8616,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - CDP: :9226 up **not stolen**；login_ok true；无 AUTH_FAIL；不走付费 X API；不重抓不抢 CDP
 - escalate: **no**；stay_quiet；parent_notify no；chat 交主窗
 - evidence: `raw/2026-10-14/16-10-catchup.md`
-- grok-ops tip: **895d599**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-15 04:16 CST
 
 ## 2026-10-14 16:00 ET · 主窗
@@ -8655,7 +8655,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete ≈0.1（16 finish ~16:24 ET）；next **20:00 ET**（约 +3.5h，未到期）
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-14/16-25-health.md`
-- grok-ops tip: **18c24c4**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-15 04:30 CST
 
 ## 2026-10-14 17:25 ET · 健康检查
@@ -8669,7 +8669,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - hours_since_last_complete ≈1.15（16 finish ~16:24 ET）；next **20:00 ET**（约 +2.45h，未到期）
 - no AUTH_FAIL / duplicate / overdue 主缺口 / 旧调度冲突；不走付费 X API；旧四条 disabled；escalate **no**；stay_quiet
 - evidence: `raw/2026-10-14/17-25-health.md`
-- grok-ops tip: **b1e740d**
+- grok-ops tip **372dec9f→c4f46a9b**
 - recorded: 2026-10-15 05:33 CST
 
 ## 2026-10-14 18:25 ET · 健康检查
@@ -9041,7 +9041,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct15 **done by x-4** 09:23 ET（155/@yiren_ai；书签 175/@cgnot996 未变）；未补跑；Oct16 未到期
 - next 主窗交 12→**16:00 ET**
 - 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue 主缺口；escalate **no**；stay_quiet
-- grok-ops tip: **8d7306b**（stamp **e1b8832**）
+- grok-ops tip **372dec9f→c4f46a9b**（stamp **e1b8832**）
 - evidence: `raw/2026-10-15/12-25-health.md`
 - recorded: 2026-10-16 00:28 CST
 
@@ -9216,7 +9216,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - QA pass clippedBtns 0 missing_target_blank 0（20-qa.png）
 - cursor → @MaiYangAI 2110886019063271481
 - publish: md5 **3831d095** root==days==site==live（root/days/index）PASS；public tip **daa6e1c**（page+changelog+cursor）→ **3fd7a83**（index）
-- grok-ops tip: **a2043eb**；public changelog tip **23ff04f**
+- grok-ops tip **372dec9f→c4f46a9b**；public changelog tip **23ff04f**
 - chat_delivery: delivered ✅ ~08:40 CST 10-16（WakeParent）
 
 ## 2026-10-15 21:25 ET · 健康检查 quiet_ok
@@ -9230,7 +9230,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - board：本条 21:25；回填 20:00 complete + chat ✅ + 20:10/20:25
 - next: **00:00 ET**（交付 10-15 完整页）
 - 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
-- grok-ops tip: **2dc5bda**
+- grok-ops tip **372dec9f→c4f46a9b**
 - evidence: `raw/2026-10-15/21-25-health.md`
 
 ## 2026-10-15 22:25 ET · 健康检查 quiet_ok
@@ -9253,7 +9253,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - lists: Oct15 done by x-4；未补跑；Oct16 未到期
 - next: **00:00 ET**（交付 10-15 完整页）
 - 无 AUTH_FAIL/重复抓取/旧调度冲突/overdue；escalate **no**；stay_quiet
-- grok-ops tip: **40d566a**
+- grok-ops tip **372dec9f→c4f46a9b**
 - evidence: `raw/2026-10-15/23-25-health.md`
 
 ## 2026-10-16 00:10 ET · 补抓
@@ -11611,7 +11611,7 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - [x] 2026-10-31 12:00 ET main（c3a32b9b，fire ≈12:08 ET late ~8min）：**complete**；union **106** HIT gap **5.47** gap_open false；overlay **78/106=73.6%** rpd6 stop=completed；window **25/7/74** miss0；page 10-31 更新 **62/13/191**（08 页 37/6/117 + 窗 25/7/74） md5 **3ca14cdc8c3b7dd8598a485d39fd787f** tip **3726e2d**/index **952e2d7**/cursor **8d84001** root==days==site==live==index PASS；cursor @wlzh → @kepano **2116563242239905874**；rec/ideas skipped（非 20:00）；QA pass（CDP screenshot；expected 62/13/191；headless 超时改 CDP）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-01 00:37 CST**；chat_line: `10/31 更新：正文62 / 拿不准13 / 已过滤191。https://t512192641.github.io/x-following/2026-10-31.html`；next 16:00 ET；escalate no；evidence raw/2026-10-31/12-meta.md / 12-qa.png / 12-claim.md  2026-11-01 00:36 CST
 
 ## 2026-10-31 13:25 ET 健康检查
-- [x] 2026-10-31 13:25 ET 健康检查（x-3，~13:25–13:32 ET late ~0–7min；fire 2026-10-31T17:29:58Z）：quiet_ok **true**；cdp9226 ok pid **1745952**（already up；未重启）；login_ok auth_token/ct0/twid（CDP；home articles=**7**）；watchdog exit 0（checked 0）；12 main **complete** 10-31 更新 **62/13/191** md5 **3ca14cdc8c3b7dd8598a485d39fd787f** tip **3726e2d**/index **952e2d7** root==days==site==live==index PASS；cursor @kepano **2116563242239905874**；chat ✅ ~00:37 CST；lists Oct31 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；Nov1 not_due；16:00 未见 16-claim；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-31/13-25-health.md；grok-ops tip **a6b5c993**（本条 14:25 补记 changelog，13:25 当时已写 evidence/task-board）  2026-11-01 02:32 CST
+- [x] 2026-10-31 13:25 ET 健康检查（x-3，~13:25–13:32 ET late ~0–7min；fire 2026-10-31T17:29:58Z）：quiet_ok **true**；cdp9226 ok pid **1745952**（already up；未重启）；login_ok auth_token/ct0/twid（CDP；home articles=**7**）；watchdog exit 0（checked 0）；12 main **complete** 10-31 更新 **62/13/191** md5 **3ca14cdc8c3b7dd8598a485d39fd787f** tip **3726e2d**/index **952e2d7** root==days==site==live==index PASS；cursor @kepano **2116563242239905874**；chat ✅ ~00:37 CST；lists Oct31 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；Nov1 not_due；16:00 未见 16-claim；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-31/13-25-health.md；grok-ops tip **372dec9f→c4f46a9b**（本条 14:25 补记 changelog，13:25 当时已写 evidence/task-board）  2026-11-01 02:32 CST
 
 ## 2026-10-31 14:25 ET 健康检查
 - [x] 2026-10-31 14:25 ET 健康检查（x-3，~14:28–14:32 ET late ~3–7min；fire 2026-10-31T18:28:55Z）：quiet_ok **true**；cdp9226 ok pid **1745952**（already up；未重启）；login_ok auth_token/ct0/twid（CDP Network.getCookies；home articles=**7**；时间线非空）；watchdog exit 0（checked 0；`--hh 12` complete stalled false；`--hh 16` null）；12 main **complete** 10-31 更新 **62/13/191** md5 **3ca14cdc8c3b7dd8598a485d39fd787f** tip **3726e2d**/index **952e2d7** root==days==site==live==index PASS（本检查 md5_gate + curl 复验）；cursor @kepano **2116563242239905874**；chat ✅ ~00:37 CST；lists Oct31 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；Nov1 not_due；16:00 未见 16-claim（约 +90min 未到期）；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-10-31/14-25-health.md  2026-11-01 02:32 CST
@@ -11946,127 +11946,142 @@ deferred_to_main：主窗 08:00 claim in_progress（union108 overlay~65/108）�
 - [x] 2026-11-03 16:00 ET main（c3a32b9b，fire ≈16:11 ET late ~11min）：**complete**；union **77** HIT gap **5.67** gap_open false；overlay **41/77=53.2%** rpd6 still_fail30 stop=completed；window **18/6/53** miss0；page 11-03 更新 **108/33/343**（12 版 90/27/290 + 窗 18/6/53） md5 **fdb9ded7ddf60d06916b9c1b8522c166** tip **fde2a55**/index **c0af81b** root==days==site==live==index PASS；cursor @elonmusk → @garrytan **2117727137033839051**；rec/ideas **skipped**（非 20:00）；QA pass（CDP screenshot；expected 108/33/343；clippedBtns=0；headless timeout→CDP）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-04 05:32 CST**；chat_line: `11/3 更新：正文108 / 拿不准33 / 已过滤343。https://t512192641.github.io/x-following/2026-11-03.html`；next 20:00 ET；escalate no；evidence raw/2026-11-03/16-meta.md / 16-qa.png / 16-claim.md  2026-11-04 05:31:35 CST
 
 ## 2026-11-03 16:25 ET 健康检查
-- [x] 2026-11-03 16:25 ET 健康检查（x-3，~16:33 ET late ~8min；fire 2026-11-03T21:33:25.105Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2351258**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home soft-nav articles=**5**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** PAGE_yday **206/68/488** md5 **0021e910** tip **62dad77**/index **abeb323** live PASS；04 main **complete** PAGE **34/11/72** md5 **3b5a6109** tip **00b5b1b**/index **5c6165c** live PASS；08 main **complete** PAGE **62/17/157** md5 **d9b3f29e** tip **a85f73e**/index **6301aca** live PASS；12 main **complete** PAGE **90/27/290** md5 **718ca6c9** tip **35393e2**/index **a7534f9** live PASS；16 main **complete** PAGE **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b** live PASS（本检查 md5_gate --live --nowait）；cursor @garrytan **2117727137033839051**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅ / 16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/16-25-health.md；grok-ops tip **54aa77a8**  2026-11-04 05:35:17 CST
+- [x] 2026-11-03 16:25 ET 健康检查（x-3，~16:33 ET late ~8min；fire 2026-11-03T21:33:25.105Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2351258**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home soft-nav articles=**5**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** PAGE_yday **206/68/488** md5 **0021e910** tip **62dad77**/index **abeb323** live PASS；04 main **complete** PAGE **34/11/72** md5 **3b5a6109** tip **00b5b1b**/index **5c6165c** live PASS；08 main **complete** PAGE **62/17/157** md5 **d9b3f29e** tip **a85f73e**/index **6301aca** live PASS；12 main **complete** PAGE **90/27/290** md5 **718ca6c9** tip **35393e2**/index **a7534f9** live PASS；16 main **complete** PAGE **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b** live PASS（本检查 md5_gate --live --nowait）；cursor @garrytan **2117727137033839051**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅ / 16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/16-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 05:35:17 CST
 
 ## 2026-11-03 17:25 ET 健康检查
-- [x] 2026-11-03 17:25 ET 健康检查（x-3，~17:31 ET late ~6min；fire 2026-11-03T22:31:23.071Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2351258**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**5**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 main **complete** live PASS；page 11-03 **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b**；cursor @garrytan **2117727137033839051**；chat 00/04/08/12/16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/17-25-health.md；grok-ops tip **750a06ad**  2026-11-04 06:32:42 CST
+- [x] 2026-11-03 17:25 ET 健康检查（x-3，~17:31 ET late ~6min；fire 2026-11-03T22:31:23.071Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2351258**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**5**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 main **complete** live PASS；page 11-03 **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b**；cursor @garrytan **2117727137033839051**；chat 00/04/08/12/16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/17-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 06:32:42 CST
 
 ## 2026-11-03 18:25 ET 健康检查
-- [x] 2026-11-03 18:25 ET 健康检查（x-3，~18:25 ET late ~0min；fire 2026-11-03T23:25:05.502Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2351258**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**5**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 main **complete** live PASS；page 11-03 **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b**；cursor @garrytan **2117727137033839051**；chat 00/04/08/12/16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/18-25-health.md；grok-ops tip **c69949a0**  2026-11-04 07:27:04 CST
+- [x] 2026-11-03 18:25 ET 健康检查（x-3，~18:25 ET late ~0min；fire 2026-11-03T23:25:05.502Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2351258**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**5**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 main **complete** live PASS；page 11-03 **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b**；cursor @garrytan **2117727137033839051**；chat 00/04/08/12/16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/18-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 07:27:04 CST
 
 ## 2026-11-03 19:25 ET 健康检查
-- [x] 2026-11-03 19:25 ET 健康检查（x-3，~19:29 ET late ~4min；fire 2026-11-04T00:29Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2475340**（up after 1s 2026-11-04 08:30:37 CST；原 pid **2351258** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**5**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** PAGE_yday **206/68/488** md5 **0021e910** tip **62dad77**/index **abeb323** live PASS；04 main **complete** PAGE **34/11/72** md5 **3b5a6109** tip **00b5b1b**/index **5c6165c** live PASS；08 main **complete** PAGE **62/17/157** md5 **d9b3f29e** tip **a85f73e**/index **6301aca** live PASS；12 main **complete** PAGE **90/27/290** md5 **718ca6c9** tip **35393e2**/index **a7534f9** live PASS；16 main **complete** PAGE **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b** live PASS（本检查 md5_gate --live --nowait）；cursor @garrytan **2117727137033839051**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅ / 16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-03/19-25-health.md；grok-ops tip **3a375b13**  2026-11-04 08:32:16 CST
+- [x] 2026-11-03 19:25 ET 健康检查（x-3，~19:29 ET late ~4min；fire 2026-11-04T00:29Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2475340**（up after 1s 2026-11-04 08:30:37 CST；原 pid **2351258** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**5**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** PAGE_yday **206/68/488** md5 **0021e910** tip **62dad77**/index **abeb323** live PASS；04 main **complete** PAGE **34/11/72** md5 **3b5a6109** tip **00b5b1b**/index **5c6165c** live PASS；08 main **complete** PAGE **62/17/157** md5 **d9b3f29e** tip **a85f73e**/index **6301aca** live PASS；12 main **complete** PAGE **90/27/290** md5 **718ca6c9** tip **35393e2**/index **a7534f9** live PASS；16 main **complete** PAGE **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b** live PASS（本检查 md5_gate --live --nowait）；cursor @garrytan **2117727137033839051**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅ / 16 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-03/19-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 08:32:16 CST
 
 ## 2026-11-03 20:10 ET 补抓
-- [x] 2026-11-03 20:10 ET 补抓（cdf0cd43，~20:11 ET late ~1min）：**deferred_to_main**；waited_main no；20 主窗 c3a32b9b 已 in_progress（fire ≈20:09 ET late ~9min；claim 09:12 CST；scrape DONE DOM**20**/HTL**76**/union**80** hit True gap≈7.13 closed；overlay mid）；prior 16 complete 11-03 更新 **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b** day+index live PASS；CDP pid **2475340** login_ok not stolen；watchdog exit 0；cursor still @garrytan 2117727137033839051；rec/ideas 交主窗并；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-03/20-10-catchup.md`；grok-ops tip **0220c73a**  2026-11-04 09:13:31 CST
+- [x] 2026-11-03 20:10 ET 补抓（cdf0cd43，~20:11 ET late ~1min）：**deferred_to_main**；waited_main no；20 主窗 c3a32b9b 已 in_progress（fire ≈20:09 ET late ~9min；claim 09:12 CST；scrape DONE DOM**20**/HTL**76**/union**80** hit True gap≈7.13 closed；overlay mid）；prior 16 complete 11-03 更新 **108/33/343** md5 **fdb9ded7** tip **fde2a55**/index **c0af81b** day+index live PASS；CDP pid **2475340** login_ok not stolen；watchdog exit 0；cursor still @garrytan 2117727137033839051；rec/ideas 交主窗并；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-03/20-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 09:13:31 CST
 
 ## 2026-11-03 20:00 ET full_main
 - [x] 2026-11-03 20:00 ET main（c3a32b9b，fire ≈20:09 ET late ~9min）：**complete**；union **80** HIT gap **7.13** gap_open false；overlay **59/80=73.8%** rpd6 still_fail15 stop=completed；window **18/5/57** miss0；page 11-03 更新 **134/38/400**（16 版 108/33/343 + 窗 18/5/57 + rec 8） md5 **4f58e4ec20fbe79d27a63dce2e6bd966** tip **2241fd2**/index **18a11fd** root==days==site==live==index PASS；cursor @garrytan → @Jason **2117787028431716788**；rec **merged**（8）/ ideas **skipped_missing**（sourceDate 2026-11-04）；QA pass（CDP screenshot；expected 134/38/400；clippedBtns=0）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-04 09:28 CST**；chat_line: `11/3 更新：正文134 / 拿不准38 / 已过滤400。https://t512192641.github.io/x-following/2026-11-03.html`；next 00:00 ET；escalate no；evidence raw/2026-11-03/20-meta.md / 20-qa.png / 20-claim.md / 20-rec-ideas.json  2026-11-04 09:26:32 CST
 
 ## 2026-11-03 20:25 ET 健康检查
-- [x] 2026-11-03 20:25 ET 健康检查（x-3，~20:27 ET late ~2min；fire 2026-11-04T01:27:20.093Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home soft-nav articles=**4**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 main **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **18a11fd**（本检查 md5_gate + curl root==days==site==live）；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/20-25-health.md；grok-ops tip **c6065216**  2026-11-04 09:28 CST
+- [x] 2026-11-03 20:25 ET 健康检查（x-3，~20:27 ET late ~2min；fire 2026-11-04T01:27:20.093Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home soft-nav articles=**4**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 main **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **18a11fd**（本检查 md5_gate + curl root==days==site==live）；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/20-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 09:28 CST
 
 ## 2026-11-03 21:25 ET 健康检查
-- [x] 2026-11-03 21:25 ET 健康检查（x-3，~21:29 ET late ~4min；fire 2026-11-04T02:29:39.852Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 main **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7**（本检查 curl root==days==live）；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/21-25-health.md；grok-ops tip **199732d4→d24c3fef**  2026-11-04 10:31 CST
+- [x] 2026-11-03 21:25 ET 健康检查（x-3，~21:29 ET late ~4min；fire 2026-11-04T02:29:39.852Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 main **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7**（本检查 curl root==days==live）；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/21-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 10:31 CST
 
 ## 2026-11-03 22:25 ET 健康检查
 - [x] 2026-11-03 22:25 ET 健康检查（x-3，~22:27 ET late ~2min；fire 2026-11-04T03:27:40.496Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 main **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7**（本检查 md5_gate + curl root==days==live）；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/22-25-health.md  2026-11-04 11:30 CST
 
 ## 2026-11-03 23:25 ET 健康检查
-- [x] 2026-11-03 23:25 ET 健康检查（x-3，~23:27 ET late ~2min；fire 2026-11-04T04:27:28.252Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 main **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7**（本检查 md5_gate + curl root==days==live）；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/23-25-health.md；grok-ops tip **ecc21b0a→b328a7d2**  2026-11-04 12:29 CST
+- [x] 2026-11-03 23:25 ET 健康检查（x-3，~23:27 ET late ~2min；fire 2026-11-04T04:27:28.252Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 main **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7**（本检查 md5_gate + curl root==days==live）；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-03/23-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 12:29 CST
 
 ## 2026-11-04 00:10 ET 补抓
-- [x] 2026-11-04 00:10 ET 补抓（cdf0cd43，~00:11 ET late ~1min）：**deferred_to_main**；waited_main no；00 主窗 c3a32b9b 已 in_progress（fire ≈00:08 ET late ~8min；claim 13:10 CST；scrape DONE DOM**48**/HTL**164**/union**166** hit True gap≈2.43 closed；overlay mid pid **2512284** ~**[13/166]**）；prior 20 complete 11-03 更新 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7** day+index live PASS；CDP pid **2475340** login_ok not stolen；watchdog exit 0；cursor still @Jason 2117787028431716788；00:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/00-10-catchup.md`；grok-ops tip **2c57d60f→525e4942**  2026-11-04 13:14:59 CST
+- [x] 2026-11-04 00:10 ET 补抓（cdf0cd43，~00:11 ET late ~1min）：**deferred_to_main**；waited_main no；00 主窗 c3a32b9b 已 in_progress（fire ≈00:08 ET late ~8min；claim 13:10 CST；scrape DONE DOM**48**/HTL**164**/union**166** hit True gap≈2.43 closed；overlay mid pid **2512284** ~**[13/166]**）；prior 20 complete 11-03 更新 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7** day+index live PASS；CDP pid **2475340** login_ok not stolen；watchdog exit 0；cursor still @Jason 2117787028431716788；00:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/00-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 13:14:59 CST
 
 ## 2026-11-04 00:25 ET 健康检查
-- [x] 2026-11-04 00:25 ET 健康检查（x-3，~00:28 ET late ~3min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；主窗 overlay 占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP soft；overlay mid；scrape_meta login_ok）；watchdog exit 0（checked 1；00 in_progress stalled false；overlay_resume pid **2512284** ~**[145/166]**；未 --run）；00–20 昨日 **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7**（本检查 md5_gate --live --nowait）；00 今日 **in_progress** union **166** HIT gap≈2.43；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 00 → **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/00-25-health.md；grok-ops tip **175d3837→fd1381c2**  2026-11-04 13:31 CST
+- [x] 2026-11-04 00:25 ET 健康检查（x-3，~00:28 ET late ~3min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；主窗 overlay 占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP soft；overlay mid；scrape_meta login_ok）；watchdog exit 0（checked 1；00 in_progress stalled false；overlay_resume pid **2512284** ~**[145/166]**；未 --run）；00–20 昨日 **complete** live PASS；page 11-03 **134/38/400** md5 **4f58e4ec** tip **2241fd2**/index **ce857e7**（本检查 md5_gate --live --nowait）；00 今日 **in_progress** union **166** HIT gap≈2.43；cursor @Jason **2117787028431716788**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 00 → **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/00-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 13:31 CST
 
 ## 2026-11-04 00:00 ET full_main
 - [x] 2026-11-04 00:00 ET main（c3a32b9b，fire ≈00:08 ET late ~8min）：**complete**；union **166** HIT gap **2.43** gap_open false；overlay **107/166=64.5%** rpd18 still_fail27 stop=budget_exhausted(20.0min)；window pre **44/5/108** + after **2/0/7** miss0；page_yday 11-03 完整版 **178/43/508**（20 版 134/38/400 + 窗 pre 44/5/108） md5 **21cfb2206b701d6f27b8bb1434252a8b** tip **63f7999**/index **194c1c2**；thin_seed 11-04 **2/0/7** md5 **8732a9b481fd8495cd3d432bbafae169** tip **1d4e999**；root==days==site==live==index PASS；cursor @Jason → @indie_maker_fox **2117847148914225648**；rec/ideas **skipped**（非 20:00；00:00 规则）；QA pass（CDP screenshot；expected 178/43/508；clippedBtns=0；headless timeout→CDP）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-04 13:42 CST**；chat_line: `11/3 完整版：正文178 / 拿不准43 / 已过滤508。https://t512192641.github.io/x-following/2026-11-03.html`；next 04:00 ET；escalate no；evidence raw/2026-11-04/00-meta.md / 00-qa.png / 00-claim.md  2026-11-04 13:41 CST
 
 ## 2026-11-04 01:25 ET 健康检查
-- [x] 2026-11-04 01:25 ET 健康检查（x-3，~01:32 ET late ~7min；fire 2026-11-04T06:32:30.890Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**8**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；thin 11-04 **2/0/7** tip **1d4e999** live PASS（本检查 md5_gate --live --nowait + curl root==days==index）；cursor @indie_maker_fox **2117847148914225648**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/01-25-health.md；grok-ops tip **39f5b05c→5b79226e**  2026-11-04 14:34 CST
+- [x] 2026-11-04 01:25 ET 健康检查（x-3，~01:32 ET late ~7min；fire 2026-11-04T06:32:30.890Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2475340**（already up；19:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**8**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；thin 11-04 **2/0/7** tip **1d4e999** live PASS（本检查 md5_gate --live --nowait + curl root==days==index）；cursor @indie_maker_fox **2117847148914225648**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/01-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 14:34 CST
 
 ## 2026-11-04 02:25 ET 健康检查
-- [x] 2026-11-04 02:25 ET 健康检查（x-3，~02:30 ET late ~5min；fire ~2026-11-04T07:30Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2548683**（up after 1s 2026-11-04 15:30:53 CST；原 pid **2475340** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0（CDP；home articles=**7**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；thin 11-04 **2/0/7** tip **1d4e999** live PASS（本检查 curl root==days==index）；cursor @indie_maker_fox **2117847148914225648**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-04/02-25-health.md；grok-ops tip **899339fe→576b137c**  2026-11-04 15:33:29 CST
+- [x] 2026-11-04 02:25 ET 健康检查（x-3，~02:30 ET late ~5min；fire ~2026-11-04T07:30Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2548683**（up after 1s 2026-11-04 15:30:53 CST；原 pid **2475340** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0（CDP；home articles=**7**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；thin 11-04 **2/0/7** tip **1d4e999** live PASS（本检查 curl root==days==index）；cursor @indie_maker_fox **2117847148914225648**；chat 00/04/08/12/16/20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **04:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-04/02-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 15:33:29 CST
 
 ## 2026-11-04 03:25 ET 健康检查
-- [x] 2026-11-04 03:25 ET 健康检查（x-3，~03:29 ET late ~4min；fire ~2026-11-04T08:28Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2572042**；login_ok articles=5；watchdog 0；00 complete 178/43/508 md5 21cfb220 tip 63f7999/index 194c1c2 live PASS；thin 2/0/7 tip 1d4e999；cursor @indie_maker_fox 2117847148914225648；chat delivered；lists Nov3 done / Nov4 not_due；next 04:00 ET；escalate priority_false（CDP launched）；stay_quiet；evidence raw/2026-11-04/03-25-health.md；grok-ops tip **1207ecbe→0fadc1d5**  2026-11-04 16:32 CST
+- [x] 2026-11-04 03:25 ET 健康检查（x-3，~03:29 ET late ~4min；fire ~2026-11-04T08:28Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2572042**；login_ok articles=5；watchdog 0；00 complete 178/43/508 md5 21cfb220 tip 63f7999/index 194c1c2 live PASS；thin 2/0/7 tip 1d4e999；cursor @indie_maker_fox 2117847148914225648；chat delivered；lists Nov3 done / Nov4 not_due；next 04:00 ET；escalate priority_false（CDP launched）；stay_quiet；evidence raw/2026-11-04/03-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 16:32 CST
 
 ## 2026-11-04 04:10 ET 补抓
-- [x] 2026-11-04 04:10 ET 补抓（cdf0cd43，~04:10 ET late ~0min）：**deferred_to_main**；waited_main no；04 主窗 c3a32b9b 已 in_progress（fire ≈04:08 ET late ~8min；claim 17:12 CST；scrape mid `_scrape04_htl.py`；04-dom.json 已落；尚无 union/overlay）；prior 00 complete page_yday 11-03 **178/43/508** tip **63f7999**/index **194c1c2**；thin 11-04 **2/0/7** md5 **8732a9b4** tip **1d4e999** day+index live PASS；CDP pid **2572042** login_ok not stolen；watchdog exit 0；cursor still @indie_maker_fox 2117847148914225648；04:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/04-10-catchup.md`；grok-ops tip **6676c34c→40a1f0e6**  2026-11-04 17:15 CST
+- [x] 2026-11-04 04:10 ET 补抓（cdf0cd43，~04:10 ET late ~0min）：**deferred_to_main**；waited_main no；04 主窗 c3a32b9b 已 in_progress（fire ≈04:08 ET late ~8min；claim 17:12 CST；scrape mid `_scrape04_htl.py`；04-dom.json 已落；尚无 union/overlay）；prior 00 complete page_yday 11-03 **178/43/508** tip **63f7999**/index **194c1c2**；thin 11-04 **2/0/7** md5 **8732a9b4** tip **1d4e999** day+index live PASS；CDP pid **2572042** login_ok not stolen；watchdog exit 0；cursor still @indie_maker_fox 2117847148914225648；04:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/04-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 17:15 CST
 
 ## 2026-11-04 04:25 ET 健康检查
-- [x] 2026-11-04 04:25 ET 健康检查（x-3，~04:33 ET late ~8min；fire 2026-11-04T09:33:18.185Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2572042**（already up；03:25 拉起；未重启；主窗 04 publish 占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 1；04 in_progress stalled false；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **in_progress** scrape union **138** HIT gap≈0.6；overlay **92/138=66.7%**；PAGE local **50/9/88** tip **c93c6b5** publish mid；live 仍 thin **8732a9b4**；cursor @indie_maker_fox **2117847148914225648**；chat 00 ✅ / 04 pending；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 04 → **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/04-25-health.md；grok-ops tip **2fc6fb36→a07c67d9**  2026-11-04 17:35 CST
+- [x] 2026-11-04 04:25 ET 健康检查（x-3，~04:33 ET late ~8min；fire 2026-11-04T09:33:18.185Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2572042**（already up；03:25 拉起；未重启；主窗 04 publish 占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 1；04 in_progress stalled false；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **in_progress** scrape union **138** HIT gap≈0.6；overlay **92/138=66.7%**；PAGE local **50/9/88** tip **c93c6b5** publish mid；live 仍 thin **8732a9b4**；cursor @indie_maker_fox **2117847148914225648**；chat 00 ✅ / 04 pending；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 04 → **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/04-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 17:35 CST
 
 ## 2026-11-04 04:00 ET full_main
 - [x] 2026-11-04 04:00 ET main（c3a32b9b，fire ≈04:08 ET late ~8min）：**complete**；union **138** HIT gap **0.6** gap_open false；overlay **92/138=66.7%** rpd22 still_fail24 stop=completed；window **48/9/81** miss0；page 11-04 第一版 **50/9/88**（thin 2/0/7 + 窗 48/9/81） md5 **0d508915144506515a93ec5f430bba53** tip **c93c6b5**/index **30560c1** root==days==site==live==index PASS；cursor @indie_maker_fox → @JAVE1_ **2117907843248787880**；rec/ideas **skipped**（非 20:00）；QA pass（CDP screenshot；expected 50/9/88；clippedBtns=0）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-04 17:45 CST**；chat_line: `11/4 第一版：正文50 / 拿不准9 / 已过滤88。https://t512192641.github.io/x-following/2026-11-04.html`；next 08:00 ET；escalate no；evidence raw/2026-11-04/04-meta.md / 04-qa.png / 04-claim.md  2026-11-04 17:38 CST
 
 ## 2026-11-04 05:25 ET 健康检查
-- [x] 2026-11-04 05:25 ET 健康检查（x-3，~05:34 ET late ~9min；fire 2026-11-04T10:34:32.547Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2572042**（already up；03:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS（本检查 curl root==days==index==live）；cursor @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅ / 16 ✅ / 20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/05-25-health.md；grok-ops tip **9c6c96b6→7fdd0992**  2026-11-04 18:36 CST
+- [x] 2026-11-04 05:25 ET 健康检查（x-3，~05:34 ET late ~9min；fire 2026-11-04T10:34:32.547Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2572042**（already up；03:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS（本检查 curl root==days==index==live）；cursor @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅ / 16 ✅ / 20 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/05-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 18:36 CST
 
 ## 2026-11-04 06:25 ET 健康检查
-- [x] 2026-11-04 06:25 ET 健康检查（x-3，~06:26 ET late ~1min；routine x-3）：quiet_ok **true**；**cdp9226 launched pid 2629980**（up after 1s 2026-11-04 19:26:33 CST；原 pid **2572042** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS（本检查 md5_gate --live --nowait）；cursor @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-04/06-25-health.md；grok-ops tip **729d6e95→426c4881**  2026-11-04 19:27 CST
+- [x] 2026-11-04 06:25 ET 健康检查（x-3，~06:26 ET late ~1min；routine x-3）：quiet_ok **true**；**cdp9226 launched pid 2629980**（up after 1s 2026-11-04 19:26:33 CST；原 pid **2572042** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS（本检查 md5_gate --live --nowait）；cursor @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-04/06-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 19:27 CST
 
 ## 2026-11-04 07:25 ET 健康检查
-- [x] 2026-11-04 07:25 ET 健康检查（x-3，~07:30 ET late ~5min；fire 2026-11-04T12:30:39.560Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS（本检查 md5_gate --live --nowait）；cursor @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/07-25-health.md；grok-ops tip **0c964801→2867cf97**  2026-11-04 20:32 CST
+- [x] 2026-11-04 07:25 ET 健康检查（x-3，~07:30 ET late ~5min；fire 2026-11-04T12:30:39.560Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS（本检查 md5_gate --live --nowait）；cursor @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；04:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **08:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/07-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 20:32 CST
 
 ## 2026-11-04 08:10 ET 补抓
-- [x] 2026-11-04 08:10 ET 补抓（cdf0cd43，~08:12 ET late ~2min）：**deferred_to_main**；waited_main brief；08 主窗 c3a32b9b 已 in_progress（fire ≈08:11 ET late ~11min；claim 21:13 CST；DOM **45** DONE；HTL mid `_scrape08_htl.py` pid **2642612**；尚无 union/overlay）；prior 04 complete 11-04 第一版 **50/9/88** tip **c93c6b5**/index **30560c1** md5 **0d508915** live PASS；CDP pid **2629980** login_ok not stolen；watchdog exit 0；cursor still @JAVE1_ 2117907843248787880；08:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/08-10-catchup.md`；grok-ops tip **c03cf16f→2a7af372**  2026-11-04 21:17 CST
+- [x] 2026-11-04 08:10 ET 补抓（cdf0cd43，~08:12 ET late ~2min）：**deferred_to_main**；waited_main brief；08 主窗 c3a32b9b 已 in_progress（fire ≈08:11 ET late ~11min；claim 21:13 CST；DOM **45** DONE；HTL mid `_scrape08_htl.py` pid **2642612**；尚无 union/overlay）；prior 04 complete 11-04 第一版 **50/9/88** tip **c93c6b5**/index **30560c1** md5 **0d508915** live PASS；CDP pid **2629980** login_ok not stolen；watchdog exit 0；cursor still @JAVE1_ 2117907843248787880；08:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/08-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 21:17 CST
 ## 2026-11-04 08:25 ET 健康检查
-- [x] 2026-11-04 08:25 ET 健康检查（x-3，~08:32 ET late ~7min；routine x-3）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；主窗 c3a32b9b 08 in_progress 占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 1；08 in_progress idle~1.3min stalled false；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **in_progress**（expected）：scrape union **119** gap≈4.32 closed；overlay **86/119=72.3%** rpd15；window **38/7/74**；PAGE tip **198e2e2** day **88/16/162** md5 **2eb8bf9b** live day PASS；site/live index 仍 **0d508915**（04 版；wrap pending）；cursor still @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅ / 08 pending；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 08 → **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/08-25-health.md；grok-ops tip **b30e0037→cd8ab516**  2026-11-04 21:36 CST
+- [x] 2026-11-04 08:25 ET 健康检查（x-3，~08:32 ET late ~7min；routine x-3）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；主窗 c3a32b9b 08 in_progress 占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 1；08 in_progress idle~1.3min stalled false；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **in_progress**（expected）：scrape union **119** gap≈4.32 closed；overlay **86/119=72.3%** rpd15；window **38/7/74**；PAGE tip **198e2e2** day **88/16/162** md5 **2eb8bf9b** live day PASS；site/live index 仍 **0d508915**（04 版；wrap pending）；cursor still @JAVE1_ **2117907843248787880**；chat 00 ✅ / 04 ✅ / 08 pending；lists Nov3 done **156/@yetone** / **177/@irongiantXBT**；Nov4 not_due **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 08 → **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/08-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 21:36 CST
 
 ## 2026-11-04 08:00 ET full_main
 - [x] 2026-11-04 08:00 ET main（c3a32b9b，fire ≈08:11 ET late ~11min）：**complete**；union **119** HIT gap **4.32** gap_open false；overlay **86/119=72.3%** rpd15 still_fail18 stop=completed；window **38/7/74** miss0；page 11-04 更新 **88/16/162**（04 版 50/9/88 + 窗 38/7/74） md5 **2eb8bf9b941229b9c42a805a85ca23cb** tip **198e2e2**/index **2b995dc** root==days==site==live==index PASS；cursor @JAVE1_ → @alex_prompter **2117968878504714468**；rec/ideas **skipped**（非 20:00）；QA pass（CDP screenshot；expected 88/16/162；clippedBtns=0）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-04 21:38 CST**；chat_line: `11/4 更新：正文88 / 拿不准16 / 已过滤162。https://t512192641.github.io/x-following/2026-11-04.html`；next 12:00 ET；escalate no；evidence raw/2026-11-04/08-meta.md / 08-qa.png / 08-claim.md  2026-11-04 21:37 CST
 
 ## 2026-11-04 09:25 ET 健康检查
-- [x] 2026-11-04 09:25 ET 健康检查（x-3，~09:33 ET late ~8min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **complete** page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 md5_gate --live --nowait）；cursor @alex_prompter **2117968878504714468**；chat 00 ✅ / 04 ✅ / 08 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/09-25-health.md；grok-ops tip **f58a560e→e8fdf6ae**  2026-11-04 22:35 CST
+- [x] 2026-11-04 09:25 ET 健康检查（x-3，~09:33 ET late ~8min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **complete** page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 md5_gate --live --nowait）；cursor @alex_prompter **2117968878504714468**；chat 00 ✅ / 04 ✅ / 08 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/09-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 22:35 CST
 
 ## 2026-11-04 10:25 ET 健康检查
-- [x] 2026-11-04 10:25 ET 健康检查（x-3，~10:36 ET late ~11min；routine 960034de；parent cue 误标 15:25）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **complete** page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 md5_gate --live --nowait）；12 **not_due**；cursor @alex_prompter **2117968878504714468**；chat 00 ✅ / 04 ✅ / 08 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/10-25-health.md；grok-ops tip **de580440→3ada05ff**  2026-11-04 23:37 CST
+- [x] 2026-11-04 10:25 ET 健康检查（x-3，~10:36 ET late ~11min；routine 960034de；parent cue 误标 15:25）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **complete** page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 md5_gate --live --nowait）；12 **not_due**；cursor @alex_prompter **2117968878504714468**；chat 00 ✅ / 04 ✅ / 08 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/10-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-04 23:37 CST
 ## 2026-11-04 11:25 ET 健康检查
-- [x] 2026-11-04 11:25 ET 健康检查（x-3，~11:29 ET late ~4min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **complete** page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 md5_gate --live --nowait）；12 **not_due**；cursor @alex_prompter **2117968878504714468**；chat 00 ✅ / 04 ✅ / 08 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/11-25-health.md；grok-ops tip **a107f24b→7c3daac0**  2026-11-05 00:32 CST
+- [x] 2026-11-04 11:25 ET 健康检查（x-3，~11:29 ET late ~4min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**4**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04 main **complete** page 11-04 第一版 **50/9/88** md5 **0d508915** tip **c93c6b5**/index **30560c1** live PASS；08 main **complete** page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 md5_gate --live --nowait）；12 **not_due**；cursor @alex_prompter **2117968878504714468**；chat 00 ✅ / 04 ✅ / 08 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；08:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **12:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/11-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 00:32 CST
 
 ## 2026-11-04 12:10 ET 补抓
-- [x] 2026-11-04 12:10 ET 补抓（cdf0cd43，~12:19 ET late ~9min）：**deferred_to_main**；waited_main no；12 主窗 c3a32b9b 已 in_progress（fire ≈12:11 ET late ~11min；claim 01:12 CST；scrape DONE DOM**35**/HTL**183**/union**191** hit True gap≈1.43 closed；overlay mid ~**[75/191]** pid **2678699**）；prior 08 complete 11-04 更新 **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** day+index live PASS；CDP pid **2629980** login_ok not stolen；watchdog exit 0；cursor still @alex_prompter 2117968878504714468；12:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/12-10-catchup.md`；grok-ops tip **c04d6bb9→0275ca39**  2026-11-05 01:19 CST
+- [x] 2026-11-04 12:10 ET 补抓（cdf0cd43，~12:19 ET late ~9min）：**deferred_to_main**；waited_main no；12 主窗 c3a32b9b 已 in_progress（fire ≈12:11 ET late ~11min；claim 01:12 CST；scrape DONE DOM**35**/HTL**183**/union**191** hit True gap≈1.43 closed；overlay mid ~**[75/191]** pid **2678699**）；prior 08 complete 11-04 更新 **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** day+index live PASS；CDP pid **2629980** login_ok not stolen；watchdog exit 0；cursor still @alex_prompter 2117968878504714468；12:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/12-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 01:19 CST
 
 ## 2026-11-04 12:25 ET 健康检查
-- [x] 2026-11-04 12:25 ET 健康检查（x-3，~12:33 ET late ~8min；fire 2026-11-04T17:33:00.242Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；12 主窗后半段占用 **not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**9**）；watchdog exit 0（checked 1：12 in_progress；初检 overlay pid **2678699** 存活后 RESUME_DONE 127/191=66.5% budget_exhausted rpd15 → depollute0 + class-heur；idle 0.3min not stalled；未 --run）；00 complete page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04/08 complete page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 curl root==days==live）；12 main **in_progress** union **191** HIT gap≈1.43；cursor @alex_prompter **2117968878504714468**（待 12 推进）；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 pending；12:10 deferred_to_main；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**（12 收尾后）；escalate no；stay_quiet；evidence raw/2026-11-04/12-25-health.md；grok-ops tip **0275ca39→d4ff6fde**  2026-11-05 01:42 CST
+- [x] 2026-11-04 12:25 ET 健康检查（x-3，~12:33 ET late ~8min；fire 2026-11-04T17:33:00.242Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2629980**（already up；06:25 拉起；未重启；12 主窗后半段占用 **not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**9**）；watchdog exit 0（checked 1：12 in_progress；初检 overlay pid **2678699** 存活后 RESUME_DONE 127/191=66.5% budget_exhausted rpd15 → depollute0 + class-heur；idle 0.3min not stalled；未 --run）；00 complete page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04/08 complete page **88/16/162** md5 **2eb8bf9b** tip **198e2e2**/index **2b995dc** live PASS（本检查 curl root==days==live）；12 main **in_progress** union **191** HIT gap≈1.43；cursor @alex_prompter **2117968878504714468**（待 12 推进）；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 pending；12:10 deferred_to_main；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**（12 收尾后）；escalate no；stay_quiet；evidence raw/2026-11-04/12-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 01:42 CST
 
 ## 2026-11-04 12:00 ET full_main
 - [x] 2026-11-04 12:00 ET main（c3a32b9b，fire ≈12:11 ET late ~11min）：**complete**；union **191** HIT gap **1.43** gap_open false；overlay **127/191=66.5%** rpd15 still_fail41 stop=budget_exhausted；window **64/7/120** miss0；page 11-04 更新 **152/23/282**（08 版 88/16/162 + 窗 64/7/120） md5 **514a8f3a6c46d27ebbc3adc85b2a432b** tip **b2c7809**/index **89cf21b** root==days==site==live==index PASS；cursor @alex_prompter → @lennysan **2118029048911917298**；rec/ideas **skipped**（非 20:00）；QA pass（CDP screenshot；expected 152/23/282；clippedBtns=0）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-05 01:55 CST**；chat_line: `11/4 更新：正文152 / 拿不准23 / 已过滤282。https://t512192641.github.io/x-following/2026-11-04.html`；next 16:00 ET；escalate no；evidence raw/2026-11-04/12-meta.md / 12-qa.png / 12-claim.md  2026-11-05 01:54:48 CST
 
 ## 2026-11-04 13:25 ET 健康检查
-- [x] 2026-11-04 13:25 ET 健康检查（x-3，~13:30 ET late ~5min；fire 2026-11-04T18:30:25.183Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2724698**（up after 1s 2026-11-05 02:30:40 CST；原 pid **2629980** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04/08 complete；12 main **complete** page 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b** root==days==live==index PASS（本检查 curl）；cursor @lennysan **2118029048911917298**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；12:10 deferred_to_main；16 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-04/13-25-health.md；grok-ops tip **0dc11d59→99b7d0d1**  2026-11-05 02:32 CST
+- [x] 2026-11-04 13:25 ET 健康检查（x-3，~13:30 ET late ~5min；fire 2026-11-04T18:30:25.183Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2724698**（up after 1s 2026-11-05 02:30:40 CST；原 pid **2629980** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；**not stolen**）；login_ok auth_token/ct0（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04/08 complete；12 main **complete** page 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b** root==days==live==index PASS（本检查 curl）；cursor @lennysan **2118029048911917298**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；12:10 deferred_to_main；16 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-04/13-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 02:32 CST
 
 ## 2026-11-04 14:25 ET 健康检查
-- [x] 2026-11-04 14:25 ET 健康检查（x-3，~14:28 ET late ~3min；fire 2026-11-04T19:28:37.068Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04/08 complete；12 main **complete** page 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b** root==days==live==site PASS（本检查 md5_gate + curl）；cursor @lennysan **2118029048911917298**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；12:10 deferred_to_main；16 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/14-25-health.md；grok-ops tip **dc000429→130bc78a**  2026-11-05 03:29 CST
+- [x] 2026-11-04 14:25 ET 健康检查（x-3，~14:28 ET late ~3min；fire 2026-11-04T19:28:37.068Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00 main **complete** page_yday 11-03 **178/43/508** md5 **21cfb220** tip **63f7999**/index **194c1c2** live PASS；04/08 complete；12 main **complete** page 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b** root==days==live==site PASS（本检查 md5_gate + curl）；cursor @lennysan **2118029048911917298**；chat 00 ✅ / 04 ✅ / 08 ✅ / 12 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；12:10 deferred_to_main；16 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/14-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 03:29 CST
 
 ## 2026-11-04 15:25 ET 健康检查
-- [x] 2026-11-04 15:25 ET 健康检查（x-3，~15:34 ET late ~9min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；parent 已确认；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12 complete page 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b** root==days==site==live==index PASS（本检查 md5_gate + curl）；cursor @lennysan **2118029048911917298**；chat 00/04/08/12 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/15-25-health.md；grok-ops tip **d6bbffaf→75621360**  2026-11-05 04:37 CST
+- [x] 2026-11-04 15:25 ET 健康检查（x-3，~15:34 ET late ~9min；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；parent 已确认；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12 complete page 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b** root==days==site==live==index PASS（本检查 md5_gate + curl）；cursor @lennysan **2118029048911917298**；chat 00/04/08/12 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **16:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/15-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 04:37 CST
 
 ## 2026-11-04 16:10 ET 补抓
-- [x] 2026-11-04 16:10 ET 补抓（cdf0cd43，~16:17 ET late ~7min；fire 2026-11-04T21:17:34.121Z）：**deferred_to_main**；waited_main no；16 主窗 c3a32b9b 已 in_progress（fire ≈16:07 ET late ~7min；claim 05:09 CST；scrape DONE DOM**13**/HTL**82**/union**86** hit True gap≈0.88 closed；overlay mid ~**[81/86]** pid **2743013**）；prior 12 complete 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b**/site **faed421** day+index live PASS；CDP pid **2724698** login_ok not stolen；watchdog exit 0；cursor still @lennysan 2118029048911917298；16:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/16-10-catchup.md`；grok-ops tip **75621360→ce800f83**  2026-11-05 05:18:38 CST
+- [x] 2026-11-04 16:10 ET 补抓（cdf0cd43，~16:17 ET late ~7min；fire 2026-11-04T21:17:34.121Z）：**deferred_to_main**；waited_main no；16 主窗 c3a32b9b 已 in_progress（fire ≈16:07 ET late ~7min；claim 05:09 CST；scrape DONE DOM**13**/HTL**82**/union**86** hit True gap≈0.88 closed；overlay mid ~**[81/86]** pid **2743013**）；prior 12 complete 11-04 更新 **152/23/282** md5 **514a8f3a** tip **b2c7809**/index **89cf21b**/site **faed421** day+index live PASS；CDP pid **2724698** login_ok not stolen；watchdog exit 0；cursor still @lennysan 2118029048911917298；16:00 不并 rec/ideas；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/16-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 05:18:38 CST
 
 ## 2026-11-04 16:00 ET full_main
 - [x] 2026-11-04 16:00 ET main（c3a32b9b，fire ≈16:07 ET late ~7min）：**complete**；union **86** HIT gap **0.88** gap_open false；overlay **54/86=62.8%** rpd8 still_fail24 stop=completed；window **25/2/59** miss0；page 11-04 更新 **177/25/341**（12 版 152/23/282 + 窗 25/2/59） md5 **4e14eddcd8a1248510f6e5c90f088ef5** tip **c9b7655**/index **d04fbae** root==days==site==live==index PASS；cursor @lennysan → @thejustinwelsh **2118088689498669470**；rec/ideas **skipped**（非 20:00）；QA pass（CDP screenshot；expected 177/25/341；clippedBtns=0）；depollute restored **0**；chat_delivery **delivered ✅ via WakeParent ~2026-11-05 05:29 CST**；chat_line: `11/4 更新：正文177 / 拿不准25 / 已过滤341。https://t512192641.github.io/x-following/2026-11-04.html`；next 20:00 ET；escalate no；evidence raw/2026-11-04/16-meta.md / 16-qa.png / 16-claim.md  2026-11-05 05:27:55 CST
 
 ## 2026-11-04 16:25 ET 健康检查
-- [x] 2026-11-04 16:25 ET 健康检查（x-3，~16:29 ET late ~4min；fire 2026-11-04T21:29:39.915Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home soft-nav articles=**8**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 complete page 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae** root==days==site==live==index PASS（本检查 md5_gate --live --nowait + curl）；cursor @thejustinwelsh **2118088689498669470**；chat 00/04/08/12/16 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/16-25-health.md；grok-ops tip **386a2c71→cca7cb22**  2026-11-05 05:31 CST
+- [x] 2026-11-04 16:25 ET 健康检查（x-3，~16:29 ET late ~4min；fire 2026-11-04T21:29:39.915Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home soft-nav articles=**8**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 complete page 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae** root==days==site==live==index PASS（本检查 md5_gate --live --nowait + curl）；cursor @thejustinwelsh **2118088689498669470**；chat 00/04/08/12/16 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/16-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 05:31 CST
 
 ## 2026-11-04 17:25 ET 健康检查
-- [x] 2026-11-04 17:25 ET 健康检查（x-3，~17:28 ET late ~3min；fire 2026-11-04T22:28:08.000Z；routine 960034de；parent cue 误标 22:25）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**8**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 complete page 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae** root==days==site==live==index PASS（本检查 md5_gate --live --nowait + curl）；cursor @thejustinwelsh **2118088689498669470**；chat 00/04/08/12/16 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/17-25-health.md；grok-ops tip **df5c701b→40cbf36a**  2026-11-05 06:28 CST
+- [x] 2026-11-04 17:25 ET 健康检查（x-3，~17:28 ET late ~3min；fire 2026-11-04T22:28:08.000Z；routine 960034de；parent cue 误标 22:25）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**8**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 complete page 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae** root==days==site==live==index PASS（本检查 md5_gate --live --nowait + curl）；cursor @thejustinwelsh **2118088689498669470**；chat 00/04/08/12/16 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/17-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 06:28 CST
 
 ## 2026-11-04 18:25 ET 健康检查
 - [!] 2026-11-04 18:25 ET 健康检查（x-3；routine 960034de）：平台 last_run **failed**；仅残留 raw/2026-11-04/18-25-md5*.out（含 LIVE_GATE PASS）；无 18-25-health.md / task-board 条目；19:25 复验全绿，不补跑、不升卡。  2026-11-05 08:30 CST
 
 ## 2026-11-04 19:25 ET 健康检查
-- [x] 2026-11-04 19:25 ET 健康检查（x-3，~19:29 ET late ~4min；fire 2026-11-05T00:28:54.359Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**8**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 complete page 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae** root==days==site==live==index PASS（本检查 md5_gate --live --nowait + curl）；cursor @thejustinwelsh **2118088689498669470**；chat 00/04/08/12/16 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；18:25 platform-failed leftover md5 outs only（复验 PASS，不升卡）；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/19-25-health.md；grok-ops tip **fa20ac0e→d1fa4c32**  2026-11-05 08:30 CST
+- [x] 2026-11-04 19:25 ET 健康检查（x-3，~19:29 ET late ~4min；fire 2026-11-05T00:28:54.359Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**8**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16 complete page 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae** root==days==site==live==index PASS（本检查 md5_gate --live --nowait + curl）；cursor @thejustinwelsh **2118088689498669470**；chat 00/04/08/12/16 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；16:10 deferred_to_main；18:25 platform-failed leftover md5 outs only（复验 PASS，不升卡）；20 **not_due**；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **20:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/19-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 08:30 CST
 
 ## 2026-11-04 20:10 ET 补抓
-- [x] 2026-11-04 20:10 ET 补抓（cdf0cd43，~20:19 ET late ~9min；fire 2026-11-05T01:19:40.437Z）：**deferred_to_main**；waited_main no；20 主窗 c3a32b9b 已 in_progress（fire ≈20:08 ET late ~8min；claim 01:10Z；scrape DONE DOM**34**/HTL**103**/union**105** hit True gap≈5.3 closed；overlay mid ~**[80/105]** pid **2783251**）；prior 16 complete 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae**/site **5929193** day+index live PASS；CDP pid **2724698** login_ok not stolen；watchdog exit 0；cursor still @thejustinwelsh 2118088689498669470；20:00 应并 rec/ideas（交主窗）；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/20-10-catchup.md`；grok-ops tip **69ae0495→ee2c1540**  2026-11-05 09:20 CST
+- [x] 2026-11-04 20:10 ET 补抓（cdf0cd43，~20:19 ET late ~9min；fire 2026-11-05T01:19:40.437Z）：**deferred_to_main**；waited_main no；20 主窗 c3a32b9b 已 in_progress（fire ≈20:08 ET late ~8min；claim 01:10Z；scrape DONE DOM**34**/HTL**103**/union**105** hit True gap≈5.3 closed；overlay mid ~**[80/105]** pid **2783251**）；prior 16 complete 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae**/site **5929193** day+index live PASS；CDP pid **2724698** login_ok not stolen；watchdog exit 0；cursor still @thejustinwelsh 2118088689498669470；20:00 应并 rec/ideas（交主窗）；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-04/20-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 09:20 CST
 
 ## 2026-11-04 20:25 ET 健康检查
 - [x] 2026-11-04 20:25 ET 健康检查（x-3，~20:26 ET late ~1min；fire 2026-11-05T01:26:24.084Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；主窗占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP；scrape_meta login_ok）；watchdog exit 0（checked 1；20 in_progress stalled false；overlay_resume 当时 pid **2783251**→RESUME_DONE；未 --run）；00/04/08/12/16 complete page 11-04 更新 **177/25/341** md5 **4e14eddc** tip **c9b7655**/index **d04fbae**/site **5929193** root==days==site==live==index PASS（本检查 md5_gate --live --nowait + curl）；20 **in_progress** union **105** HIT gap≈5.3 overlay **73/105=69.5%** rpd13 depollute0 classify mid；cursor @thejustinwelsh **2118088689498669470**；chat 00/04/08/12/16 ✅ / 20 pending；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 20 → **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/20-25-health.md  2026-11-05 09:28 CST
 
-- [x] 2026-11-04 20:00 ET full_main（c3a32b9b，fire ~20:08 ET late ~8min）：DOM+HTL union **105** hit_cursor true gap≈**5.3**min gap_open=false；overlay 73/105=**69.5%** rpd13 stop=completed；depollute restored=0；class 窗 **23/14/68** miss0；merge + rec **merged** 8 / ideas **skipped_missing**（sourceDate:2026-11-05）；page **208/39/409** md5 **4ee427c8f83ed841bc04eb2718a14698** tip **e44a341**/index **11ecbd9** live PASS；cursor @thejustinwelsh/2118088689498669470 → **@garrytan/2118149398232481823**；chat_delivery=pending_parent；next 00:00 ET；escalate no。  2026-11-05 09:34 CST
+- [x] 2026-11-04 20:00 ET full_main（c3a32b9b，fire ~20:08 ET late ~8min）：DOM+HTL union **105** hit_cursor true gap≈**5.3**min gap_open=false；overlay 73/105=**69.5%** rpd13 stop=completed；depollute restored=0；class 窗 **23/14/68** miss0；merge + rec **merged** 8 / ideas **skipped_missing**（sourceDate:2026-11-05）；page **208/39/409** md5 **4ee427c8f83ed841bc04eb2718a14698** tip **e44a341**/index **11ecbd9** live PASS；cursor @thejustinwelsh/2118088689498669470 → **@garrytan/2118149398232481823**；chat_delivery **delivered ✅ via WakeParent ~2026-11-05 09:35 CST**；chat_line: `11/4 更新：正文208 / 拿不准39 / 已过滤409。https://t512192641.github.io/x-following/2026-11-04.html`；next 00:00 ET；escalate no。  2026-11-05 09:35 CST
+
+## 2026-11-04 21:25 ET 健康检查
+- [x] 2026-11-04 21:25 ET 健康检查（x-3，~21:32 ET late ~7min；fire 2026-11-05T02:32:30.451Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；idle Home；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 complete page 11-04 更新 **208/39/409** md5 **4ee427c8** tip **e44a341**/index **11ecbd9**/site **060f7e1** root==days==site==live==index PASS（本检查 md5_gate + curl）；cursor @garrytan **2118149398232481823**；chat 00/04/08/12/16/20 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/21-25-health.md  2026-11-05 10:40 CST
+
+## 2026-11-04 22:25 ET 健康检查
+- [x] 2026-11-04 22:25 ET 健康检查（x-3，~22:26 ET late ~1min；fire 2026-11-05T03:25:26.082Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2724698**（already up；13:25 拉起；未重启；idle Home；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 complete page 11-04 更新 **208/39/409** md5 **4ee427c8** tip **e44a341**/index **11ecbd9**/site **060f7e1** root==days==site==live==index PASS（本检查 md5_gate + curl）；cursor @garrytan **2118149398232481823**；chat 00/04/08/12/16/20 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-04/22-25-health.md  2026-11-05 11:26 CST
+
+## 2026-11-04 23:25 ET 健康检查
+- [x] 2026-11-04 23:25 ET 健康检查（x-3，~23:33 ET late ~8min；fire 2026-11-05T04:33:29.282Z；routine 960034de）：quiet_ok **true**；**cdp9226 launched pid 2810235**（up after 1s 2026-11-05 12:34:05 CST；原 pid **2724698** 已退出；原 profile 直连；未设 CDP_PROXY；未清 cookie、未重登；idle Home；**not stolen**）；login_ok auth_token/ct0/twid（CDP；home articles=**6**）；watchdog exit 0（checked 0；未 --run）；00/04/08/12/16/20 complete page 11-04 更新 **208/39/409** md5 **4ee427c8** tip **e44a341**/index **11ecbd9**/site **060f7e1** root==days==site==live==index PASS（本检查 md5_gate + curl）；cursor @garrytan **2118149398232481823**；chat 00/04/08/12/16/20 ✅；lists Nov4 done by x-4 **156/@yetone** / **177/@irongiantXBT** **no catchup**；20:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next main **00:00 ET**；escalate priority_false（向幕僚长一句 launched）；stay_quiet；evidence raw/2026-11-04/23-25-health.md；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 12:34 CST
+
+## 2026-11-05 00:10 ET 补抓
+- [x] 2026-11-05 00:10 ET 补抓（cdf0cd43，~00:17 ET late ~7min；fire 2026-11-05T05:17:54.933Z）：**deferred_to_main**；waited_main no；00 主窗 c3a32b9b 已 in_progress（fire ≈00:05 ET late ~6min；claim 05:07Z；scrape DONE DOM**54**/HTL**176**/union**176** hit True gap≈1.8 closed；overlay mid ~**[62/176]** pid **2815413**）；prior 20 complete 11-04 更新 **208/39/409** md5 **4ee427c8** tip **e44a341**/index **11ecbd9**/site **060f7e1** day+index live PASS；CDP pid **2810235** login_ok not stolen；watchdog exit 0；cursor still @garrytan 2118149398232481823；00:00 不并 rec/ideas（交主窗交 **11-04 完整版**）；未重抓/不抢 CDP/不写页/不发 chat；escalate no；stay_quiet；evidence `raw/2026-11-05/00-10-catchup.md`；grok-ops tip **372dec9f→c4f46a9b**  2026-11-05 13:18 CST
+
+## 2026-11-05 00:25 ET 健康检查
+- [x] 2026-11-05 00:25 ET 健康检查（x-3，~00:32 ET late ~6min；fire 2026-11-05T05:30:59.055Z；routine 960034de）：quiet_ok **true**；cdp9226 ok pid **2810235**（already up；23:25 拉起；未重启；主窗 QA 占用；**not stolen**）；login_ok auth_token/ct0/twid（CDP soft；home articles=**0**；scrape_meta login_ok **true**）；watchdog exit 0（checked 1；00 in_progress stalled false；idle≈0；未 --run；随后 `_qa00.py` pid **2827191**）；prior 20 complete page 11-04 更新 **208/39/409** md5 **4ee427c8** tip **e44a341**/index **11ecbd9**/site **060f7e1** live PASS（本检查 curl root==days==site==live；live 仍 20 版）；00 main **in_progress**（c3a32b9b；fire ≈00:05 late ~6min）：union **176** HIT gap≈**1.8**；overlay **106/176=60.2%** rpd18 stop=budget_exhausted；depollute0；class miss0 合 **64/9/103**；merge PAGE_YDAY **268/48/505** md5 local **52bea041** + SEED **4/0/7** md5 **12f72afa**；live/site 仍 **4ee427c8**（publish pending）；QA mid；cursor still @garrytan **2118149398232481823**；chat 00/04/08/12/16/20 ✅（20）/ 00 pending；lists Nov4 done **156/@yetone** / **177/@irongiantXBT**；Nov5 09:23 not_due **no catchup**；00:10 deferred_to_main；无重复抓取/旧调度冲突/overdue gap；不扩大重跑主窗/不抢 CDP/不走付费 X API；旧四条仍 disabled；next after 00 → **04:00 ET**；escalate no；stay_quiet；evidence raw/2026-11-05/00-25-health.md；grok-ops tip **a0805b66→9948fb2e**  2026-11-05 13:33 CST
