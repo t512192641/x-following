@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @alex_prompter
-- status_id: 2118331821024850198
-- url: https://x.com/alex_prompter/status/2118331821024850198
-- created_at: 2026-11-05T13:17:17.000Z
-- updated_by: 2026-11-05 08:00 ET full_main
+- handle: @ajambrosino
+- status_id: 2118390422015770855
+- url: https://x.com/ajambrosino/status/2118390422015770855
+- created_at: 2026-11-05T17:10:09.000Z
+- updated_by: 2026-11-05 12:00 ET full_main
