@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @thejustinwelsh
-- status_id: 2118088689498669470
-- url: https://x.com/thejustinwelsh/status/2118088689498669470
-- created_at: 2026-11-04T21:11:10.000Z
-- updated_by: 2026-11-04 16:00 ET full_main
+- handle: @garrytan
+- status_id: 2118149398232481823
+- url: https://x.com/garrytan/status/2118149398232481823
+- created_at: 2026-11-05T01:12:24.000Z
+- updated_by: 2026-11-04 20:00 ET full_main
