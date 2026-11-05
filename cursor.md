@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @ajambrosino
-- status_id: 2118390422015770855
-- url: https://x.com/ajambrosino/status/2118390422015770855
-- created_at: 2026-11-05T17:10:09.000Z
-- updated_by: 2026-11-05 12:00 ET full_main
+- handle: @Jason
+- status_id: 2118449761686520037
+- url: https://x.com/Jason/status/2118449761686520037
+- created_at: 2026-11-05T21:05:56.000Z
+- updated_by: 2026-11-05 16:00 ET full_main
