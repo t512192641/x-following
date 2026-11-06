@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @cgnot996
-- status_id: 2118633738657464759
-- url: https://x.com/cgnot996/status/2118633738657464759
-- created_at: 2026-11-06T09:17:00.000Z
-- updated_by: 2026-11-06 04:00 ET full_main
+- handle: @paulg
+- status_id: 2118703067151430102
+- url: https://x.com/paulg/status/2118703067151430102
+- created_at: 2026-11-06T13:52:29.000Z
+- updated_by: 2026-11-06 08:00 ET full_main
