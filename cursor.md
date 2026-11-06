@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @MatthewBerman
-- status_id: 2118512190953304219
-- url: https://x.com/MatthewBerman/status/2118512190953304219
-- created_at: 2026-11-06T01:14:01.000Z
-- updated_by: 2026-11-05 20:00 ET full_main
+- handle: @cgnot996
+- status_id: 2118573037851414910
+- url: https://x.com/cgnot996/status/2118573037851414910
+- created_at: 2026-11-06T05:15:48.000Z
+- updated_by: 2026-11-06 00:00 ET full_main
