@@ -1,7 +1,7 @@
 # cursor
 
-- handle: @thejustinwelsh
-- status_id: 2118813199160029243
-- url: https://x.com/thejustinwelsh/status/2118813199160029243
-- created_at: 2026-11-06T21:10:06.000Z
-- updated_by: 2026-11-06 16:00 ET full_main
+- handle: @MANISH1027512
+- status_id: 2118873857285394544
+- url: https://x.com/MANISH1027512/status/2118873857285394544
+- created_at: 2026-11-07T01:11:09.000Z
+- updated_by: 2026-11-06 20:00 ET full_main
