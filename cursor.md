@@ -1,6 +1,6 @@
 # cursor
-- handle: @xiangqishi
-- status_id: 2119358262680141888
-- url: https://x.com/xiangqishi/status/2119358262680141888
-- created_at: 2026-11-08T09:16:00.000Z
-- updated_by: 2026-11-08 04:00 ET full_main
+- handle: @imwsl90
+- status_id: 2119416743852433587
+- url: https://x.com/imwsl90/status/2119416743852433587
+- created_at: 2026-11-08T13:08:23.000Z
+- updated_by: 2026-11-08 08:00 ET full_main
