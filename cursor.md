@@ -1,6 +1,6 @@
 # cursor
-- handle: @Michell49473040
-- status_id: 2119296457086021956
-- url: https://x.com/Michell49473040/status/2119296457086021956
-- created_at: 2026-11-08T05:10:24.000Z
-- updated_by: 2026-11-08 00:00 ET full_main
+- handle: @xiangqishi
+- status_id: 2119358262680141888
+- url: https://x.com/xiangqishi/status/2119358262680141888
+- created_at: 2026-11-08T09:16:00.000Z
+- updated_by: 2026-11-08 04:00 ET full_main
