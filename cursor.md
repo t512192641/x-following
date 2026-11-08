@@ -1,6 +1,6 @@
 # cursor
-- handle: @Jason
-- status_id: 2119173989578977407
-- url: https://x.com/Jason/status/2119173989578977407
-- created_at: 2026-11-07T21:03:46.000Z
-- updated_by: 2026-11-07 16:00 ET full_main
+- handle: @verysmallwoods
+- status_id: 2119236530493587663
+- url: https://x.com/verysmallwoods/status/2119236530493587663
+- created_at: 2026-11-08T01:12:17.000Z
+- updated_by: 2026-11-07 20:00 ET full_main
