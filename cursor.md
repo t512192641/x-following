@@ -1,6 +1,6 @@
 # cursor
-- handle: @ajambrosino
-- status_id: 2120203389401465078
-- url: https://x.com/ajambrosino/status/2120203389401465078
-- created_at: 2026-11-10T17:14:14.000Z
-- updated_by: 2026-11-10 12:00 ET full_main
+- handle: @430Yang
+- status_id: 2120264137888452893
+- url: https://x.com/430Yang/status/2120264137888452893
+- created_at: 2026-11-10T21:15:37.000Z
+- updated_by: 2026-11-10 16:00 ET full_main
