@@ -1,6 +1,6 @@
 # cursor
-- handle: @xiaoxiaodong
-- status_id: 2120023134472683933
-- url: https://x.com/xiaoxiaodong/status/2120023134472683933
-- created_at: 2026-11-10T05:17:58.000Z
-- updated_by: 2026-11-10 00:00 ET full_main
+- handle: @elonmusk
+- status_id: 2120082348398256182
+- url: https://x.com/elonmusk/status/2120082348398256182
+- created_at: 2026-11-10T09:13:15.000Z
+- updated_by: 2026-11-10 04:00 ET full_main
