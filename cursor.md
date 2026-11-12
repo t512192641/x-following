@@ -1,6 +1,6 @@
 # cursor
-- handle: @Svwang1
-- status_id: 2120928083121479719
-- url: https://x.com/Svwang1/status/2120928083121479719
-- created_at: 2026-11-12T17:13:54.000Z
-- updated_by: 2026-11-12 12:00 ET full_main
+- handle: @levelsio
+- status_id: 2120985769003356338
+- url: https://x.com/levelsio/status/2120985769003356338
+- created_at: 2026-11-12T21:03:07.000Z
+- updated_by: 2026-11-12 16:00 ET full_main
