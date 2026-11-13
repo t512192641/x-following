@@ -1,6 +1,6 @@
 # cursor
-- handle: @indie_maker_fox
-- status_id: 2121228665430417479
-- url: https://x.com/indie_maker_fox/status/2121228665430417479
-- created_at: 2026-11-13T13:08:19.000Z
-- updated_by: 2026-11-13 08:00 ET full_main
+- handle: @levelsio
+- status_id: 2121291126803980696
+- url: https://x.com/levelsio/status/2121291126803980696
+- created_at: 2026-11-13T17:16:30.000Z
+- updated_by: 2026-11-13 12:00 ET full_main
