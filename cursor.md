@@ -1,6 +1,6 @@
 # cursor
-- handle: @wlzh
-- status_id: 2121587131709890968
-- url: https://x.com/wlzh/status/2121587131709890968
-- created_at: 2026-11-14T12:52:44.000Z
-- updated_by: 2026-11-14 08:00 ET full_main
+- handle: @app_sail
+- status_id: 2121646842748227646
+- url: https://x.com/app_sail/status/2121646842748227646
+- created_at: 2026-11-14T16:50:00.000Z
+- updated_by: 2026-11-14 12:00 ET full_main
