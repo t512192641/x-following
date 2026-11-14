@@ -1,6 +1,6 @@
 # cursor
-- handle: @oran_ge
-- status_id: 2121529505919721949
-- url: https://x.com/oran_ge/status/2121529505919721949
-- created_at: 2026-11-14T09:03:44.000Z
-- updated_by: 2026-11-14 04:00 ET full_main
+- handle: @wlzh
+- status_id: 2121587131709890968
+- url: https://x.com/wlzh/status/2121587131709890968
+- created_at: 2026-11-14T12:52:44.000Z
+- updated_by: 2026-11-14 08:00 ET full_main
