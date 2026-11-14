@@ -1,6 +1,6 @@
 # cursor
-- handle: @cursor_ai
-- status_id: 2121411147714970092
-- url: https://x.com/cursor_ai/status/2121411147714970092
-- created_at: 2026-11-14T01:13:26.000Z
-- updated_by: 2026-11-13 20:00 ET full_main
+- handle: @hylarucoder
+- status_id: 2121470649730552078
+- url: https://x.com/hylarucoder/status/2121470649730552078
+- created_at: 2026-11-14T05:09:52.000Z
+- updated_by: 2026-11-14 00:00 ET full_main
