@@ -1,6 +1,6 @@
 # cursor
-- handle: @lxfater
-- status_id: 2121829400459239925
-- url: https://x.com/lxfater/status/2121829400459239925
-- created_at: 2026-11-15T04:55:25.000Z
-- updated_by: 2026-11-15 00:00 ET full_main
+- handle: @PMbackttfuture
+- status_id: 2121888704117760043
+- url: https://x.com/PMbackttfuture/status/2121888704117760043
+- created_at: 2026-11-15T08:51:04.000Z
+- updated_by: 2026-11-15 04:00 ET full_main
