@@ -1,6 +1,6 @@
 # cursor
-- handle: @bozhou_ai
-- status_id: 2122192685427569004
-- url: https://x.com/bozhou_ai/status/2122192685427569004
-- created_at: 2026-11-16T04:58:59.000Z
-- updated_by: 2026-11-16 00:00 ET full_main
+- handle: @cgnot996
+- status_id: 2122252835517878320
+- url: https://x.com/cgnot996/status/2122252835517878320
+- created_at: 2026-11-16T08:58:00.000Z
+- updated_by: 2026-11-16 04:00 ET full_main
