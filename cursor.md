@@ -1,6 +1,6 @@
 # cursor
-- handle: @oran_ge
-- status_id: 2122311907474640914
-- url: https://x.com/oran_ge/status/2122311907474640914
-- created_at: 2026-11-16T12:52:44.000Z
-- updated_by: 2026-11-16 08:00 ET full_main
+- handle: @ericbahn
+- status_id: 2122372149671571878
+- url: https://x.com/ericbahn/status/2122372149671571878
+- created_at: 2026-11-16T16:52:06.000Z
+- updated_by: 2026-11-16 12:00 ET full_main
