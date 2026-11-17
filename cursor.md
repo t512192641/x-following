@@ -1,6 +1,6 @@
 # cursor
-- handle: @abskoop
-- status_id: 2122494582453883355
-- url: https://x.com/abskoop/status/2122494582453883355
-- created_at: 2026-11-17T00:58:37.000Z
-- updated_by: 2026-11-16 20:00 ET full_main
+- handle: @cellinlab
+- status_id: 2122555371877454128
+- url: https://x.com/cellinlab/status/2122555371877454128
+- created_at: 2026-11-17T05:00:10.000Z
+- updated_by: 2026-11-17 00:00 ET full_main
