@@ -1,6 +1,6 @@
 # cursor
-- handle: @cgnot996
-- status_id: 2123037218457759843
-- url: https://x.com/cgnot996/status/2123037218457759843
-- created_at: 2026-11-18T12:54:51.000Z
-- updated_by: 2026-11-18 08:00 ET full_main
+- handle: @garrytan
+- status_id: 2123098477219794960
+- url: https://x.com/garrytan/status/2123098477219794960
+- created_at: 2026-11-18T16:58:16.000Z
+- updated_by: 2026-11-18 12:00 ET full_main
