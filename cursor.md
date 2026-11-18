@@ -1,6 +1,6 @@
 # cursor
-- handle: @op7418
-- status_id: 2122977451500523892
-- url: https://x.com/op7418/status/2122977451500523892
-- created_at: 2026-11-18T08:57:22.000Z
-- updated_by: 2026-11-18 04:00 ET full_main
+- handle: @cgnot996
+- status_id: 2123037218457759843
+- url: https://x.com/cgnot996/status/2123037218457759843
+- created_at: 2026-11-18T12:54:51.000Z
+- updated_by: 2026-11-18 08:00 ET full_main
