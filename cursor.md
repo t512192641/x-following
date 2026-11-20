@@ -1,6 +1,6 @@
 # cursor
-- handle: @rionaifantasy
-- status_id: 2123763306590781553
-- url: https://x.com/rionaifantasy/status/2123763306590781553
-- created_at: 2026-11-20T13:00:04.000Z
-- updated_by: 2026-11-20 08:00 ET full_main
+- handle: @affLeopard
+- status_id: 2123823648536678467
+- url: https://x.com/affLeopard/status/2123823648536678467
+- created_at: 2026-11-20T16:59:51.000Z
+- updated_by: 2026-11-20 12:00 ET full_main
