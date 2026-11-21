@@ -1,6 +1,6 @@
 # cursor
-- handle: @ChrisJBakke
-- status_id: 2123884009650520486
-- url: https://x.com/ChrisJBakke/status/2123884009650520486
-- created_at: 2026-11-20T20:59:42.000Z
-- updated_by: 2026-11-20 16:00 ET full_main
+- handle: @cnyzgkc
+- status_id: 2123944827616370964
+- url: https://x.com/cnyzgkc/status/2123944827616370964
+- created_at: 2026-11-21T01:01:22.000Z
+- updated_by: 2026-11-20 20:00 ET full_main
