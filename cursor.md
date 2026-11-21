@@ -1,6 +1,6 @@
 # cursor
-- handle: @garrytan
-- status_id: 2124186188701684055
-- url: https://x.com/garrytan/status/2124186188701684055
-- created_at: 2026-11-21T17:00:27.000Z
-- updated_by: 2026-11-21 12:00 ET full_main
+- handle: @430Yang
+- status_id: 2124246788454654143
+- url: https://x.com/430Yang/status/2124246788454654143
+- created_at: 2026-11-21T21:01:15.000Z
+- updated_by: 2026-11-21 16:00 ET full_main
