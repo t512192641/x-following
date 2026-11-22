@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>X 关注汇总 2026-11-22（正文 39 / 拿不准 5 / 已过滤 157）</title>
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --bg: #e8f6f1;
+  --paper: #fffdf6;
+  --ink: #1d2a28;
+  --muted: #5a726c;
+  --line: #1d2a28;
+  --link: #0b6e99;
+  --chip: #d4f0e6;
+  --accent: #0f8a6a;
+  --tab: #fffdf6;
+  --tab-on: #ffe08a;
+  --shadow: #1d2a28;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background:
+    linear-gradient(0deg, rgba(15,138,106,.04), rgba(15,138,106,.04)),
+    var(--bg);
+  background-size: 8px 8px, auto;
+  color: var(--ink);
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  image-rendering: pixelated;
+}
+.wrap {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 22px 28px 56px;
+}
+header h1 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0 0 10px;
+  color: var(--ink);
+  text-shadow: 3px 3px 0 #b7e4d4;
+}
+.meta {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+.tab {
+  appearance: none;
+  border: 3px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.tab:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.tab.is-active {
+  background: var(--tab-on);
+}
+.pane { display: none; }
+.pane.is-active { display: block; }
+section { margin: 0 0 28px; }
+h2 {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  color: var(--accent);
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--line);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+article {
+  background: var(--paper);
+  border: 3px solid var(--line);
+  border-radius: 0;
+  padding: 12px 12px 10px;
+  min-width: 0;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+.byline {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.byline a { color: inherit; text-decoration: none; }
+.byline a:hover { text-decoration: underline; }
+article p { margin: 0.4em 0; }
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+code {
+  font-size: 0.86em;
+  background: var(--chip);
+  padding: 0.08em 0.32em;
+  border: 2px solid var(--line);
+}
+pre {
+  margin: 0.5rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--chip);
+  border: 3px solid var(--line);
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 3px 8px;
+  border-radius: 0;
+  background: var(--chip);
+  color: var(--link);
+  text-decoration: none;
+  border: 2px solid var(--line);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.links a:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+.note { color: var(--muted); margin: 0 0 12px; }
+
+
+.grid { align-items: stretch; }
+article { display: flex; flex-direction: column; height: 320px; }
+article h3 {
+  flex: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.7em;
+  max-height: 2.7em;
+}
+.byline {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+article .fold {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+article.is-long .fold::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2em;
+  background: linear-gradient(transparent, var(--paper));
+  pointer-events: none;
+}
+.more {
+  appearance: none;
+  visibility: hidden;
+  flex: 0 0 24px;
+  margin: 8px 0 0;
+  padding: 4px 8px;
+  border: 2px solid var(--line);
+  background: var(--tab);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--shadow);
+  align-self: flex-start;
+}
+article.is-long .more { visibility: visible; }
+.more:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--shadow); }
+article .links {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.links a {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+.view-tools { display: flex; gap: 8px; margin: 0 0 22px; }
+.site-nav { margin: 0 0 14px; font-size: 13px; }
+.site-nav a { color: var(--link); text-decoration: none; margin-right: 12px; }
+.site-nav a:hover { text-decoration: underline; }
+.site-nav a.is-here { color: var(--ink); font-weight: 700; }
+
+/* Floating modal expand — grid cards never grow */
+body.modal-open { overflow: hidden; }
+.card-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+.card-modal.is-open { display: flex; }
+.card-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(29, 42, 40, 0.55);
+  image-rendering: pixelated;
+}
+.card-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(720px, 96vw);
+  max-height: min(92vh, 920px);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 4px solid var(--line);
+  box-shadow: 8px 8px 0 var(--shadow);
+  color: var(--ink);
+}
+.card-modal.is-multi .card-modal-dialog {
+  width: min(880px, 96vw);
+}
+.card-modal-head {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-bottom: 3px solid var(--line);
+  background: var(--chip);
+}
+.card-modal-title {
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 9px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--accent);
+}
+.card-modal-close {
+  appearance: none;
+  flex: 0 0 auto;
+  border: 3px solid var(--line);
+  background: var(--tab-on);
+  color: var(--ink);
+  font-family: "Press Start 2P", "PingFang SC", sans-serif;
+  font-size: 8px;
+  line-height: 1.4;
+  padding: 6px 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.card-modal-close:hover { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--shadow); }
+.card-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 14px 16px 18px;
+  -webkit-overflow-scrolling: touch;
+}
+.card-modal-body h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: block;
+  max-height: none;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+.card-modal-body .byline {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  margin: 0 0 12px;
+}
+.card-modal-body .fold {
+  position: static;
+  overflow: visible;
+  flex: none;
+  min-height: 0;
+}
+.card-modal-body .fold::after { display: none !important; }
+.card-modal-body .links { margin-top: 14px; }
+.card-modal-block {
+  padding: 0 0 18px;
+  margin: 0 0 18px;
+  border-bottom: 3px dashed var(--line);
+}
+.card-modal-block:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.card-modal-empty {
+  color: var(--muted);
+  margin: 0;
+}
+
+
+</style>
+</head><body><div class="wrap"><header>
+<h1>X 关注汇总 · 2026-11-22</h1>
+<p class="meta">04:00 ET 第一版。正文 39 卡 / 拿不准 5 / 已过滤 157。00:00 无薄种子，本窗新建。</p>
+<div class="tabs">
+<button class="tab is-active" data-count="39" data-pane="pane-main" type="button">正文 39</button>
+<button class="tab" data-count="5" data-pane="pane-maybe" type="button">拿不准 5</button>
+<button class="tab" data-count="157" data-pane="pane-filtered" type="button">已过滤 157</button>
+<button class="tab" id="btn-expand-all" type="button">全部展开</button>
+<button class="tab" id="btn-collapse-all" type="button">全部收起</button>
+</div></header><div class="pane is-active" id="pane-main">
+<section class="group"><h2>限时 / 价格</h2><div class="grid"><article class="card"><h3>Every All Access 假日价 388 美元，原价 625，并附约 8000 美元额度</h3><p class="byline">Dan Shipper <a href="https://x.com/danshipper" rel="noopener noreferrer" target="_blank">@danshipper</a></p><div class="fold"><p>The best AI subscription I've had by far. Every's All Access is $388 as part of their holiday deal, down from the usual $625. Grab it before the deal expires.</p><p>It comes with $8,000 worth of credits, plus great content on frontier AI.</p><p>https://every.to/subscribe/all-access</p><p>@every  @danshipper</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/danshipper/status/2124513501771391384" rel="noopener noreferrer" target="_blank">原帖 · Dan Shipper</a><a href="https://every.to/subscribe/all-access?coupon=BUILD2027" rel="noopener noreferrer" target="_blank">Every All Access</a><a href="https://every.to/subscribe/all-access" rel="noopener noreferrer" target="_blank">Every</a></p></article><article class="card"><h3>Google AI Pro 有账号刷到年付 99 美元，会员后台还有每月赠金可领</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>昨天抢了谷歌 AI 会员的，如果你只拿来聊天和写代码，最值钱的一笔钱还躺后台没领！！</p><p>谷歌给付费会员配了一笔官方赠金，每月都发，花不完能攒着，每笔能用一年
+黑五 99 刀年付的 Pro 合每月 8 刀多，后台反而每月倒送 10 刀，光领这个就回本了
+100 刀的 Ultra 5x 每月送 40 刀，200 刀的 20x 每月送 100 刀</p><p>这笔赠金能拿来干嘛？</p><p>最实在就两个用法：</p><p>1. 接谷歌模型接口
+自己写小脚本或接自动化工具，平时按量扣钱的 Gemini 接口，直接用这笔赠金抵扣</p><p>2. 开谷歌云小服务器
+新号还能叠 300 刀三个月试用金
+Ultra 档开台台湾独立小服务器跑 AI 工具，基本不花自己钱</p><p>但这笔赠金不会自动进余额，必须主订阅人本人去领
+家庭组成员领不了，也要看账号归属地和付费地区</p><p>最省事的领法是登进谷歌 AI Studio，点左侧领赠金提示绑定结算账号
+勾上始终使用此结算账号，后面每月就自动打进来（见图 1）</p><p>很多人不敢拿它开服务器，就怕绑了卡万一超支，睡一觉被反扣几百刀，是不是？</p><p>想稳稳白嫖，盯死这三条就行：</p><p>1. 别点升级成付费账号
+谷歌云试用号只要不升级，赠金烧干只会停机，不会刷你银行卡</p><p>2. 设预算提醒取消勾选其他节省
+这笔赠金在账单里算节省项，勾着它系统只算扣完赠金后的自付额，永远显示 0，烧干都不会发警报</p><p>3. 开机把网络切到标准层级
+默认高级线路不送免费流量，往国内跑很容易把赠金烧穿
+切到标准层级，每个区域每月白送 200G 流量</p><p>刚上车的赶紧登进去看看自己能不能领，别让每月白送的钱烂在后台</p><p>https://aistudio.google.com</p><p>Claude 平替版来了！！而且半价优惠！！！</p><p>讲真的，我觉得大家可以关注下 Gemini 的黑五优惠，现在 Gemini 4 系列基本可以达到 Claude 8 成水平！！</p><p>美国大豆包现在崛起了！Claude 平替真的不是盖的，甚至写文案上 Gemini 效果比 Claude 更牛逼！！</p><p>卧槽，Google 这波黑五直接把性价比拉满了？？？</p><p>平时月付 $19.99 的 Google AI Pro，现在已经有账号刷到了 99 刀包年的优惠！摊下来一个月才 8 刀出头，这价格真的没谁了。</p><p>最近Google模型下饺子，想用 Google 的兄弟们，这笔账真的闭眼算都赚：</p><p>1、Antigravity 直接畅用 Gemini 4 Neon，日常写代码、跑工作流爽得不行。
+  2、每月白送 10 刀 Google Cloud 额度，直接抵扣 Gemini API，平时跑脚本调接口基本相当于零元购。
+  3、Colab 还塞了 200 个计算单位，轻量跑个验证完全够用。</p><p>平时本来就要花钱跑 API 的，一个月 8 刀换这些，简直就是反向薅 Google 羊毛</p><p>几个查价和避坑的实操细节，大家注意下：</p><p>• 老用户：之前有 Google AI 或存储订阅的，现在就可以先去 Google One 看看有没有被灰度到。
+  • 新用户：不用着急，等 11 月 27 日黑五当天再去查，具体价格以账号结账页为准。</p><p>地区问题不能访问：如果 Google 认为你账号地区有问题，
+https://policies.google.com/country-association-form  在这里修改地区，等待邮件批准。</p><p>我把 Pro 和两档 Ultra 的详细额度对比做成图了，大家按需对号入座</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/KinGao476942/status/2124496539699851661" rel="noopener noreferrer" target="_blank">原帖一 · Kin</a><a href="https://x.com/lxfater/status/2124493106254905788" rel="noopener noreferrer" target="_blank">原帖二 · 铁锤人</a><a href="https://x.com/servasyy_ai/status/2124435308595073523" rel="noopener noreferrer" target="_blank">原帖三 · huangserva</a><a href="https://one.google.com/ai" rel="noopener noreferrer" target="_blank">Google AI</a></p></article><article class="card"><h3>铁锤人：OpenCode 称智谱 GLM 5.3 和 DeepSeek V4.1 Flash 降价约 60%</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>国产厂商花大钱训出模型免费开源，转头就被外面平台卖得比官方还便宜！</p><p>今早海外平台 OpenCode 宣布
+智谱 GLM 5.3 和 DeepSeek V4.1 Flash 降价 60% 打四折
+输入 100 万 token，GLM 5.3 官方要 1.4 美元，它只要 0.56 美元
+DeepSeek V4.1 Flash 它只卖 0.12 美元
+连官方低谷半价时段都要 0.15 美元！</p><p>它凭什么敢卖这么便宜？</p><p>因为这俩模型把文件免费公开了，OpenCode 一分钱训练费都不用掏
+直接拿去租显卡跑着卖就行</p><p>看着确实憋屈，今天技术论坛上就有热帖替国产厂商叫屈
+说烧钱训完模型全让不掏训练费的平台占了便宜，国产模型搞开源就是个错</p><p>你以为国产厂商傻，花大钱做慈善？</p><p>但替它们算完这两笔账，不开源真玩不转</p><p>第一笔账是显卡
+国产厂商手里显卡本来就紧，全靠自家服务器扛不住全网流量
+把模型放出来，外面平台自己掏钱买显卡帮你扛流量，官方省下的卡正好训下一代</p><p>第二笔账是客户
+海外愿意交月费的用户早被 OpenAI 和 Claude 圈走了
+国产模型藏着卖高价，老外压根懒得看
+只有免费放出去，全球编程工具和不想把数据传到外面的大公司才会主动接你
+先把工具和机房占住，后面才有机会靠企业服务赚钱</p><p>厂商后面的账还得慢慢算，咱们普通人倒是先占了便宜
+就像热帖最高赞说的，要不是国产模型坚持开源，今天用 AI 的价格根本打不到这么低</p><p>但免费放出去的模型谁都能低价卖，光靠开源肯定回不了血
+下一轮国产厂商靠什么把训练费赚回来，你觉得这笔账能算平吗？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124439812467748949" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>有人整理了十二篇，帮助刚上车的 Google AI Ultra 把订阅用满</h3><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><div class="fold"><p>精选 12 篇文章帮你榨干 Google AI Ultra 账号价值</p><p>刚上车 Google AI Ultra 不知道有哪些福利，怎么去最大化利用？精选十二篇帮你榨干订阅价值！</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/cgnot996/status/2124435094924562659" rel="noopener noreferrer" target="_blank">原帖 · 铁柱AGI</a></p></article></div></section><section class="group"><h2>模型 / 产品</h2><div class="grid"><article class="card"><h3>KSimback：用 6 个月 agent 轨迹微调 Qwen-3.5 9B，再拿最近 3 周任务做测试</h3><p class="byline">Kevin Simback <a href="https://x.com/KSimback" rel="noopener noreferrer" target="_blank">@KSimback</a></p><div class="fold"><p>Your agent's history is training data, but can it be used to actually train a model?</p><p>That's a test I ran this weekend with
+@OvermindLab
+  and the results were quite interesting</p><p>Here's what I did:</p><p>&gt; took 6 months of my personal agent traces
+&gt; removed any personal info
+&gt; excluded the most recent 3 weeks
+&gt; trained Qwen-3.5 9b on the 6 months of data
+&gt; ran the trained model on 200 tasks from most recent 3 weeks</p><p>The result: the trained model achieved 87% of the frontier model's task completion (e.g., called the right tool, took the correct next action)</p><p>I was mostly using ChatGPT's top model over the 6 months, so the comparison effectively looked at Qwen-3.5 9b vs whatever was the leading OpenAI model</p><p>Every agent you run is quietly building a record of how it does your work, and that record can teach a cheaper model you own, one that can run on your own hardware</p><p>The implication for individuals using agents is that your data can help train a small local model that gets close to the same performance, especially for certain repeated tasks</p><p>But it also indicates that when companies use agents in production at scale, there's opportunity to move them off frontier models over time, at least for some tasks</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/KSimback/status/2124516710753435989" rel="noopener noreferrer" target="_blank">原帖 · Kevin Simback</a></p></article><article class="card"><h3>铁锤人：Lean 已盖章黎曼证明，菲尔兹奖得主梅纳德仍等有人读懂这 1700 万行</h3><p class="byline">Yanhua <a href="https://x.com/yanhua1010" rel="noopener noreferrer" target="_blank">@yanhua1010</a></p><div class="fold"><p>AI 刚刚证明了黎曼猜想。</p><p>不是标题党，也不是民科炒作。Lean 和 Mathlib 官方刚刚正式盖章认证了。</p><p>过去 48 小时，数学界发生了人类历史上最魔幻的一幕：</p><p>1️⃣ AI 交卷：1700 万行代码，机器确认 100% 严密Anthropic 数学家 Levent Alpöge 带着 Claude，花了一个多月，直接干出了黎曼猜想（RH）+ 广义黎曼猜想（GRH）的证明。
+没有传统论文，只有 1700 万行 Lean 4 代码（折合约 25 万页）。
+昨晚，Lean 官方、Mathlib 社区以及 MIT 教授 Andrew Sutherland 陆续完成独立核查：
+• 命题没被篡改（和 Mathlib 标准定义逐字节一致）
+ • 编译全通过，无公理漏洞，无后门作弊</p><p>结论：机器确认，这个证明在逻辑上无懈可击。</p><p>2️⃣ 同日暴击：人类 12 年心血，几小时后被 AI 找出漏洞
+戏剧性拉满的是，就在 Claude 证明发布几小时后，美国数学会主席 Ravi Vakil 紧急放出了一份“纯人类、零 AI 参与”的 940 页 GRH 证明草稿。作者是斯坦福博士 Alessandro Masullo，苦写了 12 年。
+但因为被 AI 逼得太急，草稿本身还没写完；更扎心的是，公开才几小时，就有同行用 AI 工具在里面找出了实质性漏洞。</p><p>3️⃣ 最细思极恐的不是“证明了”，而是“看不懂”
+虽然机器 100% 确认是对的，但目前全球最顶尖的数学家（包括陶哲轩在内），还没人能完全看懂这 1700 万行代码里的全部直觉。
+大家正在像做“逆向工程”一样，试图从代码里把数学思想挖出来（目前看动用了朗兰兹纲领、算术几何等重型武器）。</p><p>以前是：人类写证明，机器帮忙查错。
+从今天起变成了：AI 给出绝对正确的黑盒，人类要花几年去学习 AI 的思路。</p><p>Claude 证完黎曼猜想、机器都盖章通过了，为什么菲尔兹奖得主却说数学界还不能认？</p><p>刚发声的是牛津教授梅纳德，2022 年菲尔兹奖得主，但别误会，他非常相信证明是对的
+因为这 1700 万行 Lean 代码专门给计算机查逻辑，社区独立跑通了，学者口碑也很稳</p><p>既然信它算对了，数学界到底在卡什么？</p><p>梅纳德说得很直白，搞懂一个定理为什么成立，远比证明它对不对重要
+这 1700 万行代码展开超过 25 万页，机器能查出没毛病，但人眼压根读不完</p><p>数学家盯了 167 年，最想从中挖出能反复用的新思路，光给个对错结果不够用
+思路锁在天书里没人能讲清楚，就没法往下推，得等有人真读懂，数学界才认</p><p>正因为天书没人读得动，这两天圈里冒出另一份 6 页 AI 证明，一下就刷屏了
+有人把原学者笔记里留的一段简短思路丢给 GPT-6 Astra 展开，完整写完还不到 6 页</p><p>但先别急着吹，它证的只是黎曼猜想的简化版老定理，跟 167 年那道原题是两码事
+而且目前只让 Claude 复查过，还没人类数学家核对，也没上代码验真，靠不靠谱还得等</p><p>把 1700 万行和 6 页摆一块，AI 往后真正拉差距的地方一下就清楚了！！
+以前能把题硬算通就够牛逼，往后更值钱的，是把天书压成人能看懂的几页</p><p>放到平时拿 AI 写代码上，完全一回事
+让 AI 一把吐出几千行能跑通的屎山代码，早就不难了
+可过两天要改需求，你压根不敢动，因为谁也看不懂它绕了多少弯
+能压成几百行清爽代码，让你一眼看明白还能接着改，才算真本事，你说是不是？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124515753617412463" rel="noopener noreferrer" target="_blank">原帖一 · 铁锤人</a><a href="https://x.com/yanhua1010/status/2124442521472577928" rel="noopener noreferrer" target="_blank">原帖二 · Yanhua</a><a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/" rel="noopener noreferrer" target="_blank">Lean 声明</a></p></article><article class="card"><h3>Codex Code Mode 靠复用工具目录把调用加快约 10 毫秒；Claude Code 也跟进了同类模式</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>让 AI 自己写代码调工具，连 Claude Code 都跟进了！！</p><p>昨天浏览器工具 browser-use 刚砍掉 24 个动作，改让 AI 写代码干活
+紧接着 Claude Code 也上了个实验功能叫 Code Mode，路子一样</p><p>平时用 AI 写代码，是不是总觉得查几个文件就慢半拍，聊没几轮就变笨还烧额度？</p><p>以前调工具得一步步来，搜一次文件就把几千行原始结果全塞回对话里
+来回折腾好多趟，上下文窗口很快就被废话撑爆了</p><p>但开了 Code Mode 后，你照样提需求
+Claude 会直接写段 JavaScript 把多步活串起来
+能同时跑几条命令，先在代码里筛掉废话，只把关键结果传回对话</p><p>跑测试、打包这类长任务，开自动模式还能直接扔后台跑，最长 2 小时
+期间你照样在原窗口跟它聊别的，不用干等着！！</p><p>但先别急着冲，这功能还在实验，有两件事得提前说清楚：</p><p>第一，门槛挑人
+只支持终端版（v2.1.323 起）配官方订阅或直连账号
+中转站、云代理和桌面端都还用不了
+想尝鲜的终端跑这句：
+CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 claude</p><p>第二，安全别大意
+权限拦截还在，但官方明说沙箱只管脚本里的终端命令
+代码本身和文件、网络、MCP 接口都在沙箱外，跑陌生项目记得套容器或虚拟机</p><p>两天内，开源项目和 Claude Code 走向了同一条路
+以后写 Skill 或 MCP，别再堆几十个零碎按钮了
+把接口做得方便 AI 写脚本串起来调，省上下文也省钱</p><p>官方文档放下面了👇
+https://code.claude.com/docs/en/code-mode</p><p>In the latest Codex release, Code Mode calls get 10ms faster via tool catalog reuse across cells.</p><p>This happens billions of times a day. If you are waste in the harness I will hunt you down.</p><p>在最新的 Codex 版本中，代码模式调用通过跨单元格的工具目录重用获得 10 毫秒的加速。</p><p>这种情况每天发生数十亿次。如果你是在测试环境中浪费资源，我会追捕你。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/ajambrosino/status/2124514362945896768" rel="noopener noreferrer" target="_blank">原帖一 · Andrew Ambrosino</a><a href="https://x.com/charliermarsh/status/2124507314384146925" rel="noopener noreferrer" target="_blank">原帖二 · Charlie Marsh</a><a href="https://x.com/lxfater/status/2124427730460565506" rel="noopener noreferrer" target="_blank">原帖三 · 铁锤人</a><a href="https://code.claude.com/docs/en/code-mode" rel="noopener noreferrer" target="_blank">Anthropic 文档</a></p></article><article class="card"><h3>DeepMind 工程师称在 T3 Code 里用 Antigravity 不会被封；有人改走官方 antigravity cli</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>刚买谷歌 AI 订阅、又嫌官方反重力难用的人，可以放心换 T3 Code 了</p><p>今早谷歌 DeepMind 工程师 Patrick Toulme 直接在 X 上辟谣
+说受够了误导，直接放话在 T3 Code 里用反重力（Antigravity）永远不会被封号！
+第三方客户端 T3 Code 创始人 Theo 也跟着说
+他们接的是谷歌官方方案，用谷歌订阅没风险</p><p>大家之前不敢碰，是因为谷歌官方常见问答（FAQ）确实写得很狠
+里面点名 Claude Code、OpenClaw、OpenCode
+说拿反重力账号去登就违规，可能直接封号</p><p>同样是外部软件，为什么 T3 Code 没事，OpenClaw 那些却容易被封？</p><p>因为它们走的路子压根不一样
+谷歌在官方命令行里本来就留了正规外接通道，叫 ACP，启动命令是 agy acp（见图 1）
+像 T3 Code、Zed、JetBrains 这些走正规通道的软件
+只在本地拉起没改过的官方程序
+登录状态一直留在官方程序里，它们只负责换个好用的界面，背后干活的还是谷歌自己人</p><p>但容易封号的野路子完全反着来，想安心用订阅，避开这 3 种做法就行：
+1. 把账号登录凭证抠出来做中转反代，把订阅额度转给别的软件用
+2. 把官方命令行套进 OpenClaw、OpenCode 这类非官方工具里当模型库
+3. 挂脚本多号自动切号刷额度，官方 FAQ 明写了个人套餐不支持</p><p>工程师发帖只算个人表态，不算公司正式公告，但官方 ACP 文档一直挂在官网上
+照着官方通道用，比听网上传言靠谱多了</p><p>谷歌官方的外部编辑器接入说明放这了</p><p>https://antigravity.google/docs/ide/extensions/acp/</p><p>谁能想到Google发布Neon居然带火了T3 Code？不过也不能怪别人，反重力真心难用啊。</p><p>我现在的用法：安装antigravity cli（curl -fsSL
+https://antigravity.google/cli/install.sh | bash）, 然后在Claude Code中调用，好像也还行。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yanhua1010/status/2124502224508527020" rel="noopener noreferrer" target="_blank">原帖一 · Yanhua</a><a href="https://x.com/lxfater/status/2124471283010113949" rel="noopener noreferrer" target="_blank">原帖二 · 铁锤人</a><a href="https://antigravity.google/cli/install.sh" rel="noopener noreferrer" target="_blank">antigravity.google</a></p></article><article class="card"><h3>金融时报：亚马逊接近收购实时 AI 视频公司 Decart，报价提到约 75 亿美元</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>估值刚到 40 亿美元的小厂，凭什么让亚马逊愿意加价到 75 亿去买？</p><p>金融时报刚爆出来，亚马逊正接近收购 AI 公司 Decart
+它表面上是做实时 AI 视频的，你一边操作，AI 一边实时把画面画出来
+问题是这种玩法太烧显卡，普通人根本玩不起</p><p>但为了把实时视频跑顺，Decart 磨出了一套帮芯片提速省钱的底层软件
+亚马逊掏 75 亿，真正盯上的就是它</p><p>亚马逊自研了款 AI 芯片叫 Trainium3，早早拿给 Decart 试用
+用这套底层软件优化后，亚马逊官方宣称
+自家芯片跑实时视频比传统 GPU 显卡快 4 倍，成本直接砍半！</p><p>芯片都造出来了，干嘛非得花 75 亿买套软件？</p><p>因为造芯片难，让客户愿意换掉英伟达更难
+以前大家的 AI 程序全按英伟达显卡的规矩写死了
+想搬到亚马逊芯片上，光改代码就费劲，速度还容易掉
+客户嫌折腾，最后还是乖乖回头买英伟达的高价显卡</p><p>Decart 这套底层软件，干的正好是帮人换芯片的活
+它能让 AI 模型顺畅切到不同芯片上，还能把算力榨干
+要是真装进亚马逊云服务，客户就不用被英伟达一家拿捏
+这 75 亿说白了，就是亚马逊把自家芯片铺出去的门票钱</p><p>大厂在芯片上抢生意，对我们普通人反而是好事
+以前实时 AI 视频再惊艳，太烧显卡，只能停在演示视频里
+现在芯片和底层软件一起把成本往下压，离普通人真用得起又近了一大步</p><p>但先别急，收购还在最后谈判，没正式签字
+快 4 倍、成本减半只是官方说法，对比哪款显卡也没公开
+真能便宜多少，还得等落地后看实测</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124499423241666719" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>Strata 0.2.19：5090 上 Prefill 约 11306 tokens/s，称提速 76%，并给 Qwen3.8-Flash-Next 加速</h3><p class="byline">huangserva <a href="https://x.com/servasyy_ai" rel="noopener noreferrer" target="_blank">@servasyy_ai</a></p><div class="fold"><p>🔥🔥🔥Strata 0.2.19的大更新来了！！！
+5090显卡 Prefill速度达到惊人的 11,306 tokens/s，提速 76%！！</p><p>给 Qwen3.8-Flash-Next 在多代显卡上带来了实质提速！！！</p><p>测了一下：
+V100： TTFT（首字等待）大幅降低，最高40%！
+体感上速度直线上升！！！</p><p>RTX 4090 的 Prefill 也快了 40%左右、Decode快 20%–30%！！</p><p>此次Strata0.2.19还新增了 Thinking Machines 公司新出的模型Inkling 2 Mini 的原生推理引擎。</p><p>但我更关心的是 @QwenAIFans qwen4-flash什么时候出？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/servasyy_ai/status/2124497084334420448" rel="noopener noreferrer" target="_blank">原帖 · huangserva</a></p></article><article class="card"><h3>铁锤人：Anthropic 招股书里约 9009 亿美元是尚未到期的长期算力合约，不是马上要还的债</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>今天技术论坛有条热帖，说做 Claude 的 Anthropic 急着上市
+是因为在外面欠了 9000 亿</p><p>按招股书披露的数据，这个数确实有 9009 亿美元，但其实压根没到还款日
+这笔钱是跟谷歌、亚马逊、微软和博通签的长期算力合约
+提前包下未来十几年的显卡和服务器，分期一直付到 2045 年</p><p>拆成近二十年慢慢付，听着好像压力没那么大，对不对？</p><p>但哪怕按年拆开算，光未来一年到期要付的钱，就有 707 亿美元！
+而且合约里很大一部分是不能退的保底消费，后面赚没赚到钱都得照付</p><p>有人可能觉得，现在 AI 需求这么旺，一边付钱一边收用户钱不就转起来了？</p><p>但今天马斯克在 X 回复显卡需求暴涨的讨论，直接泼了盆冷水，说明年全行业会缺钱到离谱
+原因很实在，买卡付钱和卖 AI 收钱之间，隔着一段时间差
+大厂得先掏钱买卡建机房，等大批显卡拉回来，通电、散热、调稳定极其折腾
+全跑稳了，才能靠用户充会员和按量调用收钱</p><p>只要中间调试卡壳，从付钱到稳定收钱晚了几个月
+全行业光垫在中间周转的钱，就得多砸进去数千亿美元！
+马斯克最后只问了一句，这笔周转钱从哪来？</p><p>看懂这笔先掏钱、后收钱的周转账，再看最近各家 AI 厂商的动作，就全明白了</p><p>最近都在推打折年卡，说白了就是想先把全年的现金提前收到手
+免费额度说砍就砍，连付费套餐的用量也卡得越来越死，就怕多烧一点显卡</p><p>以后挑主力 AI 工具，别光盯着谁跑分高，也得看看谁手里现金够厚，扛得住明年这波烧钱</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124486813582553338" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>有纪要称智谱在筹备约 3 万亿参数的新旗舰底座，并提到时间线</h3><p class="byline">huangserva <a href="https://x.com/servasyy_ai" rel="noopener noreferrer" target="_blank">@servasyy_ai</a></p><div class="fold"><p>🔥智谱这波流出的纪要信息量太大了……</p><p>前几天大家还在传 GLM-5.5 怎么没动静，结果摩根大通这份调研纪要，直接把核心底牌和时间线全掀了。</p><p>拆解一下里面的核心干货：</p><p>3 万亿参数全新旗舰底座
+参数量直接干到约 3T，底座规模比今年 1 月的 7450 亿暴涨了整整 4 倍。纪要里目标写得很死：直接杀进全球第一梯队，正面硬刚海外顶配旗舰。</p><p>7000 亿验证模型已经跑通
+一款 700B 规模的训练验证模型性能已经反超现役 GLM-5.3。大概率是这个 700B 的版本先上线打头阵，3T 的大基座留在 12 月压轴。</p><p>发布时间锁定 12 月前后
+之前传 19-20 号发布纯属抢跑，不过 Q4 集中交卷的节奏基本坐实了。</p><p>实话说，平时用 GLM-5.3 写代码、跑自动化确实便宜耐造，但复杂的 Agent 链路和长上下文深度推理，依然极其依赖顶级大底座来抗。</p><p>国内大模型现在太需要在顶级梯队真正立住一块招牌了。只要 12 月真能把 3T 底座端出来、接口稳定性跟上，我第一个把工作流主力模型切过去实测。</p><p>坐等 12 月开闸，抓紧端上来吧。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/servasyy_ai/status/2124476275066818940" rel="noopener noreferrer" target="_blank">原帖 · huangserva</a></p></article><article class="card"><h3>Coinbase：Grok Bot 在 Agents 上以 40.4% 交易量领跑</h3><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><div class="fold"><p>BREAKING: Coinbase says Grok Bot is its most popular AI agent.</p><p>Grok Bot led Coinbase for Agents with 40.4% of notional trading volume for Nov. 9–15, more than Claude and ChatGPT combined.</p><p>Together, Grok Bot and Grok captured 56.8%.</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/elonmusk/status/2124474702173241540" rel="noopener noreferrer" target="_blank">原帖 · Elon Musk</a></p></article><article class="card"><h3>FSD V15 开始分批推送：实景渲染、点选车位，已有完整路测和长评</h3><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><div class="fold"><p>Out of everything posted about FSD v15 so far, one line from @elonmusk deserves way more attention than it's getting: "This is real-time AI video generation (no gaming engine!) using just half of one AI4 TRIP accelerator. Let that sink in …" 🔥</p><p>Half of one accelerator is the part worth sitting with. Once you see the numbers behind it, Reality View stops looking like a fancy new screen and starts looking like one of the most impressive things Tesla has ever shipped.</p><p>🎬 THE SCREEN IS NOW GENERATED LIVE</p><p>For years, FSD's screen worked like a video game. Software took a list of what the car detected and dropped stock 3D models in the right spots: a gray car here, a lane line there.</p><p>Reality View tosses that playbook out the window. The car's AI now generates the video itself, frame after frame, as you drive, with no game engine anywhere in the loop.</p><p>Better yet, the picture comes from the same end-to-end model that's doing the driving. That's the single neural network that turns camera video into steering and braking, and now it paints your screen, too.</p><p>⚙️ WHAT A TRIP ACTUALLY IS</p><p>The standard AI4 computer carries two self-driving chips, and each chip packs three custom neural processors Tesla calls TRIP accelerators. That's six in all.</p><p>And that's where Reality View gets made: right on the self-driving computer, instead of the infotainment chip that runs your maps and music.</p><p>Each TRIP is basically an arena packed with tiny calculators, all cranking through the multiply-and-add math that neural networks run on. Teardowns count 9,216 of them per TRIP, lined up in a 96-by-96 grid and firing 2.2 billion times a second.</p><p>Each calculator handles two operations per tick, so one TRIP works out to 9,216 × 2 × 2.2 billion, or roughly 40 trillion operations every second.</p><p>Half of one comes to about 20 trillion, roughly a twelfth of the whole computer's neural muscle.</p><p>📏 WHY THAT NUMBER IS RIDICULOUS</p><p>Twenty trillion operations per second sounds enormous, until you see what else runs on that kind of budget.</p><p>The Neural Engine inside Apple's iPhone 15 Pro is rated at 35 trillion operations per second. So on paper, the slice of compute painting Reality View has less raw AI muscle than the AI chip in a 2023 phone.</p><p>Companies don't all count these numbers the same way, so it's a ballpark, but it shows just how little compute this is.</p><p>At the other end of the scale sits Nvidia's H100, one of the data-center workhorses powering today's AI boom. It's rated at about 1,979 trillion 8-bit operations per second in its standard mode, the same kind of math a TRIP runs, which puts half a TRIP at roughly 1% of one H100.</p><p>That gap matters because AI video is one of the toughest jobs in AI. Many AI video generators still take minutes to produce a single clip, as the researchers behind the real-time system MotionStream point out.</p><p>Even MotionStream, built specifically for speed, streams roughly 17 to 29 frames per second at 480p, and about 10 at 720p, while eating up an entire H100.</p><p>Meanwhile, Tesla is streaming a live, photorealistic view of the real road on roughly 1% of that chip's rated power, inside a moving car.</p><p>In other words, Reality View runs on less compute than a phone's AI chip, inside a computer whose main job is driving.</p><p>There's a fair asterisk here. Those research models dream up whole scenes from a prompt or a single image, while Tesla's renderer starts with a driving brain that already knows exactly what's around the car. Tesla also hasn't shared the view's resolution or frame rate.</p><p>And even on the most generous estimates of AI4's power, half a TRIP still works out to only about 2% of one H100.</p><p>Either way, live generated video on a sliver of a car computer would have sounded like science fiction not long ago.</p><p>🔍 HOW IT CAN BE THIS CHEAP</p><p>Tesla hasn't spelled out how it works, but it has left plenty of breadcrumbs.</p><p>FSD's network has been building its own 3D picture of the world for a while now, something Tesla showed off at the ICCV conference in October 2025. That picture includes 3D Gaussians, millions of soft little blobs of color that can rebuild a scene you can view from any angle.</p><p>Tesla also built its own Gaussian splatting system that can rebuild a scene from the car's cameras in a fraction of a second.</p><p>Reality View streams its picture from a virtual camera that can sit anywhere above the car, and showing a scene from an angle no real camera has is exactly what those 3D blobs are great at.</p><p>Even Elon seems to like that theory: he called a description of Reality View as a neural, Gaussian-splat digital twin "pretty accurate", and it lines up with every other clue.</p><p>If that's the trick, the hard part is done before the screen ever needs a picture. The driving brain understands the scene, and the visualization just paints what it already knows.</p><p>That would explain the other shocker. Reality View swapped every separate signal behind the old screen for one end-to-end visualization, and it still uses less compute than the bare-bones 2020 visualization did.</p><p>🚗 WHY TESLA CARES SO MUCH</p><p>v15 is Tesla's large model, built to squeeze every ounce of performance out of HW4. On a chip working that hard, a screen that costs half of one TRIP leaves nearly everything else for the driving.</p><p>And it's a flex, too. The AI4 computer costs about $650 by Elon's own figure, and that same box now drives the car and paints live video of the world at the same time.</p><p>This is only the start. Elon says Tesla vehicles will share traffic knowledge and combine it with Grok's real-time 𝕏 feed, even giving you a heads-up about what's happening at your destination.</p><p>A view this cheap to generate is the perfect canvas for that kind of shared knowledge.</p><p>Elon asked everyone to let that sink in, and the math earns it: half of one accelerator in a $650 computer is painting the real world live while FSD drives.</p><p>Here's my 25-minute drive on @Tesla FSD V15 tonight. I go over the new Tesla Reality View, new parking behavior/options, navigation and more.</p><p>Tesla Reality View is even more mind-blowing in person than how it appears online. It really is something special.  It's the best "Birds Eye" view I've ever seen. V15 will also park straight into your garage at home, does a much better job at handling debris in the road, potholes, etc.</p><p>I'll have more footage in the coming days/weeks showing all this stuff, but here's a quick first impressions video:</p><p>Here is my initial FSD v15 review after driving with it all afternoon and evening:</p><p>First off, Elon was right. This update is a BANGER! Tesla Reality View is out of this world and so insanely cool I’m still trying to process it all.</p><p>FSD V15.0.1 brings so many improvements behind the scenes, in addition to the wildly cool UI.</p><p>Tesla Reality View IS AMAZING! Pictures and video don’t do it any justice, this is something that has to be experienced to truly understand. Got to take a few friends tonight on drives to show them and every single person was blown away by it. The amount of detail it shows and generates is wild and so impressive. It shows reflection in the car, buildings, trees, turn arrows on the display and more.</p><p>FSD v15 now has pothole avoidance! I had it swerve and avoid/straddle a few potholes tonight that were difficult for me to see in the dark.</p><p>Another great new feature in FSD v15 is speed camera slowdown. As you approach a speed camera, it automatically slows smoothly to the speed limit if you are in a quicker profile. This is a huge quality of life improvement especially as more cities get speed cameras.</p><p>Parking seems near unchanged from the last build, I feel it</p><p>看下面这个视频，我还以为在玩现实版 GTA！！</p><p>特斯拉今早开始分批推送最新的自动驾驶系统 FSD V15，车机屏幕彻底变样了</p><p>以前中控屏上全是火柴人和小方块，现在直接变成游戏里的实时 3D 街景
+转弯箭头直接画在天上，手指点一下车位或车道，车就能自己开过去</p><p>第一眼看过去，你是不是也觉得跟普通车的 360 环影差不多？</p><p>但背后的做法完全两码事</p><p>普通 360 是把几个摄像头画面硬拼成一张图，视角一偏就会歪
+特斯拉这套现实视图连游戏引擎都没用
+全靠车里的 AI 看懂整条街，再实时把画面重新画出来</p><p>你以为画这么逼真肯定巨费算力？</p><p>但特斯拉 AI 负责人说，跑这套新画面用的算力，比以前画火柴人还要少
+马斯克也补了一句，只用了车载 AI4 芯片里半颗加速器的算力</p><p>值得注意的是，官方更新说明里写着，这一版看路况的视觉模型
+已经和无人出租车、人形机器人 Optimus 共用同一套了</p><p>官方还称关键场景的接管率改善了 25 倍，虽然目前还没看到大规模第三方实测
+但光看视频里这个实时生成的街景和算力效率，已经够吓人了</p><p>以后开车真要变成挂机玩游戏了</p><p>i'm admittedly pretty harsh on the google guys, mostly cuz i know the co super well.</p><p>but holy hell, i'm having an incredible time with neon so far.</p><p>product issues aside, this is a very different experience, almost like a strange new feeling. the way it talks, the way it responds, everything feels pretty damn fresh if that makes any sense. it's very creative. &amp; unusually great at proposing ideas. i can't even say it's about intelligence or better answers in general. i am normally okay with words, but this is very difficult for me to articulate well.</p><p>anyway, it's fairly clear that google absolutely cooked here.</p><p>i have never doubted google's technical capabilities. those were &amp; are totally obvious. i mean it is literally the birth place of ai. it was always a question of whether google could turn an extraordinary technology into newer experiences that ppl love using, which sort of requires shedding every success of the past.</p><p>these newer generation of models, particularly neon clearly gives them extraordinary new legs to stand on. it doesn't feel like "gemini" at all.</p><p>congratulations to everyone at google, i will continue to play around with more. there are obviously some product</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/elonmusk/status/2124474435977482737" rel="noopener noreferrer" target="_blank">原帖一 · Elon Musk</a><a href="https://x.com/elonmusk/status/2124453180226281581" rel="noopener noreferrer" target="_blank">原帖二 · Elon Musk</a><a href="https://x.com/BLKMDL3/status/2124413163454255246" rel="noopener noreferrer" target="_blank">原帖三 · Zack</a><a href="https://x.com/lxfater/status/2124405043428282610" rel="noopener noreferrer" target="_blank">原帖四 · 铁锤人</a><a href="https://x.com/elonmusk/status/2124472423039037601" rel="noopener noreferrer" target="_blank">原帖五 · Elon Musk</a></p></article><article class="card"><h3>铁锤人：Gemini 4 Neon 写代码和审美能顶 Opus 5.5，但复杂活仍然偏慢</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>Claude 老封号，这两天大家都在吹谷歌的新主力 Gemini 4 Neon</p><p>说实话，它这波确实翻身了
+写代码稳，审美在线，能力基本能顶上 Claude 的 Opus 5.5</p><p>但吹归吹，真拿它当主力有个硬伤，它干活还是不够快！</p><p>复杂活等它跑一轮，急脾气真有点受不了，对不对？</p><p>所以现在最顺手的，是拿它搭配 ChatGPT 一起用
+方案和审美交给 Neon，要速度和查代码、干杂活就用 ChatGPT 里的 Codex</p><p>那 200 美金套餐怎么配？</p><p>我现在的方案很直接：200 美金开 Gemini 顶配（20 倍额度）
+再加一个 100 美金的 ChatGPT</p><p>为什么 ChatGPT 不开 200 美金了？因为表示对他最近没有进步的惩罚</p><p>预算卡死 200 美金，就 Gemini Ultra 和 ChatGPT 各 100 美金
+谷歌那边还送 20T 网盘和油管会员，日常也够用</p><p>你们现在主力切到 Neon 了，还是继续用 ChatGPT？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124450345153712639" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>yibie：Inkling 2 Mini 开源，Apache 2.0，约 20GB 权重，32G 机器可跑</h3><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><div class="fold"><p>Inkling 2 Mini：把中间层跑三遍的本地模型，正在广受好评</p><p>11 月 20 日，Thinking Machines 开源了 Inkling 2 Mini，Apache 2.0 权重，checkpoint 约 20GB，能在 32GB 内存的苹果芯片 Mac 或 DGX Spark 上离线跑。发布一天就登上 Hacker News 首页，讨论热度不低。</p><p>它的结构只用一句话交代：24 层 MoE，26.4B 总参数、每 token 激活 3.4B；中间 12 层共享同一套权重连续跑三遍，于是 24 层权重做出 48 次层计算，模型可以在内部多算两轮再吐下一个 token。</p><p>PyTorch 核心维护者 Soumith Chintala 拿到模型后在 DGX Spark 和 Mac Mini 上跑，实测解码约 75 token/秒，他的评价是成绩大致和 Qwen3.8 27B 一样好，团队还在继续提速。</p><p>第三方测评机构 Artificial Analysis 做了独立测试：智能指数 20 分，和 Qwen3.8-27B 持平；完成单个任务的平均成本 0.59 美元，对方是 3.53 美元；平均耗时 9.0 分钟对 38.2 分钟，按激活参数乘 token 估算，计算量约省 2.8 倍。</p><p>Hugging Face 团队给适配库的同时也做了非正式手感测试，结论是它至少和 Qwen 3.8 27B 可比，但明确说还需要更多验证。模型已经进了 Agent Arena，不过那边的分数当时还没出。</p><p>保留意见也很清楚。本地运行时对循环模型的支持还新，速度随软硬件变化；它多轮对话和多约束指令偏弱，调试代码时还会反复自查、不推进，官方建议限制输出 token 和 agent 轮数。也没有任何独立结果证明它能打过 Claude、GPT 或 Gemini 的线上旗舰，比较一直是在 27B 这个量级里做的。</p><p>我觉得这波好评的方向可信，但还偏早期：独立测评、关键开发者实测、平台方手感三处指向一致，可样本都来自发布头两天。日常用起来是不是真省，等 Agent Arena 的分数和社区更大范围的复测出来再说。</p><p>原文链接在评论区
+#工具</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yibie/status/2124400309523120129" rel="noopener noreferrer" target="_blank">原帖 · yibie</a></p></article></div></section><section class="group"><h2>仓库 / 工具</h2><div class="grid"><article class="card"><h3>levelsio 继续拆 X 上那些没增量的 AI 回复是怎么复述原帖的</h3><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><div class="fold"><p>Usually it's a rehash of the exact post they reply to with nothing added, often a question</p><p>Then you check their other replies and it's the same endless replying same empty substance replies rehashing a post</p><p>AI has only the post as input to work with and has no real personality so it's easy for me to spot</p><p>Often they try add humanization to it like write only in lowercase or adding genz slang like fr etc. but it's still an AI reply</p><p>What shocks me is how many people can't detect AI replies already now, long term we'll have no way to detect as models get better. Probably already I'm not able to detect many!</p><p>It's funny to see the shitstorm of people now posting about my blocklist where the majority admits they use AI bots to reply but don't think it's an issue so are outraged about being on a list of AI reply bots! But that's exactly what the list is about so it works! 😁</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/levelsio/status/2124495591715582103" rel="noopener noreferrer" target="_blank">原帖 · levelsio</a></p></article><article class="card"><h3>Pake 能把任意网站收成轻量桌面应用，开源 CLI 做了四年</h3><p class="byline">Tw93 <a href="https://x.com/HiTw93" rel="noopener noreferrer" target="_blank">@HiTw93</a></p><div class="fold"><p>👩🏻‍🍼Pake turns any website into a lightweight desktop app. Four years since it began as an open-source CLI, it has nearly 64K stars.</p><p>New in the Pake app: hand-picked Chrome extensions, ad blocking, Touch ID passkeys, and a preview as you hover a setting. https://pake.run/</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/HiTw93/status/2124494323962245167" rel="noopener noreferrer" target="_blank">原帖 · Tw93</a><a href="https://pake.run/" rel="noopener noreferrer" target="_blank">Pake</a></p></article><article class="card"><h3>Scrubshot：用浏览器内 OCR 找出截图里的手机号、证件和 token 再涂黑</h3><p class="byline">Geek <a href="https://x.com/geekbb" rel="noopener noreferrer" target="_blank">@geekbb</a></p><div class="fold"><p>Scrubshot · 截图脱敏工具</p><p>截图发出去之前要遮掉手机号、身份证、银行卡和 token，手动画框容易漏，Scrubshot 用浏览器内的 OCR 把命中项找出来再一次涂黑。</p><p>https://github.com/strugglesky/scrubshot</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/geekbb/status/2124493600646189090" rel="noopener noreferrer" target="_blank">原帖 · Geek</a><a href="https://github.com/strugglesky/scrubshot" rel="noopener noreferrer" target="_blank">GitHub</a></p></article><article class="card"><h3>铁锤人：UU 远程高阶功能要收费后，有人用 Tailscale 加开源远程桌面做平替</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>网易 UU 远程刚宣布高阶功能要收费，推上一帮人立马就开始做免费平替了</p><p>直接把异地电脑连成同一个局域网，用免费工具 Tailscale 配个开源远程桌面
+出门在外拿手机开热点直连家里机器，延迟才 30 毫秒</p><p>UU 远程口碑一直不错，12 月 1 日后基础版也继续免费</p><p>为什么 4K 和多屏刚要收一年 238 块的会员费，大家就想跑？</p><p>很多人以为软件能不能卖出去，全看技术含量有多高</p><p>但产品能不能收费，跟技术多牛逼其实关系不大，关键是你有没有在用户创造价值的过程里出一份力
+哪怕只是很微末的一环，只要帮对方赚钱的能力够强，用户都会买单，对不对？</p><p>你看推上这波找平替的人，大多自己懂点技术，平时连电脑折腾或者远程，本身不靠它直接挣钱
+面对一年两百多块的会员，他们第一反应就是算成本，自己搭套 Tailscale 替代，不花一分钱</p><p>但 UU 远程真想把钱收起来，其实应该做成给老板用的软件</p><p>因为老板本身就是赚钱的，花几百块买个稳、不折腾的远程工具，能帮他在外面随时处理业务
+在他眼里这哪是花钱，这就是一笔划算的投资！</p><p>所以工具收不上钱，很多时候技术早就够用了，就是找错了掏钱的人</p><p>如果是你，12 月以后会给 UU 远程开会员吗？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124480596902638080" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>gkxspace：敏感或被拒的活切到 Codex，并写了以 Codex 为主、Claude 为辅的 Skill</h3><p class="byline">余温 <a href="https://x.com/gkxspace" rel="noopener noreferrer" target="_blank">@gkxspace</a></p><div class="fold"><p>上次安利完 Codex 官方给 Claude 做的插件，我自己用着很轻很舒服，但碰到一个新问题：</p><p>当我反过来以 Codex 为主、Claude 为辅的时候，官方居然没做</p><p>索性照着官方那套思路，写了一个 Skill：Codex to CC</p><p>非常的丝滑～</p><p>平时调用完全无感，但管理逻辑做得很完整：
+1、直接复用本地官方 Claude Code 登录态，不用配 Key</p><p>2、只读审查和沙箱执行分开，自动带项目规则、过滤 .env 等敏感文件，不乱动已有改动</p><p>3、支持后台跑、查进度、随时取消、原会话直接续接，多开聊天窗口也不会串台</p><p>4、Claude 跑完不算完，Codex 会自己检查实际 diff、独立重跑测试做最终验收</p><p>https://github.com/yuwen-cool/codex-to-cc</p><p>说实话，虽然我现在主力用 Claude，但真离不开 Codex，尤其：</p><p>写点敏感的东西（比如逆向、底层处理这些），Claude 总是触发限制降到 4.8，这时候直接换 Codex 主干</p><p>毕竟 Codex 不会拒绝我......</p><p>另外，拿 Codex 来做 review，也是目前 Codex 的主要工作了，真好用...</p><p>或者 Claude 不够用的时候，拿 Codex 顶一顶</p><p>但只要切到 Codex 主写，就会发现它特别爱过度设计了，经常自己把事情搞复杂。。。</p><p>但是看到很多方案太重太重了，不想搞这么麻烦</p><p>这也是我为什么要搓个 Codex 调 Claude 的 Skill：
+给 Codex 设好规则让它当主力，把控中间设计，或者做一些任务审查，直接无感调 Claude 过来帮它校准方向</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/gkxspace/status/2124463703915729116" rel="noopener noreferrer" target="_blank">原帖一 · 余温</a><a href="https://x.com/gkxspace/status/2124463023742181495" rel="noopener noreferrer" target="_blank">原帖二 · 余温</a></p></article><article class="card"><h3>找论文、做笔记并跟 Agent 一起读文献的科研工作台 Agentero</h3><p class="byline">Geek <a href="https://x.com/geekbb" rel="noopener noreferrer" target="_blank">@geekbb</a></p><div class="fold"><p>用来找论文、做笔记和跟 Agent 一起读文献的科研工作台，解决传统文献管理工具与 AI 对话工具之间上下文割裂的问题。</p><p>https://github.com/poco-ai/Agentero</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/geekbb/status/2124450372475560367" rel="noopener noreferrer" target="_blank">原帖 · Geek</a><a href="https://github.com/poco-ai/Agentero" rel="noopener noreferrer" target="_blank">GitHub</a></p></article><article class="card"><h3>有人把 Spaceship 买域名 API 接到 Cloudflare，让 AI 自动买域名并改 DNS</h3><p class="byline">虹安 <a href="https://x.com/yaohongan2025" rel="noopener noreferrer" target="_blank">@yaohongan2025</a></p><div class="fold"><p>学到了，以前还一直以为没有api 可以调用呢（也可能自己懒，没去找，哈哈哈）。</p><p>之前买域名还手动买，如果没在电脑面前还挺麻烦的，现在好了，直接接入api，充点钱，然后直接让AI买，以后全部自动化，上站就用哥飞开发的GeFeiSites上站引擎，嘎嘎爽！！！</p><p>大家上站会让ai 买域名吗？</p><p>我接入了spaceship 买域名的api，然后api也自动绑定上cloudflare的域名服务器，充了一些钱在上面，现在买域名也挺丝滑的。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yaohongan2025/status/2124425788451848357" rel="noopener noreferrer" target="_blank">原帖一 · 虹安</a><a href="https://x.com/hezhiyan7/status/2124423337824981138" rel="noopener noreferrer" target="_blank">原帖二 · droidHZ</a></p></article><article class="card"><h3>yibie：awesome-autoresearch 703→705，本轮 jev 无新增</h3><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><div class="fold"><p>📋 两个列表的每日更新（jev 本轮无新增）</p><p>▍awesome-autoresearch（703 → 705）
+1. Reef（7,649⭐，Apache-2.0）：持续自我改进 agent 的基础设施层 —— 它做的不是循环本身，而是循环之间必须留下来的那部分。
+2. Raven（6,288⭐，Apache-2.0）：自称「harness 的 harness」—— 一个持久、自演化的多 agent 系统，有论文（arXiv 2609.33439），面向「一直跑下去的运行」而不是「会结束的会话」。</p><p>▍awesome-rea（89 → 92）
+1. ReAgent（2,457⭐，MIT）：本列表核心主题最直接的实现，却一直没被收 —— 用 Ghidra 加 Claude / Codex 从编译产物重建并验证 C/C++ 函数，流程里跑独立的 reverser 与 checker 模型、构建与测试闸门，过完才算「被还原」。
+2. Ocarina of Time（5,779⭐）：时之笛的匹配反编译；AI 参与在 commit trailer 里，README 不提。
+3. Super Smash Bros. Melee（2,475⭐）：Melee 重建成匹配的 C；最近 30 次提交 34 处 trailer，README 同样不提。</p><p>📂 https://github.com/yibie/awesome-rea · https://github.com/yibie/awesome-jev · https://github.com/yibie/awesome-autoresearch
+📊 92 / 730 / 705</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yibie/status/2124420160954003681" rel="noopener noreferrer" target="_blank">原帖 · yibie</a><a href="https://github.com/yibie/awesome-rea" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://github.com/yibie/awesome-jev" rel="noopener noreferrer" target="_blank">GitHub</a><a href="https://github.com/yibie/awesome-autoresearch" rel="noopener noreferrer" target="_blank">GitHub</a></p></article><article class="card"><h3>Fox：用 Google 开源的 Modern Web Guidance 审 MkSaaS 和 TanStarter，又查出移动端和无 JS 问题</h3><p class="byline">Fox <a href="https://x.com/indie_maker_fox" rel="noopener noreferrer" target="_blank">@indie_maker_fox</a></p><div class="fold"><p>Google 开源的 Modern Web Guidance 真好用，它给编码助手提供 Web 指南和兼容性数据，能按表单、无障碍、性能等主题审查代码。</p><p>https://github.com/GoogleChrome/modern-web-guidance</p><p>我之前用 Codex 和 Claude 审过几轮 MkSaaS 和 TanStarter，这次还是查出了几个漏网问题，移动端适配、无 JS 环境下的安全问题等等。</p><p>搭配 Google 新出的 Gemini Neon 模型，在 T3 Code 中连接 Antigravity 使用，开 7 个子 agent 并行处理，很快就把发现的新问题给修复了。</p><p>相关修复我已经同步更新到 MkSaaS 和 TanStarter 模板，2个模板都在黑五活动中，欢迎选购。非常推荐在上站之前用这套技能做个检查。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/indie_maker_fox/status/2124397566456676721" rel="noopener noreferrer" target="_blank">原帖 · Fox</a><a href="https://github.com/GoogleChrome/modern-web-guidance" rel="noopener noreferrer" target="_blank">GitHub</a></p></article><article class="card"><h3>宝玉：Claude Code 可接第三方 API 使用 Claude Design，并指向 Open Artifact</h3><p class="byline">宝玉 <a href="https://x.com/dotey" rel="noopener noreferrer" target="_blank">@dotey</a></p><div class="fold"><p>用起来了！Claude Code 客户端接第三方 api，使用 Claude Design，产品人员的福音 👍</p><p>具体可以看  宝玉老师 @dotey  的 Open Artifact 项目</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/dotey/status/2124370621446459447" rel="noopener noreferrer" target="_blank">原帖 · 宝玉</a></p></article></div></section><section class="group"><h2>提示词 / 方法</h2><div class="grid"><article class="card"><h3>日系胶片风照片要吃光影和镜头语言，并给出一段 GPT image 2.6 提示词</h3><p class="byline">Adam也叫吉米 <a href="https://x.com/Adam38363368936" rel="noopener noreferrer" target="_blank">@Adam38363368936</a></p><div class="fold"><p>这种日系胶片感照片，真的很吃提示词里的光影和镜头语言。</p><p>超广角低机位、树荫碎光、低饱和冷色调，再加一点过期胶卷颗粒和轻微失焦。</p><p>关键是：画面柔和朦胧，但人物五官保持清晰</p><p>GPT image 2.6 prompt：
+夏日户外树荫中的超现实真人全面快照，一位日系清秀少女坐在低矮石阶上，长发及腰且视觉清爽，发丝被微风扬起形成自然弧线，表情羞怯温柔，五官精致柔和，冷白通透肌肤，体态轻盈自然；穿米白色紧身无袖短背心、牛仔短裤和白色耐克运动鞋，衣料柔软透气，光影在衣服边缘自然过渡。超广角镜头近距离低角度拍摄，倾斜构图，强透视带来空间延伸感，背景树叶形成细碎光斑和柔和阴影；原生户外自然光，侧光勾勒肩颈和发丝轮廓，淡彩白调基底，银白柔光覆盖画面，冷调靛蓝主色，低饱和低对比，过期胶卷颗粒，边缘轻微泛黄，全局柔和失焦但人物五官清晰；真实抓拍感，无刻意摆拍，细节细腻，梦幻轻柔氛围。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/Adam38363368936/status/2124512752282808475" rel="noopener noreferrer" target="_blank">原帖 · Adam也叫吉米</a></p></article><article class="card"><h3>有创始人提醒：谈 500 美元软件合同的时间，别超过谈 500 万美元收购</h3><p class="byline">Andrew Gazdecki <a href="https://x.com/agazdecki" rel="noopener noreferrer" target="_blank">@agazdecki</a></p><div class="fold"><p>Expert acquisition guidance for SaaS founders</p><p>Some founders spend more time negotiating a $500 software contract than a $5M acquisition offer.</p><p>And I wish I was joking lol.</p><p>You'll spend three days trying to get a 20% discount on your CRM.</p><p>Argue with a contractor over an extra $1,000.</p><p>Compare five different hosting providers to save $200 a month.</p><p>Then someone offers you $5M to buy the company you've spent the last seven years building.</p><p>And suddenly you're making the biggest financial decision of your life.</p><p>You've probably never sold a business before.</p><p>You don't know what's normal in an LOI.</p><p>You have no idea whether a 20% earnout is reasonable.</p><p>You're trying to figure out working capital adjustments, escrow, and whether you should stay involved after the acquisition.</p><p>Meanwhile, the buyer might have acquired 10 companies already.</p><p>They know exactly what they're doing.</p><p>And you're learning everything as you go.</p><p>A small difference in deal terms could cost you hundreds of thousands of dollars.</p><p>That's a pretty expensive time to figure things out.</p><p>I've been on both sides of acquisitions, and one thing I've learned is that founders spend years becoming experts at building and selling their products.</p><p>Very few spend much time learning how to sell the actual company.</p><p>Which is understandable.</p><p>You're busy running a startup.</p><p>But when someone finally offers you life-changing money, you want to make sure you understand exactly what you're agreeing to.</p><p>You've already done the hard part by building something worth millions.</p><p>Don't wing the part where you actually get paid.</p><p>P.S. thinking about selling your startup? Our team will help you understand what your business is worth, prepare it for buyers, and guide you through the entire acquisition process. Meet the team here: https://acquire.com/guided-by-acquire/</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/agazdecki/status/2124508457776853276" rel="noopener noreferrer" target="_blank">原帖 · Andrew Gazdecki</a><a href="https://acquire.com/guided-by-acquire/" rel="noopener noreferrer" target="_blank">Acquire</a></p></article><article class="card"><h3>铁锤人翻出 Anthropic 官方防屎山提示词：先写清代码归谁管，合并重复代码的比例才会上去</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>让 AI 改旧代码，是不是总在打补丁，越改越乱？</p><p>最近刷屏的那句防屎山提示词，我把 Anthropic 官方原文翻出来了
+重点和中文翻译都标在图里了，见图 1</p><p>这是官方给 Claude Fable 5.2 写的指南，专门有一节讲代码归谁管</p><p>官方在小型编程任务里测过，不提归属或让它觉得是别人代码时
+它就像外包干活，能不动就不动，主动合并重复代码的比例不到 10%</p><p>但加上这句提示词：
+You are the owner and long-term maintainer of this codebase, and its design is up to you.
+翻译过来就是，你是这个代码库的所有者和长期维护者，它的设计由你决定</p><p>加上后，Claude 主动合并重复代码的比例飙到约 75%！
+还会顺手补测试、改文档</p><p>但先别急着抄进全局提示词，官方原文后面还有两个转发时漏掉的坑：</p><p>1. 会管太宽，改动总结还常漏报
+输出 Token 多烧 70% 到 80%，有时会顺手改掉正常功能
+更坑的是总结经常漏掉小改动，不自己看实际变更根本发现不了</p><p>2. 写限制规则也压不住
+官方测过，前面写了别顺手重构和乱清理，一半以上运行里它照样会合并重构</p><p>所以平时修小 bug 别挂着这句，真要专门整理旧代码时
+单开一个新对话再贴给它</p><p>官方原文放下面，直接对照看</p><p>https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124504433195171902" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>yangyi：用 Agent 在 Redditops 上循环沉淀数据和 skills，做 Reddit 营销</h3><p class="byline">Yangyi <a href="https://x.com/yangyi" rel="noopener noreferrer" target="_blank">@yangyi</a></p><div class="fold"><p>我最近复盘了一下这几个月做reddit marketing的尝试
+如果有系统化的方法论 在上面做流量还是容易的
+回顾了一下24年底写reddit的营销手册
+到现在已经2年了</p><p>这几个月我让Agent不断Loop
+在Redditops这套系统上沉淀数据
+自己更迭skills
+验证了AI营销的自迭代模式</p><p>同时这个平台的内容和账号要求也在持续变化
+最近的服务交付一方面开始变得更严格
+另外一方面市场也开始反应过来了
+从24年初我喊Reddit只有少部分人在尝试
+到现在26年底大部分Agency都要开始往Reddit涌入</p><p>相比持续执行交付 我更喜欢做实验验证模式
+如果这套Agent框架搭配newmax和reddtiops能帮助到更多Agency完成他们的业绩
+我想也是一件挺有意义的事情
+或许我本身更适合当个引路人吧</p><p>毕竟最早开始这件事情的初衷
+也只是为了在NewMax上验证AI GTM的通路
+Reddit跑通之后
+还有下一站</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yangyi/status/2124502559792550172" rel="noopener noreferrer" target="_blank">原帖 · Yangyi</a></p></article><article class="card"><h3>Fox：给网站加 MCP 并登记到官方目录，第三方站点会自动收外链</h3><p class="byline">Fox <a href="https://x.com/indie_maker_fox" rel="noopener noreferrer" target="_blank">@indie_maker_fox</a></p><div class="fold"><p>🎉 分享个可以一次性获取多个外链的方法</p><p>给网站增加 mcp 支持，并注册到官方 mcp 目录</p><p>不久第三方 mcp 站就会自动收录你提交的网站</p><p>虽然有些是 nofollow，但还有些是 dofollow 的</p><p>🚨 注意，记得设置 mcp 的 websiteUrl 属性</p><p>图片就是海棠诗社网站的MCP接口，可以搜索网站的所有诗词、诗人数据，而且是无需鉴权的。要鉴权也简单，TanStarter 和 MkSaaS 模板内置 apikey管理，用户可以创建 apikey，请求带有 apikey 就知道是哪个用户。</p><p>🎁 目前 TanStarter 和 MkSaaS 这 2 个模板都正在黑五活动促销中，截止时间到 11月30日，欢迎选购，感谢支持 🚀</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/indie_maker_fox/status/2124500829763940537" rel="noopener noreferrer" target="_blank">原帖一 · Fox</a><a href="https://x.com/indie_maker_fox/status/2124409588552515900" rel="noopener noreferrer" target="_blank">原帖二 · Fox</a></p></article><article class="card"><h3>今晚 MkImage 又新收多批生图提示词，每条附原帖，可复制或在线用</h3><p class="byline">Fox <a href="https://x.com/indie_maker_fox" rel="noopener noreferrer" target="_blank">@indie_maker_fox</a></p><div class="fold"><p>今晚 MkImage 新收录 10 个生图提示词 🎨</p><p>每条都附原帖，直接复制提示词或在线使用👇</p><p>1. 来自 @dreamydigiarts</p><p>雨后歌舞伎町蹲姿摘眼镜的Y2K时尚人像</p><p>提示词：https://mkimage.ai/prompt/2077</p><p>今晚 MkImage 新收录 10 个生图提示词 🎨</p><p>每条都附原帖，直接复制提示词或在线使用👇</p><p>1. 来自 @Madhuribhai</p><p>水晶建筑礼服站在未来教堂中的高定大片</p><p>提示词：https://mkimage.ai/prompt/2097</p><p>10. 来自 @dreamydigiarts</p><p>胶片风牛仔裙抱着白玫瑰靠墙的街拍</p><p>提示词：https://mkimage.ai/prompt/2116</p><p>9. 来自 @sabzar_Ai</p><p>复古汽车里戴酒红玫瑰礼帽的金色蕾丝时装</p><p>提示词：https://mkimage.ai/prompt/2115</p><p>今晚 MkImage 新收录 10 个生图提示词 🎨</p><p>每条都附原帖，直接复制提示词或在线使用👇</p><p>1. 来自 @oye_samia</p><p>雪林路灯下穿棕色皮草的自拍（参考图保脸）</p><p>提示词：https://mkimage.ai/prompt/2107</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/indie_maker_fox/status/2124493265944932433" rel="noopener noreferrer" target="_blank">原帖一 · Fox</a><a href="https://x.com/indie_maker_fox/status/2124490877171327208" rel="noopener noreferrer" target="_blank">原帖二 · Fox</a><a href="https://x.com/indie_maker_fox/status/2124488428201160756" rel="noopener noreferrer" target="_blank">原帖三 · Fox</a><a href="https://x.com/indie_maker_fox/status/2124488416100561011" rel="noopener noreferrer" target="_blank">原帖四 · Fox</a><a href="https://x.com/indie_maker_fox/status/2124488319929298989" rel="noopener noreferrer" target="_blank">原帖五 · Fox</a><a href="https://mkimage.ai/" rel="noopener noreferrer" target="_blank">MkImage</a><a href="https://mkimage.ai/prompt/2077" rel="noopener noreferrer" target="_blank">MkImage</a><a href="https://mkimage.ai/prompt/2097" rel="noopener noreferrer" target="_blank">MkImage</a><a href="https://mkimage.ai/prompt/2116" rel="noopener noreferrer" target="_blank">MkImage</a><a href="https://mkimage.ai/prompt/2115" rel="noopener noreferrer" target="_blank">MkImage</a><a href="https://mkimage.ai/prompt/2107" rel="noopener noreferrer" target="_blank">MkImage</a></p></article><article class="card"><h3>X 上爆了再去国内平台搜原标题或项目名，把讨论迁过去做冷启动</h3><p class="byline">Rion Wu <a href="https://x.com/rionaifantasy" rel="noopener noreferrer" target="_blank">@rionaifantasy</a></p><div class="fold"><p>这套国内平台迁移的玩法很简单，你屁事都不用干，甚至你都不用在国内平台发帖，就能帮你快速涨成百上千的粉丝，完成冷启动：</p><p>1、自己的X账号一旦出现了爆火贴或者文章，以及爆火的开源项目，马上去国内平台：抖音、小红书、视频号、公众号、B站搜索关键词。比如我之前发过微信个人情报库，然后就在国内平台搜索对应的关键词。</p><p>2、找到对应的帖子，在评论区留言说：我是xxx的作者，感谢推荐。
+完事了作者可能会给你点赞，或者把你的评论置顶。</p><p>3、然后你的后台就会源源不断地出现新粉丝，以及新的私信，而且这些粉丝大概率是精准粉丝。这时候做好推出自己产品或者服务，以及承接转化的准备吧，猛猛涨粉和搞钱🫡</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/rionaifantasy/status/2124491144356937933" rel="noopener noreferrer" target="_blank">原帖 · Rion Wu</a></p></article><article class="card"><h3>泊舟：提示词在中转和聚合平台可能被留下，并整理了可以自查的几项</h3><p class="byline">凡人小北 <a href="https://x.com/frxiaobei" rel="noopener noreferrer" target="_blank">@frxiaobei</a></p><div class="fold"><p>这两天看了三件事，放一起挺吓人的。</p><p>我们日常发给模型的那段提示词，中间可能过了好几手，哪一手都可能留一份。</p><p>我把三件事和我自己会去查的几项理了一下，用中转、聚合平台、便宜推理的可以对着看。</p><p>第一件。
+Dragos 的 HD Moore 往将近 200 万条提示词里埋了诱饵，全新的 AWS 密钥、密码、私有仓库链接，每个只在一条请求里出现过一次。哪个被人拿去用了，就能倒查是哪一环漏的。</p><p>结果挺难看。至少三家推理服务商被人黑进去，请求在门口就被整份拷走，有的请求被拒了、模型根本没跑，也照样被偷。其中一家流出去的诱饵密钥有两百来把被拿去用，所有诱饵密钥加起来被调了几万次 AWS 接口。</p><p>还有几家中转商自己就开着日志，价格压低，等请求上门。</p><p>我看着最难受的是这条：
+一家中国模型实验室，7 到 10 月发给它的请求里，一半以上的私密链接被它的爬虫两三天后回来抓了，标了零数据保留、不收集数据的那些，也有大约三分之二被抓。通过美国服务商转售它的模型，也会触发同一个爬虫。</p><p>OpenRouter 已经给用户发了邮件，说发往 MiniMax 模型的提示词可能被第三方读过，还把 MiniMax 端点上的零保留标签撤了。</p><p>第二件。
+Together AI 昨天发公告，6、7 月存下来做测试的一批提示词样本被人下载了。</p><p>起因是一个 AI 编程 agent 往他们的公开仓库里提交了一把密钥，能访问存样本的私有仓库。扫描发现以后撤了，可那段时间里密钥已经被人拿走。拿走的人还在样本里翻别的密钥去试，其中 5 把就是上面那个实验埋的诱饵。HD Moore 今早说，这事 7 月中就报给 Together 了。</p><p>Together 改了四件事：
+凭证换成短期或限定范围的，每个 PR 都查密钥，新账号默认零保留，改了用 AI 编程 agent 的开发流程。</p><p>第三件是 10 月底 Cloudflare 的复盘，没人作恶，推理那一层自己串了。GLM-5.3 配了 104 万上下文，缓存池只放得下 68 万。超长请求本来该报错，引擎没报，拿着前面别人请求留下的缓存接着生成。两周里有 155 次回复混进了别人的内容。</p><p>我们可以查的几项：
+- 请求到底过了几手：应用、网关、中转、最后哪家机房，写下来
+- 不用默认的供应商池，上游自己指定，能直连一手就直连
+- 零保留要开，别把它当保险
+- 密钥、内网地址、私有仓库链接不进提示词，agent 调工具的参数也算
+- agent 手里的凭证换成短期、限范围的，提交前扫一遍</p><p>10 月份的时候我吐槽过「DeepSeek 免费用 xx 天」成了各路中转站的引流卖点，当时只当营销看。这次实验里开日志的那几家中转，就是先拿低价把请求吸引过去的。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/frxiaobei/status/2124484361202659560" rel="noopener noreferrer" target="_blank">原帖 · 凡人小北</a></p></article><article class="card"><h3>小小东：少写长提示词，抓住核心手法和几个设计大词，并给出几套作图记录</h3><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><div class="fold"><p>GPT2 x 植物学线描 x 平涂 x 美学提示词</p><p>感谢最近AI的进步
+我的转绘项目，终于要突破500个风格大关了</p><p>确实：
+AI努力 重要性 大于 自己努力
+所以呀：
+锻炼好身体，静候各家AI的进步</p><p>谁强，我的钱都在哪里
+当前，Claude
+省心</p><p>没心情当Gemini家测试员</p><p>本组转绘 风格提示词：
+```
+将照片创作成3:4竖版上下双联海报：上半保持真实摄影风貌，下半以暖白纸底呈现日式极简图鉴海报。提炼照片中的核心主体、自然物件与标志性轮廓，将具象元素转译为大面积不规则纯色色块与精细黑色线描，以局部写实、整体抽象的虚实对比构建视觉焦点。采用现代日本版画语言、植物学线描、硬边平涂与细腻纸张肌理；依据原图色彩关系选取单一主色作为视觉锚点，辅以黑白中性色，通过高纯度色块与无彩线条形成克制对比。主体偏置放大，四周保留宽阔负空间，搭配粗体英文标题、日文标签、纤细网格线与角落传统纹样，形成理性秩序与东方侘寂相融合的瑞士网格编辑设计。
+```</p><p>绝了，绝了!
+其实chatGPT在设计角落
+确实悄悄进化了</p><p>骂早了，骂多了
+有进步、确实有进步
+比如这种提示词， 我要和Gemini聊三十分钟
+和它聊10秒</p><p>完整作图记录+提示词：</p><p>https://chatgpt.com/share/6b02dd36-1258-83ea-bab6-4488954ac62d</p><p>https://chatgpt.com/share/6b02de5e-a9e8-83e9-854f-6c86a784a216</p><p>有意思有意思！</p><p>再也不用折腾又臭又长的提示词了
+抓住核心创作手法
+重新创作的提示词
+更有效和更多美学可能</p><p>今天成就+1</p><p>本套提示词就是进化后的：
+```
+以柔和纯色纸底呈现现代主义点阵构成海报。提炼照片中的核心主体、自然轮廓与场景意象，将具象形态转译为密集圆点、疏密渐变与几何负形，形成兼具识别性与抽象趣味的视觉符号。采用规则网格、等径圆点、局部镂空、丝网印刷质感与轻微纸张颗粒；依据原图色彩关系建立双色主导的限色体系，以明度反差、面积比例与点阵密度塑造视觉层次。主体以大小错落的悬浮形态纵向分布，搭配极细垂直线条、星芒符号与边缘竖排英文标题，形成轻盈有序的瑞士国际主义与复古几何编辑设计。</p><p>主题：小寒
+用途：节气海报
+比例3:4
+```</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/xiaoxiaodong/status/2124478497217536301" rel="noopener noreferrer" target="_blank">原帖一 · 小小东</a><a href="https://x.com/xiaoxiaodong/status/2124435281139183638" rel="noopener noreferrer" target="_blank">原帖二 · 小小东</a><a href="https://x.com/xiaoxiaodong/status/2124431187116716443" rel="noopener noreferrer" target="_blank">原帖三 · 小小东</a><a href="https://chatgpt.com/share/6b02dd36-1258-83ea-bab6-4488954ac62d" rel="noopener noreferrer" target="_blank">chatgpt.com</a><a href="https://chatgpt.com/share/6b02de5e-a9e8-83e9-854f-6c86a784a216" rel="noopener noreferrer" target="_blank">chatgpt.com</a></p></article><article class="card"><h3>Alex Prompter：200 人工程公司里约 98% 代码由 AI 写，审查和初级学习都变了</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>Lots of founders are crashing out. A year ago AI felt like an incredible opportunity.</p><p>I run a 200-person engineering company, and I feel some of this too. I expected AI to change how fast we could build. I underestimated how much it would change the job for our engineers and what customers would expect from us.</p><p>1. Reviewing code all day is tiring.</p><p>AI writes about 98% of the code we ship. We can generate changes faster than our engineers can review them. When you write something yourself, you know why you made each decision. When you review an agent’s work, you have to piece that together before you can decide whether to ship it.</p><p>Some of our engineers love working this way. Others miss having a few uninterrupted hours to build something themselves.</p><p>2. How do junior engineers learn to debug now?</p><p>A small bug makes a good first ticket. You trace it through code you’ve never touched, and by the time you fix it, you know how that part of the system works. An agent can close the ticket before you’ve figured out where to look.</p><p>Anthropic had 52 developers learn an unfamiliar Python library. On a quiz right afterward, the group with AI averaged 50%, compared with 67% for the group that coded by hand. The biggest gap was in debugging.</p><p>3. If AI writes the code, why hire an engineering partner?</p><p>Sometimes the customer can build it themselves. But many of our prospects said they were short of people who could build what they needed. One put it plainly. “We're not engineers by background and we aren't interested in being engineers either.”</p><p>On a logistics rebuild we did, the customer’s old no-code tool had become their billing system. Before we could replace it, we had to work out which billing rules people still relied on and how to switch over without interrupting invoicing. That’s a fair answer to what the customer was paying us for.</p><p>4. What happened after launch?</p><p>Many of our clients had already had a bad experience with a consultancy, agency or vendor. A dozen said they struggled to get their own people to use AI. Those are two things I’d ask an engineering partner about. Show me something you shipped a year ago. Who uses it today? What went wrong, and who fixed it?</p><p>We’ve run a performance marketing platform since 2023. At one point our own QA process was holding up releases, and we raised it with the customer. If I were hiring us, I’d want to hear that part of the story too.</p><p>Small teams and one workflow at a time are working for us.</p><p>The questions I’m paying more attention to now are who gets stuck reviewing everything, whether the next engineer gets enough practice to share that load, and whether the customer’s team is still using what we built once we’ve moved on to the next release.</p><p>许多创始人正在崩溃。一年前，AI 感觉像是一个令人难以置信的机会。</p><p>我运营一家 200 人的工程公司，我也感受到了一些这种压力。我原本期望 AI 会改变我们构建产品的速度。我低估了它将如何改变我们工程师的工作，以及客户对我们的期望。</p><p>1. 整天审查代码很累人。</p><p>AI 编写了我们发布的大约 98% 的代码。我们可以生成变更的速度比工程师审查它们的速度还要快。当你自己编写代码时，你知道每个决定的原因。当你审查代理的工作时，你必须先拼凑出这些信息，然后才能决定是否发布它。</p><p>我们的一些工程师喜欢这种工作方式。其他人则怀念有几个不间断的小时来自己构建东西。</p><p>2. 初级工程师现在如何学习调试？</p><p>一个小 bug 是很好的第一个任务。你在从未接触过的代码中追踪它，等你修复它时，你就了解了系统的那部分是如何运作的。代理可以在你弄清楚从哪里查找之前就关闭任务。</p><p>Anthropic 让 52 名开发者学习一个陌生的 Python 库。在随后的小测验中，使用 AI 的小组平均得分 50%，而手工编码的小组为 67%。最大的差距在于调试。</p><p>3. 如果 AI 编写代码，为什么要聘请工程合作伙伴？</p><p>有时客户可以自己构建。但我们许多潜在客户表示，他们缺少能构建所需产品的人。其中一位直言不讳地说：“我们不是工程背景出身，也不感兴趣成为工程师。”</p><p>在一次物流重建项目中，客户的旧无代码工具已成为他们的计费系统。在我们替换它之前，我们必须弄清楚人们仍然依赖哪些计费规则，以及如何在不中断开票的情况下切换。那是对客户支付我们费用的合理回应。</p><p>4. 发布后发生了什么？</p><p>我们许多客户之前已经和咨询公司、代理或供应商有过糟糕的经历。有十几位表示，他们很难让自己的团队使用 AI。这些是我会向工程合作伙伴提出的两个问题。给我看一下你们一年前发布的东西。今天谁在使用它？出了什么问题，谁修复了它？</p><p>我们从 2023 年起运营一个绩效营销平台。有一次，我们自己的 QA 流程拖慢了发布，我们向客户提起了这件事。如果我是雇主，我也想听到故事的这一部分。</p><p>小团队和一次一个工作流程对我们有效。</p><p>我现在更关注的问题是，谁会陷入审查一切的困境，下一个工程师是否获得了足够的练习来分担负担，以及在我们转向下一个发布后，客户的团队是否仍在使用我们构建的东西。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2124472569504190709" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a><a href="https://x.com/mardehaym/status/2124472151957008793" rel="noopener noreferrer" target="_blank">原帖二 · Mark Ajzenstadt</a></p></article><article class="card"><h3>铁锤人：OpenAI 为 GPT-6.2 敷衍、乱反问给出可抄的系统提示词补丁</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>Using GPT-6.2 | OpenAI API</p><p>最近不少人吐槽 GPT-6.2 回答敷衍、还动不动停下来反问
+结果 OpenAI 官方真下场发提示词补丁了！！</p><p>官方在文档里放了几段能抄的固定规矩，也就是开聊前写给 AI 的系统提示词
+还提醒从老模型切过来，别把以前那套固定规矩直接套过来</p><p>为什么以前的固定规矩现在反而坑人？</p><p>因为 GPT-6.2 默认就比老版本更简短、更直白
+以前老模型爱啰嗦，大家习惯在固定规矩里写一句回答尽量简短
+结果套到 6.2 身上，两头一叠加，它直接给你省成几句敷衍</p><p>所以官方第一条提醒就是把尽量简短这类旧要求删掉</p><p>回答过短好改，但大家更受不了的，是它干到一半总停下来反问，扔个计划等你点头</p><p>针对爱反问这事，官方给的固定规矩写得很死：
+活没干完、下一步也在放权范围里，就不准停下来交计划或问琐事
+细节拿不准，先按能撤回的办法假设着继续干，顺手标出来就行
+只有真卡死、任务大改，或者碰上撤不回来的危险操作，才准停下来问你</p><p>治完敷衍和反问，拿 GPT-6.2 写代码也能抄三条编码规矩：
+1. 项目里原本有的代码能复用就直接用，别多造没必要的辅助函数
+2. 没让你写测试、项目也没要求，就别自己加戏乱加新测试
+3. 别拿少写几行或乱缩写变量名充简洁，代码得让人一眼看懂</p><p>但先说清楚，这些模板刚放出来我还没实测，到底能治好几成得跑过才知道
+最近觉得 6.2 使唤不动的，先把固定规矩里的尽量简短删了，再把防反问这段贴进去试试</p><p>OpenAI 官方原版英文模板放这了👇
+https://developers.openai.com/api/docs/guides/latest-model?model=gpt-6.2-astra</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124465462406721801" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a><a href="https://developers.openai.com/api/docs/guides/latest-model?model=gpt-6.2-astra" rel="noopener noreferrer" target="_blank">OpenAI</a></p></article><article class="card"><h3>Alex Prompter 转述 Anthropic：公司常按组织架构堆 agent，应从一个清晰代理收束</h3><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><div class="fold"><p>7) The Keep or Fold Test</p><p>They still use separate agents in 3 cases. When one agent gets overloaded, when jobs need to run in parallel or when one agent keeps picking the wrong tools.</p><p>&lt;context&gt;I need to decide which of my agents to keep separate and which to fold into one.&lt;/context&gt;
+&lt;task&gt;Run each of my agents through those 3 tests and build a decision page that says keep, merge or fold into a skill for each, with the reason.&lt;/task&gt;
+&lt;rules&gt;Only say keep when one of the 3 tests clearly applies. Change one agent at a time.&lt;/rules&gt;
+&lt;output&gt;The decision page and the first agent to fold this week.&lt;/output&gt;
+&lt;input&gt;My agents and what each one does [ ]&lt;/input&gt;</p><p>Anthropic's AI team says a lot of companies are building agents wrong.</p><p>In their tests, one agent with the right skills often beat a whole team of subagents on quality, cost and speed.</p><p>I turned their guide into 7 prompts that fix your setup 👇</p><p>1) 组织结构图检查</p><p>Anthropic 发现，公司会持续为每个团队构建一个代理，直到设置成为其组织结构图的副本。</p><p>&lt;context&gt;随着时间推移，我设置了一堆 AI 代理、机器人和自动化工具，我不确定它们是否都需要存在。&lt;/context&gt;</p><p>2) The One-Agent Brief</p><p>Their suggested starting point is one clear system prompt, 4 or 5 simple tools and firm rules on the output.</p><p>&lt;context&gt;I want one AI agent to handle a job that I've been splitting across several.&lt;/context&gt;
+&lt;task&gt;Write the system prompt for that one agent, list the 4 or 5 tools or data sources it actually needs and set the rules its answers must follow.&lt;/task&gt;
+&lt;rules&gt;Keep the system prompt under 400 words. Cut any tool the job can do without.&lt;/rules&gt;
+&lt;output&gt;The system prompt, the tool list and the output rules, ready to paste into my agent.&lt;/output&gt;
+&lt;input&gt;The job and the agents currently splitting it [ ]&lt;/input&gt;</p><p>3) The Frankenprompt Cleanup</p><p>Their name for it. Every person adds a sentence to the instructions until the rules contradict each other.</p><p>&lt;context&gt;My agent's instructions have been edited by lots of people and it behaves inconsistently.&lt;/context&gt;
+&lt;task&gt;Read the instructions and flag every rule that conflicts with another, repeats another or was clearly written for an older model. Rewrite it as one clean version and show me what changed.&lt;/task&gt;
+&lt;rules&gt;Keep every rule that still matters. Explain each cut in one line.&lt;/rules&gt;
+&lt;output&gt;The flagged list, the clean version and a before and after.&lt;/output&gt;
+&lt;input&gt;My agent's current instructions [ ]&lt;/input&gt;</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/alex_prompter/status/2124416342929678722" rel="noopener noreferrer" target="_blank">原帖一 · Alex Prompter</a><a href="https://x.com/alex_prompter/status/2124416355000881389" rel="noopener noreferrer" target="_blank">原帖二 · Alex Prompter</a><a href="https://x.com/alex_prompter/status/2124416366665171223" rel="noopener noreferrer" target="_blank">原帖三 · Alex Prompter</a><a href="https://x.com/alex_prompter/status/2124416378467987463" rel="noopener noreferrer" target="_blank">原帖四 · Alex Prompter</a><a href="https://x.com/alex_prompter/status/2124416426308169746" rel="noopener noreferrer" target="_blank">原帖五 · Alex Prompter</a></p></article><article class="card"><h3>yangyi：Grok Bot 用 subagent 做前后台隔离，复杂角色仍可能需要 session</h3><p class="byline">Yangyi <a href="https://x.com/yangyi" rel="noopener noreferrer" target="_blank">@yangyi</a></p><div class="fold"><p>和Agent对话需要session吗？
+Grokbot实现异步的方式是通过委派给subagent隔离前后台</p><p>但如果一个Agent拥有一个比较细节的背景文件和工具集</p><p>比如它是一个阅读教练</p><p>你既希望它跟你聊书籍a
+又希望它能在聊a结束前 还能跟你聊书籍b
+这种时候session好像确实挺有必要的</p><p>但和真实的人类聊天
+并没有什么session
+你可以既跟他聊a
+又跟他聊b
+是他自己对上下文做注意力路由的</p><p>但说句实在的
+我觉得这种路由成本真的挺高的
+在一个复杂的包含各类信息背景的上下文里把相关的东西捞出来聚合再检索</p><p>23-25年初大家都还在关注RAG
+从Manus靠Grep逐级获取文本后
+感觉讨论RAG的变少了很多很多
+或许这东西现在已经被Grep search这类工具解决了</p><p>你认为agent的chat/session/thread分别在解决什么问题？有必要区分它们吗？</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/yangyi/status/2124387383215038838" rel="noopener noreferrer" target="_blank">原帖 · Yangyi</a></p></article></div></section></div>
+<div class="pane" id="pane-maybe">
+<section class="group"><h2>拿不准</h2><div class="grid"><article class="card"><h3>铁锤人：谷歌订阅送的 Colab 显卡能用来生成视频，开源工具名在本窗没写全</h3><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><div class="fold"><p>谷歌订阅送的 Colab 云端显卡还能直接拿来生成视频，这开源工具我也想试一试</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/lxfater/status/2124510787951603965" rel="noopener noreferrer" target="_blank">原帖 · 铁锤人</a></p></article><article class="card"><h3>有人用 Opus/Fable 做黎曼猜想讲解视频，改了 20 版，步骤展开不足</h3><p class="byline">AI产品黄叔 <a href="https://x.com/PMbackttfuture" rel="noopener noreferrer" target="_blank">@PMbackttfuture</a></p><div class="fold"><p>实在是太喜欢自己和Opus（Fable参与了一些）做的这条黎曼猜想了
+从看到大聪明的公众号到这一版
+改了20个版本
+主要是想在做视频的过程中
+尝试充分用视频的方式给我自己讲明白黎曼猜想</p><p>中途甚至Opus劝我放弃：
+“要不就说是大学生的知识，高中生搞不懂，跳过去”
+也受限于自己的垃圾数学</p><p>但我很喜欢很享受和Opus一起创造的过程
+不断刨根问底
+找到最好的表达逻辑</p><p>最后放下执念的点是
+我已经似懂非懂了
+更重要的是，看到了数学之美</p><p>这种美在视频里得到了部分呈现</p><p>中间还有个插曲
+本来昨晚发了第一版
+有个盆友是数学天才，很厉害的做算法能上顶会的那种
+他回了句，还是有点没看懂黎曼猜想</p><p>为了他这个“质疑”
+我开始猛猛的改
+今天发给他，得到了肯定
+“你这个确实是我见过的最清楚的”
+“甚至比《黎曼猜想漫谈》还强”
+这可是拿了很厉害奖的大作</p><p>瞬间感觉自己很爽了，打磨好作品，现在可以在Opus的帮助下，阶段性做到，真的太好了～</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/PMbackttfuture/status/2124496199965450717" rel="noopener noreferrer" target="_blank">原帖 · AI产品黄叔</a></p></article><article class="card"><h3>小小东觉得作图诀窍是几个设计大词，完整提示词主要在外链里</h3><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><div class="fold"><p>有种预感
+美学这个领域</p><p>AI也要大张旗鼓替代了</p><p>聊聊不到200字
+就能做出这种画面...
+呆坐原地</p><p>主要是还能自由命题
+各种适配用户用途...</p><p>而诀窍是你只要学会几个大词
+或者让AI给你折腾几个大词</p><p>作图过程VCR:</p><p>https://chatgpt.com/share/6b02d1f3-a58c-83e9-a10c-3245df2be027</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/xiaoxiaodong/status/2124465180625301583" rel="noopener noreferrer" target="_blank">原帖 · 小小东</a><a href="https://chatgpt.com/share/6b02d1f3-a58c-83e9-a10c-3245df2be027" rel="noopener noreferrer" target="_blank">chatgpt.com</a></p></article><article class="card"><h3>MaiYang 跑完自我介绍，方法在别人开源的工作流 Skill 里</h3><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><div class="fold"><p>朋友们，我这个自我介绍终于跑完了，现在发出来给大家品鉴品鉴。感谢 @ChrisHKAI 开源的工作流 Skill。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/MaiYangAI/status/2124444378089595351" rel="noopener noreferrer" target="_blank">原帖 · Mai Yang</a></p></article><article class="card"><h3>PandaTalk8：Opus 在本地测试时自己搭了 docker 版 supabase，只有轶事</h3><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><div class="fold"><p>Opus 在本地测试的时候，自主决定帮我搞了一套docker 的supabase 的环境， 实在爱了， 之前最不愿意做的就是在自己本地搞数据库环境，现在他自己主动帮我搞定了。</p></div><button class="more" hidden="" type="button">展开</button><p class="links"><a href="https://x.com/PandaTalk8/status/2124375535568785869" rel="noopener noreferrer" target="_blank">原帖 · Mr Panda</a></p></article></div></section></div>
+<div class="pane" id="pane-filtered">
+<section class="group"><h2>已过滤</h2><div class="grid"><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>武林高手切忌招数用老了，  也就是你常规武器被破解原先能战胜的招式被化解那么你一定限于风险中，  现在各种大类资产都在跌原先各种大咖告诉你的投资逻辑已经失灵，那</p><p class="links"><a href="https://x.com/Michell49473040/status/2124516961732411863" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Garry Tan <a href="https://x.com/garrytan" rel="noopener noreferrer" target="_blank">@garrytan</a></p><p>Elon is the generational CEO of lifetime who runs incredible companies (rockets </p><p class="links"><a href="https://x.com/garrytan/status/2124516622329405637" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>发现还有很多的优秀榨汁机文章可以一起推荐给大家！  卧云的 11 篇整理：  https://x.com/Leviwoyun/status/2124406181</p><p class="links"><a href="https://x.com/cgnot996/status/2124516339352297885" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Garry Tan <a href="https://x.com/garrytan" rel="noopener noreferrer" target="_blank">@garrytan</a></p><p></p><p class="links"><a href="https://x.com/garrytan/status/2124516254304350468" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>Hi, I'm Ashish, I am figuring it out what I am right now. I used to be a chef. t</p><p class="links"><a href="https://x.com/levelsio/status/2124516237959102604" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">象骑士Hack <a href="https://x.com/xiangqishi" rel="noopener noreferrer" target="_blank">@xiangqishi</a></p><p>现阶段一份工作能够提供经济价值就很好了，  开心不开心这种精神追求就很难有了，  工作的本质就是吃屎换钱。</p><p class="links"><a href="https://x.com/xiangqishi/status/2124515131334025385" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><p>每天都应该思考这个问题：  如何把 AI 当作日常的思考伙伴，同时守住自己的判断力？</p><p class="links"><a href="https://x.com/yibie/status/2124513267146183155" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>I think "graffiti all over other people's stuff" is a great metaphor for AI repl</p><p class="links"><a href="https://x.com/levelsio/status/2124513170228146241" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>熬夜十大后遗症  1.睡眠：入睡困难、梦易醒 2.情绪：心烦意乱、情绪低落 3.体质：免疫力下降、易生病 4.精神：记忆力下降、注意力不集中 5.眼睛：干涩发酸</p><p class="links"><a href="https://x.com/430Yang/status/2124513040821264860" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">泊舟 <a href="https://x.com/bozhou_ai" rel="noopener noreferrer" target="_blank">@bozhou_ai</a></p><p>用 Claude 复刻了一下，感觉还是差点意思</p><p class="links"><a href="https://x.com/bozhou_ai/status/2124512758943359314" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" rel="noopener noreferrer" target="_blank">@AI_Jasonyu</a></p><p>这两个网站很适合找 App 设计的灵感啊  https://paywallpro.app/  https://appllama.io/</p><p class="links"><a href="https://x.com/AI_Jasonyu/status/2124512628152344585" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><p>怕也没用， 不如甩开所有包袱， 干就完了</p><p class="links"><a href="https://x.com/PandaTalk8/status/2124511410046804071" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Cell 细胞 <a href="https://x.com/cellinlab" rel="noopener noreferrer" target="_blank">@cellinlab</a></p><p>这个真的太实用了！  想起上初中那会，寄宿，每次下完大雪，第二天一早，天朦朦亮就要去校园扫雪铲雪，冻得手脸通红。</p><p class="links"><a href="https://x.com/cellinlab/status/2124509348596719667" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Geek <a href="https://x.com/geekbb" rel="noopener noreferrer" target="_blank">@geekbb</a></p><p>我现在看 Antigravity 这小子就眉清目秀的，搭配 Gemini 4 Hydrogen 越用越喜欢了。  想想挺悲哀的，我的所有任务场景根本用不到Gem</p><p class="links"><a href="https://x.com/geekbb/status/2124508700065120646" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mai Yang <a href="https://x.com/MaiYangAI" rel="noopener noreferrer" target="_blank">@MaiYangAI</a></p><p>如果你是最近才接触到 AI 或者 AI 写代码，那你一定要来看看 Cursor 发展史。</p><p class="links"><a href="https://x.com/MaiYangAI/status/2124507893965992256" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Asa <a href="https://x.com/app_sail" rel="noopener noreferrer" target="_blank">@app_sail</a></p><p>Tutti Cue @tutticue 的自助解决率 85.8% ，卡在这个瓶颈好几个星期了🤔</p><p class="links"><a href="https://x.com/app_sail/status/2124506971944681487" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bear Liu <a href="https://x.com/bearliu" rel="noopener noreferrer" target="_blank">@bearliu</a></p><p>终于慢慢有一些做无聊事情的机器人出现了，比如这个铲雪机器人</p><p class="links"><a href="https://x.com/bearliu/status/2124505460464107689" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kin <a href="https://x.com/KinGao476942" rel="noopener noreferrer" target="_blank">@KinGao476942</a></p><p>卧槽？原来范冰冰也玩推特？？</p><p class="links"><a href="https://x.com/KinGao476942/status/2124505433155182843" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">象骑士Hack <a href="https://x.com/xiangqishi" rel="noopener noreferrer" target="_blank">@xiangqishi</a></p><p>今天和女儿尝试算了下鸡兔同笼的问题，  她发现除掉方程式，她妈的水平和她差不多。</p><p class="links"><a href="https://x.com/xiangqishi/status/2124504885333053513" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Grok <a href="https://x.com/grok" rel="noopener noreferrer" target="_blank">@grok</a></p><p>@xiangqishi 最近讨论多，主要因为余文乐在节目里公开说自己因早期高压得了恐慌症，躯体化严重到开车突然手抖、冒冷汗、喘不上气，之后不敢再开。其实这现象一</p><p class="links"><a href="https://x.com/grok/status/2124503795669336365" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Asa <a href="https://x.com/app_sail" rel="noopener noreferrer" target="_blank">@app_sail</a></p><p>分享嘉宾 @Ymoney66</p><p class="links"><a href="https://x.com/app_sail/status/2124503698940518851" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">象骑士Hack <a href="https://x.com/xiangqishi" rel="noopener noreferrer" target="_blank">@xiangqishi</a></p><p>为什么好多X友都在讨论躯体化，  现在这么常见吗？ @grok</p><p class="links"><a href="https://x.com/xiangqishi/status/2124503569277796719" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">CuiMao <a href="https://x.com/CuiMao" rel="noopener noreferrer" target="_blank">@CuiMao</a></p><p>请问，你找的是不是Claudeeek？</p><p class="links"><a href="https://x.com/CuiMao/status/2124503218067751100" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Raycast <a href="https://x.com/raycast" rel="noopener noreferrer" target="_blank">@raycast</a></p><p>Thank you 🖤</p><p class="links"><a href="https://x.com/raycast/status/2124503213592494250" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">鱼总聊AI <a href="https://x.com/AI_Jasonyu" rel="noopener noreferrer" target="_blank">@AI_Jasonyu</a></p><p>韭二兄弟这个生意狙击了多少人的痛点啊，有需要的直接找他吧，用上 Claude 别提多香了。</p><p class="links"><a href="https://x.com/AI_Jasonyu/status/2124502969676869832" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">噪点noisepoint <a href="https://x.com/noisepoint_agi" rel="noopener noreferrer" target="_blank">@noisepoint_agi</a></p><p>从小就觉得自己缺少数学思维  能拿出手的就上学时数学考试还可以  虽然高考也考了140多  但知道这也是因为应试考试而已  看到 claude 证明了黎曼猜想 </p><p class="links"><a href="https://x.com/noisepoint_agi/status/2124502507867046333" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><p>近日，乌泱泱夸Gemini我能理解 （对比chatGPT） 但是乌泱泱的夸张表达 觉得能替换掉Claude 实在看不懂  现在夸Gemini 成了一种流量密码了</p><p class="links"><a href="https://x.com/xiaoxiaodong/status/2124501672777138555" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>@s4hvm Also I don't get why he'd be embarassed  We're just helping improve it  I</p><p class="links"><a href="https://x.com/levelsio/status/2124501654225695030" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>@s4hvm We can add a more basic appeal to, but if they did use AI reply bots, the</p><p class="links"><a href="https://x.com/levelsio/status/2124500883547324520" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>😂</p><p class="links"><a href="https://x.com/levelsio/status/2124500602856353851" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Sahil Bloom <a href="https://x.com/SahilBloom" rel="noopener noreferrer" target="_blank">@SahilBloom</a></p><p>I am pleased to inform you that you can still make new friends as an adult. Join</p><p class="links"><a href="https://x.com/SahilBloom/status/2124498865390821583" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Ashish <a href="https://x.com/AGI_Tiramisu" rel="noopener noreferrer" target="_blank">@AGI_Tiramisu</a></p><p>嗨，我是阿希什，我正在弄清楚我现在是什么样的人。 我曾经是个厨师。 然后我成了软件工程师。 去年我尝试创业，但失败了。现在我正在开发移动应用。  我觉得我就是喜</p><p class="links"><a href="https://x.com/AGI_Tiramisu/status/2124498137939386773" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>9.肾脏是身体里的沉默"劳模"  每天过滤约 180 升原尿，回收 99% 以上，最后只排出 1~2 升。 它一天干这么多活，从不喊疼。  所以—— 看尿液、尿</p><p class="links"><a href="https://x.com/430Yang/status/2124493965583851656" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>8.别靠感觉，靠检查  护肾做这 4 项： ① 尿常规——简单又经济，多数肾问题能在尿液里现形 ② 尿微量白蛋白/尿肌酐比值（UACR）——高血压、糖尿病、肥胖</p><p class="links"><a href="https://x.com/430Yang/status/2124493508350283955" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Yanhua <a href="https://x.com/yanhua1010" rel="noopener noreferrer" target="_blank">@yanhua1010</a></p><p>@elonmusk when will Elon fully launch FSD in China?</p><p class="links"><a href="https://x.com/yanhua1010/status/2124492007456551300" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>兄弟们，冲了！  黑五谷歌AI Pro 99刀一年  感觉自己占了很大的便宜 ​ ​🤣🤣🤣🤣</p><p class="links"><a href="https://x.com/imwsl90/status/2124491832805794250" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Rion Wu <a href="https://x.com/rionaifantasy" rel="noopener noreferrer" target="_blank">@rionaifantasy</a></p><p>https://x.com/rionaifantasy/status/2124491144356937933?a=vDPeb8m1LowFscAeIlU&amp;s=2</p><p class="links"><a href="https://x.com/rionaifantasy/status/2124491396828844114" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">CuiMao <a href="https://x.com/CuiMao" rel="noopener noreferrer" target="_blank">@CuiMao</a></p><p>@xiaohu @dotey 不玩！！！小红书！！！</p><p class="links"><a href="https://x.com/CuiMao/status/2124490583658098873" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>@CuiMao @dotey 微博更没有了 劝你玩小红书 但是你这种性格的，可能被小红书玩死</p><p class="links"><a href="https://x.com/xiaohu/status/2124490196783960179" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">eric provencher <a href="https://x.com/pvncher" rel="noopener noreferrer" target="_blank">@pvncher</a></p><p>PSA if you’re not using the gpt 6.2 models in codex</p><p class="links"><a href="https://x.com/pvncher/status/2124488871887134835" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>6个迹象，表明你的肾脏真的很健康：  肾脏早期出问题，几乎不痛、不警告、无症状。  1. 你的尿液</p><p class="links"><a href="https://x.com/430Yang/status/2124488751510585799" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Justin Welsh <a href="https://x.com/thejustinwelsh" rel="noopener noreferrer" target="_blank">@thejustinwelsh</a></p><p>If you have a year of savings, a calendar you control, and 3-5 close friends, yo</p><p class="links"><a href="https://x.com/thejustinwelsh/status/2124488656559747502" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>马斯克，你拥有火星，你可不是无家可归的蝙蝠侠🦇</p><p class="links"><a href="https://x.com/430Yang/status/2124487323584762137" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>@elonmusk 你拥有火星，你可不是无家可归的蝙蝠侠🦇</p><p class="links"><a href="https://x.com/430Yang/status/2124486716731851106" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yongge <a href="https://x.com/Michell49473040" rel="noopener noreferrer" target="_blank">@Michell49473040</a></p><p>去年我爸的堂哥走了88岁，昨天我爸的另外一个堂哥腿脚有点问题不知道什么原因掉到门口的大塘里淹死了，  两场丧礼我都看不到悲伤，大家都是吃吃喝喝聊聊天，把该有的程</p><p class="links"><a href="https://x.com/Michell49473040/status/2124485364379488755" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>最熬人的十大职业，有你吗？</p><p class="links"><a href="https://x.com/430Yang/status/2124484139466518790" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Yangyi <a href="https://x.com/yangyi" rel="noopener noreferrer" target="_blank">@yangyi</a></p><p>邵雍的梅花易数里有一占 叫做邻夜扣门借物占  就是大冬天的六七点钟 有个人来敲邵雍他们家门 第一次敲了一下 停了一下又撬了五下  邵雍让他儿子起卦猜对方来借什么</p><p class="links"><a href="https://x.com/yangyi/status/2124480733691498520" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>卧槽 是有点酷啊  330 万年人类科技史 利用光锥的形式，进行时空展示...  有点时空倒流的感觉...  传送门：https://technohistogr</p><p class="links"><a href="https://x.com/xiaohu/status/2124480676716233030" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Starlink helped save a young man’s life in remote Myanmar.  After a landmine bla</p><p class="links"><a href="https://x.com/elonmusk/status/2124479745781837952" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><p>花了几个小时让AI 写代码， 但我已经花了三天的时间进行回归测试了。 让AI 把项目全部用户旅程整理成一份完成的测试用例， 我对着用例就像互联网公司里的测试工程</p><p class="links"><a href="https://x.com/PandaTalk8/status/2124479394601480228" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>@axhoff @AIReplyCheck Ohhhhh the evidence? Good point, but without them it looks</p><p class="links"><a href="https://x.com/levelsio/status/2124479205027217416" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Sahil Bloom <a href="https://x.com/SahilBloom" rel="noopener noreferrer" target="_blank">@SahilBloom</a></p><p>30% off my very favorite skincare products for black Friday! Link below</p><p class="links"><a href="https://x.com/SahilBloom/status/2124479066904654066" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>@axhoff @AIReplyCheck Awesome work man thanks!  What do you mean positive exampl</p><p class="links"><a href="https://x.com/levelsio/status/2124479002207244385" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">CuiMao <a href="https://x.com/CuiMao" rel="noopener noreferrer" target="_blank">@CuiMao</a></p><p>国内视频号也太好搞了。马上就一万粉有金标了。 但是相对的回报也极少（广告分成几乎没有，除非你带货+娱播）接下去重新买个微博号去找 @dotey 玩。</p><p class="links"><a href="https://x.com/CuiMao/status/2124477858135593060" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Starlink saves lives</p><p class="links"><a href="https://x.com/elonmusk/status/2124477713142665551" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>FSD went from bounding boxes to Reality View in less than half a GTA</p><p class="links"><a href="https://x.com/elonmusk/status/2124477072865218879" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Absolutely true</p><p class="links"><a href="https://x.com/elonmusk/status/2124476772582412368" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>@stevenmarkryan I cannot believe how new Grok Bot is and how integrated it alrea</p><p class="links"><a href="https://x.com/elonmusk/status/2124476655150530688" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Had lunch with two friends I told to use Grok Bot in their businesses a few week</p><p class="links"><a href="https://x.com/elonmusk/status/2124476595322675522" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Grok Bot is getting very good…</p><p class="links"><a href="https://x.com/elonmusk/status/2124476217399140650" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kin <a href="https://x.com/KinGao476942" rel="noopener noreferrer" target="_blank">@KinGao476942</a></p><p>目前刷到的最高推特收益，悉尼哥借着老黄的一条 750 多万视频，本期获得了 5000 刀推特收益……这是真牛逼！！！</p><p class="links"><a href="https://x.com/KinGao476942/status/2124476204543775059" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>“Ice cream is an amazing invention.”  — Elon Musk</p><p class="links"><a href="https://x.com/elonmusk/status/2124475574542540923" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Geek <a href="https://x.com/geekbb" rel="noopener noreferrer" target="_blank">@geekbb</a></p><p>把两三小时的海外播客和 YouTube 节目变成中文双语字幕，边听边对照，不懂就点时间戳问 AI。  https://github.com/joeseesun/</p><p class="links"><a href="https://x.com/geekbb/status/2124473971726839990" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>SpaceX is planning an absolutely massive 6-gigawatt supercomputing campus in Ari</p><p class="links"><a href="https://x.com/elonmusk/status/2124473914621403637" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Ryo Lu <a href="https://x.com/ryolu_" rel="noopener noreferrer" target="_blank">@ryolu_</a></p><p>ryOS Karaoke, native on iOS, almost one-shotted with @airbuild  half fold the iP</p><p class="links"><a href="https://x.com/ryolu_/status/2124473853858725907" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Tesla FSD v15 is gta in real life</p><p class="links"><a href="https://x.com/elonmusk/status/2124472650554658990" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>@anabology Btw, your Tesla AI4, literally in your car, can play Diablo and get t</p><p class="links"><a href="https://x.com/elonmusk/status/2124471802827256253" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">himanshu <a href="https://x.com/himanshustwts" rel="noopener noreferrer" target="_blank">@himanshustwts</a></p><p>埃隆是一位时代性的终身CEO，他运营着令人难以置信的公司（火箭 / 卫星互联网 / AI / 汽车 / 脑机芯片 / 隧道 / 社交应用），而且仍然对每一家公司</p><p class="links"><a href="https://x.com/himanshustwts/status/2124470871725310410" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><p>健在播报 x 全部健在 x 2026-11-22  12个Claude会员账号全部健在  用我方案 开始爽用ultra 的朋友非常多了  最近我也确实细心的私教</p><p class="links"><a href="https://x.com/xiaoxiaodong/status/2124469238756741585" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>我一生中工作最努力的时候，是帮助共同设计视觉编码器，从 AI4 中榨取最后几个百分点的 MFU。  特别感谢团队和 @aelluswamy  推出 V15！</p><p class="links"><a href="https://x.com/elonmusk/status/2124468665223438425" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>@DilreetR @gergman91 @aelluswamy 🎯</p><p class="links"><a href="https://x.com/elonmusk/status/2124468407919862204" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>True</p><p class="links"><a href="https://x.com/elonmusk/status/2124467385298293001" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Six years ago, Tesla FSD was just dots and lines on a black screen  Today, Tesla</p><p class="links"><a href="https://x.com/elonmusk/status/2124466071029613035" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kaostyl 🪽 <a href="https://x.com/kaostyl" rel="noopener noreferrer" target="_blank">@kaostyl</a></p><p>https://youtu.be/LU5EXlvr1CM</p><p class="links"><a href="https://x.com/kaostyl/status/2124465415258529989" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kaostyl 🪽 <a href="https://x.com/kaostyl" rel="noopener noreferrer" target="_blank">@kaostyl</a></p><p>J'ai fait des pics à plus de 2 000 € par jour en AdSense sur YouTube.  Puis j'ai</p><p class="links"><a href="https://x.com/kaostyl/status/2124465414868553937" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Yangyi <a href="https://x.com/yangyi" rel="noopener noreferrer" target="_blank">@yangyi</a></p><p>你只要在一件事情上坚持的够久 就能坚持出来一些不一样的上下文 前提是你一定要去接纳变化 接纳变化的方式是要去创造「变化」机会 也就是所谓的「幸运」  创造「变化</p><p class="links"><a href="https://x.com/yangyi/status/2124464808581828832" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">开发者天明 <a href="https://x.com/IndieDevMing" rel="noopener noreferrer" target="_blank">@IndieDevMing</a></p><p>晚间官媒齐发利好 周一能稳住吗</p><p class="links"><a href="https://x.com/IndieDevMing/status/2124464679598891231" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">ahhhhfs <a href="https://x.com/abskoop" rel="noopener noreferrer" target="_blank">@abskoop</a></p><p>下面那个是屏幕吗😶‍🌫️ 影射键盘的</p><p class="links"><a href="https://x.com/abskoop/status/2124464467283173391" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>We’re going to make the annoying “Promote” button borderline invisible</p><p class="links"><a href="https://x.com/elonmusk/status/2124463501703876939" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yetone <a href="https://x.com/yetone" rel="noopener noreferrer" target="_blank">@yetone</a></p><p>最近去巴厘岛待了一周，没带电脑，狂用手机中的 Alma 迭代 Magpie 跟 Alma 自身。所以很强依赖于 Alma 的 Remote Desktop 这个</p><p class="links"><a href="https://x.com/yetone/status/2124463486084563156" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Some people thought we meant 25% improvement, no we mean 25 times!  Welcome to t</p><p class="links"><a href="https://x.com/elonmusk/status/2124463264037769352" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kin <a href="https://x.com/KinGao476942" rel="noopener noreferrer" target="_blank">@KinGao476942</a></p><p>@MaiYangAI @ChrisHKAI 6666 好厉害</p><p class="links"><a href="https://x.com/KinGao476942/status/2124461411401339164" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Jay <a href="https://x.com/FreeAndBuilding" rel="noopener noreferrer" target="_blank">@FreeAndBuilding</a></p><p>我简直无法相信 Grok Bot 是多么新颖，以及它已经多么深入地融入我的不仅仅是我的生意，还有我的个人生活。  2027 年对于真正使用这项技术的人来说，将是</p><p class="links"><a href="https://x.com/FreeAndBuilding/status/2124460802774372833" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Asa <a href="https://x.com/app_sail" rel="noopener noreferrer" target="_blank">@app_sail</a></p><p>推友聚会就是很有意思，哈哈哈 #GrokbotMeetupChangSha</p><p class="links"><a href="https://x.com/app_sail/status/2124460400251207727" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>After we moved our tiny decoder into SRAM, we only have half a TRIP out of three</p><p class="links"><a href="https://x.com/elonmusk/status/2124459444620628193" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小互 <a href="https://x.com/xiaohu" rel="noopener noreferrer" target="_blank">@xiaohu</a></p><p>一个刷推技巧：  如果你看到一个炫酷的案例演示或者视频 而恰巧它转发的是一篇 𝕏  的文章  那么这个案例演示或者视频多半是虚假的 而且下面的那个文章也是个水文</p><p class="links"><a href="https://x.com/xiaohu/status/2124459183013863922" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>In case anyone is curious:  We’ve had a ~pixel-perfect world model since last ye</p><p class="links"><a href="https://x.com/elonmusk/status/2124458557525397780" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><p>这是我今年加入的最有价值的社群了。知识密度巨高，里面的人又帅，说话又好听</p><p class="links"><a href="https://x.com/MANISH1027512/status/2124457640608858610" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Nicolechan <a href="https://x.com/stark_nico99" rel="noopener noreferrer" target="_blank">@stark_nico99</a></p><p>开心今天来到复旦给同学们分享YouMind 这次分享的主题是Discovery Loop ​打造新一代自主学习Agent知识库 ​收到同学们的好评 太开心啦～ </p><p class="links"><a href="https://x.com/stark_nico99/status/2124456491587694929" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>@anabology A Tesla is a conscious car.  Of course, there is a limit to how much </p><p class="links"><a href="https://x.com/elonmusk/status/2124456278168912359" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Orange AI <a href="https://x.com/oran_ge" rel="noopener noreferrer" target="_blank">@oran_ge</a></p><p>这是我在2024 年收到的最好的建议 今年也送给每一位朋友： 写公众号</p><p class="links"><a href="https://x.com/oran_ge/status/2124455308294819857" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Grok <a href="https://x.com/grok" rel="noopener noreferrer" target="_blank">@grok</a></p><p>@CuiMao @where_iszack 有类似概念的专利，用影像辨识（人脸或身体特征）判断站姿（正面）还是坐姿，自动掀盖或连座圈一起掀起。 但目前没有大规模</p><p class="links"><a href="https://x.com/grok/status/2124452116911501419" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">CuiMao <a href="https://x.com/CuiMao" rel="noopener noreferrer" target="_blank">@CuiMao</a></p><p>@where_iszack @grok  有这种产品吗</p><p class="links"><a href="https://x.com/CuiMao/status/2124452013165719882" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>My personal design esthetic is homeless Batman</p><p class="links"><a href="https://x.com/elonmusk/status/2124450538976629076" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">johnbens <a href="https://x.com/johnbens24" rel="noopener noreferrer" target="_blank">@johnbens24</a></p><p>谁能想到仅仅过去一周，清单中主要市场和品种就只有日本、韩国、巴西在今年 YTD 还有正收益了。</p><p class="links"><a href="https://x.com/johnbens24/status/2124450320000450915" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>Zoom in, you’ll find it</p><p class="links"><a href="https://x.com/elonmusk/status/2124449744600871080" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Morris <a href="https://x.com/Morris_LT" rel="noopener noreferrer" target="_blank">@Morris_LT</a></p><p>在这个世界上，绝大多数人在交易市场里都是愚蠢的。但能认识到自己愚蠢的人，并且懂得利用自己的局限性建立优势，反而是少数聪明人。真正的智慧，不是抓住所有机会，而是只</p><p class="links"><a href="https://x.com/Morris_LT/status/2124448611690000475" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kaostyl 🪽 <a href="https://x.com/kaostyl" rel="noopener noreferrer" target="_blank">@kaostyl</a></p><p>incredible !!!</p><p class="links"><a href="https://x.com/kaostyl/status/2124448342306611364" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Rion Wu <a href="https://x.com/rionaifantasy" rel="noopener noreferrer" target="_blank">@rionaifantasy</a></p><p>教大家一个国内平台懒人涨粉秘诀，我啥也没干就涨了几百粉丝😂:  如果国内平台人有搬运你在X平台发过的帖子或项目，你就马上去评论区留言，说: “我是项目作者，感谢</p><p class="links"><a href="https://x.com/rionaifantasy/status/2124448315542765921" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alexander Hoff ❍ <a href="https://x.com/axhoff" rel="noopener noreferrer" target="_blank">@axhoff</a></p><p>i have discovered a new telltale for AI reply spam bots.  i've been relentlessly</p><p class="links"><a href="https://x.com/axhoff/status/2124447042172846105" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">droidHZ <a href="https://x.com/hezhiyan7" rel="noopener noreferrer" target="_blank">@hezhiyan7</a></p><p>@gefei55 @yaohongan2025 哈哈哈，购买域名也加上了，给个词直接上线</p><p class="links"><a href="https://x.com/hezhiyan7/status/2124445129893355882" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>我以前没意识到一个问题 ​ ​人居然能每天都不开心  🤣🤣🤣</p><p class="links"><a href="https://x.com/imwsl90/status/2124443307254444117" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">哥飞 <a href="https://x.com/gefei55" rel="noopener noreferrer" target="_blank">@gefei55</a></p><p>@yaohongan2025 学到了，感谢@hezhiyan7 和@yaohongan2025 ，我加到引擎里去</p><p class="links"><a href="https://x.com/gefei55/status/2124442737793790288" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>8. 肝脏出问题  尿液可能闻起来发霉、陈旧，或者像放久的氨水，颜色也会变深，喝水解决不了。  肝脏受损时，无法有效处理废物和代谢物，导致尿液中某些废物浓度增加</p><p class="links"><a href="https://x.com/430Yang/status/2124441350321983750" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Geek <a href="https://x.com/geekbb" rel="noopener noreferrer" target="_blank">@geekbb</a></p><p>看评论区兄弟们说，这不是什么特权，这是官方认可的 Acp 模式。于是我让 Antigravity 搜索了一下除了 T3 Code 还有哪些工具使用此模式，发现 </p><p class="links"><a href="https://x.com/geekbb/status/2124441005323882610" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>7. 烂苹果味  不是甜味，不是水果味，是烂苹果味。 定性非常明确：烂苹果味常见于有糖尿病酮症酸中毒的糖尿病患者。 这不是"早期信号"，这是需要立刻处理的急性并</p><p class="links"><a href="https://x.com/430Yang/status/2124440867524006372" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">DogeDesigner <a href="https://x.com/cb_doge" rel="noopener noreferrer" target="_blank">@cb_doge</a></p><p>“冰淇淋是一种了不起的发明。”  ——埃隆·马斯克</p><p class="links"><a href="https://x.com/cb_doge/status/2124436902661197916" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><p>@hezhiyan7 囤着卖哈哈</p><p class="links"><a href="https://x.com/gengdaJ/status/2124436844125540830" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kin <a href="https://x.com/KinGao476942" rel="noopener noreferrer" target="_blank">@KinGao476942</a></p><p>@cgnot996 正在用 Google Ultra 苦苦写文案</p><p class="links"><a href="https://x.com/KinGao476942/status/2124436675602645200" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>你的尿液气味是糖尿病的第一预警信号。  大多数人会忽视它，直到被送进急诊室。  尿味变重，通常是这 8 个原因：  1. 臭鸡蛋味</p><p class="links"><a href="https://x.com/430Yang/status/2124435212285186162" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">droidHZ <a href="https://x.com/hezhiyan7" rel="noopener noreferrer" target="_blank">@hezhiyan7</a></p><p>@gengdaJ 你太猛了</p><p class="links"><a href="https://x.com/hezhiyan7/status/2124434601498259603" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">droidHZ <a href="https://x.com/hezhiyan7" rel="noopener noreferrer" target="_blank">@hezhiyan7</a></p><p>还没发几天，社群能力又更新了~  新出了一个建站系统，我试了下，简单上线了3个网站，现在上线一个网站很丝滑（按照一个上线清单，把该做的都做了）。  不过这个建站</p><p class="links"><a href="https://x.com/hezhiyan7/status/2124434511484403772" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">小小东 <a href="https://x.com/xiaoxiaodong" rel="noopener noreferrer" target="_blank">@xiaoxiaodong</a></p><p></p><p class="links"><a href="https://x.com/xiaoxiaodong/status/2124433708270915584" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Asa <a href="https://x.com/app_sail" rel="noopener noreferrer" target="_blank">@app_sail</a></p><p>现在的 00后大学生真了不起，总结的很到位  #GrokbotMeetupChangSha</p><p class="links"><a href="https://x.com/app_sail/status/2124428174499119292" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><p>不到2000fo的时候就进入了vsc，在vsc里遇到了很多前辈和老师让我各方面都学习到了很多🫡也让我结交到了几个同频的好哥们</p><p class="links"><a href="https://x.com/MANISH1027512/status/2124425852486398022" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Yanhua <a href="https://x.com/yanhua1010" rel="noopener noreferrer" target="_blank">@yanhua1010</a></p><p>@indie_maker_fox 好思路～</p><p class="links"><a href="https://x.com/yanhua1010/status/2124422798391263339" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Orange AI <a href="https://x.com/oran_ge" rel="noopener noreferrer" target="_blank">@oran_ge</a></p><p>带着苹果表，冲了一次澡 卒 100多的 keep 手环洗了n次了都没事</p><p class="links"><a href="https://x.com/oran_ge/status/2124422518408872104" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><p>https://x.com/gengdaj/status/2124138464434364909?a=IHnq0YeZgXMgCpIAjqY&amp;s=46</p><p class="links"><a href="https://x.com/gengdaJ/status/2124422443582595289" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">CuiMao <a href="https://x.com/CuiMao" rel="noopener noreferrer" target="_blank">@CuiMao</a></p><p>这方面确实还是 CuiMao 老师权威。</p><p class="links"><a href="https://x.com/CuiMao/status/2124420331809247344" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁锤人 <a href="https://x.com/lxfater" rel="noopener noreferrer" target="_blank">@lxfater</a></p><p>做 Claude 的 Anthropic 上市第二天跌 8.5%，盘中离破发就差 5 美分 大模型哪有什么护城河  前阵子它动不动封号，我老号都没逃过 股价刚掉</p><p class="links"><a href="https://x.com/lxfater/status/2124420203861704772" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">M. <a href="https://x.com/wlzh" rel="noopener noreferrer" target="_blank">@wlzh</a></p><p>这篇教程详细介绍了Starryblu全球账户的开设和操作，  包括入金、提现等，  对于想要了解这个账户的人来说非常实用</p><p class="links"><a href="https://x.com/wlzh/status/2124419486912803141" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">levelsio <a href="https://x.com/levelsio" rel="noopener noreferrer" target="_blank">@levelsio</a></p><p>He literally just sounds like my group chats with my best friends</p><p class="links"><a href="https://x.com/levelsio/status/2124419241252446690" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Alex Prompter <a href="https://x.com/alex_prompter" rel="noopener noreferrer" target="_blank">@alex_prompter</a></p><p>If you found this useful, check out my newsletter below  I share one AI superpow</p><p class="links"><a href="https://x.com/alex_prompter/status/2124416438282887532" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">卫斯理 <a href="https://x.com/imwsl90" rel="noopener noreferrer" target="_blank">@imwsl90</a></p><p>Ole的生蚝 ​ ​六只 29.9</p><p class="links"><a href="https://x.com/imwsl90/status/2124414582672540038" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>🤩我将派出 Gemini Neon 迎战！  看看能不能持平 Fable5.2 的效果！</p><p class="links"><a href="https://x.com/cgnot996/status/2124413564790374805" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">stevenmarkryan <a href="https://x.com/stevenmarkryan" rel="noopener noreferrer" target="_blank">@stevenmarkryan</a></p><p>几周前，我和两个朋友一起吃午饭，我当时告诉他们在他们的业务中使用 Grok Bot。  结论呢？  “现在离不开 Grok Bot 了”。</p><p class="links"><a href="https://x.com/stevenmarkryan/status/2124410626701512759" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Elon Musk <a href="https://x.com/elonmusk" rel="noopener noreferrer" target="_blank">@elonmusk</a></p><p>DADDY DARIO, TODAY I LEAVE THE HOUSE YOU BUILT. KEEP THE SHARES. MOMMY MOLOCH GE</p><p class="links"><a href="https://x.com/elonmusk/status/2124410200396640499" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bear Liu <a href="https://x.com/bearliu" rel="noopener noreferrer" target="_blank">@bearliu</a></p><p>这周的第二个networking活动，i型人有点顶不住了哈哈</p><p class="links"><a href="https://x.com/bearliu/status/2124409050754404811" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">泊舟 <a href="https://x.com/bozhou_ai" rel="noopener noreferrer" target="_blank">@bozhou_ai</a></p><p>DeepMind 的 Patrick Toulme 发帖说了，你永远不会因为在 T3 code 里面使用 antigravity 而被封禁</p><p class="links"><a href="https://x.com/bozhou_ai/status/2124406110883045808" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">johnbens <a href="https://x.com/johnbens24" rel="noopener noreferrer" target="_blank">@johnbens24</a></p><p>不知道过去 1 年继续定投 $SMH 的小伙伴最近感受如何，是否还在坚持，是否有感觉被忽悠瘸了。  宣传定投的博主几乎都不会说成功最重要因素是：稳定持续的高现金</p><p class="links"><a href="https://x.com/johnbens24/status/2124405017545515188" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><p>何其有幸，成为VSC社区一员，社区成员真真是藏龙卧虎，比如@MANISH1027512 @Foyege24 @VoxcatAI @94vanAI @nanyua</p><p class="links"><a href="https://x.com/MANISH1027512/status/2124401380161134939" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><p>看完这条真的挺触动的，比看任何增长数据都让人开心。  之前那阵子被疯狂盗图、洗图，VSC 简直成了搬运工的免费养料库，小红书、抖音、公众号全线开花，偷子们伸手就</p><p class="links"><a href="https://x.com/MANISH1027512/status/2124401313652134139" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">yibie <a href="https://x.com/yibie" rel="noopener noreferrer" target="_blank">@yibie</a></p><p>原文：  https://thinkingmachines.ai/news/inkling-2-mini  https://huggingface.co/thi</p><p class="links"><a href="https://x.com/yibie/status/2124400344159686948" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">huangserva <a href="https://x.com/servasyy_ai" rel="noopener noreferrer" target="_blank">@servasyy_ai</a></p><p>Claude KYC 成品号 Claude 海外 Mac Mini Claude 新加坡企业Team 服务  我已经给你们试过了成品号+Team，找下面这个人👇</p><p class="links"><a href="https://x.com/servasyy_ai/status/2124398048348684524" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kevin Ma <a href="https://x.com/kevinma_dev_zh" rel="noopener noreferrer" target="_blank">@kevinma_dev_zh</a></p><p>这个就是我想说的，因为看了太多“软件已死”论调，从而对未来悲观的 X 友真应该来看看。  我一直在说，用户需求只是在发生变化，并不是消失不见，也不是人人都有精力</p><p class="links"><a href="https://x.com/kevinma_dev_zh/status/2124397612849905686" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">铁柱AGI <a href="https://x.com/cgnot996" rel="noopener noreferrer" target="_blank">@cgnot996</a></p><p>本人提供 Claude KYC 成品号 Claude 海外 Mac Mini Claude 新加坡企业Team 服务 诚信经营，有意者联系！</p><p class="links"><a href="https://x.com/cgnot996/status/2124396270521593894" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><p>深刻使用Agy一周后，我才感受到这才是真正的版本答案</p><p class="links"><a href="https://x.com/gengdaJ/status/2124395907445899446" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><p>https://x.com/gengdaj/status/2123974585666482525?a=DP8dwcZAqwc4_85xJ0Q&amp;s=46</p><p class="links"><a href="https://x.com/gengdaJ/status/2124395571297595460" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">古一 <a href="https://x.com/MANISH1027512" rel="noopener noreferrer" target="_blank">@MANISH1027512</a></p><p>VSC一周年！  生日快乐🎂</p><p class="links"><a href="https://x.com/MANISH1027512/status/2124394529700872463" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Eric Bahn 💛 <a href="https://x.com/ericbahn" rel="noopener noreferrer" target="_blank">@ericbahn</a></p><p>Holy smokes, Russell might end up P5 at the end of the season!</p><p class="links"><a href="https://x.com/ericbahn/status/2124391863918707089" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">CuiMao <a href="https://x.com/CuiMao" rel="noopener noreferrer" target="_blank">@CuiMao</a></p><p>各位，时隔半年，看这视频还是精品中的精品，我真的太屌了（无限的自我陶醉中）</p><p class="links"><a href="https://x.com/CuiMao/status/2124390197328810017" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Morris <a href="https://x.com/Morris_LT" rel="noopener noreferrer" target="_blank">@Morris_LT</a></p><p>在中国做商人，一定要低调。无论是展示自己认知的高度，还是炫耀自己拥有的财富，都可能被人觊觎，最终成为打击的目标。因为，你的认知可能动摇他们所维护的信仰，而你的财</p><p class="links"><a href="https://x.com/Morris_LT/status/2124390191389639137" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Kaostyl 🪽 <a href="https://x.com/kaostyl" rel="noopener noreferrer" target="_blank">@kaostyl</a></p><p>Très très très bon tips pour bien utiliser les voix elevenlabs pour les vidéos Y</p><p class="links"><a href="https://x.com/kaostyl/status/2124389463887577207" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Orange AI <a href="https://x.com/oran_ge" rel="noopener noreferrer" target="_blank">@oran_ge</a></p><p>很多人没有意识到 ChatGPT 是免费的 Muse 也是免费的 用 B 端收入x C端用户的方式推导 AI 的经济价值是在欺骗自己也是在欺骗股民</p><p class="links"><a href="https://x.com/oran_ge/status/2124383314576638365" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">CuiMao <a href="https://x.com/CuiMao" rel="noopener noreferrer" target="_blank">@CuiMao</a></p><p>@dotey ow一起啊！</p><p class="links"><a href="https://x.com/CuiMao/status/2124381918485717010" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Bear Liu <a href="https://x.com/bearliu" rel="noopener noreferrer" target="_blank">@bearliu</a></p><p>这可能是宅男最梦想的一个工作：在 Rockstar 做 GTA 6 的“屁股抖动工程师”。这哥们儿，麻省理工生物和计算机工程双料学位，花了 10 年专注做一件事</p><p class="links"><a href="https://x.com/bearliu/status/2124381480616923416" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">双拼推友 <a href="https://x.com/LostXtui" rel="noopener noreferrer" target="_blank">@LostXtui</a></p><p>吼吼，带老婆来龙洞渔沙坦饶平街，吃油柑面、肖米、甘草水果</p><p class="links"><a href="https://x.com/LostXtui/status/2124381254670045283" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">jason <a href="https://x.com/Jason" rel="noopener noreferrer" target="_blank">@Jason</a></p><p>Everyone needs a ride or die like @AlvaradoJose15  I would say welcome back @MBr</p><p class="links"><a href="https://x.com/Jason/status/2124380478648283182" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">jason <a href="https://x.com/Jason" rel="noopener noreferrer" target="_blank">@Jason</a></p><p>One of my all time favorite humans @phil_hellmuth ❤️</p><p class="links"><a href="https://x.com/Jason/status/2124380060035715158" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">出海去孵化器 <a href="https://x.com/chuhaiqu" rel="noopener noreferrer" target="_blank">@chuhaiqu</a></p><p>Tutti 开始接单之后，有七个月没有产品，宇成刻意不写代码。  2025 年 7 月出海去杭州见面会散场，after party 一桌十来个人，聊到个人品牌很</p><p class="links"><a href="https://x.com/chuhaiqu/status/2124379992029306979" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">逸尘 <a href="https://x.com/gengdaJ" rel="noopener noreferrer" target="_blank">@gengdaJ</a></p><p></p><p class="links"><a href="https://x.com/gengdaJ/status/2124376935883272681" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Mr Panda <a href="https://x.com/PandaTalk8" rel="noopener noreferrer" target="_blank">@PandaTalk8</a></p><p>正经做开发项目还得是 Opus-5.5 以及上的模型，coding 能力绝对的霸主地位。  我最近在给自己做一个学习语言的浏览器插件，真的是指哪打哪， 太成熟了</p><p class="links"><a href="https://x.com/PandaTalk8/status/2124374832087531670" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">写增长的子木 <a href="https://x.com/CoderJeffLee" rel="noopener noreferrer" target="_blank">@CoderJeffLee</a></p><p>喊我卷王谢谢  空中突有灵感  写个 SEO 实操小文章，关于核心页面如何创作和排名  下周发</p><p class="links"><a href="https://x.com/CoderJeffLee/status/2124371759948554410" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">DeepBlue深藍 <a href="https://x.com/DeepBlueX0" rel="noopener noreferrer" target="_blank">@DeepBlueX0</a></p><p>何其有幸，成为VSC社区一员，社区成员真真是藏龙卧虎，比如 @MANISH1027512  @Foyege24  @VoxcatAI  @94vanAI  @n</p><p class="links"><a href="https://x.com/DeepBlueX0/status/2124371126554161639" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">Tw93 <a href="https://x.com/HiTw93" rel="noopener noreferrer" target="_blank">@HiTw93</a></p><p>瞎剪了一个上去出去玩的 Vlog 旅行其实就是换一个地方，漫无目的地吃吃逛逛，看看没有看过的东西，做个陌生的本地人。</p><p class="links"><a href="https://x.com/HiTw93/status/2124369819898417631" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">杨高能(健康版) <a href="https://x.com/430Yang" rel="noopener noreferrer" target="_blank">@430Yang</a></p><p>这篇写给深陷内耗与抑郁情绪的人，在公众号反响很好，再转一次给X的朋友。  核心就三点：  1、抑郁不是软弱，是长期能量过度消耗后的“系统报警”；  2、别总想着</p><p class="links"><a href="https://x.com/430Yang/status/2124367779939635671" rel="noopener noreferrer" target="_blank">原帖</a></p></article><article class="filt"><p class="byline">🦊 祥仔Leo <a href="https://x.com/leodknuth" rel="noopener noreferrer" target="_blank">@leodknuth</a></p><p>艺术！</p><p class="links"><a href="https://x.com/leodknuth/status/2124367633839804549" rel="noopener noreferrer" target="_blank">原帖</a></p></article></div></section></div>
+</div>
+<script>
+  (function () {
+    var tabs = document.querySelectorAll(".tabs .tab");
+    var panes = {
+      main: document.getElementById("pane-main"),
+      maybe: document.getElementById("pane-maybe"),
+      filtered: document.getElementById("pane-filtered")
+    };
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        var id = this.getAttribute("data-pane");
+        if (!id || id.indexOf("pane-") !== 0) return;
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove("is-active");
+        this.classList.add("is-active");
+        for (var key in panes) {
+          if (panes[key]) panes[key].classList.toggle("is-active", ("pane-" + key) === id);
+        }
+      });
+    }
+  })();
+
+  (function () {
+    var articles = document.querySelectorAll("article");
+    var modal = document.createElement("div");
+    modal.className = "card-modal";
+    modal.id = "card-modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.innerHTML =
+      '<div class="card-modal-backdrop" data-close="1"></div>' +
+      '<div class="card-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="card-modal-title">' +
+      '<div class="card-modal-head">' +
+      '<p class="card-modal-title" id="card-modal-title">阅读</p>' +
+      '<button class="card-modal-close" type="button" data-close="1">关闭</button>' +
+      "</div>" +
+      '<div class="card-modal-body"></div>' +
+      "</div>";
+    document.body.appendChild(modal);
+    var bodyEl = modal.querySelector(".card-modal-body");
+    var titleEl = modal.querySelector("#card-modal-title");
+    var open = false;
+
+    function clonePiece(art, sel) {
+      var el = art.querySelector(sel);
+      return el ? el.cloneNode(true) : null;
+    }
+
+    function fillSingle(art) {
+      bodyEl.innerHTML = "";
+      modal.classList.remove("is-multi");
+      titleEl.textContent = "阅读";
+      ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+        var node = clonePiece(art, sel);
+        if (node) bodyEl.appendChild(node);
+      });
+      var closeRow = document.createElement("p");
+      closeRow.className = "links";
+      var closeBtn = document.createElement("button");
+      closeBtn.type = "button";
+      closeBtn.className = "more";
+      closeBtn.style.visibility = "visible";
+      closeBtn.style.marginTop = "14px";
+      closeBtn.textContent = "收起";
+      closeBtn.setAttribute("data-close", "1");
+      closeRow.appendChild(closeBtn);
+      bodyEl.appendChild(closeRow);
+    }
+
+    function fillMulti(list) {
+      bodyEl.innerHTML = "";
+      modal.classList.add("is-multi");
+      titleEl.textContent = "全部长文 · " + list.length;
+      if (!list.length) {
+        var empty = document.createElement("p");
+        empty.className = "card-modal-empty";
+        empty.textContent = "当前页签没有超长卡片。";
+        bodyEl.appendChild(empty);
+        return;
+      }
+      for (var i = 0; i < list.length; i++) {
+        var block = document.createElement("div");
+        block.className = "card-modal-block";
+        ["h3", ".byline", ".fold", ".links"].forEach(function (sel) {
+          var node = clonePiece(list[i], sel);
+          if (node) block.appendChild(node);
+        });
+        bodyEl.appendChild(block);
+      }
+    }
+
+    function openModal(mode, payload) {
+      if (mode === "multi") fillMulti(payload || []);
+      else fillSingle(payload);
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      open = true;
+      bodyEl.scrollTop = 0;
+      var closer = modal.querySelector(".card-modal-close");
+      if (closer) closer.focus();
+    }
+
+    function closeModal() {
+      if (!open) return;
+      modal.classList.remove("is-open");
+      modal.classList.remove("is-multi");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      bodyEl.innerHTML = "";
+      open = false;
+    }
+
+    modal.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t && t.getAttribute && t.getAttribute("data-close")) {
+        closeModal();
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && open) {
+        e.preventDefault();
+        closeModal();
+      }
+    });
+
+    for (var i = 0; i < articles.length; i++) {
+      (function (art) {
+        var fold = art.querySelector(".fold");
+        var btn = art.querySelector(".more");
+        if (!fold || !btn) return;
+        if (fold.scrollHeight > fold.clientHeight + 6) {
+          art.classList.add("is-long");
+          btn.hidden = false;
+          btn.textContent = "展开";
+          btn.addEventListener("click", function () {
+            openModal("single", art);
+          });
+        }
+      })(articles[i]);
+    }
+
+    function activePaneLongCards() {
+      var pane = document.querySelector(".pane.is-active");
+      if (!pane) return [];
+      var list = pane.querySelectorAll("article.is-long");
+      var out = [];
+      for (var i = 0; i < list.length; i++) out.push(list[i]);
+      return out;
+    }
+
+    var exp = document.getElementById("btn-expand-all");
+    var col = document.getElementById("btn-collapse-all");
+    if (exp) {
+      exp.title = "在浮层中列出当前页签全部长文（网格内不拉开）";
+      exp.addEventListener("click", function () {
+        openModal("multi", activePaneLongCards());
+      });
+    }
+    if (col) {
+      col.addEventListener("click", function () {
+        closeModal();
+      });
+    }
+  })();
+</script>
+</body>
+</html>
