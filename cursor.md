@@ -1,6 +1,6 @@
 # cursor
-- handle: @indie_maker_fox
-- status_id: 2124790096159469934
-- url: https://x.com/indie_maker_fox/status/2124790096159469934
-- created_at: 2026-11-23T09:00:10.000Z
-- updated_by: 2026-11-23 04:00 ET full_main
+- handle: @LostXtui
+- status_id: 2124850415057645620
+- url: https://x.com/LostXtui/status/2124850415057645620
+- created_at: 2026-11-23T12:59:51.000Z
+- updated_by: 2026-11-23 08:00 ET full_main
