@@ -1,6 +1,6 @@
 # cursor
-- handle: @Jason
-- status_id: 2125333349547872568
-- url: https://x.com/Jason/status/2125333349547872568
-- created_at: 2026-11-24T20:58:51.000Z
-- updated_by: 2026-11-24 16:00 ET full_main
+- handle: @gengdaJ
+- status_id: 2125394036269969813
+- url: https://x.com/gengdaJ/status/2125394036269969813
+- created_at: 2026-11-25T01:00:00.000Z
+- updated_by: 2026-11-24 20:00 ET full_main
