@@ -1,6 +1,6 @@
 # cursor
-- handle: @imwsl90
-- status_id: 2125515723653169643
-- url: https://x.com/imwsl90/status/2125515723653169643
-- created_at: 2026-11-25T09:03:33.000Z
-- updated_by: 2026-11-25 04:00 ET full_main
+- handle: @CuiMao
+- status_id: 2125576229567029634
+- url: https://x.com/CuiMao/status/2125576229567029634
+- created_at: 2026-11-25T13:03:59.000Z
+- updated_by: 2026-11-25 08:00 ET full_main
