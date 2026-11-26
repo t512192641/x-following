@@ -1,6 +1,6 @@
 # cursor
-- handle: @grok
-- status_id: 2125938433205875019
-- url: https://x.com/grok/status/2125938433205875019
-- created_at: 2026-11-26T13:03:15.000Z
-- updated_by: 2026-11-26 08:00 ET full_main
+- handle: @bozhou_ai
+- status_id: 2125999750000591147
+- url: https://x.com/bozhou_ai/status/2125999750000591147
+- created_at: 2026-11-26T17:06:54.000Z
+- updated_by: 2026-11-26 12:00 ET full_main
