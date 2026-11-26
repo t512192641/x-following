@@ -1,6 +1,6 @@
 # cursor
-- handle: @raycast
-- status_id: 2125695773765673062
-- url: https://x.com/raycast/status/2125695773765673062
-- created_at: 2026-11-25T20:59:00.000Z
-- updated_by: 2026-11-25 16:00 ET full_main
+- handle: @yangyi
+- status_id: 2125756754336366770
+- url: https://x.com/yangyi/status/2125756754336366770
+- created_at: 2026-11-26T01:01:19.000Z
+- updated_by: 2026-11-25 20:00 ET full_main
